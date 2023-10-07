@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Oct 2023 14:28:34 +0800</lastBuildDate><atom:link href="https://evthron.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://evthron.github.io/posts/test/</link>
+      <title>First real blog</title>
+      <link>https://evthron.github.io/posts/first-real-blog/</link>
       <pubDate>Sat, 07 Oct 2023 14:28:34 +0800</pubDate>
       
-      <guid>https://evthron.github.io/posts/test/</guid>
-      <description>#Test hello world</description>
+      <guid>https://evthron.github.io/posts/first-real-blog/</guid>
+      <description>First real blog Finally! I can have my actual blog site, not anything social, just my personal articles that no one reads. Great.</description>
     </item>
     
   </channel>
