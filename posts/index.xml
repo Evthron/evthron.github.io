@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evthron&#39;s blog</title>
-    <link>https://evthron.github.io/</link>
-    <description>Recent content on Evthron&#39;s blog</description>
+    <title>Posts on Evthron&#39;s blog</title>
+    <link>https://evthron.github.io/posts/</link>
+    <description>Recent content in Posts on Evthron&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Oct 2023 14:28:34 +0800</lastBuildDate><atom:link href="https://evthron.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 14:28:34 +0800</lastBuildDate><atom:link href="https://evthron.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>https://evthron.github.io/posts/test/</link>
