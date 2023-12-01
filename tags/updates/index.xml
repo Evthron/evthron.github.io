@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>updates on Evthron&#39;s blog</title>
+    <link>https://evthron.github.io/tags/updates/</link>
+    <description>Recent content in updates on Evthron&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Dec 2023 00:55:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://evthron.github.io/test/about/</link>
+      <pubDate>Sat, 02 Dec 2023 00:55:29 +0800</pubDate>
+      
+      <guid>https://evthron.github.io/test/about/</guid>
+      <description>Here is some content. This is all in Markdown.
+List item universe Hack Dictionary Dictionary definitions See my first_real-blog World autobio </description>
+    </item>
+    
+  </channel>
+</rss>

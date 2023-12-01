@@ -3,19 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/</loc>
+    <lastmod>2023-12-02T01:14:40+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/test/test/</loc>
+    <lastmod>2023-12-02T01:14:40+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/test/</loc>
+    <lastmod>2023-12-02T01:14:40+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/test/autobiography/</loc>
+    <lastmod>2023-12-02T01:12:17+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tags/personal/</loc>
+    <lastmod>2023-12-02T01:12:17+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tags/</loc>
+    <lastmod>2023-12-02T01:12:17+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/test/about/</loc>
+    <lastmod>2023-12-02T00:55:29+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tags/updates/</loc>
+    <lastmod>2023-12-02T00:55:29+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/%E5%86%99%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2023-11-26T08:58:15+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/posts/</loc>
-    <lastmod>2023-11-26T08:58:15+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/posts/%E5%86%99%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2023-11-26T08:58:15+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/posts/first-real-blog/</loc>
+    <loc>https://evthron.github.io/first-real-blog/</loc>
     <lastmod>2023-10-07T14:28:34+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/categories/</loc>
-  </url><url>
-    <loc>https://evthron.github.io/tags/</loc>
   </url>
 </urlset>
