@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Evthron&#39;s blog</title>
-	<link>https://evthron.github.io/</link>
-	<description>Recent content in My homepage on Evthron&#39;s blog</description>
+	<link>https://evthron.github.io/about/</link>
+	<description>Recent content in Test page on Evthron&#39;s blog</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Sat, 02 Dec 2023 01:14:40 +0800</lastBuildDate>
     
-        <atom:link href="https://evthron.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://evthron.github.io/about/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
