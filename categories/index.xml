@@ -10,30 +10,21 @@
 	
 	
 	<item>
-		<title>Test</title>
-		<link>https://evthron.github.io/about/test/</link>
-		<pubDate>Sat, 02 Dec 2023 01:14:40 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/about/test/</guid>
-		<description></description>
-	</item>
-	
-	<item>
 		<title>Autobiography</title>
-		<link>https://evthron.github.io/about/autobiography/</link>
+		<link>https://evthron.github.io/test/autobiography/</link>
 		<pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
 		
-		<guid>https://evthron.github.io/about/autobiography/</guid>
+		<guid>https://evthron.github.io/test/autobiography/</guid>
 		<description>&lt;p&gt;This is my autobio.&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>About</title>
-		<link>https://evthron.github.io/about/about/</link>
+		<link>https://evthron.github.io/test/about/</link>
 		<pubDate>Sat, 02 Dec 2023 00:55:29 +0800</pubDate>
 		
-		<guid>https://evthron.github.io/about/about/</guid>
+		<guid>https://evthron.github.io/test/about/</guid>
 		<description>&lt;p&gt;Here is some content. This is all in Markdown.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;List item&lt;/li&gt;
@@ -45,10 +36,10 @@
 &lt;dd&gt;Dictionary definitions&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;ol&gt;
-&lt;li&gt;See my &lt;a href=&#34;https://evthron.github.io/first-real-blog&#34;&gt;first_real-blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See my &lt;a href=&#34;https://evthron.github.io/posts/first-real-blog&#34;&gt;first-real-blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;World &lt;a href=&#34;https://evthron.github.io/test/autobiography&#34;&gt;autobio&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/win.png&#34; alt=&#34;my Image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/images/win.png&#34; alt=&#34;my Image&#34;&gt;&lt;/p&gt;
 </description>
 	</item>
 	
@@ -73,7 +64,7 @@
 		<pubDate>Sat, 07 Oct 2023 14:28:34 +0800</pubDate>
 		
 		<guid>https://evthron.github.io/posts/first-real-blog/</guid>
-		<description>&lt;p&gt;Finally! I can have my actual blog site, not anything social, just my personal articles that no one reads. Great.&lt;/p&gt;
+		<description>&lt;p&gt;Finally! I can have my actual blog site, nothing social, just my personal articles that nobody reads. Great.&lt;/p&gt;
 </description>
 	</item>
 	
