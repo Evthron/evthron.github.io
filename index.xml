@@ -5,10 +5,19 @@
 	<description>Recent content in My homepage on Evthron&#39;s blog</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sat, 02 Dec 2023 08:13:39 +0800</lastBuildDate>
+	<lastBuildDate>Sat, 02 Dec 2023 10:32:58 +0800</lastBuildDate>
     
         <atom:link href="https://evthron.github.io/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Agi</title>
+		<link>https://evthron.github.io/gallery/agi/</link>
+		<pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
+		
+		<guid>https://evthron.github.io/gallery/agi/</guid>
+		<description></description>
+	</item>
 	
 	<item>
 		<title>Timezone</title>
