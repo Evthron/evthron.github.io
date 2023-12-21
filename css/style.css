@@ -8,7 +8,6 @@
 }
 
 
-
 body {
   color: #111111;
   font-size: 125%;
@@ -24,7 +23,7 @@ body {
   margin-bottom: 3rem;
   font-family: Raleway;
   max-width: 45rem;
-  padding: 1rem;
+  padding: 0rem;
   margin: 0 auto;
 }
 
@@ -36,16 +35,18 @@ body {
   background-image: url(/images/cover.jpg);
   background-size: cover;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   padding: 1rem;
   margin: 0 auto;
+  text-decoration:none
 }
 
 .site-nav a {
   display: flex;
   padding: 1rem;
+  text-decoration:none
 }
 
 .site-nav a:hover{
@@ -70,6 +71,24 @@ body {
   padding: 5;
 }
 
+.langnav{
+  text-align: right;
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+.langnav button{
+  border-radius:10px;
+  background-color:white;
+}
+
+.langnav button:hover{
+  border-radius:10px;
+  background-color:#ad8023;
+  color:white;
+}
+
+
 @media screen and (max-width: 48rem) {
 
   .site-nav,
@@ -89,10 +108,23 @@ body {
 
 .post-snippet {
   margin-bottom: 1rem;
+  display: flex;
+  background-color: #e6e6e6;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 1 auto;
+  text-decoration:none
 }
 
 .post-snippet h3 {
-  margin-bottom: 0.25rem;
+
+}
+
+.post-snippet time {
+
 }
 
 

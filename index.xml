@@ -2,13 +2,51 @@
   <channel>
 	<title>Evthron&#39;s blog</title>
 	<link>https://evthron.github.io/</link>
-	<description>Recent content in My homepage on Evthron&#39;s blog</description>
+	<description>Recent content in 主頁 on Evthron&#39;s blog</description>
 	<generator>Hugo -- gohugo.io</generator>
-	<language>en-us</language>
-	<lastBuildDate>Sat, 02 Dec 2023 10:32:58 +0800</lastBuildDate>
+	<language>zh</language>
+	<lastBuildDate>Thu, 21 Dec 2023 12:14:23 +0800</lastBuildDate>
     
         <atom:link href="https://evthron.github.io/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>AutoHotKey</title>
+		<link>https://evthron.github.io/toolbox/autohotkey/</link>
+		<pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
+		
+		<guid>https://evthron.github.io/toolbox/autohotkey/</guid>
+		<description>&lt;p&gt;我用 AutoHotKey 把鍵盤上幾乎能用的每一個鍵都重新定義了一遍。&lt;/p&gt;
+&lt;h1 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;F1 啟動番茄鐘&lt;/li&gt;
+&lt;li&gt;F3: Saladict&lt;/li&gt;
+&lt;li&gt;F4 Win + D 返回桌面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;F5-F8對應工作列的軟件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;F5: 瀏覽檔案&lt;/li&gt;
+&lt;li&gt;F6: 瀏覽器&lt;/li&gt;
+&lt;li&gt;F7: Excel&lt;/li&gt;
+&lt;li&gt;F8: 文字編輯器&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Youtube test</title>
+		<link>https://evthron.github.io/sandbox/pokemon/</link>
+		<pubDate>Thu, 21 Dec 2023 02:00:29 +0800</pubDate>
+		
+		<guid>https://evthron.github.io/sandbox/pokemon/</guid>
+		<description>&lt;p&gt;Pokemon Just a ditto
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4P8NFOg-KYE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>AI Generated Oil Painting</title>
@@ -16,7 +54,7 @@
 		<pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
 		
 		<guid>https://evthron.github.io/gallery/agi/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/images/london-cat.png&#34; alt=&#34;cat&#34;&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;london-cat.png&#34; alt=&#34;cat&#34;&gt;&lt;/p&gt;
 </description>
 	</item>
 	
@@ -51,47 +89,23 @@
 	</item>
 	
 	<item>
-		<title>Complex Scenary</title>
+		<title>畫不出來的景色</title>
 		<link>https://evthron.github.io/gallery/complex-scenary/</link>
 		<pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
 		
 		<guid>https://evthron.github.io/gallery/complex-scenary/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/images/20230524.jpg&#34; alt=&#34;complex-sketch&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Sketching means capturing everything you see on paper. Look as closely as you can!&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;20230524.jpg&#34; alt=&#34;complex-sketch&#34;&gt;&lt;/p&gt;
+&lt;p&gt;素描就是把能看見的事物統統轉移到紙上，盯死到眼角膜變乾為止。&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Autobiography</title>
-		<link>https://evthron.github.io/test/autobiography/</link>
+		<title>測試</title>
+		<link>https://evthron.github.io/sandbox/autobiography/</link>
 		<pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
 		
-		<guid>https://evthron.github.io/test/autobiography/</guid>
-		<description>&lt;p&gt;This is my autobio.&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>About</title>
-		<link>https://evthron.github.io/test/about/</link>
-		<pubDate>Sat, 02 Dec 2023 00:55:29 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/test/about/</guid>
-		<description>&lt;p&gt;Here is some content. This is all in Markdown.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;universe&lt;/li&gt;
-&lt;li&gt;Hack&lt;/li&gt;
-&lt;/ul&gt;
-&lt;dl&gt;
-&lt;dt&gt;Dictionary&lt;/dt&gt;
-&lt;dd&gt;Dictionary definitions&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;ol&gt;
-&lt;li&gt;See my &lt;a href=&#34;https://evthron.github.io/posts/first-real-blog&#34;&gt;first-real-blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;World &lt;a href=&#34;https://evthron.github.io/test/autobiography&#34;&gt;autobio&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/images/win.png&#34; alt=&#34;my Image&#34;&gt;&lt;/p&gt;
+		<guid>https://evthron.github.io/sandbox/autobiography/</guid>
+		<description>&lt;p&gt;這是測試。&lt;/p&gt;
 </description>
 	</item>
 	
