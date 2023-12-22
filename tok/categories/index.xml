@@ -1,37 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-	<title>Evthron&#39;s blog</title>
-	<link>https://evthron.github.io/tok/categories/</link>
-	<description>Recent content in Categories on Evthron&#39;s blog</description>
-	<generator>Hugo -- gohugo.io</generator>
-	<language>tok</language>
-    
-        <atom:link href="https://evthron.github.io/tok/categories/index.xml" rel="self" type="application/rss+xml" />
-	
-	
-	<item>
-		<title>About</title>
-		<link>https://evthron.github.io/tok/sandbox/about/</link>
-		<pubDate>Thu, 21 Dec 2023 11:35:53 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/tok/sandbox/about/</guid>
-		<description>&lt;p&gt;mi sitelen kepeken Markdown.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ijo&lt;/li&gt;
-&lt;li&gt;ale&lt;/li&gt;
-&lt;li&gt;wawa&lt;/li&gt;
-&lt;/ul&gt;
-&lt;dl&gt;
-&lt;dt&gt;lipu&lt;/dt&gt;
-&lt;dd&gt;lipu nimi&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;ol&gt;
-&lt;li&gt;lukin mi &lt;a href=&#34;https://evthron.github.io/posts/first-real-blog&#34;&gt;sitenlen nanpa wan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;ale &lt;a href=&#34;https://evthron.github.io/test/autobiography&#34;&gt;lipu mi&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/images/win.png&#34; alt=&#34;my Image&#34;&gt;&lt;/p&gt;
-</description>
-	</item>
-	
-	</channel>
+    <channel>
+        <title>Categories on Evthron&#39;s blog</title>
+        <link>https://evthron.github.io/tok/categories/</link>
+        <description>Recent content in Categories on Evthron&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>tok</language><atom:link href="https://evthron.github.io/tok/categories/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

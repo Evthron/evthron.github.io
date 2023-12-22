@@ -1,22 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-	<title>Evthron&#39;s blog</title>
-	<link>https://evthron.github.io/en/</link>
-	<description>Recent content in My homepage on Evthron&#39;s blog</description>
-	<generator>Hugo -- gohugo.io</generator>
-	<language>en</language>
-	<lastBuildDate>Thu, 21 Dec 2023 12:14:23 +0800</lastBuildDate>
-    
-        <atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" />
-	
-	
-	<item>
-		<title>AutoHotKey</title>
-		<link>https://evthron.github.io/en/toolbox/autohotkey/</link>
-		<pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/en/toolbox/autohotkey/</guid>
-		<description>&lt;p&gt;My AutoHotKey configurations：&lt;/p&gt;
+    <channel>
+        <title>My homepage on Evthron&#39;s blog</title>
+        <link>https://evthron.github.io/en/</link>
+        <description>Recent content in My homepage on Evthron&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://evthron.github.io/en/page/about/</link>
+        <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/en/page/about/</guid>
+        <description>&lt;p&gt;Hello there! This is my personal website. I will use it as a blog to post my writings.&amp;quot;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AutoHotKey</title>
+        <link>https://evthron.github.io/en/toolbox/autohotkey/</link>
+        <pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/toolbox/autohotkey/</guid>
+        <description>&lt;p&gt;My AutoHotKey configurations：&lt;/p&gt;
 &lt;h1 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;F1: Pomodoro&lt;/li&gt;
@@ -31,46 +36,68 @@
 &lt;li&gt;F8: Text editor&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-	</item>
+        </item>
+        <item>
+        <title>AI Generated Oil Painting</title>
+        <link>https://evthron.github.io/en/gallery/agi/</link>
+        <pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/gallery/agi/</guid>
+        <description>&lt;img src="https://evthron.github.io/en/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/en/gallery/agi/london-cat.png&#34;
+	width=&#34;768&#34;
+	height=&#34;512&#34;
+	srcset=&#34;https://evthron.github.io/en/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_480x0_resize_box_3.png 480w, https://evthron.github.io/en/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
 	
-	<item>
-		<title>AI Generated Oil Painting</title>
-		<link>https://evthron.github.io/en/gallery/agi/</link>
-		<pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/en/gallery/agi/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;london-cat.png&#34; alt=&#34;cat&#34;&gt;&lt;/p&gt;
+		alt=&#34;cat&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;&lt;/p&gt;
 </description>
-	</item>
+        </item>
+        <item>
+        <title>Complex Scenary</title>
+        <link>https://evthron.github.io/en/gallery/complex-scenary/</link>
+        <pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/gallery/complex-scenary/</guid>
+        <description>&lt;img src="https://evthron.github.io/en/gallery/complex-scenary/20230524.jpg" alt="Featured image of post Complex Scenary" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/en/gallery/complex-scenary/20230524.jpg&#34;
+	width=&#34;512&#34;
+	height=&#34;657&#34;
+	srcset=&#34;https://evthron.github.io/en/gallery/complex-scenary/20230524_hua0b3a68ce9a44e649e8194a2227621c0_159237_480x0_resize_q75_box.jpg 480w, https://evthron.github.io/en/gallery/complex-scenary/20230524_hua0b3a68ce9a44e649e8194a2227621c0_159237_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
 	
-	<item>
-		<title>Complex Scenary</title>
-		<link>https://evthron.github.io/en/gallery/complex-scenary/</link>
-		<pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/en/gallery/complex-scenary/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;20230524.jpg&#34; alt=&#34;complex-sketch&#34;&gt;&lt;/p&gt;
+		alt=&#34;complex-sketch&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;77&#34;
+		data-flex-basis=&#34;187px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;Sketching means capturing everything you see on paper. Look as closely as you can!&lt;/p&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>Autobiography</title>
-		<link>https://evthron.github.io/en/sandbox/autobiography/</link>
-		<pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/en/sandbox/autobiography/</guid>
-		<description>&lt;p&gt;This is my autobio.&lt;/p&gt;
+        </item>
+        <item>
+        <title>Autobiography</title>
+        <link>https://evthron.github.io/en/sandbox/autobiography/</link>
+        <pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/sandbox/autobiography/</guid>
+        <description>&lt;p&gt;This is my autobio.&lt;/p&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>About</title>
-		<link>https://evthron.github.io/en/sandbox/about/</link>
-		<pubDate>Sat, 02 Dec 2023 00:55:29 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/en/sandbox/about/</guid>
-		<description>&lt;p&gt;Here is some content. This is all in Markdown.&lt;/p&gt;
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://evthron.github.io/en/sandbox/about/</link>
+        <pubDate>Sat, 02 Dec 2023 00:55:29 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/sandbox/about/</guid>
+        <description>&lt;p&gt;Here is some content. This is all in Markdown.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;List item&lt;/li&gt;
 &lt;li&gt;universe&lt;/li&gt;
@@ -81,35 +108,70 @@
 &lt;dd&gt;Dictionary definitions&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;ol&gt;
-&lt;li&gt;See my &lt;a href=&#34;https://evthron.github.io/posts/first-real-blog&#34;&gt;first-real-blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;World &lt;a href=&#34;https://evthron.github.io/test/autobiography&#34;&gt;autobio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See my &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/posts/first-real-blog&#34; &gt;first-real-blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;World &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/test/autobiography&#34; &gt;autobio&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/images/win.png&#34; alt=&#34;my Image&#34;&gt;&lt;/p&gt;
-</description>
-	</item>
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/en/sandbox/about/win.png&#34;
+	width=&#34;75&#34;
+	height=&#34;73&#34;
+	srcset=&#34;https://evthron.github.io/en/sandbox/about/win_hu4724b52eabd6e81a271327d6fc2eb848_10470_480x0_resize_box_3.png 480w, https://evthron.github.io/en/sandbox/about/win_hu4724b52eabd6e81a271327d6fc2eb848_10470_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
 	
-	<item>
-		<title>Writing Diary</title>
-		<link>https://evthron.github.io/en/posts/diary/</link>
-		<pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/en/posts/diary/</guid>
-		<description>&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
+		alt=&#34;my Image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;246px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Writing Diary</title>
+        <link>https://evthron.github.io/en/posts/diary/</link>
+        <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/posts/diary/</guid>
+        <description>&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
 &lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;
 &lt;p&gt;Why are we doing this? Why not spread the 3 years on 900 pages? This mean you get to re-read your dairy once a year. Usually, once you put down your day, you never read that entry again. By revisiting your previous years entry, you will starting to realise your mistakes in your writing. Diary is a private thing and there should be any reader. But now you become the reader of your own wrining. You would learn to keep things simple and clear and avoid boring and repetitive events.&lt;/p&gt;
 &lt;p&gt;As a additional bonus, each pages comes with an unique question. You compare your changes in the answer. They said you could see you changes in thought each year. Ironically, for some question, thinking of an new answer becomes the intereresting part,&lt;/p&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>First real blog</title>
-		<link>https://evthron.github.io/en/posts/first-real-blog/</link>
-		<pubDate>Sat, 07 Oct 2023 14:28:34 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/en/posts/first-real-blog/</guid>
-		<description>&lt;p&gt;Finally! I can have my actual blog site, nothing social, just my personal articles that nobody reads. Great.&lt;/p&gt;
+        </item>
+        <item>
+        <title>First real blog</title>
+        <link>https://evthron.github.io/en/posts/first-real-blog/</link>
+        <pubDate>Sat, 07 Oct 2023 14:28:34 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/posts/first-real-blog/</guid>
+        <description>&lt;p&gt;Finally! I can have my actual blog site, nothing social, just my personal articles that nobody reads. Great.&lt;/p&gt;
 </description>
-	</item>
-	
-	</channel>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://evthron.github.io/en/page/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/en/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://evthron.github.io/en/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/en/page/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://evthron.github.io/en/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/en/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

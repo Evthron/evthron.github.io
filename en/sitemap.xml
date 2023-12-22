@@ -2,21 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://evthron.github.io/en/toolbox/autohotkey/</loc>
-    <lastmod>2023-12-21T12:14:23+08:00</lastmod>
+    <loc>https://evthron.github.io/en/page/about/</loc>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/toolbox/autohotkey/"
+                href="https://evthron.github.io/zh/page/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/page/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/toolbox/autohotkey/"
+                href="https://evthron.github.io/en/page/about/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2023-12-21T12:14:23+08:00</lastmod>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -31,6 +36,37 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/page/</loc>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/page/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/toolbox/autohotkey/</loc>
+    <lastmod>2023-12-21T12:14:23+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/toolbox/autohotkey/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/toolbox/autohotkey/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/toolbox/</loc>
@@ -59,6 +95,19 @@
                 href="https://evthron.github.io/en/gallery/agi/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/categories/artwork/</loc>
+    <lastmod>2023-12-02T10:32:58+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/artwork/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/gallery/</loc>
     <lastmod>2023-12-02T10:32:58+08:00</lastmod>
     <xhtml:link
@@ -75,6 +124,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/categories/</loc>
+    <lastmod>2023-12-02T10:32:58+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/complex-scenary/</loc>
@@ -212,21 +279,17 @@
     <loc>https://evthron.github.io/en/posts/first-real-blog/</loc>
     <lastmod>2023-10-07T14:28:34+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/en/categories/</loc>
+    <loc>https://evthron.github.io/en/page/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/"
+                href="https://evthron.github.io/zh/page/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/"
+                href="https://evthron.github.io/en/page/archives/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/languages/</loc>
@@ -244,6 +307,40 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/languages/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/page/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/page/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/page/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/page/links/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/page/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/page/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/page/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/page/search/"
                 />
   </url>
 </urlset>

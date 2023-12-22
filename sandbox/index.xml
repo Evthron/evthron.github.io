@@ -1,138 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-	<title>Evthron&#39;s blog</title>
-	<link>https://evthron.github.io/sandbox/</link>
-	<description>Recent content in 測試頁 on Evthron&#39;s blog</description>
-	<generator>Hugo -- gohugo.io</generator>
-	<language>zh</language>
-	<lastBuildDate>Thu, 21 Dec 2023 02:00:29 +0800</lastBuildDate>
-    
-        <atom:link href="https://evthron.github.io/sandbox/index.xml" rel="self" type="application/rss+xml" />
-	
-	
-	<item>
-		<title>AutoHotKey</title>
-		<link>https://evthron.github.io/toolbox/autohotkey/</link>
-		<pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/toolbox/autohotkey/</guid>
-		<description>&lt;p&gt;我用 AutoHotKey 把鍵盤上幾乎能用的每一個鍵都重新定義了一遍。&lt;/p&gt;
-&lt;h1 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;F1 啟動番茄鐘&lt;/li&gt;
-&lt;li&gt;F3: Saladict&lt;/li&gt;
-&lt;li&gt;F4 Win + D 返回桌面&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;F5-F8對應工作列的軟件&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;F5: 瀏覽檔案&lt;/li&gt;
-&lt;li&gt;F6: 瀏覽器&lt;/li&gt;
-&lt;li&gt;F7: Excel&lt;/li&gt;
-&lt;li&gt;F8: 文字編輯器&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Youtube test</title>
-		<link>https://evthron.github.io/sandbox/pokemon/</link>
-		<pubDate>Thu, 21 Dec 2023 02:00:29 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/sandbox/pokemon/</guid>
-		<description>&lt;p&gt;Pokemon Just a ditto
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/4P8NFOg-KYE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+    <channel>
+        <title>測試頁 on Evthron&#39;s blog</title>
+        <link>https://evthron.github.io/sandbox/</link>
+        <description>Recent content in 測試頁 on Evthron&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh</language>
+        <lastBuildDate>Thu, 21 Dec 2023 02:00:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/sandbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Youtube test</title>
+        <link>https://evthron.github.io/sandbox/pokemon/</link>
+        <pubDate>Thu, 21 Dec 2023 02:00:29 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/sandbox/pokemon/</guid>
+        <description>&lt;p&gt;Pokemon Just a ditto
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/4P8NFOg-KYE&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>AI Generated Oil Painting</title>
-		<link>https://evthron.github.io/gallery/agi/</link>
-		<pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/gallery/agi/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;london-cat.png&#34; alt=&#34;cat&#34;&gt;&lt;/p&gt;
+        </item>
+        <item>
+        <title>測試</title>
+        <link>https://evthron.github.io/sandbox/autobiography/</link>
+        <pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/sandbox/autobiography/</guid>
+        <description>&lt;h1 id=&#34;這是測試&#34;&gt;這是測試。&lt;/h1&gt;
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+&lt;p&gt;aoeuidthnsaoeuditnsoa&lt;/p&gt;
+&lt;h3 id=&#34;eoe&#34;&gt;eoe&lt;/h3&gt;
+&lt;p&gt;oentuhaenuhtaehuatonuh&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;enute&lt;/li&gt;
+&lt;li&gt;noetuhontu&lt;/li&gt;
+&lt;li&gt;oentuhanoeuh&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>Timezone</title>
-		<link>https://evthron.github.io/posts/timezone/</link>
-		<pubDate>Sat, 02 Dec 2023 08:13:39 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/posts/timezone/</guid>
-		<description>&lt;p&gt;2022/12/29 09:36&lt;/p&gt;
-&lt;p&gt;要是按照时区算的话，现在我正准备横渡太平洋。&lt;/p&gt;
-&lt;p&gt;事情要从考完试一觉睡到下午五点说起。按常理来说，想回到正常的作息，应该要再熬一天夜，或者用闹钟早起。换作平常，也没别的办法，这是考试熬夜不睡必然的后果。不过考完试还得熬夜，放假还得调闹钟不成？我就试了试别的办法——把起床时间自然地调回去，帮自己倒时差。&lt;/p&gt;
-&lt;p&gt;自己的时间是完全主观的，不必和外面的世界同步。就算是大白天，人也未必睡不着觉。时差不就是这样吗？旅行坐飞机，出发是白天，坐了半天，下飞机还是白天。想要生理作息完全配合实际时间，不依靠闹钟是很难做到的。既然这样，就把现在的状况当做时差，利用生理时钟和实际时间的差距，把时间调回去不就可以了吗？&lt;/p&gt;
-&lt;p&gt;透过大量精密且科学的统计数据可知，我的自然清醒时间是十六个小时左右，睡眠时间约是九个小时，也就是说，想过二十五、二十六小时的一天并不是难事。只要每天都把睡觉时间往后拨一个小时，两个星期就能把起床时间改回早上八点。要改的不只是睡觉时间，用来分开早午晚的吃饭时间也要调整。结果我和太阳起落完全不同步，晚上十点起床，早上八点吃晚饭。深夜出不了门也不知道做什么好。&lt;/p&gt;
-&lt;p&gt;现在的体感时间是GMT-6，还要一直往西边减下去。真的是逆天而行啊，也只有放假的时候能让我这样折腾了。&lt;/p&gt;
-&lt;p&gt;大概不能在新年前回到东八区。太平洋的水好凉。我到底要在哪个时区，过哪里的新年呢？&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Mountain</title>
-		<link>https://evthron.github.io/posts/mountain/</link>
-		<pubDate>Sat, 02 Dec 2023 08:12:27 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/posts/mountain/</guid>
-		<description>&lt;p&gt;2022/12/24 22:24&lt;/p&gt;
-&lt;p&gt;爬山真是个让人逃避现实的好兴趣，因为这是个相当单纯的活动，只需要一直往前走就可以了，无暇思考多余的事。就算要跨过石头，要踩过泥泞地，要跨过树根，也只需要盯着脚下向前。不用管鞋子是不是进了水，不用管裤管是不是沾上了泥，只要能走就可以了。不用想走了多远，不用知道还有多远，甚至不用知道要去哪里，只要一直往前走就可以了。是的，什么都不用想，千字的文章一笔未动也好，整个学期一窍不通也好，人既然远离了无线电波，就跟外面的世界断了联系。在人迹罕至的山里，剩下的就只有人和自然的搏斗。&lt;/p&gt;
-&lt;p&gt;的确是搏斗，这并不是因为爬山有多么消耗体力，而是因为充满障碍的环境消磨着人的理智。雨粉打在眼镜上，忍受着白茫茫的视野前行，擦拭也没有意义。在叶子丛中穿行时，枝叶不断拍过脸、扫过脸，拨都拨不开；每个转角必定有个斜坡，感受随时会失足的刺激，湿润的泥土上落脚；最后只能时不时喘气、时不时抱怨、时不时怪叫。把不想淋雨的幻想和伞一起收回包里，没有余裕挡雨；弯下腰避开枝叶，恨不得能在地上爬；抓紧粗糙的树枝，为了不摔倒就得让手指流血，然后继续走下去。&lt;/p&gt;
-&lt;p&gt;虽然撞上了坏天气，但最后还是看到了点特别的景色。雨天里迷雾遍布的黄昏，看起来就像恐怖片里阴森的清晨；水和天空交汇成一线白光，就像是世界的尽头。&lt;/p&gt;
-&lt;p&gt;不过最后还是到不了目的地。路上遇到回家的末班车就赶紧上车了。在大自然逃离的时间，顶多就能持续一天啊。&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>畫不出來的景色</title>
-		<link>https://evthron.github.io/gallery/complex-scenary/</link>
-		<pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/gallery/complex-scenary/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;20230524.jpg&#34; alt=&#34;complex-sketch&#34;&gt;&lt;/p&gt;
-&lt;p&gt;素描就是把能看見的事物統統轉移到紙上，盯死到眼角膜變乾為止。&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>測試</title>
-		<link>https://evthron.github.io/sandbox/autobiography/</link>
-		<pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/sandbox/autobiography/</guid>
-		<description>&lt;p&gt;這是測試。&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>写日记</title>
-		<link>https://evthron.github.io/posts/diary/</link>
-		<pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/posts/diary/</guid>
-		<description>&lt;p&gt;中学的时候参加中文学会的文社，老师给我们送了一本日记。然后我就从中二到中五写了三年的日记。&lt;/p&gt;
-&lt;p&gt;这本日记有366页，每页都印好了日期和三栏写作空间，所以可以写三年。写作方法是这样的：例如我在11月26日开始的话，会写在11/26那一页的第一栏，第二和第三栏留空。接下来的日子全部都写在第一栏，直到一年过去，每一页的第一栏都写满了，就下移到第二栏继续，第二年到第三年也一样。&lt;/p&gt;
-&lt;p&gt;把三篇日记堆在同一页的用意是，让日记不再是写了就忘的东西，而是会不时重新阅读的文字记录。写着写着，就会懂得把事情写清楚。隐喻、省略、暗示都是没有意思的，只会让自己都读不懂自己写了什么。还有会避免写出重复的东西，像是琐事、抱怨，因为这样读起来一点都不有趣。&lt;/p&gt;
-&lt;p&gt;这本日记除了编排很特别以外，每页还附带了问题，所以就算一天无事发生，也不愁没东西可写。我挑了三条有趣的出来：「你拖延了什么事情？」「在网上搜了什么？」「别人跟自己说的印象最深的话是？」&lt;/p&gt;
-&lt;p&gt;我想每天都会写东西的人不多，但只要有一本标好日期的实体本子，这习惯并不难培养，因为格子丢空了就是空了，补不回来很难受。我偶尔忘记写，或者日记本没带在身上的时候，都要尽快补上去。哪怕只是过了一天，很多事情已经想不起来了。写得好不好都没有关系，毕竟日记又不用给别人看，哪会像这篇文章一样难产。&lt;/p&gt;
-&lt;p&gt;那么我现在还有继续写日记吗？没有，我填满日记本之后就干脆利落地结束了。不过我现在很习惯随手记下想法，还有用纸和笔考虑问题。文字是个很方便的工具，只要把脑海里模糊又转瞬即逝的想法统统落在纸上，就会变成具体实在、不会消失的句子。要理清思绪，没有比这更好的方法了。不过说不定这是件可怕的事，因为如实思考自己在想什么，把这些想法原原本本地揭露出来，是很令人却步的。所以每天都试着写点什么吧，会越来越拿手的。&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>First real blog</title>
-		<link>https://evthron.github.io/posts/first-real-blog/</link>
-		<pubDate>Sat, 07 Oct 2023 14:28:34 +0800</pubDate>
-		
-		<guid>https://evthron.github.io/posts/first-real-blog/</guid>
-		<description>&lt;p&gt;Finally! I can have my actual blog site, nothing social, just my personal articles that nobody reads. Great.&lt;/p&gt;
-</description>
-	</item>
-	
-	</channel>
+        </item>
+        
+    </channel>
 </rss>
