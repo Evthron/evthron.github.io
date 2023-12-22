@@ -169,6 +169,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/categories/artwork/"
                 />

@@ -111,6 +111,23 @@
                 href="https://evthron.github.io/tok/tags/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/categories/artwork/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/artwork/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/categories/</loc>
     <xhtml:link
                 rel="alternate"
