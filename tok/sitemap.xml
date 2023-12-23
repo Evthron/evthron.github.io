@@ -232,23 +232,6 @@
                 href="https://evthron.github.io/tok/page/search/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/gallery/</loc>
     <xhtml:link
                 rel="alternate"
@@ -264,6 +247,23 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
                 />
   </url>
 </urlset>

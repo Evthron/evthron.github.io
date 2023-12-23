@@ -12,20 +12,36 @@
         <pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/gallery/agi/</guid>
-        <description>&lt;img src="https://evthron.github.io/en/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/en/gallery/agi/london-cat.png&#34;
-	width=&#34;768&#34;
-	height=&#34;512&#34;
-	srcset=&#34;https://evthron.github.io/en/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_480x0_resize_box_3.png 480w, https://evthron.github.io/en/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;cat&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;150&#34;
-		data-flex-basis=&#34;360px&#34;
-	
-&gt;&lt;/p&gt;
+        <description>&lt;img src="https://evthron.github.io/en/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;This one is reward winning!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Prompt: a highly detailed oil painting of a cat walking in foggy london street, steampunk, gears, steam engine, by leonardo da Vinci, trending in artstation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Negative prompt: monochrome, blurry, jpeg artifacts, worst quality, watermark&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Steps: 30&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sampler: DPM++ 2M Karras&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CFG scale: 10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seed: 189248350&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Size: 768x512&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model hash: cc6cb27103&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model: v1-5-pruned-emaonly&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
@@ -34,18 +50,14 @@
         <pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/gallery/complex-scenary/</guid>
-        <description>&lt;img src="https://evthron.github.io/en/gallery/complex-scenary/20230524.jpg" alt="Featured image of post Complex Scenary" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/en/gallery/complex-scenary/20230524.jpg&#34;
-	width=&#34;512&#34;
-	height=&#34;657&#34;
-	srcset=&#34;https://evthron.github.io/en/gallery/complex-scenary/20230524_hua0b3a68ce9a44e649e8194a2227621c0_159237_480x0_resize_q75_box.jpg 480w, https://evthron.github.io/en/gallery/complex-scenary/20230524_hua0b3a68ce9a44e649e8194a2227621c0_159237_1024x0_resize_q75_box.jpg 1024w&#34;
+        <description>&lt;img src="https://evthron.github.io/en/gallery/complex-scenary/nightview.jpg" alt="Featured image of post Complex Scenary" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/20230524.jpg&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;complex-sketch&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;77&#34;
-		data-flex-basis=&#34;187px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Sketching means capturing everything you see on paper. Look as closely as you can!&lt;/p&gt;
