@@ -6,7 +6,47 @@
         <description>Recent content in My homepage on Evthron&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 22 Dec 2023 18:20:01 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Jan 2024 18:23:45 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Limitations of Instant Messaging</title>
+        <link>https://evthron.github.io/en/posts/instant-messaging/</link>
+        <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/posts/instant-messaging/</guid>
+        <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
+&lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
+&lt;h2 id=&#34;write-what&#34;&gt;Write what？&lt;/h2&gt;
+&lt;p&gt;The first question we have to think about writing letter is, &amp;lsquo;What should I write?&amp;rsquo;. But it might surprise you that we don&amp;rsquo;t usually worry about it in real life. Conversations in real life is related to time and place. Most of the topics are trivial. This is because being in the same place strongly encourages people to communicate.&lt;/p&gt;
+&lt;p&gt;However, on the Internet, people are not sharing the same physical space. So that people know that such casual conversions are not reasonable. Just like you won&amp;rsquo;t drop a letter writing only the sentence &amp;lsquo;How&amp;rsquo;s the weather today?&amp;rsquo; into the post box.&lt;/p&gt;
+&lt;p&gt;As a result, we are forced to prepare an actual topic to start a conversation on instant messengers, even if you just want to say hi.&lt;/p&gt;
+&lt;h2 id=&#34;will-they-reply&#34;&gt;Will they reply？&lt;/h2&gt;
+&lt;p&gt;Assume that we&amp;rsquo;ve already sent the letter. If it&amp;rsquo;s a normal letter, we have to wait for days. However we are using instant messengers, why would we need to wait?  There are only two reasons. Either the person hasn&amp;rsquo;t read the letter, or the person doesn&amp;rsquo;t want to reply. You can never be sure. At worst case, the receiver reads the letter immediately but decides not to reply. That means you have to wait for a reply that never comes starting from the second you press the &amp;lsquo;send&amp;rsquo; button. How can that encourages us to start a conversation?&lt;/p&gt;
+&lt;h2 id=&#34;will-i-be-satisfied&#34;&gt;Will I be satisfied？&lt;/h2&gt;
+&lt;p&gt;Do we succeed if we&amp;rsquo;ve received the reply? Not so fast. The reply might not be satisfying since texts are not genuine. You cannot feel that you are talking to a real person through texts. How can that be the case if people in the past could have in-depth conversations through letters? That&amp;rsquo;s because we are not writing letter nowadays. We are writing &lt;em&gt;dialogue&lt;/em&gt; line by line. The two characteristics of writing dialogue, time dilation and length contraction (just like spaceships in space), make us speculate on each other.&lt;/p&gt;
+&lt;p&gt;Firstly, time dilation gives people enough time to carefully design their words. To put it in an extreme way, all words could be spilled out by an AI chatbot to manipulate your thoughts and feelings. This possibility sows the seed of doubt.&lt;/p&gt;
+&lt;p&gt;Secondly, length contraction makes messages contains no emotional information. Texts excels at explaining complex ideas, but not when the length is short. By the way, emojis and emoticons are not very useful because their meaning slowly alters as people abuse them.&lt;/p&gt;
+&lt;h2 id=&#34;imitate-real-life-conversation&#34;&gt;Imitate real-life conversation&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s still a way to make instant messaging better — imitate real-life conversation by reducing time lags. I think people who are good at instant messaging might be using these techniques already. Although writing messages takes the same form as writing a letter, we should not make them too long because it takes more time thus worsen the time dilation problem (and long messages also scare people off). We should type at the speed of talking without much thought. If your tongue slips, just correct that immediately.&lt;/p&gt;
+&lt;p&gt;On top of that, you should follow the manners of real-life conversation like saying goodbye properly. Don&amp;rsquo;t leave a conversation suspending.&lt;/p&gt;
+&lt;h2 id=&#34;spread-to-the-world&#34;&gt;Spread to the world&lt;/h2&gt;
+&lt;p&gt;On the other hand, the Internet allows us to spread our thoughts to the whole world. Why should we be satisfied with the traditional, two-way conversation?&lt;/p&gt;
+&lt;p&gt;Sometimes, when we have thoughts to share, we don&amp;rsquo;t need to share them to a specific person. This is great because it fundamentally doesn&amp;rsquo;t have the problems of instant messaging.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;There no need need to come up with a topic that catches others&amp;rsquo; interest.&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s no need to wait for replies.&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s no doubt for insincerity as you are writing for yourself, and you have got plenty of space to put them down.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You could spread your thoughts in social media, but that&amp;rsquo;s not the best choice since you might waste more time scrolling and deal with people&amp;rsquo;s reactions. On WeChat, there&amp;rsquo;s a microblogging space called &lt;em&gt;Moments&lt;/em&gt; (literally in Chinese: Friend Circle), which might be a good choice since your posts are limited to your friends. However, the best place to share your thought is on your personal website. Building one could be difficult if you are not a tech-savvy person. At least don&amp;rsquo;t lock your contents behind a login wall.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The first stamp, Penny Black is issued at 1840. It would be too expensive for the public to sent letters without one.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>Winter</title>
         <link>https://evthron.github.io/en/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
