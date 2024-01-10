@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/zh/gallery/</loc>
+    <lastmod>2024-01-11T06:05:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/the-lizard/</loc>
+    <lastmod>2024-01-11T06:05:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/the-lizard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/the-lizard/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/</loc>
+    <lastmod>2024-01-11T06:05:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/posts/instant-messaging/</loc>
     <lastmod>2023-12-29T16:36:02+08:00</lastmod>
     <xhtml:link
@@ -31,24 +80,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/</loc>
-    <lastmod>2023-12-29T16:36:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/</loc>
@@ -261,24 +292,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/categories/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/gallery/</loc>
-    <lastmod>2023-12-02T10:32:58+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/gallery/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/timezone/</loc>
