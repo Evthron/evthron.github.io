@@ -180,71 +180,6 @@
                 href="https://evthron.github.io/zh/toolbox/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/tags/personal/</loc>
-    <lastmod>2023-12-21T02:00:29+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/personal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/personal/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/tags/</loc>
-    <lastmod>2023-12-21T02:00:29+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/tags/updates/</loc>
-    <lastmod>2023-12-21T02:00:29+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/updates/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/updates/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/sandbox/pokemon/</loc>
-    <lastmod>2023-12-21T02:00:29+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/sandbox/</loc>
-    <lastmod>2023-12-21T02:00:29+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/gallery/agi/</loc>
     <lastmod>2023-12-02T10:32:58+08:00</lastmod>
     <xhtml:link
@@ -311,19 +246,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/gallery/complex-scenary/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/sandbox/autobiography/</loc>
-    <lastmod>2023-12-02T01:12:17+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/autobiography/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/autobiography/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/diary/</loc>
@@ -393,6 +315,40 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/languages/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/sandbox/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/page/links/</loc>

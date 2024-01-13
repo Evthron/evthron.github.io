@@ -92,61 +92,6 @@
                 href="https://evthron.github.io/tok/page/about/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/sandbox/about/</loc>
-    <lastmod>2023-12-21T11:35:53+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/about/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/sandbox/</loc>
-    <lastmod>2023-12-21T11:35:53+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/mi/</loc>
-    <lastmod>2023-12-21T11:35:53+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/sin/</loc>
-    <lastmod>2023-12-21T11:35:53+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/</loc>
-    <lastmod>2023-12-21T11:35:53+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/categories/artwork/</loc>
     <xhtml:link
                 rel="alternate"
@@ -179,6 +124,23 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/categories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/sandbox/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/sandbox/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/languages/</loc>
@@ -264,6 +226,23 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
                 />
   </url>
 </urlset>

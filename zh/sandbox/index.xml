@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>測試頁 on Evthron&#39;s blog</title>
+        <title>Evthron&#39;s blog  zh </title>
         <link>https://evthron.github.io/zh/sandbox/</link>
-        <description>Recent content in 測試頁 on Evthron&#39;s blog</description>
+        <description>Recent content on Evthron&#39;s blog  zh </description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh</language>
-        <lastBuildDate>Thu, 21 Dec 2023 02:00:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/sandbox/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Youtube test</title>
-        <link>https://evthron.github.io/zh/sandbox/pokemon/</link>
-        <pubDate>Thu, 21 Dec 2023 02:00:29 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/zh/sandbox/pokemon/</guid>
-        <description>&lt;p&gt;Pokemon Just a ditto
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/4P8NFOg-KYE&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>測試</title>
-        <link>https://evthron.github.io/zh/sandbox/autobiography/</link>
-        <pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/zh/sandbox/autobiography/</guid>
-        <description>&lt;h1 id=&#34;這是測試&#34;&gt;這是測試。&lt;/h1&gt;
-&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
-&lt;p&gt;aoeuidthnsaoeuditnsoa&lt;/p&gt;
-&lt;h3 id=&#34;eoe&#34;&gt;eoe&lt;/h3&gt;
-&lt;p&gt;oentuhaenuhtaehuatonuh&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;enute&lt;/li&gt;
-&lt;li&gt;noetuhontu&lt;/li&gt;
-&lt;li&gt;oentuhanoeuh&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        
+        <language>zh</language><atom:link href="https://evthron.github.io/zh/sandbox/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

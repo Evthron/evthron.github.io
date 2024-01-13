@@ -1,56 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Test page on Evthron&#39;s blog</title>
+        <title>Evthron&#39;s blog  en </title>
         <link>https://evthron.github.io/en/sandbox/</link>
-        <description>Recent content in Test page on Evthron&#39;s blog</description>
+        <description>Recent content on Evthron&#39;s blog  en </description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Sat, 02 Dec 2023 01:12:17 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/sandbox/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Autobiography</title>
-        <link>https://evthron.github.io/en/sandbox/autobiography/</link>
-        <pubDate>Sat, 02 Dec 2023 01:12:17 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/en/sandbox/autobiography/</guid>
-        <description>&lt;p&gt;This is my autobio.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>About</title>
-        <link>https://evthron.github.io/en/sandbox/about/</link>
-        <pubDate>Sat, 02 Dec 2023 00:55:29 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/en/sandbox/about/</guid>
-        <description>&lt;p&gt;Here is some content. This is all in Markdown.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;universe&lt;/li&gt;
-&lt;li&gt;Hack&lt;/li&gt;
-&lt;/ul&gt;
-&lt;dl&gt;
-&lt;dt&gt;Dictionary&lt;/dt&gt;
-&lt;dd&gt;Dictionary definitions&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;ol&gt;
-&lt;li&gt;See my &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/posts/first-real-blog&#34; &gt;first-real-blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;World &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/test/autobiography&#34; &gt;autobio&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/en/sandbox/about/win.png&#34;
-	width=&#34;75&#34;
-	height=&#34;73&#34;
-	srcset=&#34;https://evthron.github.io/en/sandbox/about/win_hu4724b52eabd6e81a271327d6fc2eb848_10470_480x0_resize_box_3.png 480w, https://evthron.github.io/en/sandbox/about/win_hu4724b52eabd6e81a271327d6fc2eb848_10470_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;my Image&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;102&#34;
-		data-flex-basis=&#34;246px&#34;
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        
+        <language>en</language><atom:link href="https://evthron.github.io/en/sandbox/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

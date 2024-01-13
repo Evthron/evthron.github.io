@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Evthron&#39;s blog</title>
+        <title>Evthron&#39;s blog  en </title>
         <link>https://evthron.github.io/en/posts/</link>
-        <description>Recent content in Posts on Evthron&#39;s blog</description>
+        <description>Recent content on Evthron&#39;s blog  en </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Mon, 01 Jan 2024 18:23:45 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -56,15 +56,6 @@
 &lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;
 &lt;p&gt;Why are we doing this? Why not spread the 3 years on 900 pages? This mean you get to re-read your dairy once a year. Usually, once you put down your day, you never read that entry again. By revisiting your previous years entry, you will starting to realise your mistakes in your writing. Diary is a private thing and there should be any reader. But now you become the reader of your own wrining. You would learn to keep things simple and clear and avoid boring and repetitive events.&lt;/p&gt;
 &lt;p&gt;As a additional bonus, each pages comes with an unique question. You compare your changes in the answer. They said you could see you changes in thought each year. Ironically, for some question, thinking of an new answer becomes the intereresting part,&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>First real blog</title>
-        <link>https://evthron.github.io/en/posts/first-real-blog/</link>
-        <pubDate>Sat, 07 Oct 2023 14:28:34 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/en/posts/first-real-blog/</guid>
-        <description>&lt;p&gt;Finally! I can have my actual blog site, nothing social, just my personal articles that nobody reads. Great.&lt;/p&gt;
 </description>
         </item>
         
