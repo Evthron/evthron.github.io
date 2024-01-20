@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/en/posts/cardinal-ordinal/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/cardinal-ordinal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/cardinal-ordinal/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/gallery/</loc>
     <lastmod>2024-01-11T06:05:12+08:00</lastmod>
     <xhtml:link
@@ -18,24 +67,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/gallery/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2024-01-11T06:05:12+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/the-lizard/</loc>
@@ -62,24 +93,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/posts/instant-messaging/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/</loc>
-    <lastmod>2024-01-01T18:23:45+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/</loc>

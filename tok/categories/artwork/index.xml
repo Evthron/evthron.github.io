@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Evthron&#39;s blog  tok </title>
+        <title>Evthron&#39;s blog tok</title>
         <link>https://evthron.github.io/tok/categories/artwork/</link>
-        <description>Recent content on Evthron&#39;s blog  tok </description>
+        <description>Recent content on Evthron&#39;s blog tok</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>tok</language><atom:link href="https://evthron.github.io/tok/categories/artwork/index.xml" rel="self" type="application/rss+xml" />
     </channel>
