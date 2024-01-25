@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/zh/categories/artwork/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/artwork/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/categories/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/posts/cardinal-ordinal/</loc>
     <lastmod>2024-01-20T22:43:24+08:00</lastmod>
     <xhtml:link
@@ -34,7 +70,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/</loc>
-    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -132,7 +168,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/page/</loc>
-    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -150,7 +186,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/page/about/</loc>
-    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -204,42 +240,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/gallery/agi/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/categories/artwork/</loc>
-    <lastmod>2023-12-02T10:32:58+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/artwork/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/artwork/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/artwork/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2023-12-02T10:32:58+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/timezone/</loc>
@@ -299,6 +299,9 @@
                 hreflang="zh"
                 href="https://evthron.github.io/zh/gallery/shelf-site-sky/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/zh/posts/overnight-revision/</loc>
+    <lastmod>2023-05-16T20:41:00+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/page/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>

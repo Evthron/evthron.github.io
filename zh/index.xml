@@ -107,8 +107,9 @@
         <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
         
         <guid>https://evthron.github.io/zh/page/about/</guid>
-        <description>&lt;p&gt;正在搭建, 敬請期待。&lt;br&gt;
-走過路過隨便看看。&lt;/p&gt;
+        <description>&lt;p&gt;只要讓別人讀自己寫的東西，就能讓別人了解自己的性情和興趣了。可以當名片用。&lt;/p&gt;
+&lt;p&gt;內容以隨筆和繪畫練習為主。&lt;/p&gt;
+&lt;p&gt;這個 Blog 的原文是用中文寫的，不過用多種語言寫文章的話，就能照顧不同地方的讀者了。歡迎很閒的人把不同的版本都讀一遍，觀察語言之間的差異。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -120,16 +121,29 @@
         <description>&lt;p&gt;我的 AutoHotKey 設定：&lt;/p&gt;
 &lt;h1 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;F1 啟動番茄鐘&lt;/li&gt;
-&lt;li&gt;F3: Saladict&lt;/li&gt;
-&lt;li&gt;F4 Win + D 返回桌面&lt;/li&gt;
+&lt;li&gt;F1: 啟動番茄鐘&lt;/li&gt;
+&lt;li&gt;F2: 保持原樣（重命名）&lt;/li&gt;
+&lt;li&gt;F3: 字典軟件（Saladict）&lt;/li&gt;
+&lt;li&gt;F4: Win + D（返回桌面）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;F5-F8對應工作列的軟件&lt;/p&gt;
+&lt;p&gt;F5-F8 對應工作列的軟件&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;F5: 瀏覽檔案&lt;/li&gt;
+&lt;li&gt;F5: 文件管理器&lt;/li&gt;
 &lt;li&gt;F6: 瀏覽器&lt;/li&gt;
-&lt;li&gt;F7: Excel&lt;/li&gt;
-&lt;li&gt;F8: 文字編輯器&lt;/li&gt;
+&lt;li&gt;F7: 文字編輯器&lt;/li&gt;
+&lt;li&gt;F8: 筆記軟件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;文本輸入&#34;&gt;文本輸入&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock: Backspace&lt;/li&gt;
+&lt;li&gt;Backspace: Win + Space（切換語言）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;瀏覽網頁&#34;&gt;瀏覽網頁&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete: Ctrl + w （關閉分頁）&lt;/li&gt;
+&lt;li&gt;Insert: Ctrl + t （新增分頁）&lt;/li&gt;
+&lt;li&gt;Page Up: Ctrl + Shift + Tab（切換分頁）&lt;/li&gt;
+&lt;li&gt;Page Down: Ctrl + Tab（切換分頁）&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -251,6 +265,19 @@
         
         <guid>https://evthron.github.io/zh/gallery/shelf-site-sky/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>通宵</title>
+        <link>https://evthron.github.io/zh/posts/overnight-revision/</link>
+        <pubDate>Tue, 16 May 2023 20:41:00 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/posts/overnight-revision/</guid>
+        <description>&lt;p&gt;總算放假，得開始寫東西了。複習周一直被其他作業綁著，最後只剩下一天複習兩門課的考試。於是毅然決然在學校住了兩天，與其說是不受常識束縛的超人之舉。不如說是被逼到走投無路的下下策。&lt;/p&gt;
+&lt;p&gt;最大的感受是自己的時間原來這么好用。從腦袋空空開始，慢慢從頭學回去。以三十分鐘為單位，循環十二次，六小時后又六小時，一直到學完后，還能因為考試時間沒到而不知所措，簡直取之不盡。其實沒有必要擔心時間不夠。平常的寶貴時間，就是在地鐵站到家之間、床到書桌之間、書桌到飯桌之間溜走的嗎？把這些平常人的生活全部拋棄掉！就能突破自我的極限——真的只能當作非常手段啊。&lt;/p&gt;
+&lt;p&gt;晚上在沙發上坐著打盹是很痛苦的，醒來的時才算幸福。去了最早七點半開門的飯堂吃早餐，還要補充咖啡因。飯堂的純咖啡真的只是黑色的苦水，而且又酸又澀。雖然我對提神飲料的味道沒有追求。但還是很難下咽。&lt;/p&gt;
+&lt;p&gt;咖啡的威力真的很強大，它不是能馬上起效的，而是不知不覺兩三個小時間，從昏昏沉沉過渡到睡意全無，令人驚訝自己過了這么久還不困。只要喝了這種東西，就好像能夠永遠清醒著工作，讓人忽略清醒和疲倦的界限，而且除了讓睡眠周期混亂以外，貌似也沒有其他副作用，真的是非常可怕。我只會把它當作秘密武器，不到最後不會隨便使用。&lt;/p&gt;
+&lt;p&gt;現在考試結束后回家恍如隔世。這種一心一意的能量，要是不放在複習，而是放在其他事情上就好了，所以假期要好好充實地過。&lt;/p&gt;
 </description>
         </item>
         <item>

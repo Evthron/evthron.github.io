@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/en/categories/artwork/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/artwork/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/artwork/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/posts/cardinal-ordinal/</loc>
     <lastmod>2024-01-20T22:43:24+08:00</lastmod>
     <xhtml:link
@@ -13,6 +31,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/posts/cardinal-ordinal/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/categories/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/</loc>
@@ -204,42 +240,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/gallery/agi/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/categories/artwork/</loc>
-    <lastmod>2023-12-02T10:32:58+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/artwork/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/artwork/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/artwork/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/categories/</loc>
-    <lastmod>2023-12-02T10:32:58+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/complex-scenary/</loc>
