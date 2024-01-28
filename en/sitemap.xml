@@ -2,6 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/en/gallery/accurate-colour-wheel/</loc>
+    <lastmod>2024-01-29T05:05:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/accurate-colour-wheel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/accurate-colour-wheel/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/gallery/</loc>
+    <lastmod>2024-01-29T05:05:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</loc>
+    <lastmod>2024-01-29T04:13:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/toolbox/say-goodbye-to-internet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/toolbox/</loc>
+    <lastmod>2024-01-29T04:13:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/toolbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/toolbox/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/categories/artwork/</loc>
     <lastmod>2024-01-20T22:43:24+08:00</lastmod>
     <xhtml:link
@@ -51,24 +126,6 @@
                 href="https://evthron.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/posts/</loc>
     <lastmod>2024-01-20T22:43:24+08:00</lastmod>
     <xhtml:link
@@ -85,24 +142,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/gallery/</loc>
-    <lastmod>2024-01-11T06:05:12+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/gallery/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/the-lizard/</loc>
@@ -214,19 +253,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/toolbox/autohotkey/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/toolbox/</loc>
-    <lastmod>2023-12-21T12:14:23+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/toolbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/toolbox/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/agi/</loc>
