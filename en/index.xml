@@ -6,7 +6,16 @@
         <description>Recent content in My homepage on Evthron&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 01 Mar 2024 02:07:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 01 Mar 2024 03:17:54 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Search Count</title>
+        <link>https://evthron.github.io/en/tweet/search-count/</link>
+        <pubDate>Fri, 01 Mar 2024 03:17:54 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
+        <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Joplin Vim Mode</title>
         <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
         <pubDate>Fri, 01 Mar 2024 02:07:49 +0800</pubDate>
