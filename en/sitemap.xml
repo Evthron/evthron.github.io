@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/en/</loc>
+    <lastmod>2024-02-26T01:49:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/</loc>
+    <lastmod>2024-02-26T01:49:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/progress/</loc>
+    <lastmod>2024-02-26T01:49:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/progress/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/progress/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/progress/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/gallery/accurate-colour-wheel/</loc>
     <lastmod>2024-01-29T05:05:42+08:00</lastmod>
     <xhtml:link
@@ -31,24 +85,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/gallery/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</loc>
@@ -168,24 +204,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/posts/instant-messaging/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/tweet/</loc>
-    <lastmod>2023-12-22T18:20:01+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/winter/</loc>

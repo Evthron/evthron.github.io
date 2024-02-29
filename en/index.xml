@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Evthron&#39;s blog en</title>
+        <title>My homepage on Evthron&#39;s blog</title>
         <link>https://evthron.github.io/en/</link>
-        <description>Recent content on Evthron&#39;s blog en</description>
+        <description>Recent content in My homepage on Evthron&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 29 Jan 2024 05:05:42 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 26 Feb 2024 01:49:21 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>進度</title>
+        <link>https://evthron.github.io/en/tweet/progress/</link>
+        <pubDate>Mon, 26 Feb 2024 01:49:21 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/progress/</guid>
+        <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Accurate Colour Wheel</title>
         <link>https://evthron.github.io/en/gallery/accurate-colour-wheel/</link>
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
