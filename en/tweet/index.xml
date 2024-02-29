@@ -6,8 +6,17 @@
         <description>Recent content in Tweets on Evthron&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 26 Feb 2024 01:49:21 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>進度</title>
+        <lastBuildDate>Fri, 01 Mar 2024 02:07:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Joplin Vim Mode</title>
+        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
+        <pubDate>Fri, 01 Mar 2024 02:07:49 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
+        <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Progress</title>
         <link>https://evthron.github.io/en/tweet/progress/</link>
         <pubDate>Mon, 26 Feb 2024 01:49:21 +0800</pubDate>
         

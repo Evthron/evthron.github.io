@@ -6,8 +6,17 @@
         <description>Recent content in Tweets on Evthron&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 26 Feb 2024 01:49:21 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Progress</title>
+        <lastBuildDate>Fri, 01 Mar 2024 02:07:48 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Joplin Vim Mode</title>
+        <link>https://evthron.github.io/zh/tweet/joplin-vim-mode/</link>
+        <pubDate>Fri, 01 Mar 2024 02:07:48 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/joplin-vim-mode/</guid>
+        <description>&lt;p&gt;Joplin 居然有 Vim mode？那麼我一直以來特意設置 gvim 做外部編輯器豈不是多此一舉？省得調字體和手動保存。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>進度</title>
         <link>https://evthron.github.io/zh/tweet/progress/</link>
         <pubDate>Mon, 26 Feb 2024 01:49:21 +0800</pubDate>
         
