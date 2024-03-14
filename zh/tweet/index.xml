@@ -6,7 +6,25 @@
         <description>Recent content in Tweets on Evthron&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 01 Mar 2024 02:07:48 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Mar 2024 14:02:18 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>幻想</title>
+        <link>https://evthron.github.io/zh/tweet/delusions/</link>
+        <pubDate>Thu, 14 Mar 2024 14:02:18 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
+        <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>時間管理工具</title>
+        <link>https://evthron.github.io/zh/tweet/productivity-tools/</link>
+        <pubDate>Sat, 02 Mar 2024 04:47:14 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/productivity-tools/</guid>
+        <description>&lt;p&gt;不工作跑去研究工具是沒有好下場的。不過 Super Productivity 和 ActivityWatch 用起來都不錯。要怎樣運用徹底監控電腦使用時間得到的數據，才能把生活變成數值管理遊戲？不過總之先記錄，其他問題以後再想。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Joplin Vim Mode</title>
         <link>https://evthron.github.io/zh/tweet/joplin-vim-mode/</link>
         <pubDate>Fri, 01 Mar 2024 02:07:48 +0800</pubDate>
