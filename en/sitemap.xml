@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://evthron.github.io/en/tweet/delusions/</loc>
-    <lastmod>2024-03-14T14:02:18+08:00</lastmod>
+    <loc>https://evthron.github.io/en/tweet/better-search-engine/</loc>
+    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/delusions/"
+                href="https://evthron.github.io/zh/tweet/better-search-engine/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/delusions/"
+                href="https://evthron.github.io/tok/tweet/better-search-engine/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/delusions/"
+                href="https://evthron.github.io/en/tweet/better-search-engine/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2024-03-14T14:02:18+08:00</lastmod>
+    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -39,7 +39,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/</loc>
-    <lastmod>2024-03-14T14:02:18+08:00</lastmod>
+    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -54,6 +54,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/tweet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/delusions/</loc>
+    <lastmod>2024-03-14T14:02:18+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/delusions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/delusions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/delusions/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/productivity-tools/</loc>
