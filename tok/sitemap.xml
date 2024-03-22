@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/tok/categories/</loc>
+    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/tweet/better-search-engine/</loc>
     <lastmod>2024-03-23T01:04:38+08:00</lastmod>
     <xhtml:link
@@ -36,6 +54,24 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/categories/tweet/</loc>
+    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/tweet/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/</loc>
@@ -215,23 +251,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/categories/artwork/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/sandbox/</loc>
