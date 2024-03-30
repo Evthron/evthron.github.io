@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Evthron&#39;s blog zh</title>
+        <link>https://evthron.github.io/zh/categories/gallery/</link>
+        <description>Recent content on Evthron&#39;s blog zh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh</language>
+        <lastBuildDate>Sat, 20 Jan 2024 22:43:24 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/gallery/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>量數和序數</title>
+        <link>https://evthron.github.io/zh/posts/cardinal-ordinal/</link>
+        <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
+&lt;p&gt;量數遠比序數有用。量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如在時鐘上，兩點在一點的後面，三點在兩點的後面，但是不能把「一點」和「兩點」加起來得到「三點」，這是沒有意義的。&lt;/p&gt;
+&lt;p&gt;要利用序數，就要先轉換成有用的量數。對於不同的問題，我們關心的量數是不一樣的，所以轉換方法也不一樣。&lt;/p&gt;
+&lt;p&gt;在數物件的時候，我們關心的量數是「物件的量數」，這剛好和「最後一個物件的序數」是相等的。比如要知道桌子上有幾個蘋果，就要「第一個，第二個，第三個」這樣數出來。如果數到了第三個蘋果，數過的蘋果總數就是三個。&lt;/p&gt;
+&lt;p&gt;但是有時候，我們想知道的量數，是序數之間的「距離」，和序數本身無關。比如說時鐘使用的序數是「點」，但我們並不關心時間點的數量，而是經過了幾個小時，也就是時間點之間的「距離」。從一點到三點過了三個時間點，但只過了兩小時。數法是一點走到兩點一小時，兩點走到三點兩小時。同樣，計算年齡使用的序數是「年份」，但我們也不關心經過了幾個年份，只關心過了多少年。年也是一種距離。2021 到 2023 年總共過了三個年份，但只長了兩歲。&lt;/p&gt;
+&lt;p&gt;序數相減得出距離。只要計算 3 - 1 = 2，2023 - 2021 = 2，就知道度過了兩小時，長了兩歲。換個方向，把序數加減一個距離，就可以得到另一個序數。比如從一點開始過了兩小時，就到了 1 + 2 = 3 點。&lt;/p&gt;
+&lt;p&gt;這些雖然是基礎得不能再基礎的算數題，但要注意，理論上序數可以從任何數字開始數，方向也不是固定的，所以轉換方法也不一樣。這是在生活中不會出現的問題，因為我們總是從 1 開始順着數；但是在麻煩的程式語言領域是從 0 開始數的，所以不把這些概念弄清楚的話，會有很多麻煩。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;集合論一般稱為基數，我只是挑了個我喜歡的詞。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>蜥蜴人</title>
+        <link>https://evthron.github.io/zh/gallery/the-lizard/</link>
+        <pubDate>Thu, 11 Jan 2024 06:05:11 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/gallery/the-lizard/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post 蜥蜴人" /&gt;&lt;p&gt;本來只是想試試新製作的色板，但沒想到竟然可以畫得這麽好。第一次買這種盒子形狀的新時代扭蛋就被概率背叛了。雖然不想要這種古怪玩意當擺設，不過可能正正是不想要的東西畫起來才有趣。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu4edbcf3aa67fd48492d330f1a31d4c6d_218767_480x0_resize_box_3.png 480w, https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu4edbcf3aa67fd48492d330f1a31d4c6d_218767_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;the-lizard&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AI Generated Oil Painting</title>
+        <link>https://evthron.github.io/zh/gallery/agi/</link>
+        <pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/gallery/agi/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;這可是拿過獎的！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Prompt: a highly detailed oil painting of a cat walking in foggy london street, steampunk, gears, steam engine, by leonardo da Vinci, trending in artstation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Negative prompt: monochrome, blurry, jpeg artifacts, worst quality, watermark&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Steps: 30&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sampler: DPM++ 2M Karras&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CFG scale: 10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seed: 189248350&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Size: 768x512&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model hash: cc6cb27103&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model: v1-5-pruned-emaonly&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>什麽都畫得出來</title>
+        <link>https://evthron.github.io/zh/gallery/complex-scenary/</link>
+        <pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/gallery/complex-scenary/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post 什麽都畫得出來" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg&#34;
+	width=&#34;2317&#34;
+	height=&#34;2649&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu3b404767f3095d28632507beaa2c45b9_1432291_480x0_resize_q75_box.jpg 480w, https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu3b404767f3095d28632507beaa2c45b9_1432291_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;complex-sketch&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;87&#34;
+		data-flex-basis=&#34;209px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;素描就是死死盯着要畫的事物，再怎麽複雜也要想辦法把影像搬到紙上。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>公園的座椅</title>
+        <link>https://evthron.github.io/zh/gallery/park/</link>
+        <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/gallery/park/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post 公園的座椅" /&gt;&lt;p&gt;取景框很有用，最好和畫紙一樣大。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>架子工地和雲</title>
+        <link>https://evthron.github.io/zh/gallery/shelf-site-sky/</link>
+        <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/gallery/shelf-site-sky/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

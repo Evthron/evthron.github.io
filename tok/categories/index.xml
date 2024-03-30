@@ -12,15 +12,39 @@
         <pubDate>Sat, 30 Mar 2024 21:23:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/tok/categories/tweet/</guid>
-        <description></description>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post tweet" /&gt;</description>
         </item>
         <item>
-        <title>Artwork</title>
+        <title>gallery</title>
         <link>https://evthron.github.io/tok/categories/artwork/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://evthron.github.io/tok/categories/artwork/</guid>
-        <description>&lt;img src="https://evthron.github.io/tok/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post Artwork" /&gt;</description>
+        <description>&lt;img src="https://evthron.github.io/tok/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        </item>
+        <item>
+        <title>gallery</title>
+        <link>https://evthron.github.io/tok/categories/gallery/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/tok/categories/gallery/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        </item>
+        <item>
+        <title>posts</title>
+        <link>https://evthron.github.io/tok/categories/posts/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/tok/categories/posts/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
+        </item>
+        <item>
+        <title>toolbox</title>
+        <link>https://evthron.github.io/tok/categories/toolbox/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/tok/categories/toolbox/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
         </item>
         
     </channel>

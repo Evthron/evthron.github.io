@@ -325,6 +325,23 @@
                 href="https://evthron.github.io/tok/categories/artwork/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/categories/gallery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/gallery/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/sandbox/</loc>
     <xhtml:link
                 rel="alternate"
@@ -393,6 +410,23 @@
                 href="https://evthron.github.io/tok/page/search/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/categories/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/posts/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/gallery/</loc>
     <xhtml:link
                 rel="alternate"
@@ -425,6 +459,23 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/categories/toolbox/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/toolbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/toolbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/toolbox/"
                 />
   </url>
 </urlset>
