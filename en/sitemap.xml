@@ -375,22 +375,22 @@
                 href="https://evthron.github.io/en/posts/cardinal-ordinal/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/categories/gallery/</loc>
+    <loc>https://evthron.github.io/en/categories/posts/</loc>
     <lastmod>2024-01-20T22:43:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/gallery/"
+                href="https://evthron.github.io/zh/categories/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/gallery/"
+                href="https://evthron.github.io/tok/categories/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/gallery/"
+                href="https://evthron.github.io/en/categories/posts/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/posts/</loc>
@@ -409,6 +409,37 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/sketch/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/sketch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/sketch/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/categories/gallery/</loc>
+    <lastmod>2024-01-11T06:05:12+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/gallery/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/the-lizard/</loc>
@@ -631,23 +662,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/page/links/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/categories/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/page/search/</loc>

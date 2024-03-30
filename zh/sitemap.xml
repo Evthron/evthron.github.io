@@ -329,22 +329,35 @@
                 href="https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/categories/gallery/</loc>
+    <loc>https://evthron.github.io/zh/categories/posts/</loc>
     <lastmod>2024-01-20T22:43:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/gallery/"
+                href="https://evthron.github.io/en/categories/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/gallery/"
+                href="https://evthron.github.io/tok/categories/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/gallery/"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/sketch/</loc>
+    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/sketch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/sketch/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/cardinal-ordinal/</loc>
@@ -376,6 +389,24 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/categories/gallery/</loc>
+    <lastmod>2024-01-11T06:05:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/gallery/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/gallery/the-lizard/</loc>
@@ -590,23 +621,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/languages/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/categories/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/</loc>

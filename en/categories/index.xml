@@ -23,9 +23,17 @@
         <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
         </item>
         <item>
+        <title>posts</title>
+        <link>https://evthron.github.io/en/categories/posts/</link>
+        <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/categories/posts/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
+        </item>
+        <item>
         <title>gallery</title>
         <link>https://evthron.github.io/en/categories/gallery/</link>
-        <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
+        <pubDate>Thu, 11 Jan 2024 06:05:12 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/categories/gallery/</guid>
         <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
@@ -37,14 +45,6 @@
         
         <guid>https://evthron.github.io/en/categories/artwork/</guid>
         <description>&lt;img src="https://evthron.github.io/en/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
-        </item>
-        <item>
-        <title>posts</title>
-        <link>https://evthron.github.io/en/categories/posts/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://evthron.github.io/en/categories/posts/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
         </item>
         
     </channel>
