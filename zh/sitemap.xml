@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
+    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/categories/tweet/</loc>
-    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
+    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,7 +39,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/</loc>
-    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
+    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,6 +54,42 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/tweet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tweet/easier-publish/</loc>
+    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/easier-publish/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/easier-publish/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/easier-publish/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/</loc>
+    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/better-search-engine/</loc>
@@ -72,24 +108,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/tweet/better-search-engine/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/</loc>
-    <lastmod>2024-03-23T01:04:38+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/delusions/</loc>
