@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -20,8 +20,62 @@
                 href="https://evthron.github.io/zh/categories/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/zh/tags/grumble/</loc>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/grumble/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/grumble/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/grumble/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/software/</loc>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/software/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/</loc>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/categories/tweet/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,7 +93,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -57,7 +111,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/easier-publish/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -75,7 +129,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -501,23 +555,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/languages/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/</loc>

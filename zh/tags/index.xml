@@ -5,6 +5,23 @@
         <link>https://evthron.github.io/zh/tags/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh</language><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>zh</language>
+        <lastBuildDate>Sat, 30 Mar 2024 21:13:23 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>grumble</title>
+        <link>https://evthron.github.io/zh/tags/grumble/</link>
+        <pubDate>Sat, 30 Mar 2024 21:13:23 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tags/grumble/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>software</title>
+        <link>https://evthron.github.io/zh/tags/software/</link>
+        <pubDate>Sat, 30 Mar 2024 21:13:23 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tags/software/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

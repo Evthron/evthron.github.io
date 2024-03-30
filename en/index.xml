@@ -13,7 +13,10 @@
         
         <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
-&lt;p&gt;Now I can generate blog post directly from joplin thanks to joppy, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
+&lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;joppy&lt;/a&gt;, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
+&lt;p&gt;2024/03/30 23:06&lt;/p&gt;
+&lt;p&gt;If I could simply use Obsidian or VS Code to edit the files, why should I configure this mess? For the sake of open source? I&amp;rsquo;m tired&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         <item>

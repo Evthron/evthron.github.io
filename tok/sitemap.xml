@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/tok/categories/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -20,8 +20,26 @@
                 href="https://evthron.github.io/tok/categories/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/tags/grumble/</loc>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/grumble/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/grumble/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/grumble/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/tweet/easier-publish/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -38,8 +56,44 @@
                 href="https://evthron.github.io/tok/tweet/easier-publish/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/tags/software/</loc>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/software/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/</loc>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -57,7 +111,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/categories/tweet/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -75,7 +129,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/</loc>
-    <lastmod>2024-03-30T22:31:54+08:00</lastmod>
+    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -371,23 +425,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
                 />
   </url>
 </urlset>
