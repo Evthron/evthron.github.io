@@ -66,7 +66,7 @@
     <lastmod>2024-04-03T00:42:22+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/tags/grumble/</loc>
-    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
+    <lastmod>2024-04-01T01:15:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -84,7 +84,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/software/</loc>
-    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
+    <lastmod>2024-03-30T23:39:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -102,7 +102,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/</loc>
-    <lastmod>2024-03-30T23:19:58+08:00</lastmod>
+    <lastmod>2024-04-03T01:35:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -171,6 +171,24 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/tweet/easier-publish/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/internet/</loc>
+    <lastmod>2024-04-02T18:57:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/internet/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/better-search-engine/</loc>
@@ -281,6 +299,19 @@
                 href="https://evthron.github.io/zh/tweet/progress/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/zh/tags/art/</loc>
+    <lastmod>2024-04-03T01:35:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/art/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/art/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/categories/gallery/</loc>
     <lastmod>2024-04-03T01:35:59+08:00</lastmod>
     <xhtml:link
@@ -297,6 +328,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/categories/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/science/</loc>
+    <lastmod>2024-04-03T01:35:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/science/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/science/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/gallery/</loc>

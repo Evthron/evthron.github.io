@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tags/grumble/</loc>
-    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
+    <lastmod>2024-03-30T23:39:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -57,7 +57,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tags/software/</loc>
-    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
+    <lastmod>2024-03-30T23:38:56+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -75,7 +75,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tags/</loc>
-    <lastmod>2024-03-30T23:20:25+08:00</lastmod>
+    <lastmod>2024-04-02T19:04:06+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -162,6 +162,24 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/tweet/better-search-engine/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/internet/</loc>
+    <lastmod>2024-04-02T19:04:06+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/internet/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/productivity-tools/</loc>

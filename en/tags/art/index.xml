@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Evthron&#39;s blog en</title>
+        <link>https://evthron.github.io/en/tags/art/</link>
+        <description>Recent content on Evthron&#39;s blog en</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Mon, 29 Jan 2024 05:05:42 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/art/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Accurate Colour Wheel</title>
+        <link>https://evthron.github.io/en/gallery/accurate-colour-wheel/</link>
+        <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/gallery/accurate-colour-wheel/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post Accurate Colour Wheel" /&gt;&lt;p&gt;I made this visually accurate colour wheel using the &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OKLCH colour picker&lt;/a&gt;. All colour are of the same lightness and chroma and their hues are evenly distributed. Since traditional colour wheels are made using pure paint, which has the highest saturation, I want to use the highest chroma possible. Chroma = 0.12 is the value that doesn&amp;rsquo;t have gaps in hues in the sRGB colour gamut. The lightness has to be between 71-76. I chose lightness = 75.
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
+	width=&#34;1968&#34;
+	height=&#34;1968&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu9cc10b259be0285912b5e26337b18aea_122979_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu9cc10b259be0285912b5e26337b18aea_122979_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;oklch-colour-wheel&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
