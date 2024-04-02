@@ -6,7 +6,31 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Thu, 11 Jan 2024 06:05:11 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/gallery/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 29 Jan 2024 05:05:42 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/gallery/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>準確的色環</title>
+        <link>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</link>
+        <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OKLCH 顏色選擇器&lt;/a&gt; 做了個符合人眼認知的色環。所有的顏色都有相同的明度和飽和度，色度的間隔也是均勻的。因為色環都是用最高飽和度的純顏料製作的，所以選擇 Chroma = 0.12，是在 sRGB 空間中不存在顏色斷層的最高數值。亮度限在了71到76之間，選了75。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
+	width=&#34;1968&#34;
+	height=&#34;1968&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu9cc10b259be0285912b5e26337b18aea_122979_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu9cc10b259be0285912b5e26337b18aea_122979_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;oklch-colour-wheel&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>蜥蜴人</title>
         <link>https://evthron.github.io/zh/gallery/the-lizard/</link>
         <pubDate>Thu, 11 Jan 2024 06:05:11 +0800</pubDate>
@@ -16,7 +40,7 @@
 &lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu4edbcf3aa67fd48492d330f1a31d4c6d_218767_480x0_resize_box_3.png 480w, https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu4edbcf3aa67fd48492d330f1a31d4c6d_218767_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu4edbcf3aa67fd48492d330f1a31d4c6d_218767_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu4edbcf3aa67fd48492d330f1a31d4c6d_218767_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;the-lizard&#34;
@@ -76,7 +100,7 @@
         <description>&lt;img src="https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post 什麽都畫得出來" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg&#34;
 	width=&#34;2317&#34;
 	height=&#34;2649&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu3b404767f3095d28632507beaa2c45b9_1432291_480x0_resize_q75_box.jpg 480w, https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu3b404767f3095d28632507beaa2c45b9_1432291_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu3b404767f3095d28632507beaa2c45b9_1432291_480x0_resize_q75_h2_box.webp 480w, https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu3b404767f3095d28632507beaa2c45b9_1432291_1024x0_resize_q75_h2_box.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;complex-sketch&#34;
