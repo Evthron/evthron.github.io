@@ -57,7 +57,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2024-04-11T22:19:01+08:00</lastmod>
+    <lastmod>2024-04-13T01:35:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -150,7 +150,7 @@
     <lastmod>2024-04-11T22:12:25+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/</loc>
-    <lastmod>2024-04-11T22:19:01+08:00</lastmod>
+    <lastmod>2024-04-13T01:35:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -283,6 +283,9 @@
                 hreflang="en"
                 href="https://evthron.github.io/en/tweet/search-count/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/en/sandbox/painter/</loc>
+    <lastmod>2024-04-13T01:35:25+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/en/tweet/progress/</loc>
     <lastmod>2024-03-30T23:39:00+08:00</lastmod>
@@ -653,8 +656,6 @@
                 hreflang="en"
                 href="https://evthron.github.io/en/page/archives/"
                 />
-  </url><url>
-    <loc>https://evthron.github.io/en/sandbox/painter/</loc>
   </url><url>
     <loc>https://evthron.github.io/en/categories/artwork/</loc>
     <xhtml:link
