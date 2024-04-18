@@ -6,7 +6,16 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sat, 30 Mar 2024 21:19:00 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 18 Apr 2024 09:19:50 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Arch Linux Installation</title>
+        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
+        <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
+        <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Improved publishing workflow </title>
         <link>https://evthron.github.io/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
@@ -242,11 +251,11 @@
         <item>
         <title>AutoHotKey</title>
         <link>https://evthron.github.io/en/toolbox/autohotkey/</link>
-        <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
+        <pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/toolbox/autohotkey/</guid>
         <description>&lt;p&gt;My AutoHotKey configurations：&lt;/p&gt;
-&lt;h2 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h2&gt;
+&lt;h1 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;F1: Pomodoro&lt;/li&gt;
 &lt;li&gt;F3: Saladict&lt;/li&gt;
@@ -258,23 +267,6 @@
 &lt;li&gt;F6: Firefox&lt;/li&gt;
 &lt;li&gt;F7: Excel&lt;/li&gt;
 &lt;li&gt;F8: Text editor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2024/03/30: Now I use Dexpot, no need to switch software using Fn keys&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;F5: Ctrl + F (Search)&lt;/li&gt;
-&lt;li&gt;F6: Shift + Ctrl + T （Re-open closed tabs in browser）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;input&#34;&gt;Input&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Backspace: Win + Space (Switch between Chinese and Engish input methods)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;browsing&#34;&gt;Browsing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Delete: Ctrl + w (Close tabs)&lt;/li&gt;
-&lt;li&gt;Insert: Ctrl + t (Insert new tab)&lt;/li&gt;
-&lt;li&gt;Page Up: Ctrl + Shift + Tab (Switch tab: up)&lt;/li&gt;
-&lt;li&gt;Page Down: Ctrl + Tab（Switch tab: down）&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
