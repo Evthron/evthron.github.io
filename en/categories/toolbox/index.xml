@@ -5,39 +5,6 @@
         <link>https://evthron.github.io/en/categories/toolbox/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Mon, 29 Jan 2024 04:14:14 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Say Goodbye to Internet</title>
-        <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
-        <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</guid>
-        <description>&lt;h1 id=&#34;pc&#34;&gt;PC&lt;/h1&gt;
-&lt;h2 id=&#34;block-browsing&#34;&gt;Block browsing&lt;/h2&gt;
-&lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
-&lt;p&gt;A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It&amp;rsquo;s best to fully block the sites instead of setting timers.&lt;/p&gt;
-&lt;h2 id=&#34;block-recommendation&#34;&gt;Block recommendation&lt;/h2&gt;
-&lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
-&lt;p&gt;Empty your homepage and recommended videos. You should only search by keywords on Youtube.&lt;/p&gt;
-&lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
-&lt;p&gt;It&amp;rsquo;s not just an ad blocker. You can block all distracting items on any websites using its element picker.&lt;/p&gt;
-&lt;h2 id=&#34;block-search&#34;&gt;Block search&lt;/h2&gt;
-&lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
-&lt;p&gt;Don&amp;rsquo;t remind yourself that you blocked sites. Remove them from the search results.&lt;/p&gt;
-&lt;h2 id=&#34;read-in-one-place&#34;&gt;Read in one place&lt;/h2&gt;
-&lt;h3 id=&#34;any-rss-reader&#34;&gt;Any RSS reader&lt;/h3&gt;
-&lt;p&gt;Only read posts on one single page. It can replace the Youtube subscribe page.&lt;/p&gt;
-&lt;h1 id=&#34;phones&#34;&gt;Phones&lt;/h1&gt;
-&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
-&lt;h3 id=&#34;helpmefocus&#34;&gt;HelpMeFocus&lt;/h3&gt;
-&lt;p&gt;Decent App blocker.&lt;/p&gt;
-&lt;h3 id=&#34;universal-android-debloater&#34;&gt;Universal Android Debloater&lt;/h3&gt;
-&lt;p&gt;Uninstall Google Chrome and Play Store.&lt;/p&gt;
-&lt;h2 id=&#34;ios&#34;&gt;iOS&lt;/h2&gt;
-&lt;h3 id=&#34;screen-time&#34;&gt;Screen Time&lt;/h3&gt;
-&lt;p&gt;Let others keep the passcode for you.&lt;/p&gt;
-</description>
-        </item>
-        
+        <language>en</language><atom:link href="https://evthron.github.io/en/categories/toolbox/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
