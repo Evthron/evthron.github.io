@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/tok/categories/</loc>
-    <lastmod>2024-04-18T09:35:17+08:00</lastmod>
+    <lastmod>2024-05-23T05:22:55+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -18,6 +18,78 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/categories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/categories/gallery/</loc>
+    <lastmod>2024-05-23T05:22:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/gallery/</loc>
+    <lastmod>2024-05-23T05:22:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/gallery/flower-pot/</loc>
+    <lastmod>2024-05-23T05:22:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/flower-pot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/flower-pot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/gallery/flower-pot/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/</loc>
+    <lastmod>2024-05-23T05:22:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/arch-linux-installation/</loc>
@@ -36,24 +108,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/tweet/arch-linux-installation/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/</loc>
-    <lastmod>2024-04-18T09:35:17+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/categories/tweet/</loc>
@@ -361,23 +415,6 @@
                 href="https://evthron.github.io/tok/categories/artwork/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/categories/gallery/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/gallery/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/sandbox/</loc>
     <xhtml:link
                 rel="alternate"
@@ -461,23 +498,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/categories/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/gallery/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/gallery/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/posts/</loc>
