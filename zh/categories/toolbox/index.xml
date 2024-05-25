@@ -6,51 +6,36 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Thu, 21 Dec 2023 22:44:00 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>AutoHotKey</title>
-        <link>https://evthron.github.io/zh/toolbox/autohotkey/</link>
-        <pubDate>Thu, 21 Dec 2023 22:44:00 +0800</pubDate>
+        <lastBuildDate>Mon, 29 Jan 2024 04:13:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何告別互聯網</title>
+        <link>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</link>
+        <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/toolbox/autohotkey/</guid>
-        <description>&lt;p&gt;我的 AutoHotKey 設定：&lt;/p&gt;
-&lt;h2 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;F1: 啟動番茄鐘&lt;/li&gt;
-&lt;li&gt;F2: 沒改（重命名）&lt;/li&gt;
-&lt;li&gt;F3: 字典軟件（Saladict）&lt;/li&gt;
-&lt;li&gt;F4: Win + D（返回桌面）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;F5-F8 對應工作列的軟件&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;F5: 文件管理器&lt;/li&gt;
-&lt;li&gt;F6: 瀏覽器&lt;/li&gt;
-&lt;li&gt;F7: 文字編輯器&lt;/li&gt;
-&lt;li&gt;F8: 筆記軟件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2024/03/30： 改用了 Dexpot，不需要切換了&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;F5: Ctrl + F（搜尋）&lt;/li&gt;
-&lt;li&gt;F6: Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;輸入文字&#34;&gt;輸入文字&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Backspace: Win + Space（切換中英文輸入法）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2024/05/25 - 為了我的小指着想，把 Enter 換成拇指按。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Enter: Win + Space&lt;/li&gt;
-&lt;li&gt;Right Alt: Enter&lt;/li&gt;
-&lt;li&gt;Backspace: Capslock&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;瀏覽網頁&#34;&gt;瀏覽網頁&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Delete: Ctrl + w （關閉分頁）&lt;/li&gt;
-&lt;li&gt;Insert: Ctrl + t （新增分頁）&lt;/li&gt;
-&lt;li&gt;Page Up: Ctrl + Shift + Tab（切換分頁）&lt;/li&gt;
-&lt;li&gt;Page Down: Ctrl + Tab（切換分頁）&lt;/li&gt;
-&lt;/ul&gt;
+        <guid>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</guid>
+        <description>&lt;h1 id=&#34;電腦&#34;&gt;電腦&lt;/h1&gt;
+&lt;h2 id=&#34;阻擋瀏覽&#34;&gt;阻擋瀏覽&lt;/h2&gt;
+&lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
+&lt;p&gt;必備的網站阻擋器。如果有些網站讓你下不去手封鎖，就要仔細研究 URL，可能只需要網站的其中一部分。重點是不需要的就要&lt;strong&gt;完全&lt;/strong&gt;封鎖，不要設置倒計時。&lt;/p&gt;
+&lt;h2 id=&#34;阻擋推薦&#34;&gt;阻擋推薦&lt;/h2&gt;
+&lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
+&lt;p&gt;主頁空白，推薦影片空白，讓 Youtube 只剩下搜尋功能。&lt;/p&gt;
+&lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
+&lt;p&gt;不但能攔截廣告，還可以攔截網站上一切分心的內容，用元素選擇器就能做到。&lt;/p&gt;
+&lt;h2 id=&#34;阻擋搜尋&#34;&gt;阻擋搜尋&lt;/h2&gt;
+&lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
+&lt;p&gt;讓阻擋了的網站從搜尋結果中消失，不讓自己意識到自己阻擋了內容。&lt;/p&gt;
+&lt;h2 id=&#34;集中內容&#34;&gt;集中內容&lt;/h2&gt;
+&lt;h3 id=&#34;任何-rss-閱讀器&#34;&gt;任何 RSS 閱讀器&lt;/h3&gt;
+&lt;p&gt;集中觀看自己訂閱的所有內容，不用在其他網站流連。我拿來代替 Youtube 訂閱。&lt;/p&gt;
+&lt;h1 id=&#34;手機&#34;&gt;手機&lt;/h1&gt;
+&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
+&lt;h3 id=&#34;helpmefocus&#34;&gt;HelpMeFocus&lt;/h3&gt;
+&lt;p&gt;不錯的 App 阻擋器。&lt;/p&gt;
+&lt;h3 id=&#34;universal-android-debloater&#34;&gt;Universal Android Debloater&lt;/h3&gt;
+&lt;p&gt;直接把 Google Chrome 和 Play Store 刪掉。&lt;/p&gt;
+&lt;h2 id=&#34;ios&#34;&gt;iOS&lt;/h2&gt;
+&lt;h3 id=&#34;內置的使用時間限制&#34;&gt;內置的使用時間限制&lt;/h3&gt;
+&lt;p&gt;讓別人保管密碼。&lt;/p&gt;
 </description>
         </item>
         

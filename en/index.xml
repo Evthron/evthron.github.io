@@ -138,6 +138,54 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;2024/05/25&lt;/p&gt;
+&lt;p&gt;This drawing doesn&amp;rsquo;t have contrast. There&amp;rsquo;s no difference in luminance and saturation so it looks weird and uncomfortable.
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu9a57aaeda95ff99cb95ac325d576fc1c_144346_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu9a57aaeda95ff99cb95ac325d576fc1c_144346_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;no-contrast&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Now let me repaint it using the saturated colors. This looks like it was draw using the preset colours of MS Paint. So how come it looks more pleasant than the above one?
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hufab95bc579e6887f353ac250849e5c40_30828_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hufab95bc579e6887f353ac250849e5c40_30828_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;naive-contrast&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Even thought the preset colours all have 100 as values, they varies in luminance and saturation. Actually, the values are relative and cannot be used for comparsion among colours. This misleads artists.&lt;/p&gt;
+&lt;p&gt;Oklch colour space does a great job dealing with this problem. I think using it as the base of a traditional colour wheel would be helpful so I made one myself. I also made a discrete version of the colour space. This is one of the six charts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
+	width=&#34;1790&#34;
+	height=&#34;1512&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hue2c18ced6169551538f5b6b0dcfd61bd_173402_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hue2c18ced6169551538f5b6b0dcfd61bd_173402_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;value-intensity-chart&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;284px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The developers of Krita cares about colour spaces, so I hope someone would eventually integrate this colour picker in the tools.&lt;/p&gt;
 </description>
         </item>
         <item>
