@@ -57,7 +57,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2024-05-27T05:16:46+08:00</lastmod>
+    <lastmod>2024-05-27T06:28:39+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -219,10 +219,20 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/writer/</loc>
-    <lastmod>2024-05-26T06:41:32+08:00</lastmod>
+    <lastmod>2024-05-27T06:26:27+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/writer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/writer/"
+                />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/</loc>
-    <lastmod>2024-05-27T05:16:46+08:00</lastmod>
+    <lastmod>2024-05-27T06:28:39+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -240,13 +250,43 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/foreigner/</loc>
-    <lastmod>2024-04-29T16:22:21+08:00</lastmod>
+    <lastmod>2024-05-27T06:28:06+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/foreigner/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/foreigner/"
+                />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/programmer/</loc>
-    <lastmod>2024-05-27T05:16:46+08:00</lastmod>
+    <lastmod>2024-05-27T06:27:39+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/programmer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/programmer/"
+                />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/right-sider/</loc>
-    <lastmod>2024-05-14T19:02:16+08:00</lastmod>
+    <lastmod>2024-05-27T06:28:39+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/right-sider/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/right-sider/"
+                />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/better-search-engine/</loc>
     <lastmod>2024-05-24T21:44:05+08:00</lastmod>
@@ -357,7 +397,17 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/painter/</loc>
-    <lastmod>2024-05-27T04:45:44+08:00</lastmod>
+    <lastmod>2024-05-27T06:23:23+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/painter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/painter/"
+                />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/progress/</loc>
     <lastmod>2024-05-24T21:44:05+08:00</lastmod>
