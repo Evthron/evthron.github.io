@@ -337,14 +337,14 @@
         <item>
         <title>AutoHotKey</title>
         <link>https://evthron.github.io/zh/toolbox/autohotkey/</link>
-        <pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
+        <pubDate>Thu, 21 Dec 2023 22:44:00 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/autohotkey/</guid>
         <description>&lt;p&gt;我的 AutoHotKey 設定：&lt;/p&gt;
-&lt;h1 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h1&gt;
+&lt;h2 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;F1: 啟動番茄鐘&lt;/li&gt;
-&lt;li&gt;F2: 保持原樣（重命名）&lt;/li&gt;
+&lt;li&gt;F2: 沒改（重命名）&lt;/li&gt;
 &lt;li&gt;F3: 字典軟件（Saladict）&lt;/li&gt;
 &lt;li&gt;F4: Win + D（返回桌面）&lt;/li&gt;
 &lt;/ul&gt;
@@ -355,12 +355,24 @@
 &lt;li&gt;F7: 文字編輯器&lt;/li&gt;
 &lt;li&gt;F8: 筆記軟件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;文本輸入&#34;&gt;文本輸入&lt;/h1&gt;
+&lt;p&gt;2024/03/30： 改用了 Dexpot，不需要切換了&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;F5: Ctrl + F（搜尋）&lt;/li&gt;
+&lt;li&gt;F6: Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;輸入文字&#34;&gt;輸入文字&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Backspace: Win + Space（切換語言）&lt;/li&gt;
+&lt;li&gt;Backspace: Win + Space（切換中英文輸入法）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;瀏覽網頁&#34;&gt;瀏覽網頁&lt;/h1&gt;
+&lt;p&gt;2024/05/25 - 為了我的小指着想，把 Enter 換成拇指按。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock: Backspace&lt;/li&gt;
+&lt;li&gt;Enter: Win + Space&lt;/li&gt;
+&lt;li&gt;Right Alt: Enter&lt;/li&gt;
+&lt;li&gt;Backspace: Capslock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;瀏覽網頁&#34;&gt;瀏覽網頁&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Delete: Ctrl + w （關閉分頁）&lt;/li&gt;
 &lt;li&gt;Insert: Ctrl + t （新增分頁）&lt;/li&gt;
