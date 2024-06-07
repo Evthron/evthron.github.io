@@ -415,21 +415,21 @@
                 href="https://evthron.github.io/tok/categories/artwork/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/sandbox/</loc>
+    <loc>https://evthron.github.io/tok/skill/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/"
+                href="https://evthron.github.io/zh/skill/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/sandbox/"
+                href="https://evthron.github.io/en/skill/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/"
+                href="https://evthron.github.io/tok/skill/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/languages/</loc>
