@@ -483,6 +483,23 @@
                 href="https://evthron.github.io/tok/page/search/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/sandbox/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/sandbox/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/categories/posts/</loc>
     <xhtml:link
                 rel="alternate"

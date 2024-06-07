@@ -786,6 +786,23 @@
                 href="https://evthron.github.io/zh/languages/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/zh/sandbox/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/page/links/</loc>
     <xhtml:link
                 rel="alternate"
