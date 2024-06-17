@@ -24,7 +24,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/</loc>
-    <lastmod>2024-06-08T20:24:36+08:00</lastmod>
+    <lastmod>2024-06-17T14:41:56+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -97,6 +97,16 @@
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/origami/</loc>
     <lastmod>2024-06-08T20:24:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/origami/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/origami/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/categories/gallery/</loc>
     <lastmod>2024-06-07T14:06:07+08:00</lastmod>
@@ -256,7 +266,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/</loc>
-    <lastmod>2024-06-08T19:09:20+08:00</lastmod>
+    <lastmod>2024-06-17T14:41:56+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -300,7 +310,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/right-sider/</loc>
-    <lastmod>2024-06-07T13:11:06+08:00</lastmod>
+    <lastmod>2024-06-08T22:15:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -421,7 +431,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/painter/</loc>
-    <lastmod>2024-06-08T19:09:20+08:00</lastmod>
+    <lastmod>2024-06-17T14:41:56+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
