@@ -520,30 +520,35 @@ traditional media.&lt;/li&gt;
         <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</guid>
-        <description>&lt;h1 id=&#34;電腦&#34;&gt;電腦&lt;/h1&gt;
-&lt;h2 id=&#34;阻擋瀏覽&#34;&gt;阻擋瀏覽&lt;/h2&gt;
+        <description>&lt;p&gt;以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？&lt;/p&gt;
+&lt;p&gt;不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。&lt;/p&gt;
+&lt;p&gt;第一，依賴決心。決心這玩意只在自己有決心的時候有用，沒有決心的時候就連廢紙都不如了，怎麼會有這麼不方便的東西？對付互聯網這麼吸引人的玩意，怎麼能靠自己一戳即破的決心？對抗誘惑，外界的束縛是最有用的。但是外界的束縛又讓人討厭，讓人有反抗的心思，而天底下沒有毫無破綻的束縛，一定會有漏洞，只要束縛一破，陋習就會變本加厲。所以，要點在於讓自己設下別人執行規則。&lt;/p&gt;
+&lt;p&gt;第二，限制過緊。要是像上面説的一樣，為自己設下牢不可破的障礙，像是把手機鎖在箱裏了，把電腦砸了，到了真的有需要用的時候，一定會氣急敗壞，悔不當初，從此再也不提告別互聯網的事情了。或許在別的世界裏，要得到好處就要抵受誘惑，但是在電腦的世界裏沒有這種常識。把不需要的部分像挑魚刺一樣全部剔除，只留下自己需要的部分，才能算是個聰明的工具使用者。&lt;/p&gt;
+&lt;p&gt;在經歷了數不清的後悔、數不清的悔改和數不清的重蹈覆轍之後，我終於摸索出了一套好用的工具來限制自己上網。雖然還不是很完美，但要是能全部用上，你就勝過大部分還矇在鼓裏的人了。&lt;/p&gt;
+&lt;h2 id=&#34;告別移動互聯網&#34;&gt;告別移動互聯網&lt;/h2&gt;
+&lt;p&gt;手機不需要上網的功能。絕對沒有人需要隨時隨地都可以上網，想看什麼就看什麼的手機。所以，為了讓 Google Chrome 和 Youtube 在手機上消失，以下的工具就能派上用場。&lt;/p&gt;
+&lt;h3 id=&#34;helpmefocus-android&#34;&gt;HelpMeFocus (Android)&lt;/h3&gt;
+&lt;p&gt;不錯的 App 阻擋器。它可以把自己也阻擋掉，這是很重要的功能。&lt;/p&gt;
+&lt;h3 id=&#34;universal-android-debloater-android&#34;&gt;Universal Android Debloater (Android)&lt;/h3&gt;
+&lt;p&gt;在 Android 上，Google Chrome， Youtube 和 Play Store 是系統預裝軟件，一般是刪不掉的。要動用 Universal Android Debloater 這個大殺器才能除掉。&lt;/p&gt;
+&lt;h3 id=&#34;內置的使用時間限制-ios&#34;&gt;內置的使用時間限制 (iOS)&lt;/h3&gt;
+&lt;p&gt;不像 Android，iOS 的數位健康功能做得很嚴格，只要讓別人保管密碼，就保證能讓自己用不上。&lt;/p&gt;
+&lt;h2 id=&#34;電腦&#34;&gt;電腦&lt;/h2&gt;
+&lt;p&gt;電腦能用的工具就比較靈活了，可以在瀏覽器裏安裝擴充套件，不像手機一樣，只能整個 App 屏蔽掉。&lt;/p&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
-&lt;p&gt;必備的網站阻擋器。如果有些網站讓你下不去手封鎖，就要仔細研究 URL，可能只需要網站的其中一部分。重點是不需要的就要&lt;strong&gt;完全&lt;/strong&gt;封鎖，不要設置倒計時。&lt;/p&gt;
-&lt;h2 id=&#34;阻擋推薦&#34;&gt;阻擋推薦&lt;/h2&gt;
-&lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
-&lt;p&gt;主頁空白，推薦影片空白，讓 Youtube 只剩下搜尋功能。&lt;/p&gt;
+&lt;p&gt;這是必備的網站阻擋器。如果有些網站讓你下不去手封鎖，就要仔細研究 URL，你可能只需要其中一部分讓你分心的頁面。重點是不需要的就要&lt;strong&gt;完全&lt;/strong&gt;封鎖，不要設置倒計時。&lt;/p&gt;
 &lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
-&lt;p&gt;不但能攔截廣告，還可以攔截網站上一切分心的內容，用元素選擇器就能做到。&lt;/p&gt;
-&lt;h2 id=&#34;阻擋搜尋&#34;&gt;阻擋搜尋&lt;/h2&gt;
+&lt;p&gt;你説不定知道這是個攔截廣告的軟件，但重點不是這個。這是個萬能攔截器，只要網站上有讓你分心的東西，像是百科全書底部能跳到其他相關頁面的連接，或是搜尋頁面上翻到下一頁的箭頭，你就可以用元素選擇器把它們除掉。&lt;/p&gt;
 &lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
-&lt;p&gt;讓阻擋了的網站從搜尋結果中消失，不讓自己意識到自己阻擋了內容。&lt;/p&gt;
-&lt;h2 id=&#34;集中內容&#34;&gt;集中內容&lt;/h2&gt;
-&lt;h3 id=&#34;任何-rss-閱讀器&#34;&gt;任何 RSS 閱讀器&lt;/h3&gt;
-&lt;p&gt;集中觀看自己訂閱的所有內容，不用在其他網站流連。我拿來代替 Youtube 訂閱。&lt;/p&gt;
-&lt;h1 id=&#34;手機&#34;&gt;手機&lt;/h1&gt;
-&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
-&lt;h3 id=&#34;helpmefocus&#34;&gt;HelpMeFocus&lt;/h3&gt;
-&lt;p&gt;不錯的 App 阻擋器。&lt;/p&gt;
-&lt;h3 id=&#34;universal-android-debloater&#34;&gt;Universal Android Debloater&lt;/h3&gt;
-&lt;p&gt;直接把 Google Chrome 和 Play Store 刪掉。&lt;/p&gt;
-&lt;h2 id=&#34;ios&#34;&gt;iOS&lt;/h2&gt;
-&lt;h3 id=&#34;內置的使用時間限制&#34;&gt;內置的使用時間限制&lt;/h3&gt;
-&lt;p&gt;讓別人保管密碼。&lt;/p&gt;
+&lt;p&gt;要是搜尋的時候總是看到那些自己已經擋掉的網站，一定會有解除封鎖的衝動，所以要讓阻擋了的網站從搜尋結果中消失，不讓自己意識到自己阻擋了內容。&lt;/p&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+&lt;p&gt;Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。&lt;/p&gt;
+&lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
+&lt;p&gt;讓主頁和推薦影片欄都變得一片空白，然後好好管理自己訂閲的頻道。想看其他內容就只能自己搜尋了。&lt;/p&gt;
+&lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
+&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。&lt;/p&gt;
+&lt;h2 id=&#34;用-rss-閱讀器集中內容&#34;&gt;用 RSS 閱讀器集中內容&lt;/h2&gt;
+&lt;p&gt;無論是 Youtube 還是新聞網站，都能用 RSS 閲讀器能訂閲。這樣就能集中觀看自己訂閱的所有內容，不用在其他網站流連。電腦可以用 Feedbro，手機可以用 Feeder&lt;/p&gt;
 </description>
         </item>
         <item>
