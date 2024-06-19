@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/en/categories/</loc>
-    <lastmod>2024-06-18T22:40:52+08:00</lastmod>
+    <lastmod>2024-06-19T23:50:34+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/</loc>
-    <lastmod>2024-06-18T22:40:52+08:00</lastmod>
+    <lastmod>2024-06-19T23:50:34+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -38,21 +38,21 @@
                 href="https://evthron.github.io/en/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/tweet/origami/</loc>
-    <lastmod>2024-06-18T02:14:20+08:00</lastmod>
+    <loc>https://evthron.github.io/en/tweet/new-to-javascript/</loc>
+    <lastmod>2024-06-19T23:50:34+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/origami/"
+                href="https://evthron.github.io/zh/tweet/new-to-javascript/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/origami/"
+                href="https://evthron.github.io/en/tweet/new-to-javascript/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/tweet/</loc>
-    <lastmod>2024-06-18T02:14:20+08:00</lastmod>
+    <lastmod>2024-06-19T23:50:34+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -70,7 +70,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/</loc>
-    <lastmod>2024-06-18T02:14:20+08:00</lastmod>
+    <lastmod>2024-06-19T23:50:34+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -85,6 +85,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/tweet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/origami/</loc>
+    <lastmod>2024-06-18T02:14:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/origami/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/origami/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/gallery/</loc>

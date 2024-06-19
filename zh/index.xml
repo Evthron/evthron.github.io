@@ -6,7 +6,18 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 07 Jun 2024 12:51:26 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Jun 2024 19:48:42 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>JavaScript 新手</title>
+        <link>https://evthron.github.io/zh/tweet/new-to-javascript/</link>
+        <pubDate>Wed, 19 Jun 2024 19:48:42 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/new-to-javascript/</guid>
+        <description>&lt;p&gt;最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。&lt;/p&gt;
+&lt;p&gt;既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？&lt;/p&gt;
+&lt;p&gt;但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>折紙 </title>
         <link>https://evthron.github.io/zh/tweet/origami/</link>
         <pubDate>Tue, 04 Jun 2024 21:14:54 +0800</pubDate>
@@ -664,14 +675,14 @@ traditional media.&lt;/li&gt;
         <item>
         <title>AutoHotKey</title>
         <link>https://evthron.github.io/zh/toolbox/autohotkey/</link>
-        <pubDate>Thu, 21 Dec 2023 22:44:00 +0800</pubDate>
+        <pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/autohotkey/</guid>
         <description>&lt;p&gt;我的 AutoHotKey 設定：&lt;/p&gt;
-&lt;h2 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h2&gt;
+&lt;h1 id=&#34;fn-鍵&#34;&gt;Fn 鍵&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;F1: 啟動番茄鐘&lt;/li&gt;
-&lt;li&gt;F2: 沒改（重命名）&lt;/li&gt;
+&lt;li&gt;F2: 保持原樣（重命名）&lt;/li&gt;
 &lt;li&gt;F3: 字典軟件（Saladict）&lt;/li&gt;
 &lt;li&gt;F4: Win + D（返回桌面）&lt;/li&gt;
 &lt;/ul&gt;
@@ -682,24 +693,12 @@ traditional media.&lt;/li&gt;
 &lt;li&gt;F7: 文字編輯器&lt;/li&gt;
 &lt;li&gt;F8: 筆記軟件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;2024/03/30： 改用了 Dexpot，不需要切換了&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;F5: Ctrl + F（搜尋）&lt;/li&gt;
-&lt;li&gt;F6: Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;輸入文字&#34;&gt;輸入文字&lt;/h2&gt;
+&lt;h1 id=&#34;文本輸入&#34;&gt;文本輸入&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Backspace: Win + Space（切換中英文輸入法）&lt;/li&gt;
+&lt;li&gt;Backspace: Win + Space（切換語言）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;2024/05/25 - 為了我的小指着想，把 Enter 換成拇指按。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Enter: Win + Space&lt;/li&gt;
-&lt;li&gt;Right Alt: Enter&lt;/li&gt;
-&lt;li&gt;Backspace: Capslock&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;瀏覽網頁&#34;&gt;瀏覽網頁&lt;/h2&gt;
+&lt;h1 id=&#34;瀏覽網頁&#34;&gt;瀏覽網頁&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Delete: Ctrl + w （關閉分頁）&lt;/li&gt;
 &lt;li&gt;Insert: Ctrl + t （新增分頁）&lt;/li&gt;
