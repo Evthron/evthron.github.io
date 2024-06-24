@@ -130,15 +130,15 @@ Children books:   0 --- Lv1 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱�
         
         <guid>https://evthron.github.io/en/skill/programmer/</guid>
         <description>&lt;h2 id=&#34;read-code&#34;&gt;Read Code&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;   Script read:   6
+&lt;pre&gt;&lt;code&gt;   Script read:   7
 
-Function count:  12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+Function count:  13 --- Lv2 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
 Data-structure:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
 
    File-system:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-           Web:   4 --- Lv1 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+           Web:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;write-code&#34;&gt;Write Code&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;        Module:  16 --- Lv2 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
@@ -667,11 +667,11 @@ traditional media.&lt;/li&gt;
         <item>
         <title>AutoHotKey</title>
         <link>https://evthron.github.io/en/toolbox/autohotkey/</link>
-        <pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
+        <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/toolbox/autohotkey/</guid>
         <description>&lt;p&gt;My AutoHotKey configurations：&lt;/p&gt;
-&lt;h1 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h1&gt;
+&lt;h2 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;F1: Pomodoro&lt;/li&gt;
 &lt;li&gt;F3: Saladict&lt;/li&gt;
@@ -683,6 +683,34 @@ traditional media.&lt;/li&gt;
 &lt;li&gt;F6: Firefox&lt;/li&gt;
 &lt;li&gt;F7: Excel&lt;/li&gt;
 &lt;li&gt;F8: Text editor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2024/03/30: Now I use Dexpot, no need to switch software using Fn keys&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;F5: Ctrl + F (Search)&lt;/li&gt;
+&lt;li&gt;F6: Shift + Ctrl + T （Re-open closed tabs in browser）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;input&#34;&gt;Input&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock: Backspace&lt;/li&gt;
+&lt;li&gt;Backspace: Win + Space (Switch between Chinese and Engish input methods)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2024/05/25 - Make enter and backspace closer within reach to save my little finger.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock: Backspace&lt;/li&gt;
+&lt;li&gt;Enter: Win + Space&lt;/li&gt;
+&lt;li&gt;Right Alt: Enter&lt;/li&gt;
+&lt;li&gt;Backspace: Capslock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;browsing&#34;&gt;Browsing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete: Ctrl + w (Close tabs)&lt;/li&gt;
+&lt;li&gt;Insert: Ctrl + t (Insert new tab)&lt;/li&gt;
+&lt;li&gt;Page Up: Ctrl + Shift + Tab (Switch tab: up)&lt;/li&gt;
+&lt;li&gt;Page Down: Ctrl + Tab (Switch tab: down)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vim&#34;&gt;Vim&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Escape: Left Alt&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
