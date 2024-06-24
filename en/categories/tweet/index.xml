@@ -6,7 +6,16 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 19 Jun 2024 23:37:40 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 25 Jun 2024 02:03:52 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sticky menu</title>
+        <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
+        <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
+        <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>New to JavaScript</title>
         <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>

@@ -6,7 +6,16 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Wed, 19 Jun 2024 19:48:42 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 25 Jun 2024 02:01:20 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>黏在旁邊的選單</title>
+        <link>https://evthron.github.io/zh/tweet/sticky-menu/</link>
+        <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
+        <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>JavaScript 新手</title>
         <link>https://evthron.github.io/zh/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 19:48:42 +0800</pubDate>

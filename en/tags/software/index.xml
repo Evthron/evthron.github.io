@@ -6,7 +6,17 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 18 Apr 2024 09:19:50 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Jun 2024 23:37:40 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>New to JavaScript</title>
+        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
+        <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
+        <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
+&lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Arch Linux Installation</title>
         <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
