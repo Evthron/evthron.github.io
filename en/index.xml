@@ -6,13 +6,24 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 25 Jun 2024 02:03:52 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Jun 2024 02:46:52 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>night view</title>
+        <link>https://evthron.github.io/en/gallery/nightview/</link>
+        <pubDate>Wed, 26 Jun 2024 02:46:52 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/gallery/nightview/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Sticky menu</title>
         <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
+&lt;p&gt;2024/06/25 03:44
+Problem Solved&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -287,7 +298,7 @@ Data-structure:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱�
 &lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;         Lines:  15 --- Lv2 ▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-        Colour:  36 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+        Colour:  37 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 
    Perspective:   7 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱
 
@@ -315,9 +326,9 @@ Data-structure:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱�
      Completed:  19 --- Lv2 ▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;digital-drawing&#34;&gt;Digital Drawing&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;         Files:  22 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;pre&gt;&lt;code&gt;         Files:  23 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱
 
-     Completed:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+     Completed:   4 --- Lv1 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
 &lt;p&gt;Digital:&lt;/p&gt;
@@ -667,11 +678,11 @@ traditional media.&lt;/li&gt;
         <item>
         <title>AutoHotKey</title>
         <link>https://evthron.github.io/en/toolbox/autohotkey/</link>
-        <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
+        <pubDate>Thu, 21 Dec 2023 12:14:23 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/toolbox/autohotkey/</guid>
         <description>&lt;p&gt;My AutoHotKey configurations：&lt;/p&gt;
-&lt;h2 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h2&gt;
+&lt;h1 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;F1: Pomodoro&lt;/li&gt;
 &lt;li&gt;F3: Saladict&lt;/li&gt;
@@ -683,34 +694,6 @@ traditional media.&lt;/li&gt;
 &lt;li&gt;F6: Firefox&lt;/li&gt;
 &lt;li&gt;F7: Excel&lt;/li&gt;
 &lt;li&gt;F8: Text editor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2024/03/30: Now I use Dexpot, no need to switch software using Fn keys&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;F5: Ctrl + F (Search)&lt;/li&gt;
-&lt;li&gt;F6: Shift + Ctrl + T （Re-open closed tabs in browser）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;input&#34;&gt;Input&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Backspace: Win + Space (Switch between Chinese and Engish input methods)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2024/05/25 - Make enter and backspace closer within reach to save my little finger.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock: Backspace&lt;/li&gt;
-&lt;li&gt;Enter: Win + Space&lt;/li&gt;
-&lt;li&gt;Right Alt: Enter&lt;/li&gt;
-&lt;li&gt;Backspace: Capslock&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;browsing&#34;&gt;Browsing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Delete: Ctrl + w (Close tabs)&lt;/li&gt;
-&lt;li&gt;Insert: Ctrl + t (Insert new tab)&lt;/li&gt;
-&lt;li&gt;Page Up: Ctrl + Shift + Tab (Switch tab: up)&lt;/li&gt;
-&lt;li&gt;Page Down: Ctrl + Tab (Switch tab: down)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;vim&#34;&gt;Vim&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Escape: Left Alt&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
