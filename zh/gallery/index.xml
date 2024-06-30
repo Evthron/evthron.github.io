@@ -12,7 +12,22 @@
         <pubDate>Wed, 26 Jun 2024 02:34:57 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/gallery/nightview/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post 夜景" /&gt;&lt;p&gt;本來想畫個背景給網站增加點個性，但放上去之後又覺得太雜亂了，所以加了個濾鏡，完全看不出原本的樣子。唉，這就是為什麼現在的網站都不用背景圖片了嗎？純色的背景雖然看上去會比較專業，但是又很無聊。&lt;/p&gt;
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post 夜景" /&gt;&lt;p&gt;本來想畫個背景給網站增加點個性，但放上去之後又覺得太雜亂了，所以加了個濾鏡，完全看不出原本的樣子。唉，這就是為什麼現在的網站都不用背景圖片了嗎？純色的背景雖然看上去會比較專業，但是又很無聊。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/nightview/nightview.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/nightview/nightview_hu0098bb26207167f2dc2bdf032be4dfff_244617_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/nightview/nightview_hu0098bb26207167f2dc2bdf032be4dfff_244617_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;nightview&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -78,8 +93,8 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;
-
-改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為重新加入了亮度和色彩對比。不過，這就説明了一個問題：連基礎色的明度和對比都亂成一團，那要怎麼選擇對比和明暗各異的其他顏色呢？
+&lt;/p&gt;
+&lt;p&gt;改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為重新加入了亮度和色彩對比。不過，這就説明了一個問題：連基礎色的明度和對比都亂成一團，那要怎麼選擇對比和明暗各異的其他顏色呢？
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
@@ -94,8 +109,8 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;
-
-一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100 ，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 屏幕説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，得出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100 ，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 屏幕説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，得出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。&lt;/p&gt;
 &lt;p&gt;實際的情況更加複雜，不只是顯示設備的問題，還涉及人眼的運作。不過，oklch 已經把種種因素考慮在內，所以能用絕對數值描述顏色。這也是個感知均勻的色彩空間，不會在改變明度的時候出現色彩偏移。&lt;/p&gt;
 &lt;p&gt;色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。&lt;/p&gt;
 &lt;p&gt;受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。&lt;/p&gt;
@@ -178,6 +193,21 @@
 &lt;p&gt;Model: v1-5-pruned-emaonly&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/agi/london-cat.png&#34;
+	width=&#34;768&#34;
+	height=&#34;512&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;london-cat&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -210,7 +240,22 @@
         <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/gallery/park/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post 公園的座椅" /&gt;&lt;p&gt;取景框很有用，最好和畫紙一樣大。&lt;/p&gt;
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post 公園的座椅" /&gt;&lt;p&gt;取景框很有用，最好和畫紙一樣大。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/park/bench.jpg&#34;
+	width=&#34;1344&#34;
+	height=&#34;1581&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/park/bench_hu6d8278bf41a8e3a27b3edd0fc5e87ef1_711710_480x0_resize_q75_h2_box.webp 480w, https://evthron.github.io/zh/gallery/park/bench_hu6d8278bf41a8e3a27b3edd0fc5e87ef1_711710_1024x0_resize_q75_h2_box.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;bench&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;85&#34;
+		data-flex-basis=&#34;204px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -219,7 +264,22 @@
         <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/gallery/shelf-site-sky/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。&lt;/p&gt;
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
+	width=&#34;512&#34;
+	height=&#34;657&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hua0b3a68ce9a44e649e8194a2227621c0_159237_480x0_resize_q75_h2_box.webp 480w, https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hua0b3a68ce9a44e649e8194a2227621c0_159237_1024x0_resize_q75_h2_box.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shelf-site-sky&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;77&#34;
+		data-flex-basis=&#34;187px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         

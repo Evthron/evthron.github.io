@@ -12,7 +12,22 @@
         <pubDate>Wed, 26 Jun 2024 02:46:52 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/gallery/nightview/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.&lt;/p&gt;
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/nightview/nightview.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/nightview/nightview_hu0098bb26207167f2dc2bdf032be4dfff_244617_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/nightview/nightview_hu0098bb26207167f2dc2bdf032be4dfff_244617_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;nightview&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -175,6 +190,21 @@
 &lt;p&gt;Model: v1-5-pruned-emaonly&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/agi/london-cat.png&#34;
+	width=&#34;768&#34;
+	height=&#34;512&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/agi/london-cat_hu8e81452e6168cb1874d53f695b026f59_620737_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;london-cat&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -207,7 +237,22 @@
         <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/gallery/park/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post Bench" /&gt;&lt;p&gt;A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.&lt;/p&gt;
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post Bench" /&gt;&lt;p&gt;A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/park/bench.jpg&#34;
+	width=&#34;1344&#34;
+	height=&#34;1581&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/park/bench_hu6d8278bf41a8e3a27b3edd0fc5e87ef1_711710_480x0_resize_q75_h2_box.webp 480w, https://evthron.github.io/zh/gallery/park/bench_hu6d8278bf41a8e3a27b3edd0fc5e87ef1_711710_1024x0_resize_q75_h2_box.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;bench&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;85&#34;
+		data-flex-basis=&#34;204px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -216,7 +261,22 @@
         <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/gallery/shelf-site-sky/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post Shelf site cloud" /&gt;&lt;p&gt;See something draw something.&lt;/p&gt;
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post Shelf site cloud" /&gt;&lt;p&gt;See something draw something.
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
+	width=&#34;512&#34;
+	height=&#34;657&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hua0b3a68ce9a44e649e8194a2227621c0_159237_480x0_resize_q75_h2_box.webp 480w, https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hua0b3a68ce9a44e649e8194a2227621c0_159237_1024x0_resize_q75_h2_box.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shelf-site-sky&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;77&#34;
+		data-flex-basis=&#34;187px&#34;
+	
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         
