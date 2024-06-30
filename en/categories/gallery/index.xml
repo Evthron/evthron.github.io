@@ -35,7 +35,8 @@
 		data-flex-grow=&#34;76&#34;
 		data-flex-basis=&#34;183px&#34;
 	
-&gt;&lt;/p&gt;
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -59,7 +60,8 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;&lt;/p&gt;
+&gt;
+&lt;/p&gt;
 &lt;p&gt;2024/05/25&lt;/p&gt;
 &lt;p&gt;This drawing doesn&amp;rsquo;t have contrast. There&amp;rsquo;s no difference in luminance and saturation so it looks weird and uncomfortable.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
@@ -75,7 +77,8 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;&lt;/p&gt;
+&gt;
+&lt;/p&gt;
 &lt;p&gt;Now let me repaint it using the saturated colors. This looks like it was draw using the preset colours of MS Paint. So how come it looks more pleasant than the above one?
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
@@ -90,7 +93,8 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;&lt;/p&gt;
+&gt;
+&lt;/p&gt;
 &lt;p&gt;Even thought the preset colours all have 100 as values, they varies in luminance and saturation. Actually, the values are relative and cannot be used for comparsion among colours. This misleads artists.&lt;/p&gt;
 &lt;p&gt;Oklch colour space does a great job dealing with this problem. I think using it as the base of a traditional colour wheel would be helpful so I made one myself. I also made a discrete version of the colour space. This is one of the six charts.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
@@ -106,7 +110,8 @@
 		data-flex-grow=&#34;118&#34;
 		data-flex-basis=&#34;284px&#34;
 	
-&gt;&lt;/p&gt;
+&gt;
+&lt;/p&gt;
 &lt;p&gt;The developers of Krita cares about colour spaces, so I hope someone would eventually integrate this colour picker in the tools.&lt;/p&gt;
 </description>
         </item>
@@ -130,7 +135,8 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;&lt;/p&gt;
+&gt;
+&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -190,7 +196,8 @@
 		data-flex-grow=&#34;87&#34;
 		data-flex-basis=&#34;209px&#34;
 	
-&gt;&lt;/p&gt;
+&gt;
+&lt;/p&gt;
 &lt;p&gt;Sketching means capturing everything you see on paper. Look as closely as you can!&lt;/p&gt;
 </description>
         </item>
