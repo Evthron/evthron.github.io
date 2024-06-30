@@ -449,23 +449,6 @@
                 href="https://evthron.github.io/tok/languages/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/page/links/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/page/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/page/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/page/links/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/page/search/</loc>
     <xhtml:link
                 rel="alternate"

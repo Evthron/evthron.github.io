@@ -846,19 +846,6 @@
     <loc>https://evthron.github.io/zh/posts/overnight-revision/</loc>
     <lastmod>2023-05-16T20:41:00+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/zh/page/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/page/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/page/archives/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/sandbox/clock/</loc>
   </url><url>
     <loc>https://evthron.github.io/zh/categories/artwork/</loc>
@@ -893,23 +880,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/languages/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/page/links/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/page/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/page/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/page/links/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/page/search/</loc>

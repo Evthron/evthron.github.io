@@ -795,19 +795,6 @@
                 href="https://evthron.github.io/en/gallery/shelf-site-sky/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/page/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/page/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/page/archives/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/categories/artwork/</loc>
     <xhtml:link
                 rel="alternate"
@@ -840,23 +827,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/languages/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/page/links/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/page/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/page/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/page/links/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/</loc>
