@@ -11,7 +11,7 @@
 
 <link rel='canonical' href='https://evthron.github.io/zh/gallery/accurate-colour-wheel/'>
 
-<link rel="stylesheet" href="/scss/style.min.e3c8c66cbfcca46397d402ecc113f9bd28addfeb577edabb9f41e123ece1e546.css"><meta property='og:title' content='準確的色環'>
+<link rel="stylesheet" href="/scss/style.min.6b815c72b1de0a1c491ed48446d0310d2f913e8120e67338bf385c029ad9d132.css"><meta property='og:title' content='準確的色環'>
 <meta property='og:description' content='用 OKLCH 顏色選擇器 做了個符合人眼認知的色環。所有的顏色都有相同的明度和飽和度，色度的間隔也是均勻的。因為色環都是用最高飽和度的純顏料製作的，所以選擇 Chroma = 0.12，是在 sRGB 空間中不存在顏色斷層的最高數值。亮度限在了71到76之間，選了75。 2024/05/25
 這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。 改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為重新加入了亮度和色彩對比。不過，這就説明了一個問題：連基礎色的明度和對比都亂成一團，那要怎麼選擇對比和明暗各異的其他顏色呢？ 一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100 ，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 屏幕説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，得出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。
 實際的情況更加複雜，不只是顯示設備的問題，還涉及人眼的運作。不過，oklch 已經把種種因素考慮在內，所以能用絕對數值描述顏色。這也是個感知均勻的色彩空間，不會在改變明度的時候出現色彩偏移。
