@@ -14,7 +14,7 @@
         <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
-問題解決了……&lt;/p&gt;
+問題解決了…… 關鍵是 max-width 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
 </description>
         </item>
         <item>
