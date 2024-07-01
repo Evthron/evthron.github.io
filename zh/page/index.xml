@@ -5,19 +5,7 @@
         <link>https://evthron.github.io/zh/page/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh</language>
-        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>介紹</title>
-        <link>https://evthron.github.io/zh/page/about/</link>
-        <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://evthron.github.io/zh/page/about/</guid>
-        <description>&lt;p&gt;我正在把這個 Blog 當名片用，只要讀一讀我寫的東西就可以我是個什麼樣的人了。&lt;/p&gt;
-&lt;p&gt;我用主要用中文寫作，不過也同時也會用英文重寫一次自己的文章。如果你很閒的話，歡迎你把不同的版本都讀一次。&lt;/p&gt;
-&lt;p&gt;網頁也是可以訂閱的！使用古代科技 RSS，就可以接收網站的更新。按一下網站頭像下面像 Wi-Fi 一樣的圖標，把那個充滿文字的奇怪網頁的 Url 複製到你的 RSS 閱讀器就可以了。手機可以用開源的 Feeder，瀏覽器可以用 Feedbro 插件。&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <language>zh</language><atom:link href="https://evthron.github.io/zh/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>找文章</title>
         <link>https://evthron.github.io/zh/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
