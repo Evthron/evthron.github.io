@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>https://evthron.github.io/en/tags/grumble/</link>
+        <link>http://localhost:1313/en/tags/grumble/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 25 Jun 2024 02:03:52 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 25 Jun 2024 02:03:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Sticky menu</title>
-        <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
+        <link>http://localhost:1313/en/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
+        <guid>http://localhost:1313/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 Problem Solved&amp;hellip;&lt;/p&gt;
@@ -19,10 +19,10 @@ Problem Solved&amp;hellip;&lt;/p&gt;
         </item>
         <item>
         <title>Improved publishing workflow </title>
-        <link>https://evthron.github.io/en/tweet/easier-publish/</link>
+        <link>http://localhost:1313/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
+        <guid>http://localhost:1313/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
 &lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
@@ -34,19 +34,19 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Delusions</title>
-        <link>https://evthron.github.io/en/tweet/delusions/</link>
+        <link>http://localhost:1313/en/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
+        <guid>http://localhost:1313/en/tweet/delusions/</guid>
         <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <link>http://localhost:1313/en/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <guid>http://localhost:1313/en/tweet/winter/</guid>
         <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
