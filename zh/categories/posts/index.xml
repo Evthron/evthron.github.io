@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>https://evthron.github.io/zh/categories/posts/</link>
+        <link>http://localhost:1313/zh/categories/posts/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 29 Jun 2024 21:43:57 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Jun 2024 21:43:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>交換知識的聊天挑戰 </title>
-        <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
+        <link>http://localhost:1313/zh/posts/knowledge-exchange/</link>
         <pubDate>Sat, 29 Jun 2024 21:43:57 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/knowledge-exchange/</guid>
+        <guid>http://localhost:1313/zh/posts/knowledge-exchange/</guid>
         <description>&lt;p&gt;我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？&lt;/p&gt;
 &lt;p&gt;對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。&lt;/p&gt;
 &lt;p&gt;每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/skill/right-sider&#34; &gt;記錄數據&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/zh/skill/right-sider&#34; &gt;記錄數據&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>寫作和繪畫 </title>
-        <link>https://evthron.github.io/zh/posts/writing-and-drawing/</link>
+        <link>http://localhost:1313/zh/posts/writing-and-drawing/</link>
         <pubDate>Fri, 21 Jun 2024 19:16:06 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/writing-and-drawing/</guid>
+        <guid>http://localhost:1313/zh/posts/writing-and-drawing/</guid>
         <description>&lt;p&gt;寫作好像和繪畫不沾邊，但這兩項活動其實是十分相似的。我聽説過有些古代的文人既是文學家，也是畫家，兩項活動對他們來説是不分家的。我自己研究了一下之後，也明白了繪畫和寫作之間相似又相反的奇特關係。&lt;/p&gt;
 &lt;p&gt;從表面看，寫文章和畫畫似乎一點相似的地方都沒有：文章是逐字逐句去讀的，但畫是一眼就看得完的；任何人寫作，用的都是同一套漢字，但每個人畫畫，用的顏料都不一樣；好的文章是要複製一千份、一萬份，甚至要翻譯成其他語言，讓世界各地的人讀的，但好的畫作卻是獨一無二的，要是讓其他人重畫一次，就不再是原來的那一副畫了。&lt;/p&gt;
 &lt;p&gt;但其實作家和畫家都有一樣的目的，就是把自己觀察到的東西記錄下來。作家寫不出自己沒經歷過的事情，畫家也畫不出自己沒見過的東西。好的作品，一定誠實地記錄下了自己的所見所聞。這裏的誠實，不只是不改變事物原本的面貌，更重要的是不能扭曲腦海裏的真實印象。可以説，並不是因為想要寫作、想要畫畫，才會去觀察身邊的事情，而是因為觀察到了身邊發生的事情，得到了一些印象，然後想要把這些印象記錄下來，才會去寫作和畫畫。&lt;/p&gt;
@@ -33,10 +33,10 @@
         </item>
         <item>
         <title>音階 </title>
-        <link>https://evthron.github.io/zh/posts/scale/</link>
+        <link>http://localhost:1313/zh/posts/scale/</link>
         <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/scale/</guid>
+        <guid>http://localhost:1313/zh/posts/scale/</guid>
         <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
 &lt;p&gt;第一個問題是，音樂裏面有幾個音？這個容易回答。隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。在這兩個音之間分割十二份，就有十二個不一樣的音。十二個音太多了，不好編旋律，所以作曲家會挑出當中一部分的音使用，這一部分的音就是音階。&lt;/p&gt;
 &lt;p&gt;旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。&lt;/p&gt;
@@ -112,11 +112,11 @@ Altered:    1212222
         </item>
         <item>
         <title>量數和序數</title>
-        <link>https://evthron.github.io/zh/posts/cardinal-ordinal/</link>
+        <link>http://localhost:1313/zh/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/cardinal-ordinal/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
+        <guid>http://localhost:1313/zh/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
 &lt;p&gt;量數遠比序數有用。量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如在時鐘上，兩點在一點的後面，三點在兩點的後面，但是不能把「一點」和「兩點」加起來得到「三點」，這是沒有意義的。&lt;/p&gt;
 &lt;p&gt;要利用序數，就要先轉換成有用的量數。對於不同的問題，我們關心的量數是不一樣的，所以轉換方法也不一樣。&lt;/p&gt;
 &lt;p&gt;在數物件的時候，我們關心的量數是「物件的量數」，這剛好和「最後一個物件的序數」是相等的。比如要知道桌子上有幾個蘋果，就要「第一個，第二個，第三個」這樣數出來。如果數到了第三個蘋果，數過的蘋果總數就是三個。&lt;/p&gt;
