@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>https://evthron.github.io/zh/categories/sandbox/</link>
+        <link>http://localhost:1313/zh/categories/sandbox/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Wed, 19 Jun 2024 05:30:16 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/sandbox/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 18 Jul 2024 20:45:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/sandbox/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
