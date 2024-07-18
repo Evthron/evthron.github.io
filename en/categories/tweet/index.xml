@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>http://localhost:1313/en/categories/tweet/</link>
+        <link>https://evthron.github.io/en/categories/tweet/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 01 Jul 2024 18:21:29 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Jul 2024 18:21:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Website redesign</title>
-        <link>http://localhost:1313/en/tweet/blog-layout-modification/</link>
+        <link>https://evthron.github.io/en/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/blog-layout-modification/</guid>
+        <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a seperate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Sticky menu</title>
-        <link>http://localhost:1313/en/tweet/sticky-menu/</link>
+        <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/sticky-menu/</guid>
+        <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 Problem Solved&amp;hellip;&lt;/p&gt;
@@ -28,20 +28,20 @@ Problem Solved&amp;hellip;&lt;/p&gt;
         </item>
         <item>
         <title>New to JavaScript</title>
-        <link>http://localhost:1313/en/tweet/new-to-javascript/</link>
+        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/new-to-javascript/</guid>
+        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>origami</title>
-        <link>http://localhost:1313/en/tweet/origami/</link>
+        <link>https://evthron.github.io/en/tweet/origami/</link>
         <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/origami/</guid>
+        <guid>https://evthron.github.io/en/tweet/origami/</guid>
         <description>&lt;p&gt;When I received fliers at the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that&amp;rsquo;s not much fun. What about origami? (Though technically, making paper planes is origami.) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
 &lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because origami can solve the unsolvable &amp;ldquo;Trisect any angle&amp;rdquo; problem. When I was still holding the filer and walking on the street, I started wondering what the basic operations of origami are. The first one should be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. What they can do is to cut things in half, what about in third? Is that even possible? I went straight to the library.&lt;/p&gt;
 &lt;p&gt;The practical answer is stupidly simple: Just fold the line in half two times and cut out the extra segment. It&amp;rsquo;s like Columbus&amp;rsquo;s egg, my stubborn mind can&amp;rsquo;t solve it.&lt;/p&gt;
@@ -51,19 +51,19 @@ Problem Solved&amp;hellip;&lt;/p&gt;
         </item>
         <item>
         <title>Arch Linux Installation</title>
-        <link>http://localhost:1313/en/tweet/arch-linux-installation/</link>
+        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/arch-linux-installation/</guid>
+        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Improved publishing workflow </title>
-        <link>http://localhost:1313/en/tweet/easier-publish/</link>
+        <link>https://evthron.github.io/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/easier-publish/</guid>
+        <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
 &lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
@@ -75,10 +75,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Better Search Engine</title>
-        <link>http://localhost:1313/en/tweet/better-search-engine/</link>
+        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/better-search-engine/</guid>
+        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt; are much more interesting than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;reddit&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
@@ -93,37 +93,37 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Delusions</title>
-        <link>http://localhost:1313/en/tweet/delusions/</link>
+        <link>https://evthron.github.io/en/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/delusions/</guid>
+        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
         <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Joplin Vim Mode</title>
-        <link>http://localhost:1313/en/tweet/joplin-vim-mode/</link>
+        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/joplin-vim-mode/</guid>
+        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Productivity Tools</title>
-        <link>http://localhost:1313/en/tweet/productivity-tools/</link>
+        <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/productivity-tools/</guid>
+        <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Search Count</title>
-        <link>http://localhost:1313/en/tweet/search-count/</link>
+        <link>https://evthron.github.io/en/tweet/search-count/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/search-count/</guid>
+        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
         <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:37&lt;/p&gt;
 &lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
@@ -131,19 +131,19 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Progress</title>
-        <link>http://localhost:1313/en/tweet/progress/</link>
+        <link>https://evthron.github.io/en/tweet/progress/</link>
         <pubDate>Mon, 26 Feb 2024 01:46:25 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/progress/</guid>
+        <guid>https://evthron.github.io/en/tweet/progress/</guid>
         <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Winter</title>
-        <link>http://localhost:1313/en/tweet/winter/</link>
+        <link>https://evthron.github.io/en/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/winter/</guid>
+        <guid>https://evthron.github.io/en/tweet/winter/</guid>
         <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
