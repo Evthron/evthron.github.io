@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='用 OKLCH 顏色選擇器 做了個符合人眼認知的色環。所有的顏色都有相同的明度和飽和度，色度的間隔也是均勻的。因為色環都是用最高飽和度的純顏料製作的，所以選擇 Chroma = 0.12，是在 sRGB 空間中不存在顏色斷層的最高數值。亮度限在了71到76之間，選了75。 2024/05/25
 這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。 改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為重新加入了亮度和色彩對比。不過，這就説明了一個問題：連基礎色的明度和對比都亂成一團，那要怎麼選擇對比和明暗各異的其他顏色呢？ 一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100 ，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 屏幕説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，得出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。
 實際的情況更加複雜，不只是顯示設備的問題，還涉及人眼的運作。不過，oklch 已經把種種因素考慮在內，所以能用絕對數值描述顏色。這也是個感知均勻的色彩空間，不會在改變明度的時候出現色彩偏移。
@@ -9,7 +9,7 @@
 電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。'>
 <title>準確的色環 | Evthron&#39;s blog</title>
 
-<link rel='canonical' href='http://localhost:1313/zh/gallery/accurate-colour-wheel/'>
+<link rel='canonical' href='https://evthron.github.io/zh/gallery/accurate-colour-wheel/'>
 
 <link rel="stylesheet" href="/scss/style.min.edb0b2412f9d37eaa7b0afc89ef3edb1ef0bad871f593bbd57d05f4e167d434a.css"><meta property='og:title' content='準確的色環'>
 <meta property='og:description' content='用 OKLCH 顏色選擇器 做了個符合人眼認知的色環。所有的顏色都有相同的明度和飽和度，色度的間隔也是均勻的。因為色環都是用最高飽和度的純顏料製作的，所以選擇 Chroma = 0.12，是在 sRGB 空間中不存在顏色斷層的最高數值。亮度限在了71到76之間，選了75。 2024/05/25
@@ -18,9 +18,9 @@
 色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。
 受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。
 電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。'>
-<meta property='og:url' content='http://localhost:1313/zh/gallery/accurate-colour-wheel/'>
+<meta property='og:url' content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Gallery' /><meta property='article:tag' content='science' /><meta property='article:tag' content='art' /><meta property='article:published_time' content='2024-01-29T05:05:42&#43;08:00'/><meta property='article:modified_time' content='2024-06-30T23:14:49&#43;08:00'/><meta property='og:image' content='http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Gallery' /><meta property='article:tag' content='science' /><meta property='article:tag' content='art' /><meta property='article:published_time' content='2024-01-29T05:05:42&#43;08:00'/><meta property='article:modified_time' content='2024-06-30T23:14:49&#43;08:00'/><meta property='og:image' content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
 <meta name="twitter:title" content="準確的色環">
 <meta name="twitter:description" content="用 OKLCH 顏色選擇器 做了個符合人眼認知的色環。所有的顏色都有相同的明度和飽和度，色度的間隔也是均勻的。因為色環都是用最高飽和度的純顏料製作的，所以選擇 Chroma = 0.12，是在 sRGB 空間中不存在顏色斷層的最高數值。亮度限在了71到76之間，選了75。 2024/05/25
 這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。 改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為重新加入了亮度和色彩對比。不過，這就説明了一個問題：連基礎色的明度和對比都亂成一團，那要怎麼選擇對比和明暗各異的其他顏色呢？ 一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100 ，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 屏幕説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，得出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。
@@ -28,7 +28,7 @@
 色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。
 受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。
 電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
+    <meta name="twitter:image" content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
   
@@ -274,9 +274,9 @@
 
                     <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
                     
-                            <option value="http://localhost:1313/zh/gallery/accurate-colour-wheel/" selected>中文</option>
+                            <option value="https://evthron.github.io/zh/gallery/accurate-colour-wheel/" selected>中文</option>
                     
-                            <option value="http://localhost:1313/en/gallery/accurate-colour-wheel/" >English</option>
+                            <option value="https://evthron.github.io/en/gallery/accurate-colour-wheel/" >English</option>
                     
 				    </select>
                 </li>
@@ -383,7 +383,7 @@
 
             <div>
                 
-                    <a href="http://localhost:1313/en/gallery/accurate-colour-wheel/" class="link">English</a>
+                    <a href="https://evthron.github.io/en/gallery/accurate-colour-wheel/" class="link">English</a>
                 
             </div>
         </footer>

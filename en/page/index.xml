@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>http://localhost:1313/en/page/</link>
+        <link>https://evthron.github.io/en/page/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="http://localhost:1313/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language><atom:link href="https://evthron.github.io/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Search</title>
-        <link>http://localhost:1313/en/page/search/</link>
+        <link>https://evthron.github.io/en/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/page/search/</guid>
+        <guid>https://evthron.github.io/en/page/search/</guid>
         <description></description>
         </item>
         

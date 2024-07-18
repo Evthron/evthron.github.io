@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/tags/maths/</link>
+        <link>https://evthron.github.io/zh/tags/maths/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 10 Jun 2024 12:52:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Jun 2024 12:52:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>音階 </title>
-        <link>http://localhost:1313/zh/posts/scale/</link>
+        <link>https://evthron.github.io/zh/posts/scale/</link>
         <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/scale/</guid>
+        <guid>https://evthron.github.io/zh/posts/scale/</guid>
         <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
 &lt;p&gt;第一個問題是，音樂裏面有幾個音？這個容易回答。隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。在這兩個音之間分割十二份，就有十二個不一樣的音。十二個音太多了，不好編旋律，所以作曲家會挑出當中一部分的音使用，這一部分的音就是音階。&lt;/p&gt;
 &lt;p&gt;旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。&lt;/p&gt;
@@ -87,10 +87,10 @@ Altered:    1212222
         </item>
         <item>
         <title>折紙 </title>
-        <link>http://localhost:1313/zh/tweet/origami/</link>
+        <link>https://evthron.github.io/zh/tweet/origami/</link>
         <pubDate>Tue, 04 Jun 2024 21:14:54 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/origami/</guid>
+        <guid>https://evthron.github.io/zh/tweet/origami/</guid>
         <description>&lt;p&gt;我在街上接到傳單的時候，總覺得如果要馬上扔到附近的垃圾筒裏面，那倒不如一開始就不要拿。那廢紙有什麼用呢？拿來折紙也是門手藝。記得小學的數學老師教過怎麼用紙拼出多面體，那比折什麼紙飛機有意思多了。&lt;/p&gt;
 &lt;p&gt;從數學的角度看，折紙就和尺規作圖很像。我聽説過折紙連尺規三大不可能問題之一的三等分角都能做到。尺規的基本操作是畫直線和圓，那折紙的基本操作是什麼呢？我拿起手上的傳單試了一下，想必一個是把邊對摺作出垂直平分線，另一個是沿着對角對折作出對角線，都是把東西分成兩半的操作。在尺規作圖上把線三等分不難，那麼折紙有可能把線三等分呢？連三等分都做不到，真的有可能三等分角嗎？&lt;/p&gt;
 &lt;p&gt;我在一本折紙書上找到了答案，有種上當受騙的感覺：只要折成四等份，然後把多出來的一份剪掉就可以。就和哥倫布立蛋一樣，只要用力把雞蛋往桌面一敲就可以了。為什麼腦子總是在這種地方轉不過彎來呢？&lt;/p&gt;
