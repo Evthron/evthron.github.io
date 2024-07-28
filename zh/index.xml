@@ -300,9 +300,9 @@ Altered:    1212222
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;OKLCH 顏色選擇器&lt;/a&gt; 做了個符合人眼認知的色環。所有的顏色都有相同的明度和飽和度，色度的間隔也是均勻的。因為色環都是用最高飽和度的純顏料製作的，所以選擇 Chroma = 0.12，是在 sRGB 空間中不存在顏色斷層的最高數值。亮度限在了71到76之間，選了75。
-&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OKLCH 顏色選擇器&lt;/a&gt; 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1968&#34;
 	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu9cc10b259be0285912b5e26337b18aea_122979_480x0_resize_q75_h2_box_3.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu9cc10b259be0285912b5e26337b18aea_122979_1024x0_resize_q75_h2_box_3.webp 1024w&#34;
@@ -317,6 +317,11 @@ Altered:    1212222
 	
 &gt;
 &lt;/p&gt;
+&lt;p&gt;顏色數據：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。&lt;/li&gt;
+&lt;li&gt;一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;2024/05/25&lt;/p&gt;
 &lt;p&gt;這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
@@ -334,7 +339,7 @@ Altered:    1212222
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為重新加入了亮度和色彩對比。不過，這就説明了一個問題：連基礎色的明度和對比都亂成一團，那要怎麼選擇對比和明暗各異的其他顏色呢？
+&lt;p&gt;改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為在調色盤裏的基礎顏色，本來就有不一樣的亮度和色彩對比。不過很難從這些各異的顏色出發，調出自己想要的顏色。
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
@@ -350,7 +355,7 @@ Altered:    1212222
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100 ，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 屏幕説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，得出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。&lt;/p&gt;
+&lt;p&gt;一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 像素説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。&lt;/p&gt;
 &lt;p&gt;實際的情況更加複雜，不只是顯示設備的問題，還涉及人眼的運作。不過，oklch 已經把種種因素考慮在內，所以能用絕對數值描述顏色。這也是個感知均勻的色彩空間，不會在改變明度的時候出現色彩偏移。&lt;/p&gt;
 &lt;p&gt;色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。&lt;/p&gt;
 &lt;p&gt;受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。&lt;/p&gt;
