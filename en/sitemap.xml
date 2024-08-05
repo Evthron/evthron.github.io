@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/en/categories/</loc>
-    <lastmod>2024-07-18T20:54:05+08:00</lastmod>
+    <lastmod>2024-08-05T20:03:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -65,7 +65,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/</loc>
-    <lastmod>2024-07-01T18:30:19+08:00</lastmod>
+    <lastmod>2024-08-05T20:03:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -145,7 +145,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/gallery/</loc>
-    <lastmod>2024-06-30T23:14:43+08:00</lastmod>
+    <lastmod>2024-08-05T20:03:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -163,7 +163,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/</loc>
-    <lastmod>2024-06-30T23:14:43+08:00</lastmod>
+    <lastmod>2024-08-05T20:03:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -545,7 +545,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/accurate-colour-wheel/</loc>
-    <lastmod>2024-06-30T23:14:43+08:00</lastmod>
+    <lastmod>2024-08-05T20:03:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -558,7 +558,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/art/</loc>
-    <lastmod>2024-06-30T23:14:43+08:00</lastmod>
+    <lastmod>2024-08-05T20:03:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -571,7 +571,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/science/</loc>
-    <lastmod>2024-06-30T23:14:43+08:00</lastmod>
+    <lastmod>2024-08-05T20:03:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -597,7 +597,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/toolbox/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
+    <lastmod>2024-08-04T08:11:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -615,7 +615,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/toolbox/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
+    <lastmod>2024-08-04T08:11:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -751,17 +751,17 @@
                 href="https://evthron.github.io/en/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/toolbox/autohotkey/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
+    <loc>https://evthron.github.io/en/toolbox/remap-keyboard/</loc>
+    <lastmod>2024-08-04T08:11:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/toolbox/autohotkey/"
+                href="https://evthron.github.io/zh/toolbox/remap-keyboard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/toolbox/autohotkey/"
+                href="https://evthron.github.io/en/toolbox/remap-keyboard/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/agi/</loc>

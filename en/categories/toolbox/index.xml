@@ -43,12 +43,26 @@
 </description>
         </item>
         <item>
-        <title>AutoHotKey</title>
-        <link>https://evthron.github.io/en/toolbox/autohotkey/</link>
+        <title>Remap keyboard</title>
+        <link>https://evthron.github.io/en/toolbox/remap-keyboard/</link>
         <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/toolbox/autohotkey/</guid>
-        <description>&lt;p&gt;My AutoHotKey configurations：&lt;/p&gt;
+        <guid>https://evthron.github.io/en/toolbox/remap-keyboard/</guid>
+        <description>&lt;p&gt;Ergonomics is never a concern of the keyboard design.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It wasted the most powerful fingers, the thumbs, on pressing the big fat spacebar.&lt;/li&gt;
+&lt;li&gt;It abused the right little finger on pressing both enter and the distant backspace.&lt;/li&gt;
+&lt;li&gt;It wasted a spot by placing the useless CapsLock at a easy-to-reach location.&lt;/li&gt;
+&lt;li&gt;Not everyone complains about this: Esc is a common key in the text editor Vim but it is hard to reach.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I can imporve the layout by changing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
+&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
+&lt;li&gt;Right Alt -&amp;gt; Enter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are obsolete keys on the keyboard too.&lt;/p&gt;
+&lt;p&gt;My AutoHotKey configurations：&lt;/p&gt;
 &lt;h2 id=&#34;fn-keys&#34;&gt;Fn Keys&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;F1: Pomodoro&lt;/li&gt;

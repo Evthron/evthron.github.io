@@ -12,8 +12,12 @@
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/gallery/accurate-colour-wheel/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post Accurate Colour Wheel" /&gt;&lt;p&gt;I made this visually accurate colour wheel using the &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;OKLCH colour picker&lt;/a&gt;. All colour are of the same lightness and chroma and their hues are evenly distributed. Since traditional colour wheels are made using pure paint, which has the highest saturation, I want to use the highest chroma possible. Chroma = 0.12 is the value that doesn&amp;rsquo;t have gaps in hues in the sRGB colour gamut. The lightness has to be between 71-76. I chose lightness = 75.
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post Accurate Colour Wheel" /&gt;&lt;p&gt;Colour wheel help us understand colour mixing and choose appealing colour palates, but most colour wheels doesn&amp;rsquo;t isolate hue from lightness and chroma, causing us to perceive colour in a wrong way. The OKLCH colour space seperates the three elements of colours beautifully so I made use of it and created this this visually accurate colour wheel using the &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OKLCH colour picker&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The 12 hues are evenly distributed, meaning they all looked distinct.&lt;/li&gt;
+&lt;li&gt;Chroma = 0.12 is the highest chorma value that doesn&amp;rsquo;t cause gaps in hues in the sRGB colour gamut.&lt;/li&gt;
+&lt;li&gt;The lightness range is limited by the chroma, which has to be between 71-76. I chose lightness = 75.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1968&#34;
@@ -28,7 +32,8 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;
-&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;2024/05/25&lt;/p&gt;
 &lt;p&gt;This drawing doesn&amp;rsquo;t have contrast. There&amp;rsquo;s no difference in luminance and saturation so it looks weird and uncomfortable.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
@@ -46,7 +51,7 @@
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;Now let me repaint it using the saturated colors. This looks like it was draw using the preset colours of MS Paint. So how come it looks more pleasant than the above one?
+&lt;p&gt;Now let me repaint it with the preset colour palate from MS Paint. This surely looked childish, but somehow it still looks more pleasant than the above one.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
@@ -62,7 +67,7 @@
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;Even thought the preset colours all have 100 as values, they varies in luminance and saturation. Actually, the values are relative and cannot be used for comparsion among colours. This misleads artists.&lt;/p&gt;
+&lt;p&gt;From the numbers, the values of the preset colours are all 100, however, they actually varies in luminance. the values are relative and cannot be used for comparison among colours. This misleads artists.&lt;/p&gt;
 &lt;p&gt;Oklch colour space does a great job dealing with this problem. I think using it as the base of a traditional colour wheel would be helpful so I made one myself. I also made a discrete version of the colour space. This is one of the six charts.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
 	width=&#34;1790&#34;

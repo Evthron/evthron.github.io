@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head>
-	<meta name="generator" content="Hugo 0.131.0"><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='真空中的球形白衣'>
-<title>Evthron&#39;s blog</title>
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='現在的鍵盤佈局完全沒有考慮過人體工學：
+沒好好利用有力的拇指，兩隻手指按一個空格鍵。難得有兩個很容易用拇指按到的 Alt 鍵，卻很不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個特別的例子：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
+Capslock -&amp;gt; Backspace Left Alt -&amp;gt; Esc Right Alt -&amp;gt; Enter 鍵盤上還有不少多餘的鍵：
+上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt&#43;F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？ Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。 另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl &#43; Shift &#43; Alt &#43; P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。
+AutoHotKey 是 Windows 專用的改鍵工具。很簡單就能實現以上的要求。缺點是無法進行需要權限的系統操作，像是在登入界面和資源管理器裏，AutoHotKey 的設定無法生效。不知道以系統管理員權限運行 AutoHotKey 有沒有用。
+我把鍵盤設定成這樣：
+瀏覽器 F6 -&amp;gt; Shift &#43; Ctrl &#43; T （打開上一個關閉的分頁） Delete -&amp;gt; Ctrl &#43; W （關閉分頁） PgUp -&amp;gt; Ctrl &#43; Shift &#43; Tab （往前一個分頁） PgDn -&amp;gt; Ctrl &#43; Tab (往後一個分頁) Insert -&amp;gt; Ctrl &#43; T （新增分頁） Enter -&amp;gt; Win &#43; Space 打字 Capslock -&amp;gt; Backspace Left Alt -&amp;gt; Esc Right Alt -&amp;gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 鍵、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&amp;gt; Win &#43; Space（切換中英文輸入法） 啓動軟件 F1: 番茄鐘 F4: 字典（Saladict） F7: 命令窗口（Terminal） F8: 筆記軟件（Vim） 我的鼠標上有兩個額外的鍵，用作複製和貼上了。如果鼠標上沒有額外按鍵的話，我就會把它們放在兩個 Fn 鍵上。'>
+<title>重設鍵盤佈局 | Evthron&#39;s blog</title>
 
-<link rel='canonical' href='https://evthron.github.io/zh/'>
+<link rel='canonical' href='https://evthron.github.io/zh/toolbox/remap-keyboard/'>
 
-<link rel="stylesheet" href="/scss/style.min.edb0b2412f9d37eaa7b0afc89ef3edb1ef0bad871f593bbd57d05f4e167d434a.css"><meta property='og:title' content='Evthron&#39;s blog'>
-<meta property='og:description' content='真空中的球形白衣'>
-<meta property='og:url' content='https://evthron.github.io/zh/'>
+<link rel="stylesheet" href="/scss/style.min.edb0b2412f9d37eaa7b0afc89ef3edb1ef0bad871f593bbd57d05f4e167d434a.css"><meta property='og:title' content='重設鍵盤佈局'>
+<meta property='og:description' content='現在的鍵盤佈局完全沒有考慮過人體工學：
+沒好好利用有力的拇指，兩隻手指按一個空格鍵。難得有兩個很容易用拇指按到的 Alt 鍵，卻很不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個特別的例子：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
+Capslock -&amp;gt; Backspace Left Alt -&amp;gt; Esc Right Alt -&amp;gt; Enter 鍵盤上還有不少多餘的鍵：
+上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt&#43;F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？ Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。 另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl &#43; Shift &#43; Alt &#43; P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。
+AutoHotKey 是 Windows 專用的改鍵工具。很簡單就能實現以上的要求。缺點是無法進行需要權限的系統操作，像是在登入界面和資源管理器裏，AutoHotKey 的設定無法生效。不知道以系統管理員權限運行 AutoHotKey 有沒有用。
+我把鍵盤設定成這樣：
+瀏覽器 F6 -&amp;gt; Shift &#43; Ctrl &#43; T （打開上一個關閉的分頁） Delete -&amp;gt; Ctrl &#43; W （關閉分頁） PgUp -&amp;gt; Ctrl &#43; Shift &#43; Tab （往前一個分頁） PgDn -&amp;gt; Ctrl &#43; Tab (往後一個分頁) Insert -&amp;gt; Ctrl &#43; T （新增分頁） Enter -&amp;gt; Win &#43; Space 打字 Capslock -&amp;gt; Backspace Left Alt -&amp;gt; Esc Right Alt -&amp;gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 鍵、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&amp;gt; Win &#43; Space（切換中英文輸入法） 啓動軟件 F1: 番茄鐘 F4: 字典（Saladict） F7: 命令窗口（Terminal） F8: 筆記軟件（Vim） 我的鼠標上有兩個額外的鍵，用作複製和貼上了。如果鼠標上沒有額外按鍵的話，我就會把它們放在兩個 Fn 鍵上。'>
+<meta property='og:url' content='https://evthron.github.io/zh/toolbox/remap-keyboard/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2024-08-04T07:58:40&#43;08:00 '/>
-<meta name="twitter:title" content="Evthron&#39;s blog">
-<meta name="twitter:description" content="真空中的球形白衣"><link rel="alternate" type="application/rss&#43;xml" href="https://evthron.github.io/zh/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:published_time' content='2023-12-21T22:44:00&#43;08:00'/><meta property='article:modified_time' content='2024-08-04T07:58:40&#43;08:00'/>
+<meta name="twitter:title" content="重設鍵盤佈局">
+<meta name="twitter:description" content="現在的鍵盤佈局完全沒有考慮過人體工學：
+沒好好利用有力的拇指，兩隻手指按一個空格鍵。難得有兩個很容易用拇指按到的 Alt 鍵，卻很不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個特別的例子：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
+Capslock -&amp;gt; Backspace Left Alt -&amp;gt; Esc Right Alt -&amp;gt; Enter 鍵盤上還有不少多餘的鍵：
+上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt&#43;F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？ Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。 另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl &#43; Shift &#43; Alt &#43; P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。
+AutoHotKey 是 Windows 專用的改鍵工具。很簡單就能實現以上的要求。缺點是無法進行需要權限的系統操作，像是在登入界面和資源管理器裏，AutoHotKey 的設定無法生效。不知道以系統管理員權限運行 AutoHotKey 有沒有用。
+我把鍵盤設定成這樣：
+瀏覽器 F6 -&amp;gt; Shift &#43; Ctrl &#43; T （打開上一個關閉的分頁） Delete -&amp;gt; Ctrl &#43; W （關閉分頁） PgUp -&amp;gt; Ctrl &#43; Shift &#43; Tab （往前一個分頁） PgDn -&amp;gt; Ctrl &#43; Tab (往後一個分頁) Insert -&amp;gt; Ctrl &#43; T （新增分頁） Enter -&amp;gt; Win &#43; Space 打字 Capslock -&amp;gt; Backspace Left Alt -&amp;gt; Esc Right Alt -&amp;gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 鍵、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&amp;gt; Win &#43; Space（切換中英文輸入法） 啓動軟件 F1: 番茄鐘 F4: 字典（Saladict） F7: 命令窗口（Terminal） F8: 筆記軟件（Vim） 我的鼠標上有兩個額外的鍵，用作複製和貼上了。如果鼠標上沒有額外按鍵的話，我就會把它們放在兩個 Fn 鍵上。">
     <link rel="shortcut icon" href="/favicon.ico" />
 
   
@@ -214,7 +231,7 @@
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/toolbox/' >
                 
                 
@@ -259,11 +276,9 @@
 
                     <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
                     
-                            <option value="https://evthron.github.io/zh/" selected>中文</option>
+                            <option value="https://evthron.github.io/zh/toolbox/remap-keyboard/" selected>中文</option>
                     
-                            <option value="https://evthron.github.io/en/" >English</option>
-                    
-                            <option value="https://evthron.github.io/tok/" >toki pona</option>
+                            <option value="https://evthron.github.io/en/toolbox/remap-keyboard/" >English</option>
                     
 				    </select>
                 </li>
@@ -302,16 +317,20 @@
 
     <div class="article-details">
     
+    <header class="article-category">
+        
+            <a href="/zh/categories/toolbox/" style="background-color: #888888; color: #fff;">
+                toolbox
+            </a>
+        
+    </header>
+    
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/zh/">介紹</a>
+            <a href="/zh/toolbox/remap-keyboard/">重設鍵盤佈局</a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            真空中的球形白衣
-        </h3>
         
     </div>
 
@@ -331,7 +350,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2023-12-22</time>
+                <time class="article-time--published">2023-12-21</time>
             </div>
         
 
@@ -354,9 +373,7 @@
 
             <div>
                 
-                    <a href="https://evthron.github.io/en/" class="link">English</a>
-                
-                    <a href="https://evthron.github.io/tok/" class="link">toki pona</a>
+                    <a href="https://evthron.github.io/en/toolbox/remap-keyboard/" class="link">English</a>
                 
             </div>
         </footer>
@@ -368,38 +385,54 @@
     <section class="article-content">
     
     
-    <p>我正在把這個 Blog 當名片用，只要讀一讀我寫的東西就可以我是個什麼樣的人了。</p>
+    <p>現在的鍵盤佈局完全沒有考慮過人體工學：</p>
 <ul>
-<li>
-<p><a class="link" href="/zh/posts" >[📝 文章]</a> 是比較長的散文。</p>
+<li>沒好好利用有力的拇指，兩隻手指按一個空格鍵。難得有兩個很容易用拇指按到的 Alt 鍵，卻很不常用。</li>
+<li>常用的 Enter 和 Backspace 要用小指去按，還離得很遠。</li>
+<li>沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。</li>
+<li>還有一個特別的例子：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。</li>
+</ul>
+<p>至少要改成這樣才算理想的鍵位：</p>
 <ul>
-<li><a class="link" href="/zh/posts/instant-messaging" >[即時通訊的障礙]</a> 解釋了現代通訊軟件的缺陷。</li>
+<li>Capslock -&gt; Backspace</li>
+<li>Left Alt -&gt; Esc</li>
+<li>Right Alt -&gt; Enter</li>
 </ul>
-</li>
-<li>
-<p><a class="link" href="/zh/gallery" >[🖼️ 畫]</a>，我挑了些自己畫的畫放在這裏。</p>
+<p>鍵盤上還有不少多餘的鍵：</p>
 <ul>
-<li><a class="link" href="/zh/gallery/accurate-colour-wheel" >[準確的色環]</a> 講述了我學到的一些配色原理。</li>
+<li>上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt+F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？</li>
+<li>Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。</li>
 </ul>
-</li>
-<li>
-<p><a class="link" href="/zh/tweet" >[🐦 Tweet]</a> 顧名思義，是流水賬日記。</p>
-</li>
-<li>
-<p><a class="link" href="/zh/toolbox" >[🛠️ 工具集]</a> 是我推薦的軟件。</p>
+<p>另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl + Shift + Alt + P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。</p>
+<p>AutoHotKey 是 Windows 專用的改鍵工具。很簡單就能實現以上的要求。缺點是無法進行需要權限的系統操作，像是在登入界面和資源管理器裏，AutoHotKey 的設定無法生效。不知道以系統管理員權限運行 AutoHotKey 有沒有用。</p>
+<p>我把鍵盤設定成這樣：</p>
+<h2 id="瀏覽器">瀏覽器</h2>
 <ul>
-<li><a class="link" href="/zh/toolbox/say-goodbye-to-internet/" >[如何告別互聯網]</a> 介紹了一些讓我不要沉迷互聯網的工具。</li>
+<li>F6 -&gt; Shift + Ctrl + T （打開上一個關閉的分頁）</li>
+<li>Delete -&gt; Ctrl + W （關閉分頁）</li>
+<li>PgUp -&gt; Ctrl + Shift + Tab （往前一個分頁）</li>
+<li>PgDn -&gt; Ctrl + Tab (往後一個分頁)</li>
+<li>Insert -&gt; Ctrl + T （新增分頁）</li>
+<li>Enter -&gt; Win + Space</li>
 </ul>
-</li>
-<li>
-<p><a class="link" href="/zh/skill" >[🎮 技能]</a> 用進度條的形式記錄我的學習經驗。</p>
+<h2 id="打字">打字</h2>
 <ul>
-<li>這篇 <a class="link" href="/zh/skill/introduction" >[生活遊戲化]</a> 解釋了什麼是遊戲化。</li>
+<li>Capslock -&gt; Backspace</li>
+<li>Left Alt -&gt; Esc</li>
+<li>Right Alt -&gt; Enter
+這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 鍵、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。</li>
+<li>Enter -&gt; Win + Space（切換中英文輸入法）</li>
 </ul>
-</li>
+<h2 id="啓動軟件">啓動軟件</h2>
+<ul>
+<li>F1: 番茄鐘</li>
+<li>F4: 字典（Saladict）</li>
+<li>F7: 命令窗口（Terminal）</li>
+<li>F8: 筆記軟件（Vim）</li>
 </ul>
-<p>我用主要用中文寫作，不過也同時也會用英文重寫一次自己的文章。如果你很閒的話，歡迎你把不同的版本都讀一次。</p>
-<p>雖然這只是個網站，不是社交平台，但你也是可以訂閲的。使用古代科技 RSS，就可以接收網站的更新。按一下網站頭像下面像 Wi-Fi 一樣的圖標，把那個充滿文字的奇怪網頁的 Url 複製到你的 RSS 閱讀器就可以了。手機可以用開源的 Feeder，瀏覽器可以用 Feedbro 插件。</p>
+<p>我的鼠標上有兩個額外的鍵，用作複製和貼上了。如果鼠標上沒有額外按鍵的話，我就會把它們放在兩個 Fn 鍵上。</p>
+<h2 id="keyd">Keyd</h2>
+<p>Linux 上沒有 Autohotkey。keyd 是個簡單易用的替代品。缺點是沒有辦法按每個程序設置快捷鍵，只能設置全局快捷鍵。而且輸出受到鍵盤佈局影響，我會同時使用 qwerty 的中文輸入和 dvorak，有時候就會出錯。</p>
 
 </section>
 
@@ -417,7 +450,7 @@
 
 
         <span>
-            最後更新 2024-07-01 01:36 &#43;08:00
+            最後更新 2024-08-04 07:58 &#43;08:00
         </span>
     </section></footer>
 
