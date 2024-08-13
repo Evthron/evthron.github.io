@@ -12,7 +12,7 @@
         <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
-        <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a seperate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
+        <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -270,7 +270,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
-        <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
+        <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;h1 id=&#34;pc&#34;&gt;PC&lt;/h1&gt;
@@ -280,10 +280,6 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 &lt;h2 id=&#34;block-recommendation&#34;&gt;Block recommendation&lt;/h2&gt;
 &lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
 &lt;p&gt;Empty your homepage and recommended videos. You should only search by keywords on Youtube.&lt;/p&gt;
-&lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
-&lt;p&gt;Let the channels you don&amp;rsquo;t like out of your sight.&lt;/p&gt;
-&lt;h3 id=&#34;yt-dlp&#34;&gt;yt-dlp&lt;/h3&gt;
-&lt;p&gt;Download the video before you watch. Don&amp;rsquo;t watch hours and hours of stream recordings.&lt;/p&gt;
 &lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
 &lt;p&gt;It&amp;rsquo;s not just an ad blocker. You can block all distracting items on any websites using its element picker.&lt;/p&gt;
 &lt;h2 id=&#34;block-search&#34;&gt;Block search&lt;/h2&gt;
