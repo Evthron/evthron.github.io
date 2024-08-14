@@ -18,8 +18,9 @@
 &lt;ul&gt;
 &lt;li&gt;The 12 hues are evenly distributed, meaning they all looked distinct.&lt;/li&gt;
 &lt;li&gt;Chroma = 0.12, which is the highest chroma value that doesn&amp;rsquo;t cause gaps in the hue spectrum under the sRGB colour gamut.&lt;/li&gt;
-&lt;li&gt;Limited by the chroma choice, The lightness range has to be between 71-76. I chose lightness = 75.
-&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
+&lt;li&gt;Limited by the chroma choice, The lightness range has to be between 71-76. I chose lightness = 75.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1968&#34;
 	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu15237707423871174772.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu16181767488539822774.webp 1024w&#34;
@@ -33,8 +34,7 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;hue&#34;&gt;Hue&lt;/h2&gt;
 &lt;p&gt;Contrasting colours pairs are located at the opposite sides of the wheel, which are 180 degrees away. Pink and turquoise, red and cyan, orange and sky blue, yellow and ultramarine blue, lime and purple, and finally, green and magenta. A palate will look great if the colours used are evenly seperated, like 60 degrees (triangle) or 45 degress (square) from each other.&lt;/p&gt;
 &lt;h2 id=&#34;lightness&#34;&gt;Lightness&lt;/h2&gt;
