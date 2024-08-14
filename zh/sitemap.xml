@@ -138,6 +138,16 @@
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/migrating-to-linux/</loc>
     <lastmod>2024-08-06T03:19:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/migrating-to-linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/migrating-to-linux/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/web/</loc>
     <lastmod>2024-07-01T18:30:19+08:00</lastmod>

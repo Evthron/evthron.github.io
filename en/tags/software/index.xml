@@ -6,7 +6,16 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 19 Jun 2024 23:37:40 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 15 Aug 2024 02:59:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Migrating to Linux</title>
+        <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
+        <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
+        <description>&lt;p&gt;I finally migrated my operating system to linux. Surprisingly, I successfully found alternatives for everything. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have been finished all the work faster but I wasted a lot of time browsing because there are no existing net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>New to JavaScript</title>
         <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
