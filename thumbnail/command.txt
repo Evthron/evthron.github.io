@@ -1,0 +1,2 @@
+filetags -i *.jpg
+move *.jpg "C:\Users\Jacky\Pictures\My Personal Graphics\Sketch Track\book 7"

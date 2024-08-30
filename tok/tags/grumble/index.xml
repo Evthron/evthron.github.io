@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog tok</title>
-        <link>https://evthron.github.io/tok/tags/grumble/</link>
+        <link>http://localhost:1313/tok/tags/grumble/</link>
         <description>Recent content on Evthron&#39;s blog tok</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>tok</language>
-        <lastBuildDate>Sat, 30 Mar 2024 21:23:35 +0800</lastBuildDate><atom:link href="https://evthron.github.io/tok/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 30 Mar 2024 21:23:35 +0800</lastBuildDate><atom:link href="http://localhost:1313/tok/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>nasin pali sin li pona</title>
-        <link>https://evthron.github.io/tok/tweet/easier-publish/</link>
+        <link>http://localhost:1313/tok/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:23:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/tok/tweet/easier-publish/</guid>
+        <guid>http://localhost:1313/tok/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:34&lt;/p&gt;
 &lt;p&gt;mi ken pali e sitelen kepeken ilo Joplin tan ni: &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ilo Joppy&lt;/a&gt; li pana e pona tawa mi. tenpo sin la mi wile ante e sitelen pini mi.&lt;/p&gt;
@@ -23,19 +23,19 @@ mi lukin e sitelen mama Joppy. ni li ike ala. mi ken sona pona e ni. mi lukin si
         </item>
         <item>
         <title>toki lawa pi lon ala</title>
-        <link>https://evthron.github.io/tok/tweet/delusions/</link>
+        <link>http://localhost:1313/tok/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/tok/tweet/delusions/</guid>
+        <guid>http://localhost:1313/tok/tweet/delusions/</guid>
         <description>&lt;p&gt;lawa mi li toki ike anu toki pona. toki lawa li lon ala la, mi wile ni: toki lawa pona mi ken utala e toki lawa ike kulupu. mi ken sitelen e jan pi lon ala la, mi ken pali e jan lawa.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>tenpo lete</title>
-        <link>https://evthron.github.io/tok/tweet/winter/</link>
+        <link>http://localhost:1313/tok/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
-        <guid>https://evthron.github.io/tok/tweet/winter/</guid>
+        <guid>http://localhost:1313/tok/tweet/winter/</guid>
         <description>&lt;p&gt;mi wile pilin seli lili, taso lete mute li lon. mi wile ala tawa. mi wile lon supa lape. tenpo lete la telo suli li ike. tomo tawa telo li ike tawa mi.&lt;/p&gt;
 </description>
         </item>
