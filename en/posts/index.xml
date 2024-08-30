@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>http://localhost:1313/en/posts/</link>
+        <link>https://evthron.github.io/en/posts/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 27 Aug 2024 12:25:35 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 27 Aug 2024 12:25:35 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Gamify my life</title>
-        <link>http://localhost:1313/en/posts/skill-gamification/</link>
+        <link>https://evthron.github.io/en/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/skill-gamification/</guid>
+        <guid>https://evthron.github.io/en/posts/skill-gamification/</guid>
         <description>&lt;p&gt;Gamification is adding game elements to activities. This motivates people to do things they will not normally do. A great example is Habitica, a platform for nurturing habits in an RPG way. Players gain experience points and coins by completing daily tasks. They level up and buy new equipment to attack monsters in quests. I have used Habitica for a years and I recommend anyone to try it to grasp what gamification is.&lt;/p&gt;
 &lt;p&gt;However, as my level grows, the numbers becomes less and less meaningful. I felt that this is just a glorified to-do list. The reason is obvious: A game is not a accurate representation of reality. My avatar is at level 88, but what does that mean? Maybe that was a reward of I being a good learner, or having a great habit of exercising. I can&amp;rsquo;t tell because all the things I earned have been mixed together and there&amp;rsquo;s no record keeping track of them. I want the number to be meaningful, like that actual stats in RPGs that can do actual damages.&lt;/p&gt;
 &lt;p&gt;Therefore, I want to create my own system to represent my real life. I focused on experiences and knowledge because they are easy to quantify and cannot regress. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -22,11 +22,11 @@
         </item>
         <item>
         <title>Cardinals and ordinals</title>
-        <link>http://localhost:1313/en/posts/cardinal-ordinal/</link>
+        <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/cardinal-ordinal/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
+        <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
 &lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
 &lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
@@ -37,10 +37,10 @@
         </item>
         <item>
         <title>Limitations of Instant Messaging</title>
-        <link>http://localhost:1313/en/posts/instant-messaging/</link>
+        <link>https://evthron.github.io/en/posts/instant-messaging/</link>
         <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/instant-messaging/</guid>
+        <guid>https://evthron.github.io/en/posts/instant-messaging/</guid>
         <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
 &lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
 &lt;h2 id=&#34;write-what&#34;&gt;Write what？&lt;/h2&gt;
@@ -77,10 +77,10 @@
         </item>
         <item>
         <title>Writing Diary</title>
-        <link>http://localhost:1313/en/posts/diary/</link>
+        <link>https://evthron.github.io/en/posts/diary/</link>
         <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/diary/</guid>
+        <guid>https://evthron.github.io/en/posts/diary/</guid>
         <description>&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
 &lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;
 &lt;p&gt;Why are we doing this? Why not spread the 3 years on 900 pages? This mean you get to re-read your dairy once a year. Usually, once you put down your day, you never read that entry again. By revisiting your previous years entry, you will starting to realise your mistakes in your writing. Diary is a private thing and there should be any reader. But now you become the reader of your own wrining. You would learn to keep things simple and clear and avoid boring and repetitive events.&lt;/p&gt;
