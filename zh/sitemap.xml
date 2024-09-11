@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2024-08-06T03:19:00+08:00</lastmod>
+    <lastmod>2024-09-12T03:42:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,6 +19,76 @@
                 hreflang="zh"
                 href="https://evthron.github.io/zh/categories/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/maths/</loc>
+    <lastmod>2024-09-12T03:42:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/maths/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/maths/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/categories/posts/</loc>
+    <lastmod>2024-09-12T03:42:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/</loc>
+    <lastmod>2024-09-12T03:42:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/posts/</loc>
+    <lastmod>2024-09-12T03:42:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/posts/median/</loc>
+    <lastmod>2024-09-12T03:42:29+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/categories/sandbox/</loc>
     <lastmod>2024-07-18T20:54:34+08:00</lastmod>
@@ -80,24 +150,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/tags/software/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/tags/</loc>
-    <lastmod>2024-08-06T03:19:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/categories/tweet/</loc>
@@ -178,44 +230,8 @@
     <loc>https://evthron.github.io/zh/tags/gamification/</loc>
     <lastmod>2024-07-01T03:55:24+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/zh/categories/posts/</loc>
-    <lastmod>2024-07-01T03:55:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/posts/knowledge-exchange/</loc>
     <lastmod>2024-07-01T03:55:24+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/posts/</loc>
-    <lastmod>2024-07-01T03:55:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/categories/gallery/</loc>
     <lastmod>2024-07-29T02:58:39+08:00</lastmod>
@@ -315,19 +331,6 @@
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/gallery/</loc>
     <lastmod>2024-06-19T05:31:31+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/tags/maths/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/maths/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/maths/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/scale/</loc>
     <lastmod>2024-06-26T02:39:50+08:00</lastmod>

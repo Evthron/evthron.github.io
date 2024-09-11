@@ -6,7 +6,56 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 29 Jun 2024 21:43:57 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Sep 2024 03:35:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>中位數公式</title>
+        <link>https://evthron.github.io/zh/posts/median/</link>
+        <pubDate>Thu, 12 Sep 2024 03:35:28 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/posts/median/</guid>
+        <description>&lt;p&gt;我為什麼要莫名其妙地研究什麼「&lt;a class=&#34;link&#34; href=&#34;../cardinal-ordinal&#34; &gt;量數和序數&lt;/a&gt;」呢？這是因為我搞不懂中位數的公式。統計學課本上都寫着，是 (n+1)/2，n 是數字的總數。公式很簡單，但卻很難理解。為什麼要先加一再除以二？你可能會説，管它那麼多幹嘛，套公式就完了。但是，二分查找法&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;也要用到中位數，但公式變成了 (n - 1)/2，這似乎和編程語言從零開始編號的做法有關。兩者的差異使我如鯁在喉，而且這個問題不需要特殊的數學知識，憑我自己就能解決。為了我以後寫二分查找法的時候不會出錯，我接下了這個挑戰。&lt;/p&gt;
+&lt;p&gt;歸根究底是這個問題：為什麼五个蘋果平分是 2.5 個，但五根手指的中間是第三根呢？這就是量數和序數的不同。想象你在一排路燈旁邊散步。路燈從一到五編好了號。從一號路燈走到五號路燈需要四步，用數式表示是這樣的：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;一號 + 四步 = 五號
+起點編號 + 步數 = 終點編號
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;移項得到：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;四步 = 五號 - 一號
+步數 = 終點編號 - 起點編號
+如果從 1 開始編號，步數 = 終點編號 - 1。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這裏的編號就是序數，可以看到，序數相減能變成步數。步數是量數，有加減乘除。這就是我原創的「序數運算」。數學家用序數研究什麼是「無限+1」，我用序數研究小學數學，這下我也當了一回「民間數學家」了。&lt;/p&gt;
+&lt;p&gt;現在回到中位數的問題。中位數是用來切開數列的一把刀，左右兩邊的數字數量相等。例如數列 56789，排在第三位的7就是中位數。要找到中位數，就要先知道中位數排在第幾位。用路燈的比喻思考，從起點走到中間路燈的距離，等於從中間路燈走到盡頭的距離。這是「中間」的定義，所以：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;起點編號 + 總步數 ÷ 2 = 中位數編號
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;展開「總步數」：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;起點編號 + （終點編號 - 起點編號）÷ 2 = 中位數編號
+（起點編號 + 終點編號）÷ 2 = 中位數編號
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這下公式的意義就很明確了，統計學和編程的差異也一目瞭然。正常人從一開始編號，總數 n 就是終點編號，所以中位數公式是 (1 + n) ÷ 2，而程序員從零開始編號，終點編號變成了 n - 1，所以中位數公式是 (0 + n - 1) ÷ 2。&lt;/p&gt;
+&lt;p&gt;聽着似乎很彆扭，為什麼偏偏要從零開始數？我來稍微解説一下。編程和統計學不一樣，不太不關心總數，編號反而更有用，所以我們遇到的 n 往往是終點編號。這樣一來，中位數公式就成了簡單的 n / 2。&lt;/p&gt;
+&lt;p&gt;這裏附上簡單的二分查找的説明。我們要從一串數字裏找到 10，這些數字已經按大小編好了號，當然是從零開始編。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+     頭          尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一個中點是 0 + (4-0)/2 = 2。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+     頭    中    尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;編號 2 的數字是 4，比 10 小，所以接着把中點設成起點。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+           頭    尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第二個中點是 2 + (4 - 2) /2 = 3&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+           頭 中 尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;編號 3 的數字是 10，找到收工。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;編程術語，一種從數列中搜尋數字的流程&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>交換知識的聊天挑戰 </title>
         <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
         <pubDate>Sat, 29 Jun 2024 21:43:57 +0800</pubDate>

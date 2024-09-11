@@ -6,7 +6,15 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 12 Jul 2024 07:54:30 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Sep 2024 03:35:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Maths</title>
+        <link>https://evthron.github.io/zh/tags/maths/</link>
+        <pubDate>Thu, 12 Sep 2024 03:35:28 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tags/maths/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Software</title>
         <link>https://evthron.github.io/zh/tags/software/</link>
         <pubDate>Fri, 12 Jul 2024 07:54:30 +0800</pubDate>
@@ -36,14 +44,6 @@
         <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tags/grumble/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Maths</title>
-        <link>https://evthron.github.io/zh/tags/maths/</link>
-        <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/zh/tags/maths/</guid>
         <description></description>
         </item>
         <item>
