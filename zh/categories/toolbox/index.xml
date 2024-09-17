@@ -17,33 +17,56 @@
 &lt;p&gt;第一，依賴決心。決心這玩意只在自己有決心的時候有用，沒有決心的時候就連廢紙都不如了，怎麼會有這麼不方便的東西？對付互聯網這麼吸引人的玩意，怎麼能靠自己一戳即破的決心？對抗誘惑，外界的束縛是最有用的。但是外界的束縛又讓人討厭，讓人有反抗的心思，而天底下沒有毫無破綻的束縛，一定會有漏洞，只要束縛一破，陋習就會變本加厲。所以，要點在於讓自己設下別人執行規則。&lt;/p&gt;
 &lt;p&gt;第二，限制過緊。要是像上面説的一樣，為自己設下牢不可破的障礙，像是把手機鎖在箱裏了，把電腦砸了，到了真的有需要用的時候，一定會氣急敗壞，悔不當初，從此絕口不提斷網的事情了。或許在別的世界裏，要得到好處就要抵得住誘惑，但是在電腦的世界裏沒有這種常識。把不需要的部分像挑魚刺一樣全部剔除，只留下自己需要的部分，才能算是個聰明的用家。&lt;/p&gt;
 &lt;p&gt;在經歷了數不清的後悔、數不清的悔改和數不清的重蹈覆轍之後，我終於摸索出了一套好用的工具來限制自己上網。雖然還不是很完美，但要是能全部用上，你就勝過大部分還矇在鼓裏的人了。&lt;/p&gt;
-&lt;h2 id=&#34;告別移動互聯網&#34;&gt;告別移動互聯網&lt;/h2&gt;
-&lt;p&gt;手機不需要上網的功能。絕對沒有人需要隨時隨地都可以上網，想看什麼就看什麼的手機。所以，為了讓 Google Chrome 和 Youtube 在手機上消失，以下的工具就能派上用場。&lt;/p&gt;
+&lt;p&gt;限制上網的方法從嚴格到寬鬆可以分為三種：禁止，預防，減少興致。禁止是封鎖自己上網的途徑，預防是防止自己發現新的資訊。減少興致是為自己上網增加一點麻煩。按你自己的需要配合着用吧。&lt;/p&gt;
+&lt;h1 id=&#34;手機&#34;&gt;手機&lt;/h1&gt;
+&lt;p&gt;手機是最危險的。絕對沒有人需要隨時隨地都可以上網，想看什麼就看什麼的手機。對付手機，我只有禁止策略，沒有預防和減少興致的策略。&lt;/p&gt;
 &lt;h3 id=&#34;helpmefocus-android&#34;&gt;HelpMeFocus (Android)&lt;/h3&gt;
 &lt;p&gt;不錯的 App 阻擋器。它可以把自己也阻擋掉，這是很重要的功能。&lt;/p&gt;
 &lt;h3 id=&#34;universal-android-debloater-android&#34;&gt;Universal Android Debloater (Android)&lt;/h3&gt;
-&lt;p&gt;在 Android 上，Google Chrome， Youtube 和 Play Store 是系統預裝軟件，一般是刪不掉的。要動用 Universal Android Debloater 這個大殺器才能除掉。&lt;/p&gt;
-&lt;h3 id=&#34;內置的使用時間限制-ios&#34;&gt;內置的使用時間限制 (iOS)&lt;/h3&gt;
-&lt;p&gt;不像 Android，iOS 的數位健康功能做得很嚴格，只要讓別人保管密碼，就保證能讓自己用不上。&lt;/p&gt;
-&lt;h2 id=&#34;電腦&#34;&gt;電腦&lt;/h2&gt;
-&lt;p&gt;電腦能用的工具就比較靈活了，可以在瀏覽器裏安裝擴充套件，不像手機一樣，只能整個 App 屏蔽掉。&lt;/p&gt;
-&lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
-&lt;p&gt;這是必備的網站阻擋器。如果有些網站讓你下不去手封鎖，就要仔細研究 URL，你可能只需要其中一部分讓你分心的頁面。重點是不需要的就要&lt;strong&gt;完全&lt;/strong&gt;封鎖，不要設置倒計時。&lt;/p&gt;
-&lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
-&lt;p&gt;你説不定知道這是個攔截廣告的軟件，但重點不是這個。這是個萬能攔截器，只要網站上有讓你分心的東西，像是百科全書底部能跳到其他相關頁面的連接，或是搜尋頁面上翻到下一頁的箭頭，你就可以用元素選擇器把它們除掉。&lt;/p&gt;
-&lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
+&lt;p&gt;在 Android 上，Google Chrome，Youtube 和 Play Store 是系統預裝軟件，一般是刪不掉的。要動用 &lt;a class=&#34;link&#34; href=&#34;https://github.com/0x192/universal-android-debloater&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Universal Android Debloater (github)&lt;/a&gt; 這個大殺器才能除掉。&lt;/p&gt;
+&lt;p&gt;用不着 Play Store，也可以更新軟件。有些軟件會在官網上直接放出安裝包。要是沒有的話，多數也能在 APKMirror 一類的鏡像網站找到。實在沒有辦法的話，就暫時重新啓用 Play Store 吧。&lt;/p&gt;
+&lt;h3 id=&#34;螢幕使用時間-ios&#34;&gt;螢幕使用時間 (iOS)&lt;/h3&gt;
+&lt;p&gt;iOS 可不像 Android 那麼自由可以隨意禁用軟件，不過 iOS 的數位健康功能做得很嚴格，只能用密碼解鎖。&lt;/p&gt;
+&lt;h1 id=&#34;電腦&#34;&gt;電腦&lt;/h1&gt;
+&lt;p&gt;電腦能用的工具比較靈活，可以在瀏覽器裏安裝擴充套件，不像手機一樣，只能整個 App 屏蔽掉。&lt;/p&gt;
+&lt;h3 id=&#34;阻擋leechblock-ng&#34;&gt;阻擋：Leechblock NG&lt;/h3&gt;
+&lt;p&gt;這是必備的網站阻擋器。你可以試試各種各樣的封鎖策略，設置使用倒計時，或者按時間段封鎖，都是可以的。不過，我的經驗告訴我應該要做得絕一點，不需要上的網站就要完全封鎖。&lt;/p&gt;
+&lt;p&gt;如果有些網站讓你下不去手封鎖，就要仔細研究網站的域名，你可能只需要其中一部分讓你分心的頁面，例如我只需要看知乎專欄 zhuanlan.zhihu.com，而不需要知乎的問答部分 zhihu.com。&lt;/p&gt;
+&lt;p&gt;不過 Leechblock 是瀏覽器插件，只能阻止一個瀏覽器，誰也攔不住你安裝另一個。你能做的就只有把世界上所有瀏覽器的下載頁面封鎖掉。&lt;/p&gt;
+&lt;h3 id=&#34;阻擋cold-turkey-blocker&#34;&gt;阻擋：Cold Turkey Blocker&lt;/h3&gt;
+&lt;p&gt;這個軟件比上面的更進一步，要求瀏覽器必須安裝它的封鎖插件才能啓動。封鎖的程度也很徹底，只要設了時間限制，除了捐錢沒有任何解除封鎖的方法，就算把軟件刪掉也沒用。一般人不可能知道它用了什麼原理，所以這是最強的封鎖軟件。沒有比絕對可靠的規則更讓人感到安心的東西了。&lt;/p&gt;
+&lt;h3 id=&#34;預防ublacklist&#34;&gt;預防：uBlacklist&lt;/h3&gt;
 &lt;p&gt;要是搜尋的時候總是看到那些自己已經擋掉的網站，一定會有解除封鎖的衝動，所以要讓阻擋了的網站從搜尋結果中消失，不讓自己意識到自己阻擋了內容。&lt;/p&gt;
-&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
-&lt;p&gt;Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。&lt;/p&gt;
-&lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
+&lt;p&gt;新網站往往是最危險的。uBlackList 能在搜尋結果裏除掉自己不想看見的網站。&lt;/p&gt;
+&lt;h2 id=&#34;減少興致ublock-origin&#34;&gt;減少興致：uBlock Origin&lt;/h2&gt;
+&lt;p&gt;你説不定知道這是個攔截廣告的軟件，但重點不是這個。這是個萬能攔截器，只要網站上有讓你分心的東西，像是百科全書底部能跳到其他相關頁面的連接，或是搜尋頁面上翻到下一頁的箭頭，你就可以用元素選擇器把它們除掉。&lt;/p&gt;
+&lt;h1 id=&#34;youtube&#34;&gt;Youtube&lt;/h1&gt;
+&lt;p&gt;Youtube 值得為了 Youtube 專門開一段。Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。&lt;/p&gt;
+&lt;h2 id=&#34;阻擋blocktube&#34;&gt;阻擋：BlockTube&lt;/h2&gt;
+&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
+還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。&lt;/p&gt;
+&lt;h2 id=&#34;預防unhook&#34;&gt;預防：Unhook&lt;/h2&gt;
 &lt;p&gt;讓主頁和推薦影片欄都變得一片空白，然後好好管理自己訂閲的頻道。想看其他內容就只能自己搜尋了。&lt;/p&gt;
-&lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
-&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。&lt;/p&gt;
-&lt;h3 id=&#34;yt-dlp&#34;&gt;yt-dlp&lt;/h3&gt;
-&lt;p&gt;這是一套組合招式。如果在看視頻之前，一定要先下載好，會不會少了些觀看的欲望呢？至少不會輕易點進一個多小時的遊戲直播了。&lt;/p&gt;
+&lt;h2 id=&#34;減少興致yt-dlp&#34;&gt;減少興致：yt-dlp&lt;/h2&gt;
+&lt;p&gt;這是一套組合招式。在看 Youtube 之前影片前先下載好，讓自己考慮一下才決定要不要看。至少不會輕易點進一個多小時的遊戲直播了。&lt;/p&gt;
 &lt;p&gt;先用 Leechblock 禁止播放影片的 watch 類頁面，然後在 Ublock Origin 的自定義靜態規則裏加入 &lt;code&gt;youtube.com##ytd-continuation-item-renderer&lt;/code&gt;，停用無限加載，最後在搜尋頁面複製好鏈接，扔進 yt-dlp 裏下載。&lt;/p&gt;
 &lt;h2 id=&#34;用-rss-閱讀器集中內容&#34;&gt;用 RSS 閱讀器集中內容&lt;/h2&gt;
-&lt;p&gt;無論是 Youtube 還是新聞網站，都能用 RSS 閲讀器能訂閲。這樣就能集中觀看自己訂閱的所有內容，不用在其他網站流連。電腦可以用 Feedbro，手機可以用 Feeder&lt;/p&gt;
+&lt;p&gt;無論是 Youtube 還是新聞網站，都能用 RSS 閲讀器訂閲。這樣就能集中觀看自己訂閱的所有內容，不用在其他網站流連。電腦可以用 Feedbro，手機可以用 Feeder。&lt;/p&gt;
+&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+&lt;p&gt;説這個之前先抱怨一句，研究網絡研究得越深入，就能找到越多破解網絡封鎖的辦法。什麼都不知道反而輕鬆，這就是知識的詛咒。不過既然已經開始研究了，就只能研究到底了。&lt;/p&gt;
+&lt;p&gt;Linux 和 Windows 其實並沒有什麼區別，除了 Cold Turkey Blocker 之外全部都能用。可能 Cold Turkey Blocker 的作者也知道，在 Linux 上不用瀏覽器也能上網，破解網絡封鎖的辦法也多的是，所以，封鎖網絡只能中斷網絡連接本身，這需要修改電腦的網絡配置才能實現。&lt;/p&gt;
+&lt;p&gt;網址要先轉換成 IP 地址才能上網，這個過程叫作「域名解析」。只要手動干擾域名解析，就能中斷網絡。&lt;/p&gt;
+&lt;h2 id=&#34;dnsmasq&#34;&gt;dnsmasq&lt;/h2&gt;
+&lt;p&gt;首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。
+在 etc/NetworkManager/dnsmasq.d/block.conf 裏，把自己要封鎖的網站一行行加進去。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;address=/example.com/
+address=/example1.com/
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;現在上 example.com 的時候就解析不了域名。&lt;/p&gt;
+&lt;p&gt;etc 文件夾裏的文件是系統設定，需要 root 權限才能修改。先限制好自己的 sudo 權限讓自己沒有辦法修改文件，然後把 root 密碼藏起來。這樣就沒有辦法修改 dnsmasq 的設定了。不過我還沒有這樣做。只要解除封鎖的過程足夠複雜，我就不會自找麻煩了。要知道，拆掉自己建好的東西是多麼痛苦啊。&lt;/p&gt;
+&lt;p&gt;網上也有一些別人辛苦整理好的封鎖列表，像是 &lt;a class=&#34;link&#34; href=&#34;https://github.com/hagezi/dns-blocklists&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;dns-blocklists (github)&lt;/a&gt;。你也可以拿來用。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -54,10 +77,10 @@
         <guid>https://evthron.github.io/zh/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;現在的鍵盤佈局完全沒有考慮過人體工學：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;沒好好利用有力的拇指，兩隻手指按一個空格鍵。難得有兩個很容易用拇指按到的 Alt 鍵，卻很不常用。&lt;/li&gt;
+&lt;li&gt;沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。&lt;/li&gt;
 &lt;li&gt;常用的 Enter 和 Backspace 要用小指去按，還離得很遠。&lt;/li&gt;
 &lt;li&gt;沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。&lt;/li&gt;
-&lt;li&gt;還有一個特別的例子：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。&lt;/li&gt;
+&lt;li&gt;還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;至少要改成這樣才算理想的鍵位：&lt;/p&gt;
 &lt;ul&gt;
@@ -71,24 +94,24 @@
 &lt;li&gt;Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl + Shift + Alt + P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。&lt;/p&gt;
-&lt;p&gt;AutoHotKey 是 Windows 專用的改鍵工具。很簡單就能實現以上的要求。缺點是無法進行需要權限的系統操作，像是在登入界面和資源管理器裏，AutoHotKey 的設定無法生效。不知道以系統管理員權限運行 AutoHotKey 有沒有用。&lt;/p&gt;
-&lt;p&gt;我把鍵盤設定成這樣：&lt;/p&gt;
-&lt;h2 id=&#34;瀏覽器&#34;&gt;瀏覽器&lt;/h2&gt;
+&lt;p&gt;AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我把鍵盤設定成這樣：&lt;/p&gt;
+&lt;h2 id=&#34;打字&#34;&gt;打字&lt;/h2&gt;
+&lt;p&gt;打字舒服是最重要的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
+&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
+&lt;li&gt;Right Alt -&amp;gt; Enter
+這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。&lt;/li&gt;
+&lt;li&gt;Enter -&amp;gt; Win + Space（切換中英文輸入法）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;瀏覽器操作&#34;&gt;瀏覽器操作&lt;/h2&gt;
+&lt;p&gt;真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;F6 -&amp;gt; Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
 &lt;li&gt;Delete -&amp;gt; Ctrl + W （關閉分頁）&lt;/li&gt;
 &lt;li&gt;PgUp -&amp;gt; Ctrl + Shift + Tab （往前一個分頁）&lt;/li&gt;
 &lt;li&gt;PgDn -&amp;gt; Ctrl + Tab (往後一個分頁)&lt;/li&gt;
 &lt;li&gt;Insert -&amp;gt; Ctrl + T （新增分頁）&lt;/li&gt;
-&lt;li&gt;Enter -&amp;gt; Win + Space&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;打字&#34;&gt;打字&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
-&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
-&lt;li&gt;Right Alt -&amp;gt; Enter
-這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 鍵、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。&lt;/li&gt;
-&lt;li&gt;Enter -&amp;gt; Win + Space（切換中英文輸入法）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;啓動軟件&#34;&gt;啓動軟件&lt;/h2&gt;
 &lt;ul&gt;
@@ -97,9 +120,10 @@
 &lt;li&gt;F7: 命令窗口（Terminal）&lt;/li&gt;
 &lt;li&gt;F8: 筆記軟件（Vim）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;我的鼠標上有兩個額外的鍵，用作複製和貼上了。如果鼠標上沒有額外按鍵的話，我就會把它們放在兩個 Fn 鍵上。&lt;/p&gt;
+&lt;p&gt;我的鼠標上有兩個額外的鍵用作複製和貼上。如果鼠標上沒有額外按鍵的話，我還會把它們放在兩個 Fn 鍵上。&lt;/p&gt;
+&lt;p&gt;AutoHotKey 有一些缺點，你用着用着就知道了。ahk 腳本的格式不太容易學；登入界面和資源管理器是用不了快捷鍵的，因為這些都需要需要系統管理員權限。不過功能很豐富，可以滿足一切自動操作的需求。&lt;/p&gt;
 &lt;h2 id=&#34;keyd&#34;&gt;Keyd&lt;/h2&gt;
-&lt;p&gt;Linux 上沒有 Autohotkey。keyd 是個簡單易用的替代品。缺點是沒有辦法按每個程序設置快捷鍵，只能設置全局快捷鍵。而且輸出受到鍵盤佈局影響，我會同時使用 qwerty 的中文輸入和 dvorak，有時候就會出錯。&lt;/p&gt;
+&lt;p&gt;不知道算 Linux 上沒有 Autohotkey 算不算可惜。不過我也不需要那麼多亂七八糟的功能，只要能改鍵就好。keyd 是 Linux 上的一個簡單易用的替代品。缺點是沒有辦法按每個程序設置快捷鍵，只能設置全局快捷鍵。而且輸出受到鍵盤佈局影響，我同時使用 qwerty 的中文輸入和 dvorak，有時候就會出錯。&lt;/p&gt;
 </description>
         </item>
         
