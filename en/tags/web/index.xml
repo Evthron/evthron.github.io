@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 01 Jul 2024 18:21:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Jul 2024 10:21:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Website redesign</title>
         <link>https://evthron.github.io/en/tweet/blog-layout-modification/</link>
-        <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
+        <pubDate>Mon, 01 Jul 2024 10:21:29 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;

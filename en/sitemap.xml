@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/en/categories/</loc>
-    <lastmod>2024-09-19T00:45:30+08:00</lastmod>
+    <lastmod>2024-09-18T16:45:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/grumble/</loc>
-    <lastmod>2024-09-19T00:45:30+08:00</lastmod>
+    <lastmod>2024-09-18T16:45:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -39,11 +39,16 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/haircut/</loc>
-    <lastmod>2024-09-19T00:45:30+08:00</lastmod>
+    <lastmod>2024-09-18T16:45:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/tweet/haircut/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/haircut/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -52,7 +57,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/</loc>
-    <lastmod>2024-09-19T00:45:30+08:00</lastmod>
+    <lastmod>2024-09-18T16:45:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -70,7 +75,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/tweet/</loc>
-    <lastmod>2024-09-19T00:45:30+08:00</lastmod>
+    <lastmod>2024-09-18T16:45:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -88,7 +93,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/</loc>
-    <lastmod>2024-09-19T00:45:30+08:00</lastmod>
+    <lastmod>2024-09-18T16:45:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -159,9 +164,6 @@
                 href="https://evthron.github.io/en/skill/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/posts/skill-gamification/</loc>
-    <lastmod>2024-09-12T03:47:15+08:00</lastmod>
-  </url><url>
     <loc>https://evthron.github.io/en/skill/introduction/</loc>
     <lastmod>2024-08-27T12:28:06+08:00</lastmod>
     <xhtml:link
@@ -176,7 +178,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/posts/</loc>
-    <lastmod>2024-09-12T03:47:15+08:00</lastmod>
+    <lastmod>2024-09-11T19:47:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -193,8 +195,11 @@
                 href="https://evthron.github.io/en/categories/posts/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/posts/skill-gamification/</loc>
+    <lastmod>2024-09-11T19:47:15+08:00</lastmod>
+  </url><url>
     <loc>https://evthron.github.io/en/posts/</loc>
-    <lastmod>2024-09-12T03:47:15+08:00</lastmod>
+    <lastmod>2024-09-11T19:47:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -212,7 +217,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/migrating-to-linux/</loc>
-    <lastmod>2024-09-18T15:58:00+08:00</lastmod>
+    <lastmod>2024-09-18T07:58:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -225,7 +230,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/software/</loc>
-    <lastmod>2024-09-18T15:58:00+08:00</lastmod>
+    <lastmod>2024-09-18T07:58:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -243,7 +248,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/sandbox/</loc>
-    <lastmod>2024-07-18T20:54:05+08:00</lastmod>
+    <lastmod>2024-07-18T12:54:05+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -256,7 +261,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/test-on-linux/</loc>
-    <lastmod>2024-07-18T20:54:05+08:00</lastmod>
+    <lastmod>2024-07-18T12:54:05+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -269,7 +274,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/web/</loc>
-    <lastmod>2024-08-12T06:12:26+08:00</lastmod>
+    <lastmod>2024-08-11T22:12:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -282,7 +287,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/blog-layout-modification/</loc>
-    <lastmod>2024-08-12T06:12:26+08:00</lastmod>
+    <lastmod>2024-08-11T22:12:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -295,7 +300,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/gallery/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2024-08-14T18:38:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -313,7 +318,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2024-08-14T18:38:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -331,7 +336,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/nightview/</loc>
-    <lastmod>2024-06-30T23:05:52+08:00</lastmod>
+    <lastmod>2024-06-30T15:05:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -344,7 +349,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/sticky-menu/</loc>
-    <lastmod>2024-08-15T03:09:16+08:00</lastmod>
+    <lastmod>2024-08-14T19:09:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -357,7 +362,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/new-to-javascript/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -370,7 +375,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/maths/</loc>
-    <lastmod>2024-08-15T02:46:58+08:00</lastmod>
+    <lastmod>2024-08-14T18:46:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -383,7 +388,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/origami/</loc>
-    <lastmod>2024-08-15T02:46:58+08:00</lastmod>
+    <lastmod>2024-08-14T18:46:58+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -396,7 +401,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/flower-pot/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -414,7 +419,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/arch-linux-installation/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -432,7 +437,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/easier-publish/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -502,7 +507,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/better-search-engine/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -520,7 +525,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/internet/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -538,7 +543,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/delusions/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -556,7 +561,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/joplin-vim-mode/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -574,7 +579,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/productivity-tools/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -592,7 +597,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/search-count/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -623,7 +628,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/progress/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -641,7 +646,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/accurate-colour-wheel/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2024-08-14T18:38:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -654,7 +659,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/art/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2024-08-14T18:38:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -667,7 +672,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/science/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2024-08-14T18:38:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -680,7 +685,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</loc>
-    <lastmod>2024-08-14T03:40:31+08:00</lastmod>
+    <lastmod>2024-08-13T19:40:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -693,7 +698,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/toolbox/</loc>
-    <lastmod>2024-09-15T23:44:12+08:00</lastmod>
+    <lastmod>2024-09-15T15:44:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -711,7 +716,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/toolbox/</loc>
-    <lastmod>2024-09-15T23:44:12+08:00</lastmod>
+    <lastmod>2024-09-15T15:44:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -776,7 +781,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/winter/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <lastmod>2024-06-25T18:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -812,7 +817,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/toolbox/remap-keyboard/</loc>
-    <lastmod>2024-09-15T23:44:12+08:00</lastmod>
+    <lastmod>2024-09-15T15:44:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"

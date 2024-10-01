@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 01 Jul 2024 18:11:52 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Jul 2024 10:11:52 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>網站設計</title>
         <link>https://evthron.github.io/zh/tweet/blog-layout-modification/</link>
-        <pubDate>Mon, 01 Jul 2024 18:11:52 +0800</pubDate>
+        <pubDate>Mon, 01 Jul 2024 10:11:52 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;我總算按照我想要的樣子，把網站的編排調整一遍了！畫廊能把圖片排成方格、Tweet 能直接展示文章內容、能把自我介紹搬到主頁，把原本的主頁搬到新開的另一頁。主頁就要像目錄一樣，而不是一長串像新聞一樣的時間線。我現在更熟悉 hugo 編排頁面的原理了。當然，HTML 和 CSS 的知識也增長了不少。真的很高興。不過，現在卻不知道接下來該做什麼了。&lt;/p&gt;

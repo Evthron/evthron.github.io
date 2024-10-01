@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 18 Sep 2024 23:57:32 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 18 Sep 2024 15:57:32 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Haircut</title>
         <link>https://evthron.github.io/en/tweet/haircut/</link>
-        <pubDate>Wed, 18 Sep 2024 23:57:32 +0800</pubDate>
+        <pubDate>Wed, 18 Sep 2024 15:57:32 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/haircut/</guid>
         <description>&lt;p&gt;The hairdresser grumbled that my demand was unclear, although I had been using the same vague words and the outcomes were somewhat consistent. How misfortunate. At least I learnt their lingo.&lt;/p&gt;
@@ -18,7 +18,7 @@
         <item>
         <title>Migrating to Linux</title>
         <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
-        <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
+        <pubDate>Wed, 14 Aug 2024 18:59:49 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
@@ -29,7 +29,7 @@
         <item>
         <title>Website redesign</title>
         <link>https://evthron.github.io/en/tweet/blog-layout-modification/</link>
-        <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
+        <pubDate>Mon, 01 Jul 2024 10:21:29 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
@@ -38,7 +38,7 @@
         <item>
         <title>Sticky menu</title>
         <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
-        <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
+        <pubDate>Mon, 24 Jun 2024 18:03:52 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
@@ -49,7 +49,7 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <item>
         <title>New to JavaScript</title>
         <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
-        <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
+        <pubDate>Wed, 19 Jun 2024 15:37:40 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
@@ -59,7 +59,7 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <item>
         <title>origami</title>
         <link>https://evthron.github.io/en/tweet/origami/</link>
-        <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
+        <pubDate>Mon, 17 Jun 2024 17:10:39 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/origami/</guid>
         <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
@@ -72,7 +72,7 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <item>
         <title>Arch Linux Installation</title>
         <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
-        <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
+        <pubDate>Thu, 18 Apr 2024 01:19:50 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
@@ -81,7 +81,7 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <item>
         <title>Improved publishing workflow </title>
         <link>https://evthron.github.io/en/tweet/easier-publish/</link>
-        <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
+        <pubDate>Sat, 30 Mar 2024 13:19:00 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
@@ -96,7 +96,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Better Search Engine</title>
         <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
-        <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
+        <pubDate>Fri, 22 Mar 2024 17:04:38 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -114,7 +114,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Delusions</title>
         <link>https://evthron.github.io/en/tweet/delusions/</link>
-        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/delusions/</guid>
         <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
@@ -123,7 +123,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Joplin Vim Mode</title>
         <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
-        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
@@ -132,7 +132,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
-        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;
@@ -141,7 +141,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Search Count</title>
         <link>https://evthron.github.io/en/tweet/search-count/</link>
-        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/search-count/</guid>
         <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
@@ -152,7 +152,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Progress</title>
         <link>https://evthron.github.io/en/tweet/progress/</link>
-        <pubDate>Mon, 26 Feb 2024 01:46:25 +0800</pubDate>
+        <pubDate>Sun, 25 Feb 2024 17:46:25 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/progress/</guid>
         <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
@@ -161,7 +161,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Winter</title>
         <link>https://evthron.github.io/en/tweet/winter/</link>
-        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
+        <pubDate>Fri, 22 Dec 2023 10:20:01 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/winter/</guid>
         <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
