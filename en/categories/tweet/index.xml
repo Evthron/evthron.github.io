@@ -6,7 +6,17 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 18 Sep 2024 15:57:32 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Oct 2024 06:30:46 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Update breakage</title>
+        <link>https://evthron.github.io/en/tweet/update-breakage/</link>
+        <pubDate>Wed, 02 Oct 2024 06:30:46 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/update-breakage/</guid>
+        <description>&lt;p&gt;I shouldn&amp;rsquo;t update the system when I am doing work&amp;hellip; what a classic mistake. The bookmark bar of Firefox became blank and the button layout is stirred up. I spent the whole night trying to open new profiles and imported all the setting twice but somehow it couldn&amp;rsquo;t fix the problem. I have no choice but to remove all the profiles and reinstall firefox.&lt;/p&gt;
+&lt;p&gt;Joppy updates and spilt its API into clientAPI and serverAPI. I have to change my import statement in my python script to make it work. I now understand why people fixate on old versions.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Haircut</title>
         <link>https://evthron.github.io/en/tweet/haircut/</link>
         <pubDate>Wed, 18 Sep 2024 15:57:32 +0800</pubDate>
