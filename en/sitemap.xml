@@ -2,21 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://evthron.github.io/en/tweet/bad-mood-holiday/</loc>
-    <lastmod>2024-10-15T20:03:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/bad-mood-holiday/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/bad-mood-holiday/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/categories/</loc>
-    <lastmod>2024-10-15T20:03:52+08:00</lastmod>
+    <lastmod>2024-11-19T20:26:37+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -31,6 +18,99 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/categories/posts/</loc>
+    <lastmod>2024-11-19T20:26:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/</loc>
+    <lastmod>2024-11-19T20:26:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/stories/</loc>
+    <lastmod>2024-11-19T20:26:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/stories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/stories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/</loc>
+    <lastmod>2024-11-19T20:26:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/reason-to-socialize/</loc>
+    <lastmod>2024-11-19T20:26:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/reason-to-socialize/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/reason-to-socialize/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/bad-mood-holiday/</loc>
+    <lastmod>2024-10-15T20:03:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/bad-mood-holiday/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/bad-mood-holiday/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/tweet/</loc>
@@ -85,24 +165,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/tags/grumble/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/tags/</loc>
-    <lastmod>2024-10-02T06:41:05+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/update-breakage/</loc>
@@ -193,44 +255,8 @@
                 href="https://evthron.github.io/en/skill/introduction/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/categories/posts/</loc>
-    <lastmod>2024-09-11T19:47:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/posts/skill-gamification/</loc>
     <lastmod>2024-09-11T19:47:15+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/</loc>
-    <lastmod>2024-09-11T19:47:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/"
-                />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/migrating-to-linux/</loc>
     <lastmod>2024-09-18T07:58:00+08:00</lastmod>
