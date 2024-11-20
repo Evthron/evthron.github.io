@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>https://evthron.github.io/en/</link>
+        <link>http://localhost:1313/en/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why care about people? Reason to socialize</title>
-        <link>https://evthron.github.io/en/posts/reason-to-socialize/</link>
+        <link>http://localhost:1313/en/posts/reason-to-socialize/</link>
         <pubDate>Tue, 19 Nov 2024 20:18:13 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/posts/reason-to-socialize/</guid>
+        <guid>http://localhost:1313/en/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;I used to think that talking to people was a waste of time. I tried to ask about their lives out of curiosity, but their life snippets didn&amp;rsquo;t benefit me in any way. Sometimes, it did give have some benefits, like they could correct my homework or invite me to events, but that made me feel like the benefits are more important than the people.&lt;/p&gt;
 &lt;p&gt;I only changed my mind until I read the book &lt;em&gt;Getting Relationships Right&lt;/em&gt;. I realised that even though I&amp;rsquo;ve been pretending it&amp;rsquo;s not the case, I still crave connections. I usually assume that I have nothing interesting to share, but it is very gratifying if someone actually listens to what I say. On the other hand, I am usually afraid of hearing my friends&amp;rsquo; talk about their lives when they&amp;rsquo;re doing better than me, but sometimes I do get inspired by their experiences. I care about my friends because I want to build connections, not for any other concrete benefits.&lt;/p&gt;
 &lt;p&gt;Now I feel more comfortable making small talk, sending and replying text messages, and eating with others if it means I can express myself and learn more about my friends&amp;rsquo; interests and aspirations. It&amp;rsquo;ll take a lot of time, and there&amp;rsquo;s no guarantee it&amp;rsquo;ll go well. But isn&amp;rsquo;t this the most rewarding hobby I could ever get?&lt;/p&gt;
@@ -19,39 +19,39 @@
         </item>
         <item>
         <title>Bad mood holiday</title>
-        <link>https://evthron.github.io/en/tweet/bad-mood-holiday/</link>
+        <link>http://localhost:1313/en/tweet/bad-mood-holiday/</link>
         <pubDate>Tue, 15 Oct 2024 20:01:51 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/bad-mood-holiday/</guid>
+        <guid>http://localhost:1313/en/tweet/bad-mood-holiday/</guid>
         <description>&lt;p&gt;I hate holiday. It gives me a fake sense of comfort that I could slack off. Time flies no matter what I do. I always get stuck in deep regret and really annoyed by myself.&lt;/p&gt;
 &lt;p&gt;&amp;lsquo;This is such a tiny thing. I shouldn&amp;rsquo;t be angry and waste any more time on this.&amp;rsquo; This meta emotion makes me feel angrier. What a vicious circle, until I can&amp;rsquo;t take this anymore and cried. After that, I could sit down and write this reflection very easily. It&amp;rsquo;s hard to admit, but emotion plays heavily of the tug-of-war between motivation and procrastination.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Update breakage</title>
-        <link>https://evthron.github.io/en/tweet/update-breakage/</link>
+        <link>http://localhost:1313/en/tweet/update-breakage/</link>
         <pubDate>Wed, 02 Oct 2024 06:30:46 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/update-breakage/</guid>
+        <guid>http://localhost:1313/en/tweet/update-breakage/</guid>
         <description>&lt;p&gt;I shouldn&amp;rsquo;t update the system when I am doing work&amp;hellip; what a classic mistake. The bookmark bar of Firefox became blank and the button layout is stirred up. I spent the whole night trying to open new profiles and imported all the setting twice but somehow it couldn&amp;rsquo;t fix the problem. I have no choice but to remove all the profiles and reinstall firefox.&lt;/p&gt;
 &lt;p&gt;Joppy updates and spilt its API into clientAPI and serverAPI. I have to change my import statement in my python script to make it work. I now understand why people fixate on old versions.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Haircut</title>
-        <link>https://evthron.github.io/en/tweet/haircut/</link>
+        <link>http://localhost:1313/en/tweet/haircut/</link>
         <pubDate>Wed, 18 Sep 2024 15:57:32 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/haircut/</guid>
+        <guid>http://localhost:1313/en/tweet/haircut/</guid>
         <description>&lt;p&gt;The hairdresser grumbled that my demand was unclear, although I had been using the same vague words and the outcomes were somewhat consistent. How misfortunate. At least I learnt their lingo.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Gamify my life</title>
-        <link>https://evthron.github.io/en/posts/skill-gamification/</link>
+        <link>http://localhost:1313/en/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 04:25:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/posts/skill-gamification/</guid>
+        <guid>http://localhost:1313/en/posts/skill-gamification/</guid>
         <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
 &lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. My avatar is at level 88.  I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
 &lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design play and may defeat the purpose of gamification, which is to motivate myself. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
@@ -63,10 +63,10 @@
         </item>
         <item>
         <title>Migrating to Linux</title>
-        <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
+        <link>http://localhost:1313/en/tweet/migrating-to-linux/</link>
         <pubDate>Wed, 14 Aug 2024 18:59:49 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
+        <guid>http://localhost:1313/en/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
 &lt;p&gt;Surprisingly, everything software I need on Windows has an linux alternative. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have finished all the work earlier but I wasted a lot of time browsing because there are no ready-made net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
@@ -74,24 +74,24 @@
         </item>
         <item>
         <title>Website redesign</title>
-        <link>https://evthron.github.io/en/tweet/blog-layout-modification/</link>
+        <link>http://localhost:1313/en/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 10:21:29 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
+        <guid>http://localhost:1313/en/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>night view</title>
-        <link>https://evthron.github.io/en/gallery/nightview/</link>
+        <link>http://localhost:1313/en/gallery/nightview/</link>
         <pubDate>Tue, 25 Jun 2024 18:46:52 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/nightview/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.
-&lt;img src=&#34;https://evthron.github.io/zh/gallery/nightview/nightview.png&#34;
+        <guid>http://localhost:1313/en/gallery/nightview/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.
+&lt;img src=&#34;http://localhost:1313/zh/gallery/nightview/nightview.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;768&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/nightview/nightview_hu16699875967753941879.webp 480w, https://evthron.github.io/zh/gallery/nightview/nightview_hu7189587778845004515.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/nightview/nightview_hu16699875967753941879.webp 480w, http://localhost:1313/zh/gallery/nightview/nightview_hu7189587778845004515.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;nightview&#34;
@@ -107,10 +107,10 @@
         </item>
         <item>
         <title>Sticky menu</title>
-        <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
+        <link>http://localhost:1313/en/tweet/sticky-menu/</link>
         <pubDate>Mon, 24 Jun 2024 18:03:52 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
+        <guid>http://localhost:1313/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.&lt;/p&gt;
@@ -118,20 +118,20 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         </item>
         <item>
         <title>New to JavaScript</title>
-        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
+        <link>http://localhost:1313/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 15:37:40 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
+        <guid>http://localhost:1313/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>origami</title>
-        <link>https://evthron.github.io/en/tweet/origami/</link>
+        <link>http://localhost:1313/en/tweet/origami/</link>
         <pubDate>Mon, 17 Jun 2024 17:10:39 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/origami/</guid>
+        <guid>http://localhost:1313/en/tweet/origami/</guid>
         <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
 &lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because it can solve the unsolvable &amp;ldquo;trisect any angle&amp;rdquo; problem. When I was still holding the flier and walking, I started wondering what the basic mathematical operations of origami are. The first one could be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. When all they do is to cut things in half, is cutting things in third even possible? I went straight to the library to find the answer.&lt;/p&gt;
 &lt;p&gt;The answer is stupidly simple: Just fold the line in half two times and cut out the extra segment. It&amp;rsquo;s like Columbus&amp;rsquo;s egg, my stubborn mind can&amp;rsquo;t solve it.&lt;/p&gt;
@@ -141,15 +141,15 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         </item>
         <item>
         <title>Oil pastel flower pot </title>
-        <link>https://evthron.github.io/en/gallery/flower-pot/</link>
+        <link>http://localhost:1313/en/gallery/flower-pot/</link>
         <pubDate>Wed, 22 May 2024 20:03:14 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/flower-pot/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post Oil pastel flower pot " /&gt;&lt;p&gt;I want to include more colour in my practice. After considering various tools I&amp;rsquo;ve got, I think oil pastel is the best pick since it is mixable and portable. I first studied how well the pigment mixes then gave it a try. The result is not bad isn&amp;rsquo;t it? We may thought oil pastel is child&amp;rsquo;s toy but it isn&amp;rsquo;t the case.
-&lt;img src=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png&#34;
+        <guid>http://localhost:1313/en/gallery/flower-pot/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post Oil pastel flower pot " /&gt;&lt;p&gt;I want to include more colour in my practice. After considering various tools I&amp;rsquo;ve got, I think oil pastel is the best pick since it is mixable and portable. I first studied how well the pigment mixes then gave it a try. The result is not bad isn&amp;rsquo;t it? We may thought oil pastel is child&amp;rsquo;s toy but it isn&amp;rsquo;t the case.
+&lt;img src=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot.png&#34;
 	width=&#34;3119&#34;
 	height=&#34;4086&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flower-pot&#34;
@@ -165,19 +165,19 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         </item>
         <item>
         <title>Arch Linux Installation</title>
-        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
+        <link>http://localhost:1313/en/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 01:19:50 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
+        <guid>http://localhost:1313/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Improved publishing workflow </title>
-        <link>https://evthron.github.io/en/tweet/easier-publish/</link>
+        <link>http://localhost:1313/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 13:19:00 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
+        <guid>http://localhost:1313/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
 &lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
@@ -189,10 +189,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Better Search Engine</title>
-        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
+        <link>http://localhost:1313/en/tweet/better-search-engine/</link>
         <pubDate>Fri, 22 Mar 2024 17:04:38 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
+        <guid>http://localhost:1313/en/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt; are much more interesting than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;reddit&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
@@ -207,37 +207,37 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Delusions</title>
-        <link>https://evthron.github.io/en/tweet/delusions/</link>
+        <link>http://localhost:1313/en/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
+        <guid>http://localhost:1313/en/tweet/delusions/</guid>
         <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Joplin Vim Mode</title>
-        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
+        <link>http://localhost:1313/en/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
+        <guid>http://localhost:1313/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Productivity Tools</title>
-        <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
+        <link>http://localhost:1313/en/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
+        <guid>http://localhost:1313/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Search Count</title>
-        <link>https://evthron.github.io/en/tweet/search-count/</link>
+        <link>http://localhost:1313/en/tweet/search-count/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
+        <guid>http://localhost:1313/en/tweet/search-count/</guid>
         <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:37&lt;/p&gt;
 &lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
@@ -245,20 +245,20 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Progress</title>
-        <link>https://evthron.github.io/en/tweet/progress/</link>
+        <link>http://localhost:1313/en/tweet/progress/</link>
         <pubDate>Sun, 25 Feb 2024 17:46:25 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/progress/</guid>
+        <guid>http://localhost:1313/en/tweet/progress/</guid>
         <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Accurate Colour Wheel</title>
-        <link>https://evthron.github.io/en/gallery/accurate-colour-wheel/</link>
+        <link>http://localhost:1313/en/gallery/accurate-colour-wheel/</link>
         <pubDate>Sun, 28 Jan 2024 21:05:42 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/accurate-colour-wheel/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post Accurate Colour Wheel" /&gt;&lt;p&gt;Most colour wheels failed to isolate hue from lightness and chroma, so we can&amp;rsquo;t rely on them to make appealing colour palates. Luckily, the oklch colour space separates the three elements of colours beautifully so I made use of the &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/en/gallery/accurate-colour-wheel/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post Accurate Colour Wheel" /&gt;&lt;p&gt;Most colour wheels failed to isolate hue from lightness and chroma, so we can&amp;rsquo;t rely on them to make appealing colour palates. Luckily, the oklch colour space separates the three elements of colours beautifully so I made use of the &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OKLCH colour picker&lt;/a&gt; and created this visually accurate colour wheel.&lt;/p&gt;
 &lt;p&gt;Parameters of the colours:&lt;/p&gt;
 &lt;ul&gt;
@@ -266,10 +266,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 &lt;li&gt;Chroma = 0.12, which is the highest chroma value that doesn&amp;rsquo;t cause gaps in the hue spectrum under the sRGB colour gamut.&lt;/li&gt;
 &lt;li&gt;Limited by the chroma choice, The lightness range has to be between 71-76. I chose lightness = 75.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1968&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu15237707423871174772.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu16181767488539822774.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu15237707423871174772.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu16181767488539822774.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;oklch-colour-wheel&#34;
@@ -289,10 +289,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 &lt;hr&gt;
 &lt;p&gt;Using colours with equal lightness, we can create a mystic and almost unnerving effect, the colours are almost like glowing at the boundaries, as presented in the following drawing.&lt;/p&gt;
 &lt;p&gt;This drawing is completely dull in terms of lightness. We can&amp;rsquo;t feel any sense of depth from this picture. This confuses our eyes and feels illusionary.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu9393759845681046119.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu3965038718496254217.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast_hu9393759845681046119.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast_hu3965038718496254217.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;no-contrast&#34;
@@ -305,10 +305,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 &gt;
 &lt;/p&gt;
 &lt;p&gt;Now repaint it with the preset colour palate from MS Paint. This surely looked childish, but somehow it still looks more pleasant than the above one. That because contrast in lightness are reintroduced.
-&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
+&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hu10024767425524988491.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hu18072672390916551944.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast_hu10024767425524988491.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast_hu18072672390916551944.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;naive-contrast&#34;
@@ -323,10 +323,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 &lt;h2 id=&#34;chroma&#34;&gt;Chroma&lt;/h2&gt;
 &lt;p&gt;If we darken the computer screen, everything on the screen we see becomes darker, but the colours doesn&amp;rsquo;t change. That&amp;rsquo;s because each pixel still shows the same ratio of light frequencies.&lt;/p&gt;
 &lt;p&gt;I made colour charts to show colours at different chroma. I haven&amp;rsquo;t find out how to use them yet but they surely looked great. It also makes me wonder what creates the bumps in this chart.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
 	width=&#34;1790&#34;
 	height=&#34;1512&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu11844803995898879742.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu4971358345405652783.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu11844803995898879742.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu4971358345405652783.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;value-intensity-chart&#34;
@@ -342,10 +342,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Say Goodbye to Internet</title>
-        <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
+        <link>http://localhost:1313/en/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Sun, 28 Jan 2024 20:14:14 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</guid>
+        <guid>http://localhost:1313/en/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
 &lt;p&gt;A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It’s best to fully block the sites instead of setting timers.&lt;/p&gt;
@@ -412,11 +412,11 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Cardinals and ordinals</title>
-        <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
+        <link>http://localhost:1313/en/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
+        <guid>http://localhost:1313/en/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
 &lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
 &lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
@@ -427,15 +427,15 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>The Lizard</title>
-        <link>https://evthron.github.io/en/gallery/the-lizard/</link>
+        <link>http://localhost:1313/en/gallery/the-lizard/</link>
         <pubDate>Thu, 11 Jan 2024 06:05:12 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/the-lizard/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post The Lizard" /&gt;&lt;p&gt;I picked the colour from my newly made colour chart and the result is unexpectedly good. I bought this Spider-Man series blind box full of hope but ended up getting the worst one out of eight. But there&amp;rsquo;s no fun drawing Spider-Man right?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png&#34;
+        <guid>http://localhost:1313/en/gallery/the-lizard/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post The Lizard" /&gt;&lt;p&gt;I picked the colour from my newly made colour chart and the result is unexpectedly good. I bought this Spider-Man series blind box full of hope but ended up getting the worst one out of eight. But there&amp;rsquo;s no fun drawing Spider-Man right?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/the-lizard/the-lizard.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu15308341572879632947.webp 480w, https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu13832857966876141034.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/the-lizard/the-lizard_hu15308341572879632947.webp 480w, http://localhost:1313/zh/gallery/the-lizard/the-lizard_hu13832857966876141034.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;the-lizard&#34;
@@ -451,10 +451,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Limitations of Instant Messaging</title>
-        <link>https://evthron.github.io/en/posts/instant-messaging/</link>
+        <link>http://localhost:1313/en/posts/instant-messaging/</link>
         <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/posts/instant-messaging/</guid>
+        <guid>http://localhost:1313/en/posts/instant-messaging/</guid>
         <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
 &lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
 &lt;h2 id=&#34;write-what&#34;&gt;Write what？&lt;/h2&gt;
@@ -491,19 +491,19 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <link>http://localhost:1313/en/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 10:20:01 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <guid>http://localhost:1313/en/tweet/winter/</guid>
         <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Remap keyboard</title>
-        <link>https://evthron.github.io/en/toolbox/remap-keyboard/</link>
+        <link>http://localhost:1313/en/toolbox/remap-keyboard/</link>
         <pubDate>Thu, 21 Dec 2023 19:46:57 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/toolbox/remap-keyboard/</guid>
+        <guid>http://localhost:1313/en/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;Ergonomics has never been a concern for past keyboard designers:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;It wasted the most powerful fingers, the two thumbs, on pressing the big fat space bar.&lt;/li&gt;
@@ -545,11 +545,11 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>AI Generated Oil Painting</title>
-        <link>https://evthron.github.io/en/gallery/agi/</link>
+        <link>http://localhost:1313/en/gallery/agi/</link>
         <pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/agi/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;This one is reward winning!&lt;/p&gt;
+        <guid>http://localhost:1313/en/gallery/agi/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;This one is reward winning!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Prompt: a highly detailed oil painting of a cat walking in foggy london street, steampunk, gears, steam engine, by leonardo da Vinci, trending in artstation&lt;/p&gt;
@@ -579,10 +579,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 &lt;p&gt;Model: v1-5-pruned-emaonly&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/agi/london-cat.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/agi/london-cat.png&#34;
 	width=&#34;768&#34;
 	height=&#34;512&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/agi/london-cat_hu14579941974853960861.webp 480w, https://evthron.github.io/zh/gallery/agi/london-cat_hu12385580081715943234.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/agi/london-cat_hu14579941974853960861.webp 480w, http://localhost:1313/zh/gallery/agi/london-cat_hu12385580081715943234.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;london-cat&#34;
@@ -598,14 +598,14 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Complex Scenary</title>
-        <link>https://evthron.github.io/en/gallery/complex-scenary/</link>
+        <link>http://localhost:1313/en/gallery/complex-scenary/</link>
         <pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/complex-scenary/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post Complex Scenary" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg&#34;
+        <guid>http://localhost:1313/en/gallery/complex-scenary/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post Complex Scenary" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/complex-scenary/nightview.jpg&#34;
 	width=&#34;2317&#34;
 	height=&#34;2649&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu16875356834470962619.webp 480w, https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu14032357259916435379.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/complex-scenary/nightview_hu16875356834470962619.webp 480w, http://localhost:1313/zh/gallery/complex-scenary/nightview_hu14032357259916435379.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;complex-sketch&#34;
@@ -622,10 +622,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Writing Diary</title>
-        <link>https://evthron.github.io/en/posts/diary/</link>
+        <link>http://localhost:1313/en/posts/diary/</link>
         <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/posts/diary/</guid>
+        <guid>http://localhost:1313/en/posts/diary/</guid>
         <description>&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
 &lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;
 &lt;p&gt;Why are we doing this? Why not spread the 3 years on 900 pages? This mean you get to re-read your dairy once a year. Usually, once you put down your day, you never read that entry again. By revisiting your previous years entry, you will starting to realise your mistakes in your writing. Diary is a private thing and there should be any reader. But now you become the reader of your own wrining. You would learn to keep things simple and clear and avoid boring and repetitive events.&lt;/p&gt;
@@ -634,15 +634,15 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Bench</title>
-        <link>https://evthron.github.io/en/gallery/park/</link>
+        <link>http://localhost:1313/en/gallery/park/</link>
         <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/park/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post Bench" /&gt;&lt;p&gt;A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.
-&lt;img src=&#34;https://evthron.github.io/zh/gallery/park/bench.jpg&#34;
+        <guid>http://localhost:1313/en/gallery/park/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/park/bench.jpg" alt="Featured image of post Bench" /&gt;&lt;p&gt;A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.
+&lt;img src=&#34;http://localhost:1313/zh/gallery/park/bench.jpg&#34;
 	width=&#34;1344&#34;
 	height=&#34;1581&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/park/bench_hu14258403961294113723.webp 480w, https://evthron.github.io/zh/gallery/park/bench_hu939157243322423267.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/park/bench_hu14258403961294113723.webp 480w, http://localhost:1313/zh/gallery/park/bench_hu939157243322423267.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;bench&#34;
@@ -658,15 +658,15 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Shelf site cloud</title>
-        <link>https://evthron.github.io/en/gallery/shelf-site-sky/</link>
+        <link>http://localhost:1313/en/gallery/shelf-site-sky/</link>
         <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/gallery/shelf-site-sky/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post Shelf site cloud" /&gt;&lt;p&gt;See something draw something.
-&lt;img src=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
+        <guid>http://localhost:1313/en/gallery/shelf-site-sky/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post Shelf site cloud" /&gt;&lt;p&gt;See something draw something.
+&lt;img src=&#34;http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
 	width=&#34;512&#34;
 	height=&#34;657&#34;
-	srcset=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hu13743017671089899463.webp 480w, https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hu11939192681020110605.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky_hu13743017671089899463.webp 480w, http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky_hu11939192681020110605.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shelf-site-sky&#34;
@@ -682,10 +682,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Search</title>
-        <link>https://evthron.github.io/en/page/search/</link>
+        <link>http://localhost:1313/en/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://evthron.github.io/en/page/search/</guid>
+        <guid>http://localhost:1313/en/page/search/</guid>
         <description></description>
         </item>
         

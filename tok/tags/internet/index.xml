@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog tok</title>
-        <link>https://evthron.github.io/tok/tags/internet/</link>
+        <link>http://localhost:1313/tok/tags/internet/</link>
         <description>Recent content on Evthron&#39;s blog tok</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>tok</language>
-        <lastBuildDate>Fri, 22 Mar 2024 17:04:38 +0800</lastBuildDate><atom:link href="https://evthron.github.io/tok/tags/internet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 Mar 2024 17:04:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/tok/tags/internet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ilo alasa pona</title>
-        <link>https://evthron.github.io/tok/tweet/better-search-engine/</link>
+        <link>http://localhost:1313/tok/tweet/better-search-engine/</link>
         <pubDate>Fri, 22 Mar 2024 17:04:38 +0800</pubDate>
         
-        <guid>https://evthron.github.io/tok/tweet/better-search-engine/</guid>
+        <guid>http://localhost:1313/tok/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;ilo alasa Kuko li ike. mi wile weka e ilo alasa Kuko. ilo alasa &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Marginalia.nu&lt;/a&gt; li pona. ni li ken alasa e lipu lili. lipu lili li pona. sina  e lipu pi tenpo pini la, sina ken kepeken ilo alasa &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt;: taso lipu ni li nasa.&lt;/p&gt;

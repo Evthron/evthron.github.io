@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>https://evthron.github.io/en/tags/software/</link>
+        <link>http://localhost:1313/en/tags/software/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 14 Aug 2024 18:59:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Aug 2024 18:59:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Migrating to Linux</title>
-        <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
+        <link>http://localhost:1313/en/tweet/migrating-to-linux/</link>
         <pubDate>Wed, 14 Aug 2024 18:59:49 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
+        <guid>http://localhost:1313/en/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
 &lt;p&gt;Surprisingly, everything software I need on Windows has an linux alternative. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have finished all the work earlier but I wasted a lot of time browsing because there are no ready-made net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
@@ -19,29 +19,29 @@
         </item>
         <item>
         <title>New to JavaScript</title>
-        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
+        <link>http://localhost:1313/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 15:37:40 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
+        <guid>http://localhost:1313/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Arch Linux Installation</title>
-        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
+        <link>http://localhost:1313/en/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 01:19:50 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
+        <guid>http://localhost:1313/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Improved publishing workflow </title>
-        <link>https://evthron.github.io/en/tweet/easier-publish/</link>
+        <link>http://localhost:1313/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 13:19:00 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
+        <guid>http://localhost:1313/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
 &lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
@@ -53,19 +53,19 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Joplin Vim Mode</title>
-        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
+        <link>http://localhost:1313/en/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
+        <guid>http://localhost:1313/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Productivity Tools</title>
-        <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
+        <link>http://localhost:1313/en/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
+        <guid>http://localhost:1313/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;
 </description>
         </item>

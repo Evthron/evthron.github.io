@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog tok</title>
-        <link>https://evthron.github.io/tok/categories/</link>
+        <link>http://localhost:1313/tok/categories/</link>
         <description>Recent content on Evthron&#39;s blog tok</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>tok</language>
-        <lastBuildDate>Wed, 18 Sep 2024 16:55:14 +0800</lastBuildDate><atom:link href="https://evthron.github.io/tok/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 18 Sep 2024 16:55:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/tok/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>tweet</title>
-        <link>https://evthron.github.io/tok/categories/tweet/</link>
+        <link>http://localhost:1313/tok/categories/tweet/</link>
         <pubDate>Wed, 18 Sep 2024 16:55:14 +0800</pubDate>
         
-        <guid>https://evthron.github.io/tok/categories/tweet/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post tweet" /&gt;</description>
+        <guid>http://localhost:1313/tok/categories/tweet/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post tweet" /&gt;</description>
         </item>
         <item>
         <title>gallery</title>
-        <link>https://evthron.github.io/tok/categories/gallery/</link>
+        <link>http://localhost:1313/tok/categories/gallery/</link>
         <pubDate>Wed, 22 May 2024 21:01:49 +0800</pubDate>
         
-        <guid>https://evthron.github.io/tok/categories/gallery/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        <guid>http://localhost:1313/tok/categories/gallery/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
         </item>
         <item>
         <title>gallery</title>
-        <link>https://evthron.github.io/tok/categories/artwork/</link>
+        <link>http://localhost:1313/tok/categories/artwork/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://evthron.github.io/tok/categories/artwork/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        <guid>http://localhost:1313/tok/categories/artwork/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
         </item>
         <item>
         <title>posts</title>
-        <link>https://evthron.github.io/tok/categories/posts/</link>
+        <link>http://localhost:1313/tok/categories/posts/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://evthron.github.io/tok/categories/posts/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
+        <guid>http://localhost:1313/tok/categories/posts/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
         </item>
         <item>
         <title>toolbox</title>
-        <link>https://evthron.github.io/tok/categories/toolbox/</link>
+        <link>http://localhost:1313/tok/categories/toolbox/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://evthron.github.io/tok/categories/toolbox/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
+        <guid>http://localhost:1313/tok/categories/toolbox/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
         </item>
         
     </channel>

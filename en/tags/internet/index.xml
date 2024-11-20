@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>https://evthron.github.io/en/tags/internet/</link>
+        <link>http://localhost:1313/en/tags/internet/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 22 Mar 2024 17:04:38 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/internet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 Mar 2024 17:04:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/internet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Better Search Engine</title>
-        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
+        <link>http://localhost:1313/en/tweet/better-search-engine/</link>
         <pubDate>Fri, 22 Mar 2024 17:04:38 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
+        <guid>http://localhost:1313/en/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt; are much more interesting than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;reddit&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
