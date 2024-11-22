@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>http://localhost:1313/en/categories/</link>
+        <link>https://evthron.github.io/en/categories/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 19 Nov 2024 20:18:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Nov 2024 20:18:13 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>posts</title>
-        <link>http://localhost:1313/en/categories/posts/</link>
+        <link>https://evthron.github.io/en/categories/posts/</link>
         <pubDate>Tue, 19 Nov 2024 20:18:13 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/categories/posts/</guid>
-        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
+        <guid>https://evthron.github.io/en/categories/posts/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
         </item>
         <item>
         <title>tweet</title>
-        <link>http://localhost:1313/en/categories/tweet/</link>
+        <link>https://evthron.github.io/en/categories/tweet/</link>
         <pubDate>Tue, 15 Oct 2024 20:01:51 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/categories/tweet/</guid>
-        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post tweet" /&gt;</description>
+        <guid>https://evthron.github.io/en/categories/tweet/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post tweet" /&gt;</description>
         </item>
         <item>
         <title>Sandbox</title>
-        <link>http://localhost:1313/en/categories/sandbox/</link>
+        <link>https://evthron.github.io/en/categories/sandbox/</link>
         <pubDate>Thu, 18 Jul 2024 12:45:28 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/categories/sandbox/</guid>
+        <guid>https://evthron.github.io/en/categories/sandbox/</guid>
         <description></description>
         </item>
         <item>
         <title>gallery</title>
-        <link>http://localhost:1313/en/categories/gallery/</link>
+        <link>https://evthron.github.io/en/categories/gallery/</link>
         <pubDate>Tue, 25 Jun 2024 18:46:52 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/categories/gallery/</guid>
-        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        <guid>https://evthron.github.io/en/categories/gallery/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
         </item>
         <item>
         <title>toolbox</title>
-        <link>http://localhost:1313/en/categories/toolbox/</link>
+        <link>https://evthron.github.io/en/categories/toolbox/</link>
         <pubDate>Sun, 28 Jan 2024 20:14:14 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/categories/toolbox/</guid>
-        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
+        <guid>https://evthron.github.io/en/categories/toolbox/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
         </item>
         <item>
         <title>gallery</title>
-        <link>http://localhost:1313/en/categories/artwork/</link>
+        <link>https://evthron.github.io/en/categories/artwork/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/en/categories/artwork/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        <guid>https://evthron.github.io/en/categories/artwork/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
         </item>
         
     </channel>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/</link>
+        <link>https://evthron.github.io/zh/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>交朋友的理由</title>
-        <link>http://localhost:1313/zh/posts/reason-to-socialize/</link>
+        <link>https://evthron.github.io/zh/posts/reason-to-socialize/</link>
         <pubDate>Tue, 19 Nov 2024 20:18:31 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/reason-to-socialize/</guid>
+        <guid>https://evthron.github.io/zh/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;我以前不太關心朋友的生活。如果關心他們的生活對我沒有好處的話，我就會覺得沒有意義，但如果是為了得到好處才去關心的話，我又會覺得自己很不真誠。直到我讀了 Getting Relationships Right 這本書之後，才發現我其實也是很渴望能和別人建立連繫的。我雖然害怕別人對自己的事情不敢興趣，不過如果他們真的能聽進去，我就會很驚喜；我雖然害怕聽到別人的生活比自己充實，但有時候也能從中發現一些讓我覺得很新奇的事情。關心別人是為了滿足我內心的感覺，而不是為了外在的利益，這是我交際的動力。&lt;/p&gt;
-&lt;p&gt;我要陪朋友閒聊，發我不喜歡用的短信，參加我沒有興趣的聚會，和不認識的人搭話。不是為了&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/zh/posts/knowledge-exchange/&#34; &gt;得到知識（交換知識的聊天挑戰 ）&lt;/a&gt;，也不是為了獲得幫助，而是為了互相了解大家的性格、興趣和目標。這是一件多麼冒險，多麼耗時，但又多麼好玩的事啊！&lt;/p&gt;
+&lt;p&gt;我要陪朋友閒聊，發我不喜歡用的短信，參加我沒有興趣的聚會，和不認識的人搭話。不是為了&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/posts/knowledge-exchange/&#34; &gt;得到知識（交換知識的聊天挑戰 ）&lt;/a&gt;，也不是為了獲得幫助，而是為了互相了解大家的性格、興趣和目標。這是一件多麼冒險，多麼耗時，但又多麼好玩的事啊！&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>橡皮擦的妙用</title>
-        <link>http://localhost:1313/zh/tweet/graphite-eraser/</link>
+        <link>https://evthron.github.io/zh/tweet/graphite-eraser/</link>
         <pubDate>Fri, 18 Oct 2024 20:53:17 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/graphite-eraser/</guid>
+        <guid>https://evthron.github.io/zh/tweet/graphite-eraser/</guid>
         <description>&lt;p&gt;畫畫用的鉛筆要削得又長又尖，一般的削筆機是做不到的，只能用美工刀削。我削鉛筆的時削出來的碳粉跑進了玻璃桌上的刮痕，看起來很髒。&lt;/p&gt;
 &lt;p&gt;在所有顏料裏，石墨的污漬似乎是最難處理的。大部分顏料的構造都是色素溶在溶劑裏，所以只要用適合的溶劑就能洗掉。但石墨的結構註定了它不會溶化，雖然很容易脱落，但總是會黏在某個地方，也永遠不會變質。&lt;/p&gt;
 &lt;p&gt;雖然石墨不溶於水，但我還是用紙巾沾了點水才開始擦桌子。水把紙弄軟之後，才能深入縫隙。而且粉末卡在刮痕裏的時候，不能光在表面大範圍地擦拭，而是要用指甲頂着紙巾，和刮痕成垂直方向來回打轉，把碳粉帶出來，才能擦得乾淨。&lt;/p&gt;
@@ -35,10 +35,10 @@
         </item>
         <item>
         <title>docker 連不上網的解決辦法和折騰的悲哀</title>
-        <link>http://localhost:1313/zh/posts/docker-panic/</link>
+        <link>https://evthron.github.io/zh/posts/docker-panic/</link>
         <pubDate>Thu, 17 Oct 2024 11:37:47 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/docker-panic/</guid>
+        <guid>https://evthron.github.io/zh/posts/docker-panic/</guid>
         <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
 &lt;p&gt;學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。&lt;/p&gt;
 &lt;p&gt;作業裏要連接外部網站的是一個 PHP 程式，是不是程式出錯了？老師給的程序應該不會錯，我對 PHP 又是一竅不通，隨便找了個網站的例子改了改程式碼，沒用。&lt;/p&gt;
@@ -102,10 +102,10 @@ sudo reboot
         </item>
         <item>
         <title>假期的壞心情</title>
-        <link>http://localhost:1313/zh/tweet/bad-mood-holiday/</link>
+        <link>https://evthron.github.io/zh/tweet/bad-mood-holiday/</link>
         <pubDate>Tue, 15 Oct 2024 17:51:46 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/bad-mood-holiday/</guid>
+        <guid>https://evthron.github.io/zh/tweet/bad-mood-holiday/</guid>
         <description>&lt;p&gt;我放假就像個廢人一樣，要花好幾天的心情調整心態，才有開始做事的決心。但時間不等人，截止日期的壓力會逼我做該做的事，既然這樣，一開始就不要放假好了。要做的事堆積如山，我卻提不起勁，這實在很令人煩躁。比起電腦燒掉和錯過考試，這算不上什麼，但因為這種雞毛蒜皮的小事而煩躁，實在令我很煩躁。看吧，這就是個走不出來的怪圈。&lt;/p&gt;
 &lt;p&gt;哭過一場之後，我突然就很想坐下來寫這篇感想了，簡直毫不費力。無法否認，所謂的狀態好壞，比起心理準備，其實更受身體的影響。&lt;/p&gt;
 &lt;p&gt;眼白白看着溜掉的光陰的光陰，是不會回來的沉沒成本，但心情是學不會經濟學的，保持自己情緒一致比什麼都來得重要，就算能像切換計算機模式一樣，按幾個按鈕就能平復情緒，也只會讓我感到很可悲。&lt;/p&gt;
@@ -114,16 +114,16 @@ sudo reboot
         </item>
         <item>
         <title>地鐵畫畫</title>
-        <link>http://localhost:1313/zh/posts/drawing-on-train/</link>
+        <link>https://evthron.github.io/zh/posts/drawing-on-train/</link>
         <pubDate>Sat, 12 Oct 2024 20:48:32 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/drawing-on-train/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/posts/drawing-on-train/drawing-on-train.jpg" alt="Featured image of post 地鐵畫畫" /&gt;&lt;p&gt;地鐵上，大家的握手機姿勢各種各樣：單手小指頂着機底，拇指滑屏幕；左手手掌捧着機背，右手食指滑屏幕；雙手在機背交疊，兩隻拇指在屏幕上快速敲擊；還有雙手抓着橫置的手機兩側，兩隻拇指在屏幕上劃圈。加上我的觀察角度也變來變去，有時是瞄旁邊的座位，有時是抬頭看坐在我正對面的人，或是側着身子抓把手的人。居然有種「橫看成嶺側成峯」的感覺。&lt;/p&gt;
+        <guid>https://evthron.github.io/zh/posts/drawing-on-train/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/posts/drawing-on-train/drawing-on-train.jpg" alt="Featured image of post 地鐵畫畫" /&gt;&lt;p&gt;地鐵上，大家的握手機姿勢各種各樣：單手小指頂着機底，拇指滑屏幕；左手手掌捧着機背，右手食指滑屏幕；雙手在機背交疊，兩隻拇指在屏幕上快速敲擊；還有雙手抓着橫置的手機兩側，兩隻拇指在屏幕上劃圈。加上我的觀察角度也變來變去，有時是瞄旁邊的座位，有時是抬頭看坐在我正對面的人，或是側着身子抓把手的人。居然有種「橫看成嶺側成峯」的感覺。&lt;/p&gt;
 &lt;p&gt;這個時候，我作為列車上唯一一個不想看手機的人，該做什麼才能消除盯着玻璃窗做白日夢的煩悶呢？就是把這些形態各異的手掌全部描在紙上，做一本手掌合輯。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/posts/drawing-on-train/hands-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-1.jpg&#34;
 	width=&#34;4305&#34;
 	height=&#34;6053&#34;
-	srcset=&#34;http://localhost:1313/zh/posts/drawing-on-train/hands-1_hu14577960205367293298.webp 480w, http://localhost:1313/zh/posts/drawing-on-train/hands-1_hu5644615898879259456.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-1_hu14577960205367293298.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/hands-1_hu5644615898879259456.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;hands-1&#34;
@@ -134,10 +134,10 @@ sudo reboot
 		data-flex-basis=&#34;170px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/zh/posts/drawing-on-train/hands-2.jpg&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-2.jpg&#34;
 	width=&#34;4326&#34;
 	height=&#34;5916&#34;
-	srcset=&#34;http://localhost:1313/zh/posts/drawing-on-train/hands-2_hu2954258406186769206.webp 480w, http://localhost:1313/zh/posts/drawing-on-train/hands-2_hu10906784864438933274.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-2_hu2954258406186769206.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/hands-2_hu10906784864438933274.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;hands-2&#34;
@@ -152,10 +152,10 @@ sudo reboot
 &lt;p&gt;要盯着陌生人看肯定是不自在的。所以我會使用一些技巧。豎起本子，不能讓別人看見自己的畫紙；挑選離自己很遠的目標；不要一邊盯着人看一邊畫，要記住影像才在紙上動筆等等。不過這些技巧其實都不重要，最大的功臣還是手機。雖然我不太樂見，但正正是因為大家都無暇顧及手機之外的事物，我才有可乘之機。&lt;/p&gt;
 &lt;p&gt;手掌合輯畫膩了，就改畫球鞋合輯，再接着畫髮型合輯。「列車上有數不清的模特兒站着不動讓我畫，真是個理想的畫室！」但他們隨便翻一下手掌，轉一下頭，我就只能傻傻地盯着紙上的半成品了。沒什麼好抱怨的，畢竟世界的一切景象本來就是稍縱即逝的。不僅落筆要快，萬一目標下車了，就要找另外一個姿勢相似的目標拼接起來。&lt;/p&gt;
 &lt;p&gt;就這樣，我練就了一項無人能及的功夫：筆走龍蛇如入無人之境；目所能及之處，皆是素材。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/posts/drawing-on-train/passengers-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-1.jpg&#34;
 	width=&#34;4317&#34;
 	height=&#34;6081&#34;
-	srcset=&#34;http://localhost:1313/zh/posts/drawing-on-train/passengers-1_hu14828757093143374942.webp 480w, http://localhost:1313/zh/posts/drawing-on-train/passengers-1_hu9724398639985587653.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-1_hu14828757093143374942.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/passengers-1_hu9724398639985587653.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;passengers-1&#34;
@@ -166,10 +166,10 @@ sudo reboot
 		data-flex-basis=&#34;170px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/zh/posts/drawing-on-train/passengers-2.jpg&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-2.jpg&#34;
 	width=&#34;4329&#34;
 	height=&#34;6052&#34;
-	srcset=&#34;http://localhost:1313/zh/posts/drawing-on-train/passengers-2_hu17054684828623142521.webp 480w, http://localhost:1313/zh/posts/drawing-on-train/passengers-2_hu9862103546051939853.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-2_hu17054684828623142521.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/passengers-2_hu9862103546051939853.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;passengers-2&#34;
@@ -180,10 +180,10 @@ sudo reboot
 		data-flex-basis=&#34;171px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/zh/posts/drawing-on-train/shoes.jpg&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/shoes.jpg&#34;
 	width=&#34;4356&#34;
 	height=&#34;5951&#34;
-	srcset=&#34;http://localhost:1313/zh/posts/drawing-on-train/shoes_hu656644081911722289.webp 480w, http://localhost:1313/zh/posts/drawing-on-train/shoes_hu5983663412179260210.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/shoes_hu656644081911722289.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/shoes_hu5983663412179260210.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shoes&#34;
@@ -199,19 +199,19 @@ sudo reboot
         </item>
         <item>
         <title>理髮</title>
-        <link>http://localhost:1313/zh/tweet/haircut/</link>
+        <link>https://evthron.github.io/zh/tweet/haircut/</link>
         <pubDate>Wed, 18 Sep 2024 15:57:07 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/haircut/</guid>
+        <guid>https://evthron.github.io/zh/tweet/haircut/</guid>
         <description>&lt;p&gt;我被理髮師抱怨，説我的需求不清楚，真不幸。以前還不是一直都含糊其詞，剪出來的都差不多啊。唉，至少我現在會説理髮師聽得懂的話了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>井字棋入門</title>
-        <link>http://localhost:1313/zh/posts/tic-tac-toe/</link>
+        <link>https://evthron.github.io/zh/posts/tic-tac-toe/</link>
         <pubDate>Sun, 15 Sep 2024 15:39:01 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/tic-tac-toe/</guid>
+        <guid>https://evthron.github.io/zh/posts/tic-tac-toe/</guid>
         <description>&lt;h1 id=&#34;第一章-基礎知識&#34;&gt;第一章 基礎知識&lt;/h1&gt;
 &lt;p&gt;井字棋是一種風靡全世界的遊戲，又名「過三關」，「圈叉棋」。井字棋的規則連小孩子也能明白，卻有着十變百化的局面，使人樂此不疲。&lt;/p&gt;
 &lt;h2 id=&#34;一遊玩方法&#34;&gt;一、遊玩方法&lt;/h2&gt;
@@ -273,10 +273,10 @@ _|_|_
         </item>
         <item>
         <title>中位數公式</title>
-        <link>http://localhost:1313/zh/posts/median/</link>
+        <link>https://evthron.github.io/zh/posts/median/</link>
         <pubDate>Wed, 11 Sep 2024 19:35:28 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/median/</guid>
+        <guid>https://evthron.github.io/zh/posts/median/</guid>
         <description>&lt;p&gt;我為什麼要莫名其妙地研究什麼「&lt;a class=&#34;link&#34; href=&#34;../cardinal-ordinal&#34; &gt;量數和序數&lt;/a&gt;」呢？這是因為我搞不懂中位數的公式。統計學課本上都寫着，是 (n+1)/2，n 是數字的總數。公式很簡單，但卻很難理解。為什麼要先加一再除以二？你可能會説，管它那麼多幹嘛，套公式就完了。但是，二分查找法&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;也要用到中位數，但公式變成了 (n - 1)/2，這似乎和編程語言從零開始編號的做法有關。兩者的差異使我如鯁在喉，這個問題又不需要特殊的數學知識，為了以後寫二分查找法的時候不會出錯，我接下了這個挑戰。&lt;/p&gt;
 &lt;p&gt;歸根究底是這個問題：為什麼五个蘋果平分是 2.5 個，但五根手指的中間是第三根呢？這就是量數和序數的不同。想象你在一排路燈旁邊散步。路燈從一到五編好了號。從一號路燈走到五號路燈需要四步，用數式表示是這樣的：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;一號 + 四步 = 五號
@@ -323,46 +323,46 @@ _|_|_
         </item>
         <item>
         <title>遷移到 Linux</title>
-        <link>http://localhost:1313/zh/tweet/migrating-to-linux/</link>
+        <link>https://evthron.github.io/zh/tweet/migrating-to-linux/</link>
         <pubDate>Thu, 11 Jul 2024 23:54:30 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/migrating-to-linux/</guid>
+        <guid>https://evthron.github.io/zh/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;總算遷移到了 Linux 系統。本來想在舊電腦上安裝，但那部古董總是會在裝到一半的時候突然斷電，沒法用。正好之前在手提電腦上加裝了新硬盤，沒怎麼用，就拿來裝了 Linux。總不可能輕易捨棄隨機附贈的 Windows 和 Office，裝雙盤雙系統就留了後路，也比單盤雙系統安全，安裝時出錯了刪盤重來就好。&lt;/p&gt;
 &lt;p&gt;不過現在已經在 Linux 裝好了所有我需要的軟件，Windows 獨佔的也全部都找到了替代品，已經不需要 Windows 了。也嘗試了 Windows 上沒有的 Tiling Window Manage（磁貼式窗口管理器）。聽起來很花時間，但最花時間的不是安裝系統，也不是找替代品，而是重新設置網絡限制。沒有現成的工具真的很麻煩。我總是會忘記，我鎖上的不是保險箱，而是潘多拉的盒子。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>網站設計</title>
-        <link>http://localhost:1313/zh/tweet/blog-layout-modification/</link>
+        <link>https://evthron.github.io/zh/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 10:11:52 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/blog-layout-modification/</guid>
+        <guid>https://evthron.github.io/zh/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;我總算按照我想要的樣子，把網站的編排調整一遍了！畫廊能把圖片排成方格、Tweet 能直接展示文章內容、能把自我介紹搬到主頁，把原本的主頁搬到新開的另一頁。主頁就要像目錄一樣，而不是一長串像新聞一樣的時間線。我現在更熟悉 hugo 編排頁面的原理了。當然，HTML 和 CSS 的知識也增長了不少。真的很高興。不過，現在卻不知道接下來該做什麼了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>交換知識的聊天挑戰 </title>
-        <link>http://localhost:1313/zh/posts/knowledge-exchange/</link>
+        <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
         <pubDate>Sat, 29 Jun 2024 13:43:57 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/knowledge-exchange/</guid>
+        <guid>https://evthron.github.io/zh/posts/knowledge-exchange/</guid>
         <description>&lt;p&gt;我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？&lt;/p&gt;
 &lt;p&gt;對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。&lt;/p&gt;
 &lt;p&gt;每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/zh/skill/right-sider&#34; &gt;記錄數據&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/skill/right-sider&#34; &gt;記錄數據&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>夜景</title>
-        <link>http://localhost:1313/zh/gallery/nightview/</link>
+        <link>https://evthron.github.io/zh/gallery/nightview/</link>
         <pubDate>Tue, 25 Jun 2024 18:34:57 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/nightview/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/nightview/nightview.png" alt="Featured image of post 夜景" /&gt;&lt;p&gt;本來想畫個背景給網站增加點個性，但放上去之後又覺得太雜亂了，所以加了個濾鏡，完全看不出原本的樣子。唉，這就是為什麼現在的網站都不用背景圖片了嗎？純色的背景雖然看上去會比較專業，但是又很無聊。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/nightview/nightview.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/nightview/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post 夜景" /&gt;&lt;p&gt;本來想畫個背景給網站增加點個性，但放上去之後又覺得太雜亂了，所以加了個濾鏡，完全看不出原本的樣子。唉，這就是為什麼現在的網站都不用背景圖片了嗎？純色的背景雖然看上去會比較專業，但是又很無聊。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/nightview/nightview.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;768&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/nightview/nightview_hu16699875967753941879.webp 480w, http://localhost:1313/zh/gallery/nightview/nightview_hu7189587778845004515.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/nightview/nightview_hu16699875967753941879.webp 480w, https://evthron.github.io/zh/gallery/nightview/nightview_hu7189587778845004515.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;nightview&#34;
@@ -378,10 +378,10 @@ _|_|_
         </item>
         <item>
         <title>黏在旁邊的選單</title>
-        <link>http://localhost:1313/zh/tweet/sticky-menu/</link>
+        <link>https://evthron.github.io/zh/tweet/sticky-menu/</link>
         <pubDate>Mon, 24 Jun 2024 18:01:20 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/sticky-menu/</guid>
+        <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
@@ -389,10 +389,10 @@ _|_|_
         </item>
         <item>
         <title>寫作和繪畫 </title>
-        <link>http://localhost:1313/zh/posts/writing-and-drawing/</link>
+        <link>https://evthron.github.io/zh/posts/writing-and-drawing/</link>
         <pubDate>Fri, 21 Jun 2024 11:16:06 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/writing-and-drawing/</guid>
+        <guid>https://evthron.github.io/zh/posts/writing-and-drawing/</guid>
         <description>&lt;p&gt;寫作好像和繪畫不沾邊，但這兩項活動其實是十分相似的。我聽説過有些古代的文人既是文學家，也是畫家，兩項活動對他們來説是不分家的。我自己研究了一下之後，也明白了繪畫和寫作之間相似又相反的奇特關係。&lt;/p&gt;
 &lt;p&gt;從表面看，寫文章和畫畫似乎一點相似的地方都沒有：文章是逐字逐句去讀的，但畫是一眼就看得完的；任何人寫作，用的都是同一套漢字，但每個人畫畫，用的顏料都不一樣；好的文章是要複製一千份、一萬份，甚至要翻譯成其他語言，讓世界各地的人讀的，但好的畫作卻是獨一無二的，要是讓其他人重畫一次，就不再是原來的那一副畫了。&lt;/p&gt;
 &lt;p&gt;但其實作家和畫家都有一樣的目的，就是把自己觀察到的東西記錄下來。作家寫不出自己沒經歷過的事情，畫家也畫不出自己沒見過的東西。好的作品，一定誠實地記錄下了自己的所見所聞。這裏的誠實，不只是不改變事物原本的面貌，更重要的是不能扭曲腦海裏的真實印象。可以説，並不是因為想要寫作、想要畫畫，才會去觀察身邊的事情，而是因為觀察到了身邊發生的事情，得到了一些印象，然後想要把這些印象記錄下來，才會去寫作和畫畫。&lt;/p&gt;
@@ -402,10 +402,10 @@ _|_|_
         </item>
         <item>
         <title>JavaScript 新手</title>
-        <link>http://localhost:1313/zh/tweet/new-to-javascript/</link>
+        <link>https://evthron.github.io/zh/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 11:48:42 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/new-to-javascript/</guid>
+        <guid>https://evthron.github.io/zh/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。&lt;/p&gt;
 &lt;p&gt;既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？&lt;/p&gt;
 &lt;p&gt;但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。&lt;/p&gt;
@@ -413,10 +413,10 @@ _|_|_
         </item>
         <item>
         <title>音階 </title>
-        <link>http://localhost:1313/zh/posts/scale/</link>
+        <link>https://evthron.github.io/zh/posts/scale/</link>
         <pubDate>Mon, 10 Jun 2024 04:52:49 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/scale/</guid>
+        <guid>https://evthron.github.io/zh/posts/scale/</guid>
         <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
 &lt;p&gt;第一個問題是，音樂裏面有幾個音？這個容易回答。隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。在這兩個音之間分割十二份，就有十二個不一樣的音。十二個音太多了，不好編旋律，所以作曲家會挑出當中一部分的音使用，這一部分的音就是音階。&lt;/p&gt;
 &lt;p&gt;旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。&lt;/p&gt;
@@ -492,10 +492,10 @@ Altered:    1212222
         </item>
         <item>
         <title>折紙 </title>
-        <link>http://localhost:1313/zh/tweet/origami/</link>
+        <link>https://evthron.github.io/zh/tweet/origami/</link>
         <pubDate>Tue, 04 Jun 2024 13:14:54 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/origami/</guid>
+        <guid>https://evthron.github.io/zh/tweet/origami/</guid>
         <description>&lt;p&gt;我在街上接到傳單的時候，總覺得如果要馬上扔到附近的垃圾筒裏面，那倒不如一開始就不要拿。那廢紙有什麼用呢？拿來折紙也是門手藝。記得小學的數學老師教過怎麼用紙拼出多面體，那比折什麼紙飛機有意思多了。&lt;/p&gt;
 &lt;p&gt;從數學的角度看，折紙就和尺規作圖很像。我聽説過折紙連尺規三大不可能問題之一的三等分角都能做到。尺規的基本操作是畫直線和圓，那折紙的基本操作是什麼呢？我拿起手上的傳單試了一下，想必一個是把邊對摺作出垂直平分線，另一個是沿着對角對折作出對角線，都是把東西分成兩半的操作。在尺規作圖上把線三等分不難，那麼折紙有可能把線三等分呢？連三等分都做不到，真的有可能三等分角嗎？&lt;/p&gt;
 &lt;p&gt;我在一本折紙書上找到了答案，有種上當受騙的感覺：只要折成四等份，然後把多出來的一份剪掉就可以。就和哥倫布立蛋一樣，只要用力把雞蛋往桌面一敲就可以了。為什麼腦子總是在這種地方轉不過彎來呢？&lt;/p&gt;
@@ -504,15 +504,15 @@ Altered:    1212222
         </item>
         <item>
         <title>油粉彩花瓶 </title>
-        <link>http://localhost:1313/zh/gallery/flower-pot/</link>
+        <link>https://evthron.github.io/zh/gallery/flower-pot/</link>
         <pubDate>Wed, 22 May 2024 20:02:46 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/flower-pot/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post 油粉彩花瓶 " /&gt;&lt;p&gt;只畫黑白素描沒什麼意思。如果要在畫作裏加入顏色，我考慮了好幾種工具，好像是油粉彩最好，既能混合顏色，也能隨時拿出來用。我先測試了油粉彩顏色混合的特性，多少有點經驗之後再開始畫。成品非常不錯吧？雖然感覺油粉彩是小孩的塗鴉工具，但還是要看技術的嘛。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/flower-pot/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post 油粉彩花瓶 " /&gt;&lt;p&gt;只畫黑白素描沒什麼意思。如果要在畫作裏加入顏色，我考慮了好幾種工具，好像是油粉彩最好，既能混合顏色，也能隨時拿出來用。我先測試了油粉彩顏色混合的特性，多少有點經驗之後再開始畫。成品非常不錯吧？雖然感覺油粉彩是小孩的塗鴉工具，但還是要看技術的嘛。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png&#34;
 	width=&#34;3119&#34;
 	height=&#34;4086&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flower-pot&#34;
@@ -528,10 +528,10 @@ Altered:    1212222
         </item>
         <item>
         <title> 安裝 Arch Linux</title>
-        <link>http://localhost:1313/zh/tweet/arch-linux-installation/</link>
+        <link>https://evthron.github.io/zh/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 01:26:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/arch-linux-installation/</guid>
+        <guid>https://evthron.github.io/zh/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;Arch Wiki 的網絡設置和啟動引導部分寫得不清晰，除此之外不算太難。現在五分鐘就能裝好。&lt;/p&gt;
 &lt;p&gt;19/07/2024
 現在看來 Arch Wiki 寫得不好的地方就只有安裝指南。無論遇到什麼問題，Arch Wiki 都能解決。&lt;/p&gt;
@@ -539,10 +539,10 @@ Altered:    1212222
         </item>
         <item>
         <title>改進發佈流程</title>
-        <link>http://localhost:1313/zh/tweet/easier-publish/</link>
+        <link>https://evthron.github.io/zh/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 13:13:23 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/easier-publish/</guid>
+        <guid>https://evthron.github.io/zh/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:13&lt;/p&gt;
 &lt;p&gt;搗鼓了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。&lt;/p&gt;
@@ -554,10 +554,10 @@ Altered:    1212222
         </item>
         <item>
         <title>更好的搜尋引擎</title>
-        <link>http://localhost:1313/zh/tweet/better-search-engine/</link>
+        <link>https://evthron.github.io/zh/tweet/better-search-engine/</link>
         <pubDate>Fri, 22 Mar 2024 17:04:38 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/better-search-engine/</guid>
+        <guid>https://evthron.github.io/zh/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;我已經厭倦 Google 的搜尋結果了（雖然我用的是 Startpage）。今天發現了 &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt;，它能找到一些更小型的網站。順帶一提，&lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt; 是另一個專門找小型網站的搜尋引擎，但是因為太小型，全部都很奇怪，所以沒什麼用。&lt;/p&gt;
@@ -572,19 +572,19 @@ Altered:    1212222
         </item>
         <item>
         <title>Joplin Vim Mode</title>
-        <link>http://localhost:1313/zh/tweet/joplin-vim-mode/</link>
+        <link>https://evthron.github.io/zh/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/joplin-vim-mode/</guid>
+        <guid>https://evthron.github.io/zh/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;Joplin 居然有 Vim mode？那麼我一直以來特意設置 gvim 做外部編輯器豈不是多此一舉？省得調字體和手動保存。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>幻想</title>
-        <link>http://localhost:1313/zh/tweet/delusions/</link>
+        <link>https://evthron.github.io/zh/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/delusions/</guid>
+        <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
 &lt;p&gt;2024/04/01 00:30
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
@@ -592,10 +592,10 @@ Altered:    1212222
         </item>
         <item>
         <title>時間管理工具</title>
-        <link>http://localhost:1313/zh/tweet/productivity-tools/</link>
+        <link>https://evthron.github.io/zh/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/productivity-tools/</guid>
+        <guid>https://evthron.github.io/zh/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;不工作跑去研究工具是沒有好下場的。不過 Super Productivity 和 ActivityWatch 用起來都不錯。要怎樣運用徹底監控電腦使用時間得到的數據，才能把生活變成數值管理遊戲？不過總之先記錄，其他問題以後再想。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;我想破頭之後總算明白了，我手上的時間管理工具在功課上派不上用場。&lt;/p&gt;
@@ -622,10 +622,10 @@ Altered:    1212222
         </item>
         <item>
         <title>搜尋次數</title>
-        <link>http://localhost:1313/zh/tweet/search-count/</link>
+        <link>https://evthron.github.io/zh/tweet/search-count/</link>
         <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/search-count/</guid>
+        <guid>https://evthron.github.io/zh/tweet/search-count/</guid>
         <description>&lt;p&gt;亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:36&lt;/p&gt;
 &lt;p&gt;可惜我沒有貫徹這種規則的工具。本來是個好主意的。&lt;/p&gt;
@@ -633,25 +633,25 @@ Altered:    1212222
         </item>
         <item>
         <title>進度</title>
-        <link>http://localhost:1313/zh/tweet/progress/</link>
+        <link>https://evthron.github.io/zh/tweet/progress/</link>
         <pubDate>Sun, 25 Feb 2024 17:49:21 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/progress/</guid>
+        <guid>https://evthron.github.io/zh/tweet/progress/</guid>
         <description>&lt;p&gt;不把事情徹底完成就無法推進，這並不是好的做法。先完成初版再不斷更新才是有效的做法。但是，要如何知道自己完成了？除非能夠預知未來，否則就沒有辦法能估計自己的項目推進到哪一部分了。不對，就算能夠預知未來，也不知道要怎麼才能把自己的工作量變成數值反映在進度條上。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>準確的色環</title>
-        <link>http://localhost:1313/zh/gallery/accurate-colour-wheel/</link>
+        <link>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</link>
         <pubDate>Sun, 28 Jan 2024 21:05:42 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/accurate-colour-wheel/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OKLCH 顏色選擇器&lt;/a&gt; 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1968&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu15237707423871174772.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu16181767488539822774.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu15237707423871174772.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu16181767488539822774.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;oklch-colour-wheel&#34;
@@ -670,10 +670,10 @@ Altered:    1212222
 &lt;/ul&gt;
 &lt;p&gt;2024/05/25&lt;/p&gt;
 &lt;p&gt;這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast_hu9393759845681046119.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast_hu3965038718496254217.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu9393759845681046119.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu3965038718496254217.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;no-contrast&#34;
@@ -686,10 +686,10 @@ Altered:    1212222
 &gt;
 &lt;/p&gt;
 &lt;p&gt;改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為在調色盤裏的基礎顏色，本來就有不一樣的亮度和色彩對比。不過很難從這些各異的顏色出發，調出自己想要的顏色。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast_hu10024767425524988491.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast_hu18072672390916551944.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hu10024767425524988491.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hu18072672390916551944.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;naive-contrast&#34;
@@ -706,10 +706,10 @@ Altered:    1212222
 &lt;p&gt;色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。&lt;/p&gt;
 &lt;p&gt;受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。&lt;/p&gt;
 &lt;p&gt;電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
 	width=&#34;1790&#34;
 	height=&#34;1512&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu11844803995898879742.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu4971358345405652783.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu11844803995898879742.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu4971358345405652783.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;value-intensity-chart&#34;
@@ -726,10 +726,10 @@ Altered:    1212222
         </item>
         <item>
         <title>如何告別互聯網</title>
-        <link>http://localhost:1313/zh/toolbox/say-goodbye-to-internet/</link>
+        <link>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Sun, 28 Jan 2024 20:13:29 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/say-goodbye-to-internet/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;p&gt;以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？&lt;/p&gt;
 &lt;p&gt;不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。&lt;/p&gt;
 &lt;p&gt;第一，依賴決心。決心這玩意只在自己有決心的時候有用，沒有決心的時候就連廢紙都不如了，怎麼會有這麼不方便的東西？對付互聯網這麼吸引人的玩意，怎麼能靠自己一戳即破的決心？對抗誘惑，外界的束縛是最有用的。但是外界的束縛又讓人討厭，讓人有反抗的心思，而天底下沒有毫無破綻的束縛，一定會有漏洞，只要束縛一破，陋習就會變本加厲。所以，要點在於讓自己設下別人執行規則。&lt;/p&gt;
@@ -789,11 +789,11 @@ address=/example1.com/
         </item>
         <item>
         <title>量數和序數</title>
-        <link>http://localhost:1313/zh/posts/cardinal-ordinal/</link>
+        <link>https://evthron.github.io/zh/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/cardinal-ordinal/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
+        <guid>https://evthron.github.io/zh/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
 &lt;p&gt;量數遠比序數有用。量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如在時鐘上，兩點在一點的後面，三點在兩點的後面，但是不能把「一點」和「兩點」加起來得到「三點」，這是沒有意義的。&lt;/p&gt;
 &lt;p&gt;要利用序數，就要先轉換成有用的量數。對於不同的問題，我們關心的量數是不一樣的，所以轉換方法也不一樣。&lt;/p&gt;
 &lt;p&gt;在數物件的時候，我們關心的量數是「物件的量數」，這剛好和「最後一個物件的序數」是相等的。比如要知道桌子上有幾個蘋果，就要「第一個，第二個，第三個」這樣數出來。如果數到了第三個蘋果，數過的蘋果總數就是三個。&lt;/p&gt;
@@ -812,15 +812,15 @@ address=/example1.com/
         </item>
         <item>
         <title>蜥蜴人</title>
-        <link>http://localhost:1313/zh/gallery/the-lizard/</link>
+        <link>https://evthron.github.io/zh/gallery/the-lizard/</link>
         <pubDate>Thu, 11 Jan 2024 06:05:11 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/the-lizard/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post 蜥蜴人" /&gt;&lt;p&gt;本來只是想試試新製作的色板，但沒想到竟然可以畫得這麽好。第一次買這種盒子形狀的新時代扭蛋就被概率背叛了。雖然不想要這種古怪玩意當擺設，不過可能正正是不想要的東西畫起來才有趣。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/the-lizard/the-lizard.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/the-lizard/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post 蜥蜴人" /&gt;&lt;p&gt;本來只是想試試新製作的色板，但沒想到竟然可以畫得這麽好。第一次買這種盒子形狀的新時代扭蛋就被概率背叛了。雖然不想要這種古怪玩意當擺設，不過可能正正是不想要的東西畫起來才有趣。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/the-lizard/the-lizard_hu15308341572879632947.webp 480w, http://localhost:1313/zh/gallery/the-lizard/the-lizard_hu13832857966876141034.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu15308341572879632947.webp 480w, https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu13832857966876141034.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;the-lizard&#34;
@@ -836,10 +836,10 @@ address=/example1.com/
         </item>
         <item>
         <title>即時通訊的障礙</title>
-        <link>http://localhost:1313/zh/posts/instant-messaging/</link>
+        <link>https://evthron.github.io/zh/posts/instant-messaging/</link>
         <pubDate>Fri, 29 Dec 2023 16:36:02 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/instant-messaging/</guid>
+        <guid>https://evthron.github.io/zh/posts/instant-messaging/</guid>
         <description>&lt;p&gt;互聯網能促進交流，這似乎是理所當然的。感覺只要有一部手機，無論是身在國外的舊同學，家鄉的親人，還是只有一面之緣的人，發一個訊息就聯繫得上。但是為什麽我們還是覺得孤獨？就算手機裏有一百個聯絡人，關鍵時刻能聊上天的人還是一個都沒有。&lt;/p&gt;
 &lt;p&gt;其實即時通訊並不是現實聊天的補充，而是一種另類的信件交流。它的設計和一百八十年前 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 的郵遞送信一樣，仍然是由三個步驟組成：寫信寄出，等待回信，閱讀回信。因此，找不到適合的交流對象也不足為奇。&lt;/p&gt;
 &lt;h2 id=&#34;寫什麽&#34;&gt;寫什麽？&lt;/h2&gt;
@@ -876,19 +876,19 @@ address=/example1.com/
         </item>
         <item>
         <title>冷天</title>
-        <link>http://localhost:1313/zh/tweet/winter/</link>
+        <link>https://evthron.github.io/zh/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 10:20:01 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/winter/</guid>
+        <guid>https://evthron.github.io/zh/tweet/winter/</guid>
         <description>&lt;p&gt;真的好冷啊。上星期還是熱得和夏天一樣，還以為能過個暖和的冬天。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>重設鍵盤佈局</title>
-        <link>http://localhost:1313/zh/toolbox/remap-keyboard/</link>
+        <link>https://evthron.github.io/zh/toolbox/remap-keyboard/</link>
         <pubDate>Thu, 21 Dec 2023 14:44:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/remap-keyboard/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;現在的鍵盤佈局完全沒有考慮過人體工學：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。&lt;/li&gt;
@@ -942,11 +942,11 @@ address=/example1.com/
         </item>
         <item>
         <title>AI Generated Oil Painting</title>
-        <link>http://localhost:1313/zh/gallery/agi/</link>
+        <link>https://evthron.github.io/zh/gallery/agi/</link>
         <pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/agi/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;這可是拿過獎的！&lt;/p&gt;
+        <guid>https://evthron.github.io/zh/gallery/agi/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;這可是拿過獎的！&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Prompt: a highly detailed oil painting of a cat walking in foggy london street, steampunk, gears, steam engine, by leonardo da Vinci, trending in artstation&lt;/p&gt;
@@ -976,10 +976,10 @@ address=/example1.com/
 &lt;p&gt;Model: v1-5-pruned-emaonly&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/agi/london-cat.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/agi/london-cat.png&#34;
 	width=&#34;768&#34;
 	height=&#34;512&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/agi/london-cat_hu14579941974853960861.webp 480w, http://localhost:1313/zh/gallery/agi/london-cat_hu12385580081715943234.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/agi/london-cat_hu14579941974853960861.webp 480w, https://evthron.github.io/zh/gallery/agi/london-cat_hu12385580081715943234.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;london-cat&#34;
@@ -995,10 +995,10 @@ address=/example1.com/
         </item>
         <item>
         <title>時區</title>
-        <link>http://localhost:1313/zh/posts/timezone/</link>
+        <link>https://evthron.github.io/zh/posts/timezone/</link>
         <pubDate>Sat, 02 Dec 2023 08:13:39 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/timezone/</guid>
+        <guid>https://evthron.github.io/zh/posts/timezone/</guid>
         <description>&lt;p&gt;2022/12/29 09:36&lt;/p&gt;
 &lt;p&gt;要是按照時區算的話，現在我正準備橫渡太平洋。&lt;/p&gt;
 &lt;p&gt;事情要從考完試一覺睡到下午五點說起。按常理來說，想回到正常的作息，應該要再熬一天夜，或者用鬧鐘早起。換作平常，也沒別的辦法，這是考試熬夜不睡必然的後果。不過考完試還得熬夜，放假還得調鬧鐘不成？我就試了試別的辦法——把起床時間自然地調回去，幫自己倒時差。&lt;/p&gt;
@@ -1010,10 +1010,10 @@ address=/example1.com/
         </item>
         <item>
         <title>登山</title>
-        <link>http://localhost:1313/zh/posts/mountain/</link>
+        <link>https://evthron.github.io/zh/posts/mountain/</link>
         <pubDate>Sat, 02 Dec 2023 08:12:27 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/mountain/</guid>
+        <guid>https://evthron.github.io/zh/posts/mountain/</guid>
         <description>&lt;p&gt;2022/12/24 22:24&lt;/p&gt;
 &lt;p&gt;爬山真是個讓人逃避現實的好興趣，因為這是個相當單純的活動，只需要一直往前走就可以了，無暇思考多餘的事。就算要跨過石頭，要踩過泥濘地，要跨過樹根，也只需要盯着腳下向前。不用管鞋子是不是進了水，不用管褲管是不是沾上了泥，只要能走就可以了。不用想走了多遠，不用知道還有多遠，甚至不用知道要去哪裏，只要一直往前走就可以了。是的，甚麼都不用想，千字的文章一筆未動也好，整個學期一竅不通也好，人既然遠離了無線電波，就跟外面的世界斷了聯繫。在人跡罕至的山裏，剩下的就只有人和自然的搏鬥。&lt;/p&gt;
 &lt;p&gt;的確是搏鬥，這並不是因為爬山有多麼消耗體力，而是因為充滿障礙的環境消磨着人的理智。雨粉打在眼鏡上，忍受着白茫茫的視野前行，擦拭也沒有意義。在葉子叢中穿行時，枝葉不斷拍過臉、掃過臉，撥都撥不開；每個轉角必定有個斜坡，感受隨時會失足的刺激，濕潤的泥土上落腳；最後只能時不時喘氣、時不時抱怨、時不時怪叫。把不想淋雨的幻想和傘一起收回包裏，沒有餘裕擋雨；彎下腰避開枝葉，恨不得能在地上爬；抓緊粗糙的樹枝，為了不摔倒就得讓手指流血，然後繼續走下去。&lt;/p&gt;
@@ -1022,14 +1022,14 @@ address=/example1.com/
         </item>
         <item>
         <title>什麽都畫得出來</title>
-        <link>http://localhost:1313/zh/gallery/complex-scenary/</link>
+        <link>https://evthron.github.io/zh/gallery/complex-scenary/</link>
         <pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/complex-scenary/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post 什麽都畫得出來" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/complex-scenary/nightview.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/complex-scenary/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post 什麽都畫得出來" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg&#34;
 	width=&#34;2317&#34;
 	height=&#34;2649&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/complex-scenary/nightview_hu16875356834470962619.webp 480w, http://localhost:1313/zh/gallery/complex-scenary/nightview_hu14032357259916435379.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu16875356834470962619.webp 480w, https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu14032357259916435379.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;complex-sketch&#34;
@@ -1046,10 +1046,10 @@ address=/example1.com/
         </item>
         <item>
         <title>寫日記</title>
-        <link>http://localhost:1313/zh/posts/diary/</link>
+        <link>https://evthron.github.io/zh/posts/diary/</link>
         <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/diary/</guid>
+        <guid>https://evthron.github.io/zh/posts/diary/</guid>
         <description>&lt;p&gt;中學的時候參加中文學會的文社，老師給我們送了一本日記。然後我就從中二到中五寫了三年的日記。&lt;/p&gt;
 &lt;p&gt;這本日記有366頁，每頁都印好了日期和三欄寫作空間，所以可以寫三年。寫作方法是這樣的：例如我在11月26日開始的話，會寫在11/26那一頁的第一欄，第二和第三欄留空。接下來的日子全部都寫在第一欄，直到一年過去，每一頁的第一欄都寫滿了，就下移到第二欄繼續，第二年到第三年也一樣。&lt;/p&gt;
 &lt;p&gt;把三篇日記堆在同一頁的用意是，讓日記不再是寫了就忘的東西，而是會不時重新閱讀的文字記錄。寫着寫着，就會懂得把事情寫清楚。隱喻、省略、暗示都是沒有意思的，只會讓自己都讀不懂自己寫了甚麼。還有會避免寫出重複的東西，像是瑣事、抱怨，因為這樣讀起來一點都不有趣。&lt;/p&gt;
@@ -1060,15 +1060,15 @@ address=/example1.com/
         </item>
         <item>
         <title>公園的座椅</title>
-        <link>http://localhost:1313/zh/gallery/park/</link>
+        <link>https://evthron.github.io/zh/gallery/park/</link>
         <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/park/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/park/bench.jpg" alt="Featured image of post 公園的座椅" /&gt;&lt;p&gt;取景框很有用，最好和畫紙一樣大。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/park/bench.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/park/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post 公園的座椅" /&gt;&lt;p&gt;取景框很有用，最好和畫紙一樣大。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/park/bench.jpg&#34;
 	width=&#34;1344&#34;
 	height=&#34;1581&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/park/bench_hu14258403961294113723.webp 480w, http://localhost:1313/zh/gallery/park/bench_hu939157243322423267.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/park/bench_hu14258403961294113723.webp 480w, https://evthron.github.io/zh/gallery/park/bench_hu939157243322423267.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;bench&#34;
@@ -1084,15 +1084,15 @@ address=/example1.com/
         </item>
         <item>
         <title>架子工地和雲</title>
-        <link>http://localhost:1313/zh/gallery/shelf-site-sky/</link>
+        <link>https://evthron.github.io/zh/gallery/shelf-site-sky/</link>
         <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/shelf-site-sky/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/shelf-site-sky/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
 	width=&#34;512&#34;
 	height=&#34;657&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky_hu13743017671089899463.webp 480w, http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky_hu11939192681020110605.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hu13743017671089899463.webp 480w, https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hu11939192681020110605.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shelf-site-sky&#34;
@@ -1108,10 +1108,10 @@ address=/example1.com/
         </item>
         <item>
         <title>通宵</title>
-        <link>http://localhost:1313/zh/posts/overnight-revision/</link>
+        <link>https://evthron.github.io/zh/posts/overnight-revision/</link>
         <pubDate>Tue, 16 May 2023 20:41:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/overnight-revision/</guid>
+        <guid>https://evthron.github.io/zh/posts/overnight-revision/</guid>
         <description>&lt;p&gt;總算放假，得開始寫東西了。複習周一直被其他作業綁著，最後只剩下一天複習兩門課的考試。於是毅然決然在學校住了兩天，與其說是不受常識束縛的超人之舉。不如說是被逼到走投無路的下下策。&lt;/p&gt;
 &lt;p&gt;最大的感受是自己的時間原來這么好用。從腦袋空空開始，慢慢從頭學回去。以三十分鐘為單位，循環十二次，六小時后又六小時，一直到學完后，還能因為考試時間沒到而不知所措，簡直取之不盡。其實沒有必要擔心時間不夠。平常的寶貴時間，就是在地鐵站到家之間、床到書桌之間、書桌到飯桌之間溜走的嗎？把這些平常人的生活全部拋棄掉！就能突破自我的極限——真的只能當作非常手段啊。&lt;/p&gt;
 &lt;p&gt;晚上在沙發上坐著打盹是很痛苦的，醒來的時才算幸福。去了最早七點半開門的飯堂吃早餐，還要補充咖啡因。飯堂的純咖啡真的只是黑色的苦水，而且又酸又澀。雖然我對提神飲料的味道沒有追求。但還是很難下咽。&lt;/p&gt;
@@ -1121,10 +1121,10 @@ address=/example1.com/
         </item>
         <item>
         <title>找文章</title>
-        <link>http://localhost:1313/zh/page/search/</link>
+        <link>https://evthron.github.io/zh/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh/page/search/</guid>
+        <guid>https://evthron.github.io/zh/page/search/</guid>
         <description></description>
         </item>
         

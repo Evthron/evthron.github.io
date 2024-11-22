@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>http://localhost:1313/en/categories/posts/</link>
+        <link>https://evthron.github.io/en/categories/posts/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 19 Nov 2024 20:18:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/categories/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Nov 2024 20:18:13 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why care about people? Reason to socialize</title>
-        <link>http://localhost:1313/en/posts/reason-to-socialize/</link>
+        <link>https://evthron.github.io/en/posts/reason-to-socialize/</link>
         <pubDate>Tue, 19 Nov 2024 20:18:13 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/reason-to-socialize/</guid>
+        <guid>https://evthron.github.io/en/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;I used to think that talking to people was a waste of time. I tried to ask about their lives out of curiosity, but their life snippets didn&amp;rsquo;t benefit me in any way. Sometimes, it did give have some benefits, like they could correct my homework or invite me to events, but that made me feel like the benefits are more important than the people.&lt;/p&gt;
 &lt;p&gt;I only changed my mind until I read the book &lt;em&gt;Getting Relationships Right&lt;/em&gt;. I realised that even though I&amp;rsquo;ve been pretending it&amp;rsquo;s not the case, I still crave connections. I usually assume that I have nothing interesting to share, but it is very gratifying if someone actually listens to what I say. On the other hand, I am usually afraid of hearing my friends&amp;rsquo; talk about their lives when they&amp;rsquo;re doing better than me, but sometimes I do get inspired by their experiences. I care about my friends because I want to build connections, not for any other concrete benefits.&lt;/p&gt;
 &lt;p&gt;Now I feel more comfortable making small talk, sending and replying text messages, and eating with others if it means I can express myself and learn more about my friends&amp;rsquo; interests and aspirations. It&amp;rsquo;ll take a lot of time, and there&amp;rsquo;s no guarantee it&amp;rsquo;ll go well. But isn&amp;rsquo;t this the most rewarding hobby I could ever get?&lt;/p&gt;
@@ -19,10 +19,10 @@
         </item>
         <item>
         <title>Gamify my life</title>
-        <link>http://localhost:1313/en/posts/skill-gamification/</link>
+        <link>https://evthron.github.io/en/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 04:25:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/skill-gamification/</guid>
+        <guid>https://evthron.github.io/en/posts/skill-gamification/</guid>
         <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
 &lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. My avatar is at level 88.  I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
 &lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design play and may defeat the purpose of gamification, which is to motivate myself. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
@@ -34,11 +34,11 @@
         </item>
         <item>
         <title>Cardinals and ordinals</title>
-        <link>http://localhost:1313/en/posts/cardinal-ordinal/</link>
+        <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/cardinal-ordinal/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
+        <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
 &lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
 &lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
