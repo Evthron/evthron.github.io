@@ -859,33 +859,33 @@ address=/example1.com/
 &lt;li&gt;手動建立 /etc/sudoers.d/delayed-admin，加入上面的 sudoers 設定&lt;/li&gt;
 &lt;li&gt;不要在 sudoers 裏給自己 root 權限，而是把自己加進 wheel group，再給 wheel group root 權限。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;其他問題su-和-kdesu&#34;&gt;其他問題（su 和 kdesu）&lt;/h3&gt;
+&lt;h2 id=&#34;其他問題su-和-kdesu&#34;&gt;其他問題（su 和 kdesu）&lt;/h2&gt;
 &lt;p&gt;要防止自己用 su 獲得 root 權限，需要在/etc/pam.d/su and /etc/pam.d/su-l 加上一句：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Su#su_and_wheel&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://wiki.archlinux.org/title/Su#su_and_wheel&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;auth required pam_wheel.so use_uid
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。&lt;/p&gt;
-&lt;p&gt;我不是很清楚什麼是 Polkit，設定是根據 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=183902&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://bbs.archlinux.org/viewtopic.php?id=183902&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://forums.gentoo.org/viewtopic-p-8236824.html?sid=938779e00c67db46c1d2a96fa465e718&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://forums.gentoo.org/viewtopic-p-8236824.html?sid=938779e00c67db46c1d2a96fa465e718&lt;/a&gt; 改的。&lt;/p&gt;
-&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Sudo#kdesu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:
+&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Sudo#kdesu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://wiki.archlinux.org/title/Sudo#kdesu&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[super-user-command]
 super-user-command=sudo
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接着是修改 polkit，在 /etc/polkit-1/rules.d/10-admin.rules 裏：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼
-polkit.addAdminRule(function(action, subject) {
-    return [&amp;#34;unix-group:wheel&amp;#34;];
-});
-
-// 如果用户想在 Dolphin 裏面提升權限，直接否決
-polkit.addRule(function(action, subject) {
-    if (!subject.isInGroup(&amp;#34;admin&amp;#34;) &amp;amp;&amp;amp; action.id == &amp;#34;org.kde.kio.admin.commands&amp;#34;) {
-        return polkit.Result.NO;
-    }
-});
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接着是修改 polkit，設定是根據 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=183902&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bypass KDEsu Authentication Dialog (archlinux bbs)&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://forums.gentoo.org/viewtopic-p-8236824.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How do I &amp;ldquo;graphical-sudo&amp;rdquo; under KDE (not &amp;ldquo;su&amp;rdquo;)? (gentoo forum)&lt;/a&gt; 改的。&lt;/p&gt;
+&lt;p&gt;在 /etc/polkit-1/rules.d/10-admin.rules 裏：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addAdminRule&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;unix-group:wheel&amp;#34;&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 如果用户想在 Dolphin 裏面提升權限，直接否決
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addRule&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;isInGroup&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;admin&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;org.kde.kio.admin.commands&amp;#34;&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Result&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NO&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
         <title>量數和序數</title>
