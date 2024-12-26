@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='My workflow for uploading posts is a bit complicatated, let me explain that here.
+I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
+Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.
+'>
+<title>Upload workflow | Evthron&#39;s blog</title>
+
+<link rel='canonical' href='https://evthron.github.io/en/toolbox/upload-workflow/'>
+
+<link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='Upload workflow'>
+<meta property='og:description' content='My workflow for uploading posts is a bit complicatated, let me explain that here.
+I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
+Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.
+'>
+<meta property='og:url' content='https://evthron.github.io/en/toolbox/upload-workflow/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2024-12-26T23:38:36&#43;08:00'/><meta property='article:modified_time' content='2024-12-26T23:40:37&#43;08:00'/>
+<meta name="twitter:title" content="Upload workflow">
+<meta name="twitter:description" content="My workflow for uploading posts is a bit complicatated, let me explain that here.
+I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
+Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.
+">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/en/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu1107236856209142188.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🔬</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/en">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/en/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/en/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>Timeline</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/posts/' >
+                
+                
+                
+                <span>📝Posts</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/gallery/' >
+                
+                
+                
+                <span>🖼️Gallery</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/en/toolbox/' >
+                
+                
+                
+                <span>🛠Toobox</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/skill/' >
+                
+                
+                
+                <span>🎮Skill</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/sandbox/' >
+                
+                
+                
+                <span>🪣Sandbox</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                            <option value="https://evthron.github.io/zh/toolbox/upload-workflow/" >中文</option>
+                    
+                            <option value="https://evthron.github.io/en/toolbox/upload-workflow/" selected>English</option>
+                    
+				    </select>
+                </li>
+            
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/en/categories/toolbox/" style="background-color: #888888; color: #fff;">
+                toolbox
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/en/toolbox/upload-workflow/">Upload workflow</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2024-12-26</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="https://evthron.github.io/zh/toolbox/upload-workflow/" class="link">中文</a>
+                
+            </div>
+        </footer>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>My workflow for uploading posts is a bit complicatated, let me explain that here.</p>
+<p>I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.</p>
+<p>Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.</p>
+<ul>
+<li>blog
+<ul>
+<li>content
+<ul>
+<li>gallery</li>
+<li>posts
+<ul>
+<li>cardinal-ordinal
+<ul>
+<li>index.en.md</li>
+<li>index.zh.md</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>I don&rsquo;t add files directly inside the content folder. I first prepare the conten in Joplin and use code to generate the required content structure.</p>
+<p>I mimic the same folder structure in Joplin using nested notebooks. Each section is a represented as a notebook in Joplin. Each article stored inside the section notebook is represented as a notebook too. It stores the notes storing the content for each language version.</p>
+<ul>
+<li>posts
+<ul>
+<li>cardinal-ordinal
+<ul>
+<li>量數和序數</li>
+<li>Cardinals and ordinals</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>When an note is ready to pubilsh, I add a language code tag on it. In this way, I won&rsquo;t accidentally publish drafts.</p>
+<p>Then I use python to generate the files and shell script to upload the website.</p>
+<p>Now for the actual code to execute the procedure. Joppy is the tool for me to output the files from Joplin. It implements the Joplin API in python.</p>
+<p>Due to its database nature, the way how Joplin stores folders is not intuitive. The &rsquo;nested&rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &lsquo;posts&rsquo;, I have to search through all the notebooks to check whether its parent is &lsquo;post&rsquo;. It seems that this is the &lsquo;parent list&rsquo; data structure, where each child is pointing to its parent.</p>
+<p>It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &lsquo;posts&rsquo;, I have to search through all the notebooks to check whether its parent is &lsquo;post&rsquo;. It seems that this is the &lsquo;parent list&rsquo; data structure, where each child is pointing to its parent.</p>
+<p>Now I know how to filter the notebooks, all that&rsquo;s left is the hassle of generating the actual markdown files. Let&rsquo;s take a look at the final code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> joppy.client_api <span style="color:#f92672">import</span> ClientApi <span style="color:#66d9ef">as</span> Api
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 調用 Joppy 的 API</span>
+</span></span><span style="display:flex;"><span>api <span style="color:#f92672">=</span> Api(token<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;YOUR_API_TOKEN&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">output_posts_in_certain_notebook_id</span>(all_notebooks, notebook_id):
+</span></span><span style="display:flex;"><span>    category <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_notebook(notebook_id)<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> notebook_data <span style="color:#f92672">in</span> all_notebooks:
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Continue only when the notebook (article) is inside the correct parent notebook (section)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> notebook_data<span style="color:#f92672">.</span>parent_id <span style="color:#f92672">!=</span> <span style="color:#66d9ef">None</span> <span style="color:#f92672">and</span> notebook_data<span style="color:#f92672">.</span>parent_id <span style="color:#f92672">==</span> notebook_id:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Get all the notes (articles in various language versions) inside the notebooks</span>
+</span></span><span style="display:flex;"><span>            post_list <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_notes(notebook_data<span style="color:#f92672">.</span>id, fields<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;created_time,updated_time,body,order,title,id&#39;</span>)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            folder_name <span style="color:#f92672">=</span> notebook_data<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>            print(notebook_data<span style="color:#f92672">.</span>title)
+</span></span><span style="display:flex;"><span>            zh_posts <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>            en_posts <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>            tok_posts <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> post_language_version <span style="color:#f92672">in</span> post_list<span style="color:#f92672">.</span>items:
+</span></span><span style="display:flex;"><span>                title <span style="color:#f92672">=</span> post_language_version<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                Skip the note if the note has no tags
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>                tag_list <span style="color:#f92672">=</span> get_tag_list(post_language_version<span style="color:#f92672">.</span>id)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> tag_list: 
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>                    
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e"># Group the notes according to language</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;zh&#39;</span> <span style="color:#f92672">in</span> tag_list: 
+</span></span><span style="display:flex;"><span>                    language_code <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;zh&#39;</span>
+</span></span><span style="display:flex;"><span>                    zh_posts<span style="color:#f92672">.</span>append(post_language_version)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">elif</span> <span style="color:#e6db74">&#39;en&#39;</span> <span style="color:#f92672">in</span> tag_list:
+</span></span><span style="display:flex;"><span>                    language_code <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;en&#39;</span>
+</span></span><span style="display:flex;"><span>                    en_posts<span style="color:#f92672">.</span>append(post_language_version)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">elif</span> <span style="color:#e6db74">&#39;tok&#39;</span> <span style="color:#f92672">in</span> tag_list:
+</span></span><span style="display:flex;"><span>                    language_code <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;tok&#39;</span>
+</span></span><span style="display:flex;"><span>                    tok_posts<span style="color:#f92672">.</span>append(post_language_version)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>            combine_and_output_posts_in_same_language(category, folder_name, <span style="color:#e6db74">&#39;zh&#39;</span>, zh_posts)
+</span></span><span style="display:flex;"><span>            combine_and_output_posts_in_same_language(category, folder_name, <span style="color:#e6db74">&#39;en&#39;</span>, en_posts)
+</span></span><span style="display:flex;"><span>            combine_and_output_posts_in_same_language(category, folder_name, <span style="color:#e6db74">&#39;tok&#39;</span>, tok_posts)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">combine_and_output_posts_in_same_language</span>(category, folder_name, language_code, posts):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> posts:
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        This part combines the notes if multiple notes exist.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        It was for combining paragraphs in a long story but it has yet to
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        be useful.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        posts<span style="color:#f92672">.</span>sort(key<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>order, reverse<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>        title <span style="color:#f92672">=</span> posts[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>        tag_list <span style="color:#f92672">=</span> get_tag_list(posts[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>id)
+</span></span><span style="display:flex;"><span>        tag_list<span style="color:#f92672">.</span>remove(language_code)
+</span></span><span style="display:flex;"><span>        body <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        created_time <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        updated_time <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Use the latest created/update time if multiple notes exist </span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> post <span style="color:#f92672">in</span> posts:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (created_time <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>) <span style="color:#f92672">or</span> (post<span style="color:#f92672">.</span>created_time <span style="color:#f92672">&lt;</span> created_time):
+</span></span><span style="display:flex;"><span>                created_time <span style="color:#f92672">=</span> post<span style="color:#f92672">.</span>created_time
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (updated_time <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>) <span style="color:#f92672">or</span> (post<span style="color:#f92672">.</span>updated_time <span style="color:#f92672">&gt;</span> updated_time):
+</span></span><span style="display:flex;"><span>                updated_time <span style="color:#f92672">=</span> post<span style="color:#f92672">.</span>updated_time
+</span></span><span style="display:flex;"><span>            body <span style="color:#f92672">+=</span> post<span style="color:#f92672">.</span>body <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        Extract the note data for generating front matter for the markdown file
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        date <span style="color:#f92672">=</span> created_time<span style="color:#f92672">.</span>isoformat()[:<span style="color:#ae81ff">19</span>] <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;+08:00&#39;</span>
+</span></span><span style="display:flex;"><span>        lastmod <span style="color:#f92672">=</span> updated_time<span style="color:#f92672">.</span>isoformat()[:<span style="color:#ae81ff">19</span>] <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;+08:00&#39;</span>
+</span></span><span style="display:flex;"><span>        home_dir <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#39;HOME&#39;</span>] 
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        If there&#39;s a image with a correct file name in target folder, use that as feature image
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        feature_png_directory <span style="color:#f92672">=</span> home_dir <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/Blog/blog/evthronblog/content/&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;png&#39;</span>
+</span></span><span style="display:flex;"><span>        feature_jpg_directory <span style="color:#f92672">=</span> home_dir <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/Blog/blog/evthronblog/content/&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;jpg&#39;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(feature_png_directory):
+</span></span><span style="display:flex;"><span>            image <span style="color:#f92672">=</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.png&#39;</span>
+</span></span><span style="display:flex;"><span>            front_matter <span style="color:#f92672">=</span> generate_front_matter(title, date, lastmod<span style="color:#f92672">=</span>lastmod, tags<span style="color:#f92672">=</span>repr(tag_list), categories<span style="color:#f92672">=</span>category, image<span style="color:#f92672">=</span>image)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(feature_jpg_directory):
+</span></span><span style="display:flex;"><span>            image <span style="color:#f92672">=</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.jpg&#39;</span>
+</span></span><span style="display:flex;"><span>            front_matter <span style="color:#f92672">=</span> generate_front_matter(title, date, lastmod<span style="color:#f92672">=</span>lastmod, tags<span style="color:#f92672">=</span>repr(tag_list), categories<span style="color:#f92672">=</span>category, image<span style="color:#f92672">=</span>image)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            front_matter <span style="color:#f92672">=</span> generate_front_matter(title, date, lastmod<span style="color:#f92672">=</span>lastmod, tags<span style="color:#f92672">=</span>repr(tag_list), categories<span style="color:#f92672">=</span>category)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        Output the generated markdown file to the target folder
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        folder_directory <span style="color:#f92672">=</span> home_dir <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/Blog/blog/evthronblog/content/&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(folder_directory):
+</span></span><span style="display:flex;"><span>            os<span style="color:#f92672">.</span>makedirs(folder_directory)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        path <span style="color:#f92672">=</span> folder_directory <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/index.&#39;</span> <span style="color:#f92672">+</span> language_code <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.md&#39;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(path, <span style="color:#e6db74">&#39;w&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> fout:
+</span></span><span style="display:flex;"><span>            fout<span style="color:#f92672">.</span>write(front_matter <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">+</span> body)
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;done in&#34;</span>, language_code)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;no post in&#34;</span>, language_code)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">generate_front_matter</span>(title, date, description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, lastmod <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, image <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, categories <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, tags <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, slug <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, layout <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>) <span style="color:#f92672">-&gt;</span> str:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> lastmod <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;&#39;</span>:
+</span></span><span style="display:flex;"><span>        lastmod <span style="color:#f92672">=</span> strftime(<span style="color:#e6db74">&#34;%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">T%H:%M:%S+08:00&#34;</span>, localtime())
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;title: &#34;&#39;</span> <span style="color:#f92672">+</span> title <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;description: &#39;</span> <span style="color:#f92672">+</span> description <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;date: &#39;</span> <span style="color:#f92672">+</span> date <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;lastmod: &#39;</span> <span style="color:#f92672">+</span> lastmod <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;image: &#39;</span> <span style="color:#f92672">+</span> image <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;categories: &#39;</span> <span style="color:#f92672">+</span> categories <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;tags: &#39;</span> <span style="color:#f92672">+</span> tags <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;math: </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">license: </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">hidden: false</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">comments: true</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> slug:
+</span></span><span style="display:flex;"><span>        front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;slug: &#34;&#39;</span> <span style="color:#f92672">+</span> slug <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> layout:
+</span></span><span style="display:flex;"><span>        front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;layout: &#34;&#39;</span> <span style="color:#f92672">+</span> layout <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> front_matter
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_tag_list</span>(note_id):
+</span></span><span style="display:flex;"><span>    info <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_tags(note_id)<span style="color:#f92672">.</span>items
+</span></span><span style="display:flex;"><span>    tag_list <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> info:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> tagdata <span style="color:#f92672">in</span> info:
+</span></span><span style="display:flex;"><span>            tag <span style="color:#f92672">=</span> tagdata<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>            tag_list<span style="color:#f92672">.</span>append(tag)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> tag_list
+</span></span><span style="display:flex;"><span>               
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    all_notebooks <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_all_notebooks()
+</span></span><span style="display:flex;"><span>    post_notebook_id <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;PUT_NOTEBOOK_ID_HERE&#39;</span>
+</span></span><span style="display:flex;"><span>    output_posts_in_certain_notebook_id(all_notebooks, post_notebook_id)
+</span></span><span style="display:flex;"><span>    gallery_notebook_id <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;PUT_NOTEBOOK_ID_HERE&#39;</span>
+</span></span><span style="display:flex;"><span>    output_posts_in_certain_notebook_id(all_notebooks, gallery_notebook_id)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><p>This workflow can be simpified if I ditch Joplin completely, but since seperating the writing place and the finished stuff has some benefits and I made lots of effort to finish the code, I don&rsquo;t really want to change for now.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/en/tags/coding/">Coding</a>
+        
+    </section>
+
+
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on 2024-12-26 23:40 &#43;08:00
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2024 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
