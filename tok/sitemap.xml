@@ -465,21 +465,21 @@
                 href="https://evthron.github.io/tok/timeline/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/page/search/</loc>
+    <loc>https://evthron.github.io/tok/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/page/search/"
+                href="https://evthron.github.io/zh/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/page/search/"
+                href="https://evthron.github.io/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/page/search/"
+                href="https://evthron.github.io/tok/search/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/sandbox/</loc>

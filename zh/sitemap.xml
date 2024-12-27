@@ -1057,21 +1057,21 @@
                 href="https://evthron.github.io/zh/sandbox/clock/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/page/search/</loc>
+    <loc>https://evthron.github.io/zh/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/page/search/"
+                href="https://evthron.github.io/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/page/search/"
+                href="https://evthron.github.io/tok/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/page/search/"
+                href="https://evthron.github.io/zh/search/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/timeline/</loc>
