@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='My workflow for uploading posts is a bit complicatated, let me explain that here.
-I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
+I use hugo (official site) to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
 Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.
 '>
 <title>Upload workflow | Evthron&#39;s blog</title>
@@ -11,15 +11,15 @@ Each section of the website, like posts and gallery, are represented as a folder
 
 <link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='Upload workflow'>
 <meta property='og:description' content='My workflow for uploading posts is a bit complicatated, let me explain that here.
-I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
+I use hugo (official site) to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
 Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.
 '>
 <meta property='og:url' content='https://evthron.github.io/en/toolbox/upload-workflow/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2024-12-27T07:38:36&#43;08:00'/><meta property='article:modified_time' content='2024-12-27T08:13:14&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2024-12-27T07:38:36&#43;08:00'/><meta property='article:modified_time' content='2024-12-27T08:38:57&#43;08:00'/>
 <meta name="twitter:title" content="Upload workflow">
 <meta name="twitter:description" content="My workflow for uploading posts is a bit complicatated, let me explain that here.
-I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
+I use hugo (official site) to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
 Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.
 ">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -374,7 +374,8 @@ Each section of the website, like posts and gallery, are represented as a folder
     
     
     <p>My workflow for uploading posts is a bit complicatated, let me explain that here.</p>
-<p>I use hugo to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.</p>
+<p>I use <a class="link" href="https://gohugo.io"  target="_blank" rel="noopener"
+    >hugo (official site)</a> to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.</p>
 <p>Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.</p>
 <ul>
 <li>blog
@@ -413,7 +414,8 @@ Each section of the website, like posts and gallery, are represented as a folder
 </ul>
 <p>When an note is ready to pubilsh, I add a language code tag on it. In this way, I won&rsquo;t accidentally publish drafts.</p>
 <p>Then I use python to generate the files and shell script to upload the website.</p>
-<p>Now for the actual code to execute the procedure. Joppy is the tool for me to output the files from Joplin. It implements the Joplin API in python.</p>
+<p>Now for the actual code to execute the procedure. <a class="link" href="https://github.com/marph91/joppy"  target="_blank" rel="noopener"
+    >Joppy (github)</a> is the tool for me to output the files from Joplin. It implements the Joplin API in python.</p>
 <p>Due to its database nature, the way how Joplin stores folders is not intuitive. The &rsquo;nested&rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &lsquo;posts&rsquo;, I have to search through all the notebooks to check whether its parent is &lsquo;post&rsquo;. It seems that this is the &lsquo;parent list&rsquo; data structure, where each child is pointing to its parent.</p>
 <p>It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &lsquo;posts&rsquo;, I have to search through all the notebooks to check whether its parent is &lsquo;post&rsquo;. It seems that this is the &lsquo;parent list&rsquo; data structure, where each child is pointing to its parent.</p>
 <p>Now I know how to filter the notebooks, all that&rsquo;s left is the hassle of generating the actual markdown files. Let&rsquo;s take a look at the final code:</p>
@@ -588,7 +590,7 @@ Each section of the website, like posts and gallery, are represented as a folder
 
 
         <span>
-            Last updated on 2024-12-27 08:13 &#43;08:00
+            Last updated on 2024-12-27 08:38 &#43;08:00
         </span>
     </section></footer>
 

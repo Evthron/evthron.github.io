@@ -13,7 +13,8 @@
         
         <guid>https://evthron.github.io/zh/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
-&lt;p&gt;我用 hugo 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。&lt;/p&gt;
+&lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo（網站鏈接）&lt;/a&gt; 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。&lt;/p&gt;
 &lt;p&gt;hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;blog
@@ -51,10 +52,11 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。&lt;/p&gt;
-&lt;p&gt;然後我會用兩個 shell script，先是 output_post 把文章導出到 content 文件夾，再用 blog_push 生成網站代碼然後上傳。&lt;/p&gt;
-&lt;p&gt;以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？joppy 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。&lt;/p&gt;
-&lt;p&gt;這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。&lt;/p&gt;
-&lt;p&gt;除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我要先把筆記本篩選一遍再獲取裏面的筆記。剩下的就只是麻煩的搬運工作，代碼如下：&lt;/p&gt;
+&lt;p&gt;然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。&lt;/p&gt;
+&lt;p&gt;以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;joppy (github)&lt;/a&gt; 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。&lt;/p&gt;
+&lt;p&gt;除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。&lt;/p&gt;
+&lt;p&gt;這樣就知道怎樣篩選筆記本了，剩下的就只是麻煩的搬運工作，代碼如下：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
