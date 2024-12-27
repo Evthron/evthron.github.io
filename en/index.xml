@@ -283,6 +283,7 @@
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;The code was very cryptic&amp;hellip; how did I finished this thing? Maybe I rearranged the code from the original template?&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s quite limiting to using this template. The way how the CSS files organised is very confusing.&lt;/p&gt;
 </description>
         </item>
         <item>
