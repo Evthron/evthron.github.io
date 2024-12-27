@@ -295,35 +295,37 @@
 
             <main class="main full-width">
     <article class="main-article">
+
     <header class="article-header">
 
+    
     <div class="article-details">
-    
-    <header class="article-category">
         
-            <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
-                posts
-            </a>
+        <header class="article-category">
+            
+                <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
+                    posts
+                </a>
+            
+        </header>
         
-    </header>
     
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/zh/posts/docker-panic/">docker 連不上網的解決辦法和折騰的悲哀</a>
-        </h2>
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/posts/docker-panic/">docker 連不上網的解決辦法和折騰的悲哀</a>
+            </h2>
+        
+            
+        </div>
     
         
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
   <circle cx="18" cy="18" r="4" />
@@ -332,23 +334,24 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-10-17</time>
-            </div>
-        
-
-        
-    </footer>
+                    <time class="article-time--published">2024-10-17</time>
+                </div>
+            
     
-
+            
+        </footer>
+        
     
-</div>
-
+        
+    </div>
+    
 </header>
 
+    
     <section class="article-content">
-    
-    
-    <p>電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。</p>
+        
+        
+        <p>電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。</p>
 <p>學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。</p>
 <p>作業裏要連接外部網站的是一個 PHP 程式，是不是程式出錯了？老師給的程序應該不會錯，我對 PHP 又是一竅不通，隨便找了個網站的例子改了改程式碼，沒用。</p>
 <p>仔細看看網站報了什麼錯，&lsquo;Temporary failure in name resolution&rsquo;，DNS 出問題了。想必是因為我裝了個奇怪的 dnsmasq，雖然很危險但沒辦法只好暫時停用了。沒用。</p>
@@ -408,20 +411,22 @@ sudo reboot
 </code></pre><p>我明明已經解除安裝 nftables 了，是沒有重啓，還是因為再下載了要用到 nftables 的 firewalld 呢？總之現在再試 <code>docker run busybox ping google.com</code> 成功了！PHP 程式也順利拿到了網站的 JSON 檔案。真的高興得要拍手慶祝。</p>
 <p>搞了半天，我學會什麼了呢？重新温習了一遍 Arch 的上網設置，放棄了原本已經調整好的 dnsmasq，還知道了 nftables 和 iptables 有着神秘的關係。一天就這樣過去了。</p>
 
-</section>
-
-
-    <footer class="article-footer">
-    
-    <section class="article-tags">
-        
-            <a href="/zh/tags/grumble/">Grumble</a>
-        
     </section>
 
+    
+    <footer class="article-footer">
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        
+        
+        <section class="article-tags">
+            
+                <a href="/zh/tags/grumble/">Grumble</a>
+            
+        </section>
+         
+
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
   <polyline points="12 7 12 12 15 15" />
@@ -429,25 +434,27 @@ sudo reboot
 
 
 
-        <span>
-            最後更新 2024-10-17 20:09 &#43;08:00
-        </span>
-    </section></footer>
-
-
+            <span>
+                最後更新 2024-10-17 20:09 &#43;08:00
+            </span>
+        </section></footer>
+    
+    
     
 </article>
 
     
-
     
 
-<aside class="related-content--wrapper">
-    <h2 class="section-title">相關文章</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
+    
+    
+    
+    <aside class="related-content--wrapper">
+        <h2 class="section-title">相關文章</h2>
+        <div class="related-content">
+            <div class="flex article-list--tile">
                 
+                    
 <article class="">
     <a href="/zh/tweet/haircut/">
         
@@ -459,8 +466,8 @@ sudo reboot
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/tweet/sticky-menu/">
         
@@ -472,8 +479,8 @@ sudo reboot
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/tweet/easier-publish/">
         
@@ -485,8 +492,8 @@ sudo reboot
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/tweet/delusions/">
         
@@ -498,8 +505,8 @@ sudo reboot
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/tweet/winter/">
         
@@ -511,12 +518,12 @@ sudo reboot
     </a>
 </article>
 
-            
+                
+            </div>
         </div>
-    </div>
-</aside>
-
+    </aside>
      
+
     <footer class="site-footer">
     <section class="copyright">
         &copy; 
@@ -631,6 +638,7 @@ sudo reboot
         document.head.appendChild(customFont);
     }());
 </script>
+
 
     </body>
 </html>

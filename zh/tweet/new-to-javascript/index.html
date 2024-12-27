@@ -301,35 +301,37 @@
 
             <main class="main full-width">
     <article class="main-article">
+
     <header class="article-header">
 
+    
     <div class="article-details">
-    
-    <header class="article-category">
         
-            <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                tweet
-            </a>
+        <header class="article-category">
+            
+                <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
+                    tweet
+                </a>
+            
+        </header>
         
-    </header>
     
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/zh/tweet/new-to-javascript/">JavaScript 新手</a>
-        </h2>
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/tweet/new-to-javascript/">JavaScript 新手</a>
+            </h2>
+        
+            
+        </div>
     
         
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
   <circle cx="18" cy="18" r="4" />
@@ -338,17 +340,17 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-06-19</time>
-            </div>
-        
-
-        
-    </footer>
+                    <time class="article-time--published">2024-06-19</time>
+                </div>
+            
     
-
+            
+        </footer>
+        
     
-        <footer class="article-translations">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M4 5h7" />
   <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
@@ -359,38 +361,41 @@
 
 
 
-            <div>
-                
-                    <a href="https://evthron.github.io/en/tweet/new-to-javascript/" class="link">English</a>
-                
-            </div>
-        </footer>
+                <div>
+                    
+                        <a href="https://evthron.github.io/en/tweet/new-to-javascript/" class="link">English</a>
+                    
+                </div>
+            </footer>
+        
+    </div>
     
-</div>
-
 </header>
 
+    
     <section class="article-content">
-    
-    
-    <p>最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。</p>
+        
+        
+        <p>最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。</p>
 <p>既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？</p>
 <p>但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。</p>
 
-</section>
-
-
-    <footer class="article-footer">
-    
-    <section class="article-tags">
-        
-            <a href="/zh/tags/software/">Software</a>
-        
     </section>
 
+    
+    <footer class="article-footer">
 
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        
+        
+        <section class="article-tags">
+            
+                <a href="/zh/tags/software/">Software</a>
+            
+        </section>
+         
+
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
   <polyline points="12 7 12 12 15 15" />
@@ -398,25 +403,27 @@
 
 
 
-        <span>
-            最後更新 2024-06-26 02:39 &#43;08:00
-        </span>
-    </section></footer>
-
-
+            <span>
+                最後更新 2024-06-26 02:39 &#43;08:00
+            </span>
+        </section></footer>
+    
+    
     
 </article>
 
     
-
     
 
-<aside class="related-content--wrapper">
-    <h2 class="section-title">相關文章</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
+    
+    
+    
+    <aside class="related-content--wrapper">
+        <h2 class="section-title">相關文章</h2>
+        <div class="related-content">
+            <div class="flex article-list--tile">
                 
+                    
 <article class="">
     <a href="/zh/tweet/easier-publish/">
         
@@ -428,8 +435,8 @@
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/tweet/joplin-vim-mode/">
         
@@ -441,8 +448,8 @@
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/tweet/search-count/">
         
@@ -454,8 +461,8 @@
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/tweet/productivity-tools/">
         
@@ -467,8 +474,8 @@
     </a>
 </article>
 
-            
                 
+                    
 <article class="">
     <a href="/zh/toolbox/say-goodbye-to-internet/">
         
@@ -480,12 +487,12 @@
     </a>
 </article>
 
-            
+                
+            </div>
         </div>
-    </div>
-</aside>
-
+    </aside>
      
+
     <footer class="site-footer">
     <section class="copyright">
         &copy; 
@@ -600,6 +607,7 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
 
     </body>
 </html>
