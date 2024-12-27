@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Wed, 11 Sep 2024 19:35:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Sep 2024 03:35:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>中位數公式</title>
         <link>https://evthron.github.io/zh/posts/median/</link>
-        <pubDate>Wed, 11 Sep 2024 19:35:28 +0800</pubDate>
+        <pubDate>Thu, 12 Sep 2024 03:35:28 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/median/</guid>
         <description>&lt;p&gt;我為什麼要莫名其妙地研究什麼「&lt;a class=&#34;link&#34; href=&#34;../cardinal-ordinal&#34; &gt;量數和序數&lt;/a&gt;」呢？這是因為我搞不懂中位數的公式。統計學課本上都寫着，是 (n+1)/2，n 是數字的總數。公式很簡單，但卻很難理解。為什麼要先加一再除以二？你可能會説，管它那麼多幹嘛，套公式就完了。但是，二分查找法&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;也要用到中位數，但公式變成了 (n - 1)/2，這似乎和編程語言從零開始編號的做法有關。兩者的差異使我如鯁在喉，這個問題又不需要特殊的數學知識，為了以後寫二分查找法的時候不會出錯，我接下了這個挑戰。&lt;/p&gt;
@@ -59,7 +59,7 @@
         <item>
         <title>音階 </title>
         <link>https://evthron.github.io/zh/posts/scale/</link>
-        <pubDate>Mon, 10 Jun 2024 04:52:49 +0800</pubDate>
+        <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/scale/</guid>
         <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
@@ -138,7 +138,7 @@ Altered:    1212222
         <item>
         <title>折紙 </title>
         <link>https://evthron.github.io/zh/tweet/origami/</link>
-        <pubDate>Tue, 04 Jun 2024 13:14:54 +0800</pubDate>
+        <pubDate>Tue, 04 Jun 2024 21:14:54 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/origami/</guid>
         <description>&lt;p&gt;我在街上接到傳單的時候，總覺得如果要馬上扔到附近的垃圾筒裏面，那倒不如一開始就不要拿。那廢紙有什麼用呢？拿來折紙也是門手藝。記得小學的數學老師教過怎麼用紙拼出多面體，那比折什麼紙飛機有意思多了。&lt;/p&gt;

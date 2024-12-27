@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Thu, 26 Dec 2024 22:01:25 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 27 Dec 2024 06:01:25 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/toolbox/upload-workflow/</link>
-        <pubDate>Thu, 26 Dec 2024 22:01:25 +0800</pubDate>
+        <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
@@ -205,7 +205,7 @@
         <item>
         <title>定製 Taskwarrior</title>
         <link>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</link>
-        <pubDate>Sun, 24 Nov 2024 17:51:20 +0800</pubDate>
+        <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

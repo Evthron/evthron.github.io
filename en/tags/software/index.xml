@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 14 Aug 2024 18:59:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 15 Aug 2024 02:59:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Migrating to Linux</title>
         <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
-        <pubDate>Wed, 14 Aug 2024 18:59:49 +0800</pubDate>
+        <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
@@ -20,7 +20,7 @@
         <item>
         <title>New to JavaScript</title>
         <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
-        <pubDate>Wed, 19 Jun 2024 15:37:40 +0800</pubDate>
+        <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
@@ -30,7 +30,7 @@
         <item>
         <title>Arch Linux Installation</title>
         <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
-        <pubDate>Thu, 18 Apr 2024 01:19:50 +0800</pubDate>
+        <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
@@ -39,7 +39,7 @@
         <item>
         <title>Improved publishing workflow </title>
         <link>https://evthron.github.io/en/tweet/easier-publish/</link>
-        <pubDate>Sat, 30 Mar 2024 13:19:00 +0800</pubDate>
+        <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
@@ -54,7 +54,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Joplin Vim Mode</title>
         <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
-        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
@@ -63,7 +63,7 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         <item>
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
-        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;

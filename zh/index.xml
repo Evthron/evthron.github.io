@@ -9,7 +9,7 @@
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/toolbox/upload-workflow/</link>
-        <pubDate>Thu, 26 Dec 2024 22:01:25 +0800</pubDate>
+        <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
@@ -205,7 +205,7 @@
         <item>
         <title>和朋友保持聯絡</title>
         <link>https://evthron.github.io/zh/posts/contact-friends/</link>
-        <pubDate>Tue, 24 Dec 2024 23:36:05 +0800</pubDate>
+        <pubDate>Wed, 25 Dec 2024 07:36:05 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/contact-friends/</guid>
         <description>&lt;p&gt;「保持聯絡」絕不是客套話，友誼是從見面的第一天起就開始玩的乒乓球，你來我往，不能停下來。但我空有這種觀念，還是當不成一個好朋友，因為只要離開了自己的視線，我就幾乎不會去關心別人過得怎麼樣。大部分人關心的事，我不是覺得害怕，就是覺得沒意義。&lt;/p&gt;
@@ -229,7 +229,7 @@
         <item>
         <title>定製 Taskwarrior</title>
         <link>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</link>
-        <pubDate>Sun, 24 Nov 2024 17:51:20 +0800</pubDate>
+        <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -284,7 +284,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <item>
         <title>交朋友的理由</title>
         <link>https://evthron.github.io/zh/posts/reason-to-socialize/</link>
-        <pubDate>Tue, 19 Nov 2024 20:18:31 +0800</pubDate>
+        <pubDate>Wed, 20 Nov 2024 04:18:31 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;我以前不太關心朋友的生活。如果關心他們的生活對我沒有好處的話，我就會覺得沒有意義，但如果是為了得到好處才去關心的話，我又會覺得自己很不真誠。直到我讀了 Getting Relationships Right 這本書之後，才發現我其實也是很渴望能和別人建立連繫的。我雖然害怕別人對自己的事情不敢興趣，不過如果他們真的能聽進去，我就會很驚喜；我雖然害怕聽到別人的生活比自己充實，但有時候也能從中發現一些讓我覺得很新奇的事情。關心別人是為了滿足我內心的感覺，而不是為了外在的利益，這是我交際的動力。&lt;/p&gt;
@@ -294,7 +294,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <item>
         <title>橡皮擦的妙用</title>
         <link>https://evthron.github.io/zh/tweet/graphite-eraser/</link>
-        <pubDate>Fri, 18 Oct 2024 20:53:17 +0800</pubDate>
+        <pubDate>Sat, 19 Oct 2024 04:53:17 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/graphite-eraser/</guid>
         <description>&lt;p&gt;畫畫用的鉛筆要削得又長又尖，一般的削筆機是做不到的，只能用美工刀削。我削鉛筆的時削出來的碳粉跑進了玻璃桌上的刮痕，看起來很髒。&lt;/p&gt;
@@ -311,7 +311,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <item>
         <title>docker 連不上網的解決辦法和折騰的悲哀</title>
         <link>https://evthron.github.io/zh/posts/docker-panic/</link>
-        <pubDate>Thu, 17 Oct 2024 11:37:47 +0800</pubDate>
+        <pubDate>Thu, 17 Oct 2024 19:37:47 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/docker-panic/</guid>
         <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
@@ -378,7 +378,7 @@ sudo reboot
         <item>
         <title>假期的壞心情</title>
         <link>https://evthron.github.io/zh/tweet/bad-mood-holiday/</link>
-        <pubDate>Tue, 15 Oct 2024 17:51:46 +0800</pubDate>
+        <pubDate>Wed, 16 Oct 2024 01:51:46 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/bad-mood-holiday/</guid>
         <description>&lt;p&gt;我放假就像個廢人一樣，要花好幾天的心情調整心態，才有開始做事的決心。但時間不等人，截止日期的壓力會逼我做該做的事，既然這樣，一開始就不要放假好了。要做的事堆積如山，我卻提不起勁，這實在很令人煩躁。比起電腦燒掉和錯過考試，這算不上什麼，但因為這種雞毛蒜皮的小事而煩躁，實在令我很煩躁。看吧，這就是個走不出來的怪圈。&lt;/p&gt;
@@ -390,7 +390,7 @@ sudo reboot
         <item>
         <title>地鐵畫畫</title>
         <link>https://evthron.github.io/zh/posts/drawing-on-train/</link>
-        <pubDate>Sat, 12 Oct 2024 20:48:32 +0800</pubDate>
+        <pubDate>Sun, 13 Oct 2024 04:48:32 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/drawing-on-train/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/posts/drawing-on-train/drawing-on-train.jpg" alt="Featured image of post 地鐵畫畫" /&gt;&lt;p&gt;地鐵上，大家的握手機姿勢各種各樣：單手小指頂着機底，拇指滑屏幕；左手手掌捧着機背，右手食指滑屏幕；雙手在機背交疊，兩隻拇指在屏幕上快速敲擊；還有雙手抓着橫置的手機兩側，兩隻拇指在屏幕上劃圈。加上我的觀察角度也變來變去，有時是瞄旁邊的座位，有時是抬頭看坐在我正對面的人，或是側着身子抓把手的人。居然有種「橫看成嶺側成峯」的感覺。&lt;/p&gt;
@@ -475,7 +475,7 @@ sudo reboot
         <item>
         <title>理髮</title>
         <link>https://evthron.github.io/zh/tweet/haircut/</link>
-        <pubDate>Wed, 18 Sep 2024 15:57:07 +0800</pubDate>
+        <pubDate>Wed, 18 Sep 2024 23:57:07 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/haircut/</guid>
         <description>&lt;p&gt;我被理髮師抱怨，説我的需求不清楚，真不幸。以前還不是一直都含糊其詞，剪出來的都差不多啊。唉，至少我現在會説理髮師聽得懂的話了。&lt;/p&gt;
@@ -484,7 +484,7 @@ sudo reboot
         <item>
         <title>井字棋入門</title>
         <link>https://evthron.github.io/zh/posts/tic-tac-toe/</link>
-        <pubDate>Sun, 15 Sep 2024 15:39:01 +0800</pubDate>
+        <pubDate>Sun, 15 Sep 2024 23:39:01 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/tic-tac-toe/</guid>
         <description>&lt;h1 id=&#34;第一章-基礎知識&#34;&gt;第一章 基礎知識&lt;/h1&gt;
@@ -549,7 +549,7 @@ _|_|_
         <item>
         <title>中位數公式</title>
         <link>https://evthron.github.io/zh/posts/median/</link>
-        <pubDate>Wed, 11 Sep 2024 19:35:28 +0800</pubDate>
+        <pubDate>Thu, 12 Sep 2024 03:35:28 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/median/</guid>
         <description>&lt;p&gt;我為什麼要莫名其妙地研究什麼「&lt;a class=&#34;link&#34; href=&#34;../cardinal-ordinal&#34; &gt;量數和序數&lt;/a&gt;」呢？這是因為我搞不懂中位數的公式。統計學課本上都寫着，是 (n+1)/2，n 是數字的總數。公式很簡單，但卻很難理解。為什麼要先加一再除以二？你可能會説，管它那麼多幹嘛，套公式就完了。但是，二分查找法&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;也要用到中位數，但公式變成了 (n - 1)/2，這似乎和編程語言從零開始編號的做法有關。兩者的差異使我如鯁在喉，這個問題又不需要特殊的數學知識，為了以後寫二分查找法的時候不會出錯，我接下了這個挑戰。&lt;/p&gt;
@@ -599,7 +599,7 @@ _|_|_
         <item>
         <title>遷移到 Linux</title>
         <link>https://evthron.github.io/zh/tweet/migrating-to-linux/</link>
-        <pubDate>Thu, 11 Jul 2024 23:54:30 +0800</pubDate>
+        <pubDate>Fri, 12 Jul 2024 07:54:30 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;總算遷移到了 Linux 系統。本來想在舊電腦上安裝，但那部古董總是會在裝到一半的時候突然斷電，沒法用。正好之前在手提電腦上加裝了新硬盤，沒怎麼用，就拿來裝了 Linux。總不可能輕易捨棄隨機附贈的 Windows 和 Office，裝雙盤雙系統就留了後路，也比單盤雙系統安全，安裝時出錯了刪盤重來就好。&lt;/p&gt;
@@ -609,7 +609,7 @@ _|_|_
         <item>
         <title>網站設計</title>
         <link>https://evthron.github.io/zh/tweet/blog-layout-modification/</link>
-        <pubDate>Mon, 01 Jul 2024 10:11:52 +0800</pubDate>
+        <pubDate>Mon, 01 Jul 2024 18:11:52 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;我總算按照我想要的樣子，把網站的編排調整一遍了！畫廊能把圖片排成方格、Tweet 能直接展示文章內容、能把自我介紹搬到主頁，把原本的主頁搬到新開的另一頁。主頁就要像目錄一樣，而不是一長串像新聞一樣的時間線。我現在更熟悉 hugo 編排頁面的原理了。當然，HTML 和 CSS 的知識也增長了不少。真的很高興。不過，現在卻不知道接下來該做什麼了。&lt;/p&gt;
@@ -618,7 +618,7 @@ _|_|_
         <item>
         <title>交換知識的聊天挑戰 </title>
         <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
-        <pubDate>Sat, 29 Jun 2024 13:43:57 +0800</pubDate>
+        <pubDate>Sat, 29 Jun 2024 21:43:57 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/knowledge-exchange/</guid>
         <description>&lt;p&gt;我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？&lt;/p&gt;
@@ -630,7 +630,7 @@ _|_|_
         <item>
         <title>夜景</title>
         <link>https://evthron.github.io/zh/gallery/nightview/</link>
-        <pubDate>Tue, 25 Jun 2024 18:34:57 +0800</pubDate>
+        <pubDate>Wed, 26 Jun 2024 02:34:57 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/gallery/nightview/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post 夜景" /&gt;&lt;p&gt;本來想畫個背景給網站增加點個性，但放上去之後又覺得太雜亂了，所以加了個濾鏡，完全看不出原本的樣子。唉，這就是為什麼現在的網站都不用背景圖片了嗎？純色的背景雖然看上去會比較專業，但是又很無聊。
@@ -654,7 +654,7 @@ _|_|_
         <item>
         <title>黏在旁邊的選單</title>
         <link>https://evthron.github.io/zh/tweet/sticky-menu/</link>
-        <pubDate>Mon, 24 Jun 2024 18:01:20 +0800</pubDate>
+        <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
@@ -665,7 +665,7 @@ _|_|_
         <item>
         <title>寫作和繪畫 </title>
         <link>https://evthron.github.io/zh/posts/writing-and-drawing/</link>
-        <pubDate>Fri, 21 Jun 2024 11:16:06 +0800</pubDate>
+        <pubDate>Fri, 21 Jun 2024 19:16:06 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/writing-and-drawing/</guid>
         <description>&lt;p&gt;寫作好像和繪畫不沾邊，但這兩項活動其實是十分相似的。我聽説過有些古代的文人既是文學家，也是畫家，兩項活動對他們來説是不分家的。我自己研究了一下之後，也明白了繪畫和寫作之間相似又相反的奇特關係。&lt;/p&gt;
@@ -678,7 +678,7 @@ _|_|_
         <item>
         <title>JavaScript 新手</title>
         <link>https://evthron.github.io/zh/tweet/new-to-javascript/</link>
-        <pubDate>Wed, 19 Jun 2024 11:48:42 +0800</pubDate>
+        <pubDate>Wed, 19 Jun 2024 19:48:42 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。&lt;/p&gt;
@@ -689,7 +689,7 @@ _|_|_
         <item>
         <title>音階 </title>
         <link>https://evthron.github.io/zh/posts/scale/</link>
-        <pubDate>Mon, 10 Jun 2024 04:52:49 +0800</pubDate>
+        <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/scale/</guid>
         <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
@@ -768,7 +768,7 @@ Altered:    1212222
         <item>
         <title>折紙 </title>
         <link>https://evthron.github.io/zh/tweet/origami/</link>
-        <pubDate>Tue, 04 Jun 2024 13:14:54 +0800</pubDate>
+        <pubDate>Tue, 04 Jun 2024 21:14:54 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/origami/</guid>
         <description>&lt;p&gt;我在街上接到傳單的時候，總覺得如果要馬上扔到附近的垃圾筒裏面，那倒不如一開始就不要拿。那廢紙有什麼用呢？拿來折紙也是門手藝。記得小學的數學老師教過怎麼用紙拼出多面體，那比折什麼紙飛機有意思多了。&lt;/p&gt;
@@ -780,7 +780,7 @@ Altered:    1212222
         <item>
         <title>油粉彩花瓶 </title>
         <link>https://evthron.github.io/zh/gallery/flower-pot/</link>
-        <pubDate>Wed, 22 May 2024 20:02:46 +0800</pubDate>
+        <pubDate>Thu, 23 May 2024 04:02:46 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/gallery/flower-pot/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post 油粉彩花瓶 " /&gt;&lt;p&gt;只畫黑白素描沒什麼意思。如果要在畫作裏加入顏色，我考慮了好幾種工具，好像是油粉彩最好，既能混合顏色，也能隨時拿出來用。我先測試了油粉彩顏色混合的特性，多少有點經驗之後再開始畫。成品非常不錯吧？雖然感覺油粉彩是小孩的塗鴉工具，但還是要看技術的嘛。
@@ -804,7 +804,7 @@ Altered:    1212222
         <item>
         <title> 安裝 Arch Linux</title>
         <link>https://evthron.github.io/zh/tweet/arch-linux-installation/</link>
-        <pubDate>Thu, 18 Apr 2024 01:26:05 +0800</pubDate>
+        <pubDate>Thu, 18 Apr 2024 09:26:05 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;Arch Wiki 的網絡設置和啟動引導部分寫得不清晰，除此之外不算太難。現在五分鐘就能裝好。&lt;/p&gt;
@@ -815,7 +815,7 @@ Altered:    1212222
         <item>
         <title>改進發佈流程</title>
         <link>https://evthron.github.io/zh/tweet/easier-publish/</link>
-        <pubDate>Sat, 30 Mar 2024 13:13:23 +0800</pubDate>
+        <pubDate>Sat, 30 Mar 2024 21:13:23 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:13&lt;/p&gt;
@@ -832,7 +832,7 @@ Altered:    1212222
         <item>
         <title>更好的搜尋引擎</title>
         <link>https://evthron.github.io/zh/tweet/better-search-engine/</link>
-        <pubDate>Fri, 22 Mar 2024 17:04:38 +0800</pubDate>
+        <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;我已經厭倦 Google 的搜尋結果了（雖然我用的是 Startpage）。今天發現了 &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -850,7 +850,7 @@ Altered:    1212222
         <item>
         <title>Joplin Vim Mode</title>
         <link>https://evthron.github.io/zh/tweet/joplin-vim-mode/</link>
-        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;Joplin 居然有 Vim mode？那麼我一直以來特意設置 gvim 做外部編輯器豈不是多此一舉？省得調字體和手動保存。&lt;/p&gt;
@@ -859,7 +859,7 @@ Altered:    1212222
         <item>
         <title>幻想</title>
         <link>https://evthron.github.io/zh/tweet/delusions/</link>
-        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
@@ -870,7 +870,7 @@ Altered:    1212222
         <item>
         <title>時間管理工具</title>
         <link>https://evthron.github.io/zh/tweet/productivity-tools/</link>
-        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;不工作跑去研究工具是沒有好下場的。不過 Super Productivity 和 ActivityWatch 用起來都不錯。要怎樣運用徹底監控電腦使用時間得到的數據，才能把生活變成數值管理遊戲？不過總之先記錄，其他問題以後再想。&lt;/p&gt;
@@ -900,7 +900,7 @@ Altered:    1212222
         <item>
         <title>搜尋次數</title>
         <link>https://evthron.github.io/zh/tweet/search-count/</link>
-        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/search-count/</guid>
         <description>&lt;p&gt;亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。&lt;/p&gt;
@@ -911,48 +911,16 @@ Altered:    1212222
         <item>
         <title>進度</title>
         <link>https://evthron.github.io/zh/tweet/progress/</link>
-        <pubDate>Sun, 25 Feb 2024 17:49:21 +0800</pubDate>
+        <pubDate>Mon, 26 Feb 2024 01:49:21 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/progress/</guid>
         <description>&lt;p&gt;不把事情徹底完成就無法推進，這並不是好的做法。先完成初版再不斷更新才是有效的做法。但是，要如何知道自己完成了？除非能夠預知未來，否則就沒有辦法能估計自己的項目推進到哪一部分了。不對，就算能夠預知未來，也不知道要怎麼才能把自己的工作量變成數值反映在進度條上。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>如何告別互聯網</title>
-        <link>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</link>
-        <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</guid>
-        <description>&lt;h1 id=&#34;電腦&#34;&gt;電腦&lt;/h1&gt;
-&lt;h2 id=&#34;阻擋瀏覽&#34;&gt;阻擋瀏覽&lt;/h2&gt;
-&lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
-&lt;p&gt;必備的網站阻擋器。如果有些網站讓你下不去手封鎖，就要仔細研究 URL，可能只需要網站的其中一部分。重點是不需要的就要&lt;strong&gt;完全&lt;/strong&gt;封鎖，不要設置倒計時。&lt;/p&gt;
-&lt;h2 id=&#34;阻擋推薦&#34;&gt;阻擋推薦&lt;/h2&gt;
-&lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
-&lt;p&gt;主頁空白，推薦影片空白，讓 Youtube 只剩下搜尋功能。&lt;/p&gt;
-&lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
-&lt;p&gt;不但能攔截廣告，還可以攔截網站上一切分心的內容，用元素選擇器就能做到。&lt;/p&gt;
-&lt;h2 id=&#34;阻擋搜尋&#34;&gt;阻擋搜尋&lt;/h2&gt;
-&lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
-&lt;p&gt;讓阻擋了的網站從搜尋結果中消失，不讓自己意識到自己阻擋了內容。&lt;/p&gt;
-&lt;h2 id=&#34;集中內容&#34;&gt;集中內容&lt;/h2&gt;
-&lt;h3 id=&#34;任何-rss-閱讀器&#34;&gt;任何 RSS 閱讀器&lt;/h3&gt;
-&lt;p&gt;集中觀看自己訂閱的所有內容，不用在其他網站流連。我拿來代替 Youtube 訂閱。&lt;/p&gt;
-&lt;h1 id=&#34;手機&#34;&gt;手機&lt;/h1&gt;
-&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
-&lt;h3 id=&#34;helpmefocus&#34;&gt;HelpMeFocus&lt;/h3&gt;
-&lt;p&gt;不錯的 App 阻擋器。&lt;/p&gt;
-&lt;h3 id=&#34;universal-android-debloater&#34;&gt;Universal Android Debloater&lt;/h3&gt;
-&lt;p&gt;直接把 Google Chrome 和 Play Store 刪掉。&lt;/p&gt;
-&lt;h2 id=&#34;ios&#34;&gt;iOS&lt;/h2&gt;
-&lt;h3 id=&#34;內置的使用時間限制&#34;&gt;內置的使用時間限制&lt;/h3&gt;
-&lt;p&gt;讓別人保管密碼。&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>準確的色環</title>
         <link>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</link>
-        <pubDate>Sun, 28 Jan 2024 21:05:42 +0800</pubDate>
+        <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1032,6 +1000,114 @@ Altered:    1212222
 &lt;/p&gt;
 &lt;p&gt;要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>如何告別互聯網</title>
+        <link>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</link>
+        <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</guid>
+        <description>&lt;p&gt;以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？&lt;/p&gt;
+&lt;p&gt;不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。&lt;/p&gt;
+&lt;p&gt;第一，依賴決心。決心這玩意只在自己有決心的時候有用，沒有決心的時候就連廢紙都不如了，怎麼會有這麼不方便的東西？對付互聯網這麼吸引人的玩意，怎麼能靠自己一戳即破的決心？對抗誘惑，外界的束縛是最有用的。但是外界的束縛又讓人討厭，讓人有反抗的心思，而天底下沒有毫無破綻的束縛，一定會有漏洞，只要束縛一破，陋習就會變本加厲。所以，要點在於讓自己設下別人執行規則。&lt;/p&gt;
+&lt;p&gt;第二，限制過緊。要是像上面説的一樣，為自己設下牢不可破的障礙，像是把手機鎖在箱裏了，把電腦砸了，到了真的有需要用的時候，一定會氣急敗壞，悔不當初，從此絕口不提斷網的事情了。或許在別的世界裏，要得到好處就要抵得住誘惑，但是在電腦的世界裏沒有這種常識。把不需要的部分像挑魚刺一樣全部剔除，只留下自己需要的部分，才能算是個聰明的用家。&lt;/p&gt;
+&lt;p&gt;在經歷了數不清的後悔、數不清的悔改和數不清的重蹈覆轍之後，我終於摸索出了一套好用的工具來限制自己上網。雖然還不是很完美，但要是能全部用上，你就勝過大部分還矇在鼓裏的人了。&lt;/p&gt;
+&lt;p&gt;限制上網的方法從嚴格到寬鬆可以分為三種：禁止，預防，減少興致。禁止是封鎖自己上網的途徑，預防是防止自己發現新的資訊。減少興致是為自己上網增加一點麻煩。按你自己的需要配合着用吧。&lt;/p&gt;
+&lt;h1 id=&#34;手機&#34;&gt;手機&lt;/h1&gt;
+&lt;p&gt;手機是最危險的。絕對沒有人需要隨時隨地都可以上網，想看什麼就看什麼的手機。對付手機，我只有禁止策略，沒有預防和減少興致的策略。&lt;/p&gt;
+&lt;h3 id=&#34;helpmefocus-android&#34;&gt;HelpMeFocus (Android)&lt;/h3&gt;
+&lt;p&gt;不錯的 App 阻擋器。它可以把自己也阻擋掉，這是很重要的功能。&lt;/p&gt;
+&lt;h3 id=&#34;universal-android-debloater-android&#34;&gt;Universal Android Debloater (Android)&lt;/h3&gt;
+&lt;p&gt;在 Android 上，Google Chrome，Youtube 和 Play Store 是系統預裝軟件，一般是刪不掉的。要動用 &lt;a class=&#34;link&#34; href=&#34;https://github.com/0x192/universal-android-debloater&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Universal Android Debloater (github)&lt;/a&gt; 這個大殺器才能除掉。&lt;/p&gt;
+&lt;p&gt;用不着 Play Store，也可以更新軟件。有些軟件會在官網上直接放出安裝包。要是沒有的話，多數也能在 APKMirror 一類的鏡像網站找到。實在沒有辦法的話，就暫時重新啓用 Play Store 吧。&lt;/p&gt;
+&lt;h3 id=&#34;螢幕使用時間-ios&#34;&gt;螢幕使用時間 (iOS)&lt;/h3&gt;
+&lt;p&gt;iOS 可不像 Android 那麼自由可以隨意禁用軟件，不過 iOS 的數位健康功能做得很嚴格，只能用密碼解鎖。&lt;/p&gt;
+&lt;h1 id=&#34;電腦&#34;&gt;電腦&lt;/h1&gt;
+&lt;p&gt;電腦能用的工具比較靈活，可以在瀏覽器裏安裝擴充套件，不像手機一樣，只能整個 App 屏蔽掉。&lt;/p&gt;
+&lt;h3 id=&#34;阻擋leechblock-ng&#34;&gt;阻擋：Leechblock NG&lt;/h3&gt;
+&lt;p&gt;這是必備的網站阻擋器。你可以試試各種各樣的封鎖策略，設置使用倒計時，或者按時間段封鎖，都是可以的。不過，我的經驗告訴我應該要做得絕一點，不需要上的網站就要完全封鎖。&lt;/p&gt;
+&lt;p&gt;如果有些網站讓你下不去手封鎖，就要仔細研究網站的域名，你可能只需要其中一部分讓你分心的頁面，例如我只需要看知乎專欄 zhuanlan.zhihu.com，而不需要知乎的問答部分 zhihu.com。&lt;/p&gt;
+&lt;p&gt;不過 Leechblock 是瀏覽器插件，只能阻止一個瀏覽器，誰也攔不住你安裝另一個。你能做的就只有把世界上所有瀏覽器的下載頁面封鎖掉。&lt;/p&gt;
+&lt;h3 id=&#34;阻擋cold-turkey-blocker&#34;&gt;阻擋：Cold Turkey Blocker&lt;/h3&gt;
+&lt;p&gt;這個軟件比上面的更進一步，要求瀏覽器必須安裝它的封鎖插件才能啓動。封鎖的程度也很徹底，只要設了時間限制，除了捐錢沒有任何解除封鎖的方法，就算把軟件刪掉也沒用。一般人不可能知道它用了什麼原理，所以這是最強的封鎖軟件。沒有比絕對可靠的規則更讓人感到安心的東西了。&lt;/p&gt;
+&lt;h3 id=&#34;預防ublacklist&#34;&gt;預防：uBlacklist&lt;/h3&gt;
+&lt;p&gt;要是搜尋的時候總是看到那些自己已經擋掉的網站，一定會有解除封鎖的衝動，所以要讓阻擋了的網站從搜尋結果中消失，不讓自己意識到自己阻擋了內容。&lt;/p&gt;
+&lt;p&gt;新網站往往是最危險的。uBlackList 能在搜尋結果裏除掉自己不想看見的網站。&lt;/p&gt;
+&lt;h2 id=&#34;減少興致ublock-origin&#34;&gt;減少興致：uBlock Origin&lt;/h2&gt;
+&lt;p&gt;你説不定知道這是個攔截廣告的軟件，但重點不是這個。這是個萬能攔截器，只要網站上有讓你分心的東西，像是百科全書底部能跳到其他相關頁面的連接，或是搜尋頁面上翻到下一頁的箭頭，你就可以用元素選擇器把它們除掉。&lt;/p&gt;
+&lt;h1 id=&#34;youtube&#34;&gt;Youtube&lt;/h1&gt;
+&lt;p&gt;值得為了 Youtube 專門開一段。Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。&lt;/p&gt;
+&lt;h2 id=&#34;阻擋blocktube&#34;&gt;阻擋：BlockTube&lt;/h2&gt;
+&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
+還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。&lt;/p&gt;
+&lt;h2 id=&#34;預防unhook&#34;&gt;預防：Unhook&lt;/h2&gt;
+&lt;p&gt;讓主頁和推薦影片欄都變得一片空白，然後好好管理自己訂閲的頻道。想看其他內容就只能自己搜尋了。&lt;/p&gt;
+&lt;h2 id=&#34;減少興致yt-dlp&#34;&gt;減少興致：yt-dlp&lt;/h2&gt;
+&lt;p&gt;這是一套組合招式。在看 Youtube 之前影片前先下載好，讓自己考慮一下才決定要不要看。至少不會輕易點進一個多小時的遊戲直播了。&lt;/p&gt;
+&lt;p&gt;先用 Leechblock 禁止播放影片的 watch 類頁面，然後在 Ublock Origin 的自定義靜態規則裏加入 &lt;code&gt;youtube.com##ytd-continuation-item-renderer&lt;/code&gt;，停用無限加載，最後在搜尋頁面複製好鏈接，扔進 yt-dlp 裏下載。&lt;/p&gt;
+&lt;h2 id=&#34;用-rss-閱讀器集中內容&#34;&gt;用 RSS 閱讀器集中內容&lt;/h2&gt;
+&lt;p&gt;無論是 Youtube 還是新聞網站，都能用 RSS 閲讀器訂閲。這樣就能集中觀看自己訂閱的所有內容，不用在其他網站流連。電腦可以用 Feedbro，手機可以用 Feeder。&lt;/p&gt;
+&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+&lt;p&gt;説這個之前先抱怨一句，研究網絡研究得越深入，就能找到越多破解網絡封鎖的辦法。什麼都不知道反而輕鬆，這就是知識的詛咒。不過既然已經開始研究了，就只能研究到底了。&lt;/p&gt;
+&lt;p&gt;Linux 和 Windows 其實並沒有什麼區別，除了 Cold Turkey Blocker 之外全部都能用。可能 Cold Turkey Blocker 的作者也知道，在 Linux 上不用瀏覽器也能上網，破解網絡封鎖的辦法也多的是，所以，封鎖網絡只能中斷網絡連接本身，這需要修改電腦的網絡配置才能實現。&lt;/p&gt;
+&lt;p&gt;網址要先轉換成 IP 地址才能上網，這個過程叫作「域名解析」。只要手動干擾域名解析，就能中斷網絡。&lt;/p&gt;
+&lt;h2 id=&#34;dnsmasq&#34;&gt;dnsmasq&lt;/h2&gt;
+&lt;p&gt;首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。
+在 etc/NetworkManager/dnsmasq.d/block.conf 裏，把自己要封鎖的網站一行行加進去。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;address=/example.com/
+address=/example1.com/
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;現在上 example.com 的時候就解析不了域名。&lt;/p&gt;
+&lt;p&gt;etc 文件夾裏的文件是系統設定，需要 root 權限才能修改。先限制好自己的 sudo 權限讓自己沒有辦法修改文件，然後把 root 密碼藏起來。這樣就沒有辦法修改 dnsmasq 的設定了。不過我還沒有這樣做。只要解除封鎖的過程足夠複雜，我就不會自找麻煩了。要知道，拆掉自己建好的東西是多麼痛苦啊。&lt;/p&gt;
+&lt;p&gt;網上也有一些別人辛苦整理好的封鎖列表，像是 &lt;a class=&#34;link&#34; href=&#34;https://github.com/hagezi/dns-blocklists&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;dns-blocklists (github)&lt;/a&gt;。你也可以拿來用。&lt;/p&gt;
+&lt;h2 id=&#34;delayed-admin&#34;&gt;Delayed-admin&lt;/h2&gt;
+&lt;p&gt;dnsmasq 只是在域名層面的一道基礎防禦，沒有辦法像 Leechblock 一樣靈活地控制開放時間和針對 URL 禁止網站。我只要下載另一個瀏覽器，就能繞開這些插件的限制，所以我還需要防止自己安裝瀏覽器。&lt;/p&gt;
+&lt;p&gt;在 Linux 系統裏，只要放棄 root 權限就安裝不了軟件，不過我既是用家，也是系統管理員，需要升級系統、更改系統設定，以後也需要安裝新的軟件，所以我不能這樣做。怎樣防止自己監守自盜的問題一直讓我很頭痛。用到 root 權限的頻率很高，所以我像不能把密碼放在家裏的硬盤裏，等到需要的時候才拿出來。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/miheerdew/delayed-admin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;delayed-admin (github)&lt;/a&gt; 用很簡單的想法解決了我的煩惱：讓自己先等待一段時間，才能執行操作，就能抵住一時的鬼迷心竅，不會剛看完電影，急着上網看影評，發現影評網站被自己擋掉了就下載另一個瀏覽器，然後沉溺在沒有插件限制的網絡裏了。&lt;/p&gt;
+&lt;p&gt;詳細的原理是這樣的：在 Linux 裏，可以指定用户屬於什麼羣組，然後根據不同的羣組，分發不同的權限。具體會用到 sudo 這個程序分發權限。前面説到用户需要 root 權限來執行和修改系統設定有關的操作，但如果一直持有 root 權限的話，會有安全問題，所以一般都只會在需要的時候，用 sudo 指令臨時賦予自己 root 權限。在 sudoers 設定檔裏，可以細緻地設定什麼人，什麼羣組，可以在什麼樣的指令上使用 sudo。&lt;/p&gt;
+&lt;p&gt;而 delayed-admin 這個程序會新增一個 delayed-admin 羣組，這個羣組沒有常規的 root 權限，羣組裏的用户只能用 delayed 指令執行需要 root 權限的操作，等待一段時間後才會執行。做法是在 sudoers 文件裏加上一行：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;%delayed-admin ALL = /usr/local/bin/delayed
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這個 delayed 程序也很簡單，主體邏輯只有三行。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CMD&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;@&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sleep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$delay&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$CMD
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;雖然很簡單，不過這就是我一直想要的工具。&lt;/p&gt;
+&lt;p&gt;delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安裝 at，排程工具&lt;/li&gt;
+&lt;li&gt;手動建立 /etc/sudoers.d/delayed-admin，加入上面的 sudoers 設定&lt;/li&gt;
+&lt;li&gt;不要在 sudoers 裏給自己 root 權限，而是把自己加進 wheel group，再給 wheel group root 權限。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;其他問題su-和-kdesu&#34;&gt;其他問題（su 和 kdesu）&lt;/h2&gt;
+&lt;p&gt;要防止自己用 su 獲得 root 權限，需要在/etc/pam.d/su and /etc/pam.d/su-l 加上一句：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Su#su_and_wheel&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.archlinux.org/title/Su#su_and_wheel&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;auth required pam_wheel.so use_uid
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。&lt;/p&gt;
+&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:
+&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Sudo#kdesu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.archlinux.org/title/Sudo#kdesu&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[super-user-command]
+super-user-command=sudo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接着是修改 polkit，設定是根據 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=183902&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bypass KDEsu Authentication Dialog (archlinux bbs)&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://forums.gentoo.org/viewtopic-p-8236824.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How do I &amp;ldquo;graphical-sudo&amp;rdquo; under KDE (not &amp;ldquo;su&amp;rdquo;)? (gentoo forum)&lt;/a&gt; 改的。&lt;/p&gt;
+&lt;p&gt;在 /etc/polkit-1/rules.d/10-admin.rules 裏：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addAdminRule&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;unix-group:wheel&amp;#34;&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 如果用户想在 Dolphin 裏面提升權限，直接否決
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addRule&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;isInGroup&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;admin&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;org.kde.kio.admin.commands&amp;#34;&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Result&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NO&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
         <title>量數和序數</title>
@@ -1123,7 +1199,7 @@ Altered:    1212222
         <item>
         <title>冷天</title>
         <link>https://evthron.github.io/zh/tweet/winter/</link>
-        <pubDate>Fri, 22 Dec 2023 10:20:01 +0800</pubDate>
+        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/winter/</guid>
         <description>&lt;p&gt;真的好冷啊。上星期還是熱得和夏天一樣，還以為能過個暖和的冬天。&lt;/p&gt;
@@ -1132,7 +1208,7 @@ Altered:    1212222
         <item>
         <title>重設鍵盤佈局</title>
         <link>https://evthron.github.io/zh/toolbox/remap-keyboard/</link>
-        <pubDate>Thu, 21 Dec 2023 14:44:00 +0800</pubDate>
+        <pubDate>Thu, 21 Dec 2023 22:44:00 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;現在的鍵盤佈局完全沒有考慮過人體工學：&lt;/p&gt;

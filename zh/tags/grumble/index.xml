@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Tue, 24 Dec 2024 23:36:05 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 25 Dec 2024 07:36:05 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>和朋友保持聯絡</title>
         <link>https://evthron.github.io/zh/posts/contact-friends/</link>
-        <pubDate>Tue, 24 Dec 2024 23:36:05 +0800</pubDate>
+        <pubDate>Wed, 25 Dec 2024 07:36:05 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/contact-friends/</guid>
         <description>&lt;p&gt;「保持聯絡」絕不是客套話，友誼是從見面的第一天起就開始玩的乒乓球，你來我往，不能停下來。但我空有這種觀念，還是當不成一個好朋友，因為只要離開了自己的視線，我就幾乎不會去關心別人過得怎麼樣。大部分人關心的事，我不是覺得害怕，就是覺得沒意義。&lt;/p&gt;
@@ -33,7 +33,7 @@
         <item>
         <title>docker 連不上網的解決辦法和折騰的悲哀</title>
         <link>https://evthron.github.io/zh/posts/docker-panic/</link>
-        <pubDate>Thu, 17 Oct 2024 11:37:47 +0800</pubDate>
+        <pubDate>Thu, 17 Oct 2024 19:37:47 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/docker-panic/</guid>
         <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
@@ -100,7 +100,7 @@ sudo reboot
         <item>
         <title>理髮</title>
         <link>https://evthron.github.io/zh/tweet/haircut/</link>
-        <pubDate>Wed, 18 Sep 2024 15:57:07 +0800</pubDate>
+        <pubDate>Wed, 18 Sep 2024 23:57:07 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/haircut/</guid>
         <description>&lt;p&gt;我被理髮師抱怨，説我的需求不清楚，真不幸。以前還不是一直都含糊其詞，剪出來的都差不多啊。唉，至少我現在會説理髮師聽得懂的話了。&lt;/p&gt;
@@ -109,7 +109,7 @@ sudo reboot
         <item>
         <title>黏在旁邊的選單</title>
         <link>https://evthron.github.io/zh/tweet/sticky-menu/</link>
-        <pubDate>Mon, 24 Jun 2024 18:01:20 +0800</pubDate>
+        <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
@@ -120,7 +120,7 @@ sudo reboot
         <item>
         <title>改進發佈流程</title>
         <link>https://evthron.github.io/zh/tweet/easier-publish/</link>
-        <pubDate>Sat, 30 Mar 2024 13:13:23 +0800</pubDate>
+        <pubDate>Sat, 30 Mar 2024 21:13:23 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:13&lt;/p&gt;
@@ -137,7 +137,7 @@ sudo reboot
         <item>
         <title>幻想</title>
         <link>https://evthron.github.io/zh/tweet/delusions/</link>
-        <pubDate>Tue, 19 Mar 2024 12:20:35 +0800</pubDate>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
@@ -148,7 +148,7 @@ sudo reboot
         <item>
         <title>冷天</title>
         <link>https://evthron.github.io/zh/tweet/winter/</link>
-        <pubDate>Fri, 22 Dec 2023 10:20:01 +0800</pubDate>
+        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/winter/</guid>
         <description>&lt;p&gt;真的好冷啊。上星期還是熱得和夏天一樣，還以為能過個暖和的冬天。&lt;/p&gt;
