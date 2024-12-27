@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='現在的鍵盤佈局完全沒有考慮過人體工學：
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='現在的鍵盤佈局完全沒有考慮過人體工學：
 沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
 Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 鍵盤上還有不少多餘的鍵：
 上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt&#43;F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？ Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。 另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl &#43; Shift &#43; Alt &#43; P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。
@@ -9,11 +10,14 @@ AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我
 打字 打字舒服是最重要的。
 Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&gt; Win &#43; Space（切換中英文輸入法） 瀏覽器操作 真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。
 '>
-<title>重設鍵盤佈局 | Evthron&#39;s blog</title>
-
-<link rel='canonical' href='https://evthron.github.io/zh/toolbox/remap-keyboard/'>
-
-<link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='重設鍵盤佈局'>
+        <title>重設鍵盤佈局 | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/toolbox/remap-keyboard/'>
+        
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='重設鍵盤佈局'>
 <meta property='og:description' content='現在的鍵盤佈局完全沒有考慮過人體工學：
 沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
 Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 鍵盤上還有不少多餘的鍵：
@@ -34,35 +38,40 @@ AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我
 打字 打字舒服是最重要的。
 Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&gt; Win &#43; Space（切換中英文輸入法） 瀏覽器操作 真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。
 ">
-    <link rel="shortcut icon" href="/favicon.ico" />
-
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
     </head>
     <body class="
     article-page
     ">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
 
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -575,23 +584,23 @@ Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 這麼一來�
 
             </main>
         </div>
+    
+        
         <script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
-
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
-</script>
-
-
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
     </body>
 </html>

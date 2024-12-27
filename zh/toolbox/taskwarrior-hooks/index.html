@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
 第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
 首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。
 # 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。 uda.time.type=string uda.time.label=Time uda.value.type=string uda.value.label=Value uda.worth.type=numeric uda.worth.label=Worth 然後修改 report.list 的欄位，加入 Time, Value，和 Worth
@@ -9,11 +10,14 @@ default.command=list # 輸入 task 的時候自動執行 task list，而不是 t
 report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 &gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
 '>
-<title>定製 Taskwarrior | Evthron&#39;s blog</title>
-
-<link rel='canonical' href='https://evthron.github.io/zh/toolbox/taskwarrior-hooks/'>
-
-<link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='定製 Taskwarrior'>
+        <title>定製 Taskwarrior | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/toolbox/taskwarrior-hooks/'>
+        
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='定製 Taskwarrior'>
 <meta property='og:description' content='Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
 第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
 首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。
@@ -34,35 +38,40 @@ default.command=list # 輸入 task 的時候自動執行 task list，而不是 t
 report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 &gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
 ">
-    <link rel="shortcut icon" href="/favicon.ico" />
-
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
     </head>
     <body class="
     article-page
     ">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
 
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -609,23 +618,23 @@ ID | Active | Age | Description | Time | Value | Worth  |
 
             </main>
         </div>
+    
+        
         <script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
-
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
-</script>
-
-
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
     </body>
 </html>

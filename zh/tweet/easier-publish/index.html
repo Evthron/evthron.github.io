@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='2024/03/30 21:13
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='2024/03/30 21:13
 搗鼓了 joppy（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。
 2024/03/30 23:03
 如果我用普通地利用依賴系統檔案結構的，像 Obsidian 之類的筆記軟件，甚至是 VS Code，能直接打開檔案編輯，而不是用數據庫的 Joplin，不就不用這麼麻煩了嗎？我到底是為了什麼？開源嗎？哈哈哈……
@@ -10,11 +11,14 @@
 27/12/2024 02:21
 我把 Joplin 的文章全部導出來，變成純文本檔案了。所有的筆記和文章都可以放在同一個文件夾裏，很容易備份，也可以用 vimwiki 修改。發佈流程沒改，還是會先複製一份到 Joplin 裏才發佈。雖然有點麻煩，但能把草稿的和發到網站上的文章分開算是意料之外的的好處。
 '>
-<title>改進發佈流程 | Evthron&#39;s blog</title>
-
-<link rel='canonical' href='https://evthron.github.io/zh/tweet/easier-publish/'>
-
-<link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='改進發佈流程'>
+        <title>改進發佈流程 | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/tweet/easier-publish/'>
+        
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='改進發佈流程'>
 <meta property='og:description' content='2024/03/30 21:13
 搗鼓了 joppy（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。
 2024/03/30 23:03
@@ -37,35 +41,40 @@
 27/12/2024 02:21
 我把 Joplin 的文章全部導出來，變成純文本檔案了。所有的筆記和文章都可以放在同一個文件夾裏，很容易備份，也可以用 vimwiki 修改。發佈流程沒改，還是會先複製一份到 Joplin 裏才發佈。雖然有點麻煩，但能把草稿的和發到網站上的文章分開算是意料之外的的好處。
 ">
-    <link rel="shortcut icon" href="/favicon.ico" />
-
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
     </head>
     <body class="
     article-page
     ">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
 
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -618,23 +627,23 @@
 
             </main>
         </div>
+    
+        
         <script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
-
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
-</script>
-
-
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
     </body>
 </html>

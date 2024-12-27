@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 OKLCH 顏色選擇器 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 OKLCH 顏色選擇器 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。
 顏色數據：
 Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。 一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。 2024/05/25
 這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。 改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為在調色盤裏的基礎顏色，本來就有不一樣的亮度和色彩對比。不過很難從這些各異的顏色出發，調出自己想要的顏色。 一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 像素説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。
@@ -10,11 +11,14 @@ Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相�
 受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。
 電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。
 '>
-<title>準確的色環 | Evthron&#39;s blog</title>
-
-<link rel='canonical' href='https://evthron.github.io/zh/gallery/accurate-colour-wheel/'>
-
-<link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='準確的色環'>
+        <title>準確的色環 | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/gallery/accurate-colour-wheel/'>
+        
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.1df63c6cbcbe74b6ea256841362b0f77ccec1282cfafcd012b20b0372ec5cd60.css"><meta property='og:title' content='準確的色環'>
 <meta property='og:description' content='顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 OKLCH 顏色選擇器 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。
 顏色數據：
 Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。 一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。 2024/05/25
@@ -38,35 +42,40 @@ Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相�
 電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。
 "><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
-    <link rel="shortcut icon" href="/favicon.ico" />
-
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
     </head>
     <body class="
     article-page
     ">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
 
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -620,23 +629,23 @@ Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相�
 
             </main>
         </div>
+    
+        
         <script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
-
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
-</script>
-
-
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
     </body>
 </html>
