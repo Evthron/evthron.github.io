@@ -78,6 +78,7 @@
 &lt;hr&gt;
 &lt;p&gt;現在重新看一次代碼，我完全不知道自己是怎麼做到的。完全不像是我自己寫的啊…… 應該是從原本的代碼裏找到適合的部分，複製黏貼再重組的吧。&lt;/p&gt;
 &lt;p&gt;感覺用這個模板很受限制，CSS 雖然好像很有條理，但內容四散，不知道是按着什麼結構組織的。&lt;/p&gt;
+&lt;p&gt;認真讀一次就能明白了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Tailwind CSS 的理念是有道理的，不深思熟慮就胡亂添加一大堆 CSS class 只會讓代碼變得散亂，還不如直接把樣式寫進 HTML。不過總感覺網頁應該要事先設計好才開始動工，所以我有點懷疑。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scriptraccoon.dev/blog/tailwind-disadvantages&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
