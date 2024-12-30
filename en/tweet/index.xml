@@ -69,6 +69,10 @@
 &lt;hr&gt;
 &lt;p&gt;The code was very cryptic&amp;hellip; how did I finished this thing? Maybe I rearranged the code from the original template?&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s quite limiting to using this template. The way how the CSS files organised is very confusing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Tailwind css looks tempting because it reveals the problem of overly structured and scattered CSS classes. Don&amp;rsquo;t predict which classes can be reused, only reuse it if you saw it repeated many times. But it might not be a good thing to make edits without understanding the structure of the site, so I&amp;rsquo;m doubtful.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scriptraccoon.dev/blog/tailwind-disadvantages&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://scriptraccoon.dev/blog/tailwind-disadvantages&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
