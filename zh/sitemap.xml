@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/sandbox/task/</loc>
-    <lastmod>2024-12-31T18:04:17+08:00</lastmod>
+    <lastmod>2024-12-31T19:27:25+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/</loc>
-    <lastmod>2024-12-31T18:42:07+08:00</lastmod>
+    <lastmod>2024-12-31T19:27:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -989,23 +989,6 @@
     <loc>https://evthron.github.io/zh/posts/overnight-revision/</loc>
     <lastmod>2023-05-16T20:41:00+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/zh/sandbox/clock/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/clock/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/clock/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/clock/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/custom/</loc>
   </url><url>
     <loc>https://evthron.github.io/zh/categories/artwork/</loc>
@@ -1057,6 +1040,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/page/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/sandbox/arsenal/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/arsenal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/arsenal/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/search/</loc>

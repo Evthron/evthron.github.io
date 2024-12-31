@@ -414,23 +414,6 @@
                 href="https://evthron.github.io/tok/skill/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/sandbox/clock/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/clock/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/clock/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/clock/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/languages/</loc>
     <xhtml:link
                 rel="alternate"
