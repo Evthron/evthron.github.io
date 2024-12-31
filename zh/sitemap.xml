@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/zh/sandbox/task/</loc>
+    <lastmod>2024-12-31T08:15:25+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/zh/sandbox/</loc>
+    <lastmod>2024-12-31T08:15:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/categories/</loc>
     <lastmod>2024-12-31T04:01:33+08:00</lastmod>
     <xhtml:link
@@ -25,24 +46,6 @@
   </url><url>
     <loc>https://evthron.github.io/zh/categories/sandbox/</loc>
     <lastmod>2024-12-31T03:10:09+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/sandbox/</loc>
-    <lastmod>2024-12-31T03:10:09+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/relationship/</loc>
     <lastmod>2024-12-29T00:15:21+08:00</lastmod>
@@ -986,6 +989,23 @@
     <loc>https://evthron.github.io/zh/posts/overnight-revision/</loc>
     <lastmod>2023-05-16T20:41:00+08:00</lastmod>
   </url><url>
+    <loc>https://evthron.github.io/zh/sandbox/clock/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/clock/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/sandbox/clock/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/clock/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/custom/</loc>
   </url><url>
     <loc>https://evthron.github.io/zh/categories/artwork/</loc>
@@ -1037,23 +1057,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/page/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/sandbox/clock/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/clock/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/clock/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/clock/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/search/</loc>
