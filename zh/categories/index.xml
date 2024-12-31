@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>https://evthron.github.io/zh/categories/</link>
+        <link>http://localhost:1313/zh/categories/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 30 Dec 2024 23:55:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 30 Dec 2024 23:55:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Sandbox</title>
-        <link>https://evthron.github.io/zh/categories/sandbox/</link>
+        <link>http://localhost:1313/zh/categories/sandbox/</link>
         <pubDate>Mon, 30 Dec 2024 23:55:28 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/categories/sandbox/</guid>
+        <guid>http://localhost:1313/zh/categories/sandbox/</guid>
         <description></description>
         </item>
         <item>
         <title>tweet</title>
-        <link>https://evthron.github.io/zh/categories/tweet/</link>
+        <link>http://localhost:1313/zh/categories/tweet/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:27 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/categories/tweet/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post tweet" /&gt;</description>
+        <guid>http://localhost:1313/zh/categories/tweet/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post tweet" /&gt;</description>
         </item>
         <item>
         <title>toolbox</title>
-        <link>https://evthron.github.io/zh/categories/toolbox/</link>
+        <link>http://localhost:1313/zh/categories/toolbox/</link>
         <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/categories/toolbox/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
+        <guid>http://localhost:1313/zh/categories/toolbox/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post toolbox" /&gt;</description>
         </item>
         <item>
         <title>posts</title>
-        <link>https://evthron.github.io/zh/categories/posts/</link>
+        <link>http://localhost:1313/zh/categories/posts/</link>
         <pubDate>Wed, 25 Dec 2024 07:36:05 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/categories/posts/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
+        <guid>http://localhost:1313/zh/categories/posts/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
         </item>
         <item>
         <title>gallery</title>
-        <link>https://evthron.github.io/zh/categories/gallery/</link>
+        <link>http://localhost:1313/zh/categories/gallery/</link>
         <pubDate>Wed, 26 Jun 2024 02:34:57 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/categories/gallery/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        <guid>http://localhost:1313/zh/categories/gallery/</guid>
+        <description>&lt;img src="http://localhost:1313/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
         </item>
         <item>
         <title>gallery</title>
-        <link>https://evthron.github.io/zh/categories/artwork/</link>
+        <link>http://localhost:1313/zh/categories/artwork/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://evthron.github.io/zh/categories/artwork/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        <guid>http://localhost:1313/zh/categories/artwork/</guid>
+        <description>&lt;img src="http://localhost:1313/zh/categories/artwork/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
         </item>
         
     </channel>
