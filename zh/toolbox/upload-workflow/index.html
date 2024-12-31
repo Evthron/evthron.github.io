@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。
 我用 hugo（網站鏈接） 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。
@@ -14,7 +14,7 @@ posts cardinal-ordinal 量數和序數 Cardinals and ordinals 為了區分沒寫
 '>
         <title>文章發佈流程 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='http://localhost:1313/zh/toolbox/upload-workflow/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/toolbox/upload-workflow/'>
 
         
         
@@ -30,7 +30,7 @@ posts cardinal-ordinal 量數和序數 Cardinals and ordinals 為了區分沒寫
 以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？joppy (github) 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。
 除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。
 '>
-<meta property='og:url' content='http://localhost:1313/zh/toolbox/upload-workflow/'>
+<meta property='og:url' content='https://evthron.github.io/zh/toolbox/upload-workflow/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2024-12-27T06:01:25&#43;08:00'/><meta property='article:modified_time' content='2024-12-27T08:41:39&#43;08:00'/>
 <meta name="twitter:title" content="文章發佈流程">
@@ -282,9 +282,9 @@ posts cardinal-ordinal 量數和序數 Cardinals and ordinals 為了區分沒寫
 
                     <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
                     
-                            <option value="http://localhost:1313/zh/toolbox/upload-workflow/" selected>中文</option>
+                            <option value="https://evthron.github.io/zh/toolbox/upload-workflow/" selected>中文</option>
                     
-                            <option value="http://localhost:1313/en/toolbox/upload-workflow/" >English</option>
+                            <option value="https://evthron.github.io/en/toolbox/upload-workflow/" >English</option>
                     
 				    </select>
                 </li>
@@ -383,7 +383,7 @@ posts cardinal-ordinal 量數和序數 Cardinals and ordinals 為了區分沒寫
 
                 <div>
                     
-                        <a href="http://localhost:1313/en/toolbox/upload-workflow/" class="link">English</a>
+                        <a href="https://evthron.github.io/en/toolbox/upload-workflow/" class="link">English</a>
                     
                 </div>
             </footer>
