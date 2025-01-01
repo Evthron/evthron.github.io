@@ -2,6 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/en/sandbox/</loc>
+    <lastmod>2025-01-02T05:07:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/sandbox/taskwarrior/</loc>
+    <lastmod>2025-01-02T05:07:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/taskwarrior/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/taskwarrior/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/categories/</loc>
     <lastmod>2024-12-31T04:01:20+08:00</lastmod>
     <xhtml:link
@@ -284,26 +315,8 @@
                 href="https://evthron.github.io/en/sandbox/arsenal/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/sandbox/</loc>
-    <lastmod>2024-08-30T18:42:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/sandbox/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/skill/</loc>
-    <lastmod>2024-12-27T10:30:04+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -549,7 +562,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/writer/</loc>
-    <lastmod>2024-11-25T02:04:05+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -575,7 +588,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/programmer/</loc>
-    <lastmod>2024-11-25T02:04:05+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -709,7 +722,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/painter/</loc>
-    <lastmod>2024-12-27T10:30:04+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"

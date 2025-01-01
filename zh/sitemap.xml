@@ -2,11 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://evthron.github.io/zh/sandbox/task/</loc>
-    <lastmod>2025-01-01T08:27:52+08:00</lastmod>
+    <loc>https://evthron.github.io/zh/sandbox/taskwarrior/</loc>
+    <lastmod>2025-01-02T05:07:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/sandbox/taskwarrior/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/sandbox/taskwarrior/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/</loc>
-    <lastmod>2025-01-01T08:27:52+08:00</lastmod>
+    <lastmod>2025-01-02T05:07:51+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -531,7 +541,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/</loc>
-    <lastmod>2024-12-27T10:30:04+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -585,7 +595,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/writer/</loc>
-    <lastmod>2024-11-25T02:04:05+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -611,7 +621,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/programmer/</loc>
-    <lastmod>2024-11-25T02:04:05+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -745,7 +755,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/painter/</loc>
-    <lastmod>2024-12-27T10:30:04+08:00</lastmod>
+    <lastmod>2025-01-02T04:16:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
