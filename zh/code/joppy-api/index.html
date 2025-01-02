@@ -18,7 +18,7 @@ Logging @static method double bracket (when the function returns a callable obje
 LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the basic requests of the REST API.&#34;&#34;&#34; def __init__(self, token: str, url: str = &#34;http://localhost:41184&#34;) -&gt; None: self.url = url self.token = token def _request( self, method: str, # method 是 get / post / delete /put path: str, query: Optional[dt.JoplinKwargs] = None, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: LOGGER.debug( f&#34;API: {method} request: path={path}, query={query}, data={data}, &#34; f&#34;files={files}&#34; ) if data is not None and &#34;id_&#34; in data: # switch key id_ back to id? # &#34;id&#34; is a reserved keyword in python, so don&#39;t use it. data[&#34;id&#34;] = data.pop(&#34;id_&#34;) if query is None: # init empty query safely, use None when Optional query = {} query[&#34;token&#34;] = self.token #turn dictionary to query items urs tring query_str = &#34;&amp;&#34;.join([f&#34;{key}={val}&#34; for key, val in query.items()]) # saber=excalibur&amp;archer=unlimited_blade_works try: # getattr 得到 method, get / post / delete /put ，所以能連續用括號。神祕的黑盒子...... response: requests.models.Response = getattr(SESSION, method)( f&#34;{self.url}{path}?{query_str}&#34;, # 提供 url json=data, files=files, ) LOGGER.debug(f&#34;API: response {response.text}&#34;) # 如果出錯，raise exception response.raise_for_status() except requests.exceptions.HTTPError as err: err.args = err.args &#43; (response.text,) raise return response # joppy Delete, get, post, put ```python def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/joppy-api/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-12-23T09:27:45&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T05:43:08&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-12-23T09:27:45&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T07:10:00&#43;08:00'/>
 <meta name="twitter:title" content="joppy-api">
 <meta name="twitter:description" content=" Base API Base Methods Classes based on Base API User friendly methods python debug {{LOGGER.debug}} prints debug message
 Logging @static method double bracket (when the function returns a callable object) Type objects (Optional, Union) Requests (localhost) ** kwargs, use dictionary as keyword argument {dict}.get() as &lsquo;if exist, else&rsquo; 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
@@ -236,6 +236,16 @@ LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the bas
         </li>
         
         
+        <li  class='current' >
+            <a href='/zh/code/' >
+                
+                
+                
+                <span>⚔️ 代碼筆記</span>
+            </a>
+        </li>
+        
+        
         <li >
             <a href='/zh/sandbox/' >
                 
@@ -247,6 +257,27 @@ LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the bas
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                            <option value="https://evthron.github.io/zh/code/joppy-api/" selected>中文</option>
+                    
+                            <option value="https://evthron.github.io/en/code/joppy-api/" >English</option>
+                    
+				    </select>
+                </li>
+            
 
             
                 <li id="dark-mode-toggle">
@@ -317,6 +348,25 @@ LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the bas
         </footer>
         
     
+        
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <div>
+                    
+                        <a href="https://evthron.github.io/en/code/joppy-api/" class="link">English</a>
+                    
+                </div>
+            </footer>
         
     </div>
     
@@ -438,7 +488,7 @@ LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the bas
 
 
             <span>
-                最後更新 2025-01-03 05:43 &#43;08:00
+                最後更新 2025-01-03 07:10 &#43;08:00
             </span>
         </section></footer>
     

@@ -3,10 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/code/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/reddit-clipper/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/reddit-clipper/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/reddit-clipper/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/taskwarrior/</loc>
     <lastmod>2025-01-02T07:59:34+08:00</lastmod>
@@ -271,28 +291,108 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/code/cobalto.dev/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/cobalto.dev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/cobalto.dev/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/custom_export/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/custom_export/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/custom_export/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/hugo-theme-stack/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/hugo-theme-stack/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/hugo-theme-stack/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/joppy-api/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/joppy-api/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/joppy-api/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/note_export/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/note_export/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/note_export/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/note_stats/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/note_stats/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/note_stats/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/oklch.com/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/oklch.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/oklch.com/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/code/progress-bar/</loc>
-    <lastmod>2025-01-03T05:43:08+08:00</lastmod>
+    <lastmod>2025-01-03T07:10:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/progress-bar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/progress-bar/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/software/</loc>
     <lastmod>2024-12-27T06:37:04+08:00</lastmod>

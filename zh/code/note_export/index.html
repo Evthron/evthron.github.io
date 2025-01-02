@@ -16,7 +16,7 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
 Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/note_export/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-12-23T09:27:45&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T05:43:08&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-12-23T09:27:45&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T07:10:00&#43;08:00'/>
 <meta name="twitter:title" content="note_export">
 <meta name="twitter:description" content=" # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) extend a list generator Finding notes with certain title.
 Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) ">
@@ -233,6 +233,16 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
         </li>
         
         
+        <li  class='current' >
+            <a href='/zh/code/' >
+                
+                
+                
+                <span>⚔️ 代碼筆記</span>
+            </a>
+        </li>
+        
+        
         <li >
             <a href='/zh/sandbox/' >
                 
@@ -244,6 +254,27 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                            <option value="https://evthron.github.io/zh/code/note_export/" selected>中文</option>
+                    
+                            <option value="https://evthron.github.io/en/code/note_export/" >English</option>
+                    
+				    </select>
+                </li>
+            
 
             
                 <li id="dark-mode-toggle">
@@ -315,6 +346,25 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
         
     
         
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <div>
+                    
+                        <a href="https://evthron.github.io/en/code/note_export/" class="link">English</a>
+                    
+                </div>
+            </footer>
+        
     </div>
     
 </header>
@@ -367,7 +417,7 @@ Finding notes with certain title.</p>
 
 
             <span>
-                最後更新 2025-01-03 05:43 &#43;08:00
+                最後更新 2025-01-03 07:10 &#43;08:00
             </span>
         </section></footer>
     
