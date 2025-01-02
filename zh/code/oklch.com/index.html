@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='HTML &lt;!-- input number field --&gt; &lt;div class=&#34;card_number&#34;&gt; &lt;div class=&#34;field&#34;&gt; &lt;!-- keyboard shortcut button logo--&gt; &lt;!-- &lt;kbd class=&#34;field_hotkey&#34; aria-hidden=&#34;true&#34;&gt;l&lt;/kbd&gt; --&gt; &lt;input class=&#34;field_input&#34; role=&#34;spinbutton&#34; /&gt; &lt;!-- increase arrow --&gt; &lt;!-- what is tab index? --&gt; &lt;button class=&#34;field_control is-increase&#34;&gt;&lt;/button&gt; &lt;!-- decrease arrow --&gt; &lt;button class=&#34;field_control is-decrease&#34;&gt;&lt;/button&gt; &lt;/div&gt; &lt;/div&gt; CSS button{ cursor: pointer; //cursor change to hand } .card_number{ // What is inset-inline-end? inset-inline-end: 32px; width: 110px; border-radius: 5px; overflow: hidden; top: 20px; } .field{ position: relative; } .field_input{ // location // functional width: 100%; box-sizing: border-box; height: 40px; // aesthetic background-color: whitesmoke; border: none; // location of the cursor (inner space of the field); // updown = 0 // leftright = 12px padding: 0px 12px; } .field_input[role=&#34;spinbutton&#34;]{ padding-inline-end: 30px; text-align:right; } .field_control{ // location position: absolute; right: 0; // size height: 50%; width: 22px; // aesthetic border: none; // background-color: lightcoral; } .field_control.is-increase{ // location top: 0; right: 0; // aesthetic background-color: #ff95a6; transform: rotate(180deg); } .field_control.is-decrease{ // location bottom: 0; right: 0; // aesthetic background-color: #58c5ff; } .field_control:before { // function content: &#34;&#34;; position: absolute; // overlap on the button top: 1px; //gap betton the shapes // left: 50%; // size width: 12px; height: 12px; margin-left: -6px; // aesthetics background: white; border-radius: 0px 0 6px 6px; //staring from top-right, clockwise } .field_control:after { --width: 6px; position: absolute; top: 10%; left: calc(50% - var(--width) /2); right: 50%; width: var(--width); height: 6px; // margin-left: 50%; content: &#34;&#34;; background: url(&#34;data:image/svg&#43;xml,%3csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20fill=&#39;none&#39;%20viewBox=&#39;0%200%206%206&#39;%3e%3cpath%20fill=&#39;%23000&#39;%20d=&#39;M.707%201.825%202.62%204.057a.5.5%200%200%200%20.76%200l1.913-2.232A.5.5%200%200%200%204.913%201H1.087a.5.5%200%200%200-.38.825Z&#39;/%3e%3c/svg%3e&#34;); } '>
+        <title>oklch.com | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/code/oklch.com/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='oklch.com'>
+<meta property='og:description' content='HTML &lt;!-- input number field --&gt; &lt;div class=&#34;card_number&#34;&gt; &lt;div class=&#34;field&#34;&gt; &lt;!-- keyboard shortcut button logo--&gt; &lt;!-- &lt;kbd class=&#34;field_hotkey&#34; aria-hidden=&#34;true&#34;&gt;l&lt;/kbd&gt; --&gt; &lt;input class=&#34;field_input&#34; role=&#34;spinbutton&#34; /&gt; &lt;!-- increase arrow --&gt; &lt;!-- what is tab index? --&gt; &lt;button class=&#34;field_control is-increase&#34;&gt;&lt;/button&gt; &lt;!-- decrease arrow --&gt; &lt;button class=&#34;field_control is-decrease&#34;&gt;&lt;/button&gt; &lt;/div&gt; &lt;/div&gt; CSS button{ cursor: pointer; //cursor change to hand } .card_number{ // What is inset-inline-end? inset-inline-end: 32px; width: 110px; border-radius: 5px; overflow: hidden; top: 20px; } .field{ position: relative; } .field_input{ // location // functional width: 100%; box-sizing: border-box; height: 40px; // aesthetic background-color: whitesmoke; border: none; // location of the cursor (inner space of the field); // updown = 0 // leftright = 12px padding: 0px 12px; } .field_input[role=&#34;spinbutton&#34;]{ padding-inline-end: 30px; text-align:right; } .field_control{ // location position: absolute; right: 0; // size height: 50%; width: 22px; // aesthetic border: none; // background-color: lightcoral; } .field_control.is-increase{ // location top: 0; right: 0; // aesthetic background-color: #ff95a6; transform: rotate(180deg); } .field_control.is-decrease{ // location bottom: 0; right: 0; // aesthetic background-color: #58c5ff; } .field_control:before { // function content: &#34;&#34;; position: absolute; // overlap on the button top: 1px; //gap betton the shapes // left: 50%; // size width: 12px; height: 12px; margin-left: -6px; // aesthetics background: white; border-radius: 0px 0 6px 6px; //staring from top-right, clockwise } .field_control:after { --width: 6px; position: absolute; top: 10%; left: calc(50% - var(--width) /2); right: 50%; width: var(--width); height: 6px; // margin-left: 50%; content: &#34;&#34;; background: url(&#34;data:image/svg&#43;xml,%3csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20fill=&#39;none&#39;%20viewBox=&#39;0%200%206%206&#39;%3e%3cpath%20fill=&#39;%23000&#39;%20d=&#39;M.707%201.825%202.62%204.057a.5.5%200%200%200%20.76%200l1.913-2.232A.5.5%200%200%200%204.913%201H1.087a.5.5%200%200%200-.38.825Z&#39;/%3e%3c/svg%3e&#34;); } '>
+<meta property='og:url' content='https://evthron.github.io/zh/code/oklch.com/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-12-23T09:27:45&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T05:43:08&#43;08:00'/>
+<meta name="twitter:title" content="oklch.com">
+<meta name="twitter:description" content="HTML &lt;!-- input number field --&gt; &lt;div class=&#34;card_number&#34;&gt; &lt;div class=&#34;field&#34;&gt; &lt;!-- keyboard shortcut button logo--&gt; &lt;!-- &lt;kbd class=&#34;field_hotkey&#34; aria-hidden=&#34;true&#34;&gt;l&lt;/kbd&gt; --&gt; &lt;input class=&#34;field_input&#34; role=&#34;spinbutton&#34; /&gt; &lt;!-- increase arrow --&gt; &lt;!-- what is tab index? --&gt; &lt;button class=&#34;field_control is-increase&#34;&gt;&lt;/button&gt; &lt;!-- decrease arrow --&gt; &lt;button class=&#34;field_control is-decrease&#34;&gt;&lt;/button&gt; &lt;/div&gt; &lt;/div&gt; CSS button{ cursor: pointer; //cursor change to hand } .card_number{ // What is inset-inline-end? inset-inline-end: 32px; width: 110px; border-radius: 5px; overflow: hidden; top: 20px; } .field{ position: relative; } .field_input{ // location // functional width: 100%; box-sizing: border-box; height: 40px; // aesthetic background-color: whitesmoke; border: none; // location of the cursor (inner space of the field); // updown = 0 // leftright = 12px padding: 0px 12px; } .field_input[role=&#34;spinbutton&#34;]{ padding-inline-end: 30px; text-align:right; } .field_control{ // location position: absolute; right: 0; // size height: 50%; width: 22px; // aesthetic border: none; // background-color: lightcoral; } .field_control.is-increase{ // location top: 0; right: 0; // aesthetic background-color: #ff95a6; transform: rotate(180deg); } .field_control.is-decrease{ // location bottom: 0; right: 0; // aesthetic background-color: #58c5ff; } .field_control:before { // function content: &#34;&#34;; position: absolute; // overlap on the button top: 1px; //gap betton the shapes // left: 50%; // size width: 12px; height: 12px; margin-left: -6px; // aesthetics background: white; border-radius: 0px 0 6px 6px; //staring from top-right, clockwise } .field_control:after { --width: 6px; position: absolute; top: 10%; left: calc(50% - var(--width) /2); right: 50%; width: var(--width); height: 6px; // margin-left: 50%; content: &#34;&#34;; background: url(&#34;data:image/svg&#43;xml,%3csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20fill=&#39;none&#39;%20viewBox=&#39;0%200%206%206&#39;%3e%3cpath%20fill=&#39;%23000&#39;%20d=&#39;M.707%201.825%202.62%204.057a.5.5%200%200%200%20.76%200l1.913-2.232A.5.5%200%200%200%204.913%201H1.087a.5.5%200%200%200-.38.825Z&#39;/%3e%3c/svg%3e&#34;); } ">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu1107236856209142188.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/zh/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>最新文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>找文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/toolbox/' >
+                
+                
+                
+                <span>🛠️工具集</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/skill/' >
+                
+                
+                
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/code/oklch.com/">oklch.com</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2024-12-23</time>
+                </div>
+            
+    
+            
+        </footer>
+        
+    
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <h1 id="html">HTML</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- input number field --&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;card_number&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;field&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- keyboard shortcut button logo--&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- &lt;kbd class=&#34;field_hotkey&#34; aria-hidden=&#34;true&#34;&gt;l&lt;/kbd&gt; --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">input</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;field_input&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;spinbutton&#34;</span>
+</span></span><span style="display:flex;"><span>    /&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- increase arrow --&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- what is tab index? --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;field_control is-increase&#34;</span>&gt;&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- decrease arrow --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;field_control is-decrease&#34;</span>&gt;&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><h1 id="css">CSS</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">button</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">cursor</span>: <span style="color:#66d9ef">pointer</span>; <span style="color:#960050;background-color:#1e0010">//cursor</span> <span style="color:#960050;background-color:#1e0010">change</span> <span style="color:#960050;background-color:#1e0010">to</span> <span style="color:#960050;background-color:#1e0010">hand</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">card_number</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">What</span> <span style="color:#960050;background-color:#1e0010">is</span> <span style="color:#960050;background-color:#1e0010">inset-inline-end?</span>
+</span></span><span style="display:flex;"><span>    inset-inline-end: <span style="color:#ae81ff">32</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">110</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">hidden</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field_input</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">location</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">functional</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">box-sizing</span>: <span style="color:#66d9ef">border-box</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">40</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">aesthetic</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">whitesmoke</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">location</span> <span style="color:#960050;background-color:#1e0010">of</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">cursor</span> <span style="color:#960050;background-color:#1e0010">(inner</span> <span style="color:#960050;background-color:#1e0010">space</span> <span style="color:#960050;background-color:#1e0010">of</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">field)</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">updown</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#960050;background-color:#1e0010">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">leftright</span> <span style="color:#960050;background-color:#1e0010">=</span> <span style="color:#960050;background-color:#1e0010">12px</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">12</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field_input</span><span style="color:#f92672">[</span><span style="color:#f92672">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;spinbutton&#34;</span><span style="color:#f92672">]</span>{
+</span></span><span style="display:flex;"><span>  padding-inline-end: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">text-align</span>:<span style="color:#66d9ef">right</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field_control</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">location</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">size</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">22</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">aesthetic</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">lightcoral</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field_control</span>.<span style="color:#a6e22e">is-increase</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">location</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">aesthetic</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#ff95a6</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">transform</span>: rotate(<span style="color:#ae81ff">180</span><span style="color:#66d9ef">deg</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field_control</span>.<span style="color:#a6e22e">is-decrease</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">location</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bottom</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">aesthetic</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#58c5ff</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field_control</span>:<span style="color:#a6e22e">before</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">function</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>; <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">overlap</span> <span style="color:#960050;background-color:#1e0010">on</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">button</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span>; <span style="color:#960050;background-color:#1e0010">//gap</span> <span style="color:#960050;background-color:#1e0010">betton</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">shapes</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">size</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">12</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">12</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">-6</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">aesthetics</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">white</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">6</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">6</span><span style="color:#66d9ef">px</span>; <span style="color:#960050;background-color:#1e0010">//staring</span> <span style="color:#960050;background-color:#1e0010">from</span> <span style="color:#960050;background-color:#1e0010">top-right,</span> <span style="color:#960050;background-color:#1e0010">clockwise</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">field_control</span>:<span style="color:#a6e22e">after</span> {
+</span></span><span style="display:flex;"><span>  --width:  <span style="color:#ae81ff">6</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">left</span>: calc(<span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>width) <span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>width);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">6</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: url(<span style="color:#e6db74">&#34;data:image/svg+xml,%3csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20fill=&#39;none&#39;%20viewBox=&#39;0%200%206%206&#39;%3e%3cpath%20fill=&#39;%23000&#39;%20d=&#39;M.707%201.825%202.62%204.057a.5.5%200%200%200%20.76%200l1.913-2.232A.5.5%200%200%200%204.913%201H1.087a.5.5%200%200%200-.38.825Z&#39;/%3e%3c/svg%3e&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+         
+
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <span>
+                最後更新 2025-01-03 05:43 &#43;08:00
+            </span>
+        </section></footer>
+    
+    
+    
+</article>
+
+    
+    
+
+    
+    
+     
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=' Base API Base Methods Classes based on Base API User friendly methods python debug {{LOGGER.debug}} prints debug message
+Logging @static method double bracket (when the function returns a callable object) Type objects (Optional, Union) Requests (localhost) ** kwargs, use dictionary as keyword argument {dict}.get() as &lsquo;if exist, else&rsquo; 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
+LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the basic requests of the REST API.&#34;&#34;&#34; def __init__(self, token: str, url: str = &#34;http://localhost:41184&#34;) -&gt; None: self.url = url self.token = token def _request( self, method: str, # method 是 get / post / delete /put path: str, query: Optional[dt.JoplinKwargs] = None, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: LOGGER.debug( f&#34;API: {method} request: path={path}, query={query}, data={data}, &#34; f&#34;files={files}&#34; ) if data is not None and &#34;id_&#34; in data: # switch key id_ back to id? # &#34;id&#34; is a reserved keyword in python, so don&#39;t use it. data[&#34;id&#34;] = data.pop(&#34;id_&#34;) if query is None: # init empty query safely, use None when Optional query = {} query[&#34;token&#34;] = self.token #turn dictionary to query items urs tring query_str = &#34;&amp;&#34;.join([f&#34;{key}={val}&#34; for key, val in query.items()]) # saber=excalibur&amp;archer=unlimited_blade_works try: # getattr 得到 method, get / post / delete /put ，所以能連續用括號。神祕的黑盒子...... response: requests.models.Response = getattr(SESSION, method)( f&#34;{self.url}{path}?{query_str}&#34;, # 提供 url json=data, files=files, ) LOGGER.debug(f&#34;API: response {response.text}&#34;) # 如果出錯，raise exception response.raise_for_status() except requests.exceptions.HTTPError as err: err.args = err.args &#43; (response.text,) raise return response # joppy Delete, get, post, put ```python def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ '>
+        <title>joppy-api | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='http://localhost:1313/zh/sandbox/joppy-api/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='joppy-api'>
+<meta property='og:description' content=' Base API Base Methods Classes based on Base API User friendly methods python debug {{LOGGER.debug}} prints debug message
+Logging @static method double bracket (when the function returns a callable object) Type objects (Optional, Union) Requests (localhost) ** kwargs, use dictionary as keyword argument {dict}.get() as &lsquo;if exist, else&rsquo; 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
+LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the basic requests of the REST API.&#34;&#34;&#34; def __init__(self, token: str, url: str = &#34;http://localhost:41184&#34;) -&gt; None: self.url = url self.token = token def _request( self, method: str, # method 是 get / post / delete /put path: str, query: Optional[dt.JoplinKwargs] = None, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: LOGGER.debug( f&#34;API: {method} request: path={path}, query={query}, data={data}, &#34; f&#34;files={files}&#34; ) if data is not None and &#34;id_&#34; in data: # switch key id_ back to id? # &#34;id&#34; is a reserved keyword in python, so don&#39;t use it. data[&#34;id&#34;] = data.pop(&#34;id_&#34;) if query is None: # init empty query safely, use None when Optional query = {} query[&#34;token&#34;] = self.token #turn dictionary to query items urs tring query_str = &#34;&amp;&#34;.join([f&#34;{key}={val}&#34; for key, val in query.items()]) # saber=excalibur&amp;archer=unlimited_blade_works try: # getattr 得到 method, get / post / delete /put ，所以能連續用括號。神祕的黑盒子...... response: requests.models.Response = getattr(SESSION, method)( f&#34;{self.url}{path}?{query_str}&#34;, # 提供 url json=data, files=files, ) LOGGER.debug(f&#34;API: response {response.text}&#34;) # 如果出錯，raise exception response.raise_for_status() except requests.exceptions.HTTPError as err: err.args = err.args &#43; (response.text,) raise return response # joppy Delete, get, post, put ```python def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ '>
+<meta property='og:url' content='http://localhost:1313/zh/sandbox/joppy-api/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:published_time' content='2025-01-03T03:36:09&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T04:54:38&#43;08:00'/>
+<meta name="twitter:title" content="joppy-api">
+<meta name="twitter:description" content=" Base API Base Methods Classes based on Base API User friendly methods python debug {{LOGGER.debug}} prints debug message
+Logging @static method double bracket (when the function returns a callable object) Type objects (Optional, Union) Requests (localhost) ** kwargs, use dictionary as keyword argument {dict}.get() as &lsquo;if exist, else&rsquo; 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
+LOGGER.debug prints debug message class ApiBase: &#34;&#34;&#34;Contains the basic requests of the REST API.&#34;&#34;&#34; def __init__(self, token: str, url: str = &#34;http://localhost:41184&#34;) -&gt; None: self.url = url self.token = token def _request( self, method: str, # method 是 get / post / delete /put path: str, query: Optional[dt.JoplinKwargs] = None, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: LOGGER.debug( f&#34;API: {method} request: path={path}, query={query}, data={data}, &#34; f&#34;files={files}&#34; ) if data is not None and &#34;id_&#34; in data: # switch key id_ back to id? # &#34;id&#34; is a reserved keyword in python, so don&#39;t use it. data[&#34;id&#34;] = data.pop(&#34;id_&#34;) if query is None: # init empty query safely, use None when Optional query = {} query[&#34;token&#34;] = self.token #turn dictionary to query items urs tring query_str = &#34;&amp;&#34;.join([f&#34;{key}={val}&#34; for key, val in query.items()]) # saber=excalibur&amp;archer=unlimited_blade_works try: # getattr 得到 method, get / post / delete /put ，所以能連續用括號。神祕的黑盒子...... response: requests.models.Response = getattr(SESSION, method)( f&#34;{self.url}{path}?{query_str}&#34;, # 提供 url json=data, files=files, ) LOGGER.debug(f&#34;API: response {response.text}&#34;) # 如果出錯，raise exception response.raise_for_status() except requests.exceptions.HTTPError as err: err.args = err.args &#43; (response.text,) raise return response # joppy Delete, get, post, put ```python def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ ">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu1107236856209142188.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/zh/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>最新文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>找文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/toolbox/' >
+                
+                
+                
+                <span>🛠️工具集</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/skill/' >
+                
+                
+                
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                            <option value="http://localhost:1313/zh/sandbox/joppy-api/" selected>中文</option>
+                    
+                            <option value="http://localhost:1313/en/sandbox/joppy-api/" >English</option>
+                    
+				    </select>
+                </li>
+            
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/sandbox/joppy-api/">joppy-api</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-01-03</time>
+                </div>
+            
+    
+            
+        </footer>
+        
+    
+        
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <div>
+                    
+                        <a href="http://localhost:1313/en/sandbox/joppy-api/" class="link">English</a>
+                    
+                </div>
+            </footer>
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <ul>
+<li>Base API</li>
+<li>Base Methods Classes based on Base API</li>
+<li>User friendly methods</li>
+</ul>
+<p>python debug
+{{LOGGER.debug}} prints debug message</p>
+<ul>
+<li>Logging</li>
+<li>@static method</li>
+<li>double bracket (when the function returns a callable object)</li>
+<li>Type objects (Optional, Union)</li>
+<li>Requests (localhost)</li>
+<li><code>** kwargs</code>, use dictionary as keyword argument</li>
+<li>{dict}.get() as &lsquo;if exist, else&rsquo;</li>
+</ul>
+<p>全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method</p>
+<h4 id="loggerdebug-prints-debug-message">LOGGER.debug prints debug message</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ApiBase</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Contains the basic requests of the REST API.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, token: str, url: str <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://localhost:41184&#34;</span>) <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>url <span style="color:#f92672">=</span> url
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>token <span style="color:#f92672">=</span> token
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_request</span>(
+</span></span><span style="display:flex;"><span>        self,
+</span></span><span style="display:flex;"><span>        method: str, <span style="color:#75715e"># method 是 get / post / delete /put</span>
+</span></span><span style="display:flex;"><span>        path: str,
+</span></span><span style="display:flex;"><span>        query: Optional[dt<span style="color:#f92672">.</span>JoplinKwargs] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>        data: Optional[dt<span style="color:#f92672">.</span>JoplinKwargs] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>        files: Optional[Dict[str, Any]] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">-&gt;</span> requests<span style="color:#f92672">.</span>models<span style="color:#f92672">.</span>Response:
+</span></span><span style="display:flex;"><span>        LOGGER<span style="color:#f92672">.</span>debug(
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;API: </span><span style="color:#e6db74">{</span>method<span style="color:#e6db74">}</span><span style="color:#e6db74"> request: path=</span><span style="color:#e6db74">{</span>path<span style="color:#e6db74">}</span><span style="color:#e6db74">, query=</span><span style="color:#e6db74">{</span>query<span style="color:#e6db74">}</span><span style="color:#e6db74">, data=</span><span style="color:#e6db74">{</span>data<span style="color:#e6db74">}</span><span style="color:#e6db74">, &#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;files=</span><span style="color:#e6db74">{</span>files<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> data <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span> <span style="color:#f92672">and</span> <span style="color:#e6db74">&#34;id_&#34;</span> <span style="color:#f92672">in</span> data:
+</span></span><span style="display:flex;"><span>			<span style="color:#75715e"># switch key id_ back to id?</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># &#34;id&#34; is a reserved keyword in python, so don&#39;t use it.</span>
+</span></span><span style="display:flex;"><span>            data[<span style="color:#e6db74">&#34;id&#34;</span>] <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>pop(<span style="color:#e6db74">&#34;id_&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> query <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>	        <span style="color:#75715e"># init empty query safely, use None when Optional</span>
+</span></span><span style="display:flex;"><span>            query <span style="color:#f92672">=</span> {}
+</span></span><span style="display:flex;"><span>        query[<span style="color:#e6db74">&#34;token&#34;</span>] <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>token 
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">#turn dictionary to query items urs tring</span>
+</span></span><span style="display:flex;"><span>        query_str <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&amp;&#34;</span><span style="color:#f92672">.</span>join([<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>key<span style="color:#e6db74">}</span><span style="color:#e6db74">=</span><span style="color:#e6db74">{</span>val<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#66d9ef">for</span> key, val <span style="color:#f92672">in</span> query<span style="color:#f92672">.</span>items()])
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># saber=excalibur&amp;archer=unlimited_blade_works</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># getattr 得到 method, get / post / delete /put ，所以能連續用括號。神祕的黑盒子......</span>
+</span></span><span style="display:flex;"><span>            response: requests<span style="color:#f92672">.</span>models<span style="color:#f92672">.</span>Response <span style="color:#f92672">=</span> getattr(SESSION, method)(
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>url<span style="color:#e6db74">}{</span>path<span style="color:#e6db74">}</span><span style="color:#e6db74">?</span><span style="color:#e6db74">{</span>query_str<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>, <span style="color:#75715e"># 提供 url</span>
+</span></span><span style="display:flex;"><span>                json<span style="color:#f92672">=</span>data,
+</span></span><span style="display:flex;"><span>                files<span style="color:#f92672">=</span>files,
+</span></span><span style="display:flex;"><span>            )
+</span></span><span style="display:flex;"><span>            LOGGER<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;API: response </span><span style="color:#e6db74">{</span>response<span style="color:#f92672">.</span>text<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># 如果出錯，raise exception</span>
+</span></span><span style="display:flex;"><span>            response<span style="color:#f92672">.</span>raise_for_status()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> requests<span style="color:#f92672">.</span>exceptions<span style="color:#f92672">.</span>HTTPError <span style="color:#66d9ef">as</span> err:
+</span></span><span style="display:flex;"><span>            err<span style="color:#f92672">.</span>args <span style="color:#f92672">=</span> err<span style="color:#f92672">.</span>args <span style="color:#f92672">+</span> (response<span style="color:#f92672">.</span>text,)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">raise</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> response
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># joppy Delete, get, post, put</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">```</span>python
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">delete</span>(self, path: str) <span style="color:#f92672">-&gt;</span> requests<span style="color:#f92672">.</span>models<span style="color:#f92672">.</span>Response:
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>_request(<span style="color:#e6db74">&#34;delete&#34;</span>, path)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get</span>(
+</span></span><span style="display:flex;"><span>        self, path: str, query: Optional[dt<span style="color:#f92672">.</span>JoplinKwargs] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">-&gt;</span> requests<span style="color:#f92672">.</span>models<span style="color:#f92672">.</span>Response:
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>_request(<span style="color:#e6db74">&#34;get&#34;</span>, path, query<span style="color:#f92672">=</span>query) <span style="color:#75715e">#get 需要 query</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">post</span>(
+</span></span><span style="display:flex;"><span>        self,
+</span></span><span style="display:flex;"><span>        path: str,
+</span></span><span style="display:flex;"><span>        data: Optional[dt<span style="color:#f92672">.</span>JoplinKwargs] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>        files: Optional[Dict[str, Any]] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">-&gt;</span> requests<span style="color:#f92672">.</span>models<span style="color:#f92672">.</span>Response:
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>_request(<span style="color:#e6db74">&#34;post&#34;</span>, path, data<span style="color:#f92672">=</span>data, files<span style="color:#f92672">=</span>files) <span style="color:#75715e"># post 需要 files 和 data</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">put</span>(
+</span></span><span style="display:flex;"><span>        self, path: str, data: Optional[dt<span style="color:#f92672">.</span>JoplinKwargs] <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">-&gt;</span> requests<span style="color:#f92672">.</span>models<span style="color:#f92672">.</span>Response:
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>_request(<span style="color:#e6db74">&#34;put&#34;</span>, path, data<span style="color:#f92672">=</span>data) <span style="color:#75715e"># put 是什麼？</span>
+</span></span></code></pre></div>
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+         
+
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <span>
+                最後更新 2025-01-03 04:54 &#43;08:00
+            </span>
+        </section></footer>
+    
+    
+    
+</article>
+
+    
+    
+
+    
+    
+     
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>

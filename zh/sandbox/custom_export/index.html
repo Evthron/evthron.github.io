@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) 把 notebook id 轉換成有實際內容的 notebook item 從 dict 變成了 list 結構 把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class 這也是 Post-order traversal嗎？從最底層開始建立新的 Tree def replace_ids_by_items(id_tree): item_tree = [] # 從頂層開始，把一層的 Tree Node 加入 item Tree for key, value in id_tree.items(): # 需要呼叫 api 才能獲取所有的 child。 child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;) # 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。 item_tree.append( # TreeItem 包含子 notebook data # child&#39;s child_tree （用遞歸的方式獲取） # child&#39;s notebook （id, title 和 body）和 resources TreeItem( # 取用外層的 notebook_flat_map 值 notebooks_flat_map[key], # notebook_data replace_ids_by_items(value), # child_items，value 指 child id_tree child_notes, ) ) return item_tree key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree 底層：value 是空的 dict，傳回空的 list Example Tree mapping conversion
+'>
+        <title>custom_export | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='http://localhost:1313/zh/sandbox/custom_export/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='custom_export'>
+<meta property='og:description' content='Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) 把 notebook id 轉換成有實際內容的 notebook item 從 dict 變成了 list 結構 把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class 這也是 Post-order traversal嗎？從最底層開始建立新的 Tree def replace_ids_by_items(id_tree): item_tree = [] # 從頂層開始，把一層的 Tree Node 加入 item Tree for key, value in id_tree.items(): # 需要呼叫 api 才能獲取所有的 child。 child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;) # 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。 item_tree.append( # TreeItem 包含子 notebook data # child&#39;s child_tree （用遞歸的方式獲取） # child&#39;s notebook （id, title 和 body）和 resources TreeItem( # 取用外層的 notebook_flat_map 值 notebooks_flat_map[key], # notebook_data replace_ids_by_items(value), # child_items，value 指 child id_tree child_notes, ) ) return item_tree key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree 底層：value 是空的 dict，傳回空的 list Example Tree mapping conversion
+'>
+<meta property='og:url' content='http://localhost:1313/zh/sandbox/custom_export/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:published_time' content='2025-01-03T03:36:09&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T04:54:38&#43;08:00'/>
+<meta name="twitter:title" content="custom_export">
+<meta name="twitter:description" content="Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) 把 notebook id 轉換成有實際內容的 notebook item 從 dict 變成了 list 結構 把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class 這也是 Post-order traversal嗎？從最底層開始建立新的 Tree def replace_ids_by_items(id_tree): item_tree = [] # 從頂層開始，把一層的 Tree Node 加入 item Tree for key, value in id_tree.items(): # 需要呼叫 api 才能獲取所有的 child。 child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;) # 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。 item_tree.append( # TreeItem 包含子 notebook data # child&#39;s child_tree （用遞歸的方式獲取） # child&#39;s notebook （id, title 和 body）和 resources TreeItem( # 取用外層的 notebook_flat_map 值 notebooks_flat_map[key], # notebook_data replace_ids_by_items(value), # child_items，value 指 child id_tree child_notes, ) ) return item_tree key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree 底層：value 是空的 dict，傳回空的 list Example Tree mapping conversion
+">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu1107236856209142188.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/zh/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>最新文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>找文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/toolbox/' >
+                
+                
+                
+                <span>🛠️工具集</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/skill/' >
+                
+                
+                
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                            <option value="http://localhost:1313/zh/sandbox/custom_export/" selected>中文</option>
+                    
+                            <option value="http://localhost:1313/en/sandbox/custom_export/" >English</option>
+                    
+				    </select>
+                </li>
+            
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/sandbox/custom_export/">custom_export</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-01-03</time>
+                </div>
+            
+    
+            
+        </footer>
+        
+    
+        
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <div>
+                    
+                        <a href="http://localhost:1313/en/sandbox/custom_export/" class="link">English</a>
+                    
+                </div>
+            </footer>
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <h1 id="example-tree-mapping-conversion">Example Tree mapping conversion</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>tree <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;servant&#34;</span> : {<span style="color:#e6db74">&#34;saber&#34;</span> : {<span style="color:#e6db74">&#34;excalibur&#34;</span> : {}},
+</span></span><span style="display:flex;"><span>                     <span style="color:#e6db74">&#34;archer&#34;</span> : {<span style="color:#e6db74">&#34;ubw&#34;</span> : {<span style="color:#e6db74">&#34;Caladabolg&#34;</span> : {}}},
+</span></span><span style="display:flex;"><span>                     <span style="color:#e6db74">&#34;lancer&#34;</span> : {<span style="color:#e6db74">&#34;gae_bolg&#34;</span> : {} }}}
+</span></span><span style="display:flex;"><span>mapping <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;saber&#34;</span> : <span style="color:#e6db74">&#34;shirou&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;archer&#34;</span> : <span style="color:#e6db74">&#34;rin&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;lancer&#34;</span> : <span style="color:#e6db74">&#34;unknown&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;servant&#34;</span> : <span style="color:#e6db74">&#34;holy_grail&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;excalibur&#34;</span> : <span style="color:#e6db74">&#34;beam&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;ubw&#34;</span> : <span style="color:#e6db74">&#34;sword&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;Caladabolg&#34;</span> : <span style="color:#e6db74">&#34;Broken Phantasm&#34;</span>,
+</span></span><span style="display:flex;"><span>           <span style="color:#e6db74">&#34;gae_bolg&#34;</span> : <span style="color:#e6db74">&#34;lucky E&#34;</span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_new_tree</span>(tree):
+</span></span><span style="display:flex;"><span>    new_tree <span style="color:#f92672">=</span> {}
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> servant, subtree <span style="color:#f92672">in</span> tree<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span>        master <span style="color:#f92672">=</span> mapping[servant]
+</span></span><span style="display:flex;"><span>        new_tree[master] <span style="color:#f92672">=</span> get_new_tree(subtree)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> new_tree
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(get_new_tree(tree))
+</span></span></code></pre></div><ul>
+<li>把 notebook id 轉換成有實際內容的 notebook item</li>
+<li>從 dict 變成了 list 結構</li>
+<li>把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class</li>
+<li>這也是 Post-order traversal嗎？從最底層開始建立新的 Tree</li>
+</ul>
+<pre tabindex="0"><code>def replace_ids_by_items(id_tree):
+	item_tree = []
+	
+	# 從頂層開始，把一層的 Tree Node 加入 item Tree
+	for key, value in id_tree.items():
+		
+		# 需要呼叫 api 才能獲取所有的 child。
+		child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;)
+		
+		# 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。
+		item_tree.append(
+		# TreeItem 包含子 notebook data
+		# child&#39;s child_tree （用遞歸的方式獲取）
+		# child&#39;s notebook （id, title 和 body）和 resources
+			TreeItem(
+				# 取用外層的 notebook_flat_map 值
+				notebooks_flat_map[key], # notebook_data
+				replace_ids_by_items(value), # child_items，value 指 child id_tree
+				child_notes,
+			)
+		)
+	return item_tree
+</code></pre><ul>
+<li>key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data</li>
+<li>value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree</li>
+<li>底層：value 是空的 dict，傳回空的 list</li>
+</ul>
+<p>Example Tree mapping conversion</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_notebook_tree</span>(flat_list):
+</span></span><span style="display:flex;"><span>	  <span style="color:#75715e"># 創建空白的 graph</span>
+</span></span><span style="display:flex;"><span>    graph <span style="color:#f92672">=</span> {item: set() <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> flat_list}
+</span></span><span style="display:flex;"><span>    roots <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> id_, item <span style="color:#f92672">in</span> flat_list<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span>        parent_id <span style="color:#f92672">=</span> item<span style="color:#f92672">.</span>parent_id
+</span></span><span style="display:flex;"><span>	  <span style="color:#75715e"># 如果 child 有 Parent，就把 child 加進 Parent</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> parent_id:
+</span></span><span style="display:flex;"><span>            graph[parent_id]<span style="color:#f92672">.</span>add(id_)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># 如果沒有 parent_id，就等於 root</span>
+</span></span><span style="display:flex;"><span>            roots<span style="color:#f92672">.</span>append(id_)
+</span></span></code></pre></div><p>為 Parent List 轉換 Graph 創建空白的 graph</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>graph <span style="color:#f92672">=</span> {item: set() <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> flat_list}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> argparse
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> pathlib <span style="color:#f92672">import</span> Path
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> joppy.api <span style="color:#f92672">import</span> Api
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    args <span style="color:#f92672">=</span> parse_args()
+</span></span><span style="display:flex;"><span>    api <span style="color:#f92672">=</span> Api(token<span style="color:#f92672">=</span>args<span style="color:#f92672">.</span>api_token)
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Tree 是 notebook tree，以 list 的形式儲存。</span>
+</span></span><span style="display:flex;"><span>    tree <span style="color:#f92672">=</span> create_hierarchy(api)
+</span></span><span style="display:flex;"><span>    create_files(api, tree, Path(args<span style="color:#f92672">.</span>output_folder))
+</span></span></code></pre></div><h4 id="把-tree-轉換成檔案結構----flashcards">把 Tree 轉換成檔案結構 &ndash; flashcards</h4>
+<p>把 Tree 轉換成檔案結構</p>
+<ol>
+<li>Build folder for itself</li>
+<li>tell the child to run this function(create all the directories)</li>
+<li>output the files (make files after all the directories have been build)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_files</span>(api, tree, output_dir: Path):
+</span></span><span style="display:flex;"><span>    output_dir<span style="color:#f92672">.</span>mkdir(exist_ok<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> tree:
+</span></span><span style="display:flex;"><span>        current_directory <span style="color:#f92672">=</span> output_dir <span style="color:#f92672">/</span> replacements(item<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>title)
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Post order traversal</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 先幫自己創建 output_dir，然後叫自己的 children notebook 自己幫自己創建 current_directory</span>
+</span></span><span style="display:flex;"><span>	    <span style="color:#75715e"># 真正的第一層是外部提供的地址，不在樹裏面，所以有點彆扭，不過之後的每一層都可以這樣想。</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 底層：item.child_items 是空的，沒有 children，幫自己創建完畢後就結束。</span>
+</span></span><span style="display:flex;"><span>        create_files(api, item<span style="color:#f92672">.</span>child_items, current_directory)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 要先建立好 directory 才能放進筆記</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 每一層的筆記本要創建自己的筆記，從最底層開始。</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> note <span style="color:#f92672">in</span> item<span style="color:#f92672">.</span>child_notes:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">with</span> open(
+</span></span><span style="display:flex;"><span>                (current_directory <span style="color:#f92672">/</span> replacements(note<span style="color:#f92672">.</span>title))<span style="color:#f92672">.</span>with_suffix(<span style="color:#e6db74">&#34;.md&#34;</span>), <span style="color:#e6db74">&#34;w&#34;</span>
+</span></span><span style="display:flex;"><span>            ) <span style="color:#66d9ef">as</span> outfile:
+</span></span><span style="display:flex;"><span>                outfile<span style="color:#f92672">.</span>write(note<span style="color:#f92672">.</span>body)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e"># 創建 Resources，不重要</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> resource <span style="color:#f92672">in</span> item<span style="color:#f92672">.</span>child_resources:
+</span></span><span style="display:flex;"><span>            resource_binary <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_resource_file(id_<span style="color:#f92672">=</span>resource<span style="color:#f92672">.</span>id)
+</span></span><span style="display:flex;"><span>			<span style="color:#75715e"># 輸出 bianary file 的方法</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">with</span> open(
+</span></span><span style="display:flex;"><span>                current_directory <span style="color:#f92672">/</span> replacements(resource<span style="color:#f92672">.</span>title), <span style="color:#e6db74">&#34;wb&#34;</span> <span style="color:#75715e"># write binary</span>
+</span></span><span style="display:flex;"><span>            ) <span style="color:#66d9ef">as</span> outfile:
+</span></span><span style="display:flex;"><span>                outfile<span style="color:#f92672">.</span>write(resource_binary)
+</span></span></code></pre></div><h4 id="把-tree-轉換成檔案結構----flashcards-1">把 Tree 轉換成檔案結構 &ndash; flashcards</h4>
+<p>把 Tree 轉換成檔案結構
+例子：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pathlib <span style="color:#f92672">import</span> Path
+</span></span><span style="display:flex;"><span>desktop_path <span style="color:#f92672">=</span> Path(<span style="color:#e6db74">&#34;C:</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Users</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Jacky</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Desktop</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Test&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">output_to_desktop</span>(tree : dict, output_dir : Path):
+</span></span><span style="display:flex;"><span>    output_dir<span style="color:#f92672">.</span>mkdir(exist_ok<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> parent, child <span style="color:#f92672">in</span> tree<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span>        new_path <span style="color:#f92672">=</span> output_dir <span style="color:#f92672">/</span> parent
+</span></span><span style="display:flex;"><span>        output_to_desktop(child, new_path)
+</span></span></code></pre></div><p>Replace bad characters in filenames
+<a class="link" href="https://stackoverflow.com/a/27647173/7410886"  target="_blank" rel="noopener"
+    >https://stackoverflow.com/a/27647173/7410886</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">replacements</span>(value: str) <span style="color:#f92672">-&gt;</span> str:
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Replace bad characters in filenames.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> re<span style="color:#f92672">.</span>sub(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;[</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">/*?:&#34;&lt;&gt;|\s]&#39;</span>, <span style="color:#e6db74">&#34;_&#34;</span>, value)
+</span></span></code></pre></div><p>製作從 id 到 item 的 Mapping (item 包含 parent id，所以是 Parent list)</p>
+<ol>
+<li>製作 id Parent list (api 得到的 item 包含 parent id）</li>
+<li>parent list 變成 graph</li>
+<li>graph 變成 tree (需要 hierarchy recursion)</li>
+<li>id tree 變成 item tree （需要 recursion）</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_hierarchy</span>(api):
+</span></span><span style="display:flex;"><span>    notebooks_flat_api <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_all_notebooks(fields<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;id,title,parent_id&#34;</span>)
+</span></span><span style="display:flex;"><span>    notebooks_flat_map <span style="color:#f92672">=</span> {notebook<span style="color:#f92672">.</span>id: notebook <span style="color:#66d9ef">for</span> notebook <span style="color:#f92672">in</span> notebooks_flat_api}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    notebook_tree_ids <span style="color:#f92672">=</span> create_notebook_tree(notebooks_flat_map)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    item_count <span style="color:#f92672">=</span> defaultdict(int) <span style="color:#75715e"># 共享外面的 item_count</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e"># ID Tree 變成 item tree</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">replace_ids_by_items</span>(notebook_tree_ids): <span style="color:#f92672">...</span>	
+</span></span><span style="display:flex;"><span>    notebook_tree_items <span style="color:#f92672">=</span> replace_ids_by_items(notebook_tree_ids)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> notebook_tree_items
+</span></span></code></pre></div><p>Parent Graph 和 edge List 的區別
+edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>graph <span style="color:#f92672">=</span> {[]}
+</span></span><span style="display:flex;"><span>has_parent <span style="color:#f92672">=</span> {node : <span style="color:#66d9ef">False</span> <span style="color:#66d9ef">for</span> node <span style="color:#f92672">in</span> node_list}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> start, end <span style="color:#f92672">in</span> edge_graph:
+</span></span><span style="display:flex;"><span>	graph[start] <span style="color:#f92672">=</span> graph<span style="color:#f92672">.</span>get(start, []}<span style="color:#f92672">.</span>append(end)
+</span></span><span style="display:flex;"><span>	has_parent[end] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># 建立資料結構的方法</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@dataclass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TreeItem</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Represents a notebook and its children.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    data: dt<span style="color:#f92672">.</span>NotebookData
+</span></span><span style="display:flex;"><span>    child_items: List[TreeItem]
+</span></span><span style="display:flex;"><span>    child_notes: List[dt<span style="color:#f92672">.</span>NoteData]
+</span></span><span style="display:flex;"><span>    child_resources: List[dt<span style="color:#f92672">.</span>ResourceData]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(
+</span></span><span style="display:flex;"><span>	current_directory <span style="color:#f92672">/</span> replacements(resource<span style="color:#f92672">.</span>title), <span style="color:#e6db74">&#34;wb&#34;</span> <span style="color:#75715e"># write binary</span>
+</span></span><span style="display:flex;"><span>) <span style="color:#66d9ef">as</span> outfile:
+</span></span><span style="display:flex;"><span>	outfile<span style="color:#f92672">.</span>write(resource_binary)
+</span></span></code></pre></div><pre><code># 原本的資料結構： directed graph ，只有 edges。
+# 轉換成 Neighbour Graph
+</code></pre>
+<ol>
+<li>
+<p>Convert edge graph to neighbour graph</p>
+</li>
+<li>
+<p>Find the roots</p>
+</li>
+<li>
+<p>make the tree from the roots.</p>
+</li>
+<li>
+<p>建立 Graph，node : set()</p>
+</li>
+<li>
+<p>用 has parent dict，預設 False，檢查所有 node。</p>
+</li>
+<li>
+<p>如果 has_parent 等於 False，就把端點加入 roots。</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">convert_edge_graph_to_neightbour_graph</span>(edge_graph):
+</span></span><span style="display:flex;"><span>	graph <span style="color:#f92672">=</span> { parent : set() <span style="color:#66d9ef">for</span> parent, child <span style="color:#f92672">in</span> edge_graph<span style="color:#f92672">.</span>keys()}
+</span></span><span style="display:flex;"><span>	check_has_parent <span style="color:#f92672">=</span> { parent : <span style="color:#66d9ef">False</span> <span style="color:#66d9ef">for</span> parent, child <span style="color:#f92672">in</span> edge_graph<span style="color:#f92672">.</span>keys()}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> parent, child <span style="color:#f92672">in</span> edge_graph<span style="color:#f92672">.</span>keys():
+</span></span><span style="display:flex;"><span>		check_has_parent[child] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>		graph[parent]<span style="color:#f92672">.</span>add(child)
+</span></span><span style="display:flex;"><span>	roots <span style="color:#f92672">=</span> [ node <span style="color:#66d9ef">for</span> node, has_parent <span style="color:#f92672">in</span> check_has_parent<span style="color:#f92672">.</span>items() <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> has_parent]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_notebook_tree</span>(flat_list):
+</span></span><span style="display:flex;"><span>    graph <span style="color:#f92672">=</span> {name: set() <span style="color:#66d9ef">for</span> tup <span style="color:#f92672">in</span> lst <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> tup}
+</span></span><span style="display:flex;"><span>    has_parent <span style="color:#f92672">=</span> {name: <span style="color:#66d9ef">False</span> <span style="color:#66d9ef">for</span> tup <span style="color:#f92672">in</span> lst <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> tup}
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> parent, child <span style="color:#f92672">in</span> lst:
+</span></span><span style="display:flex;"><span>        graph[parent]<span style="color:#f92672">.</span>add(child)
+</span></span><span style="display:flex;"><span>        has_parent[child] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    roots <span style="color:#f92672">=</span> [name <span style="color:#66d9ef">for</span> name, parents <span style="color:#f92672">in</span> has_parent<span style="color:#f92672">.</span>items() <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> parents]
+</span></span></code></pre></div>
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+         
+
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <span>
+                最後更新 2025-01-03 04:54 &#43;08:00
+            </span>
+        </section></footer>
+    
+    
+    
+</article>
+
+    
+    
+
+    
+    
+     
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>
