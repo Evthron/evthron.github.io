@@ -6,7 +6,15 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sat, 28 Dec 2024 05:02:20 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 03 Jan 2025 12:52:38 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>gallery</title>
+        <link>https://evthron.github.io/en/categories/gallery/</link>
+        <pubDate>Fri, 03 Jan 2025 12:52:38 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/categories/gallery/</guid>
+        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
+        </item>
+        <item>
         <title>tweet</title>
         <link>https://evthron.github.io/en/categories/tweet/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:20 +0800</pubDate>
@@ -29,14 +37,6 @@
         
         <guid>https://evthron.github.io/en/categories/posts/</guid>
         <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post posts" /&gt;</description>
-        </item>
-        <item>
-        <title>gallery</title>
-        <link>https://evthron.github.io/en/categories/gallery/</link>
-        <pubDate>Wed, 26 Jun 2024 02:46:52 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/en/categories/gallery/</guid>
-        <description>&lt;img src="https://evthron.github.io/hutomo-abrianto.jpg" alt="Featured image of post gallery" /&gt;</description>
         </item>
         <item>
         <title>gallery</title>

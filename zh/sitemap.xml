@@ -2,6 +2,151 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/zh/categories/</loc>
+    <lastmod>2025-01-03T12:53:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/categories/gallery/</loc>
+    <lastmod>2025-01-03T12:53:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/watermelon/</loc>
+    <lastmod>2025-01-03T12:53:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/watermelon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/watermelon/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/</loc>
+    <lastmod>2025-01-03T12:53:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/minibus/</loc>
+    <lastmod>2025-01-03T12:50:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/minibus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/minibus/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/beach/</loc>
+    <lastmod>2025-01-03T12:36:46+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/beach/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/beach/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/colour-practice/</loc>
+    <lastmod>2025-01-03T12:30:46+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/colour-practice/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/colour-practice/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/labcoat/</loc>
+    <lastmod>2025-01-03T12:14:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/labcoat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/labcoat/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/christmas-house/</loc>
+    <lastmod>2025-01-03T12:02:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/christmas-house/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/christmas-house/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/body-skeleton/</loc>
+    <lastmod>2025-01-03T12:06:17+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/body-skeleton/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/body-skeleton/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/code/</loc>
     <lastmod>2025-01-03T10:27:35+08:00</lastmod>
   </url><url>
@@ -37,24 +182,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/sandbox/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2024-12-31T18:42:07+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/css/</loc>
@@ -445,42 +572,6 @@
     <loc>https://evthron.github.io/zh/posts/knowledge-exchange/</loc>
     <lastmod>2024-12-25T07:48:47+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/zh/categories/gallery/</loc>
-    <lastmod>2024-07-29T02:58:39+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/gallery/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/gallery/</loc>
-    <lastmod>2024-07-29T02:58:39+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/gallery/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/gallery/nightview/</loc>
     <lastmod>2024-06-30T23:05:48+08:00</lastmod>
     <xhtml:link
@@ -842,7 +933,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</loc>
-    <lastmod>2024-01-29T04:13:29+08:00</lastmod>
+    <lastmod>2024-12-27T06:37:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
