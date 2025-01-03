@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog tok</title>
-        <link>http://localhost:1313/tok/</link>
+        <link>https://evthron.github.io/tok/</link>
         <description>Recent content on Evthron&#39;s blog tok</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>tok</language>
-        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tok/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/tok/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>pona e linja lawa</title>
-        <link>http://localhost:1313/tok/tweet/haircut/</link>
+        <link>https://evthron.github.io/tok/tweet/haircut/</link>
         <pubDate>Thu, 19 Sep 2024 00:55:14 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/haircut/</guid>
+        <guid>https://evthron.github.io/tok/tweet/haircut/</guid>
         <description>&lt;p&gt;jan pali li pona e linja lawa. mi toki e jan pali. jan pali li sona ala. mi pilin ike. tenpo pini la, jan pali ante li sona e toki mi. jan pali li pana e sona pi linja lawa tawa mi.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>sitelen kule</title>
-        <link>http://localhost:1313/tok/gallery/flower-pot/</link>
+        <link>https://evthron.github.io/tok/gallery/flower-pot/</link>
         <pubDate>Thu, 23 May 2024 05:01:49 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/gallery/flower-pot/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post sitelen kule" /&gt;&lt;p&gt;mi wile sitelen kepeken kule. palisa kule li pona tawa mi tan ni: mi ken wan e kule mute; mi ken jo ni lon ma ale. mi pali e sitelen ni. ni li pona. palisa kule li pona tawa jan lili musi en jan suli musi.
-&lt;img src=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot.png&#34;
+        <guid>https://evthron.github.io/tok/gallery/flower-pot/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post sitelen kule" /&gt;&lt;p&gt;mi wile sitelen kepeken kule. palisa kule li pona tawa mi tan ni: mi ken wan e kule mute; mi ken jo ni lon ma ale. mi pali e sitelen ni. ni li pona. palisa kule li pona tawa jan lili musi en jan suli musi.
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png&#34;
 	width=&#34;3119&#34;
 	height=&#34;4086&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flower-pot&#34;
@@ -41,19 +41,19 @@
         </item>
         <item>
         <title>pali pi nasin Arch</title>
-        <link>http://localhost:1313/tok/tweet/arch-linux-installation/</link>
+        <link>https://evthron.github.io/tok/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 09:29:36 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/arch-linux-installation/</guid>
+        <guid>https://evthron.github.io/tok/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;nasin Arch li ike ala. tenpo lili la, mi ken pini pali e ni.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>nasin pali sin li pona</title>
-        <link>http://localhost:1313/tok/tweet/easier-publish/</link>
+        <link>https://evthron.github.io/tok/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:23:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/easier-publish/</guid>
+        <guid>https://evthron.github.io/tok/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:34&lt;/p&gt;
 &lt;p&gt;mi ken pali e sitelen kepeken ilo Joplin tan ni: &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ilo Joppy&lt;/a&gt; li pana e pona tawa mi. tenpo sin la mi wile ante e sitelen pini mi.&lt;/p&gt;
@@ -65,10 +65,10 @@ mi lukin e sitelen mama Joppy. ni li ike ala. mi ken sona pona e ni. mi lukin si
         </item>
         <item>
         <title>ilo alasa pona</title>
-        <link>http://localhost:1313/tok/tweet/better-search-engine/</link>
+        <link>https://evthron.github.io/tok/tweet/better-search-engine/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/better-search-engine/</guid>
+        <guid>https://evthron.github.io/tok/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;ilo alasa Kuko li ike. mi wile weka e ilo alasa Kuko. ilo alasa &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Marginalia.nu&lt;/a&gt; li pona. ni li ken alasa e lipu lili. lipu lili li pona. sina  e lipu pi tenpo pini la, sina ken kepeken ilo alasa &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt;: taso lipu ni li nasa.&lt;/p&gt;
@@ -83,29 +83,29 @@ tenpo kama la, mi wile weka e ijo musi ike ale.&lt;/p&gt;
         </item>
         <item>
         <title>ilo pali</title>
-        <link>http://localhost:1313/tok/tweet/productivity-tools/</link>
+        <link>https://evthron.github.io/tok/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/productivity-tools/</guid>
+        <guid>https://evthron.github.io/tok/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;mi pali ala. mi wile jo e ilo pali sin. mi pali ala la, mi kama ike. mi lukin ilo pali sin la, mi weka e tenpo mi. taso mi ken ala ante. mi sona ni: ilo Super Productivity en ilo ActivityWatch
 li ken ala awen e mi.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>ilo Vim li lon lipu Joplin</title>
-        <link>http://localhost:1313/tok/tweet/joplin-vim-mode/</link>
+        <link>https://evthron.github.io/tok/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/joplin-vim-mode/</guid>
+        <guid>https://evthron.github.io/tok/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;mi sona ni: lipu Joplin li jo e ilo Vim. mi ala sitelen e lipu Vimrc. mi ala awen e sitelen mi kepeken luka.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>nanpa lukin</title>
-        <link>http://localhost:1313/tok/tweet/search-count/</link>
+        <link>https://evthron.github.io/tok/tweet/search-count/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/search-count/</guid>
+        <guid>https://evthron.github.io/tok/tweet/search-count/</guid>
         <description>&lt;p&gt;mi weka e tenpo mute, tan mi lukin e ijo mute lon ma linja kepeken nimi mute. mi wile ni: mi ken ala lukin e ijo mute. mi wile ala sitelen e nimi mute.&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:38&lt;/p&gt;
 &lt;p&gt;mi ken ala pali e ni. mi pilin ike.&lt;/p&gt;
@@ -113,37 +113,37 @@ li ken ala awen e mi.&lt;/p&gt;
         </item>
         <item>
         <title>toki lawa pi lon ala</title>
-        <link>http://localhost:1313/tok/tweet/delusions/</link>
+        <link>https://evthron.github.io/tok/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/delusions/</guid>
+        <guid>https://evthron.github.io/tok/tweet/delusions/</guid>
         <description>&lt;p&gt;lawa mi li toki ike anu toki pona. toki lawa li lon ala la, mi wile ni: toki lawa pona mi ken utala e toki lawa ike kulupu. mi ken sitelen e jan pi lon ala la, mi ken pali e jan lawa.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>nanpa pali</title>
-        <link>http://localhost:1313/tok/tweet/progress/</link>
+        <link>https://evthron.github.io/tok/tweet/progress/</link>
         <pubDate>Mon, 26 Feb 2024 01:49:21 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/progress/</guid>
+        <guid>https://evthron.github.io/tok/tweet/progress/</guid>
         <description>&lt;p&gt;lupu li ala pini la, mi pilin pakala. mi wile sona e nanpa pali.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>tenpo lete</title>
-        <link>http://localhost:1313/tok/tweet/winter/</link>
+        <link>https://evthron.github.io/tok/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
-        <guid>http://localhost:1313/tok/tweet/winter/</guid>
+        <guid>https://evthron.github.io/tok/tweet/winter/</guid>
         <description>&lt;p&gt;mi wile pilin seli lili, taso lete mute li lon. mi wile ala tawa. mi wile lon supa lape. tenpo lete la telo suli li ike. tomo tawa telo li ike tawa mi.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>lukin jo</title>
-        <link>http://localhost:1313/tok/search/</link>
+        <link>https://evthron.github.io/tok/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tok/search/</guid>
+        <guid>https://evthron.github.io/tok/search/</guid>
         <description></description>
         </item>
         

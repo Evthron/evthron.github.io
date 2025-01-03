@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/code/</link>
+        <link>https://evthron.github.io/zh/code/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 03 Jan 2025 04:49:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/code/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 03 Jan 2025 04:49:30 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/code/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>reddit-clipper</title>
-        <link>http://localhost:1313/zh/code/reddit-clipper/</link>
+        <link>https://evthron.github.io/zh/code/reddit-clipper/</link>
         <pubDate>Fri, 03 Jan 2025 04:49:30 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/reddit-clipper/</guid>
+        <guid>https://evthron.github.io/zh/code/reddit-clipper/</guid>
         <description>&lt;p&gt;beautiful soup 只是用來 parse 收回來的 respones&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;parse_reddit_page&lt;/span&gt;(url):
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    headers &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
@@ -52,10 +52,10 @@
         </item>
         <item>
         <title>cobalto.dev</title>
-        <link>http://localhost:1313/zh/code/cobalto.dev/</link>
+        <link>https://evthron.github.io/zh/code/cobalto.dev/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/cobalto.dev/</guid>
+        <guid>https://evthron.github.io/zh/code/cobalto.dev/</guid>
         <description>&lt;h1 id=&#34;link&#34;&gt;Link&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;integrity&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;crossorigin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;anonymous&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;referrerpolicy&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;no-referrer&amp;#34;&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;integrity
@@ -153,10 +153,10 @@ box-direction = rtl ltr ttb btt&lt;/p&gt;
         </item>
         <item>
         <title>custom_export</title>
-        <link>http://localhost:1313/zh/code/custom_export/</link>
+        <link>https://evthron.github.io/zh/code/custom_export/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/custom_export/</guid>
+        <guid>https://evthron.github.io/zh/code/custom_export/</guid>
         <description>&lt;h1 id=&#34;example-tree-mapping-conversion&#34;&gt;Example Tree mapping conversion&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tree &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;servant&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;saber&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;excalibur&amp;#34;&lt;/span&gt; : {}},
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;archer&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ubw&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Caladabolg&amp;#34;&lt;/span&gt; : {}}},
@@ -366,10 +366,10 @@ edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。&lt;/p&gt;
         </item>
         <item>
         <title>hugo-theme-stack</title>
-        <link>http://localhost:1313/zh/code/hugo-theme-stack/</link>
+        <link>https://evthron.github.io/zh/code/hugo-theme-stack/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/hugo-theme-stack/</guid>
+        <guid>https://evthron.github.io/zh/code/hugo-theme-stack/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
@@ -555,10 +555,10 @@ edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。&lt;/p&gt;
         </item>
         <item>
         <title>joppy-api</title>
-        <link>http://localhost:1313/zh/code/joppy-api/</link>
+        <link>https://evthron.github.io/zh/code/joppy-api/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/joppy-api/</guid>
+        <guid>https://evthron.github.io/zh/code/joppy-api/</guid>
         <description>&lt;ul&gt;
 &lt;li&gt;Base API&lt;/li&gt;
 &lt;li&gt;Base Methods Classes based on Base API&lt;/li&gt;
@@ -656,10 +656,10 @@ edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。&lt;/p&gt;
         </item>
         <item>
         <title>note_export</title>
-        <link>http://localhost:1313/zh/code/note_export/</link>
+        <link>https://evthron.github.io/zh/code/note_export/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/note_export/</guid>
+        <guid>https://evthron.github.io/zh/code/note_export/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Create a temporary directory for the resources.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; tempfile&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;TemporaryDirectory() &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; tmpdirname:
@@ -689,10 +689,10 @@ Finding notes with certain title.&lt;/p&gt;
         </item>
         <item>
         <title>note_stats</title>
-        <link>http://localhost:1313/zh/code/note_stats/</link>
+        <link>https://evthron.github.io/zh/code/note_stats/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/note_stats/</guid>
+        <guid>https://evthron.github.io/zh/code/note_stats/</guid>
         <description>&lt;p&gt;def analyze_text(text: str):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tokens &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; word_tokenize(text)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    tokens &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [
@@ -811,10 +811,10 @@ Finding notes with certain title.&lt;/p&gt;
         </item>
         <item>
         <title>oklch.com</title>
-        <link>http://localhost:1313/zh/code/oklch.com/</link>
+        <link>https://evthron.github.io/zh/code/oklch.com/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/oklch.com/</guid>
+        <guid>https://evthron.github.io/zh/code/oklch.com/</guid>
         <description>&lt;h1 id=&#34;html&#34;&gt;HTML&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- input number field --&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;card_number&amp;#34;&lt;/span&gt;&amp;gt;
@@ -939,10 +939,10 @@ Finding notes with certain title.&lt;/p&gt;
         </item>
         <item>
         <title>progress-bar</title>
-        <link>http://localhost:1313/zh/code/progress-bar/</link>
+        <link>https://evthron.github.io/zh/code/progress-bar/</link>
         <pubDate>Mon, 23 Dec 2024 09:27:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/code/progress-bar/</guid>
+        <guid>https://evthron.github.io/zh/code/progress-bar/</guid>
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Flask(__name__)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;port &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; int(os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PORT&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run(host&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;127.0.0.1&amp;#34;&lt;/span&gt;, port&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;port)

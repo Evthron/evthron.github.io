@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>http://localhost:1313/en/tags/sketch/</link>
+        <link>https://evthron.github.io/en/tags/sketch/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sat, 20 Jan 2024 22:43:24 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/sketch/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 20 Jan 2024 22:43:24 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/sketch/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Cardinals and ordinals</title>
-        <link>http://localhost:1313/en/posts/cardinal-ordinal/</link>
+        <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/posts/cardinal-ordinal/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
+        <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
 &lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
 &lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
