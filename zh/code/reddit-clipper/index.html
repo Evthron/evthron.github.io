@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='beautiful soup 只是用來 parse 收回來的 respones
 def parse_reddit_page(url): headers = { &#34;User-Agent&#34;: ( &#34;Mozilla/5.0 (X11; Linux ex86_64; rv:105.0) &#34; &#34;Gecko/20100101 &#34; &#34;Firefox/105.0&#34; ) } response = requests.get(url, headers=headers) # raise error code if problem occurs response.raise_for_status() soup = BeautifulSoup(response.text, &#34;html.parser&#34;) note_body = [] # parse post entry = soup.find(&#34;div&#34;, class_=&#34;entry&#34;) author = entry.find(&#34;a&#34;, class_=&#34;author&#34;) title = entry.find(&#34;a&#34;, class_=&#34;title&#34;) note_title = f&#34;{author.text}: {title.text}&#34; body = entry.find(&#34;div&#34;, class_=&#34;md&#34;) note_body.append(md(str(body))) # parse comments note_body.append(&#34;## Comments\n\n&#34;) comment_area = soup.find(&#34;div&#34;, class_=&#34;commentarea&#34;) comments = comment_area.find_all(&#34;div&#34;, class_=&#34;entry&#34;) for comment in comments: comment_author = comment.find(&#34;a&#34;, class_=&#34;author&#34;) if comment_author is None: # This is the &#34;continue thread&#34; element continue comment_body = comment.find(&#34;div&#34;, class_=&#34;md&#34;) note_body.append(f&#34;**{comment_author.text}**: {md(str(comment_body))}&#34;) return note_title, &#34;&#34;.join(note_body) '>
         <title>reddit-clipper | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/code/reddit-clipper/'>
+        <link rel='canonical' href='http://localhost:1313/zh/code/reddit-clipper/'>
 
         
         
@@ -14,9 +14,9 @@ def parse_reddit_page(url): headers = { &#34;User-Agent&#34;: ( &#34;Mozilla/5.0
         <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='reddit-clipper'>
 <meta property='og:description' content='beautiful soup 只是用來 parse 收回來的 respones
 def parse_reddit_page(url): headers = { &#34;User-Agent&#34;: ( &#34;Mozilla/5.0 (X11; Linux ex86_64; rv:105.0) &#34; &#34;Gecko/20100101 &#34; &#34;Firefox/105.0&#34; ) } response = requests.get(url, headers=headers) # raise error code if problem occurs response.raise_for_status() soup = BeautifulSoup(response.text, &#34;html.parser&#34;) note_body = [] # parse post entry = soup.find(&#34;div&#34;, class_=&#34;entry&#34;) author = entry.find(&#34;a&#34;, class_=&#34;author&#34;) title = entry.find(&#34;a&#34;, class_=&#34;title&#34;) note_title = f&#34;{author.text}: {title.text}&#34; body = entry.find(&#34;div&#34;, class_=&#34;md&#34;) note_body.append(md(str(body))) # parse comments note_body.append(&#34;## Comments\n\n&#34;) comment_area = soup.find(&#34;div&#34;, class_=&#34;commentarea&#34;) comments = comment_area.find_all(&#34;div&#34;, class_=&#34;entry&#34;) for comment in comments: comment_author = comment.find(&#34;a&#34;, class_=&#34;author&#34;) if comment_author is None: # This is the &#34;continue thread&#34; element continue comment_body = comment.find(&#34;div&#34;, class_=&#34;md&#34;) note_body.append(f&#34;**{comment_author.text}**: {md(str(comment_body))}&#34;) return note_title, &#34;&#34;.join(note_body) '>
-<meta property='og:url' content='https://evthron.github.io/zh/code/reddit-clipper/'>
+<meta property='og:url' content='http://localhost:1313/zh/code/reddit-clipper/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-01-03T04:49:30&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T07:14:52&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-01-03T04:49:30&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T10:27:35&#43;08:00'/>
 <meta name="twitter:title" content="reddit-clipper">
 <meta name="twitter:description" content="beautiful soup 只是用來 parse 收回來的 respones
 def parse_reddit_page(url): headers = { &#34;User-Agent&#34;: ( &#34;Mozilla/5.0 (X11; Linux ex86_64; rv:105.0) &#34; &#34;Gecko/20100101 &#34; &#34;Firefox/105.0&#34; ) } response = requests.get(url, headers=headers) # raise error code if problem occurs response.raise_for_status() soup = BeautifulSoup(response.text, &#34;html.parser&#34;) note_body = [] # parse post entry = soup.find(&#34;div&#34;, class_=&#34;entry&#34;) author = entry.find(&#34;a&#34;, class_=&#34;author&#34;) title = entry.find(&#34;a&#34;, class_=&#34;title&#34;) note_title = f&#34;{author.text}: {title.text}&#34; body = entry.find(&#34;div&#34;, class_=&#34;md&#34;) note_body.append(md(str(body))) # parse comments note_body.append(&#34;## Comments\n\n&#34;) comment_area = soup.find(&#34;div&#34;, class_=&#34;commentarea&#34;) comments = comment_area.find_all(&#34;div&#34;, class_=&#34;entry&#34;) for comment in comments: comment_author = comment.find(&#34;a&#34;, class_=&#34;author&#34;) if comment_author is None: # This is the &#34;continue thread&#34; element continue comment_body = comment.find(&#34;div&#34;, class_=&#34;md&#34;) note_body.append(f&#34;**{comment_author.text}**: {md(str(comment_body))}&#34;) return note_title, &#34;&#34;.join(note_body) ">
@@ -388,7 +388,7 @@ def parse_reddit_page(url): headers = { &#34;User-Agent&#34;: ( &#34;Mozilla/5.0
 
 
             <span>
-                最後更新 2025-01-03 07:14 &#43;08:00
+                最後更新 2025-01-03 10:27 &#43;08:00
             </span>
         </section></footer>
     

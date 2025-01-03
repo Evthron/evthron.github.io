@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
 第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
@@ -12,7 +12,7 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 '>
         <title>定製 Taskwarrior | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/toolbox/taskwarrior-hooks/'>
+        <link rel='canonical' href='http://localhost:1313/zh/toolbox/taskwarrior-hooks/'>
 
         
         
@@ -26,7 +26,7 @@ default.command=list # 輸入 task 的時候自動執行 task list，而不是 t
 report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 &gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/toolbox/taskwarrior-hooks/'>
+<meta property='og:url' content='http://localhost:1313/zh/toolbox/taskwarrior-hooks/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='coding' /><meta property='article:tag' content='software' /><meta property='article:published_time' content='2024-11-25T01:51:20&#43;08:00'/><meta property='article:modified_time' content='2024-11-25T02:16:53&#43;08:00'/>
 <meta name="twitter:title" content="定製 Taskwarrior">

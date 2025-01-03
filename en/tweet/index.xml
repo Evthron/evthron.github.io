@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>https://evthron.github.io/en/tweet/</link>
+        <link>http://localhost:1313/en/tweet/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sat, 28 Dec 2024 05:02:20 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Dec 2024 05:02:20 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hard to ask for help</title>
-        <link>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</link>
+        <link>http://localhost:1313/en/tweet/hard-to-ask-for-help/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:20 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</guid>
+        <guid>http://localhost:1313/en/tweet/hard-to-ask-for-help/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s hard to ask for help. If you procrastinating until the last hour and realise you can&amp;rsquo;t solve the problem on time, the shame you feel when typing the text message to ask someone for help will makes you throw the phone away and panic alone.&lt;/p&gt;
 &lt;p&gt;If we rely on the internet to answer every small question, we miss the chance to slowly build trust with others with these questions. It is very tempting to quickly obtain the knowledge without having to admit our ignorance. Is it really the cause? Only trust begets trust, but I don&amp;rsquo;t have to trust others when asking those easy questions, it doesn&amp;rsquo;t matter whether they could answer them.&lt;/p&gt;
 &lt;p&gt;On some extreme occasion, if I am really scared about the immediate danger, I will draw on everything in sight to save myself without a second thought.&lt;/p&gt;
@@ -21,39 +21,39 @@
         </item>
         <item>
         <title>Bad mood holiday</title>
-        <link>https://evthron.github.io/en/tweet/bad-mood-holiday/</link>
+        <link>http://localhost:1313/en/tweet/bad-mood-holiday/</link>
         <pubDate>Wed, 16 Oct 2024 04:01:51 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/bad-mood-holiday/</guid>
+        <guid>http://localhost:1313/en/tweet/bad-mood-holiday/</guid>
         <description>&lt;p&gt;I hate holiday. It gives me a fake sense of comfort that I could slack off. Time flies no matter what I do. I always get stuck in deep regret and really annoyed by myself.&lt;/p&gt;
 &lt;p&gt;&amp;lsquo;This is such a tiny thing. I shouldn&amp;rsquo;t be angry and waste any more time on this.&amp;rsquo; This meta emotion makes me feel angrier. What a vicious circle, until I can&amp;rsquo;t take this anymore and cried. After that, I could sit down and write this reflection very easily. It&amp;rsquo;s hard to admit, but emotion plays heavily of the tug-of-war between motivation and procrastination.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Update breakage</title>
-        <link>https://evthron.github.io/en/tweet/update-breakage/</link>
+        <link>http://localhost:1313/en/tweet/update-breakage/</link>
         <pubDate>Wed, 02 Oct 2024 14:30:46 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/update-breakage/</guid>
+        <guid>http://localhost:1313/en/tweet/update-breakage/</guid>
         <description>&lt;p&gt;I shouldn&amp;rsquo;t update the system when I am doing work&amp;hellip; what a classic mistake. The bookmark bar of Firefox became blank and the button layout is stirred up. I spent the whole night trying to open new profiles and imported all the setting twice but somehow it couldn&amp;rsquo;t fix the problem. I have no choice but to remove all the profiles and reinstall firefox.&lt;/p&gt;
 &lt;p&gt;Joppy updates and spilt its API into clientAPI and serverAPI. I have to change my import statement in my python script to make it work. I now understand why people fixate on old versions.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Haircut</title>
-        <link>https://evthron.github.io/en/tweet/haircut/</link>
+        <link>http://localhost:1313/en/tweet/haircut/</link>
         <pubDate>Wed, 18 Sep 2024 23:57:32 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/haircut/</guid>
+        <guid>http://localhost:1313/en/tweet/haircut/</guid>
         <description>&lt;p&gt;The hairdresser grumbled that my demand was unclear, although I had been using the same vague words and the outcomes were somewhat consistent. How misfortunate. At least I learnt their lingo.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Migrating to Linux</title>
-        <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
+        <link>http://localhost:1313/en/tweet/migrating-to-linux/</link>
         <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
+        <guid>http://localhost:1313/en/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
 &lt;p&gt;Surprisingly, everything software I need on Windows has an linux alternative. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have finished all the work earlier but I wasted a lot of time browsing because there are no ready-made net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
@@ -61,10 +61,10 @@
         </item>
         <item>
         <title>Website redesign</title>
-        <link>https://evthron.github.io/en/tweet/blog-layout-modification/</link>
+        <link>http://localhost:1313/en/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
+        <guid>http://localhost:1313/en/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;The code was very cryptic&amp;hellip; how did I finished this thing? Maybe I rearranged the code from the original template?&lt;/p&gt;
@@ -78,10 +78,10 @@
         </item>
         <item>
         <title>Sticky menu</title>
-        <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
+        <link>http://localhost:1313/en/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
+        <guid>http://localhost:1313/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.&lt;/p&gt;
@@ -89,20 +89,20 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         </item>
         <item>
         <title>New to JavaScript</title>
-        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
+        <link>http://localhost:1313/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
+        <guid>http://localhost:1313/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>origami</title>
-        <link>https://evthron.github.io/en/tweet/origami/</link>
+        <link>http://localhost:1313/en/tweet/origami/</link>
         <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/origami/</guid>
+        <guid>http://localhost:1313/en/tweet/origami/</guid>
         <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
 &lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because it can solve the unsolvable &amp;ldquo;trisect any angle&amp;rdquo; problem. When I was still holding the flier and walking, I started wondering what the basic mathematical operations of origami are. The first one could be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. When all they do is to cut things in half, is cutting things in third even possible? I went straight to the library to find the answer.&lt;/p&gt;
 &lt;p&gt;The answer is stupidly simple: Just fold the line in half two times and cut out the extra segment. It&amp;rsquo;s like Columbus&amp;rsquo;s egg, my stubborn mind can&amp;rsquo;t solve it.&lt;/p&gt;
@@ -112,19 +112,19 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         </item>
         <item>
         <title>Arch Linux Installation</title>
-        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
+        <link>http://localhost:1313/en/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
+        <guid>http://localhost:1313/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Improved publishing workflow </title>
-        <link>https://evthron.github.io/en/tweet/easier-publish/</link>
+        <link>http://localhost:1313/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
+        <guid>http://localhost:1313/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
 &lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
@@ -136,10 +136,10 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Better Search Engine</title>
-        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
+        <link>http://localhost:1313/en/tweet/better-search-engine/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
+        <guid>http://localhost:1313/en/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt; are much more interesting than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;reddit&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
@@ -154,37 +154,37 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Delusions</title>
-        <link>https://evthron.github.io/en/tweet/delusions/</link>
+        <link>http://localhost:1313/en/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
+        <guid>http://localhost:1313/en/tweet/delusions/</guid>
         <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Joplin Vim Mode</title>
-        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
+        <link>http://localhost:1313/en/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
+        <guid>http://localhost:1313/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Productivity Tools</title>
-        <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
+        <link>http://localhost:1313/en/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
+        <guid>http://localhost:1313/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Search Count</title>
-        <link>https://evthron.github.io/en/tweet/search-count/</link>
+        <link>http://localhost:1313/en/tweet/search-count/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
+        <guid>http://localhost:1313/en/tweet/search-count/</guid>
         <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:37&lt;/p&gt;
 &lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
@@ -192,19 +192,19 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
         </item>
         <item>
         <title>Progress</title>
-        <link>https://evthron.github.io/en/tweet/progress/</link>
+        <link>http://localhost:1313/en/tweet/progress/</link>
         <pubDate>Mon, 26 Feb 2024 01:46:25 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/progress/</guid>
+        <guid>http://localhost:1313/en/tweet/progress/</guid>
         <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <link>http://localhost:1313/en/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <guid>http://localhost:1313/en/tweet/winter/</guid>
         <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>

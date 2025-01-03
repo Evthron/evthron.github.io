@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) 把 notebook id 轉換成有實際內容的 notebook item 從 dict 變成了 list 結構 把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class 這也是 Post-order traversal嗎？從最底層開始建立新的 Tree def replace_ids_by_items(id_tree): item_tree = [] # 從頂層開始，把一層的 Tree Node 加入 item Tree for key, value in id_tree.items(): # 需要呼叫 api 才能獲取所有的 child。 child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;) # 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。 item_tree.append( # TreeItem 包含子 notebook data # child&#39;s child_tree （用遞歸的方式獲取） # child&#39;s notebook （id, title 和 body）和 resources TreeItem( # 取用外層的 notebook_flat_map 值 notebooks_flat_map[key], # notebook_data replace_ids_by_items(value), # child_items，value 指 child id_tree child_notes, ) ) return item_tree key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree 底層：value 是空的 dict，傳回空的 list Example Tree mapping conversion
 '>
         <title>custom_export | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/code/custom_export/'>
+        <link rel='canonical' href='http://localhost:1313/zh/code/custom_export/'>
 
         
         
@@ -14,9 +14,9 @@
         <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='custom_export'>
 <meta property='og:description' content='Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) 把 notebook id 轉換成有實際內容的 notebook item 從 dict 變成了 list 結構 把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class 這也是 Post-order traversal嗎？從最底層開始建立新的 Tree def replace_ids_by_items(id_tree): item_tree = [] # 從頂層開始，把一層的 Tree Node 加入 item Tree for key, value in id_tree.items(): # 需要呼叫 api 才能獲取所有的 child。 child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;) # 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。 item_tree.append( # TreeItem 包含子 notebook data # child&#39;s child_tree （用遞歸的方式獲取） # child&#39;s notebook （id, title 和 body）和 resources TreeItem( # 取用外層的 notebook_flat_map 值 notebooks_flat_map[key], # notebook_data replace_ids_by_items(value), # child_items，value 指 child id_tree child_notes, ) ) return item_tree key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree 底層：value 是空的 dict，傳回空的 list Example Tree mapping conversion
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/code/custom_export/'>
+<meta property='og:url' content='http://localhost:1313/zh/code/custom_export/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-12-23T09:27:45&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T07:14:52&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-12-23T09:27:45&#43;08:00'/><meta property='article:modified_time' content='2025-01-03T10:27:35&#43;08:00'/>
 <meta name="twitter:title" content="custom_export">
 <meta name="twitter:description" content="Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) 把 notebook id 轉換成有實際內容的 notebook item 從 dict 變成了 list 結構 把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class 這也是 Post-order traversal嗎？從最底層開始建立新的 Tree def replace_ids_by_items(id_tree): item_tree = [] # 從頂層開始，把一層的 Tree Node 加入 item Tree for key, value in id_tree.items(): # 需要呼叫 api 才能獲取所有的 child。 child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;) # 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。 item_tree.append( # TreeItem 包含子 notebook data # child&#39;s child_tree （用遞歸的方式獲取） # child&#39;s notebook （id, title 和 body）和 resources TreeItem( # 取用外層的 notebook_flat_map 值 notebooks_flat_map[key], # notebook_data replace_ids_by_items(value), # child_items，value 指 child id_tree child_notes, ) ) return item_tree key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree 底層：value 是空的 dict，傳回空的 list Example Tree mapping conversion
 ">
@@ -557,7 +557,7 @@ edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。</p>
 
 
             <span>
-                最後更新 2025-01-03 07:14 &#43;08:00
+                最後更新 2025-01-03 10:27 &#43;08:00
             </span>
         </section></footer>
     
