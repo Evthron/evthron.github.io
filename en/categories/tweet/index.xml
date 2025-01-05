@@ -132,6 +132,8 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
 &lt;p&gt;If I could simply use Obsidian or VS Code to edit the files, why should I configure this mess? For the sake of open source? I&amp;rsquo;m tired&amp;hellip;&lt;/p&gt;
 &lt;p&gt;2024/05/28 12:22
 I dived in to the source code of joppy, which is not complicated at all. It&amp;rsquo;s just making requests to joplin&amp;rsquo;s native API. Scrutinising other&amp;rsquo;s work is really the best way to improve.&lt;/p&gt;
+&lt;p&gt;05/01/2025 11:23
+It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to copy quick thoughts like tweet. Maybe I should improve this.&lt;/p&gt;
 </description>
         </item>
         <item>
