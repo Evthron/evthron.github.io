@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
     <head>
-	<meta name="generator" content="Hugo 0.140.2">
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=''>
-        <title>Evthron&#39;s blog</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=' 習慣、每日任務、待辦清單的三分法很好。 特別是習慣 做完也不會消失，沒做也不會有懲罰的任務。 提醒玩家隨時都可以選這些任務來做 每日任務失敗了會扣血，很合理的虛擬懲罰。太重視連續完成多少天的記錄的話，要是意外中斷了記錄讓數字歸零，就不想重新開始。 遊戲外獎勵系統的設計不科學 很難為娛樂活動定價格 工作量不應該能換算成娛樂時間，時間只會越用越少。 花兩次錢。遊戲外的獎勵需要用現實的貨幣才能買得到。 容易打破規則。遊戲內的錢已經花光了，理應買不了，但現實裏還是突然有急用。 應該懲罰什麼也不做，鼓勵玩家無論如何都應該有意識地選擇做一些事情。 '>
+        <title>Habitica 的設計 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/tweet/gamification/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='Evthron&#39;s blog'>
-<meta property='og:description' content=''>
-<meta property='og:url' content='https://evthron.github.io/zh/'>
+        <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='Habitica 的設計'>
+<meta property='og:description' content=' 習慣、每日任務、待辦清單的三分法很好。 特別是習慣 做完也不會消失，沒做也不會有懲罰的任務。 提醒玩家隨時都可以選這些任務來做 每日任務失敗了會扣血，很合理的虛擬懲罰。太重視連續完成多少天的記錄的話，要是意外中斷了記錄讓數字歸零，就不想重新開始。 遊戲外獎勵系統的設計不科學 很難為娛樂活動定價格 工作量不應該能換算成娛樂時間，時間只會越用越少。 花兩次錢。遊戲外的獎勵需要用現實的貨幣才能買得到。 容易打破規則。遊戲內的錢已經花光了，理應買不了，但現實裏還是突然有急用。 應該懲罰什麼也不做，鼓勵玩家無論如何都應該有意識地選擇做一些事情。 '>
+<meta property='og:url' content='https://evthron.github.io/zh/tweet/gamification/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-01-05T11:51:37&#43;08:00 '/>
-<meta name="twitter:title" content="Evthron&#39;s blog">
-<meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="https://evthron.github.io/zh/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:published_time' content='2025-01-05T11:19:47&#43;08:00'/><meta property='article:modified_time' content='2025-01-05T11:51:37&#43;08:00'/>
+<meta name="twitter:title" content="Habitica 的設計">
+<meta name="twitter:description" content=" 習慣、每日任務、待辦清單的三分法很好。 特別是習慣 做完也不會消失，沒做也不會有懲罰的任務。 提醒玩家隨時都可以選這些任務來做 每日任務失敗了會扣血，很合理的虛擬懲罰。太重視連續完成多少天的記錄的話，要是意外中斷了記錄讓數字歸零，就不想重新開始。 遊戲外獎勵系統的設計不科學 很難為娛樂活動定價格 工作量不應該能換算成娛樂時間，時間只會越用越少。 花兩次錢。遊戲外的獎勵需要用現實的貨幣才能買得到。 容易打破規則。遊戲內的錢已經花光了，理應買不了，但現實裏還是突然有急用。 應該懲罰什麼也不做，鼓勵玩家無論如何都應該有意識地選擇做一些事情。 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -201,7 +200,7 @@
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/tweet/' >
                 
                 
@@ -252,29 +251,6 @@
         
 
         <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                    
-                            <option value="https://evthron.github.io/zh/" selected>中文</option>
-                    
-                            <option value="https://evthron.github.io/en/" >English</option>
-                    
-                            <option value="https://evthron.github.io/tok/" >toki pona</option>
-                    
-				    </select>
-                </li>
-            
 
             
                 <li id="dark-mode-toggle">
@@ -312,10 +288,19 @@
     <div class="article-details">
         
         
+        <header class="article-category">
+            
+                
+                <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
+                    tweet
+                </a>
+            
+        </header>
+        
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/">介紹</a>
+                <a href="/zh/tweet/gamification/">Habitica 的設計</a>
             </h2>
         
             
@@ -337,7 +322,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2023-12-22</time>
+                    <time class="article-time--published">2025-01-05</time>
                 </div>
             
     
@@ -345,27 +330,6 @@
         </footer>
         
     
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/" class="link">English</a>
-                    
-                        <a href="https://evthron.github.io/tok/" class="link">toki pona</a>
-                    
-                </div>
-            </footer>
         
     </div>
     
@@ -375,41 +339,25 @@
     <section class="article-content">
         
         
-        <p>我正在把這個 Blog 當名片用，只要讀一讀我寫的東西就可以我是個什麼樣的人了。</p>
+        <ul>
+<li>習慣、每日任務、待辦清單的三分法很好。</li>
+<li>特別是習慣
 <ul>
-<li>
-<p><a class="link" href="/zh/posts" >[📝 文章]</a> 是比較長的散文。</p>
-<ul>
-<li><a class="link" href="/zh/posts/instant-messaging" >[即時通訊的障礙]</a> 解釋了現代通訊軟件的缺陷。</li>
+<li>做完也不會消失，沒做也不會有懲罰的任務。</li>
+<li>提醒玩家隨時都可以選這些任務來做</li>
 </ul>
 </li>
-<li>
-<p><a class="link" href="/zh/gallery" >[🖼️ 畫]</a>，我挑了些自己畫的畫放在這裏。</p>
+<li>每日任務失敗了會扣血，很合理的虛擬懲罰。太重視連續完成多少天的記錄的話，要是意外中斷了記錄讓數字歸零，就不想重新開始。</li>
+<li>遊戲外獎勵系統的設計不科學
 <ul>
-<li><a class="link" href="/zh/gallery/accurate-colour-wheel" >[準確的色環]</a> 講述了我學到的一些配色原理。</li>
+<li>很難為娛樂活動定價格</li>
+<li>工作量不應該能換算成娛樂時間，時間只會越用越少。</li>
+<li>花兩次錢。遊戲外的獎勵需要用現實的貨幣才能買得到。</li>
+<li>容易打破規則。遊戲內的錢已經花光了，理應買不了，但現實裏還是突然有急用。</li>
 </ul>
 </li>
-<li>
-<p><a class="link" href="/zh/tweet" >[🐦 Tweet]</a> 顧名思義，是流水賬日記。</p>
-</li>
-<li>
-<p><a class="link" href="/zh/toolbox" >[🛠️ 工具集]</a> 是我推薦的軟件。</p>
-<ul>
-<li><a class="link" href="/zh/toolbox/say-goodbye-to-internet/" >[如何告別互聯網]</a> 介紹了一些讓我不要沉迷互聯網的工具。</li>
+<li>應該懲罰什麼也不做，鼓勵玩家無論如何都應該有意識地選擇做一些事情。</li>
 </ul>
-</li>
-<li>
-<p><a class="link" href="/zh/skill" >[🎮 技能]</a> 用進度條的形式記錄我的學習經驗。</p>
-<ul>
-<li>這篇 <a class="link" href="/zh/skill/introduction" >[生活遊戲化]</a> 解釋了什麼是遊戲化。</li>
-</ul>
-</li>
-</ul>
-<p>我用主要用中文寫作，不過也同時也會用英文重寫一次自己的文章。如果你很閒的話，歡迎你把不同的版本都讀一次。</p>
-<p>雖然這只是個網站，不是社交平台，但你也是可以訂閲的。使用古代科技 RSS，就可以接收網站的更新。按一下網站頭像下面像 Wi-Fi 一樣的圖標，把那個充滿文字的奇怪網頁的 Url 複製到你的 RSS 閱讀器就可以了。手機可以用開源的 <a class="link" href="https://f-droid.org/en/packages/com.nononsenseapps.feeder/"  target="_blank" rel="noopener"
-    >Feeder</a>，瀏覽器可以用 Feedbro <a class="link" href="https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/"  target="_blank" rel="noopener"
-    >(Firefox)</a> <a class="link" href="https://chromewebstore.google.com/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa"  target="_blank" rel="noopener"
-    >(Chrome)</a>插件。</p>
 
     </section>
 
@@ -429,13 +377,20 @@
 
 
             <span>
-                最後更新 2024-07-01 01:36 &#43;08:00
+                最後更新 2025-01-05 11:51 &#43;08:00
             </span>
         </section></footer>
     
     
     
 </article>
+
+    
+    
+
+    
+    
+     
 
     <footer class="site-footer">
     <section class="copyright">
@@ -455,6 +410,83 @@
 </footer>
 
 
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
 
             </main>
         </div>
