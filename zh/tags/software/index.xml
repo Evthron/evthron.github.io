@@ -136,6 +136,8 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;li&gt;時間追蹤，提醒自己不要在同一個任務上花太多時間。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;雖然把一大堆工具合併起來用就能滿足上面的所有要求，但如果還是要奢望有一個萬能的合體機器人的話，就只會走上 emacs 的不歸路。怎麼辦，好像很吸引人……&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;又不小心研究了一會 emacs，因為 orgdown 的語法好像比 markdown 好。練習快捷鍵除了輸入的時候比較爽快沒有什麼意義。我很滿意 vim。過早的優化是萬惡之源。有些人連盲打都不會呢，照樣能寫出好的程序。&lt;/p&gt;
 </description>
         </item>
         <item>
