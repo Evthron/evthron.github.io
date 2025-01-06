@@ -7,12 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Anki SQLite</title>
+        <link>https://evthron.github.io/zh/tweet/sqlite-anki/</link>
+        <pubDate>Mon, 06 Jan 2025 14:00:46 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/sqlite-anki/</guid>
+        <description>&lt;p&gt;Anki 用的是 SQLite。實戰是好事吧？&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>oklch.com</title>
         <link>https://evthron.github.io/zh/code/oklch.com/</link>
         <pubDate>Mon, 06 Jan 2025 04:45:44 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/oklch.com/</guid>
-        <description>&lt;h1 id=&#34;html&#34;&gt;HTML&lt;/h1&gt;
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://oklch.com&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;html&#34;&gt;HTML&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- input number field --&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;card_number&amp;#34;&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;field&amp;#34;&lt;/span&gt;&amp;gt;
@@ -613,7 +624,9 @@ Note: Although &amp;lsquo;sample&amp;rsquo; sounds like random sampling, picks f
         <pubDate>Fri, 03 Jan 2025 04:49:30 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/reddit-clipper/</guid>
-        <description>&lt;p&gt;beautiful soup 只是用來 parse 收回來的 respones&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy/blob/master/examples/reddit_clipper.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/marph91/joppy/blob/master/examples/reddit_clipper.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;beautiful soup 只是用來 parse 收回來的 respones&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;parse_reddit_page&lt;/span&gt;(url):
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    headers &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;User-Agent&amp;#34;&lt;/span&gt;: (
@@ -948,7 +961,9 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <pubDate>Mon, 25 Nov 2024 00:26:35 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/hugo-theme-stack/</guid>
-        <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/**
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/**
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * Slide up/down
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * Code from https://dev.to/bmsvieira/vanilla-js-slidedown-up-4dkn
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt; * @param target 
@@ -1328,7 +1343,9 @@ sudo reboot
         <pubDate>Sun, 06 Oct 2024 18:16:08 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/progress-bar/</guid>
-        <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Flask(__name__)
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/fredericojordan/progress-bar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/fredericojordan/progress-bar&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Flask(__name__)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;port &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; int(os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PORT&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;run(host&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;127.0.0.1&amp;#34;&lt;/span&gt;, port&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;port)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;special-use-of-conditional&#34;&gt;Special use of conditional&lt;/h1&gt;
@@ -1639,7 +1656,9 @@ _|_|_
         <pubDate>Mon, 02 Sep 2024 16:38:42 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/note_export/</guid>
-        <description>&lt;p&gt;extend a list generator
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy/blob/master/examples/note_export.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/marph91/joppy/blob/master/examples/note_export.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;extend a list generator
 Finding notes with certain title.&lt;/p&gt;
 &lt;h2 id=&#34;bad-version&#34;&gt;Bad version&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; note &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; notes:
@@ -1672,7 +1691,9 @@ Finding notes with certain title.&lt;/p&gt;
         <pubDate>Mon, 02 Sep 2024 11:05:04 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/custom_export/</guid>
-        <description>&lt;h1 id=&#34;example-tree-mapping-conversion&#34;&gt;Example Tree mapping conversion&lt;/h1&gt;
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy/blob/master/examples/custom_export.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/marph91/joppy/blob/master/examples/custom_export.py&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;example-tree-mapping-conversion&#34;&gt;Example Tree mapping conversion&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tree &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;servant&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;saber&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;excalibur&amp;#34;&lt;/span&gt; : {}},
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;archer&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ubw&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Caladabolg&amp;#34;&lt;/span&gt; : {}}},
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lancer&amp;#34;&lt;/span&gt; : {&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gae_bolg&amp;#34;&lt;/span&gt; : {} }}}
@@ -1885,10 +1906,8 @@ edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。&lt;/p&gt;
         <pubDate>Thu, 29 Aug 2024 13:09:04 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/cobalto.dev/</guid>
-        <description>&lt;p&gt;-webkit-box&lt;/p&gt;
-&lt;p&gt;box-orient = flex-direction (row, column)
-box-pack = align right center left
-box-direction = rtl ltr ttb btt&lt;/p&gt;
+        <description>&lt;p&gt;CSS from &lt;a class=&#34;link&#34; href=&#34;https://cobalto.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://cobalto.dev/&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;link&#34;&gt;Link&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;integrity&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;crossorigin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;anonymous&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;referrerpolicy&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;no-referrer&amp;#34;&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;integrity
@@ -1976,8 +1995,12 @@ link stylesheet&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;unknown&#34;&gt;Unknown&lt;/h2&gt;
 &lt;p&gt;aria&lt;/p&gt;
-&lt;h4 id=&#34;-webkit-box----web-references&#34;&gt;-webkit-box &amp;ndash; web references&lt;/h4&gt;
-&lt;p&gt;-ms-flexbox;&lt;/p&gt;
+&lt;h4 id=&#34;webkit-box----web-references&#34;&gt;webkit-box &amp;ndash; web references&lt;/h4&gt;
+&lt;p&gt;-ms-flexbox;
+-webkit-box&lt;/p&gt;
+&lt;p&gt;box-orient = flex-direction (row, column)
+box-pack = align right center left
+box-direction = rtl ltr ttb btt&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1986,7 +2009,9 @@ link stylesheet&lt;/p&gt;
         <pubDate>Tue, 13 Aug 2024 21:57:32 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/code/joppy-api/</guid>
-        <description>&lt;h1 id=&#34;joppy-delete-get-post-put&#34;&gt;joppy Delete, get, post, put&lt;/h1&gt;
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy/tree/master/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/marph91/joppy/tree/master/joppy&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;joppy-delete-get-post-put&#34;&gt;joppy Delete, get, post, put&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;delete&lt;/span&gt;(self, path: str) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; requests&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;models&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Response:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;Convenience method to issue a delete request.&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; self&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;_request(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;delete&amp;#34;&lt;/span&gt;, path)
