@@ -14,7 +14,7 @@
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://evthron.github.io/zh/tweet/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-01-06T14:00:59&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-01-07T19:07:49&#43;08:00 '/>
 <meta name="twitter:title" content="Tweet">
 <meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="https://evthron.github.io/zh/tweet/index.xml">
             <link rel="shortcut icon" href="/favicon.ico" />
@@ -304,7 +304,7 @@
     <header class="section-header">
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">20 篇</h3>
+                <h3 class="section-count">21 篇</h3>
                 <h1 class="section-term">Tweet</h1>
                 
             </div>
@@ -318,7 +318,7 @@
     <div class="article-details">
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/sqlite-anki/">Anki SQLite</a>
+                <a href="/zh/tweet/lottery/">彩票</a>
             </h2>
             
         </div>
@@ -338,7 +338,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2025-01-06</time>
+                    <time class="article-time--published">2025-01-07</time>
                 </div>
             
     
@@ -347,7 +347,13 @@
     
         
         <div class="article-content">
-            <p>Anki 用的是 SQLite。實戰是好事吧？</p>
+            <p>「49個數字選6個」，規則雖然很簡單但要把概率算出來還真不是這麼容易。要算中頭獎的概率很簡單，只是1/49C6 = 1/13983816 而已。概率這麼低，就算頭獎獎金能退高期望值也沒有意義。現實一點，如果6個數字可以中3個的話，就能把買票錢賺回來，這個概率是多少呢？</p>
+<p>簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。
+全部不中的可能性 = (43/49)*7 = 0.4
+中一個的可能性 = 6/49 * (43/49)^5 * 6 = 0.38
+中兩個的可能性 = 6/49 * 6/49 * (43/49)^4 * 6C2 = 0.133
+至少中三個的可能性 = 1- 0.4 -0.38 -0.133 = 0.087
+正確答案應該會比這個高？</p>
 
         </div>
     </div>
@@ -414,6 +420,53 @@
 </li>
 <li>應該懲罰什麼也不做，鼓勵玩家無論如何都應該有意識地選擇做一些事情。</li>
 </ul>
+
+        </div>
+    </div>
+
+    
+    
+    
+    <header class="article-header">
+    
+    </header>
+</article>
+        
+            
+<article class="">
+    <div class="article-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/tweet/sqlite-anki/">Anki SQLite</a>
+            </h2>
+            
+        </div>
+    
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-01-06</time>
+                </div>
+            
+    
+        </footer>
+        
+    
+        
+        <div class="article-content">
+            <p>Anki 用的是 SQLite。實戰是好事吧？</p>
 
         </div>
     </div>
@@ -929,73 +982,6 @@
     </header>
 </article>
         
-            
-<article class="">
-    <div class="article-details">
-        <div class="article-title-wrapper">
-            <h2 class="article-title">
-                <a href="/zh/tweet/migrating-to-linux/">遷移到 Linux</a>
-            </h2>
-            
-        </div>
-    
-        
-        
-        
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published">2024-07-12</time>
-                </div>
-            
-    
-        </footer>
-        
-    
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/tweet/migrating-to-linux/" class="link">English</a>
-                    
-                </div>
-            </footer>
-        
-        <div class="article-content">
-            <p>總算遷移到了 Linux 系統。本來想在舊電腦上安裝，但那部古董總是會在裝到一半的時候突然斷電，沒法用。正好之前在手提電腦上加裝了新硬盤，沒怎麼用，就拿來裝了 Linux。總不可能輕易捨棄隨機附贈的 Windows 和 Office，裝雙盤雙系統就留了後路，也比單盤雙系統安全，安裝時出錯了刪盤重來就好。</p>
-<p>不過現在已經在 Linux 裝好了所有我需要的軟件，Windows 獨佔的也全部都找到了替代品，已經不需要 Windows 了。也嘗試了 Windows 上沒有的 Tiling Window Manage（磁貼式窗口管理器）。聽起來很花時間，但最花時間的不是安裝系統，也不是找替代品，而是重新設置網絡限制。沒有現成的工具真的很麻煩。我總是會忘記，我鎖上的不是保險箱，而是潘多拉的盒子。</p>
-
-        </div>
-    </div>
-
-    
-    
-    
-    <header class="article-header">
-    
-    </header>
-</article>
-        
     </section>
 <nav class='pagination'>
     
@@ -1010,6 +996,12 @@
     
         
         <a class='page-link' href='/zh/tweet/page/2/'>2</a>
+        
+
+    
+    
+        
+        <a class='page-link' href='/zh/tweet/page/3/'>3</a>
         
 
     
