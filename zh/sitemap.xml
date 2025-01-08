@@ -674,7 +674,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/</loc>
-    <lastmod>2025-01-08T06:17:16+08:00</lastmod>
+    <lastmod>2025-01-09T01:56:51+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -741,7 +741,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/skill/foreigner/</loc>
-    <lastmod>2024-06-08T19:00:19+08:00</lastmod>
+    <lastmod>2025-01-09T01:56:51+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1186,6 +1186,8 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/test-vocab/</loc>
+  </url><url>
+    <loc>https://evthron.github.io/zh/sandbox/test-vocab-jpn/</loc>
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/arsenal/</loc>
     <xhtml:link
