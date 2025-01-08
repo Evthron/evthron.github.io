@@ -4,11 +4,12 @@
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Anki 用的是 SQLite。實戰是好事吧？
 很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。
-參考資料：
+順利完成了。 https://evthron.github.io/zh/sandbox/test-vocab/ 參考資料：
 本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。 https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/
 python tutorial https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
 這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？ https://kylerego.github.io/anki-schema#the-notes-table
 Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。 https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/ https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
+界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。 https://marcjenkins.co.uk/bookshelf/
 '>
         <title>Anki SQLite | Evthron&#39;s blog</title>
         
@@ -17,26 +18,28 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.4bf3d5cb77149366be3d4454d39f31758a9793b3cfa6d06ed09bb08b1a6a796d.css"><meta property='og:title' content='Anki SQLite'>
+        <link rel="stylesheet" href="/scss/style.min.2939043f69b369048716c2f05c17c732438d7dd4319f9c06389fb15acec63f1b.css"><meta property='og:title' content='Anki SQLite'>
 <meta property='og:description' content='Anki 用的是 SQLite。實戰是好事吧？
 很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。
-參考資料：
+順利完成了。 https://evthron.github.io/zh/sandbox/test-vocab/ 參考資料：
 本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。 https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/
 python tutorial https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
 這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？ https://kylerego.github.io/anki-schema#the-notes-table
 Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。 https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/ https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
+界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。 https://marcjenkins.co.uk/bookshelf/
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/tweet/sqlite-anki/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:published_time' content='2025-01-06T14:00:46&#43;08:00'/><meta property='article:modified_time' content='2025-01-08T05:52:39&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2025-01-06T14:00:46&#43;08:00'/><meta property='article:modified_time' content='2025-01-08T11:56:45&#43;08:00'/>
 <meta name="twitter:title" content="Anki SQLite">
 <meta name="twitter:description" content="Anki 用的是 SQLite。實戰是好事吧？
 很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。
-參考資料：
+順利完成了。 https://evthron.github.io/zh/sandbox/test-vocab/ 參考資料：
 本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。 https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/
 python tutorial https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
 這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？ https://kylerego.github.io/anki-schema#the-notes-table
 Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。 https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/ https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
+界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。 https://marcjenkins.co.uk/bookshelf/
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -362,7 +365,10 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
         
         <p>Anki 用的是 SQLite。實戰是好事吧？</p>
 <p>很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。</p>
-<p>參考資料：</p>
+<p>順利完成了。
+<a class="link" href="https://evthron.github.io/zh/sandbox/test-vocab/"  target="_blank" rel="noopener"
+    >https://evthron.github.io/zh/sandbox/test-vocab/</a>
+參考資料：</p>
 <p>本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。
 <a class="link" href="https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/"  target="_blank" rel="noopener"
     >https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/</a></p>
@@ -377,6 +383,9 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
     >https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/</a>
 <a class="link" href="https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/"  target="_blank" rel="noopener"
     >https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/</a></p>
+<p>界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。
+<a class="link" href="https://marcjenkins.co.uk/bookshelf/"  target="_blank" rel="noopener"
+    >https://marcjenkins.co.uk/bookshelf/</a></p>
 
     </section>
 
@@ -384,6 +393,12 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
     <footer class="article-footer">
 
         
+        
+        <section class="article-tags">
+            
+                <a href="/zh/tags/coding/">Coding</a>
+            
+        </section>
          
 
         <section class="article-lastmod">
@@ -396,7 +411,7 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
 
 
             <span>
-                最後更新 2025-01-08 05:52 &#43;08:00
+                最後更新 2025-01-08 11:56 &#43;08:00
             </span>
         </section></footer>
     
@@ -409,6 +424,41 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
 
     
     
+    
+    <aside class="related-content--wrapper">
+        <h2 class="section-title">相關文章</h2>
+        <div class="related-content">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/zh/toolbox/upload-workflow/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">文章發佈流程</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/toolbox/taskwarrior-hooks/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">定製 Taskwarrior</h2>
+        </div>
+    </a>
+</article>
+
+                
+            </div>
+        </div>
+    </aside>
      
 
     <footer class="site-footer">
