@@ -56,7 +56,6 @@
         selectedTags[selectedTags.length] = filter;
         this.className += " active";
       }
-      console.log(selectedTags);
       filterSelection(selectedTags);
     });
   }
