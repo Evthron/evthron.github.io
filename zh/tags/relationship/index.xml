@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>https://evthron.github.io/zh/tags/relationship/</link>
+        <link>http://localhost:1313/zh/tags/relationship/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 28 Dec 2024 05:02:27 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/relationship/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Dec 2024 05:02:27 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/relationship/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>求助很困難</title>
-        <link>https://evthron.github.io/zh/tweet/hard-to-ask-for-help/</link>
+        <link>http://localhost:1313/zh/tweet/hard-to-ask-for-help/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:27 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/hard-to-ask-for-help/</guid>
+        <guid>http://localhost:1313/zh/tweet/hard-to-ask-for-help/</guid>
         <description>&lt;p&gt;請教其他人是很困難的事。自己在時間充足的時候沒有尋求協助，貪圖眼前的安逸，把問題放着不管，直到無可奈何的時候才醒覺自己沒有辦法解決問題，拉下臉找人幫忙。比起面對這種羞愧的感覺，還不如自暴自棄。&lt;/p&gt;
 &lt;p&gt;深入思考一下，為什麼尋求幫助是這麼困難的事呢？是缺乏信任嗎？既然沒有網絡搜尋解決不了的問題，普通的發問又有什麼意義呢？比起承認自己的無知，直接在網上找答案不是更輕鬆嗎？仰賴互聯網解決問題，就喪失了在解決小問題的時候培養信任的機會。不過我也不知道在不能上網的時候，人們是怎麼交流的。説不定還是一樣。&lt;/p&gt;
 &lt;p&gt;在自己準備充足的時候請求幫助沒什麼大不了，只是提出對方有能力處理的請求，得到預想之中的答案而已。這些請求並不是內心真正的擔憂，即使被拒絕了也無關緊要。既然請求的時候沒有相信對方，就算對方真心地提供了協助，也沒辦法培養信任。&lt;/p&gt;
@@ -22,10 +22,10 @@
         </item>
         <item>
         <title>和朋友保持聯絡</title>
-        <link>https://evthron.github.io/zh/posts/contact-friends/</link>
+        <link>http://localhost:1313/zh/posts/contact-friends/</link>
         <pubDate>Wed, 25 Dec 2024 07:36:05 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/contact-friends/</guid>
+        <guid>http://localhost:1313/zh/posts/contact-friends/</guid>
         <description>&lt;p&gt;「保持聯絡」絕不是客套話，友誼是從見面的第一天起就開始玩的乒乓球，你來我往，不能停下來。但我空有這種觀念，還是當不成一個好朋友，因為只要離開了自己的視線，我就幾乎不會去關心別人過得怎麼樣。大部分人關心的事，我不是覺得害怕，就是覺得沒意義。&lt;/p&gt;
 &lt;h2 id=&#34;志同道合&#34;&gt;志同道合&lt;/h2&gt;
 &lt;p&gt;每個人都關心考試成績和將來的出路，但我總是避免思考這些問題。我學習只是順着自己淺薄的好奇心，沒有興趣鑽研複雜的題目；複習也只是害怕考試不及格，對分數沒有什麼追求。我害怕討論考試，和工作有關的事更是我的死穴，每次有人和我聊到這些話題，我就會小心翼翼地架起防禦，生怕別人發現我只是個不知道自己想要什麼的人。&lt;/p&gt;
@@ -46,24 +46,24 @@
         </item>
         <item>
         <title>交朋友的理由</title>
-        <link>https://evthron.github.io/zh/posts/reason-to-socialize/</link>
+        <link>http://localhost:1313/zh/posts/reason-to-socialize/</link>
         <pubDate>Wed, 20 Nov 2024 04:18:31 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/reason-to-socialize/</guid>
+        <guid>http://localhost:1313/zh/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;我以前不太關心朋友的生活。如果關心他們的生活對我沒有好處的話，我就會覺得沒有意義，但如果是為了得到好處才去關心的話，我又會覺得自己很不真誠。直到我讀了 Getting Relationships Right 這本書之後，才發現我其實也是很渴望能和別人建立連繫的。我雖然害怕別人對自己的事情不敢興趣，不過如果他們真的能聽進去，我就會很驚喜；我雖然害怕聽到別人的生活比自己充實，但有時候也能從中發現一些讓我覺得很新奇的事情。關心別人是為了滿足我內心的感覺，而不是為了外在的利益，這是我交際的動力。&lt;/p&gt;
-&lt;p&gt;我要陪朋友閒聊，發我不喜歡用的短信，參加我沒有興趣的聚會，和不認識的人搭話。不是為了&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/posts/knowledge-exchange/&#34; &gt;得到知識（交換知識的聊天挑戰 ）&lt;/a&gt;，也不是為了獲得幫助，而是為了互相了解大家的性格、興趣和目標。這是一件多麼冒險，多麼耗時，但又多麼好玩的事啊！&lt;/p&gt;
+&lt;p&gt;我要陪朋友閒聊，發我不喜歡用的短信，參加我沒有興趣的聚會，和不認識的人搭話。不是為了&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/zh/posts/knowledge-exchange/&#34; &gt;得到知識（交換知識的聊天挑戰 ）&lt;/a&gt;，也不是為了獲得幫助，而是為了互相了解大家的性格、興趣和目標。這是一件多麼冒險，多麼耗時，但又多麼好玩的事啊！&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>交換知識的聊天挑戰 </title>
-        <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
+        <link>http://localhost:1313/zh/posts/knowledge-exchange/</link>
         <pubDate>Sat, 29 Jun 2024 21:43:57 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/knowledge-exchange/</guid>
+        <guid>http://localhost:1313/zh/posts/knowledge-exchange/</guid>
         <description>&lt;p&gt;我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？&lt;/p&gt;
 &lt;p&gt;對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。&lt;/p&gt;
 &lt;p&gt;每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/skill/right-sider&#34; &gt;記錄數據&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/zh/skill/right-sider&#34; &gt;記錄數據&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         

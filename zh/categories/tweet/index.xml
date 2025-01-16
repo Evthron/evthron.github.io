@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>https://evthron.github.io/zh/categories/tweet/</link>
+        <link>http://localhost:1313/zh/categories/tweet/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Tue, 07 Jan 2025 18:13:55 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Jan 2025 18:13:55 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>彩票</title>
-        <link>https://evthron.github.io/zh/tweet/lottery/</link>
+        <link>http://localhost:1313/zh/tweet/lottery/</link>
         <pubDate>Tue, 07 Jan 2025 18:13:55 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/lottery/</guid>
+        <guid>http://localhost:1313/zh/tweet/lottery/</guid>
         <description>&lt;p&gt;「49個數字選6個」，規則雖然很簡單但要把概率算出來還真不是這麼容易。要算中頭獎的概率很簡單，只是1/49C6 = 1/13983816 而已。概率這麼低，就算頭獎獎金能退高期望值也沒有意義。現實一點，如果6個數字可以中3個的話，就能把買票錢賺回來，這個概率是多少呢？&lt;/p&gt;
 &lt;p&gt;簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。
 全部不中的可能性 = (43/49)*7 = 0.4
@@ -26,10 +26,10 @@
         </item>
         <item>
         <title>Anki SQLite</title>
-        <link>https://evthron.github.io/zh/tweet/sqlite-anki/</link>
+        <link>http://localhost:1313/zh/tweet/sqlite-anki/</link>
         <pubDate>Mon, 06 Jan 2025 14:00:46 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/sqlite-anki/</guid>
+        <guid>http://localhost:1313/zh/tweet/sqlite-anki/</guid>
         <description>&lt;p&gt;Anki 用的是 SQLite。實戰是好事吧？&lt;/p&gt;
 &lt;p&gt;很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。&lt;/p&gt;
 &lt;p&gt;順利完成了。
@@ -57,10 +57,10 @@
         </item>
         <item>
         <title>遊戲化想法</title>
-        <link>https://evthron.github.io/zh/tweet/gamification/</link>
+        <link>http://localhost:1313/zh/tweet/gamification/</link>
         <pubDate>Sun, 05 Jan 2025 11:19:47 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/gamification/</guid>
+        <guid>http://localhost:1313/zh/tweet/gamification/</guid>
         <description>&lt;h2 id=&#34;habitica&#34;&gt;Habitica&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;習慣、每日任務、待辦清單的三分法很好。&lt;/li&gt;
@@ -85,10 +85,10 @@
         </item>
         <item>
         <title>求助很困難</title>
-        <link>https://evthron.github.io/zh/tweet/hard-to-ask-for-help/</link>
+        <link>http://localhost:1313/zh/tweet/hard-to-ask-for-help/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:27 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/hard-to-ask-for-help/</guid>
+        <guid>http://localhost:1313/zh/tweet/hard-to-ask-for-help/</guid>
         <description>&lt;p&gt;請教其他人是很困難的事。自己在時間充足的時候沒有尋求協助，貪圖眼前的安逸，把問題放着不管，直到無可奈何的時候才醒覺自己沒有辦法解決問題，拉下臉找人幫忙。比起面對這種羞愧的感覺，還不如自暴自棄。&lt;/p&gt;
 &lt;p&gt;深入思考一下，為什麼尋求幫助是這麼困難的事呢？是缺乏信任嗎？既然沒有網絡搜尋解決不了的問題，普通的發問又有什麼意義呢？比起承認自己的無知，直接在網上找答案不是更輕鬆嗎？仰賴互聯網解決問題，就喪失了在解決小問題的時候培養信任的機會。不過我也不知道在不能上網的時候，人們是怎麼交流的。説不定還是一樣。&lt;/p&gt;
 &lt;p&gt;在自己準備充足的時候請求幫助沒什麼大不了，只是提出對方有能力處理的請求，得到預想之中的答案而已。這些請求並不是內心真正的擔憂，即使被拒絕了也無關緊要。既然請求的時候沒有相信對方，就算對方真心地提供了協助，也沒辦法培養信任。&lt;/p&gt;
@@ -99,10 +99,10 @@
         </item>
         <item>
         <title>橡皮擦的妙用</title>
-        <link>https://evthron.github.io/zh/tweet/graphite-eraser/</link>
+        <link>http://localhost:1313/zh/tweet/graphite-eraser/</link>
         <pubDate>Sat, 19 Oct 2024 04:53:17 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/graphite-eraser/</guid>
+        <guid>http://localhost:1313/zh/tweet/graphite-eraser/</guid>
         <description>&lt;p&gt;畫畫用的鉛筆要削得又長又尖，一般的削筆機是做不到的，只能用美工刀削。我削鉛筆的時削出來的碳粉跑進了玻璃桌上的刮痕，看起來很髒。&lt;/p&gt;
 &lt;p&gt;在所有顏料裏，石墨的污漬似乎是最難處理的。大部分顏料的構造都是色素溶在溶劑裏，所以只要用適合的溶劑就能洗掉。但石墨的結構註定了它不會溶化，雖然很容易脱落，但總是會黏在某個地方，也永遠不會變質。&lt;/p&gt;
 &lt;p&gt;雖然石墨不溶於水，但我還是用紙巾沾了點水才開始擦桌子。水把紙弄軟之後，才能深入縫隙。而且粉末卡在刮痕裏的時候，不能光在表面大範圍地擦拭，而是要用指甲頂着紙巾，和刮痕成垂直方向來回打轉，把碳粉帶出來，才能擦得乾淨。&lt;/p&gt;
@@ -116,10 +116,10 @@
         </item>
         <item>
         <title>假期的壞心情</title>
-        <link>https://evthron.github.io/zh/tweet/bad-mood-holiday/</link>
+        <link>http://localhost:1313/zh/tweet/bad-mood-holiday/</link>
         <pubDate>Wed, 16 Oct 2024 01:51:46 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/bad-mood-holiday/</guid>
+        <guid>http://localhost:1313/zh/tweet/bad-mood-holiday/</guid>
         <description>&lt;p&gt;我放假就像個廢人一樣，要花好幾天的心情調整心態，才有開始做事的決心。但時間不等人，截止日期的壓力會逼我做該做的事，既然這樣，一開始就不要放假好了。要做的事堆積如山，我卻提不起勁，這實在很令人煩躁。比起電腦燒掉和錯過考試，這算不上什麼，但因為這種雞毛蒜皮的小事而煩躁，實在令我很煩躁。看吧，這就是個走不出來的怪圈。&lt;/p&gt;
 &lt;p&gt;哭過一場之後，我突然就很想坐下來寫這篇感想了，簡直毫不費力。無法否認，所謂的狀態好壞，比起心理準備，其實更受身體的影響。&lt;/p&gt;
 &lt;p&gt;眼白白看着溜掉的光陰的光陰，是不會回來的沉沒成本，但心情是學不會經濟學的，保持自己情緒一致比什麼都來得重要，就算能像切換計算機模式一樣，按幾個按鈕就能平復情緒，也只會讓我感到很可悲。&lt;/p&gt;
@@ -128,29 +128,29 @@
         </item>
         <item>
         <title>理髮</title>
-        <link>https://evthron.github.io/zh/tweet/haircut/</link>
+        <link>http://localhost:1313/zh/tweet/haircut/</link>
         <pubDate>Wed, 18 Sep 2024 23:57:07 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/haircut/</guid>
+        <guid>http://localhost:1313/zh/tweet/haircut/</guid>
         <description>&lt;p&gt;我被理髮師抱怨，説我的需求不清楚，真不幸。以前還不是一直都含糊其詞，剪出來的都差不多啊。唉，至少我現在會説理髮師聽得懂的話了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>遷移到 Linux</title>
-        <link>https://evthron.github.io/zh/tweet/migrating-to-linux/</link>
+        <link>http://localhost:1313/zh/tweet/migrating-to-linux/</link>
         <pubDate>Fri, 12 Jul 2024 07:54:30 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/migrating-to-linux/</guid>
+        <guid>http://localhost:1313/zh/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;總算遷移到了 Linux 系統。本來想在舊電腦上安裝，但那部古董總是會在裝到一半的時候突然斷電，沒法用。正好之前在手提電腦上加裝了新硬盤，沒怎麼用，就拿來裝了 Linux。總不可能輕易捨棄隨機附贈的 Windows 和 Office，裝雙盤雙系統就留了後路，也比單盤雙系統安全，安裝時出錯了刪盤重來就好。&lt;/p&gt;
 &lt;p&gt;不過現在已經在 Linux 裝好了所有我需要的軟件，Windows 獨佔的也全部都找到了替代品，已經不需要 Windows 了。也嘗試了 Windows 上沒有的 Tiling Window Manage（磁貼式窗口管理器）。聽起來很花時間，但最花時間的不是安裝系統，也不是找替代品，而是重新設置網絡限制。沒有現成的工具真的很麻煩。我總是會忘記，我鎖上的不是保險箱，而是潘多拉的盒子。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>網站設計</title>
-        <link>https://evthron.github.io/zh/tweet/blog-layout-modification/</link>
+        <link>http://localhost:1313/zh/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 18:11:52 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/blog-layout-modification/</guid>
+        <guid>http://localhost:1313/zh/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;我總算按照我想要的樣子，把網站的編排調整一遍了！畫廊能把圖片排成方格、Tweet 能直接展示文章內容、能把自我介紹搬到主頁，把原本的主頁搬到新開的另一頁。主頁就要像目錄一樣，而不是一長串像新聞一樣的時間線。我現在更熟悉 hugo 編排頁面的原理了。當然，HTML 和 CSS 的知識也增長了不少。真的很高興。不過，現在卻不知道接下來該做什麼了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;現在重新看一次代碼，我完全不知道自己是怎麼做到的。完全不像是我自己寫的啊…… 應該是從原本的代碼裏找到適合的部分，複製黏貼再重組的吧。&lt;/p&gt;
@@ -164,10 +164,10 @@
         </item>
         <item>
         <title>黏在旁邊的選單</title>
-        <link>https://evthron.github.io/zh/tweet/sticky-menu/</link>
+        <link>http://localhost:1313/zh/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
+        <guid>http://localhost:1313/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
@@ -175,10 +175,10 @@
         </item>
         <item>
         <title>JavaScript 新手</title>
-        <link>https://evthron.github.io/zh/tweet/new-to-javascript/</link>
+        <link>http://localhost:1313/zh/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 19:48:42 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/new-to-javascript/</guid>
+        <guid>http://localhost:1313/zh/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。&lt;/p&gt;
 &lt;p&gt;既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？&lt;/p&gt;
 &lt;p&gt;但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。&lt;/p&gt;
@@ -186,10 +186,10 @@
         </item>
         <item>
         <title>折紙 </title>
-        <link>https://evthron.github.io/zh/tweet/origami/</link>
+        <link>http://localhost:1313/zh/tweet/origami/</link>
         <pubDate>Tue, 04 Jun 2024 21:14:54 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/origami/</guid>
+        <guid>http://localhost:1313/zh/tweet/origami/</guid>
         <description>&lt;p&gt;我在街上接到傳單的時候，總覺得如果要馬上扔到附近的垃圾筒裏面，那倒不如一開始就不要拿。那廢紙有什麼用呢？拿來折紙也是門手藝。記得小學的數學老師教過怎麼用紙拼出多面體，那比折什麼紙飛機有意思多了。&lt;/p&gt;
 &lt;p&gt;從數學的角度看，折紙就和尺規作圖很像。我聽説過折紙連尺規三大不可能問題之一的三等分角都能做到。尺規的基本操作是畫直線和圓，那折紙的基本操作是什麼呢？我拿起手上的傳單試了一下，想必一個是把邊對摺作出垂直平分線，另一個是沿着對角對折作出對角線，都是把東西分成兩半的操作。在尺規作圖上把線三等分不難，那麼折紙有可能把線三等分呢？連三等分都做不到，真的有可能三等分角嗎？&lt;/p&gt;
 &lt;p&gt;我在一本折紙書上找到了答案，有種上當受騙的感覺：只要折成四等份，然後把多出來的一份剪掉就可以。就和哥倫布立蛋一樣，只要用力把雞蛋往桌面一敲就可以了。為什麼腦子總是在這種地方轉不過彎來呢？&lt;/p&gt;
@@ -198,10 +198,10 @@
         </item>
         <item>
         <title> 安裝 Arch Linux</title>
-        <link>https://evthron.github.io/zh/tweet/arch-linux-installation/</link>
+        <link>http://localhost:1313/zh/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 09:26:05 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/arch-linux-installation/</guid>
+        <guid>http://localhost:1313/zh/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;Arch Wiki 的網絡設置和啟動引導部分寫得不清晰，除此之外不算太難。現在五分鐘就能裝好。&lt;/p&gt;
 &lt;p&gt;19/07/2024
 現在看來 Arch Wiki 寫得不好的地方就只有安裝指南。無論遇到什麼問題，Arch Wiki 都能解決。&lt;/p&gt;
@@ -209,10 +209,10 @@
         </item>
         <item>
         <title>改進發佈流程</title>
-        <link>https://evthron.github.io/zh/tweet/easier-publish/</link>
+        <link>http://localhost:1313/zh/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:13:23 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/easier-publish/</guid>
+        <guid>http://localhost:1313/zh/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:13&lt;/p&gt;
 &lt;p&gt;搗鼓了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。&lt;/p&gt;
@@ -228,10 +228,10 @@
         </item>
         <item>
         <title>更好的搜尋引擎</title>
-        <link>https://evthron.github.io/zh/tweet/better-search-engine/</link>
+        <link>http://localhost:1313/zh/tweet/better-search-engine/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/better-search-engine/</guid>
+        <guid>http://localhost:1313/zh/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;我已經厭倦 Google 的搜尋結果了（雖然我用的是 Startpage）。今天發現了 &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt;，它能找到一些更小型的網站。順帶一提，&lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wiby&lt;/a&gt; 是另一個專門找小型網站的搜尋引擎，但是因為太小型，全部都很奇怪，所以沒什麼用。&lt;/p&gt;
@@ -246,19 +246,19 @@
         </item>
         <item>
         <title>Joplin Vim Mode</title>
-        <link>https://evthron.github.io/zh/tweet/joplin-vim-mode/</link>
+        <link>http://localhost:1313/zh/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/joplin-vim-mode/</guid>
+        <guid>http://localhost:1313/zh/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;Joplin 居然有 Vim mode？那麼我一直以來特意設置 gvim 做外部編輯器豈不是多此一舉？省得調字體和手動保存。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>幻想</title>
-        <link>https://evthron.github.io/zh/tweet/delusions/</link>
+        <link>http://localhost:1313/zh/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
+        <guid>http://localhost:1313/zh/tweet/delusions/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
 &lt;p&gt;2024/04/01 00:30
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
@@ -266,10 +266,10 @@
         </item>
         <item>
         <title>時間管理工具</title>
-        <link>https://evthron.github.io/zh/tweet/productivity-tools/</link>
+        <link>http://localhost:1313/zh/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/productivity-tools/</guid>
+        <guid>http://localhost:1313/zh/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;不工作跑去研究工具是沒有好下場的。不過 Super Productivity 和 ActivityWatch 用起來都不錯。要怎樣運用徹底監控電腦使用時間得到的數據，才能把生活變成數值管理遊戲？不過總之先記錄，其他問題以後再想。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;我想破頭之後總算明白了，我手上的時間管理工具在功課上派不上用場。&lt;/p&gt;
@@ -298,10 +298,10 @@
         </item>
         <item>
         <title>搜尋次數</title>
-        <link>https://evthron.github.io/zh/tweet/search-count/</link>
+        <link>http://localhost:1313/zh/tweet/search-count/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/search-count/</guid>
+        <guid>http://localhost:1313/zh/tweet/search-count/</guid>
         <description>&lt;p&gt;亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:36&lt;/p&gt;
 &lt;p&gt;可惜我沒有貫徹這種規則的工具。本來是個好主意的。&lt;/p&gt;
@@ -309,19 +309,19 @@
         </item>
         <item>
         <title>進度</title>
-        <link>https://evthron.github.io/zh/tweet/progress/</link>
+        <link>http://localhost:1313/zh/tweet/progress/</link>
         <pubDate>Mon, 26 Feb 2024 01:49:21 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/progress/</guid>
+        <guid>http://localhost:1313/zh/tweet/progress/</guid>
         <description>&lt;p&gt;不把事情徹底完成就無法推進，這並不是好的做法。先完成初版再不斷更新才是有效的做法。但是，要如何知道自己完成了？除非能夠預知未來，否則就沒有辦法能估計自己的項目推進到哪一部分了。不對，就算能夠預知未來，也不知道要怎麼才能把自己的工作量變成數值反映在進度條上。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>冷天</title>
-        <link>https://evthron.github.io/zh/tweet/winter/</link>
+        <link>http://localhost:1313/zh/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/tweet/winter/</guid>
+        <guid>http://localhost:1313/zh/tweet/winter/</guid>
         <description>&lt;p&gt;真的好冷啊。上星期還是熱得和夏天一樣，還以為能過個暖和的冬天。&lt;/p&gt;
 </description>
         </item>
