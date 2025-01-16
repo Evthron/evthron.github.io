@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/categories/gallery/</link>
+        <link>https://evthron.github.io/zh/categories/gallery/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 03 Jan 2025 12:52:15 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/gallery/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 03 Jan 2025 12:52:15 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/gallery/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>瓜皮</title>
-        <link>http://localhost:1313/zh/gallery/watermelon/</link>
+        <link>https://evthron.github.io/zh/gallery/watermelon/</link>
         <pubDate>Fri, 03 Jan 2025 12:52:15 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/watermelon/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/watermelon/watermelon.jpg" alt="Featured image of post 瓜皮" /&gt;&lt;p&gt;真的有人能把剛切好的西瓜放着不動嗎？
-&lt;img src=&#34;http://localhost:1313/zh/gallery/watermelon/watermelon.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/watermelon/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/watermelon/watermelon.jpg" alt="Featured image of post 瓜皮" /&gt;&lt;p&gt;真的有人能把剛切好的西瓜放着不動嗎？
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/watermelon/watermelon.jpg&#34;
 	width=&#34;2318&#34;
 	height=&#34;3465&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/watermelon/watermelon_hu5439317184256567836.webp 480w, http://localhost:1313/zh/gallery/watermelon/watermelon_hu8063555108723347285.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/watermelon/watermelon_hu5439317184256567836.webp 480w, https://evthron.github.io/zh/gallery/watermelon/watermelon_hu8063555108723347285.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;watermelon-peel&#34;
@@ -32,14 +32,14 @@
         </item>
         <item>
         <title>小巴</title>
-        <link>http://localhost:1313/zh/gallery/minibus/</link>
+        <link>https://evthron.github.io/zh/gallery/minibus/</link>
         <pubDate>Fri, 03 Jan 2025 12:49:52 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/minibus/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/minibus/minibus.jpg" alt="Featured image of post 小巴" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/minibus/minibus.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/minibus/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/minibus/minibus.jpg" alt="Featured image of post 小巴" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/minibus/minibus.jpg&#34;
 	width=&#34;5100&#34;
 	height=&#34;3254&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/minibus/minibus_hu812245253056365981.webp 480w, http://localhost:1313/zh/gallery/minibus/minibus_hu11548751065548698933.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/minibus/minibus_hu812245253056365981.webp 480w, https://evthron.github.io/zh/gallery/minibus/minibus_hu11548751065548698933.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;minibus&#34;
@@ -55,14 +55,14 @@
         </item>
         <item>
         <title>海灘</title>
-        <link>http://localhost:1313/zh/gallery/beach/</link>
+        <link>https://evthron.github.io/zh/gallery/beach/</link>
         <pubDate>Fri, 03 Jan 2025 12:35:45 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/beach/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/beach/beach.jpg" alt="Featured image of post 海灘" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/beach/beach.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/beach/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/beach/beach.jpg" alt="Featured image of post 海灘" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/beach/beach.jpg&#34;
 	width=&#34;4247&#34;
 	height=&#34;2951&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/beach/beach_hu2119351939282359419.webp 480w, http://localhost:1313/zh/gallery/beach/beach_hu3772375858763264974.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/beach/beach_hu2119351939282359419.webp 480w, https://evthron.github.io/zh/gallery/beach/beach_hu3772375858763264974.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;beach&#34;
@@ -78,11 +78,11 @@
         </item>
         <item>
         <title>顏色練習</title>
-        <link>http://localhost:1313/zh/gallery/colour-practice/</link>
+        <link>https://evthron.github.io/zh/gallery/colour-practice/</link>
         <pubDate>Fri, 03 Jan 2025 12:17:12 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/colour-practice/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/colour-practice/colour-practice.png" alt="Featured image of post 顏色練習" /&gt;&lt;ul&gt;
+        <guid>https://evthron.github.io/zh/gallery/colour-practice/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/colour-practice/colour-practice.png" alt="Featured image of post 顏色練習" /&gt;&lt;ul&gt;
 &lt;li&gt;原版&lt;/li&gt;
 &lt;li&gt;反色相&lt;/li&gt;
 &lt;li&gt;反亮度&lt;/li&gt;
@@ -90,10 +90,10 @@
 &lt;li&gt;反色相 + 反亮度&lt;/li&gt;
 &lt;li&gt;反色相 + 反飽和度&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/colour-practice/colour-practice.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/colour-practice/colour-practice.png&#34;
 	width=&#34;1719&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/colour-practice/colour-practice_hu1853719564525333524.webp 480w, http://localhost:1313/zh/gallery/colour-practice/colour-practice_hu12424010676037846526.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/colour-practice/colour-practice_hu1853719564525333524.webp 480w, https://evthron.github.io/zh/gallery/colour-practice/colour-practice_hu12424010676037846526.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flower-repaint&#34;
@@ -105,10 +105,10 @@
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/colour-practice/four-season.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/colour-practice/four-season.png&#34;
 	width=&#34;512&#34;
 	height=&#34;512&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/colour-practice/four-season_hu3676543414042145212.webp 480w, http://localhost:1313/zh/gallery/colour-practice/four-season_hu1493604886087607674.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/colour-practice/four-season_hu3676543414042145212.webp 480w, https://evthron.github.io/zh/gallery/colour-practice/four-season_hu1493604886087607674.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;four-season&#34;
@@ -124,15 +124,15 @@
         </item>
         <item>
         <title>實驗袍</title>
-        <link>http://localhost:1313/zh/gallery/labcoat/</link>
+        <link>https://evthron.github.io/zh/gallery/labcoat/</link>
         <pubDate>Fri, 03 Jan 2025 12:10:59 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/labcoat/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/labcoat/labcoat.png" alt="Featured image of post 實驗袍" /&gt;&lt;p&gt;雖然這個比較寫實，但不知道為什麼還是原來用滑鼠畫的圖標好看。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/labcoat/labcoat.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/labcoat/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/labcoat/labcoat.png" alt="Featured image of post 實驗袍" /&gt;&lt;p&gt;雖然這個比較寫實，但不知道為什麼還是原來用滑鼠畫的圖標好看。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/labcoat/labcoat.png&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/labcoat/labcoat_hu2259345855743485108.webp 480w, http://localhost:1313/zh/gallery/labcoat/labcoat_hu766008560426028255.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/labcoat/labcoat_hu2259345855743485108.webp 480w, https://evthron.github.io/zh/gallery/labcoat/labcoat_hu766008560426028255.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;labcoat&#34;
@@ -148,14 +148,14 @@
         </item>
         <item>
         <title>聖誕屋</title>
-        <link>http://localhost:1313/zh/gallery/christmas-house/</link>
+        <link>https://evthron.github.io/zh/gallery/christmas-house/</link>
         <pubDate>Fri, 03 Jan 2025 12:01:28 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/christmas-house/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/christmas-house/christmas-house.png" alt="Featured image of post 聖誕屋" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/christmas-house/christmas-house.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/christmas-house/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/christmas-house/christmas-house.png" alt="Featured image of post 聖誕屋" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/christmas-house/christmas-house.png&#34;
 	width=&#34;4624&#34;
 	height=&#34;3280&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/christmas-house/christmas-house_hu15751561186119391869.webp 480w, http://localhost:1313/zh/gallery/christmas-house/christmas-house_hu16925880558336459101.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/christmas-house/christmas-house_hu15751561186119391869.webp 480w, https://evthron.github.io/zh/gallery/christmas-house/christmas-house_hu16925880558336459101.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;christmas-house&#34;
@@ -171,14 +171,14 @@
         </item>
         <item>
         <title>人體動態</title>
-        <link>http://localhost:1313/zh/gallery/body-skeleton/</link>
+        <link>https://evthron.github.io/zh/gallery/body-skeleton/</link>
         <pubDate>Fri, 03 Jan 2025 11:41:48 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/body-skeleton/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/body-skeleton/body-skeleton.png" alt="Featured image of post 人體動態" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/body-skeleton/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton.png" alt="Featured image of post 人體動態" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton.png&#34;
 	width=&#34;5034&#34;
 	height=&#34;3654&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton_hu4776577024481003522.webp 480w, http://localhost:1313/zh/gallery/body-skeleton/body-skeleton_hu10509188288842764421.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton_hu4776577024481003522.webp 480w, https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton_hu10509188288842764421.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;body-skeleton&#34;
@@ -190,10 +190,10 @@
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/body-skeleton/5-sides.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/5-sides.png&#34;
 	width=&#34;1754&#34;
 	height=&#34;1240&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/body-skeleton/5-sides_hu7836531874769669959.webp 480w, http://localhost:1313/zh/gallery/body-skeleton/5-sides_hu18086968084311321737.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/body-skeleton/5-sides_hu7836531874769669959.webp 480w, https://evthron.github.io/zh/gallery/body-skeleton/5-sides_hu18086968084311321737.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;5-sides&#34;
@@ -205,10 +205,10 @@
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-2.png&#34;
 	width=&#34;629&#34;
 	height=&#34;998&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-2_hu7912123717982008533.webp 480w, http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-2_hu10604097156515083416.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-2_hu7912123717982008533.webp 480w, https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-2_hu10604097156515083416.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;body-skeleton-2&#34;
@@ -220,10 +220,10 @@
 	
 &gt;
 
-&lt;img src=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-3.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-3.png&#34;
 	width=&#34;710&#34;
 	height=&#34;1039&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-3_hu11850954093240228709.webp 480w, http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-3_hu3233809064717887893.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-3_hu11850954093240228709.webp 480w, https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-3_hu3233809064717887893.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;body-skeleton-3&#34;
@@ -235,10 +235,10 @@
 	
 &gt;
 
-&lt;img src=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-4.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-4.png&#34;
 	width=&#34;1417&#34;
 	height=&#34;1417&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-4_hu1926495943732493708.webp 480w, http://localhost:1313/zh/gallery/body-skeleton/body-skeleton-4_hu7861515237730097270.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-4_hu1926495943732493708.webp 480w, https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-4_hu7861515237730097270.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;body-skeleton-4&#34;
@@ -250,10 +250,10 @@
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-sketch-overlap.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-sketch-overlap.png&#34;
 	width=&#34;1242&#34;
 	height=&#34;1215&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/body-skeleton/body-sketch-overlap_hu17785107971035896295.webp 480w, http://localhost:1313/zh/gallery/body-skeleton/body-sketch-overlap_hu12082681341176909354.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-sketch-overlap_hu17785107971035896295.webp 480w, https://evthron.github.io/zh/gallery/body-skeleton/body-sketch-overlap_hu12082681341176909354.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;body-sketch-overlap&#34;
@@ -269,15 +269,15 @@
         </item>
         <item>
         <title>夜景</title>
-        <link>http://localhost:1313/zh/gallery/nightview/</link>
+        <link>https://evthron.github.io/zh/gallery/nightview/</link>
         <pubDate>Wed, 26 Jun 2024 02:34:57 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/nightview/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/nightview/nightview.png" alt="Featured image of post 夜景" /&gt;&lt;p&gt;本來想畫個背景給網站增加點個性，但放上去之後又覺得太雜亂了，所以加了個濾鏡，完全看不出原本的樣子。唉，這就是為什麼現在的網站都不用背景圖片了嗎？純色的背景雖然看上去會比較專業，但是又很無聊。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/nightview/nightview.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/nightview/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post 夜景" /&gt;&lt;p&gt;本來想畫個背景給網站增加點個性，但放上去之後又覺得太雜亂了，所以加了個濾鏡，完全看不出原本的樣子。唉，這就是為什麼現在的網站都不用背景圖片了嗎？純色的背景雖然看上去會比較專業，但是又很無聊。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/nightview/nightview.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;768&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/nightview/nightview_hu16699875967753941879.webp 480w, http://localhost:1313/zh/gallery/nightview/nightview_hu7189587778845004515.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/nightview/nightview_hu16699875967753941879.webp 480w, https://evthron.github.io/zh/gallery/nightview/nightview_hu7189587778845004515.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;nightview&#34;
@@ -293,15 +293,15 @@
         </item>
         <item>
         <title>油粉彩花瓶 </title>
-        <link>http://localhost:1313/zh/gallery/flower-pot/</link>
+        <link>https://evthron.github.io/zh/gallery/flower-pot/</link>
         <pubDate>Thu, 23 May 2024 04:02:46 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/flower-pot/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post 油粉彩花瓶 " /&gt;&lt;p&gt;只畫黑白素描沒什麼意思。如果要在畫作裏加入顏色，我考慮了好幾種工具，好像是油粉彩最好，既能混合顏色，也能隨時拿出來用。我先測試了油粉彩顏色混合的特性，多少有點經驗之後再開始畫。成品非常不錯吧？雖然感覺油粉彩是小孩的塗鴉工具，但還是要看技術的嘛。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/flower-pot/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post 油粉彩花瓶 " /&gt;&lt;p&gt;只畫黑白素描沒什麼意思。如果要在畫作裏加入顏色，我考慮了好幾種工具，好像是油粉彩最好，既能混合顏色，也能隨時拿出來用。我先測試了油粉彩顏色混合的特性，多少有點經驗之後再開始畫。成品非常不錯吧？雖然感覺油粉彩是小孩的塗鴉工具，但還是要看技術的嘛。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png&#34;
 	width=&#34;3119&#34;
 	height=&#34;4086&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, http://localhost:1313/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu15681862985165562651.webp 480w, https://evthron.github.io/zh/gallery/flower-pot/flower-pot_hu14868605031735755028.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;flower-pot&#34;
@@ -317,16 +317,16 @@
         </item>
         <item>
         <title>準確的色環</title>
-        <link>http://localhost:1313/zh/gallery/accurate-colour-wheel/</link>
+        <link>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</link>
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/accurate-colour-wheel/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://evthron.github.io/zh/gallery/accurate-colour-wheel/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post 準確的色環" /&gt;&lt;p&gt;顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OKLCH 顏色選擇器&lt;/a&gt; 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png&#34;
 	width=&#34;1968&#34;
 	height=&#34;1968&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu15237707423871174772.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu16181767488539822774.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu15237707423871174772.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu16181767488539822774.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;oklch-colour-wheel&#34;
@@ -345,10 +345,10 @@
 &lt;/ul&gt;
 &lt;p&gt;2024/05/25&lt;/p&gt;
 &lt;p&gt;這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast_hu9393759845681046119.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/no-contrast_hu3965038718496254217.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu9393759845681046119.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/no-contrast_hu3965038718496254217.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;no-contrast&#34;
@@ -361,10 +361,10 @@
 &gt;
 &lt;/p&gt;
 &lt;p&gt;改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為在調色盤裏的基礎顏色，本來就有不一樣的亮度和色彩對比。不過很難從這些各異的顏色出發，調出自己想要的顏色。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast_hu10024767425524988491.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/naive-contrast_hu18072672390916551944.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hu10024767425524988491.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast_hu18072672390916551944.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;naive-contrast&#34;
@@ -381,10 +381,10 @@
 &lt;p&gt;色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。&lt;/p&gt;
 &lt;p&gt;受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。&lt;/p&gt;
 &lt;p&gt;電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart.png&#34;
 	width=&#34;1790&#34;
 	height=&#34;1512&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu11844803995898879742.webp 480w, http://localhost:1313/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu4971358345405652783.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu11844803995898879742.webp 480w, https://evthron.github.io/zh/gallery/accurate-colour-wheel/value-intensity-chart_hu4971358345405652783.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;value-intensity-chart&#34;
@@ -401,15 +401,15 @@
         </item>
         <item>
         <title>蜥蜴人</title>
-        <link>http://localhost:1313/zh/gallery/the-lizard/</link>
+        <link>https://evthron.github.io/zh/gallery/the-lizard/</link>
         <pubDate>Thu, 11 Jan 2024 06:05:11 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/the-lizard/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post 蜥蜴人" /&gt;&lt;p&gt;本來只是想試試新製作的色板，但沒想到竟然可以畫得這麽好。第一次買這種盒子形狀的新時代扭蛋就被概率背叛了。雖然不想要這種古怪玩意當擺設，不過可能正正是不想要的東西畫起來才有趣。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/the-lizard/the-lizard.png&#34;
+        <guid>https://evthron.github.io/zh/gallery/the-lizard/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post 蜥蜴人" /&gt;&lt;p&gt;本來只是想試試新製作的色板，但沒想到竟然可以畫得這麽好。第一次買這種盒子形狀的新時代扭蛋就被概率背叛了。雖然不想要這種古怪玩意當擺設，不過可能正正是不想要的東西畫起來才有趣。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/the-lizard/the-lizard_hu15308341572879632947.webp 480w, http://localhost:1313/zh/gallery/the-lizard/the-lizard_hu13832857966876141034.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu15308341572879632947.webp 480w, https://evthron.github.io/zh/gallery/the-lizard/the-lizard_hu13832857966876141034.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;the-lizard&#34;
@@ -425,11 +425,11 @@
         </item>
         <item>
         <title>AI Generated Oil Painting</title>
-        <link>http://localhost:1313/zh/gallery/agi/</link>
+        <link>https://evthron.github.io/zh/gallery/agi/</link>
         <pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/agi/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;這可是拿過獎的！&lt;/p&gt;
+        <guid>https://evthron.github.io/zh/gallery/agi/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;這可是拿過獎的！&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Prompt: a highly detailed oil painting of a cat walking in foggy london street, steampunk, gears, steam engine, by leonardo da Vinci, trending in artstation&lt;/p&gt;
@@ -459,10 +459,10 @@
 &lt;p&gt;Model: v1-5-pruned-emaonly&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/agi/london-cat.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/agi/london-cat.png&#34;
 	width=&#34;768&#34;
 	height=&#34;512&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/agi/london-cat_hu14579941974853960861.webp 480w, http://localhost:1313/zh/gallery/agi/london-cat_hu12385580081715943234.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/agi/london-cat_hu14579941974853960861.webp 480w, https://evthron.github.io/zh/gallery/agi/london-cat_hu12385580081715943234.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;london-cat&#34;
@@ -478,14 +478,14 @@
         </item>
         <item>
         <title>什麽都畫得出來</title>
-        <link>http://localhost:1313/zh/gallery/complex-scenary/</link>
+        <link>https://evthron.github.io/zh/gallery/complex-scenary/</link>
         <pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/complex-scenary/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post 什麽都畫得出來" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh/gallery/complex-scenary/nightview.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/complex-scenary/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post 什麽都畫得出來" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg&#34;
 	width=&#34;2317&#34;
 	height=&#34;2649&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/complex-scenary/nightview_hu16875356834470962619.webp 480w, http://localhost:1313/zh/gallery/complex-scenary/nightview_hu14032357259916435379.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu16875356834470962619.webp 480w, https://evthron.github.io/zh/gallery/complex-scenary/nightview_hu14032357259916435379.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;complex-sketch&#34;
@@ -502,15 +502,15 @@
         </item>
         <item>
         <title>公園的座椅</title>
-        <link>http://localhost:1313/zh/gallery/park/</link>
+        <link>https://evthron.github.io/zh/gallery/park/</link>
         <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/park/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/park/bench.jpg" alt="Featured image of post 公園的座椅" /&gt;&lt;p&gt;取景框很有用，最好和畫紙一樣大。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/park/bench.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/park/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post 公園的座椅" /&gt;&lt;p&gt;取景框很有用，最好和畫紙一樣大。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/park/bench.jpg&#34;
 	width=&#34;1344&#34;
 	height=&#34;1581&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/park/bench_hu14258403961294113723.webp 480w, http://localhost:1313/zh/gallery/park/bench_hu939157243322423267.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/park/bench_hu14258403961294113723.webp 480w, https://evthron.github.io/zh/gallery/park/bench_hu939157243322423267.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;bench&#34;
@@ -526,15 +526,15 @@
         </item>
         <item>
         <title>架子工地和雲</title>
-        <link>http://localhost:1313/zh/gallery/shelf-site-sky/</link>
+        <link>https://evthron.github.io/zh/gallery/shelf-site-sky/</link>
         <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/gallery/shelf-site-sky/</guid>
-        <description>&lt;img src="http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。
-&lt;img src=&#34;http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
+        <guid>https://evthron.github.io/zh/gallery/shelf-site-sky/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post 架子工地和雲" /&gt;&lt;p&gt;看到什麽就畫什麽，真的就只是這樣。
+&lt;img src=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
 	width=&#34;512&#34;
 	height=&#34;657&#34;
-	srcset=&#34;http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky_hu13743017671089899463.webp 480w, http://localhost:1313/zh/gallery/shelf-site-sky/shelf-site-sky_hu11939192681020110605.webp 1024w&#34;
+	srcset=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hu13743017671089899463.webp 480w, https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky_hu11939192681020110605.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shelf-site-sky&#34;

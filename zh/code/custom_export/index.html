@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='https://github.com/marph91/joppy/blob/master/examples/custom_export.py
 Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) import argparse from pathlib import Path from joppy.api import Api def main(): args = parse_args() api = Api(token=args.api_token) # Tree 是 notebook tree，以 list 的形式儲存。 tree = create_hierarchy(api) create_files(api, tree, Path(args.output_folder)) Parent Graph 和 edge List 的區別 edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。
 '>
         <title>custom_export | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='http://localhost:1313/zh/code/custom_export/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/code/custom_export/'>
 
         
         
@@ -16,7 +16,7 @@ Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {
 <meta property='og:description' content='https://github.com/marph91/joppy/blob/master/examples/custom_export.py
 Example Tree mapping conversion tree = {&#34;servant&#34; : {&#34;saber&#34; : {&#34;excalibur&#34; : {}}, &#34;archer&#34; : {&#34;ubw&#34; : {&#34;Caladabolg&#34; : {}}}, &#34;lancer&#34; : {&#34;gae_bolg&#34; : {} }}} mapping = {&#34;saber&#34; : &#34;shirou&#34;, &#34;archer&#34; : &#34;rin&#34;, &#34;lancer&#34; : &#34;unknown&#34;, &#34;servant&#34; : &#34;holy_grail&#34;, &#34;excalibur&#34; : &#34;beam&#34;, &#34;ubw&#34; : &#34;sword&#34;, &#34;Caladabolg&#34; : &#34;Broken Phantasm&#34;, &#34;gae_bolg&#34; : &#34;lucky E&#34;} def get_new_tree(tree): new_tree = {} for servant, subtree in tree.items(): master = mapping[servant] new_tree[master] = get_new_tree(subtree) return new_tree print(get_new_tree(tree)) import argparse from pathlib import Path from joppy.api import Api def main(): args = parse_args() api = Api(token=args.api_token) # Tree 是 notebook tree，以 list 的形式儲存。 tree = create_hierarchy(api) create_files(api, tree, Path(args.output_folder)) Parent Graph 和 edge List 的區別 edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。
 '>
-<meta property='og:url' content='http://localhost:1313/zh/code/custom_export/'>
+<meta property='og:url' content='https://evthron.github.io/zh/code/custom_export/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-09-02T11:05:04&#43;08:00'/><meta property='article:modified_time' content='2024-09-02T11:05:04&#43;08:00'/>
 <meta name="twitter:title" content="custom_export">
