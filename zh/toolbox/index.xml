@@ -6,7 +6,24 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 27 Dec 2024 06:01:25 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Jan 2025 02:14:37 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>filetags 文件管理法</title>
+        <link>https://evthron.github.io/zh/toolbox/filetags/</link>
+        <pubDate>Sat, 18 Jan 2025 02:14:37 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/toolbox/filetags/</guid>
+        <description>&lt;p&gt;電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。&lt;/p&gt;
+&lt;p&gt;在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。&lt;/p&gt;
+&lt;p&gt;filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 &amp;ndash; 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document &amp;ndash; john books review.txt。&lt;/p&gt;
+&lt;p&gt;這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。&lt;/p&gt;
+&lt;p&gt;可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。&lt;/p&gt;
+&lt;p&gt;原作者的介紹：&lt;a class=&#34;link&#34; href=&#34;https://karl-voit.at/managing-digital-photographs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;karl-voit.at/managing-digital-photographs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;filetags python script：&lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github.com/novoid/filetags&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
@@ -299,7 +316,24 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;h2 id=&#34;阻擋blocktube&#34;&gt;阻擋：BlockTube&lt;/h2&gt;
 &lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
 還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。&lt;/p&gt;
-&lt;h2 id=&#34;預防unhook&#34;&gt;預防：Unhook&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 只留下時長在5到50分鐘之間的影片
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Block the video
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 要求影片至少要有 1000 觀看次數
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;viewCount&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// Custom conditions did not match, do not block
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;排除所有不是英文的影片標題&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-regex&#34; data-lang=&#34;regex&#34;&gt;/[^\x00-\x7F]+/
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;預防unhook&#34;&gt;預防：Unhook&lt;/h2&gt;
 &lt;p&gt;讓主頁和推薦影片欄都變得一片空白，然後好好管理自己訂閲的頻道。想看其他內容就只能自己搜尋了。&lt;/p&gt;
 &lt;h2 id=&#34;減少興致yt-dlp&#34;&gt;減少興致：yt-dlp&lt;/h2&gt;
 &lt;p&gt;這是一套組合招式。在看 Youtube 之前影片前先下載好，讓自己考慮一下才決定要不要看。至少不會輕易點進一個多小時的遊戲直播了。&lt;/p&gt;

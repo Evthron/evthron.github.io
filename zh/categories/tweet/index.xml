@@ -6,7 +6,17 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Tue, 07 Jan 2025 18:13:55 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Jan 2025 02:00:14 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>從 CLI 到 GUI</title>
+        <link>https://evthron.github.io/zh/tweet/from-cli-to-gui/</link>
+        <pubDate>Sat, 18 Jan 2025 02:00:14 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/from-cli-to-gui/</guid>
+        <description>&lt;p&gt;如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。&lt;/p&gt;
+&lt;p&gt;只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>彩票</title>
         <link>https://evthron.github.io/zh/tweet/lottery/</link>
         <pubDate>Tue, 07 Jan 2025 18:13:55 +0800</pubDate>
