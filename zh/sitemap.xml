@@ -247,27 +247,6 @@
     <loc>https://evthron.github.io/zh/code/coding-dude/</loc>
     <lastmod>2025-01-16T13:01:45+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/zh/skill/sprinter/</loc>
-    <lastmod>2025-01-18T03:51:58+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/skill/</loc>
-    <lastmod>2025-01-18T03:51:58+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/skill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/skill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/skill/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/tweet/lottery/</loc>
     <lastmod>2025-01-09T07:45:28+08:00</lastmod>
   </url><url>
@@ -727,6 +706,24 @@
                 href="https://evthron.github.io/zh/skill/introduction/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/zh/skill/</loc>
+    <lastmod>2025-01-18T03:51:58+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/skill/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/tweet/arch-linux-installation/</loc>
     <lastmod>2024-07-19T02:12:19+08:00</lastmod>
     <xhtml:link
@@ -1164,6 +1161,8 @@
   </url><url>
     <loc>https://evthron.github.io/zh/posts/overnight-revision/</loc>
     <lastmod>2023-05-16T20:41:00+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/zh/skill/sprinter/</loc>
   </url><url>
     <loc>https://evthron.github.io/zh/custom/</loc>
   </url><url>
