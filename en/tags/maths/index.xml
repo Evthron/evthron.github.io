@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>http://localhost:1313/en/tags/maths/</link>
+        <link>https://evthron.github.io/en/tags/maths/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 18 Jun 2024 01:10:39 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Jun 2024 01:10:39 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>origami</title>
-        <link>http://localhost:1313/en/tweet/origami/</link>
+        <link>https://evthron.github.io/en/tweet/origami/</link>
         <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
         
-        <guid>http://localhost:1313/en/tweet/origami/</guid>
+        <guid>https://evthron.github.io/en/tweet/origami/</guid>
         <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
 &lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because it can solve the unsolvable &amp;ldquo;trisect any angle&amp;rdquo; problem. When I was still holding the flier and walking, I started wondering what the basic mathematical operations of origami are. The first one could be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. When all they do is to cut things in half, is cutting things in third even possible? I went straight to the library to find the answer.&lt;/p&gt;
 &lt;p&gt;The answer is stupidly simple: Just fold the line in half two times and cut out the extra segment. It&amp;rsquo;s like Columbus&amp;rsquo;s egg, my stubborn mind can&amp;rsquo;t solve it.&lt;/p&gt;

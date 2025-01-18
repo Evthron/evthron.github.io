@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/tags/maths/</link>
+        <link>https://evthron.github.io/zh/tags/maths/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 18 Jan 2025 01:50:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Jan 2025 01:50:37 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>數學造輪子</title>
-        <link>http://localhost:1313/zh/posts/reinvent-the-wheel-in-maths/</link>
+        <link>https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/</link>
         <pubDate>Sat, 18 Jan 2025 01:50:37 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/reinvent-the-wheel-in-maths/</guid>
+        <guid>https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/</guid>
         <description>&lt;p&gt;中學的時候，數學課教到因式分解，也就是把像 x^2 + 3x + 2 分解成 (x+1)(x+2) 的時候，我聽説過可以用計算器程式快速算出答案。那時候我剛學會一點計算器編程的方法，想着：去網上抄別人的寫好的程序沒有意思，我能不能自己解決這個問題呢？&lt;/p&gt;
 &lt;p&gt;我先數學角度開始着手，Ax^2 + Bx + C 到底是按照什麼算法變成 (Dx+E)(Fx+G) 的形式的呢？我用一些很基礎的運算把未知數搬來搬去。我當時沒學會配方法，無論怎麼做都只是徒勞無功。就算現在學會了，我也不知道要怎麼樣用配方法推導一元二次方程的公式。&lt;/p&gt;
 &lt;p&gt;數學不好，我還可以編程嘛。既然會問到的因式分解的答案必定是整數，那我逐個答案測試不就可以了嗎？我便試着寫了個像質數篩一樣的程序。但計算器編程很受限制，能用的變數只有7個，也不能迴圈套迴圈，我最後也沒成功。&lt;/p&gt;
@@ -20,10 +20,10 @@
         </item>
         <item>
         <title>彩票</title>
-        <link>http://localhost:1313/zh/tweet/lottery/</link>
+        <link>https://evthron.github.io/zh/tweet/lottery/</link>
         <pubDate>Tue, 07 Jan 2025 18:13:55 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/lottery/</guid>
+        <guid>https://evthron.github.io/zh/tweet/lottery/</guid>
         <description>&lt;p&gt;「49個數字選6個」，規則雖然很簡單但要把概率算出來還真不是這麼容易。要算中頭獎的概率很簡單，只是1/49C6 = 1/13983816 而已。概率這麼低，就算頭獎獎金能退高期望值也沒有意義。現實一點，如果6個數字可以中3個的話，就能把買票錢賺回來，這個概率是多少呢？&lt;/p&gt;
 &lt;p&gt;簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。
 全部不中的可能性 = (43/49)*7 = 0.4
@@ -38,10 +38,10 @@
         </item>
         <item>
         <title>中位數公式</title>
-        <link>http://localhost:1313/zh/posts/median/</link>
+        <link>https://evthron.github.io/zh/posts/median/</link>
         <pubDate>Thu, 12 Sep 2024 03:35:28 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/median/</guid>
+        <guid>https://evthron.github.io/zh/posts/median/</guid>
         <description>&lt;p&gt;我為什麼要莫名其妙地研究什麼「&lt;a class=&#34;link&#34; href=&#34;../cardinal-ordinal&#34; &gt;量數和序數&lt;/a&gt;」呢？這是因為我搞不懂中位數的公式。統計學課本上都寫着，是 (n+1)/2，n 是數字的總數。公式很簡單，但卻很難理解。為什麼要先加一再除以二？你可能會説，管它那麼多幹嘛，套公式就完了。但是，二分查找法&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;也要用到中位數，但公式變成了 (n - 1)/2，這似乎和編程語言從零開始編號的做法有關。兩者的差異使我如鯁在喉，這個問題又不需要特殊的數學知識，為了以後寫二分查找法的時候不會出錯，我接下了這個挑戰。&lt;/p&gt;
 &lt;p&gt;歸根究底是這個問題：為什麼五个蘋果平分是 2.5 個，但五根手指的中間是第三根呢？這就是量數和序數的不同。想象你在一排路燈旁邊散步。路燈從一到五編好了號。從一號路燈走到五號路燈需要四步，用數式表示是這樣的：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;一號 + 四步 = 五號
@@ -88,10 +88,10 @@
         </item>
         <item>
         <title>音階 </title>
-        <link>http://localhost:1313/zh/posts/scale/</link>
+        <link>https://evthron.github.io/zh/posts/scale/</link>
         <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/scale/</guid>
+        <guid>https://evthron.github.io/zh/posts/scale/</guid>
         <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
 &lt;p&gt;第一個問題是，音樂裏面有幾個音？這個容易回答。隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。在這兩個音之間分割十二份，就有十二個不一樣的音。十二個音太多了，不好編旋律，所以作曲家會挑出當中一部分的音使用，這一部分的音就是音階。&lt;/p&gt;
 &lt;p&gt;旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。&lt;/p&gt;
@@ -167,10 +167,10 @@ Altered:    1212222
         </item>
         <item>
         <title>折紙 </title>
-        <link>http://localhost:1313/zh/tweet/origami/</link>
+        <link>https://evthron.github.io/zh/tweet/origami/</link>
         <pubDate>Tue, 04 Jun 2024 21:14:54 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/origami/</guid>
+        <guid>https://evthron.github.io/zh/tweet/origami/</guid>
         <description>&lt;p&gt;我在街上接到傳單的時候，總覺得如果要馬上扔到附近的垃圾筒裏面，那倒不如一開始就不要拿。那廢紙有什麼用呢？拿來折紙也是門手藝。記得小學的數學老師教過怎麼用紙拼出多面體，那比折什麼紙飛機有意思多了。&lt;/p&gt;
 &lt;p&gt;從數學的角度看，折紙就和尺規作圖很像。我聽説過折紙連尺規三大不可能問題之一的三等分角都能做到。尺規的基本操作是畫直線和圓，那折紙的基本操作是什麼呢？我拿起手上的傳單試了一下，想必一個是把邊對摺作出垂直平分線，另一個是沿着對角對折作出對角線，都是把東西分成兩半的操作。在尺規作圖上把線三等分不難，那麼折紙有可能把線三等分呢？連三等分都做不到，真的有可能三等分角嗎？&lt;/p&gt;
 &lt;p&gt;我在一本折紙書上找到了答案，有種上當受騙的感覺：只要折成四等份，然後把多出來的一份剪掉就可以。就和哥倫布立蛋一樣，只要用力把雞蛋往桌面一敲就可以了。為什麼腦子總是在這種地方轉不過彎來呢？&lt;/p&gt;

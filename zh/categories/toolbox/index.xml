@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/categories/toolbox/</link>
+        <link>https://evthron.github.io/zh/categories/toolbox/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 18 Jan 2025 02:14:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Jan 2025 02:14:37 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>filetags 文件管理法</title>
-        <link>http://localhost:1313/zh/toolbox/filetags/</link>
+        <link>https://evthron.github.io/zh/toolbox/filetags/</link>
         <pubDate>Sat, 18 Jan 2025 02:14:37 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/filetags/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/filetags/</guid>
         <description>&lt;p&gt;電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。&lt;/p&gt;
 &lt;p&gt;在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。&lt;/p&gt;
 &lt;p&gt;filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 &amp;ndash; 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document &amp;ndash; john books review.txt。&lt;/p&gt;
@@ -25,10 +25,10 @@
         </item>
         <item>
         <title>文章發佈流程</title>
-        <link>http://localhost:1313/zh/toolbox/upload-workflow/</link>
+        <link>https://evthron.github.io/zh/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/upload-workflow/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
 &lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo（網站鏈接）&lt;/a&gt; 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。&lt;/p&gt;
@@ -223,10 +223,10 @@
         </item>
         <item>
         <title>定製 Taskwarrior</title>
-        <link>http://localhost:1313/zh/toolbox/taskwarrior-hooks/</link>
+        <link>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</link>
         <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/taskwarrior-hooks/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Taskwarrior&lt;/a&gt; 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。&lt;/p&gt;
 &lt;p&gt;第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 &lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Tasklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -278,10 +278,10 @@ ID | Active | Age | Description | Time | Value | Worth  |
         </item>
         <item>
         <title>如何告別互聯網</title>
-        <link>http://localhost:1313/zh/toolbox/say-goodbye-to-internet/</link>
+        <link>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/say-goodbye-to-internet/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;p&gt;以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？&lt;/p&gt;
 &lt;p&gt;不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。&lt;/p&gt;
 &lt;p&gt;第一，依賴決心。決心這玩意只在自己有決心的時候有用，沒有決心的時候就連廢紙都不如了，怎麼會有這麼不方便的東西？對付互聯網這麼吸引人的玩意，怎麼能靠自己一戳即破的決心？對抗誘惑，外界的束縛是最有用的。但是外界的束縛又讓人討厭，讓人有反抗的心思，而天底下沒有毫無破綻的束縛，一定會有漏洞，只要束縛一破，陋習就會變本加厲。所以，要點在於讓自己設下別人執行規則。&lt;/p&gt;
@@ -403,10 +403,10 @@ super-user-command=sudo
         </item>
         <item>
         <title>重設鍵盤佈局</title>
-        <link>http://localhost:1313/zh/toolbox/remap-keyboard/</link>
+        <link>https://evthron.github.io/zh/toolbox/remap-keyboard/</link>
         <pubDate>Thu, 21 Dec 2023 22:44:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/remap-keyboard/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;現在的鍵盤佈局完全沒有考慮過人體工學：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。&lt;/li&gt;
