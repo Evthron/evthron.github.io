@@ -2,559 +2,559 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://evthron.github.io/tok/categories/</loc>
+    <loc>http://localhost:1313/tok/categories/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/"
+                href="http://localhost:1313/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/"
+                href="http://localhost:1313/tok/categories/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/categories/posts/</loc>
+    <loc>http://localhost:1313/tok/categories/posts/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
+                href="http://localhost:1313/zh/categories/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
+                href="http://localhost:1313/en/categories/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
+                href="http://localhost:1313/tok/categories/posts/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/posts/</loc>
+    <loc>http://localhost:1313/tok/posts/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
+                href="http://localhost:1313/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/posts/"
+                href="http://localhost:1313/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
+                href="http://localhost:1313/tok/posts/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/posts/toki-pona-introduction/</loc>
+    <loc>http://localhost:1313/tok/posts/toki-pona-introduction/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/haircut/</loc>
+    <loc>http://localhost:1313/tok/tweet/haircut/</loc>
     <lastmod>2024-10-02T02:20:42+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/haircut/"
+                href="http://localhost:1313/zh/tweet/haircut/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/haircut/"
+                href="http://localhost:1313/en/tweet/haircut/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/haircut/"
+                href="http://localhost:1313/tok/tweet/haircut/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/categories/tweet/</loc>
+    <loc>http://localhost:1313/tok/categories/tweet/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/tweet/"
+                href="http://localhost:1313/zh/categories/tweet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/tweet/"
+                href="http://localhost:1313/en/categories/tweet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/tweet/"
+                href="http://localhost:1313/tok/categories/tweet/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/</loc>
+    <loc>http://localhost:1313/tok/tweet/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/"
+                href="http://localhost:1313/zh/tweet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/"
+                href="http://localhost:1313/en/tweet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/"
+                href="http://localhost:1313/tok/tweet/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/categories/gallery/</loc>
+    <loc>http://localhost:1313/tok/categories/gallery/</loc>
     <lastmod>2024-06-26T02:39:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/gallery/"
+                href="http://localhost:1313/zh/categories/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/gallery/"
+                href="http://localhost:1313/en/categories/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/gallery/"
+                href="http://localhost:1313/tok/categories/gallery/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/gallery/</loc>
+    <loc>http://localhost:1313/tok/gallery/</loc>
     <lastmod>2024-06-26T02:39:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/gallery/"
+                href="http://localhost:1313/zh/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/gallery/"
+                href="http://localhost:1313/en/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/gallery/"
+                href="http://localhost:1313/tok/gallery/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/gallery/flower-pot/</loc>
+    <loc>http://localhost:1313/tok/gallery/flower-pot/</loc>
     <lastmod>2024-06-26T02:39:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/gallery/flower-pot/"
+                href="http://localhost:1313/zh/gallery/flower-pot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/gallery/flower-pot/"
+                href="http://localhost:1313/en/gallery/flower-pot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/gallery/flower-pot/"
+                href="http://localhost:1313/tok/gallery/flower-pot/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/arch-linux-installation/</loc>
+    <loc>http://localhost:1313/tok/tweet/arch-linux-installation/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/arch-linux-installation/"
+                href="http://localhost:1313/zh/tweet/arch-linux-installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/arch-linux-installation/"
+                href="http://localhost:1313/en/tweet/arch-linux-installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/arch-linux-installation/"
+                href="http://localhost:1313/tok/tweet/arch-linux-installation/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/grumble/</loc>
+    <loc>http://localhost:1313/tok/tags/grumble/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tags/grumble/"
+                href="http://localhost:1313/zh/tags/grumble/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tags/grumble/"
+                href="http://localhost:1313/en/tags/grumble/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tags/grumble/"
+                href="http://localhost:1313/tok/tags/grumble/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/easier-publish/</loc>
+    <loc>http://localhost:1313/tok/tweet/easier-publish/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/easier-publish/"
+                href="http://localhost:1313/zh/tweet/easier-publish/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/easier-publish/"
+                href="http://localhost:1313/en/tweet/easier-publish/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/easier-publish/"
+                href="http://localhost:1313/tok/tweet/easier-publish/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/software/</loc>
+    <loc>http://localhost:1313/tok/tags/software/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tags/software/"
+                href="http://localhost:1313/zh/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tags/software/"
+                href="http://localhost:1313/en/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tags/software/"
+                href="http://localhost:1313/tok/tags/software/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/</loc>
+    <loc>http://localhost:1313/tok/tags/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
+                href="http://localhost:1313/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
+                href="http://localhost:1313/tok/tags/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/better-search-engine/</loc>
+    <loc>http://localhost:1313/tok/tweet/better-search-engine/</loc>
     <lastmod>2024-07-29T04:39:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/better-search-engine/"
+                href="http://localhost:1313/zh/tweet/better-search-engine/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/better-search-engine/"
+                href="http://localhost:1313/en/tweet/better-search-engine/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/better-search-engine/"
+                href="http://localhost:1313/tok/tweet/better-search-engine/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/internet/</loc>
+    <loc>http://localhost:1313/tok/tags/internet/</loc>
     <lastmod>2024-07-29T04:39:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tags/internet/"
+                href="http://localhost:1313/zh/tags/internet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tags/internet/"
+                href="http://localhost:1313/en/tags/internet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tags/internet/"
+                href="http://localhost:1313/tok/tags/internet/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/productivity-tools/</loc>
+    <loc>http://localhost:1313/tok/tweet/productivity-tools/</loc>
     <lastmod>2025-01-05T11:13:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/productivity-tools/"
+                href="http://localhost:1313/zh/tweet/productivity-tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/productivity-tools/"
+                href="http://localhost:1313/en/tweet/productivity-tools/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/productivity-tools/"
+                href="http://localhost:1313/tok/tweet/productivity-tools/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/joplin-vim-mode/</loc>
+    <loc>http://localhost:1313/tok/tweet/joplin-vim-mode/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/joplin-vim-mode/"
+                href="http://localhost:1313/zh/tweet/joplin-vim-mode/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/joplin-vim-mode/"
+                href="http://localhost:1313/en/tweet/joplin-vim-mode/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/joplin-vim-mode/"
+                href="http://localhost:1313/tok/tweet/joplin-vim-mode/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/search-count/</loc>
+    <loc>http://localhost:1313/tok/tweet/search-count/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/search-count/"
+                href="http://localhost:1313/zh/tweet/search-count/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/search-count/"
+                href="http://localhost:1313/en/tweet/search-count/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/search-count/"
+                href="http://localhost:1313/tok/tweet/search-count/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/delusions/</loc>
+    <loc>http://localhost:1313/tok/tweet/delusions/</loc>
     <lastmod>2024-06-26T02:39:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/delusions/"
+                href="http://localhost:1313/zh/tweet/delusions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/delusions/"
+                href="http://localhost:1313/en/tweet/delusions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/delusions/"
+                href="http://localhost:1313/tok/tweet/delusions/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/progress/</loc>
+    <loc>http://localhost:1313/tok/tweet/progress/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/progress/"
+                href="http://localhost:1313/zh/tweet/progress/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/progress/"
+                href="http://localhost:1313/en/tweet/progress/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/progress/"
+                href="http://localhost:1313/tok/tweet/progress/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/winter/</loc>
+    <loc>http://localhost:1313/tok/tweet/winter/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/winter/"
+                href="http://localhost:1313/zh/tweet/winter/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tweet/winter/"
+                href="http://localhost:1313/en/tweet/winter/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/winter/"
+                href="http://localhost:1313/tok/tweet/winter/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/</loc>
+    <loc>http://localhost:1313/tok/</loc>
     <lastmod>2025-01-18T01:36:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/"
+                href="http://localhost:1313/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/"
+                href="http://localhost:1313/tok/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/categories/artwork/</loc>
+    <loc>http://localhost:1313/tok/categories/artwork/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/artwork/"
+                href="http://localhost:1313/zh/categories/artwork/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/artwork/"
+                href="http://localhost:1313/en/categories/artwork/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/artwork/"
+                href="http://localhost:1313/tok/categories/artwork/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/skill/</loc>
+    <loc>http://localhost:1313/tok/skill/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/skill/"
+                href="http://localhost:1313/zh/skill/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/skill/"
+                href="http://localhost:1313/en/skill/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/skill/"
+                href="http://localhost:1313/tok/skill/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/languages/</loc>
+    <loc>http://localhost:1313/tok/languages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/languages/"
+                href="http://localhost:1313/zh/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/languages/"
+                href="http://localhost:1313/en/languages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/languages/"
+                href="http://localhost:1313/tok/languages/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/timeline/</loc>
+    <loc>http://localhost:1313/tok/timeline/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/timeline/"
+                href="http://localhost:1313/zh/timeline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/timeline/"
+                href="http://localhost:1313/en/timeline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/timeline/"
+                href="http://localhost:1313/tok/timeline/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/search/</loc>
+    <loc>http://localhost:1313/tok/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/search/"
+                href="http://localhost:1313/zh/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/search/"
+                href="http://localhost:1313/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/search/"
+                href="http://localhost:1313/tok/search/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/sandbox/</loc>
+    <loc>http://localhost:1313/tok/sandbox/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/sandbox/"
+                href="http://localhost:1313/zh/sandbox/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/sandbox/"
+                href="http://localhost:1313/en/sandbox/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/sandbox/"
+                href="http://localhost:1313/tok/sandbox/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/page/</loc>
+    <loc>http://localhost:1313/tok/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/page/"
+                href="http://localhost:1313/zh/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/page/"
+                href="http://localhost:1313/en/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/page/"
+                href="http://localhost:1313/tok/page/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/sandbox/sitelen-pona/</loc>
+    <loc>http://localhost:1313/tok/sandbox/sitelen-pona/</loc>
   </url><url>
-    <loc>https://evthron.github.io/tok/categories/toolbox/</loc>
+    <loc>http://localhost:1313/tok/categories/toolbox/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/categories/toolbox/"
+                href="http://localhost:1313/zh/categories/toolbox/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/categories/toolbox/"
+                href="http://localhost:1313/en/categories/toolbox/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/categories/toolbox/"
+                href="http://localhost:1313/tok/categories/toolbox/"
                 />
   </url>
 </urlset>

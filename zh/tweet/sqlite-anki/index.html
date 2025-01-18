@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Anki 用的是 SQLite。實戰是好事吧？
 很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。
@@ -13,7 +13,7 @@ Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一�
 '>
         <title>Anki SQLite | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/sqlite-anki/'>
+        <link rel='canonical' href='http://localhost:1313/zh/tweet/sqlite-anki/'>
 
         
         
@@ -28,7 +28,7 @@ python tutorial https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
 Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。 https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/ https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
 界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。 https://marcjenkins.co.uk/bookshelf/
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/sqlite-anki/'>
+<meta property='og:url' content='http://localhost:1313/zh/tweet/sqlite-anki/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2025-01-06T14:00:46&#43;08:00'/><meta property='article:modified_time' content='2025-01-08T11:56:45&#43;08:00'/>
 <meta name="twitter:title" content="Anki SQLite">

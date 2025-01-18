@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>https://evthron.github.io/zh/tags/music/</link>
+        <link>http://localhost:1313/zh/tags/music/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 18 Jan 2025 01:59:10 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Jan 2025 01:59:10 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/music/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>演奏的樂趣</title>
-        <link>https://evthron.github.io/zh/posts/joy-of-music/</link>
+        <link>http://localhost:1313/zh/posts/joy-of-music/</link>
         <pubDate>Sat, 18 Jan 2025 01:59:10 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/joy-of-music/</guid>
+        <guid>http://localhost:1313/zh/posts/joy-of-music/</guid>
         <description>&lt;p&gt;音樂只是由各種的音程組成的，和音的絕對音高無關。知道了這個之後，我就能記住各種音程的聲音，把自己熟悉的音樂在鋼琴上彈出來。無論聽起來多麼豐富的音樂，都是由千篇一律的音程組成的，但各種音高和節奏組合起來之後，卻完全不會讓人感到重複，真的很有趣。&lt;/p&gt;
 &lt;p&gt;我以前還試着練習記音高，鍛鍊絕對音感呢，這種概念真是誤導人。絕對音感大概只能幫樂器調音吧。&lt;/p&gt;
 &lt;p&gt;我真正的水平，只能像初級鋼琴教本一樣，為右手的旋律配上單音的左手伴奏而已。那本書的作者説得不錯，我一直以來只是把鋼琴當做一種打字機來擊打而已。&lt;/p&gt;
@@ -19,10 +19,10 @@
         </item>
         <item>
         <title>音階 </title>
-        <link>https://evthron.github.io/zh/posts/scale/</link>
+        <link>http://localhost:1313/zh/posts/scale/</link>
         <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
         
-        <guid>https://evthron.github.io/zh/posts/scale/</guid>
+        <guid>http://localhost:1313/zh/posts/scale/</guid>
         <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
 &lt;p&gt;第一個問題是，音樂裏面有幾個音？這個容易回答。隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。在這兩個音之間分割十二份，就有十二個不一樣的音。十二個音太多了，不好編旋律，所以作曲家會挑出當中一部分的音使用，這一部分的音就是音階。&lt;/p&gt;
 &lt;p&gt;旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。&lt;/p&gt;

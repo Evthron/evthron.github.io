@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>https://evthron.github.io/en/tags/coding/</link>
+        <link>http://localhost:1313/en/tags/coding/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 27 Dec 2024 07:38:36 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 27 Dec 2024 07:38:36 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Upload workflow</title>
-        <link>https://evthron.github.io/en/toolbox/upload-workflow/</link>
+        <link>http://localhost:1313/en/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/toolbox/upload-workflow/</guid>
+        <guid>http://localhost:1313/en/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
 &lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo (official site)&lt;/a&gt; to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.&lt;/p&gt;

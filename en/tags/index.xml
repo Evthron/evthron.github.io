@@ -2,96 +2,96 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog en</title>
-        <link>https://evthron.github.io/en/tags/</link>
+        <link>http://localhost:1313/en/tags/</link>
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sat, 28 Dec 2024 05:02:20 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Dec 2024 05:02:20 +0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Relationship</title>
-        <link>https://evthron.github.io/en/tags/relationship/</link>
+        <link>http://localhost:1313/en/tags/relationship/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:20 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/relationship/</guid>
+        <guid>http://localhost:1313/en/tags/relationship/</guid>
         <description></description>
         </item>
         <item>
         <title>Coding</title>
-        <link>https://evthron.github.io/en/tags/coding/</link>
+        <link>http://localhost:1313/en/tags/coding/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/coding/</guid>
+        <guid>http://localhost:1313/en/tags/coding/</guid>
         <description></description>
         </item>
         <item>
         <title>Stories</title>
-        <link>https://evthron.github.io/en/tags/stories/</link>
+        <link>http://localhost:1313/en/tags/stories/</link>
         <pubDate>Wed, 20 Nov 2024 04:18:13 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/stories/</guid>
+        <guid>http://localhost:1313/en/tags/stories/</guid>
         <description></description>
         </item>
         <item>
         <title>Grumble</title>
-        <link>https://evthron.github.io/en/tags/grumble/</link>
+        <link>http://localhost:1313/en/tags/grumble/</link>
         <pubDate>Wed, 02 Oct 2024 14:30:46 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/grumble/</guid>
+        <guid>http://localhost:1313/en/tags/grumble/</guid>
         <description></description>
         </item>
         <item>
         <title>Software</title>
-        <link>https://evthron.github.io/en/tags/software/</link>
+        <link>http://localhost:1313/en/tags/software/</link>
         <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/software/</guid>
+        <guid>http://localhost:1313/en/tags/software/</guid>
         <description></description>
         </item>
         <item>
         <title>Web</title>
-        <link>https://evthron.github.io/en/tags/web/</link>
+        <link>http://localhost:1313/en/tags/web/</link>
         <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/web/</guid>
+        <guid>http://localhost:1313/en/tags/web/</guid>
         <description></description>
         </item>
         <item>
         <title>Maths</title>
-        <link>https://evthron.github.io/en/tags/maths/</link>
+        <link>http://localhost:1313/en/tags/maths/</link>
         <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/maths/</guid>
+        <guid>http://localhost:1313/en/tags/maths/</guid>
         <description></description>
         </item>
         <item>
         <title>Internet</title>
-        <link>https://evthron.github.io/en/tags/internet/</link>
+        <link>http://localhost:1313/en/tags/internet/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/internet/</guid>
+        <guid>http://localhost:1313/en/tags/internet/</guid>
         <description></description>
         </item>
         <item>
         <title>Art</title>
-        <link>https://evthron.github.io/en/tags/art/</link>
+        <link>http://localhost:1313/en/tags/art/</link>
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/art/</guid>
+        <guid>http://localhost:1313/en/tags/art/</guid>
         <description></description>
         </item>
         <item>
         <title>Science</title>
-        <link>https://evthron.github.io/en/tags/science/</link>
+        <link>http://localhost:1313/en/tags/science/</link>
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/science/</guid>
+        <guid>http://localhost:1313/en/tags/science/</guid>
         <description></description>
         </item>
         <item>
         <title>Sketch</title>
-        <link>https://evthron.github.io/en/tags/sketch/</link>
+        <link>http://localhost:1313/en/tags/sketch/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
-        <guid>https://evthron.github.io/en/tags/sketch/</guid>
+        <guid>http://localhost:1313/en/tags/sketch/</guid>
         <description></description>
         </item>
         
