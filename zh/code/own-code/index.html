@@ -2,8 +2,11 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Count the number of function in python file import ast with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as fin: tree = ast.parse(fin.read()) function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree)) python_function_count &#43;= function_count Generate front matter Generate front matter for all my markdown files
-import os from time import localtime, strftime def generate(title, date, description = &#39;&#39;, lastmod = &#39;&#39;, image = &#39;&#39;, categories = &#39;&#39;, tags = &#39;&#39;, slug = &#39;&#39;, layout = &#39;&#39;) -&gt; str: if lastmod == &#39;&#39;: lastmod = strftime(&#34;%Y-%m-%dT%H:%M:%S&#43;08:00&#34;, localtime()) front_matter = &#39;---\n&#39; front_matter &#43;= &#39;title: &#34;&#39; &#43; title &#43; &#39;&#34;\n&#39; front_matter &#43;= &#39;description: &#39; &#43; description &#43; &#39;\n&#39; front_matter &#43;= &#39;date: &#39; &#43; date &#43; &#39;\n&#39; front_matter &#43;= &#39;lastmod: &#39; &#43; lastmod &#43; &#39;\n&#39; front_matter &#43;= &#39;image: &#39; &#43; image &#43; &#39;\n&#39; front_matter &#43;= &#39;categories: &#39; &#43; categories &#43; &#39;\n&#39; front_matter &#43;= &#39;tags: &#39; &#43; tags &#43; &#39;\n&#39; front_matter &#43;= &#39;math: \nlicense: \nhidden: false\ncomments: true\n&#39; if slug: front_matter &#43;= &#39;slug: &#34;&#39; &#43; slug &#43; &#39;&#34;\n&#39; if layout: front_matter &#43;= &#39;layout: &#34;&#39; &#43; layout &#43; &#39;&#34;\n&#39; front_matter &#43;= &#39;---\n&#39; os.walk() excludes folders and files that are not needed.
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Book card CSS specificity of nested selectors cause me trouble
+From template
+.article-page .main-article .article-content img (0, 3, 1) Wins What I want to do
+.book-card-cover (0, 1, 0) loses use !important although bad code
+Count the number of function in python file import ast with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as fin: tree = ast.parse(fin.read()) function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree)) python_function_count &#43;= function_count Generate front matter Generate front matter for all my markdown files
 '>
         <title>own-code | Evthron&#39;s blog</title>
         
@@ -12,16 +15,22 @@ import os from time import localtime, strftime def generate(title, date, descrip
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.2a6c400dad0926b954bad0584e64935f24a2c349a55af33249c1673df9496fc7.css"><meta property='og:title' content='own-code'>
-<meta property='og:description' content='Count the number of function in python file import ast with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as fin: tree = ast.parse(fin.read()) function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree)) python_function_count &#43;= function_count Generate front matter Generate front matter for all my markdown files
-import os from time import localtime, strftime def generate(title, date, description = &#39;&#39;, lastmod = &#39;&#39;, image = &#39;&#39;, categories = &#39;&#39;, tags = &#39;&#39;, slug = &#39;&#39;, layout = &#39;&#39;) -&gt; str: if lastmod == &#39;&#39;: lastmod = strftime(&#34;%Y-%m-%dT%H:%M:%S&#43;08:00&#34;, localtime()) front_matter = &#39;---\n&#39; front_matter &#43;= &#39;title: &#34;&#39; &#43; title &#43; &#39;&#34;\n&#39; front_matter &#43;= &#39;description: &#39; &#43; description &#43; &#39;\n&#39; front_matter &#43;= &#39;date: &#39; &#43; date &#43; &#39;\n&#39; front_matter &#43;= &#39;lastmod: &#39; &#43; lastmod &#43; &#39;\n&#39; front_matter &#43;= &#39;image: &#39; &#43; image &#43; &#39;\n&#39; front_matter &#43;= &#39;categories: &#39; &#43; categories &#43; &#39;\n&#39; front_matter &#43;= &#39;tags: &#39; &#43; tags &#43; &#39;\n&#39; front_matter &#43;= &#39;math: \nlicense: \nhidden: false\ncomments: true\n&#39; if slug: front_matter &#43;= &#39;slug: &#34;&#39; &#43; slug &#43; &#39;&#34;\n&#39; if layout: front_matter &#43;= &#39;layout: &#34;&#39; &#43; layout &#43; &#39;&#34;\n&#39; front_matter &#43;= &#39;---\n&#39; os.walk() excludes folders and files that are not needed.
+        <link rel="stylesheet" href="/scss/style.min.b11623d69dca20a85bf58eebb8bd91a5cca60f3145988ebd9e5809b1e2026029.css"><meta property='og:title' content='own-code'>
+<meta property='og:description' content='Book card CSS specificity of nested selectors cause me trouble
+From template
+.article-page .main-article .article-content img (0, 3, 1) Wins What I want to do
+.book-card-cover (0, 1, 0) loses use !important although bad code
+Count the number of function in python file import ast with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as fin: tree = ast.parse(fin.read()) function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree)) python_function_count &#43;= function_count Generate front matter Generate front matter for all my markdown files
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/own-code/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-01-06T04:19:07&#43;08:00'/><meta property='article:modified_time' content='2025-01-06T04:19:07&#43;08:00'/>
 <meta name="twitter:title" content="own-code">
-<meta name="twitter:description" content="Count the number of function in python file import ast with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as fin: tree = ast.parse(fin.read()) function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree)) python_function_count &#43;= function_count Generate front matter Generate front matter for all my markdown files
-import os from time import localtime, strftime def generate(title, date, description = &#39;&#39;, lastmod = &#39;&#39;, image = &#39;&#39;, categories = &#39;&#39;, tags = &#39;&#39;, slug = &#39;&#39;, layout = &#39;&#39;) -&gt; str: if lastmod == &#39;&#39;: lastmod = strftime(&#34;%Y-%m-%dT%H:%M:%S&#43;08:00&#34;, localtime()) front_matter = &#39;---\n&#39; front_matter &#43;= &#39;title: &#34;&#39; &#43; title &#43; &#39;&#34;\n&#39; front_matter &#43;= &#39;description: &#39; &#43; description &#43; &#39;\n&#39; front_matter &#43;= &#39;date: &#39; &#43; date &#43; &#39;\n&#39; front_matter &#43;= &#39;lastmod: &#39; &#43; lastmod &#43; &#39;\n&#39; front_matter &#43;= &#39;image: &#39; &#43; image &#43; &#39;\n&#39; front_matter &#43;= &#39;categories: &#39; &#43; categories &#43; &#39;\n&#39; front_matter &#43;= &#39;tags: &#39; &#43; tags &#43; &#39;\n&#39; front_matter &#43;= &#39;math: \nlicense: \nhidden: false\ncomments: true\n&#39; if slug: front_matter &#43;= &#39;slug: &#34;&#39; &#43; slug &#43; &#39;&#34;\n&#39; if layout: front_matter &#43;= &#39;layout: &#34;&#39; &#43; layout &#43; &#39;&#34;\n&#39; front_matter &#43;= &#39;---\n&#39; os.walk() excludes folders and files that are not needed.
+<meta name="twitter:description" content="Book card CSS specificity of nested selectors cause me trouble
+From template
+.article-page .main-article .article-content img (0, 3, 1) Wins What I want to do
+.book-card-cover (0, 1, 0) loses use !important although bad code
+Count the number of function in python file import ast with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as fin: tree = ast.parse(fin.read()) function_count = sum(isinstance(node, ast.FunctionDef) for node in ast.walk(tree)) python_function_count &#43;= function_count Generate front matter Generate front matter for all my markdown files
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -336,7 +345,26 @@ import os from time import localtime, strftime def generate(title, date, descrip
     <section class="article-content">
         
         
-        <h3 id="count-the-number-of-function-in-python-file">Count the number of function in python file</h3>
+        <h3 id="book-card">Book card</h3>
+<p>CSS specificity of nested selectors cause me trouble</p>
+<ul>
+<li>
+<p>From template</p>
+<ul>
+<li>.article-page .main-article .article-content img</li>
+<li>(0, 3, 1) Wins</li>
+</ul>
+</li>
+<li>
+<p>What I want to do</p>
+<ul>
+<li>.book-card-cover</li>
+<li>(0, 1, 0) loses</li>
+</ul>
+</li>
+</ul>
+<p>use <code>!important</code> although bad code</p>
+<h3 id="count-the-number-of-function-in-python-file">Count the number of function in python file</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> ast
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(file_path, <span style="color:#e6db74">&#39;r&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> fin:
 </span></span><span style="display:flex;"><span>    tree <span style="color:#f92672">=</span> ast<span style="color:#f92672">.</span>parse(fin<span style="color:#f92672">.</span>read())
