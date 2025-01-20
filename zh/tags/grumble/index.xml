@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/tags/grumble/</link>
+        <link>https://evthron.github.io/zh/tags/grumble/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 18 Jan 2025 14:12:56 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Jan 2025 14:12:56 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>恐懼</title>
-        <link>http://localhost:1313/zh/tweet/fear/</link>
+        <link>https://evthron.github.io/zh/tweet/fear/</link>
         <pubDate>Sat, 18 Jan 2025 14:12:56 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/fear/</guid>
+        <guid>https://evthron.github.io/zh/tweet/fear/</guid>
         <description>&lt;p&gt;胸口附近的脈搏亂了，搏動從胸口之外的地方傳來，有種連心跳的節奏也亂了的錯覺。呼吸變得急促。眼睛呆呆地睜着，盯着空無一物的地方。慢慢放鬆下來的時候又會因為太平靜而不安，冷不丁地倒吸一口氣。抑制不住想要逃走的衝動，卻沒有真正的危險，只能在原地踱步。即使這樣不安還是不斷累積，食道和喉嚨裏傳來想吐的感覺，但又不是真的會吐，只能跑到廁所裏猛烈地咳嗽。&lt;/p&gt;
 &lt;p&gt;沒問題的，只是看看成績而已，不會死的，我這樣對自己説。&lt;/p&gt;
 &lt;hr&gt;
@@ -22,10 +22,10 @@
         </item>
         <item>
         <title>和朋友保持聯絡</title>
-        <link>http://localhost:1313/zh/posts/contact-friends/</link>
+        <link>https://evthron.github.io/zh/posts/contact-friends/</link>
         <pubDate>Wed, 25 Dec 2024 07:36:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/contact-friends/</guid>
+        <guid>https://evthron.github.io/zh/posts/contact-friends/</guid>
         <description>&lt;p&gt;「保持聯絡」絕不是客套話，友誼是從見面的第一天起就開始玩的乒乓球，你來我往，不能停下來。但我空有這種觀念，還是當不成一個好朋友，因為只要離開了自己的視線，我就幾乎不會去關心別人過得怎麼樣。大部分人關心的事，我不是覺得害怕，就是覺得沒意義。&lt;/p&gt;
 &lt;h2 id=&#34;志同道合&#34;&gt;志同道合&lt;/h2&gt;
 &lt;p&gt;每個人都關心考試成績和將來的出路，但我總是避免思考這些問題。我學習只是順着自己淺薄的好奇心，沒有興趣鑽研複雜的題目；複習也只是害怕考試不及格，對分數沒有什麼追求。我害怕討論考試，和工作有關的事更是我的死穴，每次有人和我聊到這些話題，我就會小心翼翼地架起防禦，生怕別人發現我只是個不知道自己想要什麼的人。&lt;/p&gt;
@@ -46,10 +46,10 @@
         </item>
         <item>
         <title>docker 連不上網的解決辦法和折騰的悲哀</title>
-        <link>http://localhost:1313/zh/posts/docker-panic/</link>
+        <link>https://evthron.github.io/zh/posts/docker-panic/</link>
         <pubDate>Thu, 17 Oct 2024 19:37:47 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/posts/docker-panic/</guid>
+        <guid>https://evthron.github.io/zh/posts/docker-panic/</guid>
         <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
 &lt;p&gt;學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。&lt;/p&gt;
 &lt;p&gt;作業裏要連接外部網站的是一個 PHP 程式，是不是程式出錯了？老師給的程序應該不會錯，我對 PHP 又是一竅不通，隨便找了個網站的例子改了改程式碼，沒用。&lt;/p&gt;
@@ -115,19 +115,19 @@ sudo reboot
         </item>
         <item>
         <title>理髮</title>
-        <link>http://localhost:1313/zh/tweet/haircut/</link>
+        <link>https://evthron.github.io/zh/tweet/haircut/</link>
         <pubDate>Wed, 18 Sep 2024 23:57:07 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/haircut/</guid>
+        <guid>https://evthron.github.io/zh/tweet/haircut/</guid>
         <description>&lt;p&gt;我被理髮師抱怨，説我的需求不清楚，真不幸。以前還不是一直都含糊其詞，剪出來的都差不多啊。唉，至少我現在會説理髮師聽得懂的話了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>黏在旁邊的選單</title>
-        <link>http://localhost:1313/zh/tweet/sticky-menu/</link>
+        <link>https://evthron.github.io/zh/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/sticky-menu/</guid>
+        <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
@@ -135,10 +135,10 @@ sudo reboot
         </item>
         <item>
         <title>改進發佈流程</title>
-        <link>http://localhost:1313/zh/tweet/easier-publish/</link>
+        <link>https://evthron.github.io/zh/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:13:23 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/easier-publish/</guid>
+        <guid>https://evthron.github.io/zh/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:13&lt;/p&gt;
 &lt;p&gt;搗鼓了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;joppy&lt;/a&gt;（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。&lt;/p&gt;
@@ -154,10 +154,10 @@ sudo reboot
         </item>
         <item>
         <title>幻想</title>
-        <link>http://localhost:1313/zh/tweet/delusions/</link>
+        <link>https://evthron.github.io/zh/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/delusions/</guid>
+        <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
 &lt;p&gt;2024/04/01 00:30
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
@@ -165,10 +165,10 @@ sudo reboot
         </item>
         <item>
         <title>冷天</title>
-        <link>http://localhost:1313/zh/tweet/winter/</link>
+        <link>https://evthron.github.io/zh/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/winter/</guid>
+        <guid>https://evthron.github.io/zh/tweet/winter/</guid>
         <description>&lt;p&gt;真的好冷啊。上星期還是熱得和夏天一樣，還以為能過個暖和的冬天。&lt;/p&gt;
 </description>
         </item>

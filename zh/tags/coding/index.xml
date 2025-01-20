@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog zh</title>
-        <link>http://localhost:1313/zh/tags/coding/</link>
+        <link>https://evthron.github.io/zh/tags/coding/</link>
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 18 Jan 2025 02:00:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 18 Jan 2025 02:00:14 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>從 CLI 到 GUI</title>
-        <link>http://localhost:1313/zh/tweet/from-cli-to-gui/</link>
+        <link>https://evthron.github.io/zh/tweet/from-cli-to-gui/</link>
         <pubDate>Sat, 18 Jan 2025 02:00:14 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/from-cli-to-gui/</guid>
+        <guid>https://evthron.github.io/zh/tweet/from-cli-to-gui/</guid>
         <description>&lt;p&gt;如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。&lt;/p&gt;
 &lt;p&gt;只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Anki SQLite</title>
-        <link>http://localhost:1313/zh/tweet/sqlite-anki/</link>
+        <link>https://evthron.github.io/zh/tweet/sqlite-anki/</link>
         <pubDate>Mon, 06 Jan 2025 14:00:46 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/tweet/sqlite-anki/</guid>
+        <guid>https://evthron.github.io/zh/tweet/sqlite-anki/</guid>
         <description>&lt;p&gt;Anki 用的是 SQLite。實戰是好事吧？&lt;/p&gt;
 &lt;p&gt;很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。&lt;/p&gt;
 &lt;p&gt;順利完成了。
@@ -49,10 +49,10 @@
         </item>
         <item>
         <title>文章發佈流程</title>
-        <link>http://localhost:1313/zh/toolbox/upload-workflow/</link>
+        <link>https://evthron.github.io/zh/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/upload-workflow/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
 &lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo（網站鏈接）&lt;/a&gt; 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。&lt;/p&gt;
@@ -247,10 +247,10 @@
         </item>
         <item>
         <title>定製 Taskwarrior</title>
-        <link>http://localhost:1313/zh/toolbox/taskwarrior-hooks/</link>
+        <link>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</link>
         <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
         
-        <guid>http://localhost:1313/zh/toolbox/taskwarrior-hooks/</guid>
+        <guid>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Taskwarrior&lt;/a&gt; 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。&lt;/p&gt;
 &lt;p&gt;第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 &lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Tasklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
