@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='https://openlibrary.org/dev/docs/api/covers
 async function fetchImage(url) { const img = new Image(); return new Promise((res, rej) =&gt; { img.onload = () =&gt; res(img); img.onerror = e =&gt; rej(e); img.src = url; }); } const img = await fetchImage(&#39;https://covers.openlibrary.org/b/id/12547191-L.jpg&#39;); const w = img.width; const h = img.height; '>
         <title>open-library-api | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/code/open-library-api/'>
+        <link rel='canonical' href='http://localhost:1313/zh/code/open-library-api/'>
 
         
         
@@ -14,7 +14,7 @@ async function fetchImage(url) { const img = new Image(); return new Promise((re
         <link rel="stylesheet" href="/scss/style.min.56390557344e82b55cbb204faefca575b3e230892977efe247a7c062edcff845.css"><meta property='og:title' content='open-library-api'>
 <meta property='og:description' content='https://openlibrary.org/dev/docs/api/covers
 async function fetchImage(url) { const img = new Image(); return new Promise((res, rej) =&gt; { img.onload = () =&gt; res(img); img.onerror = e =&gt; rej(e); img.src = url; }); } const img = await fetchImage(&#39;https://covers.openlibrary.org/b/id/12547191-L.jpg&#39;); const w = img.width; const h = img.height; '>
-<meta property='og:url' content='https://evthron.github.io/zh/code/open-library-api/'>
+<meta property='og:url' content='http://localhost:1313/zh/code/open-library-api/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-01-18T23:15:55&#43;08:00'/><meta property='article:modified_time' content='2025-01-18T23:15:55&#43;08:00'/>
 <meta name="twitter:title" content="open-library-api">

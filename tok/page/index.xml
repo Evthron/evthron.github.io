@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Evthron&#39;s blog tok</title>
-        <link>https://evthron.github.io/tok/page/</link>
+        <link>http://localhost:1313/tok/page/</link>
         <description>Recent content on Evthron&#39;s blog tok</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>tok</language><atom:link href="https://evthron.github.io/tok/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>tok</language><atom:link href="http://localhost:1313/tok/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>lukin jo</title>
-        <link>https://evthron.github.io/tok/search/</link>
+        <link>http://localhost:1313/tok/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://evthron.github.io/tok/search/</guid>
+        <guid>http://localhost:1313/tok/search/</guid>
         <description></description>
         </item>
         
