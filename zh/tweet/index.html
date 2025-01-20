@@ -347,6 +347,7 @@
     
         
         <div class="article-content">
+            
             <p>胸口附近的脈搏亂了，搏動從胸口之外的地方傳來，有種連心跳的節奏也亂了的錯覺。呼吸變得急促。眼睛呆呆地睜着，盯着空無一物的地方。慢慢放鬆下來的時候又會因為太平靜而不安，冷不丁地倒吸一口氣。抑制不住想要逃走的衝動，卻沒有真正的危險，只能在原地踱步。即使這樣不安還是不斷累積，食道和喉嚨裏傳來想吐的感覺，但又不是真的會吐，只能跑到廁所裏猛烈地咳嗽。</p>
 <p>沒問題的，只是看看成績而已，不會死的，我這樣對自己説。</p>
 <hr>
@@ -399,6 +400,7 @@
     
         
         <div class="article-content">
+            
             <p>如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。</p>
 <p>只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。</p>
 
@@ -447,6 +449,7 @@
     
         
         <div class="article-content">
+            
             <p>「49個數字選6個」，規則雖然很簡單但要把概率算出來還真不是這麼容易。要算中頭獎的概率很簡單，只是1/49C6 = 1/13983816 而已。概率這麼低，就算頭獎獎金能退高期望值也沒有意義。現實一點，如果6個數字可以中3個的話，就能把買票錢賺回來，這個概率是多少呢？</p>
 <p>簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。
 全部不中的可能性 = (43/49)*7 = 0.4
@@ -503,6 +506,7 @@
     
         
         <div class="article-content">
+            
             <p>Anki 用的是 SQLite。實戰是好事吧？</p>
 <p>很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。</p>
 <p>順利完成了。
@@ -513,7 +517,20 @@
 <a class="link" href="https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/"  target="_blank" rel="noopener"
     >https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/</a></p>
 <p>python tutorial
-<a class="link" href="https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial"  target="_blank" rel="noopener" …</p>
+<a class="link" href="https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial"  target="_blank" rel="noopener"
+    >https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial</a></p>
+<p>這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？
+<a class="link" href="https://kylerego.github.io/anki-schema#the-notes-table"  target="_blank" rel="noopener"
+    >https://kylerego.github.io/anki-schema#the-notes-table</a></p>
+<p>Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。
+<a class="link" href="https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/"  target="_blank" rel="noopener"
+    >https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/</a>
+<a class="link" href="https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/"  target="_blank" rel="noopener"
+    >https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/</a></p>
+<p>界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。
+<a class="link" href="https://marcjenkins.co.uk/bookshelf/"  target="_blank" rel="noopener"
+    >https://marcjenkins.co.uk/bookshelf/</a></p>
+
         </div>
     </div>
 
@@ -559,6 +576,7 @@
     
         
         <div class="article-content">
+            
             <h2 id="habitica">Habitica</h2>
 <ul>
 <li>習慣、每日任務、待辦清單的三分法很好。</li>
@@ -646,6 +664,7 @@
             </footer>
         
         <div class="article-content">
+            
             <p>2024/03/30 21:13</p>
 <p>搗鼓了 <a class="link" href="https://github.com/marph91/joppy"  target="_blank" rel="noopener"
     >joppy</a>（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。</p>
@@ -724,6 +743,7 @@
             </footer>
         
         <div class="article-content">
+            
             <p>不工作跑去研究工具是沒有好下場的。不過 Super Productivity 和 ActivityWatch 用起來都不錯。要怎樣運用徹底監控電腦使用時間得到的數據，才能把生活變成數值管理遊戲？不過總之先記錄，其他問題以後再想。</p>
 <hr>
 <p>我想破頭之後總算明白了，我手上的時間管理工具在功課上派不上用場。</p>
@@ -745,7 +765,10 @@
 <li>能製作記憶卡，混入任務隊列</li>
 <li>時間追蹤，提醒自己不要在同一個任務上花太多時間。</li>
 </ul>
-<p>雖然把一大堆工具合併起來用就能滿足上面 …</p>
+<p>雖然把一大堆工具合併起來用就能滿足上面的所有要求，但如果還是要奢望有一個萬能的合體機器人的話，就只會走上 emacs 的不歸路。怎麼辦，好像很吸引人……</p>
+<hr>
+<p>又不小心研究了一會 emacs，因為 orgdown 的語法好像比 markdown 好。練習快捷鍵除了輸入的時候比較爽快沒有什麼意義。我很滿意 vim。過早的優化是萬惡之源。有些人連盲打都不會呢，照樣能寫出好的程序。</p>
+
         </div>
     </div>
 
@@ -810,6 +833,7 @@
             </footer>
         
         <div class="article-content">
+            
             <p>我總算按照我想要的樣子，把網站的編排調整一遍了！畫廊能把圖片排成方格、Tweet 能直接展示文章內容、能把自我介紹搬到主頁，把原本的主頁搬到新開的另一頁。主頁就要像目錄一樣，而不是一長串像新聞一樣的時間線。我現在更熟悉 hugo 編排頁面的原理了。當然，HTML 和 CSS 的知識也增長了不少。真的很高興。不過，現在卻不知道接下來該做什麼了。</p>
 <hr>
 <p>現在重新看一次代碼，我完全不知道自己是怎麼做到的。完全不像是我自己寫的啊…… 應該是從原本的代碼裏找到適合的部分，複製黏貼再重組的吧。</p>
@@ -884,6 +908,7 @@
             </footer>
         
         <div class="article-content">
+            
             <p>請教其他人是很困難的事。自己在時間充足的時候沒有尋求協助，貪圖眼前的安逸，把問題放着不管，直到無可奈何的時候才醒覺自己沒有辦法解決問題，拉下臉找人幫忙。比起面對這種羞愧的感覺，還不如自暴自棄。</p>
 <p>深入思考一下，為什麼尋求幫助是這麼困難的事呢？是缺乏信任嗎？既然沒有網絡搜尋解決不了的問題，普通的發問又有什麼意義呢？比起承認自己的無知，直接在網上找答案不是更輕鬆嗎？仰賴互聯網解決問題，就喪失了在解決小問題的時候培養信任的機會。不過我也不知道在不能上網的時候，人們是怎麼交流的。説不定還是一樣。</p>
 <p>在自己準備充足的時候請求幫助沒什麼大不了，只是提出對方有能力處理的請求，得到預想之中的答案而已。這些請求並不是內心真正的擔憂，即使被拒絕了也無關緊要。既然請求的時候沒有相信對方，就算對方真心地提供了協助，也沒辦法培養信任。</p>
@@ -936,6 +961,7 @@
     
         
         <div class="article-content">
+            
             <p>畫畫用的鉛筆要削得又長又尖，一般的削筆機是做不到的，只能用美工刀削。我削鉛筆的時削出來的碳粉跑進了玻璃桌上的刮痕，看起來很髒。</p>
 <p>在所有顏料裏，石墨的污漬似乎是最難處理的。大部分顏料的構造都是色素溶在溶劑裏，所以只要用適合的溶劑就能洗掉。但石墨的結構註定了它不會溶化，雖然很容易脱落，但總是會黏在某個地方，也永遠不會變質。</p>
 <p>雖然石墨不溶於水，但我還是用紙巾沾了點水才開始擦桌子。水把紙弄軟之後，才能深入縫隙。而且粉末卡在刮痕裏的時候，不能光在表面大範圍地擦拭，而是要用指甲頂着紙巾，和刮痕成垂直方向來回打轉，把碳粉帶出來，才能擦得乾淨。</p>
