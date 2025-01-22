@@ -6,7 +6,17 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sat, 18 Jan 2025 14:12:56 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 23 Jan 2025 00:39:43 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>練習 C&#43;&#43;</title>
+        <link>https://evthron.github.io/zh/tweet/cpp-practice/</link>
+        <pubDate>Thu, 23 Jan 2025 00:39:43 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/cpp-practice/</guid>
+        <description>&lt;p&gt;不妙，沒有寫 C++ 的機會。幾乎全部都在寫 Python。應該寫什麼工具當練習呢？&lt;/p&gt;
+&lt;p&gt;沒先學 C 反而更好嗎……&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>恐懼</title>
         <link>https://evthron.github.io/zh/tweet/fear/</link>
         <pubDate>Sat, 18 Jan 2025 14:12:56 +0800</pubDate>
