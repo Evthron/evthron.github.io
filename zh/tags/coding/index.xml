@@ -14,6 +14,11 @@
         <guid>https://evthron.github.io/zh/tweet/from-cli-to-gui/</guid>
         <description>&lt;p&gt;如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。&lt;/p&gt;
 &lt;p&gt;只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C++，Python 本身是做不到的。
+&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;how to make gui in python without tools (stackoverflow)&lt;/a&gt;
+用網站做 UI 最簡單……&lt;/p&gt;
 </description>
         </item>
         <item>
