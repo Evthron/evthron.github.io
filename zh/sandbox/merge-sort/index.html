@@ -2,7 +2,7 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=''>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=' let articleContent = document.querySelector(&quot;.article-content&quot;) // Create sorting elements let size = 10 for (let i = 0; i &lt; size; i = i &#43; 1){ let sortItem = document.createElement(&quot;div&quot;) sortItem.classList.add(&quot;sortItem&quot;) sortItem.style = &quot;display: inline-block; border: solid black 2px; padding: 1rem&quot; sortItem.innerHTML = Math.floor(Math.random() * 20) articleContent.prepend(sortItem) // add the element at the top of the div } let sortItems = Array.from(document.querySelectorAll(&quot;.sortItem&quot;)) function combine(array1, array2){ let pivot = 0 let sortedArray = [] // check whether pivot index is in the array // when the pivot index increased larger than while( (pivot in left) || (pivot in right) ) if (pivot in left &amp;&amp; pivot in right){ if (left[pivot] &lt;= right[pivot]){ sortedArray.push(left[pivot]) sortedArray.push(right[pivot]) } else{ sortedArray.push(right[pivot]) sortedArray.push(left[pivot]) } } else if (pivot in left){ sortedArray.push(left[pivot]) } else if (pivot in right){ sortedArray.push(right[pivot]) } pivot &#43;= 1 return sortedArray } function mergesort(array){ console.log(array) if (array.length == 1 || array.length == 0){ return array } left = array.slice(0, Math.floor(sortItems.length / 2)) right = array.slice(Math.floor(sortItems.length / 2)) console.log(&quot;left&quot;) console.log(left) console.log(&quot;right&quot;) console.log(right) mergesort(left) mergesort(right) return combine(left, right) } mergesort(sortItems) '>
         <title>merge-sort | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/zh/sandbox/merge-sort/'>
@@ -11,12 +11,12 @@
         
         
         <link rel="stylesheet" href="/scss/style.min.08c72bed88511f416f3ce30f1deb50ce278a39d48049230c2b4d02281381b8c6.css"><meta property='og:title' content='merge-sort'>
-<meta property='og:description' content=''>
+<meta property='og:description' content=' let articleContent = document.querySelector(&quot;.article-content&quot;) // Create sorting elements let size = 10 for (let i = 0; i &lt; size; i = i &#43; 1){ let sortItem = document.createElement(&quot;div&quot;) sortItem.classList.add(&quot;sortItem&quot;) sortItem.style = &quot;display: inline-block; border: solid black 2px; padding: 1rem&quot; sortItem.innerHTML = Math.floor(Math.random() * 20) articleContent.prepend(sortItem) // add the element at the top of the div } let sortItems = Array.from(document.querySelectorAll(&quot;.sortItem&quot;)) function combine(array1, array2){ let pivot = 0 let sortedArray = [] // check whether pivot index is in the array // when the pivot index increased larger than while( (pivot in left) || (pivot in right) ) if (pivot in left &amp;&amp; pivot in right){ if (left[pivot] &lt;= right[pivot]){ sortedArray.push(left[pivot]) sortedArray.push(right[pivot]) } else{ sortedArray.push(right[pivot]) sortedArray.push(left[pivot]) } } else if (pivot in left){ sortedArray.push(left[pivot]) } else if (pivot in right){ sortedArray.push(right[pivot]) } pivot &#43;= 1 return sortedArray } function mergesort(array){ console.log(array) if (array.length == 1 || array.length == 0){ return array } left = array.slice(0, Math.floor(sortItems.length / 2)) right = array.slice(Math.floor(sortItems.length / 2)) console.log(&quot;left&quot;) console.log(left) console.log(&quot;right&quot;) console.log(right) mergesort(left) mergesort(right) return combine(left, right) } mergesort(sortItems) '>
 <meta property='og:url' content='https://evthron.github.io/zh/sandbox/merge-sort/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Sandbox' />
 <meta name="twitter:title" content="merge-sort">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content=" let articleContent = document.querySelector(&quot;.article-content&quot;) // Create sorting elements let size = 10 for (let i = 0; i &lt; size; i = i &#43; 1){ let sortItem = document.createElement(&quot;div&quot;) sortItem.classList.add(&quot;sortItem&quot;) sortItem.style = &quot;display: inline-block; border: solid black 2px; padding: 1rem&quot; sortItem.innerHTML = Math.floor(Math.random() * 20) articleContent.prepend(sortItem) // add the element at the top of the div } let sortItems = Array.from(document.querySelectorAll(&quot;.sortItem&quot;)) function combine(array1, array2){ let pivot = 0 let sortedArray = [] // check whether pivot index is in the array // when the pivot index increased larger than while( (pivot in left) || (pivot in right) ) if (pivot in left &amp;&amp; pivot in right){ if (left[pivot] &lt;= right[pivot]){ sortedArray.push(left[pivot]) sortedArray.push(right[pivot]) } else{ sortedArray.push(right[pivot]) sortedArray.push(left[pivot]) } } else if (pivot in left){ sortedArray.push(left[pivot]) } else if (pivot in right){ sortedArray.push(right[pivot]) } pivot &#43;= 1 return sortedArray } function mergesort(array){ console.log(array) if (array.length == 1 || array.length == 0){ return array } left = array.slice(0, Math.floor(sortItems.length / 2)) right = array.slice(Math.floor(sortItems.length / 2)) console.log(&quot;left&quot;) console.log(left) console.log(&quot;right&quot;) console.log(right) mergesort(left) mergesort(right) return combine(left, right) } mergesort(sortItems) ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -312,45 +312,112 @@
         
         
         
-
 <script>
-    let articleContent = document.querySelector(".article-content")
-    for (let i = 0; i <= 10; i = i + 1){
-        let sortItem = document.createElement("div")
-        sortItem.classList.add("sortItem")
-        sortItem.style = "display: inline-block; border: solid black 2px; padding: 1rem"
-        sortItem.innerHTML = Math.floor(Math.random() * 20)
-        articleContent.prepend(sortItem)
-    }
-    let sortItems = Array.from(document.querySelectorAll(".sortItem"))
-    function combine(array1, array2){
+let articleContent = document.querySelector(".article-content");
+// Create sorting elements
+let size = 10;
+for (let i = 0; i < size; i++) {
+    let sortItem = document.createElement("div");
+    sortItem.classList.add("sortItem");
+    sortItem.style.cssText = "display: inline-block; border: solid black 2px; padding: 1rem";
+    sortItem.innerHTML = Math.floor(Math.random() * 20);
+    articleContent.prepend(sortItem);
+    // add the element at the top of the div
+}
 
-    }
-    function mergesort(array){
-        console.log(array)
-        if (array.length == 1){
-            return array
+let sortItems = Array.from(document.querySelectorAll(".sortItem"));
+
+function combine(left, right) {
+    let sortedArray = [];
+    let leftIndex = 0;
+    let rightIndex = 0;
+
+    while (leftIndex < left.length && rightIndex < right.length) {
+        if (left[leftIndex].innerHTML <= right[rightIndex].innerHTML) {
+            sortedArray.push(left[leftIndex]);
+            leftIndex++;
+        } else {
+            sortedArray.push(right[rightIndex]);
+            rightIndex++;
         }
-        left = array.slice(0, Math.floor(sortItems.length / 2))
-        right = array.slice(Math.floor(sortItems.length / 2))
-        console.log(left)
-        console.log(right)
-        mergesort(left)
-        mergesort(right)
-        let pivot = 0
-        let sortedArray = []
-        while( !(pivot in left) || !(pivot in right) )
-            if (pivot in left && pivot in right){
-
-
-            }
-            if (pivot in ){
-
-            }
     }
-    mergesort(sortItems)
+
+    return sortedArray.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
+}
+
+function mergeSort(array) {
+    if (array.length <= 1) {
+        return array;
+    }
+
+    const mid = Math.floor(array.length / 2);
+    const left = array.slice(0, mid);
+    const right = array.slice(mid);
+
+    return combine(mergeSort(left), mergeSort(right));
+}
+
+const sortedItems = mergeSort(sortItems);
+
+// Display the sorted div elements
+sortedItems.forEach(item => articleContent.appendChild(item));
 </script>
 
+<pre><code>let articleContent = document.querySelector(&quot;.article-content&quot;)
+// Create sorting elements
+let size = 10
+for (let i = 0; i &lt; size; i = i + 1){
+    let sortItem = document.createElement(&quot;div&quot;)
+    sortItem.classList.add(&quot;sortItem&quot;)
+    sortItem.style = &quot;display: inline-block; border: solid black 2px; padding: 1rem&quot;
+    sortItem.innerHTML = Math.floor(Math.random() * 20)
+    articleContent.prepend(sortItem)
+    // add the element at the top of the div
+}
+let sortItems = Array.from(document.querySelectorAll(&quot;.sortItem&quot;))
+
+function combine(array1, array2){
+    let pivot = 0
+    let sortedArray = []
+    // check whether pivot index is in the array
+    // when the pivot index increased larger than
+    while( (pivot in left) || (pivot in right) )
+        if (pivot in left &amp;&amp; pivot in right){
+            if (left[pivot] &lt;= right[pivot]){
+                sortedArray.push(left[pivot])
+                sortedArray.push(right[pivot])
+            }
+            else{
+                sortedArray.push(right[pivot])
+                sortedArray.push(left[pivot])
+            } 
+        }
+        else if (pivot in left){
+            sortedArray.push(left[pivot])
+        }
+        else if (pivot in right){
+            sortedArray.push(right[pivot])
+        }
+    pivot += 1
+    return sortedArray
+}
+function mergesort(array){
+    console.log(array)
+    if (array.length == 1 || array.length == 0){
+        return array
+    }
+    left = array.slice(0, Math.floor(sortItems.length / 2))
+    right = array.slice(Math.floor(sortItems.length / 2))
+    console.log(&quot;left&quot;)
+    console.log(left)
+    console.log(&quot;right&quot;)
+    console.log(right)
+    mergesort(left)
+    mergesort(right)
+    return combine(left, right)
+}
+mergesort(sortItems)
+</code></pre>
 
     </section>
 
