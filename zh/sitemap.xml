@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2025-02-07T14:30:17+08:00</lastmod>
+    <lastmod>2025-02-07T14:59:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,6 +19,45 @@
                 hreflang="zh"
                 href="https://evthron.github.io/zh/categories/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/zh/categories/gallery/</loc>
+    <lastmod>2025-02-07T14:59:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/</loc>
+    <lastmod>2025-02-07T14:59:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/gallery/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/gallery/new-year-holiday/</loc>
+    <lastmod>2025-02-07T14:59:19+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/tags/coding/</loc>
     <lastmod>2025-01-23T01:01:33+08:00</lastmod>
@@ -333,24 +372,6 @@
     <loc>https://evthron.github.io/zh/tweet/gamification/</loc>
     <lastmod>2025-01-06T14:01:07+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/zh/categories/gallery/</loc>
-    <lastmod>2025-01-03T12:53:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/gallery/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/gallery/watermelon/</loc>
     <lastmod>2025-01-03T12:53:04+08:00</lastmod>
     <xhtml:link
@@ -362,24 +383,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/gallery/watermelon/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/gallery/</loc>
-    <lastmod>2025-01-03T12:53:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/gallery/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/gallery/minibus/</loc>
@@ -1010,7 +1013,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/</loc>
-    <lastmod>2024-01-29T04:13:29+08:00</lastmod>
+    <lastmod>2025-01-18T02:08:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
