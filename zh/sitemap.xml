@@ -20,6 +20,19 @@
                 href="https://evthron.github.io/zh/categories/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/zh/tags/relationship/</loc>
+    <lastmod>2025-02-14T13:43:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/relationship/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/relationship/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/tags/software/</loc>
     <lastmod>2025-02-14T13:43:52+08:00</lastmod>
     <xhtml:link
@@ -511,19 +524,6 @@
   </url><url>
     <loc>https://evthron.github.io/zh/categories/sandbox/</loc>
     <lastmod>2024-12-31T18:42:07+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/tags/relationship/</loc>
-    <lastmod>2024-12-29T00:15:21+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/relationship/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/relationship/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/hard-to-ask-for-help/</loc>
     <lastmod>2024-12-29T00:15:21+08:00</lastmod>
