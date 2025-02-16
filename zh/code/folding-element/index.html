@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='https://github.com/CaiJimmy/hugo-theme-stack
+能摺疊的目錄 Javascript /** * Slide up/down * Code from https://dev.to/bmsvieira/vanilla-js-slidedown-up-4dkn * @param target * @param duration */ let slideUp = (target: HTMLElement, duration = 500) =&gt; { // 過渡時間是 2 秒 duration = 2000 // 在過渡的時候，為 target 多加一個 transiting element，表示正在過渡 target.classList.add(&#39;transiting&#39;); /// TransitionProperty 設定哪些元素有過渡動畫 //target.style.transitionProperty = &#39;height, margin, padding&#39;; target.style.transitionProperty = &#39;height&#39;; target.style.transitionDuration = duration &#43; &#39;ms&#39;; // 把數值變成 0，有過渡動畫 target.style.height = &#34;0&#34;; target.style.paddingTop = &#34;0&#34;; target.style.paddingBottom = &#34;0&#34;; target.style.marginTop = &#34;0&#34;; target.style.marginBottom = &#34;0&#34;; // 額外調整？ target.style.boxSizing = &#39;border-box&#39;; target.style.height = target.offsetHeight &#43; &#39;px&#39;; target.offsetHeight; target.style.overflow = &#39;hidden&#39;; // 完成過渡之後就去除特性 window.setTimeout(() =&gt; { target.classList.remove(&#39;show&#39;) target.style.removeProperty(&#39;height&#39;); target.style.removeProperty(&#39;padding-top&#39;); target.style.removeProperty(&#39;padding-bottom&#39;); target.style.removeProperty(&#39;margin-top&#39;); target.style.removeProperty(&#39;margin-bottom&#39;); target.style.removeProperty(&#39;overflow&#39;); target.style.removeProperty(&#39;transition-duration&#39;); target.style.removeProperty(&#39;transition-property&#39;); target.classList.remove(&#39;transiting&#39;); }, duration); } let slideDown = (target: HTMLElement, duration = 500) =&gt; { target.classList.add(&#39;transiting&#39;); target.style.removeProperty(&#39;display&#39;); target.classList.add(&#39;show&#39;); let height = target.offsetHeight; target.style.overflow = &#39;hidden&#39;; target.style.height = &#34;0&#34;; target.style.paddingTop = &#34;0&#34;; target.style.paddingBottom = &#34;0&#34;; target.style.marginTop = &#34;0&#34;; target.style.marginBottom = &#34;0&#34;; target.offsetHeight; ///target.style.boxSizing = &#39;border-box&#39;; target.style.transitionProperty = &#34;height, margin, padding&#34;; target.style.transitionDuration = duration &#43; &#39;ms&#39;; target.style.height = height &#43; &#39;px&#39;; target.style.removeProperty(&#39;padding-top&#39;); target.style.removeProperty(&#39;padding-bottom&#39;); target.style.removeProperty(&#39;margin-top&#39;); target.style.removeProperty(&#39;margin-bottom&#39;); window.setTimeout(() =&gt; { target.style.removeProperty(&#39;height&#39;); target.style.removeProperty(&#39;overflow&#39;); target.style.removeProperty(&#39;transition-duration&#39;); target.style.removeProperty(&#39;transition-property&#39;); target.classList.remove(&#39;transiting&#39;); }, duration); } let slideToggle = (target: HTMLElement, duration = 500) =&gt; { if (window.getComputedStyle(target).display === &#39;none&#39;) { return slideDown(target, duration); } else { return slideUp(target, duration); } } export default function () { const toggleMenu = document.getElementById(&#39;toggle-menu&#39;); if (toggleMenu) { // () =&gt; {} 的意思是沒有 parameter，回傳 toggleMenu.addEventListener(&#39;click&#39;, () =&gt; { if (document.getElementById(&#39;main-menu&#39;).classList.contains(&#39;transiting&#39;)) return; document.body.classList.toggle(&#39;show-menu&#39;); slideToggle(document.getElementById(&#39;main-menu&#39;), 300); toggleMenu.classList.toggle(&#39;is-active&#39;); }); } } 摺疊動畫 target = document.querySelector(&#39;.target&#39;) /// TransitionProperty 設定哪些 Property 有過渡動畫 target.style.transtionProperty = &#39;height, width, padding&#39; // 過渡時間 target.style.transitionDuration = &#39;1000ms&#39; // 摺起來 target.style.height = &#34;0&#34; 在改變值之前必須先有一個值，如果沒有設置好初始值，第一次的數值會突然出現，不會有動畫。
+'>
+        <title>摺疊元素 | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/code/folding-element/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.08c72bed88511f416f3ce30f1deb50ce278a39d48049230c2b4d02281381b8c6.css"><meta property='og:title' content='摺疊元素'>
+<meta property='og:description' content='https://github.com/CaiJimmy/hugo-theme-stack
+能摺疊的目錄 Javascript /** * Slide up/down * Code from https://dev.to/bmsvieira/vanilla-js-slidedown-up-4dkn * @param target * @param duration */ let slideUp = (target: HTMLElement, duration = 500) =&gt; { // 過渡時間是 2 秒 duration = 2000 // 在過渡的時候，為 target 多加一個 transiting element，表示正在過渡 target.classList.add(&#39;transiting&#39;); /// TransitionProperty 設定哪些元素有過渡動畫 //target.style.transitionProperty = &#39;height, margin, padding&#39;; target.style.transitionProperty = &#39;height&#39;; target.style.transitionDuration = duration &#43; &#39;ms&#39;; // 把數值變成 0，有過渡動畫 target.style.height = &#34;0&#34;; target.style.paddingTop = &#34;0&#34;; target.style.paddingBottom = &#34;0&#34;; target.style.marginTop = &#34;0&#34;; target.style.marginBottom = &#34;0&#34;; // 額外調整？ target.style.boxSizing = &#39;border-box&#39;; target.style.height = target.offsetHeight &#43; &#39;px&#39;; target.offsetHeight; target.style.overflow = &#39;hidden&#39;; // 完成過渡之後就去除特性 window.setTimeout(() =&gt; { target.classList.remove(&#39;show&#39;) target.style.removeProperty(&#39;height&#39;); target.style.removeProperty(&#39;padding-top&#39;); target.style.removeProperty(&#39;padding-bottom&#39;); target.style.removeProperty(&#39;margin-top&#39;); target.style.removeProperty(&#39;margin-bottom&#39;); target.style.removeProperty(&#39;overflow&#39;); target.style.removeProperty(&#39;transition-duration&#39;); target.style.removeProperty(&#39;transition-property&#39;); target.classList.remove(&#39;transiting&#39;); }, duration); } let slideDown = (target: HTMLElement, duration = 500) =&gt; { target.classList.add(&#39;transiting&#39;); target.style.removeProperty(&#39;display&#39;); target.classList.add(&#39;show&#39;); let height = target.offsetHeight; target.style.overflow = &#39;hidden&#39;; target.style.height = &#34;0&#34;; target.style.paddingTop = &#34;0&#34;; target.style.paddingBottom = &#34;0&#34;; target.style.marginTop = &#34;0&#34;; target.style.marginBottom = &#34;0&#34;; target.offsetHeight; ///target.style.boxSizing = &#39;border-box&#39;; target.style.transitionProperty = &#34;height, margin, padding&#34;; target.style.transitionDuration = duration &#43; &#39;ms&#39;; target.style.height = height &#43; &#39;px&#39;; target.style.removeProperty(&#39;padding-top&#39;); target.style.removeProperty(&#39;padding-bottom&#39;); target.style.removeProperty(&#39;margin-top&#39;); target.style.removeProperty(&#39;margin-bottom&#39;); window.setTimeout(() =&gt; { target.style.removeProperty(&#39;height&#39;); target.style.removeProperty(&#39;overflow&#39;); target.style.removeProperty(&#39;transition-duration&#39;); target.style.removeProperty(&#39;transition-property&#39;); target.classList.remove(&#39;transiting&#39;); }, duration); } let slideToggle = (target: HTMLElement, duration = 500) =&gt; { if (window.getComputedStyle(target).display === &#39;none&#39;) { return slideDown(target, duration); } else { return slideUp(target, duration); } } export default function () { const toggleMenu = document.getElementById(&#39;toggle-menu&#39;); if (toggleMenu) { // () =&gt; {} 的意思是沒有 parameter，回傳 toggleMenu.addEventListener(&#39;click&#39;, () =&gt; { if (document.getElementById(&#39;main-menu&#39;).classList.contains(&#39;transiting&#39;)) return; document.body.classList.toggle(&#39;show-menu&#39;); slideToggle(document.getElementById(&#39;main-menu&#39;), 300); toggleMenu.classList.toggle(&#39;is-active&#39;); }); } } 摺疊動畫 target = document.querySelector(&#39;.target&#39;) /// TransitionProperty 設定哪些 Property 有過渡動畫 target.style.transtionProperty = &#39;height, width, padding&#39; // 過渡時間 target.style.transitionDuration = &#39;1000ms&#39; // 摺起來 target.style.height = &#34;0&#34; 在改變值之前必須先有一個值，如果沒有設置好初始值，第一次的數值會突然出現，不會有動畫。
+'>
+<meta property='og:url' content='https://evthron.github.io/zh/code/folding-element/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-02-12T14:37:42&#43;08:00'/><meta property='article:modified_time' content='2025-02-12T14:37:42&#43;08:00'/>
+<meta name="twitter:title" content="摺疊元素">
+<meta name="twitter:description" content="https://github.com/CaiJimmy/hugo-theme-stack
+能摺疊的目錄 Javascript /** * Slide up/down * Code from https://dev.to/bmsvieira/vanilla-js-slidedown-up-4dkn * @param target * @param duration */ let slideUp = (target: HTMLElement, duration = 500) =&gt; { // 過渡時間是 2 秒 duration = 2000 // 在過渡的時候，為 target 多加一個 transiting element，表示正在過渡 target.classList.add(&#39;transiting&#39;); /// TransitionProperty 設定哪些元素有過渡動畫 //target.style.transitionProperty = &#39;height, margin, padding&#39;; target.style.transitionProperty = &#39;height&#39;; target.style.transitionDuration = duration &#43; &#39;ms&#39;; // 把數值變成 0，有過渡動畫 target.style.height = &#34;0&#34;; target.style.paddingTop = &#34;0&#34;; target.style.paddingBottom = &#34;0&#34;; target.style.marginTop = &#34;0&#34;; target.style.marginBottom = &#34;0&#34;; // 額外調整？ target.style.boxSizing = &#39;border-box&#39;; target.style.height = target.offsetHeight &#43; &#39;px&#39;; target.offsetHeight; target.style.overflow = &#39;hidden&#39;; // 完成過渡之後就去除特性 window.setTimeout(() =&gt; { target.classList.remove(&#39;show&#39;) target.style.removeProperty(&#39;height&#39;); target.style.removeProperty(&#39;padding-top&#39;); target.style.removeProperty(&#39;padding-bottom&#39;); target.style.removeProperty(&#39;margin-top&#39;); target.style.removeProperty(&#39;margin-bottom&#39;); target.style.removeProperty(&#39;overflow&#39;); target.style.removeProperty(&#39;transition-duration&#39;); target.style.removeProperty(&#39;transition-property&#39;); target.classList.remove(&#39;transiting&#39;); }, duration); } let slideDown = (target: HTMLElement, duration = 500) =&gt; { target.classList.add(&#39;transiting&#39;); target.style.removeProperty(&#39;display&#39;); target.classList.add(&#39;show&#39;); let height = target.offsetHeight; target.style.overflow = &#39;hidden&#39;; target.style.height = &#34;0&#34;; target.style.paddingTop = &#34;0&#34;; target.style.paddingBottom = &#34;0&#34;; target.style.marginTop = &#34;0&#34;; target.style.marginBottom = &#34;0&#34;; target.offsetHeight; ///target.style.boxSizing = &#39;border-box&#39;; target.style.transitionProperty = &#34;height, margin, padding&#34;; target.style.transitionDuration = duration &#43; &#39;ms&#39;; target.style.height = height &#43; &#39;px&#39;; target.style.removeProperty(&#39;padding-top&#39;); target.style.removeProperty(&#39;padding-bottom&#39;); target.style.removeProperty(&#39;margin-top&#39;); target.style.removeProperty(&#39;margin-bottom&#39;); window.setTimeout(() =&gt; { target.style.removeProperty(&#39;height&#39;); target.style.removeProperty(&#39;overflow&#39;); target.style.removeProperty(&#39;transition-duration&#39;); target.style.removeProperty(&#39;transition-property&#39;); target.classList.remove(&#39;transiting&#39;); }, duration); } let slideToggle = (target: HTMLElement, duration = 500) =&gt; { if (window.getComputedStyle(target).display === &#39;none&#39;) { return slideDown(target, duration); } else { return slideUp(target, duration); } } export default function () { const toggleMenu = document.getElementById(&#39;toggle-menu&#39;); if (toggleMenu) { // () =&gt; {} 的意思是沒有 parameter，回傳 toggleMenu.addEventListener(&#39;click&#39;, () =&gt; { if (document.getElementById(&#39;main-menu&#39;).classList.contains(&#39;transiting&#39;)) return; document.body.classList.toggle(&#39;show-menu&#39;); slideToggle(document.getElementById(&#39;main-menu&#39;), 300); toggleMenu.classList.toggle(&#39;is-active&#39;); }); } } 摺疊動畫 target = document.querySelector(&#39;.target&#39;) /// TransitionProperty 設定哪些 Property 有過渡動畫 target.style.transtionProperty = &#39;height, width, padding&#39; // 過渡時間 target.style.transitionDuration = &#39;1000ms&#39; // 摺起來 target.style.height = &#34;0&#34; 在改變值之前必須先有一個值，如果沒有設置好初始值，第一次的數值會突然出現，不會有動畫。
+">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_b7a1c28cc8c8dbe4.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/zh/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>最新文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>找文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/toolbox/' >
+                
+                
+                
+                <span>🛠️工具集</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/skill/' >
+                
+                
+                
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh/code/' >
+                
+                
+                
+                <span>⚔️ 代碼筆記</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/code/folding-element/">摺疊元素</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-02-12</time>
+                </div>
+            
+    
+            
+        </footer>
+        
+    
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <p><a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack"  target="_blank" rel="noopener"
+    >https://github.com/CaiJimmy/hugo-theme-stack</a></p>
+<h1 id="能摺疊的目錄">能摺疊的目錄</h1>
+<h2 id="javascript">Javascript</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Slide up/down
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Code from https://dev.to/bmsvieira/vanilla-js-slidedown-up-4dkn
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * @param target 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * @param duration 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">slideUp</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">target</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">HTMLElement</span>, <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">500</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 過渡時間是 2 秒
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2000</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 在過渡的時候，為 target 多加一個 transiting element，表示正在過渡
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#39;transiting&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/// TransitionProperty 設定哪些元素有過渡動畫
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">//target.style.transitionProperty = &#39;height, margin, padding&#39;;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">transitionProperty</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;height&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">transitionDuration</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;ms&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 把數值變成 0，有過渡動畫
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">paddingTop</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">paddingBottom</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">marginTop</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">marginBottom</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 額外調整？
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">boxSizing</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;border-box&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">offsetHeight</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">offsetHeight</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">overflow</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;hidden&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// 完成過渡之後就去除特性
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    window.<span style="color:#a6e22e">setTimeout</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">remove</span>(<span style="color:#e6db74">&#39;show&#39;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;height&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;padding-top&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;padding-bottom&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;margin-top&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;margin-bottom&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;overflow&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;transition-duration&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;transition-property&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">remove</span>(<span style="color:#e6db74">&#39;transiting&#39;</span>);
+</span></span><span style="display:flex;"><span>    }, <span style="color:#a6e22e">duration</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">slideDown</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">target</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">HTMLElement</span>, <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">500</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#39;transiting&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;display&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#39;show&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">offsetHeight</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">overflow</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;hidden&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">paddingTop</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">paddingBottom</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">marginTop</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">marginBottom</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">offsetHeight</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">///target.style.boxSizing = &#39;border-box&#39;;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">transitionProperty</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;height, margin, padding&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">transitionDuration</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">duration</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;ms&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">height</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;padding-top&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;padding-bottom&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;margin-top&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;margin-bottom&#39;</span>);
+</span></span><span style="display:flex;"><span>    window.<span style="color:#a6e22e">setTimeout</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;height&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;overflow&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;transition-duration&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">removeProperty</span>(<span style="color:#e6db74">&#39;transition-property&#39;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">remove</span>(<span style="color:#e6db74">&#39;transiting&#39;</span>);
+</span></span><span style="display:flex;"><span>    }, <span style="color:#a6e22e">duration</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">slideToggle</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">target</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">HTMLElement</span>, <span style="color:#a6e22e">duration</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">500</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (window.<span style="color:#a6e22e">getComputedStyle</span>(<span style="color:#a6e22e">target</span>).<span style="color:#a6e22e">display</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;none&#39;</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">slideDown</span>(<span style="color:#a6e22e">target</span>, <span style="color:#a6e22e">duration</span>);
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">slideUp</span>(<span style="color:#a6e22e">target</span>, <span style="color:#a6e22e">duration</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#66d9ef">function</span> () {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">toggleMenu</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;toggle-menu&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">toggleMenu</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// () =&gt; {} 的意思是沒有 parameter，回傳
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#a6e22e">toggleMenu</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;click&#39;</span>, () =&gt; {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;main-menu&#39;</span>).<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">contains</span>(<span style="color:#e6db74">&#39;transiting&#39;</span>)) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>            document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">toggle</span>(<span style="color:#e6db74">&#39;show-menu&#39;</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">slideToggle</span>(document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;main-menu&#39;</span>), <span style="color:#ae81ff">300</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">toggleMenu</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">toggle</span>(<span style="color:#e6db74">&#39;is-active&#39;</span>);
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="摺疊動畫">摺疊動畫</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">target</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;.target&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/// TransitionProperty 設定哪些 Property 有過渡動畫
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">transtionProperty</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;height, width, padding&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// 過渡時間
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">transitionDuration</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;1000ms&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// 摺起來
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span>
+</span></span></code></pre></div><p>在改變值之前必須先有一個值，如果沒有設置好初始值，第一次的數值會突然出現，不會有動畫。</p>
+<h2 id="例子">例子</h2>
+
+<div class="demo" style="display: none; border: solid 1px black; width: 10rem; background-color: orange; font-size : 24px">
+    test box
+</div>
+<button class="toggle-button">toggle</button>
+
+<script>
+    let slideUp = (target, duration = 500) => {
+        target.classList.add('transiting');
+        //target.style.transitionProperty = 'height, margin, padding';
+        target.style.boxSizing = 'border-box';
+        target.style.transitionDuration = duration + 'ms';
+        target.style.height = target.offsetHeight + 'px'; // Set height to current value for animation
+        //target.offsetHeight; // Trigger reflow
+        target.style.overflow = 'hidden';
+        target.style.height = "0";
+        target.style.paddingTop = "0";
+        target.style.paddingBottom = "0";
+        target.style.marginTop = "0";
+        target.style.marginBottom = "0";
+        window.setTimeout(() => {
+            target.style.display = 'none';
+            target.style.removeProperty('height');
+            target.style.removeProperty('padding-top');
+            target.style.removeProperty('padding-bottom');
+            target.style.removeProperty('margin-top');
+            target.style.removeProperty('margin-bottom');
+            target.style.removeProperty('overflow');
+            target.style.removeProperty('transition-duration');
+            target.style.removeProperty('transition-property');
+            target.classList.remove('transiting');
+        }, duration);
+    }
+
+    let slideDown = (target, duration = 500) => {
+        target.classList.add('transiting');
+        target.style.removeProperty('display');
+        target.classList.add('show');
+        let height = target.offsetHeight; // Get height for animation
+        target.style.overflow = 'hidden';
+        target.style.height = "0";
+        target.style.paddingTop = "0";
+        target.style.paddingBottom = "0";
+        target.style.marginTop = "0";
+        target.style.marginBottom = "0";
+        target.offsetHeight; // Trigger reflow
+        target.style.transitionProperty = "height, margin, padding";
+        target.style.transitionDuration = duration + 'ms';
+        target.style.height = height + 'px'; // Animate to full height
+        target.style.removeProperty('padding-top');
+        target.style.removeProperty('padding-bottom');
+        target.style.removeProperty('margin-top');
+        target.style.removeProperty('margin-bottom');
+
+        window.setTimeout(() => {
+            target.style.removeProperty('height');
+            target.style.removeProperty('overflow');
+            target.style.removeProperty('transition-duration');
+            target.style.removeProperty('transition-property');
+            target.classList.remove('transiting');
+        }, duration);
+    }
+
+    let toggle_button = document.querySelector(".toggle-button");
+    let demo_box = document.querySelector(".demo");
+
+    let slideToggle = (target, duration = 500) => {
+        if (window.getComputedStyle(target).display === 'none') {
+            return slideDown(target, duration);
+        } else {
+            return slideUp(target, duration);
+        }
+    }
+
+    toggle_button.addEventListener("click", () => {
+        if (demo_box.classList.contains('transiting')) return; // Prevent multiple clicks
+        slideToggle(demo_box, 500);
+    });
+</script>
+
+
+<h2 id="html">HTML</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt; Sticky Sidebar&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sticky.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sidebar&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">p</span>&gt; This is sidebar&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">figure</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;avatar&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;images/img1.jpg&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;icon&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;avatar&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;emoji&#34;</span>&gt;❤&lt;/<span style="color:#f92672">span</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">figure</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;menu-items&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span>&gt; button 1&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span>&gt; button 2&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">p</span>&gt; Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, reiciendis dolore? Dignissimos nesciunt id facilis expedita? Ratione voluptatibus atque quaerat nobis sed quo eveniet libero, et, esse, veritatis hic voluptatum.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">p</span>&gt; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, ad veritatis! Quisquam culpa inventore, vel magnam qui alias quia temporibus unde, voluptates soluta corrupti quasi. Mollitia repudiandae quae laborum ea!&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">p</span>&gt; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim exercitationem reiciendis fugiat, fuga placeat similique architecto quasi est consequuntur rerum nam. Laboriosam aperiam distinctio aspernatur, ipsam repellat aliquid suscipit a?&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div><h3 id="css">CSS</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">body</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#f92672">header</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">sticky</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">blueviolet</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">container</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">azure</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">flex</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">flex-direction</span>: <span style="color:#66d9ef">row</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span> : <span style="color:#ae81ff">200</span><span style="color:#66d9ef">vh</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">sidebar</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">sticky</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">aqua</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">vh</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">flex</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">flex-direction</span>: <span style="color:#66d9ef">column</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">align-items</span>: <span style="color:#66d9ef">center</span>; <span style="color:#75715e">/*沿垂直方向對齊*/</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">avatar</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>; <span style="color:#75715e">/*還是不知道為什麼要用 Relative*/</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">icon</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">box-shadow</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#123456</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">emoji</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bottom</span>: <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">white</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span> : <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span> : <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">menu-items</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">flex</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">flex-direction</span>: <span style="color:#66d9ef">column</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">justify-content</span>: <span style="color:#66d9ef">center</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">align-items</span>: <span style="color:#66d9ef">center</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">text</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">flex</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">justify-content</span>: <span style="color:#66d9ef">center</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">4</span><span style="color:#66d9ef">rem</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+         
+
+        </footer>
+    
+    
+    
+</article>
+
+    
+    
+
+    
+    
+     
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>
