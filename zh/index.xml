@@ -64,6 +64,12 @@
 不斷打破過去的規則，用新的角度看待事物，才算得上是創作者。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;人類探索了地球上的每一個角落&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;之&lt;/del&gt;後，想要自稱探險家，只能往宇宙進發，這是只有極少數人有能力挑戰的任務。&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;我會用&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我會&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;使用&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;的。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;無論是寫文章、寫程序&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;、&lt;/del&gt;還是畫畫，只要放棄那一部分微不足道&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;又&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;卻&lt;/span&gt;無可替代的樂趣，我就能進步得更快，拋棄底層的低端重複勞動，專注&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;在&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;更加&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;於&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;更&lt;/span&gt;高層次的創作&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;上&lt;/del&gt;。我應該是能做到的才對。
 &lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;修改了什麼：
+詞語：背後的原因 -&amp;gt; 根源，人工智能 -&amp;gt; AI，而言-&amp;gt; 來説
+增加連接詞，但、畢竟、其實、甚至、這是、然而、確實、讓
+語法錯誤：只要……任何人&lt;del&gt;也&lt;/del&gt;都能，反映&lt;del&gt;到&lt;/del&gt;在
+錯字：每一&lt;del&gt;副&lt;/del&gt;幅&lt;/p&gt;
+&lt;hr&gt;
 &lt;p&gt;寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; jieba
@@ -1566,7 +1572,10 @@ _|_|_
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scriptraccoon.dev/blog/tailwind-disadvantages&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://scriptraccoon.dev/blog/tailwind-disadvantages&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;不行啊……這個網站還是不夠有趣。&lt;/p&gt;
+&lt;p&gt;2025-02-20
+不行啊……這個網站還是不夠有趣。網站設計不是最重要的，內容和更新頻率才是。&lt;/p&gt;
+&lt;p&gt;我寫的東西太正經嚴肅了，就自我表達的角度來看我非常滿意，但這可吸引不了人。得更有趣，更新得更快才行。&lt;/p&gt;
+&lt;p&gt;用 AI 來大批量生產&lt;/p&gt;
 </description>
         </item>
         <item>
