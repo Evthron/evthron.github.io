@@ -92,10 +92,17 @@
 &lt;div class=&#34;pdf-embed&#34;&gt;
     &lt;iframe src=&#34;https://evthron.github.io/evthron-cv.pdf&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border: none;&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;接下來是做什麼工作。雖然是什麼工作都好，但應該要有個目標才對。&lt;/p&gt;
-&lt;p&gt;去哪裏工作？小公司、政府、銀行、量化投資公司、知名科技公司。&lt;/p&gt;
-&lt;p&gt;做什麼？網頁開發、數據分析、系統維護。&lt;/p&gt;
-&lt;p&gt;我只是聽了個大概，對現在的行情不是很瞭解。要繼續搜索。&lt;/p&gt;
+&lt;p&gt;接下來是工作類型。雖然是什麼工作都好，但應該要有個目標才對。我對現在的行情可不怎麼很瞭解。&lt;/p&gt;
+&lt;p&gt;先看看有什麼需求，我收集了一些會在工作要求中出現的軟件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Version control: Git, CI/CD pipelines&lt;/li&gt;
+&lt;li&gt;Web: JavaScript, TypeScript, REST APIs, Responsive design, Redux/Context, RESTful APIs, React.js, React Native, MongoDB
+– Cloud: Google Cloud Platform (GCP), Amazon Web Services (AWS), Firebase&lt;/li&gt;
+&lt;li&gt;Data: Excel VBA, Python, Matlab, SQL, Tableau, R, S+, SAS, PowerBI&lt;/li&gt;
+&lt;li&gt;Backend: Django, Spring Boot, Express.js&lt;/li&gt;
+&lt;li&gt;Unit test: JUnit, Pytest, Mocha&lt;/li&gt;
+&lt;li&gt;3D: SolidWorks, Fusion 360, AutoCAD&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
