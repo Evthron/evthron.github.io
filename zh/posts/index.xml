@@ -64,11 +64,33 @@
 不斷打破過去的規則，用新的角度看待事物，才算得上是創作者。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;人類探索了地球上的每一個角落&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;之&lt;/del&gt;後，想要自稱探險家，只能往宇宙進發，這是只有極少數人有能力挑戰的任務。&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;我會用&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我會&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;使用&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;的。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;無論是寫文章、寫程序&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;、&lt;/del&gt;還是畫畫，只要放棄那一部分微不足道&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;又&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;卻&lt;/span&gt;無可替代的樂趣，我就能進步得更快，拋棄底層的低端重複勞動，專注&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;在&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;更加&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;於&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;更&lt;/span&gt;高層次的創作&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;上&lt;/del&gt;。我應該是能做到的才對。
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;修改了什麼：
-詞語：背後的原因 -&amp;gt; 根源，人工智能 -&amp;gt; AI，而言-&amp;gt; 來説
-增加連接詞，但、畢竟、其實、甚至、這是、然而、確實、讓
-語法錯誤：只要……任何人&lt;del&gt;也&lt;/del&gt;都能，反映&lt;del&gt;到&lt;/del&gt;在
-錯字：每一&lt;del&gt;副&lt;/del&gt;幅&lt;/p&gt;
+&lt;p&gt;修改要點&lt;/p&gt;
+&lt;p&gt;詞語：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;背後的原因 -&amp;gt; 根源&lt;/li&gt;
+&lt;li&gt;人工智能 -&amp;gt; AI&lt;/li&gt;
+&lt;li&gt;而言-&amp;gt; 來説&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;增加連接詞：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;但&lt;/li&gt;
+&lt;li&gt;畢竟&lt;/li&gt;
+&lt;li&gt;其實&lt;/li&gt;
+&lt;li&gt;甚至&lt;/li&gt;
+&lt;li&gt;這是&lt;/li&gt;
+&lt;li&gt;然而&lt;/li&gt;
+&lt;li&gt;確實&lt;/li&gt;
+&lt;li&gt;讓&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;語法錯誤：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;只要……任何人&lt;del&gt;也&lt;/del&gt;都能&lt;/li&gt;
+&lt;li&gt;反映&lt;del&gt;到&lt;/del&gt;在&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;錯字：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每一&lt;del&gt;副&lt;/del&gt;幅&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
