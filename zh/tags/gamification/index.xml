@@ -6,7 +6,19 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sun, 05 Jan 2025 11:19:47 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/gamification/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 23 Feb 2025 01:34:13 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/gamification/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>步數清零</title>
+        <link>https://evthron.github.io/zh/tweet/lost-step-data/</link>
+        <pubDate>Sun, 23 Feb 2025 01:34:13 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/lost-step-data/</guid>
+        <description>&lt;p&gt;我用了一年的計步器軟件 &lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/packages/org.secuso.privacyfriendlyactivitytracker/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pedometer (PFA) (f-droid.org)&lt;/a&gt; 出 bug 了，只能清除數據，步數記錄都不見了。一年的遊戲存檔清零了。雖然我有每天導出數據，卻沒有導入功能。我一直現在才發現有配套的&lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/packages/org.secuso.privacyfriendlybackup/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;備份軟件(f-droid.org)&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;一旦開始記錄，無論是多麼無聊的數據點都會突然變得很重要，就像我隨手畫在素描本上的塗鴉突然變成了自己的人生記錄一樣。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>遊戲化想法</title>
         <link>https://evthron.github.io/zh/tweet/gamification/</link>
         <pubDate>Sun, 05 Jan 2025 11:19:47 +0800</pubDate>
