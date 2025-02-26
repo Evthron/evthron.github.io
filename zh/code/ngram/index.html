@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.
-2024/06/25 03:44 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Start token 和 End token 訓練 n-gram 的時候，需要在句子的前後加上 start token 和 end token，像是 &lt;s&gt; 和 &lt;/s&gt;。
+不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。
+其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。
+訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？
+&lt;s&gt; Today the weather is nice &lt;/s&gt; &lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。
+把句子的交接處變成 bigram ：
+(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The) 兩句句子的內容會被 &lt;s&gt; 和 &lt;/s&gt; 分隔開，不會混在一起。
+如果是 trigram 的話，一個 Start token 就不夠用了。
+只用一個 Start token 的 trigram（錯誤的做法）： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon) 用兩個 Start token 的 trigram： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The) 可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。
 '>
-        <title>Sticky menu | Evthron&#39;s blog</title>
+        <title>N-gram | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/en/tweet/sticky-menu/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/code/ngram/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.08c72bed88511f416f3ce30f1deb50ce278a39d48049230c2b4d02281381b8c6.css"><meta property='og:title' content='Sticky menu'>
-<meta property='og:description' content='I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.
-2024/06/25 03:44 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.
+        <link rel="stylesheet" href="/scss/style.min.08c72bed88511f416f3ce30f1deb50ce278a39d48049230c2b4d02281381b8c6.css"><meta property='og:title' content='N-gram'>
+<meta property='og:description' content='Start token 和 End token 訓練 n-gram 的時候，需要在句子的前後加上 start token 和 end token，像是 &lt;s&gt; 和 &lt;/s&gt;。
+不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。
+其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。
+訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？
+&lt;s&gt; Today the weather is nice &lt;/s&gt; &lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。
+把句子的交接處變成 bigram ：
+(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The) 兩句句子的內容會被 &lt;s&gt; 和 &lt;/s&gt; 分隔開，不會混在一起。
+如果是 trigram 的話，一個 Start token 就不夠用了。
+只用一個 Start token 的 trigram（錯誤的做法）： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon) 用兩個 Start token 的 trigram： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The) 可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。
 '>
-<meta property='og:url' content='https://evthron.github.io/en/tweet/sticky-menu/'>
+<meta property='og:url' content='https://evthron.github.io/zh/code/ngram/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='grumble' /><meta property='article:published_time' content='2024-06-25T02:03:52&#43;08:00'/><meta property='article:modified_time' content='2024-08-15T03:09:16&#43;08:00'/>
-<meta name="twitter:title" content="Sticky menu">
-<meta name="twitter:description" content="I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.
-2024/06/25 03:44 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-02-26T20:14:32&#43;08:00'/><meta property='article:modified_time' content='2025-02-26T20:14:32&#43;08:00'/>
+<meta name="twitter:title" content="N-gram">
+<meta name="twitter:description" content="Start token 和 End token 訓練 n-gram 的時候，需要在句子的前後加上 start token 和 end token，像是 &lt;s&gt; 和 &lt;/s&gt;。
+不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。
+其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。
+訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？
+&lt;s&gt; Today the weather is nice &lt;/s&gt; &lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。
+把句子的交接處變成 bigram ：
+(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The) 兩句句子的內容會被 &lt;s&gt; 和 &lt;/s&gt; 分隔開，不會混在一起。
+如果是 trigram 的話，一個 Start token 就不夠用了。
+只用一個 Start token 的 trigram（錯誤的做法）： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon) 用兩個 Start token 的 trigram： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The) 可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -61,7 +82,7 @@
         
             
             <figure class="site-avatar">
-                <a href="/en/">
+                <a href="/zh/">
                 
                     
                     
@@ -76,7 +97,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/en">Evthron&#39;s blog</a></h1>
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
             <h2 class="site-description"></h2>
         </div>
     </header><ol class="social-menu">
@@ -123,7 +144,7 @@
             
                 <li>
                     <a 
-                        href='/en/index.xml'
+                        href='/zh/index.xml'
                         target="_blank"
                         title="📡RSS"
                         rel="me"
@@ -148,7 +169,7 @@
         
         
         <li >
-            <a href='/en/timeline/' >
+            <a href='/zh/timeline/' >
                 
                 
                 
@@ -162,13 +183,13 @@
   <path d="M18 16.496v1.504l1 1" />
 </svg>
                 
-                <span>Timeline</span>
+                <span>最新文章</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/search/' >
+            <a href='/zh/search/' >
                 
                 
                 
@@ -181,33 +202,33 @@
 
 
                 
-                <span>Search</span>
+                <span>找文章</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/posts/' >
+            <a href='/zh/posts/' >
                 
                 
                 
-                <span>📝Posts</span>
+                <span>📝文章</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/gallery/' >
+            <a href='/zh/gallery/' >
                 
                 
                 
-                <span>🖼️Gallery</span>
+                <span>🖼️畫</span>
             </a>
         </li>
         
         
-        <li  class='current' >
-            <a href='/en/tweet/' >
+        <li >
+            <a href='/zh/tweet/' >
                 
                 
                 
@@ -217,57 +238,46 @@
         
         
         <li >
-            <a href='/en/toolbox/' >
+            <a href='/zh/toolbox/' >
                 
                 
                 
-                <span>🛠Toobox</span>
+                <span>🛠️工具集</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/skill/' >
+            <a href='/zh/skill/' >
                 
                 
                 
-                <span>🎮Skill</span>
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh/code/' >
+                
+                
+                
+                <span>⚔️ 代碼筆記</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/sandbox/' >
+            <a href='/zh/sandbox/' >
                 
                 
                 
-                <span>🪣Sandbox</span>
+                <span>🪣沙盒</span>
             </a>
         </li>
         
 
         <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                    
-                            <option value="https://evthron.github.io/zh/tweet/sticky-menu/" >中文</option>
-                    
-                            <option value="https://evthron.github.io/en/tweet/sticky-menu/" selected>English</option>
-                    
-				    </select>
-                </li>
-            
 
             
                 <li id="dark-mode-toggle">
@@ -287,7 +297,7 @@
 
 
 
-                    <span>Dark Mode</span>
+                    <span>夜晚模式</span>
                 </li>
             
         </div>
@@ -305,19 +315,10 @@
     <div class="article-details">
         
         
-        <header class="article-category">
-            
-                
-                <a href="/en/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                    tweet
-                </a>
-            
-        </header>
-        
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/en/tweet/sticky-menu/">Sticky menu</a>
+                <a href="/zh/code/ngram/">N-gram</a>
             </h2>
         
             
@@ -339,7 +340,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2024-06-25</time>
+                    <time class="article-time--published">2025-02-26</time>
                 </div>
             
     
@@ -347,25 +348,6 @@
         </footer>
         
     
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/zh/tweet/sticky-menu/" class="link">中文</a>
-                    
-                </div>
-            </footer>
         
     </div>
     
@@ -375,9 +357,30 @@
     <section class="article-content">
         
         
-        <p>I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.</p>
-<p>2024/06/25 03:44
-Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.</p>
+        <h2 id="start-token-和-end-token">Start token 和 End token</h2>
+<p>訓練 n-gram 的時候，需要在句子的前後加上 start token 和 end token，像是 <code>&lt;s&gt;</code> 和 <code>&lt;/s&gt;</code>。</p>
+<p>不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。</p>
+<p>其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。</p>
+<p>訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？</p>
+<pre tabindex="0"><code>&lt;s&gt; Today the weather is nice &lt;/s&gt;
+&lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt;
+</code></pre><p>在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。</p>
+<p>把句子的交接處變成 bigram ：</p>
+<pre tabindex="0"><code>(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The)
+</code></pre><p>兩句句子的內容會被 <code>&lt;s&gt;</code> 和 <code>&lt;/s&gt;</code> 分隔開，不會混在一起。</p>
+<p>如果是 trigram 的話，一個 Start token 就不夠用了。</p>
+<ul>
+<li>只用一個 Start token 的 trigram（錯誤的做法）：</li>
+</ul>
+<pre tabindex="0"><code>(nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon)
+</code></pre><ul>
+<li>用兩個 Start token 的 trigram：</li>
+</ul>
+<pre tabindex="0"><code>(nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The)
+</code></pre><p>可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。</p>
+<h2 id="參考資料">參考資料</h2>
+<p><a class="link" href="https://web.stanford.edu/~jurafsky/slp3/3.pdf"  target="_blank" rel="noopener"
+    >J&amp;M Ch3 (standford.edu)</a> 的第七頁説明了 trigram 的做法，但沒有解釋原因。</p>
 
     </section>
 
@@ -385,27 +388,9 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
     <footer class="article-footer">
 
         
-        
-        <section class="article-tags">
-            
-                <a href="/en/tags/grumble/">Grumble</a>
-            
-        </section>
          
 
-        <section class="article-lastmod">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-            <span>
-                Last updated on 2024-08-15 03:09 &#43;08:00
-            </span>
-        </section></footer>
+        </footer>
     
     
     <link 
@@ -439,54 +424,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
 
     
     
-    
-    <aside class="related-content--wrapper">
-        <h2 class="section-title">Related content</h2>
-        <div class="related-content">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="/en/tweet/easier-publish/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Improved publishing workflow </h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/en/tweet/delusions/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Delusions</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/en/tweet/winter/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Winter</h2>
-        </div>
-    </a>
-</article>
-
-                
-            </div>
-        </div>
-    </aside>
      
 
     <footer class="site-footer">
@@ -501,8 +438,8 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
     <section class="powerby">
         
             🌐Check out other language versions! <br/>
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
     </section>
 </footer>
 
