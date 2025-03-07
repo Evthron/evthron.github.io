@@ -6,7 +6,37 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sun, 02 Mar 2025 06:45:53 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 07 Mar 2025 14:53:42 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>經濟課學到的</title>
+        <link>https://evthron.github.io/zh/tweet/learn-from-economics/</link>
+        <pubDate>Fri, 07 Mar 2025 14:53:42 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/learn-from-economics/</guid>
+        <description>&lt;p&gt;經濟學就是現代社會的規則。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;無論你一個人能完成所有工作，從效率的角度考慮，還是應該專注做自己比其他人有優勢的部分，然後花錢僱人做其他的事。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;優秀的經濟學家就應該像器具一樣，只有一種用途。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;經濟學的預測出錯的時候，多半是因為有些事情不能單純考慮金錢利益。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不過，真的有不能用錢來衡量的事嗎？無論是環境污染，人的不幸，甚至是未來的危機，只要換算成修復的成本，就能重新套用經濟理論。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;壟斷是很普遍的。工作輕鬆又能賺錢，多半是佔據了壟斷的地位。不需要和別人競爭的話，效率低下也無妨。這對個人是好事，對社會卻是壞事。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;相反，工作辛苦卻賺不到錢，多半是處於自由競爭的狀態，為了生存下去，就絕對不能做得比同行差。這對社會是好事，對個人卻是壞事，這就是資本主義。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他人似乎都覺得上課很無聊，應該是我以前沒有讀過，覺得新鮮吧。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>週末的遊戲陷阱</title>
         <link>https://evthron.github.io/zh/tweet/game-encounter/</link>
         <pubDate>Sun, 02 Mar 2025 06:45:53 +0800</pubDate>
@@ -17,8 +47,14 @@
 &lt;p&gt;至少這次碰上的遊戲非常好玩，甚至讓我產生了「學到了什麼」的錯覺。這才像樣嘛，遊戲不能空有讓人沉迷的元素，還有要真正好玩的機制。&lt;/p&gt;
 &lt;p&gt;不過無論再怎麼好玩，都和我寫這篇感想一樣，不過是騙自己時間沒有白花而已。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dragonsweeper，在掃雷的基礎上加入血量和等級，讓玩家能符合邏輯地試錯。成品相當精巧，幾乎是另一個遊戲。&lt;/li&gt;
-&lt;li&gt;Die in the dungeon，把收集骰子變得像組建卡組一樣有趣。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://danielben.itch.io/dragonsweeper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dragonsweeper (itch.io)&lt;/a&gt;，在掃雷的基礎上加入血量和等級，讓玩家能符合邏輯地試錯。不再是想不通碰運氣，也不用像掃雷一樣背什麼定式，玩起來很刺激，幾乎是另一個遊戲。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://alarts.itch.io/die-in-the-dungeon&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Die in the dungeon (itch.io)&lt;/a&gt;，用收集回來的骰子進行攻擊、防禦和回復。雖然規則很簡單，但巧妙地利用了卡牌遊戲中「手牌太多就會抽不到自己想要的牌」的特點，讓收集和丟棄骰子變得像組建卡組一樣有趣。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -455,6 +491,8 @@ AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
 &lt;p&gt;2024/04/01 00:30
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;個人的想法是敵不過文化的。無論是好還是壞，跟隨文化傳統的人總是會比沒有跟隨任何文化的人強。&lt;/p&gt;
 </description>
         </item>
         <item>
