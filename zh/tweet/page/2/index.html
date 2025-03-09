@@ -14,7 +14,7 @@
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://evthron.github.io/zh/tweet/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-03-07T15:53:19&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-03-10T03:54:54&#43;08:00 '/>
 <meta name="twitter:title" content="Tweet">
 <meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="https://evthron.github.io/zh/tweet/index.xml">
             <link rel="shortcut icon" href="/favicon.ico" />
@@ -318,6 +318,60 @@
     <div class="article-details">
         <div class="article-title-wrapper">
             <h2 class="article-title">
+                <a href="/zh/tweet/from-cli-to-gui/">從 CLI 到 GUI</a>
+            </h2>
+            
+        </div>
+    
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-01-18</time>
+                </div>
+            
+    
+        </footer>
+        
+    
+        
+        <div class="article-content">
+            
+            <p>如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。</p>
+<p>只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。</p>
+<hr>
+<p>要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C++，Python 本身是做不到的。
+<a class="link" href="https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli"  target="_blank" rel="noopener"
+    >how to make gui in python without tools (stackoverflow)</a>
+用網站做 UI 最簡單……</p>
+
+        </div>
+    </div>
+
+    
+    
+    
+    <header class="article-header">
+    
+    </header>
+</article>
+        
+            
+<article class="">
+    <div class="article-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
                 <a href="/zh/tweet/fear/">恐懼</a>
             </h2>
             
@@ -413,76 +467,6 @@
 <p>就算學過了離散數學的排列組合，算這些還是很頭疼，真是白學了。難怪明明不可能中還是有這麼多人前仆後繼地買彩票。</p>
 <hr>
 <p>很奇怪，實在差得太遠了，模擬的結果是 0.018，完全不能簡化呢。</p>
-
-        </div>
-    </div>
-
-    
-    
-    
-    <header class="article-header">
-    
-    </header>
-</article>
-        
-            
-<article class="">
-    <div class="article-details">
-        <div class="article-title-wrapper">
-            <h2 class="article-title">
-                <a href="/zh/tweet/sqlite-anki/">Anki SQLite</a>
-            </h2>
-            
-        </div>
-    
-        
-        
-        
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published">2025-01-06</time>
-                </div>
-            
-    
-        </footer>
-        
-    
-        
-        <div class="article-content">
-            
-            <p>Anki 用的是 SQLite。實戰是好事吧？</p>
-<p>很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。</p>
-<p>順利完成了。
-<a class="link" href="https://evthron.github.io/zh/sandbox/test-vocab/"  target="_blank" rel="noopener"
-    >https://evthron.github.io/zh/sandbox/test-vocab/</a>
-參考資料：</p>
-<p>本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。
-<a class="link" href="https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/"  target="_blank" rel="noopener"
-    >https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/</a></p>
-<p>python tutorial
-<a class="link" href="https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial"  target="_blank" rel="noopener"
-    >https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial</a></p>
-<p>這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？
-<a class="link" href="https://kylerego.github.io/anki-schema#the-notes-table"  target="_blank" rel="noopener"
-    >https://kylerego.github.io/anki-schema#the-notes-table</a></p>
-<p>Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。
-<a class="link" href="https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/"  target="_blank" rel="noopener"
-    >https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/</a>
-<a class="link" href="https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/"  target="_blank" rel="noopener"
-    >https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/</a></p>
-<p>界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。
-<a class="link" href="https://marcjenkins.co.uk/bookshelf/"  target="_blank" rel="noopener"
-    >https://marcjenkins.co.uk/bookshelf/</a></p>
 
         </div>
     </div>
