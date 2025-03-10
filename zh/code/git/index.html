@@ -2,9 +2,10 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='submodule make a repo as a node inside another repo, treating the whole folder as one file. need to make seperate commits.
-change origin url to ssh git remote set-url origin git@github.com:username/repo.git Check remote url
-git remote -v Get update from other&rsquo;s repo after forked git remote add upstream &lt;URL&gt; # Set repo as &#39;upstream&#39; git fetch upstream '>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
+Link the Local Repo to the Remote GitHub Repo:
+Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security. git remote add origin git@github.com:username/reponame.git If you used the HTTPS URL, change it using set-url: git remote set-url origin git@github.com:username/reponame.git origin is the default name that prefixes all upstream branches. All upstream branches are referred to as origin/branch when viewed in the local repo.
+'>
         <title>Git | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/zh/code/git/'>
@@ -13,16 +14,18 @@ git remote -v Get update from other&rsquo;s repo after forked git remote add ups
         
         
         <link rel="stylesheet" href="/scss/style.min.08c72bed88511f416f3ce30f1deb50ce278a39d48049230c2b4d02281381b8c6.css"><meta property='og:title' content='Git'>
-<meta property='og:description' content='submodule make a repo as a node inside another repo, treating the whole folder as one file. need to make seperate commits.
-change origin url to ssh git remote set-url origin git@github.com:username/repo.git Check remote url
-git remote -v Get update from other&rsquo;s repo after forked git remote add upstream &lt;URL&gt; # Set repo as &#39;upstream&#39; git fetch upstream '>
+<meta property='og:description' content='How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
+Link the Local Repo to the Remote GitHub Repo:
+Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security. git remote add origin git@github.com:username/reponame.git If you used the HTTPS URL, change it using set-url: git remote set-url origin git@github.com:username/reponame.git origin is the default name that prefixes all upstream branches. All upstream branches are referred to as origin/branch when viewed in the local repo.
+'>
 <meta property='og:url' content='https://evthron.github.io/zh/code/git/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-03-06T12:31:26&#43;08:00'/><meta property='article:modified_time' content='2025-03-06T12:31:26&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-03-06T12:31:38&#43;08:00'/><meta property='article:modified_time' content='2025-03-06T12:31:38&#43;08:00'/>
 <meta name="twitter:title" content="Git">
-<meta name="twitter:description" content="submodule make a repo as a node inside another repo, treating the whole folder as one file. need to make seperate commits.
-change origin url to ssh git remote set-url origin git@github.com:username/repo.git Check remote url
-git remote -v Get update from other&rsquo;s repo after forked git remote add upstream &lt;URL&gt; # Set repo as &#39;upstream&#39; git fetch upstream ">
+<meta name="twitter:description" content="How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
+Link the Local Repo to the Remote GitHub Repo:
+Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security. git remote add origin git@github.com:username/reponame.git If you used the HTTPS URL, change it using set-url: git remote set-url origin git@github.com:username/reponame.git origin is the default name that prefixes all upstream branches. All upstream branches are referred to as origin/branch when viewed in the local repo.
+">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -376,17 +379,98 @@ git remote -v Get update from other&rsquo;s repo after forked git remote add ups
     <section class="article-content">
         
         
-        <h2 id="submodule">submodule</h2>
+        <h2 id="how-to-upload-local-repo-to-github">How to Upload Local Repo to GitHub</h2>
+<ol>
+<li>Create Local Git Repo:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span></code></pre></div><ol start="2">
+<li>
+<p>Create an Empty Repo on GitHub</p>
+</li>
+<li>
+<p>Link the Local Repo to the Remote GitHub Repo:</p>
+</li>
+</ol>
+<ul>
+<li>Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin git@github.com:username/reponame.git
+</span></span></code></pre></div><ul>
+<li>If you used the HTTPS URL, change it using <code>set-url</code>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote set-url origin git@github.com:username/reponame.git
+</span></span></code></pre></div><ul>
+<li>
+<p><code>origin</code> is the default name that prefixes all upstream branches. All upstream branches are referred to as <code>origin/branch</code> when viewed in the local repo.</p>
+</li>
+<li>
+<p>You can check the remote URL to confirm the change:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote -v
+</span></span></code></pre></div><ol start="4">
+<li>Push Local <code>main</code> Branch to the <code>origin/main</code> Branch:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push origin main
+</span></span></code></pre></div><ul>
+<li>If your default local branch name is <code>master</code>, you may encounter an error like:</li>
+</ul>
+<pre tabindex="0"><code>error: src refspec main does not match any
+error: failed to push some refs to &#39;github.com...&#39;
+</code></pre><ul>
+<li>Normally, the remote branch and the local branch should have the same name. Change the local branch name by:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch -m main
+</span></span></code></pre></div><ul>
+<li>Now, <code>git push origin main</code> should work.</li>
+</ul>
+<ol start="5">
+<li>Set Upstream Tracking: To make the branch remember its upstream branch, use the <code>--set-upstream</code> or <code>-u</code> flag once:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push --set-upstream origin main
+</span></span></code></pre></div><p>or equivalently:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><ul>
+<li>Next time, you can simply push the branch by using:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push
+</span></span></code></pre></div><h2 id="contribute-by-forking">Contribute by Forking</h2>
+<ol>
+<li>
+<p>Fork the Repo on GitHub: Click the &ldquo;Fork&rdquo; button on the top right of the repository page to create a copy under your account.</p>
+</li>
+<li>
+<p>Clone the Forked Repo to Local:</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone git@github.com:username/reponame.git
+</span></span></code></pre></div><ol start="3">
+<li>Add the Original Repository as Upstream: This time use the HTTPS URL.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add upstream &lt;ORIGINAL_REPO_URL&gt;
+</span></span></code></pre></div><ol start="4">
+<li>Fetch the Latest Changes from Upstream:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git fetch upstream
+</span></span></code></pre></div><ol start="5">
+<li>Merge Changes into Your Local Branch: If you want to merge changes from the upstream branch (usually <code>main</code>) into your local <code>main</code> branch:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout main
+</span></span><span style="display:flex;"><span>git merge upstream/main
+</span></span></code></pre></div><ol start="6">
+<li>Push to Your Forked Repo: After merging, push the updated local branch to your forked repo on GitHub:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push origin main
+</span></span></code></pre></div><ol start="7">
+<li>Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.</li>
+</ol>
+<h2 id="submodule">submodule</h2>
 <p>make a repo as a node inside another repo, treating the whole folder as one file.
 need to make seperate commits.</p>
-<h2 id="change-origin-url-to-ssh">change origin url to ssh</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote set-url origin git@github.com:username/repo.git
-</span></span></code></pre></div><p>Check remote url</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote -v
-</span></span></code></pre></div><h2 id="get-update-from-others-repo-after-forked">Get update from other&rsquo;s repo after forked</h2>
-<pre tabindex="0"><code>git remote add upstream &lt;URL&gt; # Set repo as &#39;upstream&#39;
-git fetch upstream
-</code></pre>
+<h2 id="cicd-pipeline-github-action">CI/CD Pipeline (Github Action)</h2>
+<p>Continuous Integration, Continuous Delivery</p>
+
     </section>
 
     
