@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2025-03-10T16:54:12+08:00</lastmod>
+    <lastmod>2025-03-14T23:14:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,6 +18,76 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/categories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/maths/</loc>
+    <lastmod>2025-03-14T23:14:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/maths/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/maths/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/categories/posts/</loc>
+    <lastmod>2025-03-14T23:14:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/</loc>
+    <lastmod>2025-03-14T23:14:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/posts/higher-order-operation/</loc>
+    <lastmod>2025-03-14T23:14:52+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/zh/posts/</loc>
+    <lastmod>2025-03-14T23:14:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/categories/tweet/</loc>
@@ -126,24 +196,6 @@
                 href="https://evthron.github.io/zh/tags/grumble/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/tags/</loc>
-    <lastmod>2025-03-10T16:54:12+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/tweet/game-encounter/</loc>
     <lastmod>2025-03-07T15:38:51+08:00</lastmod>
   </url><url>
@@ -224,44 +276,8 @@
                 href="https://evthron.github.io/zh/tags/coding/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/categories/posts/</loc>
-    <lastmod>2025-02-20T01:15:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/posts/refuse-ai/</loc>
     <lastmod>2025-02-20T01:15:50+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/posts/</loc>
-    <lastmod>2025-02-20T01:15:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/relationship/</loc>
     <lastmod>2025-02-14T14:48:01+08:00</lastmod>
@@ -428,19 +444,6 @@
   </url><url>
     <loc>https://evthron.github.io/zh/posts/joy-of-music/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/tags/maths/</loc>
-    <lastmod>2025-01-18T02:22:29+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/maths/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/maths/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>

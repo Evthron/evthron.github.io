@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。
+增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^2.5$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
+我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。
+如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？
+例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？
+四階運算有沒有微分的概念？如果有，會不會有一個像 $e$ 一樣的常數，具有「變化率等同自身」的性質？
+我發現，這是數學上沒有定論的問題，也沒有研究的價值。
+指數運算之所以實用，是因為它能夠通過各種運算規則（指數律），從離散的定義（整數次方）自然地擴展到連續的定義（非整數次方）。這種連續性使得我們能夠定義導數，研究函數的變化率。
+然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。
+更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數的數學家才會關心了。
+Beyond exponentiation: A tetration investigation (youtube) '>
+        <title>高階運算 | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/posts/higher-order-operation/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.b870367f683244e5c9f958963d0da6550250fbd4772a7321db4cb34454a0789a.css"><meta property='og:title' content='高階運算'>
+<meta property='og:description' content='$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。
+增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^2.5$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
+我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。
+如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？
+例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？
+四階運算有沒有微分的概念？如果有，會不會有一個像 $e$ 一樣的常數，具有「變化率等同自身」的性質？
+我發現，這是數學上沒有定論的問題，也沒有研究的價值。
+指數運算之所以實用，是因為它能夠通過各種運算規則（指數律），從離散的定義（整數次方）自然地擴展到連續的定義（非整數次方）。這種連續性使得我們能夠定義導數，研究函數的變化率。
+然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。
+更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數的數學家才會關心了。
+Beyond exponentiation: A tetration investigation (youtube) '>
+<meta property='og:url' content='https://evthron.github.io/zh/posts/higher-order-operation/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='maths' /><meta property='article:published_time' content='2025-03-14T10:42:27&#43;08:00'/><meta property='article:modified_time' content='2025-03-14T23:14:52&#43;08:00'/>
+<meta name="twitter:title" content="高階運算">
+<meta name="twitter:description" content="$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。
+增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^2.5$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
+我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。
+如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？
+例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？
+四階運算有沒有微分的概念？如果有，會不會有一個像 $e$ 一樣的常數，具有「變化率等同自身」的性質？
+我發現，這是數學上沒有定論的問題，也沒有研究的價值。
+指數運算之所以實用，是因為它能夠通過各種運算規則（指數律），從離散的定義（整數次方）自然地擴展到連續的定義（非整數次方）。這種連續性使得我們能夠定義導數，研究函數的變化率。
+然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。
+更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數的數學家才會關心了。
+Beyond exponentiation: A tetration investigation (youtube) ">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_b7a1c28cc8c8dbe4.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/zh/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>最新文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>找文章</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/toolbox/' >
+                
+                
+                
+                <span>🛠️工具集</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/skill/' >
+                
+                
+                
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/code/' >
+                
+                
+                
+                <span>⚔️ 代碼筆記</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+        <header class="article-category">
+            
+                
+                <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
+                    posts
+                </a>
+            
+        </header>
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/posts/higher-order-operation/">高階運算</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-03-14</time>
+                </div>
+            
+    
+            
+        </footer>
+        
+    
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <p>$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。</p>
+<p>增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^2.5$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？</p>
+<p>我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。</p>
+<p>如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？</p>
+<p>例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？</p>
+<p>四階運算有沒有微分的概念？如果有，會不會有一個像 $e$ 一樣的常數，具有「變化率等同自身」的性質？</p>
+<hr>
+<p>我發現，這是數學上沒有定論的問題，也沒有研究的價值。</p>
+<p>指數運算之所以實用，是因為它能夠通過各種運算規則（指數律），從離散的定義（整數次方）自然地擴展到連續的定義（非整數次方）。這種連續性使得我們能夠定義導數，研究函數的變化率。</p>
+<p>然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。</p>
+<p>更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數的數學家才會關心了。</p>
+<p><a class="link" href="https://www.youtube.com/watch?v=qdqPTEpq5Xw&amp;pp=ygUJdGV0cmF0aW9u"  target="_blank" rel="noopener"
+    >Beyond exponentiation: A tetration investigation (youtube) </a></p>
+
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+        
+        <section class="article-tags">
+            
+                <a href="/zh/tags/maths/">Maths</a>
+            
+        </section>
+         
+
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <span>
+                最後更新 2025-03-14 23:14 &#43;08:00
+            </span>
+        </section></footer>
+    
+    
+    <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+        window.addEventListener("DOMContentLoaded", () => {
+            renderMathInElement(document.querySelector(`.article-content`), {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                ignoredClasses: ["gist"]
+            });})
+    </script>
+    
+</article>
+
+    
+    
+
+    
+    
+    
+    <aside class="related-content--wrapper">
+        <h2 class="section-title">相關文章</h2>
+        <div class="related-content">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/zh/posts/reinvent-the-wheel-in-maths/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">數學造輪子</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/tweet/lottery/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">彩票</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/posts/median/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">中位數公式</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/posts/scale/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">音階 </h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/tweet/origami/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">折紙 </h2>
+        </div>
+    </a>
+</article>
+
+                
+            </div>
+        </div>
+    </aside>
+     
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>
