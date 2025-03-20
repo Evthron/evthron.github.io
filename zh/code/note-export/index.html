@@ -12,7 +12,7 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.558efb48d9a812d770013d9a112df3316eaeee3b596f335306049ea32bc39dd3.css"><meta property='og:title' content='Note export'>
+        <link rel="stylesheet" href="/scss/style.min.79a1ee359f2edc7dca9423d7deeaae6a30ca32801f79c1c5b4052798c95cf969.css"><meta property='og:title' content='Note export'>
 <meta property='og:description' content='https://github.com/marph91/joppy/blob/master/examples/note_export.py
 extend a list generator Finding notes with certain title.
 Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) '>

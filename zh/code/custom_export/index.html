@@ -13,7 +13,7 @@ graph = {[]} has_parent = {node : False for node in node_list} for start, end in
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.558efb48d9a812d770013d9a112df3316eaeee3b596f335306049ea32bc39dd3.css"><meta property='og:title' content='Custom Export'>
+        <link rel="stylesheet" href="/scss/style.min.79a1ee359f2edc7dca9423d7deeaae6a30ca32801f79c1c5b4052798c95cf969.css"><meta property='og:title' content='Custom Export'>
 <meta property='og:description' content='https://github.com/marph91/joppy/blob/master/examples/custom_export.py
 Parent Graph 和 edge List 的區別 edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。
 graph = {[]} has_parent = {node : False for node in node_list} for start, end in edge_graph: graph[start] = graph.get(start, []}.append(end) has_parent[end] = True import argparse &#39;&#39;&#39; make argument parser &#39;&#39;&#39; parser = argparse.ArgumentParser() parser.add_argument(&#34;--output-folder&#34;, default=&#34;joplin_note_export&#34;) parser.add_argument(&#34;--api-token&#34;, default=os.getenv(&#34;API_TOKEN&#34;)) args = parser.parse_args() # What is the data in args? the dash in flag will be converted to underscore &ndash;output-folder -&gt; args.output_folder Replace bad characters in filenames https://stackoverflow.com/a/27647173/7410886

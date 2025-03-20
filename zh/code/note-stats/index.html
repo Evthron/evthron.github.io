@@ -11,7 +11,7 @@
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.558efb48d9a812d770013d9a112df3316eaeee3b596f335306049ea32bc39dd3.css"><meta property='og:title' content='文本分析'>
+        <link rel="stylesheet" href="/scss/style.min.79a1ee359f2edc7dca9423d7deeaae6a30ca32801f79c1c5b4052798c95cf969.css"><meta property='og:title' content='文本分析'>
 <meta property='og:description' content='def analyze_text(text: str): tokens = word_tokenize(text) # tokens are all the words # reset tokens using list generator tokens = [ # normalize to lower case word.lower() for word in tokens # exculde punctuation if word not in (&#34;...&#34;, &#34;&#39;&#39;&#34;, &#34;``&#34;, &#34;--&#34;, &#34;&#43;&#43;&#34;) and word not in string.punctuation and # exclude single character words len(word) &gt; 1 and # exclude words containing less than one digit not any(character.isdigit() for character in word) # generator is allowed to be used in any() ] # show how many words are there print(&#34;Words:&#34;, len(tokens)) # filter most common words tokens = [ word for word in tokens if word not in set(stopwords.words(&#34;english&#34;) &#43; stopwords.words(&#34;german&#34;)) ] # generate frequecy dictionary using FreqDist fdist = FreqDist(tokens) # fdist.plot(50) print(&#34;Most common words:&#34;) for word, count in fdist.most_common(10): print(f&#34;- {word}: {count}&#34;) exclude words that contains numbers &ndash; flashcards
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/note-stats/'>
