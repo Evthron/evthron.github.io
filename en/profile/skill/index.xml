@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Evthron&#39;s blog en</title>
+        <link>https://evthron.github.io/en/profile/skill/</link>
+        <description>Recent content on Evthron&#39;s blog en</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Tue, 27 Aug 2024 12:25:35 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/profile/skill/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Gamify my life</title>
+        <link>https://evthron.github.io/en/profile/skill/introduction/</link>
+        <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/introduction/</guid>
+        <description>&lt;p&gt;Gamification is adding game elements to activities. This motivates people to do things they will not normally do. A great example is Habitica, a platform for nurturing habits in an RPG way. Players gain experience points and coins by completing daily tasks. They level up and buy new equipment to attack monsters in quests. I have used Habitica for a years and I recommend anyone to try it to grasp what gamification is.&lt;/p&gt;
+&lt;p&gt;However, as my level grows, the numbers becomes less and less meaningful. I felt that this is just a glorified to-do list. The reason is obvious: A game is not a accurate representation of reality. My avatar is at level 88, but what does that mean? Maybe that was a reward of I being a good learner, or having a great habit of exercising. I can&amp;rsquo;t tell because all the things I earned have been mixed together and there&amp;rsquo;s no record keeping track of them. I want the number to be meaningful, like that actual stats in RPGs that can do actual damages.&lt;/p&gt;
+&lt;p&gt;Therefore, I want to create my own system to represent my real life. I focused on experiences and knowledge because they are easy to quantify and cannot regress. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
+&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>class Writer</title>
+        <link>https://evthron.github.io/en/profile/skill/writer/</link>
+        <pubDate>Fri, 29 Mar 2024 12:53:39 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/writer/</guid>
+        <description>&lt;h2 id=&#34;writing-statistics&#34;&gt;Writing Statistics&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;              File count:  61 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
+
+           Frame-of-mind:  11 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
+
+               Imaginary:   4 --- Lv1 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+                 Reviews:  11 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
+
+                 Stories:  24 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
+
+                 Toolbox:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+
+                 Writing:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;input-method&#34;&gt;Input Method&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;English: dvoark&lt;/li&gt;
+&lt;li&gt;Chinese: double pinyin (flypy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;writing-software&#34;&gt;Writing Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Joplin&lt;/li&gt;
+&lt;li&gt;FocusWriter&lt;/li&gt;
+&lt;li&gt;VimWiki&lt;/li&gt;
+&lt;li&gt;Obsidian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;writing-technique&#34;&gt;Writing Technique&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Incremental writing with Obsidian plugin&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>class Foreigner</title>
+        <link>https://evthron.github.io/en/profile/skill/foreigner/</link>
+        <pubDate>Thu, 28 Mar 2024 02:39:05 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/foreigner/</guid>
+        <description>&lt;h2 id=&#34;skill&#34;&gt;Skill&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;     English vocab (web): 930 --- Lv12 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱
+
+          Japanese vocab: 430 --- Lv8 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Anki&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>class Programmer</title>
+        <link>https://evthron.github.io/en/profile/skill/programmer/</link>
+        <pubDate>Mon, 25 Mar 2024 12:05:21 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/programmer/</guid>
+        <description>&lt;h2 id=&#34;read-code&#34;&gt;Read Code&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;              Code notes:  18
+
+          Function count:  12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+          Data-structure:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
+
+             File-system:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+                     Web:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;notes-for-own-code&#34;&gt;Notes for own code&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;                  Python:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;write-code&#34;&gt;Write Code&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Python function (script): 104 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+
+Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
+
+            Shell script:  20 --- Lv2 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here are my notes on the code I read.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/code&#34; &gt;code notes&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Terminal: Konsole&lt;/li&gt;
+&lt;li&gt;Shell: zsh&lt;/li&gt;
+&lt;li&gt;Code Editor: VS Codium&lt;/li&gt;
+&lt;li&gt;Version Control: git&lt;/li&gt;
+&lt;li&gt;Python interpreter: Thonny&lt;/li&gt;
+&lt;li&gt;Site builder: hugo&lt;/li&gt;
+&lt;li&gt;Tagging: filetags&lt;/li&gt;
+&lt;li&gt;Password Management: Keepass&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;achievements&#34;&gt;Achievements&lt;/h2&gt;
+&lt;p&gt;Reinvent the wheel:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Matrix operations (numpy-like)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Scripts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Automate blog publishing&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Automate blog statistics counting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Operating system:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Install Arch Linux
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Set up Chinese input method (fcitx5)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to Dexpot (qtile)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to foobar2000 (Audiotube)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to AutoHotKey (keyd)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to Supermemo (Obsidian Incremental Writing Plugin)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to Cold Turkey Blocker (DNS blocking using dnsmasq)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; What is Emacs? A highly programmable text editor using lisp.&lt;/li&gt;
+&lt;li&gt;List of shell commands I grasp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Web:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Create own blog template
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tweet Layout&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Gallery Layout&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Statistic page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Web crawler&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Software Development:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write an application that randomly shows motivational quotes&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write a Joplin plug-in for incremental writing&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write a oklch colour picker plug-in for Krita&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write a task scheduler that automatically picks daily tasks.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Generate oklch intensity charts with different brightness level&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>class Right-sider</title>
+        <link>https://evthron.github.io/en/profile/skill/right-sider/</link>
+        <pubDate>Mon, 25 Mar 2024 12:05:21 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/right-sider/</guid>
+        <description>&lt;h2 id=&#34;skill&#34;&gt;Skill&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;                 Collect: 124 --- Lv5 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+                   Share:  36 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Right-sider, the opposite of &amp;lsquo;wrong-sider&amp;rsquo;. I altered the meaning a bit for my own use.&lt;/p&gt;
+&lt;h2 id=&#34;collection&#34;&gt;Collection&lt;/h2&gt;
+
+&lt;div class=&#34;progress-bar-status&#34;&gt;
+    &lt;div class=&#34;status-labels&#34;&gt;
+        &lt;span&gt;Book count:&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-count&#34;&gt;0/100&lt;/span&gt;
+        &lt;span&gt;---&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-level&#34;&gt;Lv0&lt;/span&gt;
+    &lt;/div&gt;
+   &lt;div class=&#34;progress-bar&#34;&gt;
+        
+        &lt;div class=&#34;progress-bar-experience&#34; style=&#34;width: 0%&#34; role=&#34;progressbar&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;a href=&#34;#leil-lowndes---how-to-talk-to-anyone--92-little-tricks-for-big-success-in-relationships&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL7299892M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Leil Lowndes - How to talk to anyone : 92 little tricks for big success in relationships&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#melanie-joy---getting-relationships-right--how-to-build-resilience-and-thrive-in-life-love-and-work&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL32589478M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Melanie Joy - Getting relationships right : how to build resilience and thrive in life, love, and work&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL7441021M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Keith Ferrazzi, Tahl Raz - Never eat alone : and other secrets to success, one relationship at a time&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+&lt;h3 id=&#34;leil-lowndes---how-to-talk-to-anyone--92-little-tricks-for-big-success-in-relationships&#34;&gt;Leil Lowndes - How to talk to anyone : 92 little tricks for big success in relationships&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A very practical conversation guide that helped me find the joy of small talk. Even if you were an alien from another universe, you can blend in with normal human by following those guildlines, starting from &amp;rsquo;look into other&amp;rsquo;s eyes&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;melanie-joy---getting-relationships-right--how-to-build-resilience-and-thrive-in-life-love-and-work&#34;&gt;Melanie Joy - Getting relationships right : how to build resilience and thrive in life, love, and work&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It convinced me that I shoul seek for connection by presenting the framework of relationship. People are vastly different in their way of connceting. However, finding friends is not that hard since they only need to compatible in some aspects of connection. It explains what does it mean to be &amp;lsquo;vulnerable&amp;rsquo;. It&amp;rsquo;s actually meaning is really &amp;lsquo;do not avoid emotional risk&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time&#34;&gt;Keith Ferrazzi, Tahl Raz - Never eat alone : and other secrets to success, one relationship at a time&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Attracted me by the book title and blew my mind by promoting &amp;lsquo;get as many friends as you can&amp;rsquo;. Since the author is a businessman, you might think the book will tell you ways to manipulate others to benefit from relationships. Rather, you can still be very sincereto others while following his advice.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>class Painter</title>
+        <link>https://evthron.github.io/en/profile/skill/painter/</link>
+        <pubDate>Sun, 10 Mar 2024 06:10:52 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/painter/</guid>
+        <description>&lt;h2 id=&#34;overall&#34;&gt;Overall&lt;/h2&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    Total_count
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv8
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;376p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;56 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040118%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131658%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131711%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    lines
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;18p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;18 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_030341%20--%20lines%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_030649%20--%20lines%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240403_203011%20--%20lines%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240404_000011%20--%20outdoors%20lines.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190103%20--%20home%20colour%20sight%20lines.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250102_040628%20--%20lines%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    colour
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv3
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;46p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;26 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231343%20--%20outdoors%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231347%20--%20outdoors%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231411%20--%20outdoors%20colour%20copies.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181227%20--%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181239%20--%20colour%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    perspective
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;8p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;4 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014105%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014110%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014113%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014118%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014121%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_031303%20--%20figures%20perspective%20copies%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_031308%20--%20figures%20perspective%20copies%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    figures
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv4
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;112p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;8 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190505%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144057%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144100%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144103%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063558%20--%20colour%20home%20doodles%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054247%20--%20sight%20figures%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231324%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231340%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231358%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231407%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231413%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231416%20--%20outdoors%20figures%20sight%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241204_235004%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250102_040714%20--%20sight%20figures%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123801%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123819%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131711%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    hands
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;12p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;24 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    heads
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv3
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;54p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;18 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190449%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190503%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190505%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231330%20--%20outdoors%20heads%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231354%20--%20outdoors%20heads%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231404%20--%20outdoors%20heads%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241121_004329%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241121_004336%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241121_004340%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123807%20--%20sight%20heads%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sketchbook&#34;&gt;Sketchbook&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    Book used
+&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    file_count
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv8
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;361p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;71 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    sight
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv6
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;196p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;56 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    copies
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv5
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;124p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;56 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240521_215416%20--%20outdoors%20copies.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231411%20--%20outdoors%20colour%20copies.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    doodles
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;5p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;7 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_021521%20--%20doodles%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_023607%20--%20doodles%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240529_011346%20--%20colour%20doodles%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190106%20--%20home%20doodles.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063558%20--%20colour%20home%20doodles%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    home
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv6
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;200p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;52 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054255%20--%20home%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241204_235000%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181140%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181153%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181204%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131658%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    outdoors
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv5
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;158p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;22 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123812%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123815%20--%20hands%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123819%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250213_160735%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040102%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040106%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040113%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040118%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131711%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    completed
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;22p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;14 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_033300%20--%20outdoors%20completed%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_033304%20--%20outdoors%20completed%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240413_070723%20--%20home%20sight%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240509_080431%20--%20sight%20home%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240509_174335%20--%20home%20sight%20completed%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240523_035246%20--%20home%20sight%20colour%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240529_011352%20--%20colour%20completed%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063624%20--%20colour%20sight%20home%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231416%20--%20outdoors%20figures%20sight%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250102_040714%20--%20sight%20figures%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;digital&#34;&gt;Digital&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    file_count
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;15p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;21 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.40%20body%20skeleton%20--%20figures%203%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.41%20body%20skeleton%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.15.24%20balance%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    lines
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;2p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2023-01-09T16.34.13%20sketch01%20--%20lines.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-01-08T23.00.54%205-sides%20--%20figures%20lines.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    colour
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;7p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;5 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.07.28%20Betty%20Edwards%20colour%20wheel%20--%20colour%20references.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.14%20single-value-colour-combo%20--%20colour.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.42%20nightview%20--%20sight%20colour%20home%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.07%20christmas-house%20--%20completed%20colour%20scanned.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.34%20colour-four-season%20--%20colour.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.51%20lazard-man%20--%20colour%20completed%20sight.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.10.53%20flower-repaint%20--%20colour.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    scanned
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;1p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;11 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.07%20christmas-house%20--%20completed%20colour%20scanned.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    photo
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;5p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;7 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.11.55%20body-sketch%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.13.22%20body%20skeleton%202%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.40%20body%20skeleton%20--%20figures%203%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.41%20body%20skeleton%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.15.24%20balance%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    sight
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;2p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.42%20nightview%20--%20sight%20colour%20home%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.51%20lazard-man%20--%20colour%20completed%20sight.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    completed
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;4p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;8 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.42%20nightview%20--%20sight%20colour%20home%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.07%20christmas-house%20--%20completed%20colour%20scanned.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.51%20lazard-man%20--%20colour%20completed%20sight.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.11.12%20Labcoat%20--%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;Digital:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Krita&lt;/li&gt;
+&lt;li&gt;One by Wacom Medium CTL-672&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Physical:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lyra Rembrandt Art Design pencils&lt;/li&gt;
+&lt;li&gt;Sakura Cray-Pas Oil Pastels&lt;/li&gt;
+&lt;li&gt;uni Nano Dia 0.5, 2B &amp;amp; 4B Leads&lt;/li&gt;
+&lt;li&gt;Zebra DelGuard 0.5 Mechanical pencil&lt;/li&gt;
+&lt;li&gt;MONO Plastic Eraser&lt;/li&gt;
+&lt;li&gt;NDK Cutter S-800&lt;/li&gt;
+&lt;li&gt;Colleen Colour Pencil&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cardboard viewfinder&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cardboard colour wheel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;achievements&#34;&gt;Achievements&lt;/h2&gt;
+&lt;p&gt;Drawing at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Home&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Park&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mall&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Minibus&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Restaurant&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beach&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hospital&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Street&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Lecture Room&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sports Centre&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Railway&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Library&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Art Museum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finish a drawing using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pencil&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Fineliner&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Willow charcoal&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acrylic&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Coloured pencil&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Oil Pastel&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Ballpoint pen&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Rubber on charcoal&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sand and stick&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Window and water vapour&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Printout images&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Subject matter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-Portrait&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Portrait for others&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Avatar Icon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;collection&#34;&gt;Collection&lt;/h2&gt;
+
+&lt;div class=&#34;progress-bar-status&#34;&gt;
+    &lt;div class=&#34;status-labels&#34;&gt;
+        &lt;span&gt;Books:&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-count&#34;&gt;0/100&lt;/span&gt;
+        &lt;span&gt;---&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-level&#34;&gt;Lv0&lt;/span&gt;
+    &lt;/div&gt;
+   &lt;div class=&#34;progress-bar&#34;&gt;
+        
+        &lt;div class=&#34;progress-bar-experience&#34; style=&#34;width: 0%&#34; role=&#34;progressbar&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+
+&lt;a href=&#34;#andrew-loomis---drawing-the-head-and-hands&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL26841938M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Andrew Loomis - Drawing the Head and Hands&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#andrew-loomis---figure-drawing-for-all-its-worth&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL47084536M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Andrew Loomis - Figure drawing for all it&amp;#39;s worth&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#betty-edwards---the-new-drawing-on-the-right-side-of-the-brain&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL24346158M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Betty Edwards - The new drawing on the right side of the brain&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#betty-edwards---color--a-course-in-mastering-the-art-of-mixing-colors&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL8816408M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#charles-williams---basic-drawing--how-to-draw-what-you-see&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Charles Williams - Basic drawing : how to draw what you see&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#donna-krizek---drawing-and-sketching-secrets--200-tips-and-techniques-for-drawing-the-easy-way&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL25173760M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#gilles-ronin---le-dessin-en-perspective-a-main-levee&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Gilles Ronin - Le dessin en perspective a main levee&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#james-hobbs---sketch-your-world&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL26122953M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;James Hobbs - Sketch Your World&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#mark-kistler---you-can-draw-in-30-days--the-fun-easy-way-to-learn-to-draw-in-one-month-or-less&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL26010041M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#mark-kistler---you-can-draw-it-in-just-30-minutes--see-it-and-sketch-it-in-a-half-hour-or-less&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL27404161M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#rudy-de-reyna---how-to-draw-what-you-see&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL5317479M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Rudy de Reyna - How to draw what you see&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#r-o-dunlop-ra---painting-for-pleasure&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;R. O. Dunlop, R.A - Painting for pleasure&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#sam-piyasena-beverly-philp---just-draw-it&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL25973254M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Sam Piyasena, Beverly Philp - Just draw it!&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#%e8%b6%99%e5%b7%8d%e5%b2%a9-%e9%99%bd%e4%bd%b3-%e6%a5%8a%e8%90%8c---between-object-and-subject--painting-as-a-way-to-perceive-and-express&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;andrew-loomis---drawing-the-head-and-hands&#34;&gt;Andrew Loomis - Drawing the Head and Hands&lt;/h3&gt;
+&lt;h3 id=&#34;andrew-loomis---figure-drawing-for-all-its-worth&#34;&gt;Andrew Loomis - Figure drawing for all it&amp;rsquo;s worth&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Both are the classic books that often gets recommends until this day. They
+presents more examples than explanation so I still need to copy a lot more
+drawings of to get the most out of them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;betty-edwards---the-new-drawing-on-the-right-side-of-the-brain&#34;&gt;Betty Edwards - The new drawing on the right side of the brain&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A very important book for beginners. It explains the reason why people draw
+badly is that they only draw symbols instead of what they actually see.
+Anyone could draw well once they know the knack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;betty-edwards---color--a-course-in-mastering-the-art-of-mixing-colors&#34;&gt;Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces the important concepts about colours: colour wheels, components
+of colour (hue, saturation and value), and how to actually mix them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;charles-williams---basic-drawing--how-to-draw-what-you-see&#34;&gt;Charles Williams - Basic drawing : how to draw what you see&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Drawing doesn&amp;rsquo;t have to be masterpieces, it can be a dirty doodle drawn on
+boring lectures. In fact, the book said you don&amp;rsquo;t have to draw what you
+see. Most example shown are rough sketches, which makes it
+beginner-friendly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;donna-krizek---drawing-and-sketching-secrets--200-tips-and-techniques-for-drawing-the-easy-way&#34;&gt;Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces a lot of advanced techniques around many traditional media. It&amp;rsquo;s
+examples are all masterpieces so it&amp;rsquo;s not very useful to me yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gilles-ronin---le-dessin-en-perspective-a-main-levee&#34;&gt;Gilles Ronin - Le dessin en perspective a main levee&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces the mathematical knowledge behind the construction of accurate
+shapes, shadows and perspective. It&amp;rsquo;s very interesting to learn the
+principles but not very useful to me for now since I don&amp;rsquo;t need this kind of precision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;james-hobbs---sketch-your-world&#34;&gt;James Hobbs - Sketch Your World&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Giving me the idea of outdoor sketching, which is much more interesting
+than drawing indoors. To me, drawing is the best way to spend outdoor time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mark-kistler---you-can-draw-in-30-days--the-fun-easy-way-to-learn-to-draw-in-one-month-or-less&#34;&gt;Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A true beginner&amp;rsquo;s book. It&amp;rsquo;s first lesson is to teach you how to draw a
+ball, then a cube, then a cylinder, then all the basic techniques in
+drawing. To me, the most brilliant technique introduced is smudging. Although
+any art teacher will tell you this is bad, this is much more
+beginner-friendly than cross-hatching, while the effect created is still stunning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mark-kistler---you-can-draw-it-in-just-30-minutes--see-it-and-sketch-it-in-a-half-hour-or-less&#34;&gt;Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The next book in the series, nothing special but still quite fun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rudy-de-reyna---how-to-draw-what-you-see&#34;&gt;Rudy de Reyna - How to draw what you see&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Every object is a combination of spheres, cubes, cylinders and cones,
+really?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;r-o-dunlop-ra---painting-for-pleasure&#34;&gt;R. O. Dunlop, R.A - Painting for pleasure&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It recommends pastels as a good outdoor medium, although I later found
+out that it meant the powdery ones. Powdery pastels are more expensive
+and create a powdery mess. So I&amp;rsquo;m satisfied with the oily ones. It is another book that encourages beginners to do outdoor painting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sam-piyasena-beverly-philp---just-draw-it&#34;&gt;Sam Piyasena, Beverly Philp - Just draw it!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It gives out lot of interesting ideas on creative art making, not bounded by
+traditional media.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;趙巍岩-陽佳-楊萌---between-object-and-subject--painting-as-a-way-to-perceive-and-express&#34;&gt;趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It thoroughly discussed how should we practise drawing to learn our true styles. Artistic drawings are not likely to be eye candies. We draw not only what we see but beyond what we see.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

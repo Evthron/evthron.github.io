@@ -27,11 +27,177 @@
 </description>
         </item>
         <item>
+        <title>高階運算</title>
+        <link>https://evthron.github.io/zh/profile/posts/higher-order-operation/</link>
+        <pubDate>Fri, 14 Mar 2025 10:42:27 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/higher-order-operation/</guid>
+        <description>&lt;p&gt;$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。&lt;/p&gt;
+&lt;p&gt;增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？&lt;/p&gt;
+&lt;p&gt;我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。&lt;/p&gt;
+&lt;p&gt;如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？&lt;/p&gt;
+&lt;p&gt;例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？&lt;/p&gt;
+&lt;p&gt;四階運算有沒有微分的概念？如果有，會不會有一個像 $e$ 一樣的常數，具有「變化率等同自身」的性質？&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我發現，這是數學上沒有定論的問題，也沒有研究的價值。&lt;/p&gt;
+&lt;p&gt;指數運算之所以實用，是因為它能夠通過各種運算規則（指數律），從離散的定義（整數次方）自然地擴展到連續的定義（非整數次方）。這種連續性使得我們能夠定義導數，研究函數的變化率。&lt;/p&gt;
+&lt;p&gt;然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。&lt;/p&gt;
+&lt;p&gt;更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。&lt;/p&gt;
+&lt;p&gt;[Beyond exponentiation: A tetration investigation (youtube) ]https://www.youtube.com/watch?v=qdqPTEpq5Xw&amp;amp;pp=ygUJdGV0cmF0aW9u)&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>抗拒人工智能</title>
         <link>https://evthron.github.io/zh/posts/refuse-ai/</link>
         <pubDate>Sun, 16 Feb 2025 15:43:55 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/refuse-ai/</guid>
+        <description>&lt;p&gt;不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。&lt;/p&gt;
+&lt;p&gt;我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。&lt;/p&gt;
+&lt;p&gt;人工智能，更準確地説，各種文字、圖像、聲音、影像生產模型的存在，揭示了一個事實：我們以為只有人能做的創作，隱藏着能用機械的計算模擬的規律，是可以像商品一樣大量生產的。以創作為職業，很可能只是在重複勞動而不自知。&lt;/p&gt;
+&lt;p&gt;以畫素描為例，這只是把眼睛看到的線條、形狀和色塊複製到紙上去而已。用電腦的角度來看，不過是一種邊緣檢測算法：圖像可以理解為像素矩陣，圖像模糊可以用矩陣和常態分佈函數的卷積計算，邊緣可以理解為像素值變化率高的地方。&lt;/p&gt;
+&lt;p&gt;從原理上講，畫素描的運算過程既複雜又單調，為什麼我還能樂在其中？直白地説，是因為我的智力不足，沒有辦法像電腦一樣用相同的算法處理每一副景象，才會享受這個努力辨識線條的過程。&lt;/p&gt;
+&lt;p&gt;你可能會説：「電腦運算出來的只是一串像素，沒有人手畫的靈魂。」我也是這麼認為的。畫家對景物的認知和感情會反映在線條上，是一種獨特的記錄，任何機器都無法取代。&lt;/p&gt;
+&lt;p&gt;但對平庸的畫家而言，無論他能在這複製線條的過程裏獲得多少樂趣，這種情感帶來的線條變化並不會為畫增加經濟價值。在發明相機以後，只懂得複製眼前所見景像的平庸肖像畫家統統丟掉了飯碗。&lt;/p&gt;
+&lt;p&gt;這看起來是一種進化，把人從低端的描線，填色工作解放出來，能夠專注在更高層次的創意上。但描線、填色雖然低端，卻是有樂趣的工作。&lt;/p&gt;
+&lt;p&gt;在圖像生產模型出現以後，情況變得更加極端，模仿別人的藝術風格，從學習的必經過程，變成了新一代的低端工作。無論畫家的個人風格有多麼獨特，只要訓練樣本足夠，任何人也能訓練出對應的圖像生產模型，按一個按鈕就能大量生產。&lt;/p&gt;
+&lt;p&gt;能夠迅速接受人工智能的創作者明白，創作和其他所有工作一樣，並沒有特殊的地位，一樣是要生產出別人需要的商品而已。質量比較差也好，沒有所謂的「靈魂」也好，這些缺點能夠用低成本和數量彌補。&lt;/p&gt;
+&lt;p&gt;幸好，畫畫並不是我的工作，而寫程序雖然需要一點創意，相對來説也比較死板，程式碼的細節並不會直接反映到成品上。新手寫出來的程式碼，怎麼可能會比得上無敵的大模型？&lt;/p&gt;
+&lt;p&gt;使用人工智能，我失去的就只有樂趣而已：自己摸索答案的樂趣；師從某位老師、某本教材的樂趣；明白知識起源的樂趣；自豪地宣稱某份作品是自己原創的樂趣。淨是些效率低下，沒有經濟價值的樂趣。這和&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/&#34; &gt;數學造輪子&lt;/a&gt;一樣讓我失落。&lt;/p&gt;
+&lt;p&gt;像我一樣能從總結規律中獲得樂趣的人終究是少數，大部分人總是比較喜歡直接得到成果的感覺。對自己親手寫的程式碼帶有感情，就像是覺得用人手算出來答案會比計算器算出來的答案更有人情味一樣可笑。&lt;/p&gt;
+&lt;p&gt;不斷打破過去的規則，用新的角度看待事物，才算得上是創作者。人類探索了地球上的每一個角落之後，想要自稱探險家，只能往宇宙進發，這是只有極少數人有能力挑戰的任務。&lt;/p&gt;
+&lt;p&gt;我會用的。無論是寫文章、寫程序、還是畫畫，只要放棄那一部分微不足道又無可替代的樂趣，我就能進步得更快，拋棄底層的低端重複勞動，專注在更加高層次的創作上。我應該是能做到的才對。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;幫這篇文章取標題，潤色，使文章更容易閲讀：&lt;/p&gt;
+&lt;p&gt;DeepSeek:&lt;/p&gt;
+&lt;h3 id=&#34;標題建議&#34;&gt;標題建議：&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;「AI時代的創作困境：當樂趣遇上效率」&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「從抗拒到接納：AI如何改變我的創作觀」&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「創作的靈魂與機器的效率：AI時代的反思」&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「當AI剝奪了創作的樂趣，我們還能留下什麼？」&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「從手繪到AI：創作者的進化與失落」&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;潤色後的文章&#34;&gt;潤色後的文章：&lt;/h3&gt;
+&lt;p&gt;
+不懂得用人工智能就會被淘汰，&lt;span style=&#34;color:#01ad34;&#34;&gt;但&lt;/span&gt;我卻&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;有點&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;對&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;它&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;有些&lt;/span&gt;抗拒&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;使用&lt;/del&gt;。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;作為&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;一個&lt;/span&gt;學習電腦技術&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;不正&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;人&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這讓&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;感到&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;不安&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;。&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;畢竟&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這&lt;/span&gt;正是&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;是&lt;/del&gt;我的專業領域&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;嗎&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;為&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;什麼&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我會&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;對&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;產生&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這樣&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;抵觸&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;情緒&lt;/span&gt;？&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;這使&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;我&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;很&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;不安&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;。&lt;/del&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;我&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;搞清楚&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;經過&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;一番&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;思考&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我終&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;於&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;明白&lt;/span&gt;了這種厭惡&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;背&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;後&lt;/del&gt;的&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;原因&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;根源&lt;/span&gt;：&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人工智能&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;打破了&lt;span style=&#34;color:#01ad34;&#34;&gt;我們&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;能&lt;/del&gt;以&lt;span style=&#34;color:#01ad34;&#34;&gt;為&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;可以&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;靠&lt;/span&gt;平庸&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;創作&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;工作&lt;/del&gt;維生的幻想，&lt;span style=&#34;color:#01ad34;&#34;&gt;也&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;還把&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;我&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;學習&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;樂趣&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;徹底&lt;/del&gt;剝奪了&lt;span style=&#34;color:#01ad34;&#34;&gt;我&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;從&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;學習&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;中&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;獲得&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;樂趣&lt;/span&gt;。
+&lt;/p&gt;
+&lt;p&gt;
+&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人工智能&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;更準&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;確地&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;說&lt;/span&gt;，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;更&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;準確&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;地&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;説&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;各種&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;—&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;—&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;尤其&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;是&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;那些&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;能夠&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;生成&lt;/span&gt;文字、圖像、聲音&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;、&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;和&lt;/span&gt;影像&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;生產&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;模型&lt;span style=&#34;color:#01ad34;&#34;&gt;—&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;—&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;存在&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;揭示了一個&lt;span style=&#34;color:#01ad34;&#34;&gt;令人不安&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;事實：我們以為只有&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人能&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;做&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;人類&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;才能&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;完成&lt;/span&gt;的創作，&lt;span style=&#34;color:#01ad34;&#34;&gt;其實&lt;/span&gt;隱藏着&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;能&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;可以&lt;/span&gt;用機械&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;計算模擬的規律，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;是&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;甚至&lt;/span&gt;可以像商品一樣大量生產&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這讓&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;意識&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;到&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;以創作為職業，很可能只是在重複勞動而不自知。&lt;span style=&#34;color:#01ad34;&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;
+&lt;/span&gt;以畫素描為例，這&lt;span style=&#34;color:#01ad34;&#34;&gt;看似&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;是&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;一項&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;需要&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;技巧&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;和&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;靈感&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;藝術&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;活動&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;但&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;從&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;本質&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;上講&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;它&lt;/span&gt;只是&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;把&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;將&lt;/span&gt;眼睛看到的線條、形狀和色塊複製到紙&lt;span style=&#34;color:#01ad34;&#34;&gt;上&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;上去&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;而已&lt;/del&gt;。&lt;span style=&#34;color:#01ad34;&#34;&gt;從&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;用電腦&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;電腦&lt;/span&gt;的角度來看，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;不過&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這不過&lt;/span&gt;是一種&lt;span style=&#34;color:#01ad34;&#34;&gt;「&lt;/span&gt;邊緣檢測算法&lt;span style=&#34;color:#01ad34;&#34;&gt;」&lt;/span&gt;：圖像可以&lt;span style=&#34;color:#01ad34;&#34;&gt;被&lt;/span&gt;理解為像素矩陣，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;圖像&lt;/del&gt;模糊&lt;span style=&#34;color:#01ad34;&#34;&gt;效果&lt;/span&gt;可以用矩陣和常態分佈函數的卷&lt;span style=&#34;color:#01ad34;&#34;&gt;積來&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;積計算&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;計算&lt;/span&gt;，&lt;span style=&#34;color:#01ad34;&#34;&gt;而邊&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;緣則&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;是&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;邊緣&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;可以&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;理解&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;為&lt;/del&gt;像素值變化率高的地方。從原理上講，畫素描的運算過程既複雜又單調，為什麼我還能樂在其中？&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;直白&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;地&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;説&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;坦白&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;說&lt;/span&gt;，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;是&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這是&lt;/span&gt;因為我的智力&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;不足&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;有限&lt;/span&gt;，&lt;span style=&#34;color:#01ad34;&#34;&gt;無法&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;沒有&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;辦法&lt;/del&gt;像電腦一樣用相同的算法處理每&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;一副&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;一幅&lt;/span&gt;景象，才會享受&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;這個&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這種&lt;/span&gt;努力辨識線條的過程。
+&lt;/p&gt;
+&lt;p&gt;
+你可能會&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;説&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;反駁&lt;/span&gt;：「電腦&lt;span style=&#34;color:#01ad34;&#34;&gt;生成&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;運算&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;出來&lt;/del&gt;的只是一串像素，沒有人手畫的靈魂。」我也&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;是&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;曾&lt;/span&gt;這麼認為&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;。畫家對景物的認知和&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;感情&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;會&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;情感&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;確實會&lt;/span&gt;反映在線條上，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;是&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這是&lt;/span&gt;一種獨特的記錄，任何機器都無法取代。但對&lt;span style=&#34;color:#01ad34;&#34;&gt;於&lt;/span&gt;平庸的&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;畫家&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;畫家來&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;而言&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;說&lt;/span&gt;，無論&lt;span style=&#34;color:#01ad34;&#34;&gt;他們&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;他&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;能&lt;/del&gt;在&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;這&lt;/del&gt;複製線條的過程&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;裏&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;中&lt;/span&gt;獲得多少樂趣，這種情感帶來的線條變化並不會&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;為畫&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;為&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;畫作&lt;/span&gt;增加經濟價值。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;在&lt;span style=&#34;color:#01ad34;&#34;&gt;相機&lt;/span&gt;發明&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;相機&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;以&lt;/del&gt;後，&lt;span style=&#34;color:#01ad34;&#34;&gt;那些&lt;/span&gt;只懂得複製眼前&lt;span style=&#34;color:#01ad34;&#34;&gt;景象&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;所見&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;景像&lt;/del&gt;的平庸肖像畫家&lt;span style=&#34;color:#01ad34;&#34;&gt;紛紛&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;失業&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;統統&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;丟掉&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;了&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;飯&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;碗&lt;/del&gt;。&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;這看&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;起來&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;看似&lt;/span&gt;是一種進化，&lt;span style=&#34;color:#01ad34;&#34;&gt;將人類&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;把&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人&lt;/del&gt;從低端的&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;描線&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;填色&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;工作&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;解放&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;出來&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;能夠&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;專注&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;在&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;更&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;高層次&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;創意&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;上&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;。&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;但&lt;/del&gt;描線、填色&lt;span style=&#34;color:#01ad34;&#34;&gt;工作&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;中&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;解放&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;出來&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;讓&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我們&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;能夠&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;專注&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;於&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;更&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;高層次&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;創意&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;。&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;然而&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;描線&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;和&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;填色&lt;/span&gt;雖然低端，卻是有樂趣的工作。
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;圖像&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;生成&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;在&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;圖&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;像&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;生產&lt;/del&gt;模型&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;出現&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;以&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;後&lt;/del&gt;，&lt;span style=&#34;color:#01ad34;&#34;&gt;讓&lt;/span&gt;情況變得更加極端&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;。&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;模仿&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;別人&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;他人&lt;/span&gt;的藝術風格，從學習的必經過程，變成了新一代的低端工作。無論畫家的個人風格&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;有&lt;/del&gt;多麼獨特，只要訓練樣本足夠，任何人&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;也&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;都&lt;/span&gt;能訓練出對應的&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;圖&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;像&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;生產&lt;/del&gt;模型，按一個按鈕就能大量生產。&lt;span style=&#34;color:#01ad34;&#34;&gt;那些&lt;/span&gt;能夠迅速接受&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人工智能&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;的創作者明白，創作和其他&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;所有&lt;/del&gt;工作一樣，並沒有特殊的地位，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;一樣&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;是&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;要&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;它&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;只是&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;一種&lt;/span&gt;生產&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;出別&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;需要&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;商品&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;而已&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;手段&lt;/span&gt;。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;質量&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;比&lt;/del&gt;較差&lt;span style=&#34;color:#01ad34;&#34;&gt;、&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;缺乏&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;也好&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;沒&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;有所&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;謂&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;的&lt;/del&gt;「靈魂」&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;也好&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;這些&lt;/del&gt;缺點&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;能夠&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;可以&lt;/span&gt;用低成本和&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;數量&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;大量&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;生產來&lt;/span&gt;彌補。
+&lt;/p&gt;
+&lt;p&gt;
+幸好，畫畫並不是我的工作&lt;span style=&#34;color:#01ad34;&#34;&gt;。&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;而&lt;/del&gt;寫程序雖然需要&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;一點&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;一些&lt;/span&gt;創意，&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;相對&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;但&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;相&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;對&lt;/span&gt;來&lt;span style=&#34;color:#01ad34;&#34;&gt;說&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;説&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;也&lt;/del&gt;比較死板，程式碼的細節並不會直接反映&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;到&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;在&lt;/span&gt;成品上。新手寫出來的程式碼，怎麼可能&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;會&lt;/del&gt;比得上無敵的大模型？&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;使用&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;人工智能&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;，我失去的&lt;span style=&#34;color:#01ad34;&#34;&gt;只是&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;就&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;只有&lt;/del&gt;樂趣&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;而已&lt;/del&gt;：自己摸索答案的樂趣&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;；&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;、&lt;/span&gt;師從某位老師&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;、&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;或&lt;/span&gt;某本教材的樂趣&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;；&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;明白&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;、&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;理解&lt;/span&gt;知識起源的樂趣&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;；&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;，&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;以及&lt;/span&gt;自豪地宣稱某份作品是自己原創的樂趣。&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;淨&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這些&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;都&lt;/span&gt;是&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;些&lt;/del&gt;效率低下&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;，&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;、&lt;/span&gt;沒有經濟價值的樂趣。&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;這和數&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這和&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;「&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;學造&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;數學造&lt;/span&gt;輪子&lt;span style=&#34;color:#01ad34;&#34;&gt;」&lt;/span&gt;一樣讓我&lt;span style=&#34;color:#01ad34;&#34;&gt;感到&lt;/span&gt;失落。像我&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;一樣&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;這樣&lt;/span&gt;能從總結規律中獲得樂趣的人終究是少數，大部分人&lt;span style=&#34;color:#01ad34;&#34;&gt;更&lt;/span&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;總&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;是&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;比&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;較&lt;/del&gt;喜歡直接得到成果的感覺。對自己親手寫的程式碼帶有感情，就&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;像是&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;像&lt;/span&gt;覺得用人手算出來&lt;span style=&#34;color:#01ad34;&#34;&gt;的&lt;/span&gt;答案&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;會&lt;/del&gt;比計算器算出來的&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;答案&lt;/del&gt;更有&lt;span style=&#34;color:#01ad34;&#34;&gt;「&lt;/span&gt;人情味&lt;span style=&#34;color:#01ad34;&#34;&gt;」&lt;/span&gt;一樣可笑。
+&lt;/p&gt;
+&lt;p&gt;
+不斷打破過去的規則，用新的角度看待事物，才算得上是創作者。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;人類探索了地球上的每一個角落&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;之&lt;/del&gt;後，想要自稱探險家，只能往宇宙進發，這是只有極少數人有能力挑戰的任務。&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;我會用&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;我會&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;使用&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;AI&lt;/span&gt;的。&lt;span style=&#34;color:#01ad34;&#34;&gt; &lt;/span&gt;無論是寫文章、寫程序&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;、&lt;/del&gt;還是畫畫，只要放棄那一部分微不足道&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;又&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;卻&lt;/span&gt;無可替代的樂趣，我就能進步得更快，拋棄底層的低端重複勞動，專注&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;在&lt;/del&gt;&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;更加&lt;/del&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;於&lt;/span&gt;&lt;span style=&#34;color:#01ad34;&#34;&gt;更&lt;/span&gt;高層次的創作&lt;del style=&#34;color:#96767f; text-decoration:line-through;&#34;&gt;上&lt;/del&gt;。我應該是能做到的才對。
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;修改要點&lt;/p&gt;
+&lt;p&gt;詞語：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;背後的原因 -&amp;gt; 根源&lt;/li&gt;
+&lt;li&gt;人工智能 -&amp;gt; AI&lt;/li&gt;
+&lt;li&gt;而言-&amp;gt; 來説&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;增加連接詞：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;但&lt;/li&gt;
+&lt;li&gt;畢竟&lt;/li&gt;
+&lt;li&gt;其實&lt;/li&gt;
+&lt;li&gt;甚至&lt;/li&gt;
+&lt;li&gt;這是&lt;/li&gt;
+&lt;li&gt;然而&lt;/li&gt;
+&lt;li&gt;確實&lt;/li&gt;
+&lt;li&gt;讓&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;語法錯誤：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;只要……任何人&lt;del&gt;也&lt;/del&gt;都能&lt;/li&gt;
+&lt;li&gt;反映&lt;del&gt;到&lt;/del&gt;在&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;錯字：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每一&lt;del&gt;副&lt;/del&gt;幅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; jieba
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;split_text_into_words&lt;/span&gt;(text):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;使用 jieba 分詞將文本轉換為詞語列表&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; list(jieba&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cut(text))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;compare_texts&lt;/span&gt;(text1, text2):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;比較兩篇文章的詞語差異，並生成 HTML 格式的對比結果&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# 分詞&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    words1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; split_text_into_words(text1)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    words2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; split_text_into_words(text2)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# 使用 difflib 比較詞語差異&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    differ &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; difflib&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Differ()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    diff &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; list(differ&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;compare(words1, words2))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# 生成 HTML 格式的對比結果&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; word &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; diff:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; word&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;startswith(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;- &amp;#39;&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# 舊的詞組，用 &amp;lt;del&amp;gt; 標記為紅色刪除線&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            result&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;lt;del style=&amp;#34;color:red; text-decoration:line-through;&amp;#34;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;word[&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:]&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;/del&amp;gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; word&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;startswith(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;+ &amp;#39;&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# 新的詞組，用 &amp;lt;ins&amp;gt; 標記為綠色&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            result&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;lt;ins style=&amp;#34;color:green;&amp;#34;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;word[&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:]&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;/ins&amp;gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# 未變化的詞組&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            result&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(word[&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;join(result)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 示例文本&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;text1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;這是第一篇文章。我們來比較兩篇文章的不同之處。這是第一篇文章的結尾。&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;text2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;這是第二篇文章。我們來比較兩篇文章的差異。這是第二篇文章的結尾。&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 比較並生成 HTML 結果&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;html_output &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; compare_texts(text1, text2)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 輸出 HTML 結果&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;html_template &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;html lang=&amp;#34;zh&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;head&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;lt;title&amp;gt;文章對比結果&amp;lt;/title&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;/head&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;lt;p&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;html_output&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;/body&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;/html&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 將結果保存為 HTML 文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;comparison_result.html&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;w&amp;#34;&lt;/span&gt;, encoding&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; f:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(html_template)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;對比結果已保存為 comparison_result.html&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>抗拒人工智能</title>
+        <link>https://evthron.github.io/zh/profile/posts/refuse-ai/</link>
+        <pubDate>Sun, 16 Feb 2025 15:43:55 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/refuse-ai/</guid>
         <description>&lt;p&gt;不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。&lt;/p&gt;
 &lt;p&gt;我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。&lt;/p&gt;
 &lt;p&gt;人工智能，更準確地説，各種文字、圖像、聲音、影像生產模型的存在，揭示了一個事實：我們以為只有人能做的創作，隱藏着能用機械的計算模擬的規律，是可以像商品一樣大量生產的。以創作為職業，很可能只是在重複勞動而不自知。&lt;/p&gt;
@@ -243,6 +409,19 @@
 </description>
         </item>
         <item>
+        <title>完美學習法</title>
+        <link>https://evthron.github.io/zh/profile/posts/ultimate-learning-method/</link>
+        <pubDate>Sat, 18 Jan 2025 02:02:08 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/ultimate-learning-method/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Incremental_reading&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;增量閲讀（supermemo.guru）&lt;/a&gt;能讓我用最好的效率學會一切事物。但是有了記下一切的能力之後，要花時間記什麼就成了問題。&lt;/p&gt;
+&lt;p&gt;自己有興趣記下來的，往往是不管用的東西，外界不感興趣的東西。要是沒有根據外界的要求，記憶外界需要的學習材料，無論學什麼都只是自娛自樂而已。&lt;/p&gt;
+&lt;p&gt;方法終究只是錦上添花。就算學習方法差了一點，人只要受到正確的鼓勵和引導，也會學得很好，沒有必要追求什麼完美學習法。&lt;/p&gt;
+&lt;p&gt;想要得到正確的鼓勵和引導，可能比追求完美學習法還要困難。知識是免費的，人可是無價的。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>演奏的樂趣</title>
         <link>https://evthron.github.io/zh/posts/joy-of-music/</link>
         <pubDate>Sat, 18 Jan 2025 01:59:10 +0800</pubDate>
@@ -305,6 +484,75 @@
         <pubDate>Thu, 17 Oct 2024 19:37:47 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/docker-panic/</guid>
+        <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
+&lt;p&gt;學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。&lt;/p&gt;
+&lt;p&gt;作業裏要連接外部網站的是一個 PHP 程式，是不是程式出錯了？老師給的程序應該不會錯，我對 PHP 又是一竅不通，隨便找了個網站的例子改了改程式碼，沒用。&lt;/p&gt;
+&lt;p&gt;仔細看看網站報了什麼錯，&amp;lsquo;Temporary failure in name resolution&amp;rsquo;，DNS 出問題了。想必是因為我裝了個奇怪的 dnsmasq，雖然很危險但沒辦法只好暫時停用了。沒用。&lt;/p&gt;
+&lt;p&gt;那麼是 Docker 的問題嗎？我對 Docker 也是一竅不通。説到底，這門課也用不着我們懂。本來只是輸一行 &lt;code&gt;docker compose up&lt;/code&gt; 的事，裏面發生什麼事情完全不用管。唉，沒辦法，我還是學了一下 Docker 的運作原理。Docker 可以克服不同電腦甚至操作系統之間水土不服的問題，把開發環境連網站打包成容器 (Container），就哪裏都可以用。原來如此!我還自作聰明地把 Dockerfile，也就是設定檔裏的一行 apt-get 刪掉了呢。 Arch 上下載軟件的工具是 pacman，不是 apt。但只要設定好開發環境裏用 Apache，就沒問題。我把 Container 刪了再重建，沒用。&lt;/p&gt;
+&lt;p&gt;我慌了，這還不夠嗎？看來是網絡設定問題，這就很麻煩了，可以出錯的地方太多了。安裝 Arch 的時候，設置網絡是最頭疼的部分。光説軟件層面已經有一大堆能把人搞糊塗的概念：網絡接口、網絡管理器、主機、IP 地址、端口、域名、DNS、防火牆。如果是 Docker 要調整內部的網絡設定，那就要弄官方文檔上説的什麼「端口轉發」，我一點也看不懂。&lt;/p&gt;
+&lt;p&gt;總之先上網找找看。最好先排除學校給的容器有問題的情況。原來只要一句就可以調試 Docker 網絡。 &lt;code&gt;docker run busybox ping google.com&lt;/code&gt;，借一個叫 busybox 的開發環境，向google 發一個乒乓球，看看對方會不會傳球回來。沒反應，丟包率 100%。&lt;/p&gt;
+&lt;p&gt;網上的答案都説是 docker 是 DNS 設定出錯了。沒有辦法把 google.com 翻譯成真實的 IP 地址。要手動把 docker 的 dns 服務器改成 &lt;code&gt;8.8.8.8&lt;/code&gt;，也就是 Google 提供的 DNS 服務器。一樣沒用。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/etc/docker/daemon.json
+{
+    &amp;#34;dns&amp;#34;: [&amp;#34;8.8.8.8&amp;#34;]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這時我想起來，直接 ping IP 地址就可以排除 DNS 服務器的影響了。&lt;code&gt;docker run busybox ping 127.0.0.1&lt;/code&gt;，這次成功，確認了 Docker 可以連上自家主機。然後是&lt;code&gt;docker run busybox ping 8.8.8.8&lt;/code&gt;，但一樣不管用。&lt;/p&gt;
+&lt;p&gt;説不定是防火牆的問題，乾脆關掉，沒用。我連防火牆軟件都試着從 ufw 換到 firewalld，還是沒用。&lt;/p&gt;
+&lt;p&gt;這下就徹底沒辦法了，只能像無頭蒼蠅一樣在各大論壇遊走碰運氣。Arch wiki，Gentoo wiki，當然少不了 StackOverFlow。解決方法有一大堆，就是沒一種管用。別問我是什麼意思，我也不知道。按指示執行自己看不懂的步驟可是操作電腦的基本功。&lt;/p&gt;
+&lt;h2 id=&#34;arch-wiki&#34;&gt;Arch wiki&lt;/h2&gt;
+&lt;p&gt;在 /etc/docker/daemon.json 設定：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://wiki.archlinux.org/title/Docker#Starting_Docker_breaks_KVM_bridged_networking
+{
+  &amp;#34;iptables&amp;#34;: false
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;gentoo-wiki&#34;&gt;Gentoo wiki&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gentoo.org/wiki/Docker#Networking&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.gentoo.org/wiki/Docker#Networking&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 /etc/sysctl.d/local.conf 裏設定：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;net.ipv4.ip_forward=1
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;改-docker-composeyaml&#34;&gt;改 docker-compose.yaml&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/33780947/not-able-to-connect-to-network-inside-docker-container&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/questions/33780947/not-able-to-connect-to-network-inside-docker-container&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;services:
+  worker:
+    build: .
+    network_mode: host #added here
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用主機的網絡&#34;&gt;使用主機的網絡&lt;/h3&gt;
+&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。
+&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/5626362&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/a/5626362&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run busybox --network=&amp;#34;host&amp;#34; ping google.com
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;windows-式修理法&#34;&gt;Windows 式修理法&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/68474595&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/a/68474595&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl restart docker
+reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;nftables-flush&#34;&gt;nftables flush&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277638&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277638&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nft flush ruleset
+sudo pacman -R nftables 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;搞了這麼久，真的感覺自己在浪費時間，趕緊換到 Windows 弄 WSL (Windows Subsystem of linux）或者直接在 Linux 上裝虛擬機肯定會比較快。但我只要一被麻煩纏上就沒有心情思考其他的解決辦法。我説不定是在追求柳暗花明的感覺。&lt;/p&gt;
+&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。
+&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/70452290&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/a/70452290&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl disable nftables
+sudo systemctl stop nftables
+sudo reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我明明已經解除安裝 nftables 了，是沒有重啓，還是因為再下載了要用到 nftables 的 firewalld 呢？總之現在再試 &lt;code&gt;docker run busybox ping google.com&lt;/code&gt; 成功了！PHP 程式也順利拿到了網站的 JSON 檔案。真的高興得要拍手慶祝。&lt;/p&gt;
+&lt;p&gt;搞了半天，我學會什麼了呢？重新温習了一遍 Arch 的上網設置，放棄了原本已經調整好的 dnsmasq，還知道了 nftables 和 iptables 有着神秘的關係。一天就這樣過去了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;nftables 和 iptables 指的是一套規則，負責處理訊息在各種 IP 上的接收和發送，設置好了可以充當防火牆。docker 能讓多個網站運行在相同的端口號上，原理説不定也是什麼端口轉發。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>docker 連不上網的解決辦法和折騰的悲哀</title>
+        <link>https://evthron.github.io/zh/profile/posts/docker-panic/</link>
+        <pubDate>Thu, 17 Oct 2024 19:37:47 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/docker-panic/</guid>
         <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
 &lt;p&gt;學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。&lt;/p&gt;
 &lt;p&gt;作業裏要連接外部網站的是一個 PHP 程式，是不是程式出錯了？老師給的程序應該不會錯，我對 PHP 又是一竅不通，隨便找了個網站的例子改了改程式碼，沒用。&lt;/p&gt;
@@ -699,6 +947,56 @@ _|_|_
 </description>
         </item>
         <item>
+        <title>中位數公式</title>
+        <link>https://evthron.github.io/zh/profile/posts/median/</link>
+        <pubDate>Thu, 12 Sep 2024 03:35:28 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/median/</guid>
+        <description>&lt;p&gt;我為什麼要莫名其妙地研究什麼「&lt;a class=&#34;link&#34; href=&#34;../cardinal-ordinal&#34; &gt;量數和序數&lt;/a&gt;」呢？這是因為我搞不懂中位數的公式。統計學課本上都寫着，是 (n+1)/2，n 是數字的總數。公式很簡單，但卻很難理解。為什麼要先加一再除以二？你可能會説，管它那麼多幹嘛，套公式就完了。但是，二分查找法&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;也要用到中位數，但公式變成了 (n - 1)/2，這似乎和編程語言從零開始編號的做法有關。兩者的差異使我如鯁在喉，這個問題又不需要特殊的數學知識，為了以後寫二分查找法的時候不會出錯，我接下了這個挑戰。&lt;/p&gt;
+&lt;p&gt;歸根究底是這個問題：為什麼五个蘋果平分是 2.5 個，但五根手指的中間是第三根呢？這就是量數和序數的不同。想象你在一排路燈旁邊散步。路燈從一到五編好了號。從一號路燈走到五號路燈需要四步，用數式表示是這樣的：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;一號 + 四步 = 五號
+起點編號 + 步數 = 終點編號
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;移項得到：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;四步 = 五號 - 一號
+步數 = 終點編號 - 起點編號
+如果從 1 開始編號，步數 = 終點編號 - 1。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這裏的編號就是序數，可以看到，序數相減能變成步數。步數是量數，有加減乘除。這就是我原創的「序數運算」。數學家用序數研究什麼是「&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=SrU9YDoXE88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;無限+1 (Youtube)&lt;/a&gt;」，我用序數研究小學數學，這下我也當了一回「民間數學家」了。&lt;/p&gt;
+&lt;p&gt;現在回到中位數的問題。中位數是用來切開數列的一把刀，左右兩邊的數字數量相等。例如數列 56789，排在第三位的7就是中位數。要找到中位數，就要先知道中位數排在第幾位。用路燈的比喻思考，從起點走到中間路燈的距離，等於從中間路燈走到盡頭的距離。這是「中間」的定義，所以：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;起點編號 + 總步數 ÷ 2 = 中位數編號
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;展開「總步數」：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;起點編號 + （終點編號 - 起點編號）÷ 2 = 中位數編號
+（起點編號 + 終點編號）÷ 2 = 中位數編號
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這下公式的意義就很明確了，統計學和編程的差異也一目瞭然。正常人從一開始編號，總數 n 就是終點編號，所以中位數公式是 (1 + n) ÷ 2，而程序員從零開始編號，終點編號變成了 n - 1，所以中位數公式是 (0 + n - 1) ÷ 2。&lt;/p&gt;
+&lt;p&gt;聽着似乎很彆扭，為什麼偏偏要從零開始數？我來稍微解説一下。編程和統計學不一樣，不太不關心總數，編號反而更有用，所以我們遇到的 n 往往是終點編號。這樣一來，中位數公式就成了簡單的 n / 2。&lt;/p&gt;
+&lt;p&gt;這裏附上簡單的二分查找的説明。我們要從一串數字裏找到 10，這些數字已經按大小編好了號，當然是從零開始編。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+     頭          尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一個中點是 0 + (4-0)/2 = 2。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+     頭    中    尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;編號 2 的數字是 4，比 10 小，所以接着把中點設成起點。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+           頭    尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第二個中點是 2 + (4 - 2) /2 = 3&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;數字：0  2  4  10 15
+編號：0  1  2  3  4
+           頭 中 尾
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;編號 3 的數字是 10，找到收工。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;編程術語，一種從數列中搜尋數字的流程&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>交換知識的聊天挑戰 </title>
         <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
         <pubDate>Sat, 29 Jun 2024 21:43:57 +0800</pubDate>
@@ -716,6 +1014,19 @@ _|_|_
         <pubDate>Fri, 21 Jun 2024 19:16:06 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/writing-and-drawing/</guid>
+        <description>&lt;p&gt;寫作好像和繪畫不沾邊，但這兩項活動其實是十分相似的。我聽説過有些古代的文人既是文學家，也是畫家，兩項活動對他們來説是不分家的。我自己研究了一下之後，也明白了繪畫和寫作之間相似又相反的奇特關係。&lt;/p&gt;
+&lt;p&gt;從表面看，寫文章和畫畫似乎一點相似的地方都沒有：文章是逐字逐句去讀的，但畫是一眼就看得完的；任何人寫作，用的都是同一套漢字，但每個人畫畫，用的顏料都不一樣；好的文章是要複製一千份、一萬份，甚至要翻譯成其他語言，讓世界各地的人讀的，但好的畫作卻是獨一無二的，要是讓其他人重畫一次，就不再是原來的那一副畫了。&lt;/p&gt;
+&lt;p&gt;但其實作家和畫家都有一樣的目的，就是把自己觀察到的東西記錄下來。作家寫不出自己沒經歷過的事情，畫家也畫不出自己沒見過的東西。好的作品，一定誠實地記錄下了自己的所見所聞。這裏的誠實，不只是不改變事物原本的面貌，更重要的是不能扭曲腦海裏的真實印象。可以説，並不是因為想要寫作、想要畫畫，才會去觀察身邊的事情，而是因為觀察到了身邊發生的事情，得到了一些印象，然後想要把這些印象記錄下來，才會去寫作和畫畫。&lt;/p&gt;
+&lt;p&gt;但是，明明都是在記錄自己觀察到了什麼，為什麼寫作和繪畫這麼不一樣呢？這是因為它們的形式，也就是文字和圖案，是完全相反的兩個極端。文字，是一個個的抽象概念。 所有人都知道什麼是「人」，但每個人心中的「人」都是不一樣的。「人」這個概念，只是一種概括，概括了這個世界上數不清的人。而畫就不一樣了，同一張臉，只要把眼睛的距離拉開一點，縮窄一點，給人的感覺就會完全不一樣。我們是沒有辦法概括一張人臉的，只有實際看到了，才會明白那個人長什麼樣子。兩種方法從不同的起點出發，會遇到的也是不一樣的難題。寫文章的困難，是怎樣組合一個個抽象的概念，才能堆積成生動而獨一無二的印象。相反，畫畫的困難，是怎麼樣堆疊複雜的線條、形狀和顏色，才能引起一種完整的抽象感受。用剛才説的「人」當例子：想描述一個男人很帥很簡單，但要讓人明白到底帥成什麼樣就很難了；想畫出一個女人長什麼樣子很簡單，但要讓人感覺那個女人很漂亮就很難了。&lt;/p&gt;
+&lt;p&gt;這兩個問題的解決辦法，就是前面説的誠實。不需要特意去找華麗的文辭，只要用自己會説的話寫出來就可以了；不需要參考大師的技巧，只要相信自己眼睛看到的畫面畫出來就可以了。努力認識、觀察和表達自己和自己身邊的世界，雖然不一定會創作出流傳千古的名作，但一定能創作出對自己有意義的作品。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>寫作和繪畫 </title>
+        <link>https://evthron.github.io/zh/profile/posts/writing-and-drawing/</link>
+        <pubDate>Fri, 21 Jun 2024 19:16:06 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/writing-and-drawing/</guid>
         <description>&lt;p&gt;寫作好像和繪畫不沾邊，但這兩項活動其實是十分相似的。我聽説過有些古代的文人既是文學家，也是畫家，兩項活動對他們來説是不分家的。我自己研究了一下之後，也明白了繪畫和寫作之間相似又相反的奇特關係。&lt;/p&gt;
 &lt;p&gt;從表面看，寫文章和畫畫似乎一點相似的地方都沒有：文章是逐字逐句去讀的，但畫是一眼就看得完的；任何人寫作，用的都是同一套漢字，但每個人畫畫，用的顏料都不一樣；好的文章是要複製一千份、一萬份，甚至要翻譯成其他語言，讓世界各地的人讀的，但好的畫作卻是獨一無二的，要是讓其他人重畫一次，就不再是原來的那一副畫了。&lt;/p&gt;
 &lt;p&gt;但其實作家和畫家都有一樣的目的，就是把自己觀察到的東西記錄下來。作家寫不出自己沒經歷過的事情，畫家也畫不出自己沒見過的東西。好的作品，一定誠實地記錄下了自己的所見所聞。這裏的誠實，不只是不改變事物原本的面貌，更重要的是不能扭曲腦海裏的真實印象。可以説，並不是因為想要寫作、想要畫畫，才會去觀察身邊的事情，而是因為觀察到了身邊發生的事情，得到了一些印象，然後想要把這些印象記錄下來，才會去寫作和畫畫。&lt;/p&gt;
@@ -803,12 +1114,114 @@ Altered:    1212222
 </description>
         </item>
         <item>
+        <title>音階 </title>
+        <link>https://evthron.github.io/zh/profile/posts/scale/</link>
+        <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/scale/</guid>
+        <description>&lt;p&gt;這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。&lt;/p&gt;
+&lt;p&gt;第一個問題是，音樂裏面有幾個音？這個容易回答。隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。在這兩個音之間分割十二份，就有十二個不一樣的音。十二個音太多了，不好編旋律，所以作曲家會挑出當中一部分的音使用，這一部分的音就是音階。&lt;/p&gt;
+&lt;p&gt;旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。&lt;/p&gt;
+&lt;p&gt;用音階寫旋律雖然方便，但也限制了我們能寫什麽旋律。那麽，如果能發現新的音階，不就能發現新的旋律嗎？&lt;/p&gt;
+&lt;p&gt;所謂的音階，可以看作音程的組合。如果把音程限制在半、全、增三種（1, 2, 3），要跨越一個八度的話，到底有多少種可能的音程組合呢？一個八度裏面有十二個音程。如果把所有的音程都彈出來的話，可以寫成十二個一：1111 1111 1111。在大調音階裏面，一步會跳兩個音程，例如從 C 到 D ，有時候也會跳一個音程，例如從 E 到 F。這些音程可以寫成 2212221。用同樣的方式看待小調音階，就會寫成 2122132（這裏指的是和聲小調音階，我後來才發現小調音階有好幾種）。&lt;/p&gt;
+&lt;p&gt;我在這個時候發現，之前考試要考的，讓人學得頭昏的組合數學居然派上用場了。這個問題叫做 Combination with replacement 。解決方法叫做 Stars and bars。不過要分別計算每一種的排列的話，就要一個個數出來了。總共有 927 種。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+3333 = 1
+
+33321 = 20
+333111 = 20
+
+33 111 111 = 28
+33 21 111 = 105
+33 22 11 = 90
+33 222 = 10
+
+3 111 111 111 = 10
+3 21 111 111 = 72
+3 22 11 111 = 168
+3 222 111 = 140
+3 2222 1 = 30
+
+222222 = 1
+22222 11 = 21
+2222 11 11 = 70
+222 11 11 11 = 84
+22 11 11 11 11 = 45
+2 11 11 11 11 11 = 11
+
+11 11 11 11 11 11 = 1
+
+Total = 927
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Augment:    2222121
+Lydian:     2221221
+Major:      2212221
+Mixolydian: 2212212 
+Dorian:     2122212 
+Aeolian:    2122122
+Har minor:  2122132
+Phygian:    1222122
+Phy Domin:  1312122
+Locian:     1221222
+Altered:    1212222
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但是，在環形排列裏面如果有重複的元素，應該怎麼數呢？我這才發現，我從來都沒有碰到過這樣的問題。環形排列在高中就教過了，可以説連小學生都能懂，但為什麼沒有碰到過呢？原來，只要在環形排列裏加入重複的元素，就要用上群論了，一點也不簡單，難怪沒有學過。Burnside&amp;rsquo;s theorem 的原理很複雜，不過算起來倒不難。就是把音階的旋轉對稱性考慮進去，計算每個音階的「軌道」（Orbit）。全部算出來之後，答案是132。也就是說，在一個八度裏分割音程，只有132種可能。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;3333 = 1
+33321 = (20 + 0) / 5 = 4
+333111 = (20 + 4) / 6 = 4
+33 111 111 = 28 + 4 / 8 = 4
+33 21 111 = 105 + 0 / 7 = 15 
+33 22 11 = 90 + 6 / 6 = 16
+33 222 = 10 + 0 / 5 = 2
+3 111 111 111 = 10 + 0 / 10 = 1
+3 21 111 111 = 72 + 0 / 9 = 8 
+3 22 11 111 = 168 + 0 / 8 = 21
+3 222 111 = 140 + 0 / 7 = 20
+3 2222 1 = 30 + 0 / 6 = 5
+222222 = 1
+22222 11 = 21 + 0 / 7 = 3
+2222 11 11 = 70 + 10 / 8 = 10
+222 11 11 11 = 84 + 6 / 9 = 10
+22 11 11 11 11 = 45 + 5 / 10 = 5
+2 11 11 11 11 11 = 11 / 11 = 1
+11 11 11 11 11 11 = 1
+= 1 + 4 + 4 + 4 + 15+16+2+1+8+21+20+5+1+3+10+10+5+1+1
+
+= 132
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣不是很可惜嗎？明明有132種音階，但是我們只會用其中的兩三種。&lt;/p&gt;
+&lt;p&gt;不過，這樣只是從理論角度考慮，音樂要好聽似乎有很多限制，不是隨便挑一些音就能組成音階的。例如至少要保留四度音和五度音，像什麼 33 111 111，寫出來的音樂應該很奇怪，派不上用場。&lt;/p&gt;
+&lt;p&gt;説不定，我一開始就搞錯方向了。旋律好像是非常自由的，沒有什麼限制。真正決定音樂好不好聽的，不是和弦嗎？所以我應該去數和弦才對。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>量數和序數</title>
         <link>https://evthron.github.io/zh/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/posts/cardinal-ordinal/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
+&lt;p&gt;量數遠比序數有用。量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如在時鐘上，兩點在一點的後面，三點在兩點的後面，但是不能把「一點」和「兩點」加起來得到「三點」，這是沒有意義的。&lt;/p&gt;
+&lt;p&gt;要利用序數，就要先轉換成有用的量數。對於不同的問題，我們關心的量數是不一樣的，所以轉換方法也不一樣。&lt;/p&gt;
+&lt;p&gt;在數物件的時候，我們關心的量數是「物件的量數」，這剛好和「最後一個物件的序數」是相等的。比如要知道桌子上有幾個蘋果，就要「第一個，第二個，第三個」這樣數出來。如果數到了第三個蘋果，數過的蘋果總數就是三個。&lt;/p&gt;
+&lt;p&gt;但是有時候，我們想知道的量數，是序數之間的「距離」，和序數本身無關。比如說時鐘使用的序數是「點」，但我們並不關心時間點的數量，而是經過了幾個小時，也就是時間點之間的「距離」。從一點到三點過了三個時間點，但只過了兩小時。數法是一點走到兩點一小時，兩點走到三點兩小時。同樣，計算年齡使用的序數是「年份」，但我們也不關心經過了幾個年份，只關心過了多少年。年也是一種距離。2021 到 2023 年總共過了三個年份，但只長了兩歲。&lt;/p&gt;
+&lt;p&gt;序數相減得出距離。只要計算 3 - 1 = 2，2023 - 2021 = 2，就知道度過了兩小時，長了兩歲。換個方向，把序數加減一個距離，就可以得到另一個序數。比如從一點開始過了兩小時，就到了 1 + 2 = 3 點。&lt;/p&gt;
+&lt;p&gt;這些雖然是基礎得不能再基礎的算數題，但要注意，理論上序數可以從任何數字開始數，方向也不是固定的，所以轉換方法也不一樣。這是在生活中不會出現的問題，因為我們總是從 1 開始順着數；但是在麻煩的程式語言領域是從 0 開始數的，所以不把這些概念弄清楚的話，會有很多麻煩。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;集合論一般稱為基數，我只是挑了個我喜歡的詞。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>量數和序數</title>
+        <link>https://evthron.github.io/zh/profile/posts/cardinal-ordinal/</link>
+        <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/profile/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
 &lt;p&gt;量數遠比序數有用。量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如在時鐘上，兩點在一點的後面，三點在兩點的後面，但是不能把「一點」和「兩點」加起來得到「三點」，這是沒有意義的。&lt;/p&gt;
 &lt;p&gt;要利用序數，就要先轉換成有用的量數。對於不同的問題，我們關心的量數是不一樣的，所以轉換方法也不一樣。&lt;/p&gt;
 &lt;p&gt;在數物件的時候，我們關心的量數是「物件的量數」，這剛好和「最後一個物件的序數」是相等的。比如要知道桌子上有幾個蘋果，就要「第一個，第二個，第三個」這樣數出來。如果數到了第三個蘋果，數過的蘋果總數就是三個。&lt;/p&gt;

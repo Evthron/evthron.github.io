@@ -6,6 +6,24 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 30 Dec 2024 23:55:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/sandbox/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 30 Dec 2024 23:55:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/sandbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CSS note</title>
+        <link>https://evthron.github.io/zh/profile/sandbox/css/</link>
+        <pubDate>Mon, 30 Dec 2024 23:55:28 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/sandbox/css/</guid>
+        <description>&lt;p&gt;What is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; unset // Go back to last inherited value.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; flex-grow,  flex-shrink // Decide which and how the element takes up remaining spaces;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; flex-warp; // opposite to overflow:scroll, make newline if too many flex element&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; align-items: flex-start; //Align the element on the direction perpendicular to the flex direction. For row, stick to the top of the box.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; display: inline-flex; // Set the outer display model of the box to be flex as well&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; display: inline-block; // Block vs inline vs inline-block. inline-block is a bit like flex blox?&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; overflow-y: scroll; // Create scroll bar when element overflows&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
     </channel>
 </rss>

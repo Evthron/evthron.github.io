@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Evthron&#39;s blog en</title>
+        <link>https://evthron.github.io/en/profile/sandbox/</link>
+        <description>Recent content on Evthron&#39;s blog en</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Tue, 31 Dec 2024 08:01:55 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/profile/sandbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>taskwarrior</title>
+        <link>https://evthron.github.io/en/profile/sandbox/taskwarrior/</link>
+        <pubDate>Tue, 31 Dec 2024 08:01:55 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/sandbox/taskwarrior/</guid>
+        <description>&lt;p&gt;My task list, I add everything I can think of in it.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+Age   Description
+----- --------------------------------------------------------------------------
+10d   try google map api
+10d   code dummy blog profile site for job search
+ 4w   write cover letter
+10d   try to code deepsearch
+11w   code tic-tac-toe on blog
+10d   code improve llm to be a better project
+ 5mo  ask for emacs and org-mode
+ 3w   code make a browser that can only access the internet through qr code
+ 6w   code merge sort on website blog
+11w   code task warrior hook for motivational quote
+ 8w   search how to do a stock market emulator
+10w   code copy habitica css
+11w   buy a domain
+ 5w   code quantum calculator
+ 4w   write more profile for contact list
+10d   learn .net
+10d   code an true drawing tracker
+ 5mo  add a link page to my blog
+ 5mo  set up local habitica server
+ 3mo  write university problem of common space and study group, what should
+      friends do together
+ 5w   code a clock on blog
+11w   write how a make the painter progress bar
+ 4w   fix awesomewm touchpad
+10w   read source code of clocktower
+ 3w   buy DST
+12w   add tag search feature to blog
+ 3mo  code a youtube download credit system
+ 8w   code taskwarrior blog show completed tasks
+ 7w   write science mind limit
+ 6w   code color wheel on blog
+ 5w   search task system how to deal with recurring daily task
+ 4w   write useless productivity skill
+ 4w   write tutorial how to build a blog using hugo
+11d   write invent culture
+ 9d   set up joplin docker server
+ 6d   code financial calculator
+ 3mo  code track social life, random pick
+ 4w   add japanese as blog language
+11w   draw new blog background from postcard
+ 5w   awesome wm touchpad
+ 9d   code blog to translate to simplied chinese
+ 5w   check haskell tutorial
+11w   redraw ai-generated-image
+ 9w   rime dictionary change chuang tradition chinese
+10w   code taskwarrior layout on blog
+12w   change input method word order cheng du
+ 5mo  incremental video in obsidian
+11w   code copy post to multiple language when more than one language tag
+ 3mo  code recreate habitica search token
+
+49 tasks
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
+        <title>Component Collection</title>
+        <link>https://evthron.github.io/en/profile/sandbox/arsenal/</link>
+        <pubDate>Thu, 29 Aug 2024 22:12:22 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/sandbox/arsenal/</guid>
+        <description>&lt;h3 id=&#34;progress-bar&#34;&gt;Progress bar&lt;/h3&gt;
+
+&lt;div class=&#34;progress-bar-status&#34;&gt;
+    &lt;div class=&#34;status-labels&#34;&gt;
+        &lt;span&gt;Component count:&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-count&#34;&gt;0/100&lt;/span&gt;
+        &lt;span&gt;---&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-level&#34;&gt;Lv0&lt;/span&gt;
+    &lt;/div&gt;
+   &lt;div class=&#34;progress-bar&#34;&gt;
+        
+        &lt;div class=&#34;progress-bar-experience&#34; style=&#34;width: 0%&#34; role=&#34;progressbar&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;clock&#34;&gt;Clock&lt;/h3&gt;
+&lt;div id=&#34;ClockDate&#34;&gt;&lt;span &gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div id=&#34;ClockAnalog&#34; style=&#34;transform: scale(1);&#34;&gt;
+
+&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; version=&#34;1.1&#34; width=&#34;300&#34; height=&#34;300&#34;&gt;
+    
+    &lt;defs&gt;
+        &lt;linearGradient id=&#34;clockFaceGradient&#34; x1=&#34;1&#34; y1=&#34;1&#34; x2=&#34;1&#34; y2=&#34;1&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#fffff0&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#AA0000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+        &lt;linearGradient id=&#34;hourHandGradient&#34; x1=&#34;0&#34; y1=&#34;0&#34; x2=&#34;1&#34; y2=&#34;0&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;50%&#34; stop-color=&#34;#898989&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+        &lt;linearGradient id=&#34;minuteHandGradient&#34; x1=&#34;0&#34; y1=&#34;0&#34; x2=&#34;1&#34; y2=&#34;0&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;50%&#34; stop-color=&#34;#898989&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+        &lt;linearGradient id=&#34;secondHandGradient&#34; x1=&#34;0&#34; y1=&#34;0&#34; x2=&#34;1&#34; y2=&#34;0&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#800000&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;50%&#34; stop-color=&#34;#dc143c&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#800000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+    &lt;/defs&gt;
+    
+    &lt;circle cx=&#34;150&#34; cy=&#34;150&#34; r=&#34;145&#34; fill=&#34;url(#clockFaceGradient)&#34; stroke=&#34;none&#34;&gt;&lt;/circle&gt;
+    &lt;circle cx=&#34;150&#34; cy=&#34;150&#34; r=&#34;131&#34; fill=&#34;#f5f5dc&#34; stroke=&#34;none&#34;&gt;&lt;/circle&gt;
+    
+    &lt;rect id=&#34;hourHand&#34; x=&#34;145&#34; y=&#34;75&#34; width=&#34;10&#34; height=&#34;75&#34; fill=&#34;url(#hourHandGradient)&#34; transform=&#34;rotate(0 150 150)&#34;&gt;&lt;/rect&gt;  
+    &lt;rect id=&#34;minuteHand&#34; x=&#34;147&#34; y=&#34;50&#34; width=&#34;6&#34; height=&#34;100&#34; fill=&#34;url(#minuteHandGradient)&#34; transform=&#34;rotate(0 150 150)&#34;&gt;&lt;/rect&gt;
+    &lt;rect id=&#34;secondHand&#34; x=&#34;149&#34; y=&#34;30&#34; width=&#34;2&#34; height=&#34;120&#34; fill=&#34;url(#secondHandGradient)&#34; transform=&#34;rotate(0 150 150)&#34;&gt;&lt;/rect&gt;
+    
+    &lt;circle cx=&#34;150&#34; cy=&#34;150&#34; r=&#34;5&#34; fill=&#34;#555555&#34;&gt;&lt;/circle&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div id=&#34;Clock_Time&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;script&gt;
+    function updateClock() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, &#39;0&#39;);
+        const day = String(now.getDate()).padStart(2, &#39;0&#39;);
+        const hours = now.getHours();
+        const minutes = String(now.getMinutes()).padStart(2, &#39;0&#39;);
+        const seconds = String(now.getSeconds()).padStart(2, &#39;0&#39;);
+        const ampm = hours &gt;= 12 ? &#39;PM&#39; : &#39;AM&#39;;
+        const formattedHours = hours % 12 || 12;
+
+        
+        document.getElementById(&#39;ClockDate&#39;).innerHTML = `${year}-${month}-${day} &lt;span &gt;${getDayOfWeek(now)}&lt;/span&gt;`;
+
+        
+        document.getElementById(&#39;Clock_Time&#39;).innerHTML = `&lt;span&gt;${ampm}&lt;/span&gt; ${formattedHours}:${minutes}:${seconds}`;
+
+        
+        updateAnalogClock(now);
+    }
+
+    function getDayOfWeek(date) {
+        const days = [&#39;Sunday&#39;, &#39;Monday&#39;, &#39;Tuesday&#39;, &#39;Wednesday&#39;, &#39;Thursday&#39;, &#39;Friday&#39;, &#39;Saturday&#39;];
+        return days[date.getDay()];
+    }
+
+    function updateAnalogClock(date) {
+        const hours = date.getHours() % 12;
+        const minutes = date.getMinutes();
+        const seconds = date.getSeconds();
+
+        const hourHand = document.getElementById(&#39;hourHand&#39;);
+        const minuteHand = document.getElementById(&#39;minuteHand&#39;);
+        const secondHand = document.getElementById(&#39;secondHand&#39;);
+
+        const hourDeg = (hours * 30) + (minutes * 0.5); 
+        const minuteDeg = (minutes * 6) + (seconds * 0.1); 
+        const secondDeg = seconds * 6; 
+
+
+
+        
+        hourHand.setAttribute(&#39;transform&#39;, `rotate(${hourDeg} 150 150)`);
+        minuteHand.setAttribute(&#39;transform&#39;, `rotate(${minuteDeg} 150 150)`);
+        secondHand.setAttribute(&#39;transform&#39;, `rotate(${secondDeg} 150 150)`);
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock(); 
+&lt;/script&gt;
+&lt;h3 id=&#34;number-field&#34;&gt;Number field&lt;/h3&gt;
+
+&lt;div class=&#34;card_number&#34;&gt;
+  &lt;div class=&#34;field&#34;&gt;
+    
+    
+    &lt;input
+      class=&#34;field_input&#34;
+      role=&#34;spinbutton&#34;
+    /&gt;
+    
+    
+    &lt;button class=&#34;field_control is-increase&#34; onclick=&#34;changeNumber(1)&#34;&gt;&lt;/button&gt;
+    
+    &lt;button class=&#34;field_control is-decrease&#34; onclick=&#34;changeNumber(-1)&#34;&gt;&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+  function changeNumber(delta) {
+    let input = document.querySelector(&#39;.field_input&#39;);
+    let currentValue = parseInt(input.value) || 0;
+    currentValue += delta;
+    if (currentValue &lt; 0) {
+        currentValue = 0;
+    }
+    input.value = currentValue;
+}
+&lt;/script&gt;
+
+&lt;h3 id=&#34;vocab-tag&#34;&gt;Vocab Tag&lt;/h3&gt;
+&lt;p&gt;&lt;div id=&#34;vocab-button-container&#34;&gt;
+    
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;all&#34; &gt; all &lt;/button&gt;
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-adj&#34; &gt; pos-adj &lt;/button&gt;
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-v&#34; &gt; pos-v &lt;/button&gt;
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-n&#34; &gt; pos-n &lt;/button&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-similar type-people&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; fellow &lt;div&gt; pos-adj property-similar type-people&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj type-bad&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; out of luck &lt;div&gt; pos-adj type-bad&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-personality theme-fashion type-bad type-good&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; sleek &lt;div&gt; pos-adj property-personality theme-fashion type-bad type-good&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n theme-work&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; livelihood &lt;div&gt; pos-n theme-work&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-good type-object type-people&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; gem &lt;div&gt; pos-n type-good type-object type-people&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-object&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; phoenix &lt;div&gt; pos-n type-object&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-people&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; attorney &lt;div&gt; pos-n type-people&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n property-difficult type-bad&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; peril &lt;div&gt; pos-n property-difficult type-bad&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-future&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; foresee &lt;div&gt; pos-v time-future&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v theme-info&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; keep you posted &lt;div&gt; pos-v theme-info&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-result type-good&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; pay off &lt;div&gt; pos-v time-result type-good&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h3 id=&#34;thumbnail-progress-bar&#34;&gt;Thumbnail Progress bar&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+
+&lt;span class=&#34;skill-title&#34; &gt;
+    Book used
+&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+
+&lt;span class=&#34;skill-title&#34; &gt;
+    file_count
+&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;309/336&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv7
+&lt;/span&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144100%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144103%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063551%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063558%20--%20colour%20home%20doodles%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063607%20--%20colour%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063612%20--%20colour%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063614%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063619%20--%20colour%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063624%20--%20colour%20sight%20home%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063627%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063631%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063635%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054244%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054247%20--%20sight%20figures%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054252%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054255%20--%20home%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h3 id=&#34;book-card&#34;&gt;Book card&lt;/h3&gt;
+
+
+&lt;a href=&#34;#sample-book&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL7440033M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;sample book&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+</description>
+        </item>
+        
+    </channel>
+</rss>

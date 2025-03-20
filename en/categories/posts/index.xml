@@ -33,12 +33,56 @@
 </description>
         </item>
         <item>
+        <title>Gamify my life</title>
+        <link>https://evthron.github.io/en/profile/posts/skill-gamification/</link>
+        <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/posts/skill-gamification/</guid>
+        <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
+&lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. My avatar is at level 88.  I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
+&lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design play and may defeat the purpose of gamification, which is to motivate myself. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
+&lt;p&gt;I focused on experiences and knowledge because they are easy to quantify and cannot regress even if you slack off for a while, just like you don&amp;rsquo;t lose the in-game experience points even if you forget the game. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
+&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Gamify my life</title>
+        <link>https://evthron.github.io/en/profile/skill/introduction/</link>
+        <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/introduction/</guid>
+        <description>&lt;p&gt;Gamification is adding game elements to activities. This motivates people to do things they will not normally do. A great example is Habitica, a platform for nurturing habits in an RPG way. Players gain experience points and coins by completing daily tasks. They level up and buy new equipment to attack monsters in quests. I have used Habitica for a years and I recommend anyone to try it to grasp what gamification is.&lt;/p&gt;
+&lt;p&gt;However, as my level grows, the numbers becomes less and less meaningful. I felt that this is just a glorified to-do list. The reason is obvious: A game is not a accurate representation of reality. My avatar is at level 88, but what does that mean? Maybe that was a reward of I being a good learner, or having a great habit of exercising. I can&amp;rsquo;t tell because all the things I earned have been mixed together and there&amp;rsquo;s no record keeping track of them. I want the number to be meaningful, like that actual stats in RPGs that can do actual damages.&lt;/p&gt;
+&lt;p&gt;Therefore, I want to create my own system to represent my real life. I focused on experiences and knowledge because they are easy to quantify and cannot regress. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
+&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Cardinals and ordinals</title>
         <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
+&lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
+&lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
+&lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
+&lt;p&gt;On the other hand, we want to know about the distance between ordinals. For example, from 1 o&amp;rsquo;clock to 3 o&amp;rsquo;clock, we count &amp;lsquo;1 o&amp;rsquo;clock, 2 o&amp;rsquo;clocks, 3 o&amp;rsquo;clocks&amp;rsquo;. There are three &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo; in total but this is not useful. We care about how many hours have passed. 1 o&amp;rsquo;clock to 2 o&amp;rsquo;clock is one hour and 2 o&amp;rsquo;clock to 3 o&amp;rsquo;clock is another hour. Hours count the distance between the &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo;. Similarly, we use &amp;lsquo;2021, 2022&amp;rsquo; to count years but we don&amp;rsquo;t care how many year names have passed. We care about the age, which is the distance between the year names. We count three year names from 2021 to 2023 but only two years have passed.&lt;/p&gt;
+&lt;p&gt;We get the distance between ordinals by subtracting them. 3 - 1 = 2 and 2023 - 2021 = 2. Two hours have passed and the baby is two years old. Conversely, we can add a distance to a ordinal to get the next ordinal. For example, 1 o&amp;rsquo;clock plus 2 hours equals 3 o&amp;rsquo;clock.&lt;/p&gt;
+&lt;p&gt;Although the preceding calculations are for elementary school students and it seems no one has a problem with it, theoretically, we can count from any numbers and in any directions for ordinals so the conversion methods may change. This problem doesn&amp;rsquo;t exist in daily life because we always count from one in ascending order. Unfortunately, programming languages start counting from 0. So if we are not clear with these basic concepts, it&amp;rsquo;s difficult to proceed.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cardinals and ordinals</title>
+        <link>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</link>
+        <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/profile/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
 &lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
 &lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;

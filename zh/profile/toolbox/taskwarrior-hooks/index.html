@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="zh"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>定製 Taskwarrior-Evthron&#39;s blog</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
+第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
+首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。
+# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。
+uda.time.type=string
+uda.time.label=Time
+uda.value.type=string
+uda.value.label=Value
+uda.worth.type=numeric
+uda.worth.label=Worth
+然後修改 report.list 的欄位，加入 Time, Value，和 Worth
+default.command=list # 輸入 task 的時候自動執行 task list，而不是 task next
+report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
+report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
+最後是根據 worth，也就是性價比排序
+report.list.sort=worth-,start-,due&#43;,project&#43;
+例子：
+&gt; task add 買牛奶 time:60 value:30
+# 買牛奶要花 60 分鐘
+# 我覺得買牛奶對我來説值 30 元
+
+# 顯示效果
+ID | Active | Age | Description | Time | Value | Worth  |
+19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
+要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。" />
+  <meta name="author" content="Evthron" /><link rel="preload stylesheet" as="style" href="https://evthron.github.io/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://evthron.github.io/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/6fd8df4abe41f17fd8e2dd7d97b5cc8c?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://evthron.github.io/twitter.svg" /><link rel="preload" as="image" href="https://evthron.github.io/github.svg" />
+
+  <script
+    defer
+    src="https://evthron.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script><script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+
+  
+  <link
+    rel="icon"
+    href="https://evthron.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://evthron.github.io/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+  <meta itemprop="name" content="定製 Taskwarrior">
+  <meta itemprop="description" content="Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
+第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
+首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。
+# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。 uda.time.type=string uda.time.label=Time uda.value.type=string uda.value.label=Value uda.worth.type=numeric uda.worth.label=Worth 然後修改 report.list 的欄位，加入 Time, Value，和 Worth
+default.command=list # 輸入 task 的時候自動執行 task list，而不是 task next report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth 最後是根據 worth，也就是性價比排序
+report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
+&gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。">
+  <meta itemprop="datePublished" content="2024-11-25T01:51:20+08:00">
+  <meta itemprop="dateModified" content="2024-11-25T02:16:53+08:00">
+  <meta itemprop="wordCount" content="165">
+  <meta itemprop="keywords" content="Coding,Software"><meta property="og:url" content="https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/">
+  <meta property="og:site_name" content="Evthron&#39;s blog">
+  <meta property="og:title" content="定製 Taskwarrior">
+  <meta property="og:description" content="Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
+第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
+首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。
+# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。 uda.time.type=string uda.time.label=Time uda.value.type=string uda.value.label=Value uda.worth.type=numeric uda.worth.label=Worth 然後修改 report.list 的欄位，加入 Time, Value，和 Worth
+default.command=list # 輸入 task 的時候自動執行 task list，而不是 task next report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth 最後是根據 worth，也就是性價比排序
+report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
+&gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="profile">
+    <meta property="article:published_time" content="2024-11-25T01:51:20+08:00">
+    <meta property="article:modified_time" content="2024-11-25T02:16:53+08:00">
+    <meta property="article:tag" content="Coding">
+    <meta property="article:tag" content="Software">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="定製 Taskwarrior">
+  <meta name="twitter:description" content="Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
+第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
+首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。
+# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。 uda.time.type=string uda.time.label=Time uda.value.type=string uda.value.label=Value uda.worth.type=numeric uda.worth.label=Worth 然後修改 report.list 的欄位，加入 Time, Value，和 Worth
+default.command=list # 輸入 task 的時候自動執行 task list，而不是 task next report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth 最後是根據 worth，也就是性價比排序
+report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
+&gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。">
+
+  <link rel="canonical" href="https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="/zh/profile"
+      >Evthron&#39;s blog</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/code/"
+        >⚔️ 代碼筆記</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/posts/"
+        >📝文章</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/toolbox/"
+        >🛠️工具集</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/skill/"
+        >🎮技能</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/sandbox/"
+        >🪣沙盒</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/Evthron"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/Evthron"
+        target="_blank"
+        rel="me"
+      >github</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+      <article>
+        <header class="mb-14">
+          <h1 class="my-0! pb-2.5">定製 Taskwarrior</h1><div class="text-xs antialiased opacity-60"><time>2024年11月25日</time></div></header>
+
+        <section><p><a class="link" href="https://taskwarrior.org"  target="_blank" rel="noopener"
+    >Taskwarrior</a> 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。</p>
+<p>第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 <a class="link" href="https://supermemo.guru/wiki/Tasklist"  target="_blank" rel="noopener"
+    >tasklist</a> 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。</p>
+<p>首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。</span>
+</span></span><span style="display:flex;"><span>uda.time.type<span style="color:#f92672">=</span>string
+</span></span><span style="display:flex;"><span>uda.time.label<span style="color:#f92672">=</span>Time
+</span></span><span style="display:flex;"><span>uda.value.type<span style="color:#f92672">=</span>string
+</span></span><span style="display:flex;"><span>uda.value.label<span style="color:#f92672">=</span>Value
+</span></span><span style="display:flex;"><span>uda.worth.type<span style="color:#f92672">=</span>numeric
+</span></span><span style="display:flex;"><span>uda.worth.label<span style="color:#f92672">=</span>Worth
+</span></span></code></pre></div><p>然後修改 report.list 的欄位，加入 Time, Value，和 Worth</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>default.command<span style="color:#f92672">=</span>list <span style="color:#75715e"># 輸入 task 的時候自動執行 task list，而不是 task next</span>
+</span></span><span style="display:flex;"><span>report.list.columns<span style="color:#f92672">=</span>id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
+</span></span><span style="display:flex;"><span>report.list.labels<span style="color:#f92672">=</span>ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
+</span></span></code></pre></div><p>最後是根據 worth，也就是性價比排序</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>report.list.sort<span style="color:#f92672">=</span>worth-,start-,due+,project+
+</span></span></code></pre></div><p>例子：</p>
+<pre tabindex="0"><code>&gt; task add 買牛奶 time:60 value:30
+# 買牛奶要花 60 分鐘
+# 我覺得買牛奶對我來説值 30 元
+
+# 顯示效果
+ID | Active | Age | Description | Time | Value | Worth  |
+19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
+</code></pre><p>要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>TASK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>&lt;/dev/stdin<span style="color:#66d9ef">)</span> 
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;</span>$TASK<span style="color:#e6db74">&#34;</span> | python <span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.config/task/hooks/priority.py&#34;</span> $@ 
+</span></span></code></pre></div><p>每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> json
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>    task <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>loads(sys<span style="color:#f92672">.</span>stdin<span style="color:#f92672">.</span>readline())
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> json<span style="color:#f92672">.</span>decoder<span style="color:#f92672">.</span>JSONDecodeError:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># worth calculation</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;time&#39;</span> <span style="color:#f92672">in</span> task<span style="color:#f92672">.</span>keys() <span style="color:#f92672">and</span> <span style="color:#e6db74">&#39;value&#39;</span> <span style="color:#f92672">in</span> task<span style="color:#f92672">.</span>keys():
+</span></span><span style="display:flex;"><span>    task[<span style="color:#e6db74">&#39;worth&#39;</span>] <span style="color:#f92672">=</span> str(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{:.3f}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(int(float(task[<span style="color:#e6db74">&#39;value&#39;</span>])) <span style="color:#f92672">/</span> int(float(task[<span style="color:#e6db74">&#39;time&#39;</span>]))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(json<span style="color:#f92672">.</span>dumps(task))
+</span></span></code></pre></div><p>第二是我用了 <a class="link" href="https://github.com/oskapt/task2hab"  target="_blank" rel="noopener"
+    >task2hab (github)</a> 這個插件，可以自動把 taskwarrior 的任務同步到 habitica 上。另外我還模仿了另一個插件 <a class="link" href="https://github.com/robwhitaker/taskwarrior-habitica-bridge"  target="_blank" rel="noopener"
+    >taskwarrior-habitica-bridge (github)</a>，修改了一點代碼，讓完成任務的時候可以在終端裏顯示賺到的經驗和金幣。因為這個不是我寫的，我就不展開説了。</p>
+</section>
+
+        <footer class="mt-12 flex flex-wrap"><a
+            class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+            href="https://evthron.github.io/tags/coding"
+            >coding</a
+          ><a
+            class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+            href="https://evthron.github.io/tags/software"
+            >software</a
+          ></footer></article>
+    </main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025<a class="link" href="https://evthron.github.io/">Evthron&#39;s blog</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>

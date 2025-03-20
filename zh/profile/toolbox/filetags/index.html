@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="zh"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>filetags 文件管理法-Evthron&#39;s blog</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。
+在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。
+filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 &ndash; 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document &ndash; john books review.txt。
+這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。
+可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。
+原作者的介紹：karl-voit.at/managing-digital-photographs
+filetags python script：github.com/novoid/filetags" />
+  <meta name="author" content="Evthron" /><link rel="preload stylesheet" as="style" href="https://evthron.github.io/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://evthron.github.io/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/6fd8df4abe41f17fd8e2dd7d97b5cc8c?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://evthron.github.io/twitter.svg" /><link rel="preload" as="image" href="https://evthron.github.io/github.svg" />
+
+  <script
+    defer
+    src="https://evthron.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script><script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+
+  
+  <link
+    rel="icon"
+    href="https://evthron.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://evthron.github.io/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+  <meta itemprop="name" content="filetags 文件管理法">
+  <meta itemprop="description" content="電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。
+在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。
+filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 – 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document – john books review.txt。
+這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。
+可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。
+原作者的介紹：karl-voit.at/managing-digital-photographs
+filetags python script：github.com/novoid/filetags">
+  <meta itemprop="datePublished" content="2025-01-18T02:14:37+08:00">
+  <meta itemprop="dateModified" content="2025-01-18T02:30:09+08:00">
+  <meta itemprop="wordCount" content="26">
+  <meta itemprop="keywords" content="Software"><meta property="og:url" content="https://evthron.github.io/zh/profile/toolbox/filetags/">
+  <meta property="og:site_name" content="Evthron&#39;s blog">
+  <meta property="og:title" content="filetags 文件管理法">
+  <meta property="og:description" content="電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。
+在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。
+filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 – 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document – john books review.txt。
+這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。
+可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。
+原作者的介紹：karl-voit.at/managing-digital-photographs
+filetags python script：github.com/novoid/filetags">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="profile">
+    <meta property="article:published_time" content="2025-01-18T02:14:37+08:00">
+    <meta property="article:modified_time" content="2025-01-18T02:30:09+08:00">
+    <meta property="article:tag" content="Software">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="filetags 文件管理法">
+  <meta name="twitter:description" content="電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。
+在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。
+filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 – 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document – john books review.txt。
+這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。
+可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。
+原作者的介紹：karl-voit.at/managing-digital-photographs
+filetags python script：github.com/novoid/filetags">
+
+  <link rel="canonical" href="https://evthron.github.io/zh/profile/toolbox/filetags/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="/zh/profile"
+      >Evthron&#39;s blog</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/code/"
+        >⚔️ 代碼筆記</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/posts/"
+        >📝文章</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/toolbox/"
+        >🛠️工具集</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/skill/"
+        >🎮技能</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/sandbox/"
+        >🪣沙盒</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/Evthron"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/Evthron"
+        target="_blank"
+        rel="me"
+      >github</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+      <article>
+        <header class="mb-14">
+          <h1 class="my-0! pb-2.5">filetags 文件管理法</h1><div class="text-xs antialiased opacity-60"><time>2025年1月18日</time></div></header>
+
+        <section><p>電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。</p>
+<p>在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。</p>
+<p>filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 &ndash; 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document &ndash; john books review.txt。</p>
+<p>這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。</p>
+<p>可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。</p>
+<p>原作者的介紹：<a class="link" href="https://karl-voit.at/managing-digital-photographs/"  target="_blank" rel="noopener"
+    >karl-voit.at/managing-digital-photographs</a></p>
+<p>filetags python script：<a class="link" href="https://github.com/novoid/filetags"  target="_blank" rel="noopener"
+    >github.com/novoid/filetags</a></p>
+</section>
+
+        <footer class="mt-12 flex flex-wrap"><a
+            class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+            href="https://evthron.github.io/tags/software"
+            >software</a
+          ></footer></article>
+    </main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025<a class="link" href="https://evthron.github.io/">Evthron&#39;s blog</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>

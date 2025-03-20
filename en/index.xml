@@ -40,6 +40,300 @@
 </description>
         </item>
         <item>
+        <title>streamlit</title>
+        <link>https://evthron.github.io/en/profile/code/streamlit/</link>
+        <pubDate>Thu, 06 Mar 2025 14:35:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/code/streamlit/</guid>
+        <description>&lt;p&gt;import streamlit as st&lt;/p&gt;
+&lt;h2 id=&#34;stsession_state&#34;&gt;st.session_state&lt;/h2&gt;
+&lt;p&gt;init as a empty dict, used to store all the self-defined state&lt;/p&gt;
+&lt;p&gt;st.session_state.{name} = []&lt;/p&gt;
+&lt;h2 id=&#34;stsidebar&#34;&gt;st.sidebar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;st.sidebar.header(&amp;ldquo;Sidebar title&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;item = st.sidebar.selectbox(&amp;ldquo;choose:&amp;rdquo;, st.session_state.list)
+&lt;ul&gt;
+&lt;li&gt;treat st.session_state.list as select items&lt;/li&gt;
+&lt;li&gt;return the selected item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;st.sidebar.text_input&lt;/p&gt;
+&lt;h2 id=&#34;with&#34;&gt;with&lt;/h2&gt;
+&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;
+give context to code, similar to Go syntax&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;with st.chat_message(&amp;#34;AI&amp;#34;)
+    st.markdown(message.content)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;is same as:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;st.chat_message.markdwon(message.content)
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
+        <title>streamlit</title>
+        <link>https://evthron.github.io/en/profile/streamlit/</link>
+        <pubDate>Thu, 06 Mar 2025 14:35:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/streamlit/</guid>
+        <description>&lt;p&gt;import streamlit as st&lt;/p&gt;
+&lt;h2 id=&#34;stsession_state&#34;&gt;st.session_state&lt;/h2&gt;
+&lt;p&gt;init as a empty dict, used to store all the self-defined state&lt;/p&gt;
+&lt;p&gt;st.session_state.{name} = []&lt;/p&gt;
+&lt;h2 id=&#34;stsidebar&#34;&gt;st.sidebar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;st.sidebar.header(&amp;ldquo;Sidebar title&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;item = st.sidebar.selectbox(&amp;ldquo;choose:&amp;rdquo;, st.session_state.list)
+&lt;ul&gt;
+&lt;li&gt;treat st.session_state.list as select items&lt;/li&gt;
+&lt;li&gt;return the selected item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;st.sidebar.text_input&lt;/p&gt;
+&lt;h2 id=&#34;with&#34;&gt;with&lt;/h2&gt;
+&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;
+give context to code, similar to Go syntax&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;with st.chat_message(&amp;#34;AI&amp;#34;)
+    st.markdown(message.content)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;is same as:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;st.chat_message.markdwon(message.content)
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
+        <title>git</title>
+        <link>https://evthron.github.io/en/profile/code/git/</link>
+        <pubDate>Thu, 06 Mar 2025 12:31:38 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/code/git/</guid>
+        <description>&lt;h2 id=&#34;how-to-upload-local-repo-to-github&#34;&gt;How to Upload Local Repo to GitHub&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create Local Git Repo:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Create an Empty Repo on GitHub&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Link the Local Repo to the Remote GitHub Repo:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin git@github.com:username/reponame.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;If you used the HTTPS URL, change it using &lt;code&gt;set-url&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote set-url origin git@github.com:username/reponame.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;origin&lt;/code&gt; is the default name that prefixes all upstream branches. All upstream branches are referred to as &lt;code&gt;origin/branch&lt;/code&gt; when viewed in the local repo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can check the remote URL to confirm the change:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Push Local &lt;code&gt;main&lt;/code&gt; Branch to the &lt;code&gt;origin/main&lt;/code&gt; Branch:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;If your default local branch name is &lt;code&gt;master&lt;/code&gt;, you may encounter an error like:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;error: src refspec main does not match any
+error: failed to push some refs to &amp;#39;github.com...&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Normally, the remote branch and the local branch should have the same name. Change the local branch name by:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Now, &lt;code&gt;git push origin main&lt;/code&gt; should work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Set Upstream Tracking: To make the branch remember its upstream branch, use the &lt;code&gt;--set-upstream&lt;/code&gt; or &lt;code&gt;-u&lt;/code&gt; flag once:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --set-upstream origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or equivalently:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Next time, you can simply push the branch by using:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;contribute-by-forking&#34;&gt;Contribute by Forking&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fork the Repo on GitHub: Click the &amp;ldquo;Fork&amp;rdquo; button on the top right of the repository page to create a copy under your account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clone the Forked Repo to Local:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone git@github.com:username/reponame.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Add the Original Repository as Upstream: This time use the HTTPS URL.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add upstream &amp;lt;ORIGINAL_REPO_URL&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Fetch the Latest Changes from Upstream:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Merge Changes into Your Local Branch: If you want to merge changes from the upstream branch (usually &lt;code&gt;main&lt;/code&gt;) into your local &lt;code&gt;main&lt;/code&gt; branch:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge upstream/main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Push to Your Forked Repo: After merging, push the updated local branch to your forked repo on GitHub:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;submodule&#34;&gt;submodule&lt;/h2&gt;
+&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.
+need to make seperate commits.&lt;/p&gt;
+&lt;h2 id=&#34;cicd-pipeline-github-action&#34;&gt;CI/CD Pipeline (Github Action)&lt;/h2&gt;
+&lt;p&gt;Continuous Integration, Continuous Delivery&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>git</title>
+        <link>https://evthron.github.io/en/profile/git/</link>
+        <pubDate>Thu, 06 Mar 2025 12:31:38 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/git/</guid>
+        <description>&lt;h2 id=&#34;how-to-upload-local-repo-to-github&#34;&gt;How to Upload Local Repo to GitHub&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create Local Git Repo:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Create an Empty Repo on GitHub&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Link the Local Repo to the Remote GitHub Repo:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin git@github.com:username/reponame.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;If you used the HTTPS URL, change it using &lt;code&gt;set-url&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote set-url origin git@github.com:username/reponame.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;origin&lt;/code&gt; is the default name that prefixes all upstream branches. All upstream branches are referred to as &lt;code&gt;origin/branch&lt;/code&gt; when viewed in the local repo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can check the remote URL to confirm the change:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Push Local &lt;code&gt;main&lt;/code&gt; Branch to the &lt;code&gt;origin/main&lt;/code&gt; Branch:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;If your default local branch name is &lt;code&gt;master&lt;/code&gt;, you may encounter an error like:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;error: src refspec main does not match any
+error: failed to push some refs to &amp;#39;github.com...&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Normally, the remote branch and the local branch should have the same name. Change the local branch name by:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Now, &lt;code&gt;git push origin main&lt;/code&gt; should work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Set Upstream Tracking: To make the branch remember its upstream branch, use the &lt;code&gt;--set-upstream&lt;/code&gt; or &lt;code&gt;-u&lt;/code&gt; flag once:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --set-upstream origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or equivalently:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Next time, you can simply push the branch by using:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;contribute-by-forking&#34;&gt;Contribute by Forking&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fork the Repo on GitHub: Click the &amp;ldquo;Fork&amp;rdquo; button on the top right of the repository page to create a copy under your account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clone the Forked Repo to Local:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone git@github.com:username/reponame.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Add the Original Repository as Upstream: This time use the HTTPS URL.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add upstream &amp;lt;ORIGINAL_REPO_URL&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Fetch the Latest Changes from Upstream:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Merge Changes into Your Local Branch: If you want to merge changes from the upstream branch (usually &lt;code&gt;main&lt;/code&gt;) into your local &lt;code&gt;main&lt;/code&gt; branch:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge upstream/main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Push to Your Forked Repo: After merging, push the updated local branch to your forked repo on GitHub:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;submodule&#34;&gt;submodule&lt;/h2&gt;
+&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.
+need to make seperate commits.&lt;/p&gt;
+&lt;h2 id=&#34;cicd-pipeline-github-action&#34;&gt;CI/CD Pipeline (Github Action)&lt;/h2&gt;
+&lt;p&gt;Continuous Integration, Continuous Delivery&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>python-venv</title>
+        <link>https://evthron.github.io/en/profile/code/python-venv/</link>
+        <pubDate>Mon, 24 Feb 2025 17:56:55 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/code/python-venv/</guid>
+        <description>&lt;p&gt;error: externally-managed-environment&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv myenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source myenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;note:&lt;/p&gt;
+&lt;p&gt;use myenv/bin/{executable} (e.g. myenv/bin/pip)&lt;/p&gt;
+&lt;p&gt;don&amp;rsquo;t change the folder path after creating the virtual env&lt;/p&gt;
+&lt;h2 id=&#34;conda&#34;&gt;Conda&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda create --name myenv python&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;3.X
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda activate myenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda env list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>python-venv</title>
+        <link>https://evthron.github.io/en/profile/python-venv/</link>
+        <pubDate>Mon, 24 Feb 2025 17:56:55 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/python-venv/</guid>
+        <description>&lt;p&gt;error: externally-managed-environment&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv myenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source myenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;note:&lt;/p&gt;
+&lt;p&gt;use myenv/bin/{executable} (e.g. myenv/bin/pip)&lt;/p&gt;
+&lt;p&gt;don&amp;rsquo;t change the folder path after creating the virtual env&lt;/p&gt;
+&lt;h2 id=&#34;conda&#34;&gt;Conda&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda create --name myenv python&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;3.X
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda activate myenv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda env list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
         <title>Relationship management software</title>
         <link>https://evthron.github.io/en/tweet/personal-relationship-management/</link>
         <pubDate>Fri, 14 Feb 2025 13:53:18 +0800</pubDate>
@@ -346,6 +640,70 @@
 </description>
         </item>
         <item>
+        <title>taskwarrior</title>
+        <link>https://evthron.github.io/en/profile/sandbox/taskwarrior/</link>
+        <pubDate>Tue, 31 Dec 2024 08:01:55 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/sandbox/taskwarrior/</guid>
+        <description>&lt;p&gt;My task list, I add everything I can think of in it.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+Age   Description
+----- --------------------------------------------------------------------------
+10d   try google map api
+10d   code dummy blog profile site for job search
+ 4w   write cover letter
+10d   try to code deepsearch
+11w   code tic-tac-toe on blog
+10d   code improve llm to be a better project
+ 5mo  ask for emacs and org-mode
+ 3w   code make a browser that can only access the internet through qr code
+ 6w   code merge sort on website blog
+11w   code task warrior hook for motivational quote
+ 8w   search how to do a stock market emulator
+10w   code copy habitica css
+11w   buy a domain
+ 5w   code quantum calculator
+ 4w   write more profile for contact list
+10d   learn .net
+10d   code an true drawing tracker
+ 5mo  add a link page to my blog
+ 5mo  set up local habitica server
+ 3mo  write university problem of common space and study group, what should
+      friends do together
+ 5w   code a clock on blog
+11w   write how a make the painter progress bar
+ 4w   fix awesomewm touchpad
+10w   read source code of clocktower
+ 3w   buy DST
+12w   add tag search feature to blog
+ 3mo  code a youtube download credit system
+ 8w   code taskwarrior blog show completed tasks
+ 7w   write science mind limit
+ 6w   code color wheel on blog
+ 5w   search task system how to deal with recurring daily task
+ 4w   write useless productivity skill
+ 4w   write tutorial how to build a blog using hugo
+11d   write invent culture
+ 9d   set up joplin docker server
+ 6d   code financial calculator
+ 3mo  code track social life, random pick
+ 4w   add japanese as blog language
+11w   draw new blog background from postcard
+ 5w   awesome wm touchpad
+ 9d   code blog to translate to simplied chinese
+ 5w   check haskell tutorial
+11w   redraw ai-generated-image
+ 9w   rime dictionary change chuang tradition chinese
+10w   code taskwarrior layout on blog
+12w   change input method word order cheng du
+ 5mo  incremental video in obsidian
+11w   code copy post to multiple language when more than one language tag
+ 3mo  code recreate habitica search token
+
+49 tasks
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
         <title>Hard to ask for help</title>
         <link>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:20 +0800</pubDate>
@@ -356,6 +714,208 @@
 &lt;p&gt;On some extreme occasion, if I am really scared about the immediate danger, I will draw on everything in sight to save myself without a second thought.&lt;/p&gt;
 &lt;p&gt;Maybe I just don&amp;rsquo;t believe that I could get meaningful help. If I go ask about homework, instead of discussing the the answer together, they will finish the work alone and share their answers.&lt;/p&gt;
 &lt;p&gt;On the filp side, if someone ask me for help, I can act immediately. I may feel annoyed sometimes, but I like the feeling to be prompted to do something.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Upload workflow</title>
+        <link>https://evthron.github.io/en/profile/toolbox/upload-workflow/</link>
+        <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/toolbox/upload-workflow/</guid>
+        <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
+&lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo (official site)&lt;/a&gt; to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.&lt;/p&gt;
+&lt;p&gt;Each section of the website, like posts and gallery, are represented as a folder on my computer. If I need to have multiple language versions for the same article, I also need to put them inside the same folder.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blog
+&lt;ul&gt;
+&lt;li&gt;content
+&lt;ul&gt;
+&lt;li&gt;gallery&lt;/li&gt;
+&lt;li&gt;posts
+&lt;ul&gt;
+&lt;li&gt;cardinal-ordinal
+&lt;ul&gt;
+&lt;li&gt;index.en.md&lt;/li&gt;
+&lt;li&gt;index.zh.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&amp;rsquo;t add files directly inside the content folder. I first prepare the conten in Joplin and use code to generate the required content structure.&lt;/p&gt;
+&lt;p&gt;I mimic the same folder structure in Joplin using nested notebooks. Each section is a represented as a notebook in Joplin. Each article stored inside the section notebook is represented as a notebook too. It stores the notes storing the content for each language version.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;posts
+&lt;ul&gt;
+&lt;li&gt;cardinal-ordinal
+&lt;ul&gt;
+&lt;li&gt;量數和序數&lt;/li&gt;
+&lt;li&gt;Cardinals and ordinals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When an note is ready to pubilsh, I add a language code tag on it. In this way, I won&amp;rsquo;t accidentally publish drafts.&lt;/p&gt;
+&lt;p&gt;Then I use python to generate the files and shell script to upload the website.&lt;/p&gt;
+&lt;p&gt;Now for the actual code to execute the procedure. &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Joppy (github)&lt;/a&gt; is the tool for me to output the files from Joplin. It implements the Joplin API in python.&lt;/p&gt;
+&lt;p&gt;Due to its database nature, the way how Joplin stores folders is not intuitive. The &amp;rsquo;nested&amp;rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
+&lt;p&gt;It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&amp;rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
+&lt;p&gt;Now I know how to filter the notebooks, all that&amp;rsquo;s left is the hassle of generating the actual markdown files. Let&amp;rsquo;s take a look at the final code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Use Joppy API&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;api &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Api(token&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;YOUR_API_TOKEN&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;output_posts_in_certain_notebook_id&lt;/span&gt;(all_notebooks, notebook_id):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    category &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_notebook(notebook_id)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; notebook_data &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; all_notebooks:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Continue only when the notebook (article) is inside the correct parent notebook (section)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parent_id &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parent_id &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; notebook_id:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# Get all the notes (articles in various language versions) inside the notebooks&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            post_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_notes(notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id, fields&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;created_time,updated_time,body,order,title,id&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            folder_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            zh_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            en_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tok_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; post_language_version &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; post_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;items:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post_language_version&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                Skip the note if the note has no tags
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; get_tag_list(post_language_version&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; tag_list: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;# Group the notes according to language&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    zh_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    en_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    tok_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt;, zh_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt;, en_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt;, tok_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;combine_and_output_posts_in_same_language&lt;/span&gt;(category, folder_name, language_code, posts):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; posts:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        This part combines the notes if multiple notes exist.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        It was for combining paragraphs in a long story but it has yet to
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        be useful.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sort(key&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;lambda&lt;/span&gt; x: x&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;order, reverse&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; posts[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; get_tag_list(posts[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tag_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;remove(language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        body &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        created_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        updated_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Use the latest created/update time if multiple notes exist &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; post &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; posts:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (created_time &lt;span style=&#34;color:#f92672&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;created_time &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; created_time):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                created_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;created_time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (updated_time &lt;span style=&#34;color:#f92672&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;updated_time &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; updated_time):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                updated_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;updated_time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            body &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;body &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        Extract the note data for generating front matter for the markdown file
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        date &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; created_time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;isoformat()[:&lt;span style=&#34;color:#ae81ff&#34;&gt;19&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;+08:00&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; updated_time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;isoformat()[:&lt;span style=&#34;color:#ae81ff&#34;&gt;19&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;+08:00&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        home_dir &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;HOME&amp;#39;&lt;/span&gt;] 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        If there&amp;#39;s a image with a correct file name in target folder, use that as feature image
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        feature_png_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;png&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        feature_jpg_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;jpg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(feature_png_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.png&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category, image&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;image)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(feature_jpg_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.jpg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category, image&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;image)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        Output the generated markdown file to the target folder
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        folder_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(folder_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;makedirs(folder_directory)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        path &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_directory &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/index.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; language_code &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.md&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(path, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;w&amp;#39;&lt;/span&gt;, encoding&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; fout:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            fout&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; body)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;done in&amp;#34;&lt;/span&gt;, language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;no post in&amp;#34;&lt;/span&gt;, language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;generate_front_matter&lt;/span&gt;(title, date, description &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, categories &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, tags &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, slug &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, layout &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; str:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; lastmod &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; strftime(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%Y-%m-&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;T%H:%M:%S+08:00&amp;#34;&lt;/span&gt;, localtime())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;---&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;title: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; title &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;description: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; description &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; date &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;lastmod: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; lastmod &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; image &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;categories: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; categories &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tags: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; tags &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;math: &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;license: &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;hidden: false&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;comments: true&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; slug:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;slug: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; slug &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; layout:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;layout: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; layout &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;---&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; front_matter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;get_tag_list&lt;/span&gt;(note_id):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    info &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_tags(note_id)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;items
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; info:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; tagdata &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; info:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tag &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tagdata&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tag_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(tag)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; tag_list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;               
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    all_notebooks &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_all_notebooks()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    post_notebook_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PUT_NOTEBOOK_ID_HERE&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    output_posts_in_certain_notebook_id(all_notebooks, post_notebook_id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    gallery_notebook_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PUT_NOTEBOOK_ID_HERE&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    output_posts_in_certain_notebook_id(all_notebooks, gallery_notebook_id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; __name__ &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This workflow can be simpified if I ditch Joplin completely, but since seperating the writing place and the finished stuff has some benefits and I made lots of effort to finish the code, I don&amp;rsquo;t really want to change for now.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -601,6 +1161,323 @@
 </description>
         </item>
         <item>
+        <title>Component Collection</title>
+        <link>https://evthron.github.io/en/profile/sandbox/arsenal/</link>
+        <pubDate>Thu, 29 Aug 2024 22:12:22 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/sandbox/arsenal/</guid>
+        <description>&lt;h3 id=&#34;progress-bar&#34;&gt;Progress bar&lt;/h3&gt;
+
+&lt;div class=&#34;progress-bar-status&#34;&gt;
+    &lt;div class=&#34;status-labels&#34;&gt;
+        &lt;span&gt;Component count:&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-count&#34;&gt;0/100&lt;/span&gt;
+        &lt;span&gt;---&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-level&#34;&gt;Lv0&lt;/span&gt;
+    &lt;/div&gt;
+   &lt;div class=&#34;progress-bar&#34;&gt;
+        
+        &lt;div class=&#34;progress-bar-experience&#34; style=&#34;width: 0%&#34; role=&#34;progressbar&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;clock&#34;&gt;Clock&lt;/h3&gt;
+&lt;div id=&#34;ClockDate&#34;&gt;&lt;span &gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div id=&#34;ClockAnalog&#34; style=&#34;transform: scale(1);&#34;&gt;
+
+&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; version=&#34;1.1&#34; width=&#34;300&#34; height=&#34;300&#34;&gt;
+    
+    &lt;defs&gt;
+        &lt;linearGradient id=&#34;clockFaceGradient&#34; x1=&#34;1&#34; y1=&#34;1&#34; x2=&#34;1&#34; y2=&#34;1&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#fffff0&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#AA0000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+        &lt;linearGradient id=&#34;hourHandGradient&#34; x1=&#34;0&#34; y1=&#34;0&#34; x2=&#34;1&#34; y2=&#34;0&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;50%&#34; stop-color=&#34;#898989&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+        &lt;linearGradient id=&#34;minuteHandGradient&#34; x1=&#34;0&#34; y1=&#34;0&#34; x2=&#34;1&#34; y2=&#34;0&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;50%&#34; stop-color=&#34;#898989&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#000000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+        &lt;linearGradient id=&#34;secondHandGradient&#34; x1=&#34;0&#34; y1=&#34;0&#34; x2=&#34;1&#34; y2=&#34;0&#34;&gt;
+            &lt;stop offset=&#34;0%&#34; stop-color=&#34;#800000&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;50%&#34; stop-color=&#34;#dc143c&#34;&gt;&lt;/stop&gt;
+            &lt;stop offset=&#34;100%&#34; stop-color=&#34;#800000&#34;&gt;&lt;/stop&gt;
+        &lt;/linearGradient&gt;
+    &lt;/defs&gt;
+    
+    &lt;circle cx=&#34;150&#34; cy=&#34;150&#34; r=&#34;145&#34; fill=&#34;url(#clockFaceGradient)&#34; stroke=&#34;none&#34;&gt;&lt;/circle&gt;
+    &lt;circle cx=&#34;150&#34; cy=&#34;150&#34; r=&#34;131&#34; fill=&#34;#f5f5dc&#34; stroke=&#34;none&#34;&gt;&lt;/circle&gt;
+    
+    &lt;rect id=&#34;hourHand&#34; x=&#34;145&#34; y=&#34;75&#34; width=&#34;10&#34; height=&#34;75&#34; fill=&#34;url(#hourHandGradient)&#34; transform=&#34;rotate(0 150 150)&#34;&gt;&lt;/rect&gt;  
+    &lt;rect id=&#34;minuteHand&#34; x=&#34;147&#34; y=&#34;50&#34; width=&#34;6&#34; height=&#34;100&#34; fill=&#34;url(#minuteHandGradient)&#34; transform=&#34;rotate(0 150 150)&#34;&gt;&lt;/rect&gt;
+    &lt;rect id=&#34;secondHand&#34; x=&#34;149&#34; y=&#34;30&#34; width=&#34;2&#34; height=&#34;120&#34; fill=&#34;url(#secondHandGradient)&#34; transform=&#34;rotate(0 150 150)&#34;&gt;&lt;/rect&gt;
+    
+    &lt;circle cx=&#34;150&#34; cy=&#34;150&#34; r=&#34;5&#34; fill=&#34;#555555&#34;&gt;&lt;/circle&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;div id=&#34;Clock_Time&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;script&gt;
+    function updateClock() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, &#39;0&#39;);
+        const day = String(now.getDate()).padStart(2, &#39;0&#39;);
+        const hours = now.getHours();
+        const minutes = String(now.getMinutes()).padStart(2, &#39;0&#39;);
+        const seconds = String(now.getSeconds()).padStart(2, &#39;0&#39;);
+        const ampm = hours &gt;= 12 ? &#39;PM&#39; : &#39;AM&#39;;
+        const formattedHours = hours % 12 || 12;
+
+        
+        document.getElementById(&#39;ClockDate&#39;).innerHTML = `${year}-${month}-${day} &lt;span &gt;${getDayOfWeek(now)}&lt;/span&gt;`;
+
+        
+        document.getElementById(&#39;Clock_Time&#39;).innerHTML = `&lt;span&gt;${ampm}&lt;/span&gt; ${formattedHours}:${minutes}:${seconds}`;
+
+        
+        updateAnalogClock(now);
+    }
+
+    function getDayOfWeek(date) {
+        const days = [&#39;Sunday&#39;, &#39;Monday&#39;, &#39;Tuesday&#39;, &#39;Wednesday&#39;, &#39;Thursday&#39;, &#39;Friday&#39;, &#39;Saturday&#39;];
+        return days[date.getDay()];
+    }
+
+    function updateAnalogClock(date) {
+        const hours = date.getHours() % 12;
+        const minutes = date.getMinutes();
+        const seconds = date.getSeconds();
+
+        const hourHand = document.getElementById(&#39;hourHand&#39;);
+        const minuteHand = document.getElementById(&#39;minuteHand&#39;);
+        const secondHand = document.getElementById(&#39;secondHand&#39;);
+
+        const hourDeg = (hours * 30) + (minutes * 0.5); 
+        const minuteDeg = (minutes * 6) + (seconds * 0.1); 
+        const secondDeg = seconds * 6; 
+
+
+
+        
+        hourHand.setAttribute(&#39;transform&#39;, `rotate(${hourDeg} 150 150)`);
+        minuteHand.setAttribute(&#39;transform&#39;, `rotate(${minuteDeg} 150 150)`);
+        secondHand.setAttribute(&#39;transform&#39;, `rotate(${secondDeg} 150 150)`);
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock(); 
+&lt;/script&gt;
+&lt;h3 id=&#34;number-field&#34;&gt;Number field&lt;/h3&gt;
+
+&lt;div class=&#34;card_number&#34;&gt;
+  &lt;div class=&#34;field&#34;&gt;
+    
+    
+    &lt;input
+      class=&#34;field_input&#34;
+      role=&#34;spinbutton&#34;
+    /&gt;
+    
+    
+    &lt;button class=&#34;field_control is-increase&#34; onclick=&#34;changeNumber(1)&#34;&gt;&lt;/button&gt;
+    
+    &lt;button class=&#34;field_control is-decrease&#34; onclick=&#34;changeNumber(-1)&#34;&gt;&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+  function changeNumber(delta) {
+    let input = document.querySelector(&#39;.field_input&#39;);
+    let currentValue = parseInt(input.value) || 0;
+    currentValue += delta;
+    if (currentValue &lt; 0) {
+        currentValue = 0;
+    }
+    input.value = currentValue;
+}
+&lt;/script&gt;
+
+&lt;h3 id=&#34;vocab-tag&#34;&gt;Vocab Tag&lt;/h3&gt;
+&lt;p&gt;&lt;div id=&#34;vocab-button-container&#34;&gt;
+    
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;all&#34; &gt; all &lt;/button&gt;
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-adj&#34; &gt; pos-adj &lt;/button&gt;
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-v&#34; &gt; pos-v &lt;/button&gt;
+    &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-n&#34; &gt; pos-n &lt;/button&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-similar type-people&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; fellow &lt;div&gt; pos-adj property-similar type-people&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj type-bad&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; out of luck &lt;div&gt; pos-adj type-bad&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-personality theme-fashion type-bad type-good&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; sleek &lt;div&gt; pos-adj property-personality theme-fashion type-bad type-good&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n theme-work&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; livelihood &lt;div&gt; pos-n theme-work&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-good type-object type-people&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; gem &lt;div&gt; pos-n type-good type-object type-people&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-object&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; phoenix &lt;div&gt; pos-n type-object&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-people&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; attorney &lt;div&gt; pos-n type-people&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n property-difficult type-bad&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; peril &lt;div&gt; pos-n property-difficult type-bad&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-future&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; foresee &lt;div&gt; pos-v time-future&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v theme-info&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; keep you posted &lt;div&gt; pos-v theme-info&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-result type-good&#34;&gt;
+  
+    &lt;div class=&#34;vocab-item&#34;&gt; pay off &lt;div&gt; pos-v time-result type-good&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h3 id=&#34;thumbnail-progress-bar&#34;&gt;Thumbnail Progress bar&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+
+&lt;span class=&#34;skill-title&#34; &gt;
+    Book used
+&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+
+&lt;span class=&#34;skill-title&#34; &gt;
+    file_count
+&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;309/336&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv7
+&lt;/span&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144100%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144103%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063551%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063558%20--%20colour%20home%20doodles%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063607%20--%20colour%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063612%20--%20colour%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063614%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063619%20--%20colour%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063624%20--%20colour%20sight%20home%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063627%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063631%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063635%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054244%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054247%20--%20sight%20figures%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054252%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054255%20--%20home%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h3 id=&#34;book-card&#34;&gt;Book card&lt;/h3&gt;
+
+
+&lt;a href=&#34;#sample-book&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL7440033M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;sample book&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+</description>
+        </item>
+        <item>
         <title>Gamify my life</title>
         <link>https://evthron.github.io/en/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
@@ -610,6 +1487,35 @@
 &lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. My avatar is at level 88.  I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
 &lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design play and may defeat the purpose of gamification, which is to motivate myself. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
 &lt;p&gt;I focused on experiences and knowledge because they are easy to quantify and cannot regress even if you slack off for a while, just like you don&amp;rsquo;t lose the in-game experience points even if you forget the game. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
+&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Gamify my life</title>
+        <link>https://evthron.github.io/en/profile/posts/skill-gamification/</link>
+        <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/posts/skill-gamification/</guid>
+        <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
+&lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. My avatar is at level 88.  I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
+&lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design play and may defeat the purpose of gamification, which is to motivate myself. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
+&lt;p&gt;I focused on experiences and knowledge because they are easy to quantify and cannot regress even if you slack off for a while, just like you don&amp;rsquo;t lose the in-game experience points even if you forget the game. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
+&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Gamify my life</title>
+        <link>https://evthron.github.io/en/profile/skill/introduction/</link>
+        <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/introduction/</guid>
+        <description>&lt;p&gt;Gamification is adding game elements to activities. This motivates people to do things they will not normally do. A great example is Habitica, a platform for nurturing habits in an RPG way. Players gain experience points and coins by completing daily tasks. They level up and buy new equipment to attack monsters in quests. I have used Habitica for a years and I recommend anyone to try it to grasp what gamification is.&lt;/p&gt;
+&lt;p&gt;However, as my level grows, the numbers becomes less and less meaningful. I felt that this is just a glorified to-do list. The reason is obvious: A game is not a accurate representation of reality. My avatar is at level 88, but what does that mean? Maybe that was a reward of I being a good learner, or having a great habit of exercising. I can&amp;rsquo;t tell because all the things I earned have been mixed together and there&amp;rsquo;s no record keeping track of them. I want the number to be meaningful, like that actual stats in RPGs that can do actual damages.&lt;/p&gt;
+&lt;p&gt;Therefore, I want to create my own system to represent my real life. I focused on experiences and knowledge because they are easy to quantify and cannot regress. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
 &lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
@@ -754,6 +1660,237 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
 </description>
         </item>
         <item>
+        <title>class Writer</title>
+        <link>https://evthron.github.io/en/profile/skill/writer/</link>
+        <pubDate>Fri, 29 Mar 2024 12:53:39 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/writer/</guid>
+        <description>&lt;h2 id=&#34;writing-statistics&#34;&gt;Writing Statistics&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;              File count:  61 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
+
+           Frame-of-mind:  11 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
+
+               Imaginary:   4 --- Lv1 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+                 Reviews:  11 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱
+
+                 Stories:  24 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
+
+                 Toolbox:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+
+                 Writing:   3 --- Lv1 ▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;input-method&#34;&gt;Input Method&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;English: dvoark&lt;/li&gt;
+&lt;li&gt;Chinese: double pinyin (flypy)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;writing-software&#34;&gt;Writing Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Joplin&lt;/li&gt;
+&lt;li&gt;FocusWriter&lt;/li&gt;
+&lt;li&gt;VimWiki&lt;/li&gt;
+&lt;li&gt;Obsidian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;writing-technique&#34;&gt;Writing Technique&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Incremental writing with Obsidian plugin&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>class Foreigner</title>
+        <link>https://evthron.github.io/en/profile/skill/foreigner/</link>
+        <pubDate>Thu, 28 Mar 2024 02:39:05 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/foreigner/</guid>
+        <description>&lt;h2 id=&#34;skill&#34;&gt;Skill&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;     English vocab (web): 930 --- Lv12 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱
+
+          Japanese vocab: 430 --- Lv8 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Anki&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>class Programmer</title>
+        <link>https://evthron.github.io/en/profile/skill/programmer/</link>
+        <pubDate>Mon, 25 Mar 2024 12:05:21 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/programmer/</guid>
+        <description>&lt;h2 id=&#34;read-code&#34;&gt;Read Code&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;              Code notes:  18
+
+          Function count:  12 --- Lv2 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+          Data-structure:   6 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱
+
+             File-system:   2 --- Lv1 ▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+                     Web:   5 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;notes-for-own-code&#34;&gt;Notes for own code&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;                  Python:   8 --- Lv1 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;write-code&#34;&gt;Write Code&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Python function (script): 104 --- Lv4 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱
+
+Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
+
+            Shell script:  20 --- Lv2 ▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here are my notes on the code I read.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/code&#34; &gt;code notes&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Terminal: Konsole&lt;/li&gt;
+&lt;li&gt;Shell: zsh&lt;/li&gt;
+&lt;li&gt;Code Editor: VS Codium&lt;/li&gt;
+&lt;li&gt;Version Control: git&lt;/li&gt;
+&lt;li&gt;Python interpreter: Thonny&lt;/li&gt;
+&lt;li&gt;Site builder: hugo&lt;/li&gt;
+&lt;li&gt;Tagging: filetags&lt;/li&gt;
+&lt;li&gt;Password Management: Keepass&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;achievements&#34;&gt;Achievements&lt;/h2&gt;
+&lt;p&gt;Reinvent the wheel:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Matrix operations (numpy-like)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Scripts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Automate blog publishing&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Automate blog statistics counting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Operating system:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Install Arch Linux
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Set up Chinese input method (fcitx5)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to Dexpot (qtile)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to foobar2000 (Audiotube)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to AutoHotKey (keyd)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to Supermemo (Obsidian Incremental Writing Plugin)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Alternative to Cold Turkey Blocker (DNS blocking using dnsmasq)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; What is Emacs? A highly programmable text editor using lisp.&lt;/li&gt;
+&lt;li&gt;List of shell commands I grasp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Web:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Create own blog template
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tweet Layout&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Gallery Layout&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Statistic page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Web crawler&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Software Development:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write an application that randomly shows motivational quotes&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write a Joplin plug-in for incremental writing&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write a oklch colour picker plug-in for Krita&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write a task scheduler that automatically picks daily tasks.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Generate oklch intensity charts with different brightness level&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>class Right-sider</title>
+        <link>https://evthron.github.io/en/profile/skill/right-sider/</link>
+        <pubDate>Mon, 25 Mar 2024 12:05:21 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/right-sider/</guid>
+        <description>&lt;h2 id=&#34;skill&#34;&gt;Skill&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;                 Collect: 124 --- Lv5 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+
+                   Share:  36 --- Lv3 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Right-sider, the opposite of &amp;lsquo;wrong-sider&amp;rsquo;. I altered the meaning a bit for my own use.&lt;/p&gt;
+&lt;h2 id=&#34;collection&#34;&gt;Collection&lt;/h2&gt;
+
+&lt;div class=&#34;progress-bar-status&#34;&gt;
+    &lt;div class=&#34;status-labels&#34;&gt;
+        &lt;span&gt;Book count:&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-count&#34;&gt;0/100&lt;/span&gt;
+        &lt;span&gt;---&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-level&#34;&gt;Lv0&lt;/span&gt;
+    &lt;/div&gt;
+   &lt;div class=&#34;progress-bar&#34;&gt;
+        
+        &lt;div class=&#34;progress-bar-experience&#34; style=&#34;width: 0%&#34; role=&#34;progressbar&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;a href=&#34;#leil-lowndes---how-to-talk-to-anyone--92-little-tricks-for-big-success-in-relationships&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL7299892M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Leil Lowndes - How to talk to anyone : 92 little tricks for big success in relationships&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#melanie-joy---getting-relationships-right--how-to-build-resilience-and-thrive-in-life-love-and-work&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL32589478M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Melanie Joy - Getting relationships right : how to build resilience and thrive in life, love, and work&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL7441021M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Keith Ferrazzi, Tahl Raz - Never eat alone : and other secrets to success, one relationship at a time&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+&lt;h3 id=&#34;leil-lowndes---how-to-talk-to-anyone--92-little-tricks-for-big-success-in-relationships&#34;&gt;Leil Lowndes - How to talk to anyone : 92 little tricks for big success in relationships&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A very practical conversation guide that helped me find the joy of small talk. Even if you were an alien from another universe, you can blend in with normal human by following those guildlines, starting from &amp;rsquo;look into other&amp;rsquo;s eyes&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;melanie-joy---getting-relationships-right--how-to-build-resilience-and-thrive-in-life-love-and-work&#34;&gt;Melanie Joy - Getting relationships right : how to build resilience and thrive in life, love, and work&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It convinced me that I shoul seek for connection by presenting the framework of relationship. People are vastly different in their way of connceting. However, finding friends is not that hard since they only need to compatible in some aspects of connection. It explains what does it mean to be &amp;lsquo;vulnerable&amp;rsquo;. It&amp;rsquo;s actually meaning is really &amp;lsquo;do not avoid emotional risk&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time&#34;&gt;Keith Ferrazzi, Tahl Raz - Never eat alone : and other secrets to success, one relationship at a time&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Attracted me by the book title and blew my mind by promoting &amp;lsquo;get as many friends as you can&amp;rsquo;. Since the author is a businessman, you might think the book will tell you ways to manipulate others to benefit from relationships. Rather, you can still be very sincereto others while following his advice.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Better Search Engine</title>
         <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
@@ -807,6 +1944,1432 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
         <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:37&lt;/p&gt;
 &lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>class Painter</title>
+        <link>https://evthron.github.io/en/profile/skill/painter/</link>
+        <pubDate>Sun, 10 Mar 2024 06:10:52 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/skill/painter/</guid>
+        <description>&lt;h2 id=&#34;overall&#34;&gt;Overall&lt;/h2&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    Total_count
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv8
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;376p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;56 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040118%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131658%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131711%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    lines
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;18p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;18 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_030341%20--%20lines%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_030649%20--%20lines%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240403_203011%20--%20lines%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240404_000011%20--%20outdoors%20lines.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190103%20--%20home%20colour%20sight%20lines.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250102_040628%20--%20lines%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    colour
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv3
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;46p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;26 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231343%20--%20outdoors%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231347%20--%20outdoors%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231411%20--%20outdoors%20colour%20copies.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181227%20--%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181239%20--%20colour%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    perspective
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;8p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;4 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014105%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014110%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014113%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014118%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_014121%20--%20perspective%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_031303%20--%20figures%20perspective%20copies%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_031308%20--%20figures%20perspective%20copies%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    figures
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv4
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;112p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;8 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190505%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144057%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144100%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240617_144103%20--%20outdoors%20sight%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063558%20--%20colour%20home%20doodles%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054247%20--%20sight%20figures%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231324%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231340%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231358%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231407%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231413%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231416%20--%20outdoors%20figures%20sight%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241204_235004%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250102_040714%20--%20sight%20figures%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123801%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123819%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131711%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    hands
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;12p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;24 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    heads
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv3
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;54p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;18 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190449%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190503%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190505%20--%20outdoors%20sight%20figures%20heads.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231330%20--%20outdoors%20heads%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231354%20--%20outdoors%20heads%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231404%20--%20outdoors%20heads%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241121_004329%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241121_004336%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241121_004340%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123807%20--%20sight%20heads%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sketchbook&#34;&gt;Sketchbook&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    Book used
+&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    file_count
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv8
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;361p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;71 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    sight
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv6
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;196p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;56 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    copies
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv5
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;124p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;56 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240521_215416%20--%20outdoors%20copies.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231411%20--%20outdoors%20colour%20copies.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    doodles
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;5p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;7 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_021521%20--%20doodles%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_023607%20--%20doodles%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240529_011346%20--%20colour%20doodles%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240608_190106%20--%20home%20doodles.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063558%20--%20colour%20home%20doodles%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    home
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv6
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;200p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;52 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240813_054255%20--%20home%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20241204_235000%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181140%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181153%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250204_181204%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131658%20--%20sight%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131727%20--%20home%20colour%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    outdoors
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv5
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;158p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;22 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123812%20--%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123815%20--%20hands%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250207_123819%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250213_160735%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040102%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040106%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040113%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_040118%20--%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250228_140143%20--%20outdoors%20sight%20figures%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131711%20--%20sight%20outdoors%20figures.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131716%20--%20sight%20outdoors%20perspective.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131719%20--%20outdoors%20figures%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_131731%20--%20heads%20outdoors%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142803%20--%20figures%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250311_142809%20--%20heads%20sight%20outdoors.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    completed
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;22p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;14 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_033300%20--%20outdoors%20completed%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240311_033304%20--%20outdoors%20completed%20sight.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240413_070723%20--%20home%20sight%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240509_080431%20--%20sight%20home%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240509_174335%20--%20home%20sight%20completed%20colour.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240523_035246%20--%20home%20sight%20colour%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240529_011352%20--%20colour%20completed%20home.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240707_063624%20--%20colour%20sight%20home%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20240906_231416%20--%20outdoors%20figures%20sight%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/20250102_040714%20--%20sight%20figures%20completed.jpg&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;digital&#34;&gt;Digital&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    file_count
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv2
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;15p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;21 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:48rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.40%20body%20skeleton%20--%20figures%203%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.41%20body%20skeleton%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.15.24%20balance%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    lines
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;2p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2023-01-09T16.34.13%20sketch01%20--%20lines.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-01-08T23.00.54%205-sides%20--%20figures%20lines.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    colour
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;7p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;5 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.07.28%20Betty%20Edwards%20colour%20wheel%20--%20colour%20references.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.14%20single-value-colour-combo%20--%20colour.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.42%20nightview%20--%20sight%20colour%20home%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.07%20christmas-house%20--%20completed%20colour%20scanned.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.34%20colour-four-season%20--%20colour.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.51%20lazard-man%20--%20colour%20completed%20sight.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.10.53%20flower-repaint%20--%20colour.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    scanned
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;1p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;11 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.07%20christmas-house%20--%20completed%20colour%20scanned.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    photo
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;5p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;7 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.11.55%20body-sketch%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.13.22%20body%20skeleton%202%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.40%20body%20skeleton%20--%20figures%203%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.14.41%20body%20skeleton%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.15.24%20balance%20--%20figures%20photo.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    sight
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;2p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;10 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.42%20nightview%20--%20sight%20colour%20home%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.51%20lazard-man%20--%20colour%20completed%20sight.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;div class=&#34;status-bar-wrapper&#34;&gt;
+    
+&lt;div class=&#34;badges-wrapper&#34;&gt;
+    
+&lt;span class=&#34;skill-title&#34; &gt;
+    completed
+&lt;/span&gt;
+&lt;span class=&#34;level-badge&#34; &gt;
+    Lv1
+&lt;/span&gt;
+&lt;span class=&#34;page-exp&#34;&gt;4p&lt;/span&gt;
+&lt;span class=&#34;experience&#34;&gt;8 remain&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;thumbnail-wrapper&#34;&gt;
+    &lt;div class=&#34;thumbnail-experience&#34; style=&#34;width:24rem;&#34;&gt;
+        
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.08.42%20nightview%20--%20sight%20colour%20home%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.07%20christmas-house%20--%20completed%20colour%20scanned.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.09.51%20lazard-man%20--%20colour%20completed%20sight.png&#34;/&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;thumbnail&#34;&gt;
+        &lt;img class=&#34;thumbnail&#34; src=&#34;https://evthron.github.io/thumbnails/2024-08-30T17.11.12%20Labcoat%20--%20completed.png&#34;/&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;Digital:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Krita&lt;/li&gt;
+&lt;li&gt;One by Wacom Medium CTL-672&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Physical:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lyra Rembrandt Art Design pencils&lt;/li&gt;
+&lt;li&gt;Sakura Cray-Pas Oil Pastels&lt;/li&gt;
+&lt;li&gt;uni Nano Dia 0.5, 2B &amp;amp; 4B Leads&lt;/li&gt;
+&lt;li&gt;Zebra DelGuard 0.5 Mechanical pencil&lt;/li&gt;
+&lt;li&gt;MONO Plastic Eraser&lt;/li&gt;
+&lt;li&gt;NDK Cutter S-800&lt;/li&gt;
+&lt;li&gt;Colleen Colour Pencil&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cardboard viewfinder&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cardboard colour wheel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;achievements&#34;&gt;Achievements&lt;/h2&gt;
+&lt;p&gt;Drawing at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Home&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Park&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Mall&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Minibus&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Restaurant&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beach&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hospital&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Street&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Lecture Room&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sports Centre&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Railway&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Library&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Art Museum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finish a drawing using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pencil&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Fineliner&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Willow charcoal&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acrylic&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Coloured pencil&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Oil Pastel&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Ballpoint pen&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Rubber on charcoal&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sand and stick&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Window and water vapour&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Printout images&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Subject matter:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-Portrait&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Portrait for others&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Avatar Icon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;collection&#34;&gt;Collection&lt;/h2&gt;
+
+&lt;div class=&#34;progress-bar-status&#34;&gt;
+    &lt;div class=&#34;status-labels&#34;&gt;
+        &lt;span&gt;Books:&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-count&#34;&gt;0/100&lt;/span&gt;
+        &lt;span&gt;---&lt;/span&gt;
+        &lt;span class=&#34;progress-bar-level&#34;&gt;Lv0&lt;/span&gt;
+    &lt;/div&gt;
+   &lt;div class=&#34;progress-bar&#34;&gt;
+        
+        &lt;div class=&#34;progress-bar-experience&#34; style=&#34;width: 0%&#34; role=&#34;progressbar&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+
+&lt;a href=&#34;#andrew-loomis---drawing-the-head-and-hands&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL26841938M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Andrew Loomis - Drawing the Head and Hands&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#andrew-loomis---figure-drawing-for-all-its-worth&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL47084536M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Andrew Loomis - Figure drawing for all it&amp;#39;s worth&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#betty-edwards---the-new-drawing-on-the-right-side-of-the-brain&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL24346158M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Betty Edwards - The new drawing on the right side of the brain&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#betty-edwards---color--a-course-in-mastering-the-art-of-mixing-colors&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL8816408M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#charles-williams---basic-drawing--how-to-draw-what-you-see&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Charles Williams - Basic drawing : how to draw what you see&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#donna-krizek---drawing-and-sketching-secrets--200-tips-and-techniques-for-drawing-the-easy-way&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL25173760M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#gilles-ronin---le-dessin-en-perspective-a-main-levee&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Gilles Ronin - Le dessin en perspective a main levee&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#james-hobbs---sketch-your-world&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL26122953M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;James Hobbs - Sketch Your World&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#mark-kistler---you-can-draw-in-30-days--the-fun-easy-way-to-learn-to-draw-in-one-month-or-less&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL26010041M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#mark-kistler---you-can-draw-it-in-just-30-minutes--see-it-and-sketch-it-in-a-half-hour-or-less&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL27404161M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#rudy-de-reyna---how-to-draw-what-you-see&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL5317479M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Rudy de Reyna - How to draw what you see&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#r-o-dunlop-ra---painting-for-pleasure&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;R. O. Dunlop, R.A - Painting for pleasure&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#sam-piyasena-beverly-philp---just-draw-it&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://covers.openlibrary.org/b/olid/OL25973254M-M.jpg&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;Sam Piyasena, Beverly Philp - Just draw it!&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;a href=&#34;#%e8%b6%99%e5%b7%8d%e5%b2%a9-%e9%99%bd%e4%bd%b3-%e6%a5%8a%e8%90%8c---between-object-and-subject--painting-as-a-way-to-perceive-and-express&#34;&gt;
+  &lt;div class=&#34;book-card&#34;&gt;
+    &lt;div class=&#34;book-card-background&#34;&gt;
+      
+        
+        &lt;img
+          class=&#34;book-card-cover&#34;
+          src=&#34;https://evthron.github.io/default-cover.webp&#34;
+        /&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;book-card-title&#34;&gt;趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;andrew-loomis---drawing-the-head-and-hands&#34;&gt;Andrew Loomis - Drawing the Head and Hands&lt;/h3&gt;
+&lt;h3 id=&#34;andrew-loomis---figure-drawing-for-all-its-worth&#34;&gt;Andrew Loomis - Figure drawing for all it&amp;rsquo;s worth&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Both are the classic books that often gets recommends until this day. They
+presents more examples than explanation so I still need to copy a lot more
+drawings of to get the most out of them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;betty-edwards---the-new-drawing-on-the-right-side-of-the-brain&#34;&gt;Betty Edwards - The new drawing on the right side of the brain&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A very important book for beginners. It explains the reason why people draw
+badly is that they only draw symbols instead of what they actually see.
+Anyone could draw well once they know the knack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;betty-edwards---color--a-course-in-mastering-the-art-of-mixing-colors&#34;&gt;Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces the important concepts about colours: colour wheels, components
+of colour (hue, saturation and value), and how to actually mix them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;charles-williams---basic-drawing--how-to-draw-what-you-see&#34;&gt;Charles Williams - Basic drawing : how to draw what you see&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Drawing doesn&amp;rsquo;t have to be masterpieces, it can be a dirty doodle drawn on
+boring lectures. In fact, the book said you don&amp;rsquo;t have to draw what you
+see. Most example shown are rough sketches, which makes it
+beginner-friendly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;donna-krizek---drawing-and-sketching-secrets--200-tips-and-techniques-for-drawing-the-easy-way&#34;&gt;Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces a lot of advanced techniques around many traditional media. It&amp;rsquo;s
+examples are all masterpieces so it&amp;rsquo;s not very useful to me yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gilles-ronin---le-dessin-en-perspective-a-main-levee&#34;&gt;Gilles Ronin - Le dessin en perspective a main levee&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces the mathematical knowledge behind the construction of accurate
+shapes, shadows and perspective. It&amp;rsquo;s very interesting to learn the
+principles but not very useful to me for now since I don&amp;rsquo;t need this kind of precision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;james-hobbs---sketch-your-world&#34;&gt;James Hobbs - Sketch Your World&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Giving me the idea of outdoor sketching, which is much more interesting
+than drawing indoors. To me, drawing is the best way to spend outdoor time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mark-kistler---you-can-draw-in-30-days--the-fun-easy-way-to-learn-to-draw-in-one-month-or-less&#34;&gt;Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A true beginner&amp;rsquo;s book. It&amp;rsquo;s first lesson is to teach you how to draw a
+ball, then a cube, then a cylinder, then all the basic techniques in
+drawing. To me, the most brilliant technique introduced is smudging. Although
+any art teacher will tell you this is bad, this is much more
+beginner-friendly than cross-hatching, while the effect created is still stunning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mark-kistler---you-can-draw-it-in-just-30-minutes--see-it-and-sketch-it-in-a-half-hour-or-less&#34;&gt;Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The next book in the series, nothing special but still quite fun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rudy-de-reyna---how-to-draw-what-you-see&#34;&gt;Rudy de Reyna - How to draw what you see&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Every object is a combination of spheres, cubes, cylinders and cones,
+really?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;r-o-dunlop-ra---painting-for-pleasure&#34;&gt;R. O. Dunlop, R.A - Painting for pleasure&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It recommends pastels as a good outdoor medium, although I later found
+out that it meant the powdery ones. Powdery pastels are more expensive
+and create a powdery mess. So I&amp;rsquo;m satisfied with the oily ones. It is another book that encourages beginners to do outdoor painting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sam-piyasena-beverly-philp---just-draw-it&#34;&gt;Sam Piyasena, Beverly Philp - Just draw it!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It gives out lot of interesting ideas on creative art making, not bounded by
+traditional media.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;趙巍岩-陽佳-楊萌---between-object-and-subject--painting-as-a-way-to-perceive-and-express&#34;&gt;趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It thoroughly discussed how should we practise drawing to learn our true styles. Artistic drawings are not likely to be eye candies. We draw not only what we see but beyond what we see.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
@@ -908,6 +3471,76 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
         </item>
         <item>
         <title>Say Goodbye to Internet</title>
+        <link>https://evthron.github.io/en/profile/toolbox/say-goodbye-to-internet/</link>
+        <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/toolbox/say-goodbye-to-internet/</guid>
+        <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
+&lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
+&lt;p&gt;A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It’s best to fully block the sites instead of setting timers.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/leechblock-ng&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;firefox&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pc-hiding&#34;&gt;PC: hiding&lt;/h2&gt;
+&lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s not just an ad blocker, but a &lt;em&gt;wide-spectrum content blocker&lt;/em&gt;, which means you can hide all distracting UI elements, like panels, buttons, and empty spaces on any websites using its element picker.&lt;/p&gt;
+&lt;p&gt;Banning infinite scroll is the most powerful thing it can do. Infinite scroll on Youtube equals time sink so put the following line into uBlock Origin setting under the &amp;lsquo;My Filters&amp;rsquo; section.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;youtube.com##ytd-continuation-item-renderer
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;firefox&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
+&lt;p&gt;Don&amp;rsquo;t remind yourself that you&amp;rsquo;ve blocked sites. Remove them from the search results.
+&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublacklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;firefox&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pc-changing-habits&#34;&gt;PC: changing habits&lt;/h2&gt;
+&lt;h3 id=&#34;any-rss-reader&#34;&gt;Any RSS reader&lt;/h3&gt;
+&lt;p&gt;Only read posts on one single page. It can replace the Youtube subscribe page.&lt;/p&gt;
+&lt;h2 id=&#34;youtube-blocking&#34;&gt;Youtube: blocking&lt;/h2&gt;
+&lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
+&lt;p&gt;Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos shorter than 5 minutes and longer than 50 minutes.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Block the video
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos with less than 1000 viewcount
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;viewCount&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// Custom conditions did not match, do not block
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/blocktube/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;firefox&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;youtube-hiding&#34;&gt;Youtube: hiding&lt;/h2&gt;
+&lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
+&lt;p&gt;Empty your homepage and recommended videos. You should only search by keywords on Youtube.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/youtube-recommended-videos/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;firefox&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;youtube-building-new-habits&#34;&gt;Youtube: building new habits&lt;/h2&gt;
+&lt;h3 id=&#34;yt-dlp&#34;&gt;yt-dlp&lt;/h3&gt;
+&lt;p&gt;Download the video before you watch. Don&amp;rsquo;t watch hours and hours of stream recordings.&lt;/p&gt;
+&lt;h2 id=&#34;android-blocking&#34;&gt;Android: Blocking&lt;/h2&gt;
+&lt;p&gt;There aren&amp;rsquo;t much we can do on phones because we cannot add extensions on mobile browsers. I&amp;rsquo;ve heard that firefox is adding this feature, still, there&amp;rsquo;s no guarantee that all the above extensions will work on Android.&lt;/p&gt;
+&lt;h3 id=&#34;helpmefocus&#34;&gt;HelpMeFocus&lt;/h3&gt;
+&lt;p&gt;This blocker has the the most important feature of app blocker, which is the ability to block itself to prevent the user changing its setting.&lt;/p&gt;
+&lt;h3 id=&#34;universal-android-debloater&#34;&gt;Universal Android Debloater&lt;/h3&gt;
+&lt;p&gt;App blocker can sometimes be good enough but you can always bypass them by uninstalling them. Rather than testing your self-discipline, the once and for all solution is to uninstall Google Chrome, Youtube and Play Store from your phone. Since they are pre-installed bloatware, you need the &lt;a class=&#34;link&#34; href=&#34;https://github.com/0x192/universal-android-debloater&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;universal android debloater (github)&lt;/a&gt; the do that.&lt;/p&gt;
+&lt;h2 id=&#34;ios-blocking&#34;&gt;iOS: blocking&lt;/h2&gt;
+&lt;h3 id=&#34;screen-time&#34;&gt;Screen Time&lt;/h3&gt;
+&lt;p&gt;Native digital hygiene apps on android all acts like kind reminders, which makes them all jokes. iOS does a better job. As long as you let others keep the passcode for you, you can&amp;rsquo;t break the restrictions.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
         
@@ -992,6 +3625,21 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
 </description>
         </item>
         <item>
+        <title>Cardinals and ordinals</title>
+        <link>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</link>
+        <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/profile/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
+&lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
+&lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
+&lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
+&lt;p&gt;On the other hand, we want to know about the distance between ordinals. For example, from 1 o&amp;rsquo;clock to 3 o&amp;rsquo;clock, we count &amp;lsquo;1 o&amp;rsquo;clock, 2 o&amp;rsquo;clocks, 3 o&amp;rsquo;clocks&amp;rsquo;. There are three &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo; in total but this is not useful. We care about how many hours have passed. 1 o&amp;rsquo;clock to 2 o&amp;rsquo;clock is one hour and 2 o&amp;rsquo;clock to 3 o&amp;rsquo;clock is another hour. Hours count the distance between the &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo;. Similarly, we use &amp;lsquo;2021, 2022&amp;rsquo; to count years but we don&amp;rsquo;t care how many year names have passed. We care about the age, which is the distance between the year names. We count three year names from 2021 to 2023 but only two years have passed.&lt;/p&gt;
+&lt;p&gt;We get the distance between ordinals by subtracting them. 3 - 1 = 2 and 2023 - 2021 = 2. Two hours have passed and the baby is two years old. Conversely, we can add a distance to a ordinal to get the next ordinal. For example, 1 o&amp;rsquo;clock plus 2 hours equals 3 o&amp;rsquo;clock.&lt;/p&gt;
+&lt;p&gt;Although the preceding calculations are for elementary school students and it seems no one has a problem with it, theoretically, we can count from any numbers and in any directions for ordinals so the conversion methods may change. This problem doesn&amp;rsquo;t exist in daily life because we always count from one in ascending order. Unfortunately, programming languages start counting from 0. So if we are not clear with these basic concepts, it&amp;rsquo;s difficult to proceed.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>The Lizard</title>
         <link>https://evthron.github.io/en/gallery/the-lizard/</link>
         <pubDate>Thu, 11 Jan 2024 06:05:12 +0800</pubDate>
@@ -1056,12 +3704,97 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
 </description>
         </item>
         <item>
+        <title>Limitations of Instant Messaging</title>
+        <link>https://evthron.github.io/en/profile/posts/instant-messaging/</link>
+        <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/posts/instant-messaging/</guid>
+        <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
+&lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
+&lt;h2 id=&#34;write-what&#34;&gt;Write what？&lt;/h2&gt;
+&lt;p&gt;The first question we have to think about writing letter is, &amp;lsquo;What should I write?&amp;rsquo;. But it might surprise you that we don&amp;rsquo;t usually worry about it in real life. Conversations in real life is related to time and place. Most of the topics are trivial. This is because being in the same place strongly encourages people to communicate.&lt;/p&gt;
+&lt;p&gt;However, on the Internet, people are not sharing the same physical space. So that people know that such casual conversions are not reasonable. Just like you won&amp;rsquo;t drop a letter writing only the sentence &amp;lsquo;How&amp;rsquo;s the weather today?&amp;rsquo; into the post box.&lt;/p&gt;
+&lt;p&gt;As a result, we are forced to prepare an actual topic to start a conversation on instant messengers, even if you just want to say hi.&lt;/p&gt;
+&lt;h2 id=&#34;will-they-reply&#34;&gt;Will they reply？&lt;/h2&gt;
+&lt;p&gt;Assume that we&amp;rsquo;ve already sent the letter. If it&amp;rsquo;s a normal letter, we have to wait for days. However we are using instant messengers, why would we need to wait?  There are only two reasons. Either the person hasn&amp;rsquo;t read the letter, or the person doesn&amp;rsquo;t want to reply. You can never be sure. At worst case, the receiver reads the letter immediately but decides not to reply. That means you have to wait for a reply that never comes starting from the second you press the &amp;lsquo;send&amp;rsquo; button. How can that encourages us to start a conversation?&lt;/p&gt;
+&lt;h2 id=&#34;will-i-be-satisfied&#34;&gt;Will I be satisfied？&lt;/h2&gt;
+&lt;p&gt;Do we succeed if we&amp;rsquo;ve received the reply? Not so fast. The reply might not be satisfying since texts are not genuine. You cannot feel that you are talking to a real person through texts. How can that be the case if people in the past could have in-depth conversations through letters? That&amp;rsquo;s because we are not writing letter nowadays. We are writing &lt;em&gt;dialogue&lt;/em&gt; line by line. The two characteristics of writing dialogue, time dilation and length contraction (just like spaceships in space), make us speculate on each other.&lt;/p&gt;
+&lt;p&gt;Firstly, time dilation gives people enough time to carefully design their words. To put it in an extreme way, all words could be spilled out by an AI chatbot to manipulate your thoughts and feelings. This possibility sows the seed of doubt.&lt;/p&gt;
+&lt;p&gt;Secondly, length contraction makes messages contains no emotional information. Texts excels at explaining complex ideas, but not when the length is short. By the way, emojis and emoticons are not very useful because their meaning slowly alters as people abuse them.&lt;/p&gt;
+&lt;h2 id=&#34;imitate-real-life-conversation&#34;&gt;Imitate real-life conversation&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s still a way to make instant messaging better — imitate real-life conversation by reducing time lags. I think people who are good at instant messaging might be using these techniques already. Although writing messages takes the same form as writing a letter, we should not make them too long because it takes more time thus worsen the time dilation problem (and long messages also scare people off). We should type at the speed of talking without much thought. If your tongue slips, just correct that immediately.&lt;/p&gt;
+&lt;p&gt;On top of that, you should follow the manners of real-life conversation like saying goodbye properly. Don&amp;rsquo;t leave a conversation suspending.&lt;/p&gt;
+&lt;h2 id=&#34;spread-to-the-world&#34;&gt;Spread to the world&lt;/h2&gt;
+&lt;p&gt;On the other hand, the Internet allows us to spread our thoughts to the whole world. Why should we be satisfied with the traditional, two-way conversation?&lt;/p&gt;
+&lt;p&gt;Sometimes, when we have thoughts to share, we don&amp;rsquo;t need to share them to a specific person. This is great because it fundamentally doesn&amp;rsquo;t have the problems of instant messaging.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;There no need need to come up with a topic that catches others&amp;rsquo; interest.&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s no need to wait for replies.&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s no doubt for insincerity as you are writing for yourself, and you have got plenty of space to put them down.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You could spread your thoughts in social media, but that&amp;rsquo;s not the best choice since you might waste more time scrolling and deal with people&amp;rsquo;s reactions. On WeChat, there&amp;rsquo;s a microblogging space called &lt;em&gt;Moments&lt;/em&gt; (literally in Chinese: Friend Circle), which might be a good choice since your posts are limited to your friends. However, the best place to share your thought is on your personal website. Building one could be difficult if you are not a tech-savvy person. At least don&amp;rsquo;t lock your contents behind a login wall.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The first stamp, Penny Black is issued at 1840. It would be too expensive for the public to sent letters without one.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>Winter</title>
         <link>https://evthron.github.io/en/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/tweet/winter/</guid>
         <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Remap keyboard</title>
+        <link>https://evthron.github.io/en/profile/toolbox/remap-keyboard/</link>
+        <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/profile/toolbox/remap-keyboard/</guid>
+        <description>&lt;p&gt;Ergonomics has never been a concern for past keyboard designers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It wasted the most powerful fingers, the two thumbs, on pressing the big fat space bar.&lt;/li&gt;
+&lt;li&gt;It abused the right little finger on pressing both enter and the far-away-from-reach backspace.&lt;/li&gt;
+&lt;li&gt;It wasted a easy-to-reach spot on the useless CapsLock.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Key combos are hard to remember and bad to our fingers. Try pressing Ctrl + Shift + P and Ctrl + Shfit + Esc everyday, even the daily-used Ctrl+C Ctrl+V are forcing us to press hard on our little fingers. We should have dedicated keys for those frequent moves.&lt;/p&gt;
+&lt;p&gt;On the other hand, some keys are obsolete and should have been removed. Print Screen, Scroll Lock, Pause, Insert. The entire row of function keys are mostly wasted on uncommon actions, like F1 is for opening manual that no one reads, F2 only works in file system to rename files, F4 is only useful when paired with Alt to close programs. F6 to F10 don&amp;rsquo;t even have dedicated functions, which is unacceptable.&lt;/p&gt;
+&lt;p&gt;Thankfully, those obsolete keys can become precious real estate as we can remap the key combos on them using AutoHotKey. For example, you can set F1 to F4 to be undo, copy, cut and paste respectively. Here are my AutoHotKey configurations:&lt;/p&gt;
+&lt;h2 id=&#34;key-combos&#34;&gt;Key combos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;F3: Ctrl + F (Search)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;browsing&#34;&gt;Browsing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Delete: Ctrl + w (Close tabs)&lt;/li&gt;
+&lt;li&gt;Insert: Ctrl + t (Insert new tab)&lt;/li&gt;
+&lt;li&gt;Page Up: Ctrl + Shift + Tab (Switch tab: up)&lt;/li&gt;
+&lt;li&gt;Page Down: Ctrl + Tab (Switch tab: down)&lt;/li&gt;
+&lt;li&gt;F2: Toggle tabs list (Using extension: Tree style tab)&lt;/li&gt;
+&lt;li&gt;F6: Shift + Ctrl + T （Re-open closed tabs in browser）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;input&#34;&gt;Input&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;CapsLock swaps with Backspace&lt;/li&gt;
+&lt;li&gt;Right Alt -&amp;gt; Enter&lt;/li&gt;
+&lt;li&gt;Left Alt -&amp;gt; Escape (Switch to normal mode in vim)&lt;/li&gt;
+&lt;li&gt;Enter -&amp;gt; Win + Space (Switch between Chinese and English input methods)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;starting-software&#34;&gt;Starting software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;F4: Dictionary&lt;/li&gt;
+&lt;li&gt;F7: Terminal&lt;/li&gt;
+&lt;li&gt;F8: Text editor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Although the syntax of Autohotkey scripts is hard to learn, it has everything but the kitchen sink. It can help you type hotstrings, auto-click and design macros. I recommend everyone to look into it and pick out some features they need.&lt;/p&gt;
+&lt;p&gt;However, it is exclusive on Windows and I had a little bit headache to find its replacement on linux. For remapping, keyd is a simple and good enough alternative.&lt;/p&gt;
 </description>
         </item>
         <item>

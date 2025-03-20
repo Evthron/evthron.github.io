@@ -8,6 +8,23 @@
         <language>zh</language>
         <lastBuildDate>Sat, 18 Jan 2025 02:14:37 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>filetags 文件管理法</title>
+        <link>https://evthron.github.io/zh/profile/toolbox/filetags/</link>
+        <pubDate>Sat, 18 Jan 2025 02:14:37 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/toolbox/filetags/</guid>
+        <description>&lt;p&gt;電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。&lt;/p&gt;
+&lt;p&gt;在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。&lt;/p&gt;
+&lt;p&gt;filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 &amp;ndash; 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document &amp;ndash; john books review.txt。&lt;/p&gt;
+&lt;p&gt;這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。&lt;/p&gt;
+&lt;p&gt;可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。&lt;/p&gt;
+&lt;p&gt;原作者的介紹：&lt;a class=&#34;link&#34; href=&#34;https://karl-voit.at/managing-digital-photographs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;karl-voit.at/managing-digital-photographs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;filetags python script：&lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github.com/novoid/filetags&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>filetags 文件管理法</title>
         <link>https://evthron.github.io/zh/toolbox/filetags/</link>
         <pubDate>Sat, 18 Jan 2025 02:14:37 +0800</pubDate>
         
@@ -21,6 +38,204 @@
     &gt;karl-voit.at/managing-digital-photographs&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;filetags python script：&lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;github.com/novoid/filetags&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>文章發佈流程</title>
+        <link>https://evthron.github.io/zh/profile/toolbox/upload-workflow/</link>
+        <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/toolbox/upload-workflow/</guid>
+        <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
+&lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo（網站鏈接）&lt;/a&gt; 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。&lt;/p&gt;
+&lt;p&gt;hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blog
+&lt;ul&gt;
+&lt;li&gt;content
+&lt;ul&gt;
+&lt;li&gt;gallery&lt;/li&gt;
+&lt;li&gt;posts
+&lt;ul&gt;
+&lt;li&gt;cardinal-ordinal
+&lt;ul&gt;
+&lt;li&gt;index.en.md&lt;/li&gt;
+&lt;li&gt;index.zh.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但我不會直接在這文件夾裏增加文章，而是先在 Joplin 寫好，再用代碼把文章自動複製到適合的位置。&lt;/p&gt;
+&lt;p&gt;Joplin 的筆記本結構和上面一樣。每篇文章都是一個筆記本，放在分區筆記本裏，文章筆記本裏放不同語言的文章。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;posts
+&lt;ul&gt;
+&lt;li&gt;cardinal-ordinal
+&lt;ul&gt;
+&lt;li&gt;量數和序數&lt;/li&gt;
+&lt;li&gt;Cardinals and ordinals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。&lt;/p&gt;
+&lt;p&gt;然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。&lt;/p&gt;
+&lt;p&gt;以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;joppy (github)&lt;/a&gt; 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。&lt;/p&gt;
+&lt;p&gt;除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。&lt;/p&gt;
+&lt;p&gt;這樣就知道怎樣篩選筆記本了，剩下的就只是麻煩的搬運工作，代碼如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 調用 joppy 的 API&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;api &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Api(token&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;YOUR_API_TOKEN&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;output_posts_in_certain_notebook_id&lt;/span&gt;(all_notebooks, notebook_id):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    category &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_notebook(notebook_id)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; notebook_data &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; all_notebooks:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# 只有當筆記本（文章）放在需要的筆記本（分區）裏面才繼續&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parent_id &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parent_id &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; notebook_id:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# 獲取筆記本裏面的所有筆記（不同的語言版本）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            post_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_notes(notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id, fields&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;created_time,updated_time,body,order,title,id&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            folder_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            zh_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            en_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tok_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; post_language_version &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; post_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;items:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post_language_version&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                如果文章沒有標籤，就跳過
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; get_tag_list(post_language_version&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; tag_list: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;# 把文章按語言版本分類&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    zh_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    en_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    tok_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt;, zh_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt;, en_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt;, tok_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;combine_and_output_posts_in_same_language&lt;/span&gt;(category, folder_name, language_code, posts):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; posts:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        這是個把拆成幾段的筆記合併到一起的功能。我是想着用來把一段段的小説合併起來，不過還沒有什麼實際作用
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sort(key&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;lambda&lt;/span&gt; x: x&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;order, reverse&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; posts[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; get_tag_list(posts[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tag_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;remove(language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        body &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        created_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        updated_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; post &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; posts:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (created_time &lt;span style=&#34;color:#f92672&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;created_time &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; created_time):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                created_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;created_time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (updated_time &lt;span style=&#34;color:#f92672&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;updated_time &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; updated_time):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                updated_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;updated_time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            body &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;body &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        提取筆記的資料，然後扔到 generate_front_matter() 裏面，自動生成 hugo 需要的
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        markdown front matter，也就是文章的屬性資料。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        date &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; created_time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;isoformat()[:&lt;span style=&#34;color:#ae81ff&#34;&gt;19&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;+08:00&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; updated_time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;isoformat()[:&lt;span style=&#34;color:#ae81ff&#34;&gt;19&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;+08:00&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        home_dir &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;HOME&amp;#39;&lt;/span&gt;] 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        如果文件夾裏放了圖片，自動在 front matter 裏加入資料，作為文章的標題圖片。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        feature_png_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;png&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        feature_jpg_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;jpg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(feature_png_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.png&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category, image&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;image)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(feature_jpg_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.jpg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category, image&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;image)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        把生成的 Markdown 文章複製到指定的文件夾裏面
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        folder_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(folder_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;makedirs(folder_directory)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        path &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_directory &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/index.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; language_code &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.md&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(path, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;w&amp;#39;&lt;/span&gt;, encoding&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; fout:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            fout&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; body)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;done in&amp;#34;&lt;/span&gt;, language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;no post in&amp;#34;&lt;/span&gt;, language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;generate_front_matter&lt;/span&gt;(title, date, description &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, categories &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, tags &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, slug &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, layout &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; str:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; lastmod &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; strftime(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%Y-%m-&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;T%H:%M:%S+08:00&amp;#34;&lt;/span&gt;, localtime())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;---&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;title: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; title &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;description: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; description &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; date &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;lastmod: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; lastmod &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; image &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;categories: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; categories &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tags: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; tags &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;math: &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;license: &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;hidden: false&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;comments: true&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; slug:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;slug: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; slug &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; layout:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;layout: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; layout &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;---&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; front_matter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;get_tag_list&lt;/span&gt;(note_id):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    info &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_tags(note_id)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;items
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; info:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; tagdata &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; info:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tag &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tagdata&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tag_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(tag)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; tag_list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;               
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    all_notebooks &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_all_notebooks()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# 為需要的筆記本生成檔案&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    post_notebook_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PUT_NOTEBOOK_ID_HERE&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    output_posts_in_certain_notebook_id(all_notebooks, post_notebook_id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    gallery_notebook_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PUT_NOTEBOOK_ID_HERE&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    output_posts_in_certain_notebook_id(all_notebooks, gallery_notebook_id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; __name__ &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果我完全不用 Joplin 的話，流程應該可以變得更簡單一些，但我做得這麼辛苦，不是很想改。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -223,6 +438,61 @@
         </item>
         <item>
         <title>定製 Taskwarrior</title>
+        <link>https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/</link>
+        <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Taskwarrior&lt;/a&gt; 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。&lt;/p&gt;
+&lt;p&gt;第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 &lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Tasklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tasklist&lt;/a&gt; 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。&lt;/p&gt;
+&lt;p&gt;首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.value.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.value.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Value
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;numeric
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Worth
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然後修改 report.list 的欄位，加入 Time, Value，和 Worth&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.columns&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.labels&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最後是根據 worth，也就是性價比排序&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;例子：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; task add 買牛奶 time:60 value:30
+# 買牛奶要花 60 分鐘
+# 我覺得買牛奶對我來説值 30 元
+
+# 顯示效果
+ID | Active | Age | Description | Time | Value | Worth  |
+19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;TASK&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;&amp;lt;/dev/stdin&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$TASK&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; | python &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.config/task/hooks/priority.py&amp;#34;&lt;/span&gt; $@ 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; json
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    task &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;loads(sys&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;stdin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;readline())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt; json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decoder&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;JSONDecodeError:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;pass&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# worth calculation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;time&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; task&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;keys() &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;value&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; task&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;keys():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    task[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;worth&amp;#39;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; str(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{:.3f}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;format(int(float(task[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;value&amp;#39;&lt;/span&gt;])) &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; int(float(task[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;time&amp;#39;&lt;/span&gt;]))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dumps(task))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第二是我用了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/oskapt/task2hab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;task2hab (github)&lt;/a&gt; 這個插件，可以自動把 taskwarrior 的任務同步到 habitica 上。另外我還模仿了另一個插件 &lt;a class=&#34;link&#34; href=&#34;https://github.com/robwhitaker/taskwarrior-habitica-bridge&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;taskwarrior-habitica-bridge (github)&lt;/a&gt;，修改了一點代碼，讓完成任務的時候可以在終端裏顯示賺到的經驗和金幣。因為這個不是我寫的，我就不展開説了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>定製 Taskwarrior</title>
         <link>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</link>
         <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
         
@@ -275,6 +545,131 @@ ID | Active | Age | Description | Time | Value | Worth  |
     &gt;task2hab (github)&lt;/a&gt; 這個插件，可以自動把 taskwarrior 的任務同步到 habitica 上。另外我還模仿了另一個插件 &lt;a class=&#34;link&#34; href=&#34;https://github.com/robwhitaker/taskwarrior-habitica-bridge&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;taskwarrior-habitica-bridge (github)&lt;/a&gt;，修改了一點代碼，讓完成任務的時候可以在終端裏顯示賺到的經驗和金幣。因為這個不是我寫的，我就不展開説了。&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>如何告別互聯網</title>
+        <link>https://evthron.github.io/zh/profile/toolbox/say-goodbye-to-internet/</link>
+        <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/toolbox/say-goodbye-to-internet/</guid>
+        <description>&lt;p&gt;以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？&lt;/p&gt;
+&lt;p&gt;不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。&lt;/p&gt;
+&lt;p&gt;第一，依賴決心。決心這玩意只在自己有決心的時候有用，沒有決心的時候就連廢紙都不如了，怎麼會有這麼不方便的東西？對付互聯網這麼吸引人的玩意，怎麼能靠自己一戳即破的決心？對抗誘惑，外界的束縛是最有用的。但是外界的束縛又讓人討厭，讓人有反抗的心思，而天底下沒有毫無破綻的束縛，一定會有漏洞，只要束縛一破，陋習就會變本加厲。所以，要點在於讓自己設下別人執行規則。&lt;/p&gt;
+&lt;p&gt;第二，限制過緊。要是像上面説的一樣，為自己設下牢不可破的障礙，像是把手機鎖在箱裏了，把電腦砸了，到了真的有需要用的時候，一定會氣急敗壞，悔不當初，從此絕口不提斷網的事情了。或許在別的世界裏，要得到好處就要抵得住誘惑，但是在電腦的世界裏沒有這種常識。把不需要的部分像挑魚刺一樣全部剔除，只留下自己需要的部分，才能算是個聰明的用家。&lt;/p&gt;
+&lt;p&gt;在經歷了數不清的後悔、數不清的悔改和數不清的重蹈覆轍之後，我終於摸索出了一套好用的工具來限制自己上網。雖然還不是很完美，但要是能全部用上，你就勝過大部分還矇在鼓裏的人了。&lt;/p&gt;
+&lt;p&gt;限制上網的方法從嚴格到寬鬆可以分為三種：禁止，預防，減少興致。禁止是封鎖自己上網的途徑，預防是防止自己發現新的資訊。減少興致是為自己上網增加一點麻煩。按你自己的需要配合着用吧。&lt;/p&gt;
+&lt;h1 id=&#34;手機&#34;&gt;手機&lt;/h1&gt;
+&lt;p&gt;手機是最危險的。絕對沒有人需要隨時隨地都可以上網，想看什麼就看什麼的手機。對付手機，我只有禁止策略，沒有預防和減少興致的策略。&lt;/p&gt;
+&lt;h3 id=&#34;helpmefocus-android&#34;&gt;HelpMeFocus (Android)&lt;/h3&gt;
+&lt;p&gt;不錯的 App 阻擋器。它可以把自己也阻擋掉，這是很重要的功能。&lt;/p&gt;
+&lt;h3 id=&#34;universal-android-debloater-android&#34;&gt;Universal Android Debloater (Android)&lt;/h3&gt;
+&lt;p&gt;在 Android 上，Google Chrome，Youtube 和 Play Store 是系統預裝軟件，一般是刪不掉的。要動用 &lt;a class=&#34;link&#34; href=&#34;https://github.com/0x192/universal-android-debloater&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Universal Android Debloater (github)&lt;/a&gt; 這個大殺器才能除掉。&lt;/p&gt;
+&lt;p&gt;用不着 Play Store，也可以更新軟件。有些軟件會在官網上直接放出安裝包。要是沒有的話，多數也能在 APKMirror 一類的鏡像網站找到。實在沒有辦法的話，就暫時重新啓用 Play Store 吧。&lt;/p&gt;
+&lt;h3 id=&#34;螢幕使用時間-ios&#34;&gt;螢幕使用時間 (iOS)&lt;/h3&gt;
+&lt;p&gt;iOS 可不像 Android 那麼自由可以隨意禁用軟件，不過 iOS 的數位健康功能做得很嚴格，只能用密碼解鎖。&lt;/p&gt;
+&lt;h1 id=&#34;電腦&#34;&gt;電腦&lt;/h1&gt;
+&lt;p&gt;電腦能用的工具比較靈活，可以在瀏覽器裏安裝擴充套件，不像手機一樣，只能整個 App 屏蔽掉。&lt;/p&gt;
+&lt;h3 id=&#34;阻擋leechblock-ng&#34;&gt;阻擋：Leechblock NG&lt;/h3&gt;
+&lt;p&gt;這是必備的網站阻擋器。你可以試試各種各樣的封鎖策略，設置使用倒計時，或者按時間段封鎖，都是可以的。不過，我的經驗告訴我應該要做得絕一點，不需要上的網站就要完全封鎖。&lt;/p&gt;
+&lt;p&gt;如果有些網站讓你下不去手封鎖，就要仔細研究網站的域名，你可能只需要其中一部分讓你分心的頁面，例如我只需要看知乎專欄 zhuanlan.zhihu.com，而不需要知乎的問答部分 zhihu.com。&lt;/p&gt;
+&lt;p&gt;不過 Leechblock 是瀏覽器插件，只能阻止一個瀏覽器，誰也攔不住你安裝另一個。你能做的就只有把世界上所有瀏覽器的下載頁面封鎖掉。&lt;/p&gt;
+&lt;h3 id=&#34;阻擋cold-turkey-blocker&#34;&gt;阻擋：Cold Turkey Blocker&lt;/h3&gt;
+&lt;p&gt;這個軟件比上面的更進一步，要求瀏覽器必須安裝它的封鎖插件才能啓動。封鎖的程度也很徹底，只要設了時間限制，除了捐錢沒有任何解除封鎖的方法，就算把軟件刪掉也沒用。一般人不可能知道它用了什麼原理，所以這是最強的封鎖軟件。沒有比絕對可靠的規則更讓人感到安心的東西了。&lt;/p&gt;
+&lt;h3 id=&#34;預防ublacklist&#34;&gt;預防：uBlacklist&lt;/h3&gt;
+&lt;p&gt;要是搜尋的時候總是看到那些自己已經擋掉的網站，一定會有解除封鎖的衝動，所以要讓阻擋了的網站從搜尋結果中消失，不讓自己意識到自己阻擋了內容。&lt;/p&gt;
+&lt;p&gt;新網站往往是最危險的。uBlackList 能在搜尋結果裏除掉自己不想看見的網站。&lt;/p&gt;
+&lt;h2 id=&#34;減少興致ublock-origin&#34;&gt;減少興致：uBlock Origin&lt;/h2&gt;
+&lt;p&gt;你説不定知道這是個攔截廣告的軟件，但重點不是這個。這是個萬能攔截器，只要網站上有讓你分心的東西，像是百科全書底部能跳到其他相關頁面的連接，或是搜尋頁面上翻到下一頁的箭頭，你就可以用元素選擇器把它們除掉。&lt;/p&gt;
+&lt;h1 id=&#34;youtube&#34;&gt;Youtube&lt;/h1&gt;
+&lt;p&gt;值得為了 Youtube 專門開一段。Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。&lt;/p&gt;
+&lt;h2 id=&#34;阻擋blocktube&#34;&gt;阻擋：BlockTube&lt;/h2&gt;
+&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
+還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 只留下時長在5到50分鐘之間的影片
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Block the video
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 要求影片至少要有 1000 觀看次數
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;viewCount&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// Custom conditions did not match, do not block
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;排除所有不是英文的影片標題&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-regex&#34; data-lang=&#34;regex&#34;&gt;/[^\x00-\x7F]+/
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;預防unhook&#34;&gt;預防：Unhook&lt;/h2&gt;
+&lt;p&gt;讓主頁和推薦影片欄都變得一片空白，然後好好管理自己訂閲的頻道。想看其他內容就只能自己搜尋了。&lt;/p&gt;
+&lt;h2 id=&#34;減少興致yt-dlp&#34;&gt;減少興致：yt-dlp&lt;/h2&gt;
+&lt;p&gt;這是一套組合招式。在看 Youtube 之前影片前先下載好，讓自己考慮一下才決定要不要看。至少不會輕易點進一個多小時的遊戲直播了。&lt;/p&gt;
+&lt;p&gt;先用 Leechblock 禁止播放影片的 watch 類頁面，然後在 Ublock Origin 的自定義靜態規則裏加入 &lt;code&gt;youtube.com##ytd-continuation-item-renderer&lt;/code&gt;，停用無限加載，最後在搜尋頁面複製好鏈接，扔進 yt-dlp 裏下載。&lt;/p&gt;
+&lt;h2 id=&#34;用-rss-閱讀器集中內容&#34;&gt;用 RSS 閱讀器集中內容&lt;/h2&gt;
+&lt;p&gt;無論是 Youtube 還是新聞網站，都能用 RSS 閲讀器訂閲。這樣就能集中觀看自己訂閱的所有內容，不用在其他網站流連。電腦可以用 Feedbro，手機可以用 Feeder。&lt;/p&gt;
+&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+&lt;p&gt;説這個之前先抱怨一句，研究網絡研究得越深入，就能找到越多破解網絡封鎖的辦法。什麼都不知道反而輕鬆，這就是知識的詛咒。不過既然已經開始研究了，就只能研究到底了。&lt;/p&gt;
+&lt;p&gt;Linux 和 Windows 其實並沒有什麼區別，除了 Cold Turkey Blocker 之外全部都能用。可能 Cold Turkey Blocker 的作者也知道，在 Linux 上不用瀏覽器也能上網，破解網絡封鎖的辦法也多的是，所以，封鎖網絡只能中斷網絡連接本身，這需要修改電腦的網絡配置才能實現。&lt;/p&gt;
+&lt;p&gt;網址要先轉換成 IP 地址才能上網，這個過程叫作「域名解析」。只要手動干擾域名解析，就能中斷網絡。&lt;/p&gt;
+&lt;h2 id=&#34;dnsmasq&#34;&gt;dnsmasq&lt;/h2&gt;
+&lt;p&gt;首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。
+在 etc/NetworkManager/dnsmasq.d/block.conf 裏，把自己要封鎖的網站一行行加進去。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;address=/example.com/
+address=/example1.com/
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;現在上 example.com 的時候就解析不了域名。&lt;/p&gt;
+&lt;p&gt;etc 文件夾裏的文件是系統設定，需要 root 權限才能修改。先限制好自己的 sudo 權限讓自己沒有辦法修改文件，然後把 root 密碼藏起來。這樣就沒有辦法修改 dnsmasq 的設定了。不過我還沒有這樣做。只要解除封鎖的過程足夠複雜，我就不會自找麻煩了。要知道，拆掉自己建好的東西是多麼痛苦啊。&lt;/p&gt;
+&lt;p&gt;網上也有一些別人辛苦整理好的封鎖列表，像是 &lt;a class=&#34;link&#34; href=&#34;https://github.com/hagezi/dns-blocklists&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;dns-blocklists (github)&lt;/a&gt;。你也可以拿來用。&lt;/p&gt;
+&lt;h2 id=&#34;delayed-admin&#34;&gt;Delayed-admin&lt;/h2&gt;
+&lt;p&gt;dnsmasq 只是在域名層面的一道基礎防禦，沒有辦法像 Leechblock 一樣靈活地控制開放時間和針對 URL 禁止網站。我只要下載另一個瀏覽器，就能繞開這些插件的限制，所以我還需要防止自己安裝瀏覽器。&lt;/p&gt;
+&lt;p&gt;在 Linux 系統裏，只要放棄 root 權限就安裝不了軟件，不過我既是用家，也是系統管理員，需要升級系統、更改系統設定，以後也需要安裝新的軟件，所以我不能這樣做。怎樣防止自己監守自盜的問題一直讓我很頭痛。用到 root 權限的頻率很高，所以我像不能把密碼放在家裏的硬盤裏，等到需要的時候才拿出來。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/miheerdew/delayed-admin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;delayed-admin (github)&lt;/a&gt; 用很簡單的想法解決了我的煩惱：讓自己先等待一段時間，才能執行操作，就能抵住一時的鬼迷心竅，不會剛看完電影，急着上網看影評，發現影評網站被自己擋掉了就下載另一個瀏覽器，然後沉溺在沒有插件限制的網絡裏了。&lt;/p&gt;
+&lt;p&gt;詳細的原理是這樣的：在 Linux 裏，可以指定用户屬於什麼羣組，然後根據不同的羣組，分發不同的權限。具體會用到 sudo 這個程序分發權限。前面説到用户需要 root 權限來執行和修改系統設定有關的操作，但如果一直持有 root 權限的話，會有安全問題，所以一般都只會在需要的時候，用 sudo 指令臨時賦予自己 root 權限。在 sudoers 設定檔裏，可以細緻地設定什麼人，什麼羣組，可以在什麼樣的指令上使用 sudo。&lt;/p&gt;
+&lt;p&gt;而 delayed-admin 這個程序會新增一個 delayed-admin 羣組，這個羣組沒有常規的 root 權限，羣組裏的用户只能用 delayed 指令執行需要 root 權限的操作，等待一段時間後才會執行。做法是在 sudoers 文件裏加上一行：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;%delayed-admin ALL = /usr/local/bin/delayed
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這個 delayed 程序也很簡單，主體邏輯只有三行。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CMD&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;@&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sleep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$delay&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$CMD
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;雖然很簡單，不過這就是我一直想要的工具。&lt;/p&gt;
+&lt;p&gt;delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安裝 at，排程工具&lt;/li&gt;
+&lt;li&gt;手動建立 /etc/sudoers.d/delayed-admin，加入上面的 sudoers 設定&lt;/li&gt;
+&lt;li&gt;不要在 sudoers 裏給自己 root 權限，而是把自己加進 wheel group，再給 wheel group root 權限。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;其他問題su-和-kdesu&#34;&gt;其他問題（su 和 kdesu）&lt;/h2&gt;
+&lt;p&gt;要防止自己用 su 獲得 root 權限，需要在/etc/pam.d/su and /etc/pam.d/su-l 加上一句：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Su#su_and_wheel&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.archlinux.org/title/Su#su_and_wheel&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;auth required pam_wheel.so use_uid
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。&lt;/p&gt;
+&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:
+&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Sudo#kdesu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.archlinux.org/title/Sudo#kdesu&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[super-user-command]
+super-user-command=sudo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接着是修改 polkit，設定是根據 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=183902&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bypass KDEsu Authentication Dialog (archlinux bbs)&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://forums.gentoo.org/viewtopic-p-8236824.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How do I &amp;ldquo;graphical-sudo&amp;rdquo; under KDE (not &amp;ldquo;su&amp;rdquo;)? (gentoo forum)&lt;/a&gt; 改的。&lt;/p&gt;
+&lt;p&gt;在 /etc/polkit-1/rules.d/10-admin.rules 裏：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addAdminRule&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;unix-group:wheel&amp;#34;&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 如果用户想在 Dolphin 裏面提升權限，直接否決
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addRule&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;isInGroup&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;admin&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;org.kde.kio.admin.commands&amp;#34;&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Result&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NO&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
         <title>如何告別互聯網</title>
@@ -400,6 +795,63 @@ super-user-command=sudo
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>重設鍵盤佈局</title>
+        <link>https://evthron.github.io/zh/profile/toolbox/remap-keyboard/</link>
+        <pubDate>Thu, 21 Dec 2023 22:44:00 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/toolbox/remap-keyboard/</guid>
+        <description>&lt;p&gt;現在的鍵盤佈局完全沒有考慮過人體工學：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。&lt;/li&gt;
+&lt;li&gt;常用的 Enter 和 Backspace 要用小指去按，還離得很遠。&lt;/li&gt;
+&lt;li&gt;沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。&lt;/li&gt;
+&lt;li&gt;還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;至少要改成這樣才算理想的鍵位：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
+&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
+&lt;li&gt;Right Alt -&amp;gt; Enter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;鍵盤上還有不少多餘的鍵：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt+F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？&lt;/li&gt;
+&lt;li&gt;Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl + Shift + Alt + P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。&lt;/p&gt;
+&lt;p&gt;AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我把鍵盤設定成這樣：&lt;/p&gt;
+&lt;h2 id=&#34;打字&#34;&gt;打字&lt;/h2&gt;
+&lt;p&gt;打字舒服是最重要的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
+&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
+&lt;li&gt;Right Alt -&amp;gt; Enter
+這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。&lt;/li&gt;
+&lt;li&gt;Enter -&amp;gt; Win + Space（切換中英文輸入法）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;瀏覽器操作&#34;&gt;瀏覽器操作&lt;/h2&gt;
+&lt;p&gt;真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;F6 -&amp;gt; Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
+&lt;li&gt;Delete -&amp;gt; Ctrl + W （關閉分頁）&lt;/li&gt;
+&lt;li&gt;PgUp -&amp;gt; Ctrl + Shift + Tab （往前一個分頁）&lt;/li&gt;
+&lt;li&gt;PgDn -&amp;gt; Ctrl + Tab (往後一個分頁)&lt;/li&gt;
+&lt;li&gt;Insert -&amp;gt; Ctrl + T （新增分頁）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;啓動軟件&#34;&gt;啓動軟件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;F1: 番茄鐘&lt;/li&gt;
+&lt;li&gt;F4: 字典（Saladict）&lt;/li&gt;
+&lt;li&gt;F7: 命令窗口（Terminal）&lt;/li&gt;
+&lt;li&gt;F8: 筆記軟件（Vim）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我的鼠標上有兩個額外的鍵用作複製和貼上。如果鼠標上沒有額外按鍵的話，我還會把它們放在兩個 Fn 鍵上。&lt;/p&gt;
+&lt;p&gt;AutoHotKey 有一些缺點，你用着用着就知道了。ahk 腳本的格式不太容易學；登入界面和資源管理器是用不了快捷鍵的，因為這些都需要需要系統管理員權限。不過功能很豐富，可以滿足一切自動操作的需求。&lt;/p&gt;
+&lt;h2 id=&#34;keyd&#34;&gt;Keyd&lt;/h2&gt;
+&lt;p&gt;不知道算 Linux 上沒有 Autohotkey 算不算可惜。不過我也不需要那麼多亂七八糟的功能，只要能改鍵就好。keyd 是 Linux 上的一個簡單易用的替代品。缺點是沒有辦法按每個程序設置快捷鍵，只能設置全局快捷鍵。而且輸出受到鍵盤佈局影響，我同時使用 qwerty 的中文輸入和 dvorak，有時候就會出錯。&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>重設鍵盤佈局</title>

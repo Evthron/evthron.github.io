@@ -128,6 +128,24 @@
                 href="https://evthron.github.io/tok/categories/posts/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/profile/</loc>
+    <lastmod>2025-01-18T02:20:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/profile/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/posts/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
     <xhtml:link
@@ -146,7 +164,28 @@
                 href="https://evthron.github.io/tok/posts/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/profile/posts/</loc>
+    <lastmod>2025-01-18T02:20:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/profile/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/profile/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/profile/posts/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/posts/toki-pona-introduction/</loc>
+    <lastmod>2025-01-18T02:20:57+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/profile/posts/toki-pona-introduction/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/haircut/</loc>
@@ -472,6 +511,23 @@
                 href="https://evthron.github.io/tok/categories/artwork/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/profile/skill/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/profile/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/profile/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/profile/skill/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/skill/</loc>
     <xhtml:link
                 rel="alternate"
@@ -540,6 +596,23 @@
                 href="https://evthron.github.io/tok/search/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/profile/sandbox/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/profile/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/profile/sandbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/profile/sandbox/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/sandbox/</loc>
     <xhtml:link
                 rel="alternate"
@@ -573,6 +646,8 @@
                 hreflang="tok"
                 href="https://evthron.github.io/tok/page/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/tok/profile/sandbox/sitelen-pona/</loc>
   </url><url>
     <loc>https://evthron.github.io/tok/sandbox/sitelen-pona/</loc>
   </url><url>

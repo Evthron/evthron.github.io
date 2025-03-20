@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="zh"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>文章發佈流程-Evthron&#39;s blog</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。
+我用 hugo（網站鏈接） 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。
+hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。
+
+blog
+
+content
+
+gallery
+posts
+
+cardinal-ordinal
+
+index.en.md
+index.zh.md
+
+
+
+
+
+
+
+
+
+但我不會直接在這文件夾裏增加文章，而是先在 Joplin 寫好，再用代碼把文章自動複製到適合的位置。
+Joplin 的筆記本結構和上面一樣。每篇文章都是一個筆記本，放在分區筆記本裏，文章筆記本裏放不同語言的文章。
+
+posts
+
+cardinal-ordinal
+
+量數和序數
+Cardinals and ordinals
+
+
+
+
+
+為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。
+然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。
+以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？joppy (github) 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。
+除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。" />
+  <meta name="author" content="Evthron" /><link rel="preload stylesheet" as="style" href="https://evthron.github.io/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://evthron.github.io/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/6fd8df4abe41f17fd8e2dd7d97b5cc8c?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://evthron.github.io/twitter.svg" /><link rel="preload" as="image" href="https://evthron.github.io/github.svg" />
+
+  <script
+    defer
+    src="https://evthron.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script><script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+
+  
+  <link
+    rel="icon"
+    href="https://evthron.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://evthron.github.io/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+  <meta itemprop="name" content="文章發佈流程">
+  <meta itemprop="description" content="我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。
+我用 hugo（網站鏈接） 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。
+hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。
+blog content gallery posts cardinal-ordinal index.en.md index.zh.md 但我不會直接在這文件夾裏增加文章，而是先在 Joplin 寫好，再用代碼把文章自動複製到適合的位置。
+Joplin 的筆記本結構和上面一樣。每篇文章都是一個筆記本，放在分區筆記本裏，文章筆記本裏放不同語言的文章。
+posts cardinal-ordinal 量數和序數 Cardinals and ordinals 為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。
+然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。
+以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？joppy (github) 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。
+除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。">
+  <meta itemprop="datePublished" content="2024-12-27T06:01:25+08:00">
+  <meta itemprop="dateModified" content="2024-12-27T08:41:39+08:00">
+  <meta itemprop="wordCount" content="569">
+  <meta itemprop="keywords" content="Coding"><meta property="og:url" content="https://evthron.github.io/zh/profile/toolbox/upload-workflow/">
+  <meta property="og:site_name" content="Evthron&#39;s blog">
+  <meta property="og:title" content="文章發佈流程">
+  <meta property="og:description" content="我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。
+我用 hugo（網站鏈接） 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。
+hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。
+blog content gallery posts cardinal-ordinal index.en.md index.zh.md 但我不會直接在這文件夾裏增加文章，而是先在 Joplin 寫好，再用代碼把文章自動複製到適合的位置。
+Joplin 的筆記本結構和上面一樣。每篇文章都是一個筆記本，放在分區筆記本裏，文章筆記本裏放不同語言的文章。
+posts cardinal-ordinal 量數和序數 Cardinals and ordinals 為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。
+然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。
+以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？joppy (github) 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。
+除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="profile">
+    <meta property="article:published_time" content="2024-12-27T06:01:25+08:00">
+    <meta property="article:modified_time" content="2024-12-27T08:41:39+08:00">
+    <meta property="article:tag" content="Coding">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="文章發佈流程">
+  <meta name="twitter:description" content="我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。
+我用 hugo（網站鏈接） 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。
+hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。
+blog content gallery posts cardinal-ordinal index.en.md index.zh.md 但我不會直接在這文件夾裏增加文章，而是先在 Joplin 寫好，再用代碼把文章自動複製到適合的位置。
+Joplin 的筆記本結構和上面一樣。每篇文章都是一個筆記本，放在分區筆記本裏，文章筆記本裏放不同語言的文章。
+posts cardinal-ordinal 量數和序數 Cardinals and ordinals 為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。
+然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。
+以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？joppy (github) 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。
+除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。">
+
+  <link rel="canonical" href="https://evthron.github.io/zh/profile/toolbox/upload-workflow/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="/zh/profile"
+      >Evthron&#39;s blog</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/code/"
+        >⚔️ 代碼筆記</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/posts/"
+        >📝文章</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/toolbox/"
+        >🛠️工具集</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/skill/"
+        >🎮技能</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/zh/profile/sandbox/"
+        >🪣沙盒</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/Evthron"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/Evthron"
+        target="_blank"
+        rel="me"
+      >github</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+      <article>
+        <header class="mb-14">
+          <h1 class="my-0! pb-2.5">文章發佈流程</h1><div class="text-xs antialiased opacity-60"><time>2024年12月27日</time></div></header>
+
+        <section><p>我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。</p>
+<p>我用 <a class="link" href="https://gohugo.io"  target="_blank" rel="noopener"
+    >hugo（網站鏈接）</a> 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。</p>
+<p>hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。</p>
+<ul>
+<li>blog
+<ul>
+<li>content
+<ul>
+<li>gallery</li>
+<li>posts
+<ul>
+<li>cardinal-ordinal
+<ul>
+<li>index.en.md</li>
+<li>index.zh.md</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>但我不會直接在這文件夾裏增加文章，而是先在 Joplin 寫好，再用代碼把文章自動複製到適合的位置。</p>
+<p>Joplin 的筆記本結構和上面一樣。每篇文章都是一個筆記本，放在分區筆記本裏，文章筆記本裏放不同語言的文章。</p>
+<ul>
+<li>posts
+<ul>
+<li>cardinal-ordinal
+<ul>
+<li>量數和序數</li>
+<li>Cardinals and ordinals</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。</p>
+<p>然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。</p>
+<p>以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？<a class="link" href="https://github.com/marph91/joppy"  target="_blank" rel="noopener"
+    >joppy (github)</a> 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。</p>
+<p>除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。</p>
+<p>這樣就知道怎樣篩選筆記本了，剩下的就只是麻煩的搬運工作，代碼如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> joppy.client_api <span style="color:#f92672">import</span> ClientApi <span style="color:#66d9ef">as</span> Api
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 調用 joppy 的 API</span>
+</span></span><span style="display:flex;"><span>api <span style="color:#f92672">=</span> Api(token<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;YOUR_API_TOKEN&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">output_posts_in_certain_notebook_id</span>(all_notebooks, notebook_id):
+</span></span><span style="display:flex;"><span>    category <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_notebook(notebook_id)<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> notebook_data <span style="color:#f92672">in</span> all_notebooks:
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># 只有當筆記本（文章）放在需要的筆記本（分區）裏面才繼續</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> notebook_data<span style="color:#f92672">.</span>parent_id <span style="color:#f92672">!=</span> <span style="color:#66d9ef">None</span> <span style="color:#f92672">and</span> notebook_data<span style="color:#f92672">.</span>parent_id <span style="color:#f92672">==</span> notebook_id:
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># 獲取筆記本裏面的所有筆記（不同的語言版本）</span>
+</span></span><span style="display:flex;"><span>            post_list <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_notes(notebook_data<span style="color:#f92672">.</span>id, fields<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;created_time,updated_time,body,order,title,id&#39;</span>)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            folder_name <span style="color:#f92672">=</span> notebook_data<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>            print(notebook_data<span style="color:#f92672">.</span>title)
+</span></span><span style="display:flex;"><span>            zh_posts <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>            en_posts <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>            tok_posts <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> post_language_version <span style="color:#f92672">in</span> post_list<span style="color:#f92672">.</span>items:
+</span></span><span style="display:flex;"><span>                title <span style="color:#f92672">=</span> post_language_version<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                如果文章沒有標籤，就跳過
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>                tag_list <span style="color:#f92672">=</span> get_tag_list(post_language_version<span style="color:#f92672">.</span>id)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> tag_list: 
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>                    
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e"># 把文章按語言版本分類</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;zh&#39;</span> <span style="color:#f92672">in</span> tag_list: 
+</span></span><span style="display:flex;"><span>                    language_code <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;zh&#39;</span>
+</span></span><span style="display:flex;"><span>                    zh_posts<span style="color:#f92672">.</span>append(post_language_version)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">elif</span> <span style="color:#e6db74">&#39;en&#39;</span> <span style="color:#f92672">in</span> tag_list:
+</span></span><span style="display:flex;"><span>                    language_code <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;en&#39;</span>
+</span></span><span style="display:flex;"><span>                    en_posts<span style="color:#f92672">.</span>append(post_language_version)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">elif</span> <span style="color:#e6db74">&#39;tok&#39;</span> <span style="color:#f92672">in</span> tag_list:
+</span></span><span style="display:flex;"><span>                    language_code <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;tok&#39;</span>
+</span></span><span style="display:flex;"><span>                    tok_posts<span style="color:#f92672">.</span>append(post_language_version)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>            combine_and_output_posts_in_same_language(category, folder_name, <span style="color:#e6db74">&#39;zh&#39;</span>, zh_posts)
+</span></span><span style="display:flex;"><span>            combine_and_output_posts_in_same_language(category, folder_name, <span style="color:#e6db74">&#39;en&#39;</span>, en_posts)
+</span></span><span style="display:flex;"><span>            combine_and_output_posts_in_same_language(category, folder_name, <span style="color:#e6db74">&#39;tok&#39;</span>, tok_posts)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">combine_and_output_posts_in_same_language</span>(category, folder_name, language_code, posts):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> posts:
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        這是個把拆成幾段的筆記合併到一起的功能。我是想着用來把一段段的小説合併起來，不過還沒有什麼實際作用
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        posts<span style="color:#f92672">.</span>sort(key<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>order, reverse<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>        title <span style="color:#f92672">=</span> posts[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>        tag_list <span style="color:#f92672">=</span> get_tag_list(posts[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>id)
+</span></span><span style="display:flex;"><span>        tag_list<span style="color:#f92672">.</span>remove(language_code)
+</span></span><span style="display:flex;"><span>        body <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        created_time <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        updated_time <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> post <span style="color:#f92672">in</span> posts:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (created_time <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>) <span style="color:#f92672">or</span> (post<span style="color:#f92672">.</span>created_time <span style="color:#f92672">&lt;</span> created_time):
+</span></span><span style="display:flex;"><span>                created_time <span style="color:#f92672">=</span> post<span style="color:#f92672">.</span>created_time
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (updated_time <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>) <span style="color:#f92672">or</span> (post<span style="color:#f92672">.</span>updated_time <span style="color:#f92672">&gt;</span> updated_time):
+</span></span><span style="display:flex;"><span>                updated_time <span style="color:#f92672">=</span> post<span style="color:#f92672">.</span>updated_time
+</span></span><span style="display:flex;"><span>            body <span style="color:#f92672">+=</span> post<span style="color:#f92672">.</span>body <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        提取筆記的資料，然後扔到 generate_front_matter() 裏面，自動生成 hugo 需要的
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        markdown front matter，也就是文章的屬性資料。
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        date <span style="color:#f92672">=</span> created_time<span style="color:#f92672">.</span>isoformat()[:<span style="color:#ae81ff">19</span>] <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;+08:00&#39;</span>
+</span></span><span style="display:flex;"><span>        lastmod <span style="color:#f92672">=</span> updated_time<span style="color:#f92672">.</span>isoformat()[:<span style="color:#ae81ff">19</span>] <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;+08:00&#39;</span>
+</span></span><span style="display:flex;"><span>        home_dir <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#39;HOME&#39;</span>] 
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        如果文件夾裏放了圖片，自動在 front matter 裏加入資料，作為文章的標題圖片。
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        feature_png_directory <span style="color:#f92672">=</span> home_dir <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/Blog/blog/evthronblog/content/&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;png&#39;</span>
+</span></span><span style="display:flex;"><span>        feature_jpg_directory <span style="color:#f92672">=</span> home_dir <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/Blog/blog/evthronblog/content/&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.&#39;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;jpg&#39;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(feature_png_directory):
+</span></span><span style="display:flex;"><span>            image <span style="color:#f92672">=</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.png&#39;</span>
+</span></span><span style="display:flex;"><span>            front_matter <span style="color:#f92672">=</span> generate_front_matter(title, date, lastmod<span style="color:#f92672">=</span>lastmod, tags<span style="color:#f92672">=</span>repr(tag_list), categories<span style="color:#f92672">=</span>category, image<span style="color:#f92672">=</span>image)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(feature_jpg_directory):
+</span></span><span style="display:flex;"><span>            image <span style="color:#f92672">=</span> folder_name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.jpg&#39;</span>
+</span></span><span style="display:flex;"><span>            front_matter <span style="color:#f92672">=</span> generate_front_matter(title, date, lastmod<span style="color:#f92672">=</span>lastmod, tags<span style="color:#f92672">=</span>repr(tag_list), categories<span style="color:#f92672">=</span>category, image<span style="color:#f92672">=</span>image)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            front_matter <span style="color:#f92672">=</span> generate_front_matter(title, date, lastmod<span style="color:#f92672">=</span>lastmod, tags<span style="color:#f92672">=</span>repr(tag_list), categories<span style="color:#f92672">=</span>category)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;&#39;&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        把生成的 Markdown 文章複製到指定的文件夾裏面
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>        folder_directory <span style="color:#f92672">=</span> home_dir <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/Blog/blog/evthronblog/content/&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#f92672">+</span> folder_name
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(folder_directory):
+</span></span><span style="display:flex;"><span>            os<span style="color:#f92672">.</span>makedirs(folder_directory)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>        path <span style="color:#f92672">=</span> folder_directory <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;/index.&#39;</span> <span style="color:#f92672">+</span> language_code <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;.md&#39;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(path, <span style="color:#e6db74">&#39;w&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> fout:
+</span></span><span style="display:flex;"><span>            fout<span style="color:#f92672">.</span>write(front_matter <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">+</span> body)
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;done in&#34;</span>, language_code)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;no post in&#34;</span>, language_code)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">generate_front_matter</span>(title, date, description <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, lastmod <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, image <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, categories <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, tags <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, slug <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>, layout <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>) <span style="color:#f92672">-&gt;</span> str:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> lastmod <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;&#39;</span>:
+</span></span><span style="display:flex;"><span>        lastmod <span style="color:#f92672">=</span> strftime(<span style="color:#e6db74">&#34;%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">T%H:%M:%S+08:00&#34;</span>, localtime())
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;title: &#34;&#39;</span> <span style="color:#f92672">+</span> title <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;description: &#39;</span> <span style="color:#f92672">+</span> description <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;date: &#39;</span> <span style="color:#f92672">+</span> date <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;lastmod: &#39;</span> <span style="color:#f92672">+</span> lastmod <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;image: &#39;</span> <span style="color:#f92672">+</span> image <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;categories: &#39;</span> <span style="color:#f92672">+</span> categories <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;tags: &#39;</span> <span style="color:#f92672">+</span> tags <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;math: </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">license: </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">hidden: false</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">comments: true</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> slug:
+</span></span><span style="display:flex;"><span>        front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;slug: &#34;&#39;</span> <span style="color:#f92672">+</span> slug <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> layout:
+</span></span><span style="display:flex;"><span>        front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;layout: &#34;&#39;</span> <span style="color:#f92672">+</span> layout <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    front_matter <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> front_matter
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_tag_list</span>(note_id):
+</span></span><span style="display:flex;"><span>    info <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_tags(note_id)<span style="color:#f92672">.</span>items
+</span></span><span style="display:flex;"><span>    tag_list <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> info:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> tagdata <span style="color:#f92672">in</span> info:
+</span></span><span style="display:flex;"><span>            tag <span style="color:#f92672">=</span> tagdata<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>            tag_list<span style="color:#f92672">.</span>append(tag)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> tag_list
+</span></span><span style="display:flex;"><span>               
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    all_notebooks <span style="color:#f92672">=</span> api<span style="color:#f92672">.</span>get_all_notebooks()
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 為需要的筆記本生成檔案</span>
+</span></span><span style="display:flex;"><span>    post_notebook_id <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;PUT_NOTEBOOK_ID_HERE&#39;</span>
+</span></span><span style="display:flex;"><span>    output_posts_in_certain_notebook_id(all_notebooks, post_notebook_id)
+</span></span><span style="display:flex;"><span>    gallery_notebook_id <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;PUT_NOTEBOOK_ID_HERE&#39;</span>
+</span></span><span style="display:flex;"><span>    output_posts_in_certain_notebook_id(all_notebooks, gallery_notebook_id)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><p>如果我完全不用 Joplin 的話，流程應該可以變得更簡單一些，但我做得這麼辛苦，不是很想改。</p>
+</section>
+
+        <footer class="mt-12 flex flex-wrap"><a
+            class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+            href="https://evthron.github.io/tags/coding"
+            >coding</a
+          ></footer></article>
+    </main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025<a class="link" href="https://evthron.github.io/">Evthron&#39;s blog</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
