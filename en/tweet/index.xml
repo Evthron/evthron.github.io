@@ -214,6 +214,8 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
 I dived in to the source code of joppy, which is not complicated at all. It&amp;rsquo;s just making requests to joplin&amp;rsquo;s native API. Scrutinising other&amp;rsquo;s work is really the best way to improve.&lt;/p&gt;
 &lt;p&gt;05/01/2025 11:23
 It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to copy quick thoughts like tweet. Maybe I should improve this.&lt;/p&gt;
+&lt;p&gt;2025/03/24 22:41&lt;/p&gt;
+&lt;p&gt;Syncthing proved too sluggish for syncing my Joplin notes—Android’s transfer throttling turned every load into a test of patience. The solution? A self-hosted Joplin server via Docker. Now, I can seamlessly edit my blog posts straight from my phone, without the wait.&lt;/p&gt;
 </description>
         </item>
         <item>
