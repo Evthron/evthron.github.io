@@ -6,7 +6,15 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 14 Mar 2025 10:42:27 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Mar 2025 11:01:31 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Software</title>
+        <link>https://evthron.github.io/zh/tags/software/</link>
+        <pubDate>Wed, 26 Mar 2025 11:01:31 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tags/software/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Maths</title>
         <link>https://evthron.github.io/zh/tags/maths/</link>
         <pubDate>Fri, 14 Mar 2025 10:42:27 +0800</pubDate>
@@ -28,14 +36,6 @@
         <pubDate>Sun, 23 Feb 2025 01:34:13 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tags/gamification/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Software</title>
-        <link>https://evthron.github.io/zh/tags/software/</link>
-        <pubDate>Sun, 23 Feb 2025 01:34:13 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/zh/tags/software/</guid>
         <description></description>
         </item>
         <item>
@@ -68,6 +68,14 @@
         <pubDate>Sun, 09 Feb 2025 22:10:41 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tags/stories/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Fiction</title>
+        <link>https://evthron.github.io/zh/tags/fiction/</link>
+        <pubDate>Sat, 18 Jan 2025 02:16:31 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tags/fiction/</guid>
         <description></description>
         </item>
         <item>
