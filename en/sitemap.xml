@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/en/categories/</loc>
-    <lastmod>2025-03-28T13:41:58+08:00</lastmod>
+    <lastmod>2025-03-30T12:28:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -275,7 +275,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/</loc>
-    <lastmod>2025-03-26T07:22:11+08:00</lastmod>
+    <lastmod>2025-03-30T12:28:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -329,7 +329,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/categories/gallery/</loc>
-    <lastmod>2025-02-07T14:54:28+08:00</lastmod>
+    <lastmod>2025-03-30T12:28:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -347,7 +347,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/</loc>
-    <lastmod>2025-02-07T14:54:28+08:00</lastmod>
+    <lastmod>2025-03-30T12:28:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -474,7 +474,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/</loc>
-    <lastmod>2025-03-30T05:39:26+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -505,7 +505,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/taskwarrior/</loc>
-    <lastmod>2025-03-30T05:39:26+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -759,7 +759,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/</loc>
-    <lastmod>2025-03-26T06:54:58+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -998,7 +998,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/writer/</loc>
-    <lastmod>2025-03-26T06:54:57+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1024,7 +1024,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/foreigner/</loc>
-    <lastmod>2025-03-26T06:54:58+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1050,7 +1050,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/programmer/</loc>
-    <lastmod>2025-03-26T06:54:57+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1076,7 +1076,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/right-sider/</loc>
-    <lastmod>2025-03-26T06:54:58+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1210,7 +1210,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/painter/</loc>
-    <lastmod>2025-03-26T06:54:57+08:00</lastmod>
+    <lastmod>2025-03-30T12:29:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1241,7 +1241,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/accurate-colour-wheel/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2025-03-30T12:28:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1254,7 +1254,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/art/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2025-03-30T12:28:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1267,7 +1267,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/science/</loc>
-    <lastmod>2024-08-15T02:38:15+08:00</lastmod>
+    <lastmod>2025-03-30T12:28:43+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1542,6 +1542,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/languages/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/oklch-color-wheel/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/oklch-color-wheel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/oklch-color-wheel/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/page/</loc>

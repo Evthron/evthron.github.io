@@ -3,13 +3,8 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 OKLCH 顏色選擇器 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。
-顏色數據：
-Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。 一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。 2024/05/25
-這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。 改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為在調色盤裏的基礎顏色，本來就有不一樣的亮度和色彩對比。不過很難從這些各異的顏色出發，調出自己想要的顏色。 一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 像素説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。
-實際的情況更加複雜，不只是顯示設備的問題，還涉及人眼的運作。不過，oklch 已經把種種因素考慮在內，所以能用絕對數值描述顏色。這也是個感知均勻的色彩空間，不會在改變明度的時候出現色彩偏移。
-色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。
-受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。
-電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。
+傳統美術都不是會做色環嗎？這個是我做的互動色環。試着玩一下吧。
+Lightness (L): 0.75 Chroma (C): 0.12 Rotation: 0° Neutral Gray Lightness: 0.5 Hue Offset: 0° Download image 這些顏色是均勻分佈的，不過在非常亮、非常暗、和非常鮮豔的情況下，有些顏色無法顯示出來，所以就無法保持均勻了。這叫作色相斷層。 不想要色相斷層的話，Chroma = 0.12，Brightness = 75 左右，是在 sRGB 空間中能達到的最高飽和度。 2024/05/25
 '>
         <title>準確的色環 | Evthron&#39;s blog</title>
         
@@ -20,26 +15,16 @@ Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相�
         
         <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='準確的色環'>
 <meta property='og:description' content='顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 OKLCH 顏色選擇器 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。
-顏色數據：
-Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。 一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。 2024/05/25
-這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。 改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為在調色盤裏的基礎顏色，本來就有不一樣的亮度和色彩對比。不過很難從這些各異的顏色出發，調出自己想要的顏色。 一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 像素説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。
-實際的情況更加複雜，不只是顯示設備的問題，還涉及人眼的運作。不過，oklch 已經把種種因素考慮在內，所以能用絕對數值描述顏色。這也是個感知均勻的色彩空間，不會在改變明度的時候出現色彩偏移。
-色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。
-受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。
-電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。
+傳統美術都不是會做色環嗎？這個是我做的互動色環。試着玩一下吧。
+Lightness (L): 0.75 Chroma (C): 0.12 Rotation: 0° Neutral Gray Lightness: 0.5 Hue Offset: 0° Download image 這些顏色是均勻分佈的，不過在非常亮、非常暗、和非常鮮豔的情況下，有些顏色無法顯示出來，所以就無法保持均勻了。這叫作色相斷層。 不想要色相斷層的話，Chroma = 0.12，Brightness = 75 左右，是在 sRGB 空間中能達到的最高飽和度。 2024/05/25
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Gallery' /><meta property='article:tag' content='science' /><meta property='article:tag' content='art' /><meta property='article:published_time' content='2024-01-29T05:05:42&#43;08:00'/><meta property='article:modified_time' content='2024-07-29T02:58:39&#43;08:00'/><meta property='og:image' content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Gallery' /><meta property='article:tag' content='science' /><meta property='article:tag' content='art' /><meta property='article:published_time' content='2024-01-29T05:05:42&#43;08:00'/><meta property='article:modified_time' content='2025-03-30T12:24:35&#43;08:00'/><meta property='og:image' content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
 <meta name="twitter:title" content="準確的色環">
 <meta name="twitter:description" content="顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 OKLCH 顏色選擇器 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。
-顏色數據：
-Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。 一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。 2024/05/25
-這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。 改用飽和度最高的預設顏色重畫一次。雖然像是用小畫家亂畫的，但看上去居然舒服了不少。這是因為在調色盤裏的基礎顏色，本來就有不一樣的亮度和色彩對比。不過很難從這些各異的顏色出發，調出自己想要的顏色。 一般軟件的 HSV 顏色選擇器，只是把最鮮豔的顏色當成基礎色，然後把明度和飽和度的數值定為 100，這是不行的。因為不同的顏色，明度的上下限是不一樣的。用 RGB 像素説明最簡單：紅加綠得黃，如果把最亮的紅光和最亮的綠光混合起來，出來的黃光是不是比單獨的紅光或綠光亮？同樣原理，青色和洋紅色也能比單色光更亮。所以顏色選擇器的數值只是相對數值，改變了色相，就不能比較飽和度和亮度。
-實際的情況更加複雜，不只是顯示設備的問題，還涉及人眼的運作。不過，oklch 已經把種種因素考慮在內，所以能用絕對數值描述顏色。這也是個感知均勻的色彩空間，不會在改變明度的時候出現色彩偏移。
-色彩空間自然是連續的，一般的 RGB 顯示屏可以顯示一千六百萬種顏色，但是這對畫畫一點用都沒有。要讓顏色變得容易理解，就要套用傳統美術的色環概念。
-受限於過去顏料的限制，傳統藝術的顏色系統以 RYB 為基礎，這樣做出的色環是有偏差的。紫紅色代替了洋紅色，青色乾脆就不存在，使得色彩之間的互補關係不準確。雖然現在能買到洋紅色的顏料，但它照到光就會褪色，不適合作畫。沒有人會希望自己的畫展出一年後就變得像舊海報一樣藍，所以這種新顏料沒有普及開來。
-電腦自然不用顧慮這種物理問題，所以糾正大家色彩觀念的時候到了。現代的色環即使考慮了色相，也沒有考慮明暗和飽和度，所以我自己做了一個。我還做了不同明度的顏色飽和度圖，把明度分成 6 個等級，把飽和度分成 10 個等級。 要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。
+傳統美術都不是會做色環嗎？這個是我做的互動色環。試着玩一下吧。
+Lightness (L): 0.75 Chroma (C): 0.12 Rotation: 0° Neutral Gray Lightness: 0.5 Hue Offset: 0° Download image 這些顏色是均勻分佈的，不過在非常亮、非常暗、和非常鮮豔的情況下，有些顏色無法顯示出來，所以就無法保持均勻了。這叫作色相斷層。 不想要色相斷層的話，Chroma = 0.12，Brightness = 75 左右，是在 sRGB 空間中能達到的最高飽和度。 2024/05/25
 "><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png' />
             <link rel="shortcut icon" href="/favicon.ico" />
@@ -418,25 +403,285 @@ Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相�
         
         <p>顏色是由色相、明度、飽和度決定的，排除明度和飽和度的干擾，才能培養對顏色關係的正確感覺。我用 <a class="link" href="https://oklch.com"  target="_blank" rel="noopener"
     >OKLCH 顏色選擇器</a> 做了個符合色覺認知的色環。色環上的顏色有着相同的明度（Brightness）和飽和度（Chroma），色相（Hue）的間隔也是均勻的。</p>
-<p><img src="/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png"
-	width="1968"
-	height="1968"
-	srcset="/zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu_115c0f0623cbc662.webp 480w, /zh/gallery/accurate-colour-wheel/accurate-colour-wheel_hu_fe2b5e019ffe4bc3.webp 1024w"
-	loading="lazy"
-	
-		alt="oklch-colour-wheel"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="100"
-		data-flex-basis="240px"
-	
->
-</p>
-<p>顏色數據：</p>
+<p>傳統美術都不是會做色環嗎？這個是我做的<a class="link" href="/zh/oklch-color-wheel" >互動色環</a>。試着玩一下吧。</p>
+<style>
+  canvas {
+    display: block;
+    width: 50%;
+    border-radius: 50%;
+    cursor: grab;
+    margin: auto;
+  }
+  .controls {
+    display: block;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  input[type="range"] {
+    width: 100%;
+  }
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+</style>
+
+<canvas id="colorWheel" width="600" height="600"></canvas>
+<div class="controls">
+  <label>
+    Lightness (L): <span id="lValue">0.75</span>
+    <input
+      type="range"
+      id="lControl"
+      min="0"
+      max="1"
+      step="0.01"
+      value="0.75"
+    />
+  </label>
+  <label>
+    Chroma (C): <span id="cValue">0.12</span>
+    <input
+      type="range"
+      id="cControl"
+      min="0"
+      max="0.2"
+      step="0.01"
+      value="0.12"
+    />
+  </label>
+  <label>
+    Rotation: <span id="rotationValue">0</span>°
+    <input
+      type="range"
+      id="rotationControl"
+      min="0"
+      max="360"
+      step="15"
+      value="0"
+    />
+  </label>
+  <label>
+    Neutral Gray Lightness: <span id="grayValue">0.5</span>
+    <input
+      type="range"
+      id="grayControl"
+      min="0"
+      max="1"
+      step="0.01"
+      value="0.5"
+    />
+  </label>
+  <label>
+    Hue Offset: <span id="hueOffsetValue">0</span>°
+    <input type="range" id="hueOffsetControl" min="0" max="15" value="0" />
+  </label>
+  <button id="downloadBtn" style="margin-top: 10px; padding: 8px 12px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">
+    Download image
+  </button>
+</div>
+
+<script>
+  const canvas = document.getElementById("colorWheel");
+  const ctx = canvas.getContext("2d");
+  const center = { x: 300, y: 300 };
+  const outerRadius = 300;
+  const innerRadius = 150;
+  const gapWidth = 8;
+
+  
+  const lControl = document.getElementById("lControl");
+  const cControl = document.getElementById("cControl");
+  const rotationControl = document.getElementById("rotationControl");
+  const grayControl = document.getElementById("grayControl");
+  const hueOffsetControl = document.getElementById("hueOffsetControl");
+  const lValue = document.getElementById("lValue");
+  const cValue = document.getElementById("cValue");
+  const rotationValue = document.getElementById("rotationValue");
+  const grayValue = document.getElementById("grayValue");
+  const hueOffsetValue = document.getElementById("hueOffsetValue");
+
+  
+  let params = {
+    l: 0.75,
+    c: 0.12,
+    grayL: 0.5,
+    hueOffset: 0,
+    rotation: 0,
+    isDragging: false,
+    startAngle: 0,
+  };
+
+  
+  function init() {
+    lControl.addEventListener("input", updateParams);
+    cControl.addEventListener("input", updateParams);
+    rotationControl.addEventListener("input", updateParams);
+    grayControl.addEventListener("input", updateParams);
+    hueOffsetControl.addEventListener("input", updateParams);
+
+    canvas.addEventListener("mousedown", startDrag);
+    canvas.addEventListener("mousemove", drag);
+    canvas.addEventListener("mouseup", endDrag);
+    canvas.addEventListener("mouseleave", endDrag);
+
+    updateParams();
+  }
+
+  function updateParams() {
+    params.l = parseFloat(lControl.value);
+    params.c = parseFloat(cControl.value);
+    params.rotation = parseInt(rotationControl.value);
+    params.grayL = parseFloat(grayControl.value);
+    params.hueOffset = parseInt(hueOffsetControl.value);
+
+    lValue.textContent = params.l.toFixed(2);
+    cValue.textContent = params.c.toFixed(2);
+    rotationValue.textContent = params.rotation;
+    grayValue.textContent = params.grayL.toFixed(2);
+    hueOffsetValue.textContent = params.hueOffset;
+    document.body.style.backgroundColor = `oklch(${params.grayL} 0 0)`;
+
+    drawColorWheel();
+  }
+
+  function startDrag(e) {
+    params.isDragging = true;
+    params.startAngle = getAngle(e) - params.rotation;
+  }
+
+  function drag(e) {
+    if (!params.isDragging) return;
+    const angle = getAngle(e);
+    params.rotation = angle - params.startAngle;
+    rotationControl.value = params.rotation;
+    updateParams();
+  }
+
+  function endDrag() {
+    params.isDragging = false;
+  }
+
+  function getAngle(e) {
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left - center.x;
+    const y = e.clientY - rect.top - center.y;
+    return (Math.atan2(y, x) * 180) / Math.PI;
+  }
+
+  function drawColorWheel() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    
+    ctx.fillStyle = `oklch(${params.grayL} 0 0)`;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    
+
+    const rotationOffset = 15; 
+    ctx.save();
+    ctx.translate(center.x, center.y);
+    ctx.rotate(((params.rotation + 15) * Math.PI) / 180);
+    ctx.translate(-center.x, -center.y);
+
+    
+    const segmentAngle = (Math.PI * 2) / 12;
+    const colourOffset = 4;
+
+    for (let i = 0; i < 12; i++) {
+      
+      const hue = (i * 30 + params.hueOffset + colourOffset * 30) % 360;
+
+      
+      ctx.fillStyle = `oklch(${params.l} ${params.c} ${hue})`;
+      ctx.beginPath();
+      ctx.moveTo(center.x, center.y);
+      ctx.arc(
+        center.x,
+        center.y,
+        outerRadius,
+        i * segmentAngle,
+        (i + 1) * segmentAngle
+      );
+      ctx.lineTo(
+        center.x + innerRadius * Math.cos((i + 1) * segmentAngle),
+        center.y + innerRadius * Math.sin((i + 1) * segmentAngle)
+      );
+      ctx.arc(
+        center.x,
+        center.y,
+        innerRadius,
+        (i + 1) * segmentAngle,
+        i * segmentAngle,
+        true
+      );
+      ctx.closePath();
+      ctx.fill();
+    }
+
+    
+    
+    for (let i = 0; i < 12; i++) {
+      ctx.fillStyle = `oklch(${params.grayL} 0 0)`;
+      ctx.beginPath();
+
+      const angle = i * segmentAngle; 
+      const tangentX = -Math.sin(angle);
+      const tangentY = Math.cos(angle);
+      const offset = gapWidth / 2;
+      const newOuterRadius =
+        innerRadius + ((outerRadius - innerRadius) * 7) / 8; 
+
+      
+      const outerStart = {
+        x: center.x + newOuterRadius * Math.cos(angle) - tangentX * offset,
+        y: center.y + newOuterRadius * Math.sin(angle) - tangentY * offset,
+      };
+      const outerEnd = {
+        x: center.x + newOuterRadius * Math.cos(angle) + tangentX * offset,
+        y: center.y + newOuterRadius * Math.sin(angle) + tangentY * offset,
+      };
+      const innerStart = {
+        x: center.x + innerRadius * Math.cos(angle) - tangentX * offset,
+        y: center.y + innerRadius * Math.sin(angle) - tangentY * offset,
+      };
+      const innerEnd = {
+        x: center.x + innerRadius * Math.cos(angle) + tangentX * offset,
+        y: center.y + innerRadius * Math.sin(angle) + tangentY * offset,
+      };
+
+      
+      ctx.moveTo(outerStart.x, outerStart.y);
+      ctx.lineTo(outerEnd.x, outerEnd.y);
+      ctx.lineTo(innerEnd.x, innerEnd.y);
+      ctx.lineTo(innerStart.x, innerStart.y);
+      ctx.closePath();
+      ctx.fill();
+    }
+    ctx.restore();
+  }
+  document.getElementById("downloadBtn").addEventListener("click", function () {
+    const filename = `oklch_colorwheel_L${Math.round(
+      params.l * 100
+    )}_C${Math.round(params.c * 100)}_R${params.rotation}_G${Math.round(
+      params.grayL * 100
+    )}_H${params.hueOffset}.png`;
+
+    const link = document.createElement("a");
+    link.download = filename;
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+  });
+
+  init();
+</script>
+
 <ul>
-<li>Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相斷層。不想要色相斷層的話，0.12 是在 sRGB 空間中能達到的最高飽和度。</li>
-<li>一決定 Chroma，就決定了亮度範圍，我選了 Brightness = 75。</li>
+<li>這些顏色是均勻分佈的，不過在非常亮、非常暗、和非常鮮豔的情況下，有些顏色無法顯示出來，所以就無法保持均勻了。這叫作色相斷層。</li>
+<li>不想要色相斷層的話，Chroma = 0.12，Brightness = 75 左右，是在 sRGB 空間中能達到的最高飽和度。</li>
 </ul>
 <p>2024/05/25</p>
 <p>這是一幅沒有明暗，沒有色彩對比，只有色相變化的畫，看起來非常不舒服。
@@ -491,7 +736,7 @@ Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相�
 	
 >
 </p>
-<p>要是能在繪畫軟件裏直接使用這個取色器就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。</p>
+<p>要是能在繪畫軟件裏直接用就很方便了，可惜現在還沒有。Krita 的開發人員很重視色彩空間，所以我還是很有信心的。</p>
 
     </section>
 
@@ -519,7 +764,7 @@ Chroma = 0.12。不同的色相有不同的亮度範圍，所以會出現色相�
 
 
             <span>
-                最後更新 2024-07-29 02:58 &#43;08:00
+                最後更新 2025-03-30 12:24 &#43;08:00
             </span>
         </section></footer>
     
