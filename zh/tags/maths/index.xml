@@ -23,7 +23,8 @@
 &lt;p&gt;指數運算之所以實用，是因為它能夠通過各種運算規則（指數律），從離散的定義（整數次方）自然地擴展到連續的定義（非整數次方）。這種連續性使得我們能夠定義導數，研究函數的變化率。&lt;/p&gt;
 &lt;p&gt;然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。&lt;/p&gt;
 &lt;p&gt;更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。&lt;/p&gt;
-&lt;p&gt;[Beyond exponentiation: A tetration investigation (youtube) ]https://www.youtube.com/watch?v=qdqPTEpq5Xw&amp;amp;pp=ygUJdGV0cmF0aW9u)&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=qdqPTEpq5Xw&amp;amp;pp=ygUJdGV0cmF0aW9u&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Beyond exponentiation: A tetration investigation (youtube)&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
