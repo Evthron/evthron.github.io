@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=' 井字棋 AI 對戰 先手玩家 玩家先手 AI先手 AI開局策略 角開 (適合新手) 中開 (穩定平衡) 邊開 (高手奇策) 重新開始 輪到 X (你) 下棋 '>
+        <title>tic-tac-toe | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/sandbox/tic-tac-toe/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='tic-tac-toe'>
+<meta property='og:description' content=' 井字棋 AI 對戰 先手玩家 玩家先手 AI先手 AI開局策略 角開 (適合新手) 中開 (穩定平衡) 邊開 (高手奇策) 重新開始 輪到 X (你) 下棋 '>
+<meta property='og:url' content='https://evthron.github.io/zh/sandbox/tic-tac-toe/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' />
+<meta name="twitter:title" content="tic-tac-toe">
+<meta name="twitter:description" content=" 井字棋 AI 對戰 先手玩家 玩家先手 AI先手 AI開局策略 角開 (適合新手) 中開 (穩定平衡) 邊開 (高手奇策) 重新開始 輪到 X (你) 下棋 ">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_b7a1c28cc8c8dbe4.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/zh/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>最新文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>找文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/toolbox/' >
+                
+                
+                
+                <span>🛠️工具集</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/skill/' >
+                
+                
+                
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/code/' >
+                
+                
+                
+                <span>⚔️ 代碼筆記</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/sandbox/tic-tac-toe/">tic-tac-toe</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+    
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <style>
+  .article-content {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .game-container {
+    text-align: center;
+  }
+
+  .board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .cell:hover {
+    background-color: #e9e9e9;
+  }
+
+  .status {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    min-height: 36px;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .control-group label {
+    font-size: 14px;
+    color: #666;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 150px;
+  }
+
+  .x-symbol {
+    color: #f44336;
+  }
+
+  .o-symbol {
+    color: #2196f3;
+  }
+
+  .winning-cell {
+    background-color: #e8f5e9;
+    animation: pulse 1s infinite;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+</style>
+<body>
+  <div class="game-container">
+    <h1>井字棋 AI 對戰</h1>
+    <div class="controls">
+      <div class="control-group">
+        <label for="ai-first">先手玩家</label>
+        <select id="ai-first">
+          <option value="human">玩家先手</option>
+          <option value="ai">AI先手</option>
+        </select>
+      </div>
+      <div class="control-group" id="ai-strategy-group">
+        <label for="ai-strategy">AI開局策略</label>
+        <select id="ai-strategy">
+          <option value="corner">角開 (適合新手)</option>
+          <option value="center" selected>中開 (穩定平衡)</option>
+          <option value="edge">邊開 (高手奇策)</option>
+        </select>
+      </div>
+      <button id="reset">重新開始</button>
+    </div>
+    <div class="status" id="status">輪到 X (你) 下棋</div>
+    <div class="board" id="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+  </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const board = document.getElementById('board');
+        const cells = document.querySelectorAll('.cell');
+        const status = document.getElementById('status');
+        const resetButton = document.getElementById('reset');
+        const aiStrategySelect = document.getElementById('ai-strategy');
+        const aiFirstSelect = document.getElementById('ai-first');
+        const aiStrategyGroup = document.getElementById('ai-strategy-group');
+        
+        let currentPlayer = 'X'; 
+        let gameState = ['', '', '', '', '', '', '', '', ''];
+        let gameActive = true;
+        let aiTurn = false;
+        
+        const winningConditions = [
+            [0, 1, 2], 
+            [3, 4, 5], 
+            [6, 7, 8], 
+            [0, 3, 6], 
+            [1, 4, 7], 
+            [2, 5, 8], 
+            [0, 4, 8], 
+            [2, 4, 6]  
+        ];
+        
+        
+        function initGame() {
+            resetGame();
+            
+            
+            if (aiFirstSelect.value === 'ai') {
+                aiTurn = true;
+                status.textContent = 'AI 思考中...';
+                
+                setTimeout(() => {
+                    const aiStrategy = aiStrategySelect.value;
+                    const aiMove = getAIMove(aiStrategy);
+                    makeMove(aiMove, 'O');
+                    status.textContent = '輪到 X (你) 下棋';
+                    aiTurn = false;
+                }, 500);
+            }
+        }
+        
+        
+        function updateUIForFirstPlayer() {
+            if (aiFirstSelect.value === 'ai') {
+                aiStrategyGroup.classList.remove('hidden');
+            } else {
+                aiStrategyGroup.classList.add('hidden');
+            }
+        }
+        
+        
+        function handleCellClick(e) {
+            if (aiTurn || !gameActive) return;
+            
+            const clickedCell = e.target;
+            const clickedCellIndex = parseInt(clickedCell.getAttribute('data-index'));
+            
+            
+            if (gameState[clickedCellIndex] !== '') {
+                return;
+            }
+            
+            
+            makeMove(clickedCellIndex, 'X');
+            
+            
+            if (!checkResult()) {
+                
+                aiTurn = true;
+                status.textContent = 'AI 思考中...';
+                
+                
+                setTimeout(() => {
+                    const aiMove = getAIMove();
+                    makeMove(aiMove, 'O');
+                    checkResult();
+                    aiTurn = false;
+                }, 500);
+            }
+        }
+        
+        
+        function makeMove(index, player) {
+            gameState[index] = player;
+            cells[index].textContent = player;
+            cells[index].classList.add(player === 'X' ? 'x-symbol' : 'o-symbol');
+        }
+        
+        
+        function checkResult() {
+            
+            for (let condition of winningConditions) {
+                const [a, b, c] = condition;
+                
+                if (gameState[a] !== '' && gameState[a] === gameState[b] && gameState[b] === gameState[c]) {
+                    
+                    cells[a].classList.add('winning-cell');
+                    cells[b].classList.add('winning-cell');
+                    cells[c].classList.add('winning-cell');
+                    
+                    gameActive = false;
+                    status.textContent = gameState[a] === 'X' ? '你贏了！' : 'AI 贏了！';
+                    return true;
+                }
+            }
+            
+            
+            if (!gameState.includes('')) {
+                gameActive = false;
+                status.textContent = '遊戲結束，平手！';
+                return true;
+            }
+            
+            
+            status.textContent = `輪到 ${currentPlayer === 'X' ? 'X (你)' : 'O (AI)'} 下棋`;
+            return false;
+        }
+        
+        
+        function getAIMove(strategy) {
+            
+            const winningMove = findWinningMove('O');
+            if (winningMove !== -1) return winningMove;
+            
+            
+            const blockingMove = findWinningMove('X');
+            if (blockingMove !== -1) return blockingMove;
+            
+            
+            if (aiFirstSelect.value === 'ai' && strategy) {
+                
+                switch(strategy) {
+                    case 'corner':
+                        return getCornerMove();
+                    case 'edge':
+                        return getEdgeMove();
+                    case 'center':
+                    default:
+                        return getCenterStrategyMove();
+                }
+            }
+            
+            
+            if (aiFirstSelect.value === 'human') {
+                return getResponseToPlayerFirstMove();
+            }
+            
+            
+            const forkMove = createForkOpportunity();
+            if (forkMove !== -1) return forkMove;
+            
+            
+            const blockForkMove = blockForkOpportunity();
+            if (blockForkMove !== -1) return blockForkMove;
+            
+            
+            const bestMove = getBestAvailableMove();
+            return bestMove;
+        }
+        
+        
+        function getResponseToPlayerFirstMove() {
+            const playerMoves = [];
+            gameState.forEach((cell, index) => {
+                if (cell === 'X') playerMoves.push(index);
+            });
+            
+            
+            if (playerMoves.length === 1) {
+                const playerFirstMove = playerMoves[0];
+                let responseMove = -1;
+                
+                
+                const shouldMakeMistake = Math.random() < 0.2;
+                
+                
+                if (playerFirstMove === 4) {
+                    if (shouldMakeMistake) {
+                        
+                        const edges = [1, 3, 5, 7];
+                        const emptyEdges = edges.filter(edge => gameState[edge] === '');
+                        if (emptyEdges.length > 0) {
+                            responseMove = emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+                        }
+                    } else {
+                        
+                        responseMove = getCornerMove();
+                    }
+                } 
+                
+                else if ([0, 2, 6, 8].includes(playerFirstMove)) {
+                    if (shouldMakeMistake) {
+                        
+                        const nonAdjacentEdges = {
+                            0: [5, 7], 
+                            2: [3, 7], 
+                            6: [1, 5], 
+                            8: [1, 3]  
+                        };
+                        const edges = nonAdjacentEdges[playerFirstMove];
+                        const emptyEdges = edges.filter(edge => gameState[edge] === '');
+                        if (emptyEdges.length > 0) {
+                            responseMove = emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+                        }
+                    } else {
+                        
+                        if (gameState[4] === '') {
+                            responseMove = 4;
+                        } else {
+                            
+                            responseMove = getCornerMove();
+                        }
+                    }
+                }
+                
+                else if ([1, 3, 5, 7].includes(playerFirstMove)) {
+                    if (shouldMakeMistake) {
+                        
+                        const nonAdjacentCorners = {
+                            1: [6, 8], 
+                            3: [2, 8], 
+                            5: [0, 6], 
+                            7: [0, 2]  
+                        };
+                        const corners = nonAdjacentCorners[playerFirstMove];
+                        const emptyCorners = corners.filter(corner => gameState[corner] === '');
+                        if (emptyCorners.length > 0) {
+                            responseMove = emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+                        }
+                    } else {
+                        
+                        if (gameState[4] === '') {
+                            responseMove = 4;
+                        } else {
+                            
+                            const oppositeEdges = {
+                                1: 7, 
+                                3: 5, 
+                                5: 3, 
+                                7: 1  
+                            };
+                            if (gameState[oppositeEdges[playerFirstMove]] === '') {
+                                responseMove = oppositeEdges[playerFirstMove];
+                            } else {
+                                
+                                responseMove = getCornerMove();
+                            }
+                        }
+                    }
+                }
+                
+                if (responseMove !== -1) {
+                    return responseMove;
+                }
+            }
+            
+            
+            return getCenterStrategyMove();
+        }
+        
+        
+        function countMoves() {
+            return gameState.filter(cell => cell !== '').length;
+        }
+        
+        
+        function findWinningMove(player) {
+            for (let i = 0; i < gameState.length; i++) {
+                if (gameState[i] === '') {
+                    
+                    gameState[i] = player;
+                    
+                    
+                    const isWin = checkImmediateWin(player);
+                    
+                    
+                    gameState[i] = '';
+                    
+                    if (isWin) {
+                        return i;
+                    }
+                }
+            }
+            return -1;
+        }
+        
+        
+        function checkImmediateWin(player) {
+            for (let condition of winningConditions) {
+                const [a, b, c] = condition;
+                if (gameState[a] === player && gameState[b] === player && gameState[c] === player) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        
+        
+        function getCornerMove() {
+            const corners = [0, 2, 6, 8];
+            const emptyCorners = corners.filter(corner => gameState[corner] === '');
+            
+            
+            if (gameState[0] === 'O' && gameState[8] === '' && gameState[1] !== 'X' && gameState[3] !== 'X') return 8;
+            if (gameState[2] === 'O' && gameState[6] === '' && gameState[1] !== 'X' && gameState[5] !== 'X') return 6;
+            if (gameState[6] === 'O' && gameState[2] === '' && gameState[3] !== 'X' && gameState[7] !== 'X') return 2;
+            if (gameState[8] === 'O' && gameState[0] === '' && gameState[5] !== 'X' && gameState[7] !== 'X') return 0;
+            
+            
+            if (emptyCorners.length > 0) {
+                return emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+            }
+            
+            return -1;
+        }
+        
+        
+        function getEdgeMove() {
+            const edges = [1, 3, 5, 7];
+            const emptyEdges = edges.filter(edge => gameState[edge] === '');
+            
+            
+            for (let edge of emptyEdges) {
+                
+                gameState[edge] = 'O';
+                
+                
+                const playerForks = countPossibleForks('X');
+                
+                
+                gameState[edge] = '';
+                
+                if (playerForks === 0) {
+                    return edge;
+                }
+            }
+            
+            
+            if (emptyEdges.length > 0) {
+                return emptyEdges[0];
+            }
+            
+            return -1;
+        }
+        
+        
+        function getCenterStrategyMove() {
+            
+            if (gameState[4] === '') return 4;
+            
+            
+            const forkMove = createForkOpportunity();
+            if (forkMove !== -1) return forkMove;
+            
+            
+            const corners = [0, 2, 6, 8];
+            const emptyCorners = corners.filter(corner => gameState[corner] === '');
+            
+            
+            if (gameState[4] === 'O') {
+                if (gameState[0] === 'O' && gameState[8] === '') return 8;
+                if (gameState[2] === 'O' && gameState[6] === '') return 6;
+                if (gameState[6] === 'O' && gameState[2] === '') return 2;
+                if (gameState[8] === 'O' && gameState[0] === '') return 0;
+            }
+            
+            
+            if (emptyCorners.length > 0) {
+                return emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+            }
+            
+            
+            const edges = [1, 3, 5, 7];
+            const emptyEdges = edges.filter(edge => gameState[edge] === '');
+            if (emptyEdges.length > 0) {
+                return emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+            }
+            
+            return -1;
+        }
+        
+        
+        function createForkOpportunity() {
+            for (let i = 0; i < gameState.length; i++) {
+                if (gameState[i] === '') {
+                    
+                    gameState[i] = 'O';
+                    
+                    
+                    const forks = countPossibleForks('O');
+                    
+                    
+                    gameState[i] = '';
+                    
+                    if (forks >= 2) {
+                        return i;
+                    }
+                }
+            }
+            return -1;
+        }
+        
+        
+        function countPossibleForks(player) {
+            let forkCount = 0;
+            
+            for (let condition of winningConditions) {
+                const [a, b, c] = condition;
+                const cells = [gameState[a], gameState[b], gameState[c]];
+                const emptyCount = cells.filter(cell => cell === '').length;
+                const playerCount = cells.filter(cell => cell === player).length;
+                
+                if (playerCount === 2 && emptyCount === 1) {
+                    forkCount++;
+                }
+            }
+            
+            return forkCount;
+        }
+        
+        
+        function blockForkOpportunity() {
+            
+            let opponentForks = [];
+            
+            for (let i = 0; i < gameState.length; i++) {
+                if (gameState[i] === '') {
+                    
+                    gameState[i] = 'X';
+                    
+                    
+                    const forks = countPossibleForks('X');
+                    
+                    
+                    gameState[i] = '';
+                    
+                    if (forks >= 2) {
+                        opponentForks.push(i);
+                    }
+                }
+            }
+            
+            
+            if (opponentForks.length > 0) {
+                
+                for (let move of opponentForks) {
+                    
+                    gameState[move] = 'O';
+                    
+                    
+                    const aiWin = findWinningMove('O') !== -1;
+                    
+                    
+                    gameState[move] = '';
+                    
+                    if (aiWin) {
+                        return move;
+                    }
+                }
+                
+                
+                return opponentForks[0];
+            }
+            
+            return -1;
+        }
+        
+        
+        function getBestAvailableMove() {
+            
+            if (gameState[4] === '') return 4; 
+            
+            const corners = [0, 2, 6, 8];
+            const emptyCorners = corners.filter(corner => gameState[corner] === '');
+            if (emptyCorners.length > 0) {
+                return emptyCorners[Math.floor(Math.random() * emptyCorners.length)];
+            }
+            
+            const edges = [1, 3, 5, 7];
+            const emptyEdges = edges.filter(edge => gameState[edge] === '');
+            if (emptyEdges.length > 0) {
+                return emptyEdges[Math.floor(Math.random() * emptyEdges.length)];
+            }
+            
+            return -1;
+        }
+        
+        
+        function resetGame() {
+            currentPlayer = 'X';
+            gameState = ['', '', '', '', '', '', '', '', ''];
+            gameActive = true;
+            aiTurn = false;
+            status.textContent = `輪到 ${currentPlayer} (你) 下棋`;
+            
+            cells.forEach(cell => {
+                cell.textContent = '';
+                cell.classList.remove('x-symbol', 'o-symbol', 'winning-cell');
+            });
+            
+            
+            if (aiFirstSelect.value === 'ai') {
+                aiTurn = true;
+                status.textContent = 'AI 思考中...';
+                
+                setTimeout(() => {
+                    const aiStrategy = aiStrategySelect.value;
+                    const aiMove = getAIMove(aiStrategy);
+                    makeMove(aiMove, 'O');
+                    status.textContent = '輪到 X (你) 下棋';
+                    aiTurn = false;
+                }, 500);
+            }
+        }
+        
+        
+        cells.forEach(cell => {
+            cell.addEventListener('click', handleCellClick);
+        });
+        
+        resetButton.addEventListener('click', resetGame);
+        aiFirstSelect.addEventListener('change', function() {
+            updateUIForFirstPlayer();
+            resetGame();
+        });
+        
+        
+        updateUIForFirstPlayer();
+        initGame();
+    });
+</script>
+
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+         
+
+        </footer>
+    
+    
+    
+</article>
+
+    
+    
+
+    
+    
+     
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>

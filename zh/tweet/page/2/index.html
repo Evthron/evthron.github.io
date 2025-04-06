@@ -14,7 +14,7 @@
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://evthron.github.io/zh/tweet/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-04-03T10:18:13&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-04-06T20:59:19&#43;08:00 '/>
 <meta name="twitter:title" content="Tweet">
 <meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="https://evthron.github.io/zh/tweet/index.xml">
             <link rel="shortcut icon" href="/favicon.ico" />
@@ -304,7 +304,7 @@
     <header class="section-header">
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">30 篇</h3>
+                <h3 class="section-count">32 篇</h3>
                 <h1 class="section-term">Tweet</h1>
                 
             </div>
@@ -312,6 +312,210 @@
     </header>
     
     <section class="article-list">
+        
+            
+<article class="">
+    <div class="article-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/tweet/sqlite-anki/">Anki SQLite</a>
+            </h2>
+            
+        </div>
+    
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-01-06</time>
+                </div>
+            
+    
+        </footer>
+        
+    
+        
+        <div class="article-content">
+            
+            <p>Anki 用的是 SQLite。實戰是好事吧？</p>
+<p>很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。</p>
+<p>順利完成了。</p>
+<p><a class="link" href="https://evthron.github.io/zh/sandbox/test-vocab/"  target="_blank" rel="noopener"
+    >https://evthron.github.io/zh/sandbox/test-vocab/</a></p>
+<p>參考資料：</p>
+<p>本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。</p>
+<p><a class="link" href="https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/"  target="_blank" rel="noopener"
+    >https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/</a></p>
+<p>python tutorial</p>
+<p><a class="link" href="https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial"  target="_blank" rel="noopener"
+    >https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial</a></p>
+<p>這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？</p>
+<p><a class="link" href="https://kylerego.github.io/anki-schema#the-notes-table"  target="_blank" rel="noopener"
+    >https://kylerego.github.io/anki-schema#the-notes-table</a></p>
+<p>Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。</p>
+<p><a class="link" href="https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/"  target="_blank" rel="noopener"
+    >https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/</a></p>
+<p><a class="link" href="https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/"  target="_blank" rel="noopener"
+    >https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/</a></p>
+<p>界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。</p>
+<p><a class="link" href="https://marcjenkins.co.uk/bookshelf/"  target="_blank" rel="noopener"
+    >https://marcjenkins.co.uk/bookshelf/</a></p>
+
+        </div>
+    </div>
+
+    
+    
+    
+    <header class="article-header">
+    
+    </header>
+</article>
+        
+            
+<article class="">
+    <div class="article-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/tweet/game-encounter/">週末的遊戲陷阱</a>
+            </h2>
+            
+        </div>
+    
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-03-02</time>
+                </div>
+            
+    
+        </footer>
+        
+    
+        
+        <div class="article-content">
+            
+            <p>遊戲會毀掉我的假期。明明我已經做了無數的措施，怎麼還是能發現新的網站呢？</p>
+<p>就算我已經對遊戲提不起興趣，但骨子裏還是個能從早到晚對着電腦玩到頭昏眼花的人，一次遭遇就會把我打回原形。絕對不能輕易觸碰，説起來真的是相當悲哀……</p>
+<p>至少這次碰上的遊戲非常好玩，甚至讓我產生了「學到了什麼」的錯覺。這才像樣嘛，遊戲不能空有讓人沉迷的元素，還有要真正好玩的機制。</p>
+<p>不過無論再怎麼好玩，都和我寫這篇感想一樣，不過是騙自己時間沒有白花而已。</p>
+<ul>
+<li>
+<p><a class="link" href="https://danielben.itch.io/dragonsweeper"  target="_blank" rel="noopener"
+    >Dragonsweeper (itch.io)</a>，在掃雷的基礎上加入血量和等級，讓玩家能符合邏輯地試錯。不再是想不通碰運氣，也不用像掃雷一樣背什麼定式，玩起來很刺激，幾乎是另一個遊戲。</p>
+</li>
+<li>
+<p><a class="link" href="https://alarts.itch.io/die-in-the-dungeon"  target="_blank" rel="noopener"
+    >Die in the dungeon (itch.io)</a>，用收集回來的骰子進行攻擊、防禦和回復。雖然規則很簡單，但巧妙地利用了卡牌遊戲中「手牌太多就會抽不到自己想要的牌」的特點，讓收集和丟棄骰子變得像組建卡組一樣有趣。</p>
+</li>
+</ul>
+
+        </div>
+    </div>
+
+    
+    
+    
+    <header class="article-header">
+    
+    </header>
+</article>
+        
+            
+<article class="">
+    <div class="article-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/tweet/delusions/">幻想</a>
+            </h2>
+            
+        </div>
+    
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2024-03-19</time>
+                </div>
+            
+    
+        </footer>
+        
+    
+        
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <div>
+                    
+                        <a href="https://evthron.github.io/en/tweet/delusions/" class="link">English</a>
+                    
+                        <a href="https://evthron.github.io/tok/tweet/delusions/" class="link">toki pona</a>
+                    
+                </div>
+            </footer>
+        
+        <div class="article-content">
+            
+            <p>一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。</p>
+<p>2024/04/01 00:30
+很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。</p>
+<hr>
+<p>個人的想法是敵不過文化的。無論是好還是壞，跟隨文化傳統的人總是會比沒有跟隨任何文化的人強。</p>
+
+        </div>
+    </div>
+
+    
+    
+    
+    <header class="article-header">
+    
+    </header>
+</article>
         
             
 <article class="">
@@ -523,97 +727,6 @@
 哎呀，這個網站還是不夠吸引人啊。雖然設計還行，但內容和更新頻率才是關鍵。我寫的東西太正經了，雖然自己挺滿意，但別人看了估計會覺得無聊。得讓內容更有趣，更新得更勤快才行。 
 AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試試看吧！ 
 </code></pre><p>居然寫得相當不錯……用 AI 來佔字數這個把戲大家多看幾次也會無聊，還是扔進沙盒裏好了。</p>
-
-        </div>
-    </div>
-
-    
-    
-    
-    <header class="article-header">
-    
-    </header>
-</article>
-        
-            
-<article class="">
-    <div class="article-details">
-        <div class="article-title-wrapper">
-            <h2 class="article-title">
-                <a href="/zh/tweet/personal-relationship-management/">社交管理軟件</a>
-            </h2>
-            
-        </div>
-    
-        
-        
-        
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published">2025-02-14</time>
-                </div>
-            
-    
-        </footer>
-        
-    
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/tweet/personal-relationship-management/" class="link">English</a>
-                    
-                </div>
-            </footer>
-        
-        <div class="article-content">
-            
-            <p><a class="link" href="/zh/skill/right-sider/#keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time" >Never Eat Alone</a> 建議我列個清單，把身邊的人按需要聯絡的頻繁程度分類。我想找有沒有專門負責這個的軟件，就找到了 monica。</p>
-<p><a class="link" href="https://www.monicahq.com/"  target="_blank" rel="noopener"
-    >Monica（官網）</a> 自稱 PRM 軟件，Personal Relationship Management （個人關係管理）。我想 Customer Relationship Management（顧客關係管理）是專門給幹銷售的人管理顧客用的，但一般人拿出相同的架勢管理自己的生活圈子未必沒道理。monica 開源，只要下個 docker image 就可以在本地的電腦使用。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<p><img src="https://www.monicahq.com/img/dashboard.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="example"
-	
-	
->
-</p>
-<p>我用下來，感覺用來提醒我聯絡別人的功能不是很足夠，只是給我發電郵通知的話多半沒用。我需要的標籤和顯示最近聯絡時間的功能不是很顯眼，最顯眼的活動提醒功能反倒可以用其他日曆軟件代替。能用，但應該有更簡單的工具滿足我的需求才對。普通的文字檔才是更好的選擇嗎？</p>
-<p>開發人員正在弄一個叫 <a class="link" href="https://www.monicahq.com/blog/chandler-is-in-beta"  target="_blank" rel="noopener"
-    >Chandler (monicahq.com)</a> 的更新版本，不知道會怎麼樣。</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>docker 是個開發和運行網站的工具，在 Windows 上安裝很麻煩。如果你不懂這些的話，還是在官網註冊試用吧。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 
         </div>
     </div>
@@ -876,170 +989,6 @@ AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試
     </header>
 </article>
         
-            
-<article class="">
-    <div class="article-details">
-        <div class="article-title-wrapper">
-            <h2 class="article-title">
-                <a href="/zh/tweet/productivity-tools/">時間管理工具</a>
-            </h2>
-            
-        </div>
-    
-        
-        
-        
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published">2024-03-19</time>
-                </div>
-            
-    
-        </footer>
-        
-    
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/tweet/productivity-tools/" class="link">English</a>
-                    
-                        <a href="https://evthron.github.io/tok/tweet/productivity-tools/" class="link">toki pona</a>
-                    
-                </div>
-            </footer>
-        
-        <div class="article-content">
-            
-            <p>不工作跑去研究工具是沒有好下場的。不過 Super Productivity 和 ActivityWatch 用起來都不錯。要怎樣運用徹底監控電腦使用時間得到的數據，才能把生活變成數值管理遊戲？不過總之先記錄，其他問題以後再想。</p>
-<hr>
-<p>我想破頭之後總算明白了，我手上的時間管理工具在功課上派不上用場。</p>
-<p>待辦清單適合處理繁瑣的工作，但我通常只有四五份功課，根本不需要特意記下來，每一份又要花幾天才能做完，一定要先拆成一個個簡單的步驟，才能放進待辦清單，但沒做過，又怎麼知道任務能不能拆開？空泛地亂拆又沒有用。</p>
-<p>這樣一來，似乎根本不需要用什麼時間管理工具，埋頭苦幹一天做完就行了。但「埋頭苦幹一天」太嚇人了，結果只會拖着，永遠不會開始。而且，一天做完的作業質量肯定不好。和寫文章一樣，要每過幾天重新看一次，不斷修改才可以。</p>
-<p>靠軟件幫忙安排工作，一邊做一邊分拆任務，把拆開的任務分成很多天處理，每次只做一小部分，減輕內心的恐懼，是最好的做法。但是軟件的排程不會理會截止日期，沒法保證一定能在規定的時間內完成。</p>
-<p>説到底，截止日期這個概念本來就是想當然的產物。如果能明確地預測工作時間的話，就直接用那個時間好了。但工作時間當然是無法預測的，只能設一個過分充裕的期限，讓人變得拖拖拉拉。</p>
-<p>我理想的時間管理工具該有的要素：</p>
-<ul>
-<li>任務隊列，按照緩急輕重和完成的收穫自動安排每日的任務，出現什麼就做什麼，沒得選。</li>
-<li>每項任務都是一個文本檔案，因為無論什麼任務都需要寫工作筆記。</li>
-<li>遇見複雜的任務可以拆開，形成樹狀分支</li>
-<li>任務清單，能觀察自己每個項目的進度，彌補任務隊列把任務拆得亂七八糟，見樹不見林的不足</li>
-</ul>
-<p>有了會很好：</p>
-<ul>
-<li>能自動打開任務需要的檔案，減少切換的麻煩</li>
-<li>遊戲化，在完成任務的時候會「叮」的一下加分。</li>
-<li>能製作記憶卡，混入任務隊列</li>
-<li>時間追蹤，提醒自己不要在同一個任務上花太多時間。</li>
-</ul>
-<p>雖然把一大堆工具合併起來用就能滿足上面的所有要求，但如果還是要奢望有一個萬能的合體機器人的話，就只會走上 emacs 的不歸路。怎麼辦，好像很吸引人……</p>
-<hr>
-<p>又不小心研究了一會 emacs，因為 orgdown 的語法好像比 markdown 好。練習快捷鍵除了輸入的時候比較爽快沒有什麼意義。我很滿意 vim。過早的優化是萬惡之源。有些人連盲打都不會呢，照樣能寫出好的程序。</p>
-
-        </div>
-    </div>
-
-    
-    
-    
-    <header class="article-header">
-    
-    </header>
-</article>
-        
-            
-<article class="">
-    <div class="article-details">
-        <div class="article-title-wrapper">
-            <h2 class="article-title">
-                <a href="/zh/tweet/hard-to-ask-for-help/">求助很困難</a>
-            </h2>
-            
-        </div>
-    
-        
-        
-        
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published">2024-12-28</time>
-                </div>
-            
-    
-        </footer>
-        
-    
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/tweet/hard-to-ask-for-help/" class="link">English</a>
-                    
-                </div>
-            </footer>
-        
-        <div class="article-content">
-            
-            <p>請教其他人是很困難的事。自己在時間充足的時候沒有尋求協助，貪圖眼前的安逸，把問題放着不管，直到無可奈何的時候才醒覺自己沒有辦法解決問題，拉下臉找人幫忙。比起面對這種羞愧的感覺，還不如自暴自棄。</p>
-<p>深入思考一下，為什麼尋求幫助是這麼困難的事呢？是缺乏信任嗎？既然沒有網絡搜尋解決不了的問題，普通的發問又有什麼意義呢？比起承認自己的無知，直接在網上找答案不是更輕鬆嗎？仰賴互聯網解決問題，就喪失了在解決小問題的時候培養信任的機會。不過我也不知道在不能上網的時候，人們是怎麼交流的。説不定還是一樣。</p>
-<p>在自己準備充足的時候請求幫助沒什麼大不了，只是提出對方有能力處理的請求，得到預想之中的答案而已。這些請求並不是內心真正的擔憂，即使被拒絕了也無關緊要。既然請求的時候沒有相信對方，就算對方真心地提供了協助，也沒辦法培養信任。</p>
-<p>是我不夠害怕嗎？真的遇到感覺自己就要死的危機的時候，我本能地會抓住一切能用的幫助，連想都不用想一下。社會的危機太抽象了，沒法激起人的本能反應嗎？</p>
-<p>是我根本不相信別人的幫助對自己會有用嗎？畢竟所謂的合作往往是一個人獨自解決問題之後分享解決方案，真正一起合作解決問題的經歷實在很罕見，我也只有在解決數學題目的時候經歷過一次而已。</p>
-<p>但是反過來，如果有人找我幫忙的話，我總能馬上行動起來。有時可能會覺得驚喜，有時可能會覺得有點厭煩，但能讓我動起來總是好事。</p>
-
-        </div>
-    </div>
-
-    
-    
-    
-    <header class="article-header">
-    
-    </header>
-</article>
-        
     </section>
 <nav class='pagination'>
     
@@ -1060,6 +1009,12 @@ AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試
     
         
         <a class='page-link' href='/zh/tweet/page/3/'>3</a>
+        
+
+    
+    
+        
+        <a class='page-link' href='/zh/tweet/page/4/'>4</a>
         
 
     

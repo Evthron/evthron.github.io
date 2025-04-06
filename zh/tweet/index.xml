@@ -6,7 +6,31 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Wed, 26 Mar 2025 11:01:31 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Apr 2025 11:56:33 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>比起發消息，我更喜歡打電話。大概吧</title>
+        <link>https://evthron.github.io/zh/tweet/phone-vs-text/</link>
+        <pubDate>Thu, 03 Apr 2025 11:56:33 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/phone-vs-text/</guid>
+        <description>&lt;p&gt;和一般人的喜好不一樣，我很害怕收到訊息，但不害怕聽電話。&lt;/p&gt;
+&lt;p&gt;如果電話鈴聲會讓手機變成一個馬上要拆掉的炸彈，那麼短信鈴聲就會讓手機變成一個可以暫時放著不拆的炸彈。後者聽起來很好，但明顯更加恐怖。&lt;/p&gt;
+&lt;p&gt;雖然我打電話或者接電話前也會很緊張，但我很喜歡一按下按鈕就能自然而然地說話，一掛掉就無事一身輕的感覺。就算沒有人接聽也不會有任何不快。&lt;/p&gt;
+&lt;p&gt;可能是因為現在的社會不再可能會有人打電話騷擾我，我才會這樣想吧。反正時代也回不去了，我也不會知道如果所有人都打電話找我的話，我會有什麼感覺。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>在網上説話像寫作文但是改不掉</title>
+        <link>https://evthron.github.io/zh/tweet/text-like-a-outsider/</link>
+        <pubDate>Thu, 03 Apr 2025 10:52:45 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/text-like-a-outsider/</guid>
+        <description>&lt;p&gt;雖然我自有記憶以來就一直在上網，卻一點都不習慣用網絡語言。在這個語言混雜的地方，用寫作文一樣的中文聊天會顯得相當奇怪。&lt;/p&gt;
+&lt;p&gt;過了這麼久我才發現，在這個網絡時代，不會按照聊天對象和潮流調整文字風格，就跟語言不通差不多。要模仿應該不難，但最過不去的一關是我的語言潔癖。&lt;/p&gt;
+&lt;p&gt;我一直有一種在排斥外界的說話方法的逆反心態。「學習別人的用語」成了 How to talk to anyone 當中我唯一無法實踐的技巧。語言風格對不上的話，聊天的感覺非常不自在。&lt;/p&gt;
+&lt;p&gt;這該怎麼辦呢。説到底，我把「説自認為正確的話」比「配合大家的説話方式」看得更重要。這種價值觀不改變，我就無法習慣在網上説話。感覺相當根深蒂固。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Speech Note</title>
         <link>https://evthron.github.io/zh/tweet/voice-input/</link>
         <pubDate>Wed, 26 Mar 2025 11:01:31 +0800</pubDate>
@@ -117,11 +141,14 @@
 &lt;p&gt;我用下來，感覺用來提醒我聯絡別人的功能不是很足夠，只是給我發電郵通知的話多半沒用。我需要的標籤和顯示最近聯絡時間的功能不是很顯眼，最顯眼的活動提醒功能反倒可以用其他日曆軟件代替。能用，但應該有更簡單的工具滿足我的需求才對。普通的文字檔才是更好的選擇嗎？&lt;/p&gt;
 &lt;p&gt;開發人員正在弄一個叫 &lt;a class=&#34;link&#34; href=&#34;https://www.monicahq.com/blog/chandler-is-in-beta&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Chandler (monicahq.com)&lt;/a&gt; 的更新版本，不知道會怎麼樣。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;有用的關係並不需要花大量的時間維繫，只要有固定的聯絡頻率，和真正想和別人交流的心就可以了。但我就是缺少這樣的心。沒有工具能鼓勵我做這件事，至少記錄下來應該是有點用的。&lt;/p&gt;
+&lt;p&gt;實際上，我現在真正在用的軟件是 Track &amp;amp; Graph。雖然不是專門做這個的，卻很方便。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;docker 是個開發和運行網站的工具，在 Windows 上安裝很麻煩。如果你不懂這些的話，還是在官網註冊試用吧。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;docker 是個開發和運行網站的工具。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;

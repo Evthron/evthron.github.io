@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Epipolar Geometry 可視化</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dat.gui@0.7.7/build/dat.gui.min.js"></script>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        #info {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            color: white;
+            padding: 10px;
+            font-family: Arial;
+            background: rgba(0,0,0,0.5);
+        }
+        #math {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: white;
+            padding: 10px;
+            font-family: Arial;
+            background: rgba(0,0,0,0.7);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+        <h2>3D 極平面(Epipolar Plane) 可視化</h2>
+        <p>1. 拖動3D點(P)觀察極平面變化 | 2. 紅色/藍色線為極線 | 3. e/e' 是極點</p>
+    </div>
+    <div id="math">
+        <h3>數學符號說明：</h3>
+        <p>• O<sub>1</sub>, O<sub>2</sub>: 相機中心</p>
+        <p>• P: 3D空間點 (可拖動)</p>
+        <p>• p<sub>1</sub>, p<sub>2</sub>: P的投影點</p>
+        <p>• e<sub>1</sub>, e<sub>2</sub>: 極點 (Epipoles)</p>
+        <p>• l<sub>1</sub>, l<sub>2</sub>: 極線 (Epipolar Lines)</p>
+        <p>• π: 極平面 (Epipolar Plane)</p>
+        <p>• 本質約束: p<sub>2</sub><sup>T</sup> E p<sub>1</sub> = 0</p>
+    </div>
+    <script>
+        
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        
+        camera.position.set(0, 0, 5);
+        camera.lookAt(0, 0, 0);
+
+        
+        const axesHelper = new THREE.AxesHelper(2);
+        scene.add(axesHelper);
+
+        
+        const cameraGeometry = new THREE.BoxGeometry(0.2, 0.2, 0.2);
+        const cameraMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        const camera1 = new THREE.Mesh(cameraGeometry, cameraMaterial);
+        const camera2 = new THREE.Mesh(cameraGeometry, cameraMaterial);
+        camera1.position.set(-1, 0, 0);
+        camera2.position.set(1, 0, 0);
+        scene.add(camera1);
+        scene.add(camera2);
+
+        
+        const labelCamera1 = createTextLabel("O₁ (相機1)");
+        const labelCamera2 = createTextLabel("O₂ (相機2)");
+        positionLabel(labelCamera1, camera1.position);
+        positionLabel(labelCamera2, camera2.position);
+
+        
+        const pointGeometry = new THREE.SphereGeometry(0.05, 16, 16);
+        const pointMaterial = new THREE.MeshBasicMaterial({ color: 0xffff00 });
+        const point = new THREE.Mesh(pointGeometry, pointMaterial);
+        point.position.set(0, 1, 1);
+        scene.add(point);
+        const labelPoint = createTextLabel("P (3D點)");
+        positionLabel(labelPoint, point.position);
+
+        
+        const projGeometry = new THREE.SphereGeometry(0.04, 16, 16);
+        const projMaterial1 = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+        const projMaterial2 = new THREE.MeshBasicMaterial({ color: 0x0000ff });
+        const proj1 = new THREE.Mesh(projGeometry, projMaterial1);
+        const proj2 = new THREE.Mesh(projGeometry, projMaterial2);
+        scene.add(proj1);
+        scene.add(proj2);
+        const labelProj1 = createTextLabel("p₁");
+        const labelProj2 = createTextLabel("p₂");
+        
+        
+        const epipoleGeometry = new THREE.SphereGeometry(0.06, 16, 16);
+        const epipoleMaterial1 = new THREE.MeshBasicMaterial({ color: 0xff00ff });
+        const epipoleMaterial2 = new THREE.MeshBasicMaterial({ color: 0x00ffff });
+        const epipole1 = new THREE.Mesh(epipoleGeometry, epipoleMaterial1);
+        const epipole2 = new THREE.Mesh(epipoleGeometry, epipoleMaterial2);
+        scene.add(epipole1);
+        scene.add(epipole2);
+        const labelEpipole1 = createTextLabel("e₂");
+        const labelEpipole2 = createTextLabel("e₁");
+
+        
+        const lineMaterial = new THREE.LineBasicMaterial({ color: 0xff0000 });
+        const lineMaterial2 = new THREE.LineBasicMaterial({ color: 0x0000ff });
+        let epipolarLine1, epipolarLine2;
+
+        
+        const planeGeometry = new THREE.PlaneGeometry(4, 4);
+        const planeMaterial = new THREE.MeshBasicMaterial({ 
+            color: 0x00ff00, 
+            side: THREE.DoubleSide,
+            transparent: true,
+            opacity: 0.3
+        });
+        const epipolarPlane = new THREE.Mesh(planeGeometry, planeMaterial);
+        scene.add(epipolarPlane);
+
+        
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        let isDragging = false;
+
+        function onMouseMove(event) {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+            
+            if (isDragging) {
+                raycaster.setFromCamera(mouse, camera);
+                const intersects = raycaster.intersectObject(epipolarPlane);
+                if (intersects.length > 0) {
+                    point.position.copy(intersects[0].point);
+                    updateGeometry();
+                }
+            }
+        }
+
+        function onMouseDown() {
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObject(point);
+            if (intersects.length > 0) {
+                isDragging = true;
+            }
+        }
+
+        function onMouseUp() {
+            isDragging = false;
+        }
+
+        window.addEventListener('mousemove', onMouseMove, false);
+        window.addEventListener('mousedown', onMouseDown, false);
+        window.addEventListener('mouseup', onMouseUp, false);
+
+        
+        function updateGeometry() {
+            
+            proj1.position.set(
+                point.position.x,
+                point.position.y,
+                camera1.position.z
+            );
+            proj2.position.set(
+                point.position.x,
+                point.position.y,
+                camera2.position.z
+            );
+            
+            
+            epipole1.position.set(
+                camera2.position.x,
+                camera2.position.y,
+                camera1.position.z
+            );
+            epipole2.position.set(
+                camera1.position.x,
+                camera1.position.y,
+                camera2.position.z
+            );
+            
+            
+            const planeNormal = new THREE.Vector3()
+                .subVectors(camera1.position, camera2.position)
+                .cross(new THREE.Vector3().subVectors(point.position, camera2.position))
+                .normalize();
+            
+            const plane = new THREE.Plane().setFromNormalAndCoplanarPoint(
+                planeNormal,
+                camera1.position
+            );
+            
+            epipolarPlane.position.copy(camera1.position);
+            epipolarPlane.lookAt(
+                epipolarPlane.position.x + planeNormal.x,
+                epipolarPlane.position.y + planeNormal.y,
+                epipolarPlane.position.z + planeNormal.z
+            );
+            
+            
+            if (epipolarLine1) scene.remove(epipolarLine1);
+            if (epipolarLine2) scene.remove(epipolarLine2);
+            
+            const linePoints1 = [
+                new THREE.Vector3(epipole1.position.x - 2, epipole1.position.y, epipole1.position.z),
+                new THREE.Vector3(epipole1.position.x + 2, epipole1.position.y, epipole1.position.z)
+            ];
+            const lineGeometry1 = new THREE.BufferGeometry().setFromPoints(linePoints1);
+            epipolarLine1 = new THREE.Line(lineGeometry1, lineMaterial);
+            scene.add(epipolarLine1);
+            
+            const linePoints2 = [
+                new THREE.Vector3(epipole2.position.x - 2, epipole2.position.y, epipole2.position.z),
+                new THREE.Vector3(epipole2.position.x + 2, epipole2.position.y, epipole2.position.z)
+            ];
+            const lineGeometry2 = new THREE.BufferGeometry().setFromPoints(linePoints2);
+            epipolarLine2 = new THREE.Line(lineGeometry2, lineMaterial2);
+            scene.add(epipolarLine2);
+            
+            
+            positionLabel(labelPoint, point.position);
+            positionLabel(labelProj1, proj1.position);
+            positionLabel(labelProj2, proj2.position);
+            positionLabel(labelEpipole1, epipole1.position);
+            positionLabel(labelEpipole2, epipole2.position);
+        }
+
+        
+        function createTextLabel(text) {
+            const label = document.createElement('div');
+            label.textContent = text;
+            label.style.position = 'absolute';
+            label.style.color = 'white';
+            label.style.fontFamily = 'Arial';
+            label.style.fontSize = '14px';
+            label.style.pointerEvents = 'none';
+            document.body.appendChild(label);
+            return label;
+        }
+
+        
+        function positionLabel(label, position) {
+            const vector = position.clone().project(camera);
+            label.style.left = `${(vector.x * 0.5 + 0.5) * window.innerWidth}px`;
+            label.style.top = `${(-vector.y * 0.5 + 0.5) * window.innerHeight}px`;
+        }
+
+        
+        updateGeometry();
+
+        
+        function animate() {
+            requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    </script>
+</body>
+</html>
