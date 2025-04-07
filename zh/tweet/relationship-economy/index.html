@@ -2,29 +2,35 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。
-既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？
-但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='用 Getting Relationships Right 裏面的説法，人和人會感覺親近的因素可以分成七大類：
+Physical，身體接觸，例如擁抱，和身處相同的空間 Emotional，對事情產生相同的情感 Intellectual，有相似的知識範疇 Psychological，有相似的精神狀態和行為模式，大概是年齡、談吐和思考模式。 Philosophical，有相似的道德和價值觀判斷 Practial，能互相幫忙，能用金錢交易衡量的關係都屬於這一類 Romantic，獨佔的感覺 Sexual，異性相吸，外貌 這麼多裏面，只有 Pratical Connection 不依賴於人的心理，是能用金錢衡量的。因為能化為具體的數字，所以誕生的複雜的經濟學理論。
+因為「幫忙」是用實際的行動和物件體現的，和人心無關。所以錢能夠解決 Double Coincidence of Wants 的問題，不成功的交易能找第三者做橋樑。其他雖然同樣是交易，就不能這樣了。這種「交易」必須是兩方都需要的，當場同時交換。例如我現在很高興，就要找一個同樣會感到高興的人分享情緒。因為只有兩個人，沒有市場，所以這種聯繫，或者説人情債，也不能定個準確的價錢。
+每個人需要的聯繫因素是不一樣的，每個人都有自己特別看重的因素。這樣就產生了不平衡。我需要的聯繫，別人未必能提供。
+我越是追求獨立，越是不需要外界的事物，我能提供給外界的就越少。就像如果我不需要錢，就無法提供錢給別人。同樣，如果我對大家喜歡的東西沒興趣，自然無法在這些方面建立興趣相同的聯繫。我放棄了對遊戲的需求，別人想跟我聊遊戲時我就搭不上話。這不是壞事，但我放棄了與朋友最簡單的聯繫。可我還沒找到新的聯繫方法，沒有別的追求，所以會變得很迷惘。
 '>
-        <title>JavaScript 新手 | Evthron&#39;s blog</title>
+        <title>關係經濟學 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/new-to-javascript/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/tweet/relationship-economy/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='JavaScript 新手'>
-<meta property='og:description' content='最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。
-既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？
-但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。
+        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='關係經濟學'>
+<meta property='og:description' content='用 Getting Relationships Right 裏面的説法，人和人會感覺親近的因素可以分成七大類：
+Physical，身體接觸，例如擁抱，和身處相同的空間 Emotional，對事情產生相同的情感 Intellectual，有相似的知識範疇 Psychological，有相似的精神狀態和行為模式，大概是年齡、談吐和思考模式。 Philosophical，有相似的道德和價值觀判斷 Practial，能互相幫忙，能用金錢交易衡量的關係都屬於這一類 Romantic，獨佔的感覺 Sexual，異性相吸，外貌 這麼多裏面，只有 Pratical Connection 不依賴於人的心理，是能用金錢衡量的。因為能化為具體的數字，所以誕生的複雜的經濟學理論。
+因為「幫忙」是用實際的行動和物件體現的，和人心無關。所以錢能夠解決 Double Coincidence of Wants 的問題，不成功的交易能找第三者做橋樑。其他雖然同樣是交易，就不能這樣了。這種「交易」必須是兩方都需要的，當場同時交換。例如我現在很高興，就要找一個同樣會感到高興的人分享情緒。因為只有兩個人，沒有市場，所以這種聯繫，或者説人情債，也不能定個準確的價錢。
+每個人需要的聯繫因素是不一樣的，每個人都有自己特別看重的因素。這樣就產生了不平衡。我需要的聯繫，別人未必能提供。
+我越是追求獨立，越是不需要外界的事物，我能提供給外界的就越少。就像如果我不需要錢，就無法提供錢給別人。同樣，如果我對大家喜歡的東西沒興趣，自然無法在這些方面建立興趣相同的聯繫。我放棄了對遊戲的需求，別人想跟我聊遊戲時我就搭不上話。這不是壞事，但我放棄了與朋友最簡單的聯繫。可我還沒找到新的聯繫方法，沒有別的追求，所以會變得很迷惘。
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/new-to-javascript/'>
+<meta property='og:url' content='https://evthron.github.io/zh/tweet/relationship-economy/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='software' /><meta property='article:published_time' content='2024-06-19T19:48:42&#43;08:00'/><meta property='article:modified_time' content='2024-06-26T02:39:50&#43;08:00'/>
-<meta name="twitter:title" content="JavaScript 新手">
-<meta name="twitter:description" content="最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。
-既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？
-但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。
+<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:published_time' content='2025-04-07T20:08:36&#43;08:00'/><meta property='article:modified_time' content='2025-04-07T20:21:37&#43;08:00'/>
+<meta name="twitter:title" content="關係經濟學">
+<meta name="twitter:description" content="用 Getting Relationships Right 裏面的説法，人和人會感覺親近的因素可以分成七大類：
+Physical，身體接觸，例如擁抱，和身處相同的空間 Emotional，對事情產生相同的情感 Intellectual，有相似的知識範疇 Psychological，有相似的精神狀態和行為模式，大概是年齡、談吐和思考模式。 Philosophical，有相似的道德和價值觀判斷 Practial，能互相幫忙，能用金錢交易衡量的關係都屬於這一類 Romantic，獨佔的感覺 Sexual，異性相吸，外貌 這麼多裏面，只有 Pratical Connection 不依賴於人的心理，是能用金錢衡量的。因為能化為具體的數字，所以誕生的複雜的經濟學理論。
+因為「幫忙」是用實際的行動和物件體現的，和人心無關。所以錢能夠解決 Double Coincidence of Wants 的問題，不成功的交易能找第三者做橋樑。其他雖然同樣是交易，就不能這樣了。這種「交易」必須是兩方都需要的，當場同時交換。例如我現在很高興，就要找一個同樣會感到高興的人分享情緒。因為只有兩個人，沒有市場，所以這種聯繫，或者説人情債，也不能定個準確的價錢。
+每個人需要的聯繫因素是不一樣的，每個人都有自己特別看重的因素。這樣就產生了不平衡。我需要的聯繫，別人未必能提供。
+我越是追求獨立，越是不需要外界的事物，我能提供給外界的就越少。就像如果我不需要錢，就無法提供錢給別人。同樣，如果我對大家喜歡的東西沒興趣，自然無法在這些方面建立興趣相同的聯繫。我放棄了對遊戲的需求，別人想跟我聊遊戲時我就搭不上話。這不是壞事，但我放棄了與朋友最簡單的聯繫。可我還沒找到新的聯繫方法，沒有別的追求，所以會變得很迷惘。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -260,27 +266,6 @@
         
 
         <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                    
-                            <option value="https://evthron.github.io/zh/tweet/new-to-javascript/" selected>中文</option>
-                    
-                            <option value="https://evthron.github.io/en/tweet/new-to-javascript/" >English</option>
-                    
-				    </select>
-                </li>
-            
 
             
                 <li id="dark-mode-toggle">
@@ -330,7 +315,7 @@
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/new-to-javascript/">JavaScript 新手</a>
+                <a href="/zh/tweet/relationship-economy/">關係經濟學</a>
             </h2>
         
             
@@ -352,7 +337,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2024-06-19</time>
+                    <time class="article-time--published">2025-04-07</time>
                 </div>
             
     
@@ -360,25 +345,6 @@
         </footer>
         
     
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/tweet/new-to-javascript/" class="link">English</a>
-                    
-                </div>
-            </footer>
         
     </div>
     
@@ -388,9 +354,21 @@
     <section class="article-content">
         
         
-        <p>最近，我和同學在玩血染鐘樓，用的是很方便的網頁版。流程很簡單，主持人建好房間，其他人加入進去。主持人要給玩家發送各種信息，玩家也可以投票。但是玩起來卻有些不方便，很多要獨立發送的訊息發不出去，只能由主持人一個個發訊息，使得遊戲很拖。既然主持可以各自安排玩家的身份，玩家也可以投票回應，為什麼主持人不能在遊戲裏面和玩家互動呢？想必只是開發人員的沒有做出來這個功能而已。</p>
-<p>既然是開源的，我就可以修改。網頁遊戲用的程序應該是 JavaScript，雖然我沒有學過，但是在我自己的網站模板裏是用過的，所以會讀一點。反正又不是我自己重頭做起，只要稍作修改然後上載到我自己的網站不就可以了嗎？</p>
-<p>但是做起來可沒這麼簡單。程序在我的電腦上根本運行不起來，似乎是因為程序是用 Vue 2 寫的，而我安裝的是新版的 Vue 3。 Vue是個比 JavaScript 複雜一點的 JavaScript Framework，光讀源代碼讀不懂。想起之前讀過的一個明明超級簡單的 Flask 程序，楞是運作不起來，就是因為版本太舊的緣故。這麼一來就得學習 npm 的版本管理和程式庫依賴的問題，處理這些對我一點好處都沒有。唉，還是得老實從頭學起。</p>
+        <p>用 Getting Relationships Right 裏面的説法，人和人會感覺親近的因素可以分成七大類：</p>
+<ol>
+<li>Physical，身體接觸，例如擁抱，和身處相同的空間</li>
+<li>Emotional，對事情產生相同的情感</li>
+<li>Intellectual，有相似的知識範疇</li>
+<li>Psychological，有相似的精神狀態和行為模式，大概是年齡、談吐和思考模式。</li>
+<li>Philosophical，有相似的道德和價值觀判斷</li>
+<li>Practial，能互相幫忙，能用金錢交易衡量的關係都屬於這一類</li>
+<li>Romantic，獨佔的感覺</li>
+<li>Sexual，異性相吸，外貌</li>
+</ol>
+<p>這麼多裏面，只有 Pratical Connection 不依賴於人的心理，是能用金錢衡量的。因為能化為具體的數字，所以誕生的複雜的經濟學理論。</p>
+<p>因為「幫忙」是用實際的行動和物件體現的，和人心無關。所以錢能夠解決 Double Coincidence of Wants 的問題，不成功的交易能找第三者做橋樑。其他雖然同樣是交易，就不能這樣了。這種「交易」必須是兩方都需要的，當場同時交換。例如我現在很高興，就要找一個同樣會感到高興的人分享情緒。因為只有兩個人，沒有市場，所以這種聯繫，或者説人情債，也不能定個準確的價錢。</p>
+<p>每個人需要的聯繫因素是不一樣的，每個人都有自己特別看重的因素。這樣就產生了不平衡。我需要的聯繫，別人未必能提供。</p>
+<p>我越是追求獨立，越是不需要外界的事物，我能提供給外界的就越少。就像如果我不需要錢，就無法提供錢給別人。同樣，如果我對大家喜歡的東西沒興趣，自然無法在這些方面建立興趣相同的聯繫。我放棄了對遊戲的需求，別人想跟我聊遊戲時我就搭不上話。這不是壞事，但我放棄了與朋友最簡單的聯繫。可我還沒找到新的聯繫方法，沒有別的追求，所以會變得很迷惘。</p>
 
     </section>
 
@@ -398,12 +376,6 @@
     <footer class="article-footer">
 
         
-        
-        <section class="article-tags">
-            
-                <a href="/zh/tags/software/">Software</a>
-            
-        </section>
          
 
         <section class="article-lastmod">
@@ -416,7 +388,7 @@
 
 
             <span>
-                最後更新 2024-06-26 02:39 &#43;08:00
+                最後更新 2025-04-07 20:21 &#43;08:00
             </span>
         </section></footer>
     
@@ -452,80 +424,6 @@
 
     
     
-    
-    <aside class="related-content--wrapper">
-        <h2 class="section-title">相關文章</h2>
-        <div class="related-content">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="/zh/tweet/easier-publish/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">改進發佈流程</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/tweet/joplin-vim-mode/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Joplin Vim Mode</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/tweet/search-count/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">搜尋次數</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/tweet/productivity-tools/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">時間管理工具</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/profile/toolbox/say-goodbye-to-internet/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">如何告別互聯網</h2>
-        </div>
-    </a>
-</article>
-
-                
-            </div>
-        </div>
-    </aside>
      
 
     
