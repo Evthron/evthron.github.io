@@ -2,29 +2,44 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。
-只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。
-要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C&#43;&#43;，Python 本身是做不到的。 how to make gui in python without tools (stackoverflow) 用網站做 UI 最簡單……
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='拖延的根源並不是互聯網和遊戲。刪光遊戲、斷開網絡之後，只是從沉迷娛樂變成什麼都不做而已。
+我真正缺乏的是內在的動力。我想做的事情似乎都已經完成了，剩下的那些應該做的事，做不到似乎也無所謂。難道我對生活已經失去期望了嗎？
+回想過去，能讓我能撐過大大小小的截止日期的動力源頭，不只是外界壓力和求知欲，這些只是表象而已。真正的原因，是為了滿足我對於「上進」的自我認可，為了證明我不是個會坐以待斃的人。
+其實我比我自己想象中，更需要別人的認可，但我很少主動爭取。畢竟，比起冒險面對其他人的否定，先讓自己認可自己不是個更加正確的選擇嗎？
+這也是我寫博客的動機之一。就算沒有人讀，放在網站上的文章也是有價值的，這讓我更能認可自己。樂觀一點，説不定其他人讀了也會認同我的想法。
+但閉門造車的結果，就是學習偏離了方向。同樣是寫程序，我能沉迷一整天寫我自己用的腳本，卻沒有動力學習工作需要用的語言。
+這種自我認可本來是能給予我自信的，但到了現在要找工作的時候，面對外界真正的需求，這種自我認可突然就變得一文不值了。
+沒有人認可就沒有提升的動力，沒有提升的動力就沒有人認可。要逃出這個怪圈，我要盡力向身邊的人展示自己，還有按照外界的實際需要提升自己的能力，藉此認可自己。感覺依然是做不到的事，但至少我現在多看清了自己一點。
 '>
-        <title>從 CLI 到 GUI | Evthron&#39;s blog</title>
+        <title>真不想承認，認可才是我想要的動力 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/from-cli-to-gui/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/posts/validation-motivation/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='從 CLI 到 GUI'>
-<meta property='og:description' content='如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。
-只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。
-要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C&#43;&#43;，Python 本身是做不到的。 how to make gui in python without tools (stackoverflow) 用網站做 UI 最簡單……
+        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='真不想承認，認可才是我想要的動力'>
+<meta property='og:description' content='拖延的根源並不是互聯網和遊戲。刪光遊戲、斷開網絡之後，只是從沉迷娛樂變成什麼都不做而已。
+我真正缺乏的是內在的動力。我想做的事情似乎都已經完成了，剩下的那些應該做的事，做不到似乎也無所謂。難道我對生活已經失去期望了嗎？
+回想過去，能讓我能撐過大大小小的截止日期的動力源頭，不只是外界壓力和求知欲，這些只是表象而已。真正的原因，是為了滿足我對於「上進」的自我認可，為了證明我不是個會坐以待斃的人。
+其實我比我自己想象中，更需要別人的認可，但我很少主動爭取。畢竟，比起冒險面對其他人的否定，先讓自己認可自己不是個更加正確的選擇嗎？
+這也是我寫博客的動機之一。就算沒有人讀，放在網站上的文章也是有價值的，這讓我更能認可自己。樂觀一點，説不定其他人讀了也會認同我的想法。
+但閉門造車的結果，就是學習偏離了方向。同樣是寫程序，我能沉迷一整天寫我自己用的腳本，卻沒有動力學習工作需要用的語言。
+這種自我認可本來是能給予我自信的，但到了現在要找工作的時候，面對外界真正的需求，這種自我認可突然就變得一文不值了。
+沒有人認可就沒有提升的動力，沒有提升的動力就沒有人認可。要逃出這個怪圈，我要盡力向身邊的人展示自己，還有按照外界的實際需要提升自己的能力，藉此認可自己。感覺依然是做不到的事，但至少我現在多看清了自己一點。
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/from-cli-to-gui/'>
+<meta property='og:url' content='https://evthron.github.io/zh/posts/validation-motivation/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2025-01-18T02:00:14&#43;08:00'/><meta property='article:modified_time' content='2025-01-23T00:06:10&#43;08:00'/>
-<meta name="twitter:title" content="從 CLI 到 GUI">
-<meta name="twitter:description" content="如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。
-只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。
-要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C&#43;&#43;，Python 本身是做不到的。 how to make gui in python without tools (stackoverflow) 用網站做 UI 最簡單……
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2025-04-07T19:36:57&#43;08:00'/><meta property='article:modified_time' content='2025-04-07T19:43:45&#43;08:00'/>
+<meta name="twitter:title" content="真不想承認，認可才是我想要的動力">
+<meta name="twitter:description" content="拖延的根源並不是互聯網和遊戲。刪光遊戲、斷開網絡之後，只是從沉迷娛樂變成什麼都不做而已。
+我真正缺乏的是內在的動力。我想做的事情似乎都已經完成了，剩下的那些應該做的事，做不到似乎也無所謂。難道我對生活已經失去期望了嗎？
+回想過去，能讓我能撐過大大小小的截止日期的動力源頭，不只是外界壓力和求知欲，這些只是表象而已。真正的原因，是為了滿足我對於「上進」的自我認可，為了證明我不是個會坐以待斃的人。
+其實我比我自己想象中，更需要別人的認可，但我很少主動爭取。畢竟，比起冒險面對其他人的否定，先讓自己認可自己不是個更加正確的選擇嗎？
+這也是我寫博客的動機之一。就算沒有人讀，放在網站上的文章也是有價值的，這讓我更能認可自己。樂觀一點，説不定其他人讀了也會認同我的想法。
+但閉門造車的結果，就是學習偏離了方向。同樣是寫程序，我能沉迷一整天寫我自己用的腳本，卻沒有動力學習工作需要用的語言。
+這種自我認可本來是能給予我自信的，但到了現在要找工作的時候，面對外界真正的需求，這種自我認可突然就變得一文不值了。
+沒有人認可就沒有提升的動力，沒有提升的動力就沒有人認可。要逃出這個怪圈，我要盡力向身邊的人展示自己，還有按照外界的實際需要提升自己的能力，藉此認可自己。感覺依然是做不到的事，但至少我現在多看清了自己一點。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -189,7 +204,7 @@
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/posts/' >
                 
                 
@@ -209,7 +224,7 @@
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/zh/tweet/' >
                 
                 
@@ -300,8 +315,8 @@
         <header class="article-category">
             
                 
-                <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                    tweet
+                <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
+                    posts
                 </a>
             
         </header>
@@ -309,7 +324,7 @@
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/from-cli-to-gui/">從 CLI 到 GUI</a>
+                <a href="/zh/posts/validation-motivation/">真不想承認，認可才是我想要的動力</a>
             </h2>
         
             
@@ -331,7 +346,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2025-01-18</time>
+                    <time class="article-time--published">2025-04-07</time>
                 </div>
             
     
@@ -348,13 +363,14 @@
     <section class="article-content">
         
         
-        <p>如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。</p>
-<p>只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。</p>
-<hr>
-<p>要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C++，Python 本身是做不到的。
-<a class="link" href="https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli"  target="_blank" rel="noopener"
-    >how to make gui in python without tools (stackoverflow)</a>
-用網站做 UI 最簡單……</p>
+        <p>拖延的根源並不是互聯網和遊戲。刪光遊戲、斷開網絡之後，只是從沉迷娛樂變成什麼都不做而已。</p>
+<p>我真正缺乏的是內在的動力。我想做的事情似乎都已經完成了，剩下的那些應該做的事，做不到似乎也無所謂。難道我對生活已經失去期望了嗎？</p>
+<p>回想過去，能讓我能撐過大大小小的截止日期的動力源頭，不只是外界壓力和求知欲，這些只是表象而已。真正的原因，是為了滿足我對於「上進」的自我認可，為了證明我不是個會坐以待斃的人。</p>
+<p>其實我比我自己想象中，更需要別人的認可，但我很少主動爭取。畢竟，比起冒險面對其他人的否定，先讓自己認可自己不是個更加正確的選擇嗎？</p>
+<p>這也是我寫博客的動機之一。就算沒有人讀，放在網站上的文章也是有價值的，這讓我更能認可自己。樂觀一點，説不定其他人讀了也會認同我的想法。</p>
+<p>但閉門造車的結果，就是學習偏離了方向。同樣是寫程序，我能沉迷一整天寫我自己用的腳本，卻沒有動力學習工作需要用的語言。</p>
+<p>這種自我認可本來是能給予我自信的，但到了現在要找工作的時候，面對外界真正的需求，這種自我認可突然就變得一文不值了。</p>
+<p>沒有人認可就沒有提升的動力，沒有提升的動力就沒有人認可。要逃出這個怪圈，我要盡力向身邊的人展示自己，還有按照外界的實際需要提升自己的能力，藉此認可自己。感覺依然是做不到的事，但至少我現在多看清了自己一點。</p>
 
     </section>
 
@@ -362,12 +378,6 @@
     <footer class="article-footer">
 
         
-        
-        <section class="article-tags">
-            
-                <a href="/zh/tags/coding/">Coding</a>
-            
-        </section>
          
 
         <section class="article-lastmod">
@@ -380,7 +390,7 @@
 
 
             <span>
-                最後更新 2025-01-23 00:06 &#43;08:00
+                最後更新 2025-04-07 19:43 &#43;08:00
             </span>
         </section></footer>
     
@@ -416,80 +426,6 @@
 
     
     
-    
-    <aside class="related-content--wrapper">
-        <h2 class="section-title">相關文章</h2>
-        <div class="related-content">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="/zh/tweet/sqlite-anki/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Anki SQLite</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/toolbox/upload-workflow/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">文章發佈流程</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/profile/toolbox/upload-workflow/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">文章發佈流程</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/toolbox/taskwarrior-hooks/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">定製 Taskwarrior</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/profile/toolbox/taskwarrior-hooks/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">定製 Taskwarrior</h2>
-        </div>
-    </a>
-</article>
-
-                
-            </div>
-        </div>
-    </aside>
      
 
     
