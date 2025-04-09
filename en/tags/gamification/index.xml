@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Evthron&#39;s blog en</title>
+        <link>https://evthron.github.io/en/tags/gamification/</link>
+        <description>Recent content on Evthron&#39;s blog en</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Tue, 27 Aug 2024 12:25:35 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/gamification/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Gamify my life</title>
+        <link>https://evthron.github.io/en/posts/skill-gamification/</link>
+        <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/posts/skill-gamification/</guid>
+        <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
+&lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. My avatar is at level 88.  I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
+&lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design play and may defeat the purpose of gamification, which is to motivate myself. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
+&lt;p&gt;I focused on experiences and knowledge because they are easy to quantify and cannot regress even if you slack off for a while, just like you don&amp;rsquo;t lose the in-game experience points even if you forget the game. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
+&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Progress</title>
+        <link>https://evthron.github.io/en/tweet/progress/</link>
+        <pubDate>Mon, 26 Feb 2024 01:46:25 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/progress/</guid>
+        <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

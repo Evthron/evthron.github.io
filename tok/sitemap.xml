@@ -188,6 +188,24 @@
     <loc>https://evthron.github.io/tok/profile/posts/toki-pona-introduction/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
   </url><url>
+    <loc>https://evthron.github.io/tok/tags/grumble/</loc>
+    <lastmod>2025-01-05T11:29:26+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/grumble/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/grumble/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/grumble/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/tweet/haircut/</loc>
     <lastmod>2024-10-02T02:20:42+08:00</lastmod>
     <xhtml:link
@@ -278,22 +296,22 @@
                 href="https://evthron.github.io/tok/tweet/arch-linux-installation/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/grumble/</loc>
+    <loc>https://evthron.github.io/tok/tags/software/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tags/grumble/"
+                href="https://evthron.github.io/zh/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tags/grumble/"
+                href="https://evthron.github.io/en/tags/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tags/grumble/"
+                href="https://evthron.github.io/tok/tags/software/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/easier-publish/</loc>
@@ -314,24 +332,6 @@
                 href="https://evthron.github.io/tok/tweet/easier-publish/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/software/</loc>
-    <lastmod>2025-01-05T11:29:26+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/software/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/tweet/better-search-engine/</loc>
     <lastmod>2024-07-29T04:39:27+08:00</lastmod>
     <xhtml:link
@@ -350,22 +350,22 @@
                 href="https://evthron.github.io/tok/tweet/better-search-engine/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/internet/</loc>
+    <loc>https://evthron.github.io/tok/tags/web/</loc>
     <lastmod>2024-07-29T04:39:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/tags/internet/"
+                href="https://evthron.github.io/zh/tags/web/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/tags/internet/"
+                href="https://evthron.github.io/en/tags/web/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/tags/internet/"
+                href="https://evthron.github.io/tok/tags/web/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/productivity-tools/</loc>
@@ -422,6 +422,24 @@
                 href="https://evthron.github.io/tok/tweet/search-count/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/tags/productivity/</loc>
+    <lastmod>2025-01-05T11:13:41+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/productivity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/productivity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/productivity/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/tweet/delusions/</loc>
     <lastmod>2024-06-26T02:39:46+08:00</lastmod>
     <xhtml:link
@@ -438,6 +456,24 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/tweet/delusions/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/gamification/</loc>
+    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/gamification/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/gamification/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/gamification/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/progress/</loc>

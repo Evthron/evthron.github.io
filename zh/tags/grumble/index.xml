@@ -6,7 +6,23 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sun, 02 Mar 2025 06:45:53 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 07 Apr 2025 19:36:57 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/grumble/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>真不想承認，認可才是我想要的動力</title>
+        <link>https://evthron.github.io/zh/posts/validation-motivation/</link>
+        <pubDate>Mon, 07 Apr 2025 19:36:57 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/posts/validation-motivation/</guid>
+        <description>&lt;p&gt;拖延的根源並不是互聯網和遊戲。刪光遊戲、斷開網絡之後，只是從沉迷娛樂變成什麼都不做而已。&lt;/p&gt;
+&lt;p&gt;我真正缺乏的是內在的動力。我想做的事情似乎都已經完成了，剩下的那些應該做的事，做不到似乎也無所謂。難道我對生活已經失去期望了嗎？&lt;/p&gt;
+&lt;p&gt;回想過去，能讓我能撐過大大小小的截止日期的動力源頭，不只是外界壓力和求知欲，這些只是表象而已。真正的原因，是為了滿足我對於「上進」的自我認可，為了證明我不是個會坐以待斃的人。&lt;/p&gt;
+&lt;p&gt;其實我比我自己想象中，更需要別人的認可，但我很少主動爭取。畢竟，比起冒險面對其他人的否定，先讓自己認可自己不是個更加正確的選擇嗎？&lt;/p&gt;
+&lt;p&gt;這也是我寫博客的動機之一。就算沒有人讀，放在網站上的文章也是有價值的，這讓我更能認可自己。樂觀一點，説不定其他人讀了也會認同我的想法。&lt;/p&gt;
+&lt;p&gt;但閉門造車的結果，就是學習偏離了方向。同樣是寫程序，我能沉迷一整天寫我自己用的腳本，卻沒有動力學習工作需要用的語言。&lt;/p&gt;
+&lt;p&gt;這種自我認可本來是能給予我自信的，但到了現在要找工作的時候，面對外界真正的需求，這種自我認可突然就變得一文不值了。&lt;/p&gt;
+&lt;p&gt;沒有人認可就沒有提升的動力，沒有提升的動力就沒有人認可。要逃出這個怪圈，我要盡力向身邊的人展示自己，還有按照外界的實際需要提升自己的能力，藉此認可自己。感覺依然是做不到的事，但至少我現在多看清了自己一點。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>週末的遊戲陷阱</title>
         <link>https://evthron.github.io/zh/tweet/game-encounter/</link>
         <pubDate>Sun, 02 Mar 2025 06:45:53 +0800</pubDate>
@@ -218,6 +234,18 @@ sudo reboot
 &lt;p&gt;搞了半天，我學會什麼了呢？重新温習了一遍 Arch 的上網設置，放棄了原本已經調整好的 dnsmasq，還知道了 nftables 和 iptables 有着神秘的關係。一天就這樣過去了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;nftables 和 iptables 指的是一套規則，負責處理訊息在各種 IP 上的接收和發送，設置好了可以充當防火牆。docker 能讓多個網站運行在相同的端口號上，原理説不定也是什麼端口轉發。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>假期的壞心情</title>
+        <link>https://evthron.github.io/zh/tweet/bad-mood-holiday/</link>
+        <pubDate>Wed, 16 Oct 2024 01:51:46 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tweet/bad-mood-holiday/</guid>
+        <description>&lt;p&gt;我放假就像個廢人一樣，要花好幾天的心情調整心態，才有開始做事的決心。但時間不等人，截止日期的壓力會逼我做該做的事，既然這樣，一開始就不要放假好了。要做的事堆積如山，我卻提不起勁，這實在很令人煩躁。比起電腦燒掉和錯過考試，這算不上什麼，但因為這種雞毛蒜皮的小事而煩躁，實在令我很煩躁。看吧，這就是個走不出來的怪圈。&lt;/p&gt;
+&lt;p&gt;哭過一場之後，我突然就很想坐下來寫這篇感想了，簡直毫不費力。無法否認，所謂的狀態好壞，比起心理準備，其實更受身體的影響。&lt;/p&gt;
+&lt;p&gt;眼白白看着溜掉的光陰的光陰，是不會回來的沉沒成本，但心情是學不會經濟學的，保持自己情緒一致比什麼都來得重要，就算能像切換計算機模式一樣，按幾個按鈕就能平復情緒，也只會讓我感到很可悲。&lt;/p&gt;
+&lt;p&gt;要憑理性控制情緒是很困難的，畢竟情緒的判斷是一瞬間的事，也有化學物質的干涉。不過，情緒不是沒有根據的東西。我們是從經驗判斷自己要表露出什麼情緒的。能説出「此壺已破，看它何用」的人肯定打破了幾十個壺。寫到這裏又開始困了。要乾脆地承認一天什麼都沒做？還是電腦前死死掙扎？這也是個艱難的選擇。因為我每次都會選擇掙扎，所以睡覺總是個更好的決定。&lt;/p&gt;
 </description>
         </item>
         <item>

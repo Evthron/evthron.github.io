@@ -3,8 +3,8 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='https://github.com/marph91/joppy/blob/master/examples/note_export.py
-extend a list generator Finding notes with certain title.
-Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) '>
+Finding Notes with Certain Titles Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note extend a list generator
+Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) '>
         <title>Note export | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/zh/code/note-export/'>
@@ -14,15 +14,15 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
         
         <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='Note export'>
 <meta property='og:description' content='https://github.com/marph91/joppy/blob/master/examples/note_export.py
-extend a list generator Finding notes with certain title.
-Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) '>
+Finding Notes with Certain Titles Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note extend a list generator
+Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/note-export/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-09-02T16:38:42&#43;08:00'/><meta property='article:modified_time' content='2024-09-02T16:38:42&#43;08:00'/>
 <meta name="twitter:title" content="Note export">
 <meta name="twitter:description" content="https://github.com/marph91/joppy/blob/master/examples/note_export.py
-extend a list generator Finding notes with certain title.
-Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) ">
+Finding Notes with Certain Titles Bad version for note in notes: for title in args.note_titles: if note.title == title: candidates.append note extend a list generator
+Good version for title in args.note_titles: candidates.extend([note for note in notes if note.title == title]) # Create a temporary directory for the resources. with tempfile.TemporaryDirectory() as tmpdirname: # Convert all notes to the specified format. os.makedirs(args.output_folder, exist_ok=True) for candidate in candidates: note = api.get_note(id_=candidate.id, fields=&#34;body&#34;) note_body = note.body title_normalized = ( candidate.title.lower().replace(&#34; &#34;, &#34;_&#34;) &#43; &#34;_&#34; &#43; candidate.id ) output_path = ( f&#34;{args.output_folder}/{title_normalized}.{args.output_format}&#34; ) ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -338,14 +338,14 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
         
         <p><a class="link" href="https://github.com/marph91/joppy/blob/master/examples/note_export.py"  target="_blank" rel="noopener"
     >https://github.com/marph91/joppy/blob/master/examples/note_export.py</a></p>
-<p>extend a list generator
-Finding notes with certain title.</p>
-<h2 id="bad-version">Bad version</h2>
+<h2 id="finding-notes-with-certain-titles">Finding Notes with Certain Titles</h2>
+<h3 id="bad-version">Bad version</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> note <span style="color:#f92672">in</span> notes:
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> title <span style="color:#f92672">in</span> args<span style="color:#f92672">.</span>note_titles:
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> note<span style="color:#f92672">.</span>title <span style="color:#f92672">==</span> title:
 </span></span><span style="display:flex;"><span>			candidates<span style="color:#f92672">.</span>append note
-</span></span></code></pre></div><h2 id="good-version">Good version</h2>
+</span></span></code></pre></div><p>extend a list generator</p>
+<h3 id="good-version">Good version</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> title <span style="color:#f92672">in</span> args<span style="color:#f92672">.</span>note_titles:
 </span></span><span style="display:flex;"><span>    candidates<span style="color:#f92672">.</span>extend([note <span style="color:#66d9ef">for</span> note <span style="color:#f92672">in</span> notes <span style="color:#66d9ef">if</span> note<span style="color:#f92672">.</span>title <span style="color:#f92672">==</span> title])
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>

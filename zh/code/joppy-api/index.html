@@ -3,7 +3,7 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='https://github.com/marph91/joppy/tree/master/joppy
-joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ requests.model.Response
+joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
 '>
         <title>Joppy Api | Evthron&#39;s blog</title>
         
@@ -14,14 +14,14 @@ joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.R
         
         <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='Joppy Api'>
 <meta property='og:description' content='https://github.com/marph91/joppy/tree/master/joppy
-joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ requests.model.Response
+joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/joppy-api/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-08-13T21:57:32&#43;08:00'/><meta property='article:modified_time' content='2024-08-13T21:57:32&#43;08:00'/>
 <meta name="twitter:title" content="Joppy Api">
 <meta name="twitter:description" content="https://github.com/marph91/joppy/tree/master/joppy
-joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ requests.model.Response
+joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a delete request.&#34;&#34;&#34; return self._request(&#34;delete&#34;, path) def get( self, path: str, query: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a get request.&#34;&#34;&#34; return self._request(&#34;get&#34;, path, query=query) #get 需要 query def post( self, path: str, data: Optional[dt.JoplinKwargs] = None, files: Optional[Dict[str, Any]] = None, ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a post request.&#34;&#34;&#34; return self._request(&#34;post&#34;, path, data=data, files=files) # post 需要 files 和 data def put( self, path: str, data: Optional[dt.JoplinKwargs] = None ) -&gt; requests.models.Response: &#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34; return self._request(&#34;put&#34;, path, data=data) # put 是什麼？ 全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -363,9 +363,7 @@ joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.R
 </span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">-&gt;</span> requests<span style="color:#f92672">.</span>models<span style="color:#f92672">.</span>Response:
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;&#34;&#34;Convenience method to issue a put request.&#34;&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>_request(<span style="color:#e6db74">&#34;put&#34;</span>, path, data<span style="color:#f92672">=</span>data) <span style="color:#75715e"># put 是什麼？</span>
-</span></span></code></pre></div><p>requests.model.Response</p>
-<p>dt.JoplinKwargs</p>
-<p>全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method</p>
+</span></span></code></pre></div><p>全部都是 _request 處理的，其他的 post, delete, get, put 只是指定 method</p>
 <h4 id="loggerdebug-prints-debug-message">LOGGER.debug prints debug message</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ApiBase</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Contains the basic requests of the REST API.&#34;&#34;&#34;</span>
@@ -387,7 +385,7 @@ joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.R
 </span></span><span style="display:flex;"><span>            <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;files=</span><span style="color:#e6db74">{</span>files<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>        )
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> data <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span> <span style="color:#f92672">and</span> <span style="color:#e6db74">&#34;id_&#34;</span> <span style="color:#f92672">in</span> data:
-</span></span><span style="display:flex;"><span>			<span style="color:#75715e"># switch key id_ back to id?</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#75715e"># change key id_ back to id?</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#75715e"># &#34;id&#34; is a reserved keyword in python, so don&#39;t use it.</span>
 </span></span><span style="display:flex;"><span>            data[<span style="color:#e6db74">&#34;id&#34;</span>] <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>pop(<span style="color:#e6db74">&#34;id_&#34;</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> query <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>:
@@ -413,25 +411,87 @@ joppy Delete, get, post, put def delete(self, path: str) -&gt; requests.models.R
 </span></span><span style="display:flex;"><span>            err<span style="color:#f92672">.</span>args <span style="color:#f92672">=</span> err<span style="color:#f92672">.</span>args <span style="color:#f92672">+</span> (response<span style="color:#f92672">.</span>text,)
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">raise</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> response
+</span></span></code></pre></div><ul>
+<li>Base API</li>
+<li>Base Methods Classes based on Base API</li>
+<li>User friendly methods</li>
+</ul>
+<p>python debug
+{{LOGGER.debug}} prints debug message</p>
+<h3 id="1-logging">1. Logging</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> logging
 </span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Set up logging</span>
+</span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>basicConfig(level<span style="color:#f92672">=</span>logging<span style="color:#f92672">.</span>DEBUG)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> Base API 
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> Base Methods Classes based on Base API
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> User friendly methods
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Log some messages</span>
+</span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">&#34;This is a debug message.&#34;</span>)
+</span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>info(<span style="color:#e6db74">&#34;This is an info message.&#34;</span>)
+</span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>warning(<span style="color:#e6db74">&#34;This is a warning message.&#34;</span>)
+</span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>error(<span style="color:#e6db74">&#34;This is an error message.&#34;</span>)
+</span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>critical(<span style="color:#e6db74">&#34;This is a critical message.&#34;</span>)
+</span></span></code></pre></div><h3 id="2-staticmethod">2. @staticmethod</h3>
+<p>A static method does not require access to the instance (self) or class (cls). It&rsquo;s just a method that belongs to the class and can be called without an instance.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MathUtils</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@staticmethod</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add</span>(a, b):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>python debug
-</span></span><span style="display:flex;"><span>{{LOGGER<span style="color:#f92672">.</span>debug}} prints debug message
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> MathUtils<span style="color:#f92672">.</span>add(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>print(result)  <span style="color:#75715e"># Output: 8</span>
+</span></span></code></pre></div><h3 id="3-double-bracket-when-the-function-returns-a-callable-object">3. Double Bracket (When the Function Returns a Callable Object)</h3>
+<p>Using double brackets can refer to a function that returns another function.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">outer_function</span>(message):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">inner_function</span>():
+</span></span><span style="display:flex;"><span>        print(message)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> inner_function
 </span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>func <span style="color:#f92672">=</span> outer_function(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
+</span></span><span style="display:flex;"><span>func()  <span style="color:#75715e"># Outputs: Hello, World!</span>
+</span></span></code></pre></div><p>getattr(SESSION, method)</p>
+<h3 id="4-type-objects-optional-union">4. Type Objects (Optional, Union)</h3>
+<p>Using type hints to specify that a function parameter may be of multiple types.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> typing <span style="color:#f92672">import</span> Optional, Union
 </span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_value</span>(value: Union[int, str, <span style="color:#66d9ef">None</span>]) <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> isinstance(value, int):
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Integer: </span><span style="color:#e6db74">{</span>value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> isinstance(value, str):
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;String: </span><span style="color:#e6db74">{</span>value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;No value provided.&#34;</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> Logging
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> <span style="color:#a6e22e">@static</span> method
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> double bracket (when the function returns a callable object)
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> Type objects (Optional, Union)
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> Requests (localhost)
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> <span style="color:#960050;background-color:#1e0010">``</span><span style="color:#f92672">**</span> kwargs<span style="color:#960050;background-color:#1e0010">``</span>, use dictionary <span style="color:#66d9ef">as</span> keyword argument
-</span></span><span style="display:flex;"><span><span style="color:#f92672">-</span> {dict}<span style="color:#f92672">.</span>get() <span style="color:#66d9ef">as</span> <span style="color:#e6db74">&#39;if exist, else&#39;</span>
-</span></span></code></pre></div>
+</span></span><span style="display:flex;"><span>process_value(<span style="color:#ae81ff">10</span>)       <span style="color:#75715e"># Outputs: Integer: 10</span>
+</span></span><span style="display:flex;"><span>process_value(<span style="color:#e6db74">&#34;Hello&#34;</span>)  <span style="color:#75715e"># Outputs: String: Hello</span>
+</span></span><span style="display:flex;"><span>process_value(<span style="color:#66d9ef">None</span>)     <span style="color:#75715e"># Outputs: No value provided.</span>
+</span></span></code></pre></div><h3 id="5-requests-localhost">5. Requests (localhost)</h3>
+<p>Using the <code>requests</code> library to make an HTTP request to your local server.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;http://localhost:5000&#39;</span>)
+</span></span><span style="display:flex;"><span>print(response<span style="color:#f92672">.</span>text)  <span style="color:#75715e"># Outputs the response from the localhost server.</span>
+</span></span></code></pre></div><h3 id="6-kwargs-use-dictionary-as-keyword-argument">6. <code>**kwargs</code>, Use Dictionary as Keyword Argument</h3>
+<p>Using <code>**kwargs</code> allows you to pass a variable number of keyword arguments to a function.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">print_info</span>(<span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> key, value <span style="color:#f92672">in</span> kwargs<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>key<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print_info(name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Alice&#34;</span>, age<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>, city<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;New York&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Outputs:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># name: Alice</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># age: 30</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># city: New York</span>
+</span></span></code></pre></div><h3 id="7-dictget-as-if-exist-else">7. <code>{dict}.get()</code> as &lsquo;if exist, else&rsquo;</h3>
+<p>Using the <code>get</code> method of a dictionary to return a value for a given key, with an option to specify a default value if the key does not exist.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Bob&#34;</span>, <span style="color:#e6db74">&#34;age&#34;</span>: <span style="color:#ae81ff">25</span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>name <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;name&#34;</span>, <span style="color:#e6db74">&#34;Unknown&#34;</span>)
+</span></span><span style="display:flex;"><span>occupation <span style="color:#f92672">=</span> data<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;occupation&#34;</span>, <span style="color:#e6db74">&#34;Not Specified&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(name)         <span style="color:#75715e"># Outputs: Bob</span>
+</span></span><span style="display:flex;"><span>print(occupation)   <span style="color:#75715e"># Outputs: Not Specified</span>
+</span></span></code></pre></div><p>Each of these examples illustrates the concept clearly, showcasing how each feature can be used in Python programming.</p>
+
     </section>
 
     
