@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/zh/code/dotnet/</loc>
+    <lastmod>2025-04-11T17:10:48+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/zh/code/</loc>
+    <lastmod>2025-04-11T17:10:48+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/code/open-library-api/</loc>
+    <lastmod>2025-04-11T16:19:50+08:00</lastmod>
+  </url><url>
     <loc>https://evthron.github.io/zh/categories/</loc>
     <lastmod>2025-04-10T00:40:25+08:00</lastmod>
     <xhtml:link
@@ -97,19 +116,6 @@
   </url><url>
     <loc>https://evthron.github.io/zh/code/docker/</loc>
     <lastmod>2025-04-08T16:52:16+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/code/</loc>
-    <lastmod>2025-04-08T16:52:16+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/code/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/relationship/</loc>
     <lastmod>2025-04-09T15:42:32+08:00</lastmod>
@@ -641,9 +647,6 @@
                 hreflang="zh"
                 href="https://evthron.github.io/zh/tweet/cpp-practice/"
                 />
-  </url><url>
-    <loc>https://evthron.github.io/zh/code/open-library-api/</loc>
-    <lastmod>2025-01-18T23:15:55+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/profile/code/open-library-api/</loc>
     <lastmod>2025-01-18T23:15:55+08:00</lastmod>
