@@ -8,7 +8,7 @@
 # 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。 uda.time.type=string uda.time.label=Time uda.value.type=string uda.value.label=Value uda.worth.type=numeric uda.worth.label=Worth 然後修改 report.list 的欄位，加入 Time, Value，和 Worth
 default.command=list # 輸入 task 的時候自動執行 task list，而不是 task next report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth 最後是根據 worth，也就是性價比排序
 report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
-&gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
+&gt; # # # I 1 D 9 t 買 我 顯 a 牛 覺 示 s 奶 得 效 k 要 買 果 A 花 牛 c a 奶 t d 6 對 i d 0 我 v 來 e 買 分 説 牛 鐘 值 奶 3 A 1 t 0 g s i e m 元 e : 6 D 買 0 e 牛 s 奶 v c a r l i u p e t : i 3 0 n | 6 0 T i m e | 3 0 V a l u | e 0 . 5 W 0 o 0 r t h 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
 '>
         <title>定製 Taskwarrior | Evthron&#39;s blog</title>
         
@@ -24,7 +24,7 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 # 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。 uda.time.type=string uda.time.label=Time uda.value.type=string uda.value.label=Value uda.worth.type=numeric uda.worth.label=Worth 然後修改 report.list 的欄位，加入 Time, Value，和 Worth
 default.command=list # 輸入 task 的時候自動執行 task list，而不是 task next report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth 最後是根據 worth，也就是性價比排序
 report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
-&gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
+&gt; # # # I 1 D 9 t 買 我 顯 a 牛 覺 示 s 奶 得 效 k 要 買 果 A 花 牛 c a 奶 t d 6 對 i d 0 我 v 來 e 買 分 説 牛 鐘 值 奶 3 A 1 t 0 g s i e m 元 e : 6 D 買 0 e 牛 s 奶 v c a r l i u p e t : i 3 0 n | 6 0 T i m e | 3 0 V a l u | e 0 . 5 W 0 o 0 r t h 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/toolbox/taskwarrior-hooks/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
@@ -36,7 +36,7 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 # 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。 uda.time.type=string uda.time.label=Time uda.value.type=string uda.value.label=Value uda.worth.type=numeric uda.worth.label=Worth 然後修改 report.list 的欄位，加入 Time, Value，和 Worth
 default.command=list # 輸入 task 的時候自動執行 task list，而不是 task next report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth 最後是根據 worth，也就是性價比排序
 report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
-&gt; task add 買牛奶 time:60 value:30 # 買牛奶要花 60 分鐘 # 我覺得買牛奶對我來説值 30 元 # 顯示效果 ID | Active | Age | Description | Time | Value | Worth | 19 | | 1s | 買牛奶 | 60 | 30 | 0.500 | 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
+&gt; # # # I 1 D 9 t 買 我 顯 a 牛 覺 示 s 奶 得 效 k 要 買 果 A 花 牛 c a 奶 t d 6 對 i d 0 我 v 來 e 買 分 説 牛 鐘 值 奶 3 A 1 t 0 g s i e m 元 e : 6 D 買 0 e 牛 s 奶 v c a r l i u p e t : i 3 0 n | 6 0 T i m e | 3 0 V a l u | e 0 . 5 W 0 o 0 r t h 要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -379,14 +379,143 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 </span></span></code></pre></div><p>最後是根據 worth，也就是性價比排序</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>report.list.sort<span style="color:#f92672">=</span>worth-,start-,due+,project+
 </span></span></code></pre></div><p>例子：</p>
-<pre tabindex="0"><code>&gt; task add 買牛奶 time:60 value:30
-# 買牛奶要花 60 分鐘
-# 我覺得買牛奶對我來説值 30 元
 
-# 顯示效果
-ID | Active | Age | Description | Time | Value | Worth  |
-19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
-</code></pre><p>要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。</p>
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 464 121"
+      >
+      <g transform='translate(8,16)'>
+<path d='M 24,80 L 24,96' fill='none' stroke='currentColor'></path>
+<path d='M 96,80 L 96,96' fill='none' stroke='currentColor'></path>
+<path d='M 144,80 L 144,96' fill='none' stroke='currentColor'></path>
+<path d='M 232,80 L 232,96' fill='none' stroke='currentColor'></path>
+<path d='M 288,88 L 288,104' fill='none' stroke='currentColor'></path>
+<path d='M 376,72 L 376,88' fill='none' stroke='currentColor'></path>
+<path d='M 424,88 L 424,104' fill='none' stroke='currentColor'></path>
+<path d='M 448,72 L 448,88' fill='none' stroke='currentColor'></path>
+<circle cx='232' cy='80' r='6' stroke='currentColor' fill='#fff'></circle>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='0' y='84' fill='currentColor' style='font-size:1em'>I</text>
+<text text-anchor='middle' x='0' y='100' fill='currentColor' style='font-size:1em'>1</text>
+<text text-anchor='middle' x='8' y='84' fill='currentColor' style='font-size:1em'>D</text>
+<text text-anchor='middle' x='8' y='100' fill='currentColor' style='font-size:1em'>9</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>買</text>
+<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>我</text>
+<text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>顯</text>
+<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>牛</text>
+<text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>覺</text>
+<text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>示</text>
+<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>奶</text>
+<text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>得</text>
+<text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>效</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>要</text>
+<text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'>買</text>
+<text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>果</text>
+<text text-anchor='middle' x='40' y='84' fill='currentColor' style='font-size:1em'>A</text>
+<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>花</text>
+<text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>牛</text>
+<text text-anchor='middle' x='48' y='84' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='56' y='36' fill='currentColor' style='font-size:1em'>奶</text>
+<text text-anchor='middle' x='56' y='84' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>6</text>
+<text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>對</text>
+<text text-anchor='middle' x='64' y='84' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>我</text>
+<text text-anchor='middle' x='72' y='84' fill='currentColor' style='font-size:1em'>v</text>
+<text text-anchor='middle' x='80' y='36' fill='currentColor' style='font-size:1em'>來</text>
+<text text-anchor='middle' x='80' y='84' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>買</text>
+<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>分</text>
+<text text-anchor='middle' x='88' y='36' fill='currentColor' style='font-size:1em'>説</text>
+<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>牛</text>
+<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>鐘</text>
+<text text-anchor='middle' x='96' y='36' fill='currentColor' style='font-size:1em'>值</text>
+<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>奶</text>
+<text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'>3</text>
+<text text-anchor='middle' x='112' y='84' fill='currentColor' style='font-size:1em'>A</text>
+<text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>1</text>
+<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='120' y='84' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='128' y='84' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'>元</text>
+<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>:</text>
+<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>6</text>
+<text text-anchor='middle' x='160' y='84' fill='currentColor' style='font-size:1em'>D</text>
+<text text-anchor='middle' x='160' y='100' fill='currentColor' style='font-size:1em'>買</text>
+<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='168' y='84' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='168' y='100' fill='currentColor' style='font-size:1em'>牛</text>
+<text text-anchor='middle' x='176' y='84' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'>奶</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>v</text>
+<text text-anchor='middle' x='184' y='84' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='192' y='84' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='200' y='84' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='208' y='84' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='216' y='84' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>:</text>
+<text text-anchor='middle' x='224' y='84' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>3</text>
+<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='240' y='84' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='256' y='84' fill='currentColor' style='font-size:1em'>|</text>
+<text text-anchor='middle' x='256' y='100' fill='currentColor' style='font-size:1em'>6</text>
+<text text-anchor='middle' x='264' y='100' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='272' y='84' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='280' y='84' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='288' y='84' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='296' y='84' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'>|</text>
+<text text-anchor='middle' x='312' y='100' fill='currentColor' style='font-size:1em'>3</text>
+<text text-anchor='middle' x='320' y='100' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='328' y='84' fill='currentColor' style='font-size:1em'>V</text>
+<text text-anchor='middle' x='336' y='84' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='344' y='84' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='352' y='84' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='352' y='100' fill='currentColor' style='font-size:1em'>|</text>
+<text text-anchor='middle' x='360' y='84' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='368' y='100' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='376' y='100' fill='currentColor' style='font-size:1em'>.</text>
+<text text-anchor='middle' x='384' y='100' fill='currentColor' style='font-size:1em'>5</text>
+<text text-anchor='middle' x='392' y='84' fill='currentColor' style='font-size:1em'>W</text>
+<text text-anchor='middle' x='392' y='100' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='400' y='84' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='400' y='100' fill='currentColor' style='font-size:1em'>0</text>
+<text text-anchor='middle' x='408' y='84' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='416' y='84' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='424' y='84' fill='currentColor' style='font-size:1em'>h</text>
+</g>
+
+    </svg>
+  
+</div>
+<p>要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>TASK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>&lt;/dev/stdin<span style="color:#66d9ef">)</span> 
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;</span>$TASK<span style="color:#e6db74">&#34;</span> | python <span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.config/task/hooks/priority.py&#34;</span> $@ 

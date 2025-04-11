@@ -116,12 +116,12 @@ exclude words that contains numbers &ndash; flashcards" />
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.145.0">
+  <meta name="generator" content="Hugo 0.146.1">
   <meta itemprop="name" content="文本分析">
   <meta itemprop="description" content="def analyze_text(text: str): tokens = word_tokenize(text) # tokens are all the words # reset tokens using list generator tokens = [ # normalize to lower case word.lower() for word in tokens # exculde punctuation if word not in (&#34;...&#34;, &#34;&#39;&#39;&#34;, &#34;``&#34;, &#34;--&#34;, &#34;&#43;&#43;&#34;) and word not in string.punctuation and # exclude single character words len(word) &gt; 1 and # exclude words containing less than one digit not any(character.isdigit() for character in word) # generator is allowed to be used in any() ] # show how many words are there print(&#34;Words:&#34;, len(tokens)) # filter most common words tokens = [ word for word in tokens if word not in set(stopwords.words(&#34;english&#34;) &#43; stopwords.words(&#34;german&#34;)) ] # generate frequecy dictionary using FreqDist fdist = FreqDist(tokens) # fdist.plot(50) print(&#34;Most common words:&#34;) for word, count in fdist.most_common(10): print(f&#34;- {word}: {count}&#34;) exclude words that contains numbers – flashcards">
   <meta itemprop="datePublished" content="2024-09-09T13:02:35+08:00">
   <meta itemprop="dateModified" content="2024-09-09T13:02:35+08:00">
-  <meta itemprop="wordCount" content="376"><meta property="og:url" content="https://evthron.github.io/zh/profile/code/note-stats/">
+  <meta itemprop="wordCount" content="434"><meta property="og:url" content="https://evthron.github.io/zh/profile/code/note-stats/">
   <meta property="og:site_name" content="Evthron&#39;s blog">
   <meta property="og:title" content="文本分析">
   <meta property="og:description" content="def analyze_text(text: str): tokens = word_tokenize(text) # tokens are all the words # reset tokens using list generator tokens = [ # normalize to lower case word.lower() for word in tokens # exculde punctuation if word not in (&#34;...&#34;, &#34;&#39;&#39;&#34;, &#34;``&#34;, &#34;--&#34;, &#34;&#43;&#43;&#34;) and word not in string.punctuation and # exclude single character words len(word) &gt; 1 and # exclude words containing less than one digit not any(character.isdigit() for character in word) # generator is allowed to be used in any() ] # show how many words are there print(&#34;Words:&#34;, len(tokens)) # filter most common words tokens = [ word for word in tokens if word not in set(stopwords.words(&#34;english&#34;) &#43; stopwords.words(&#34;german&#34;)) ] # generate frequecy dictionary using FreqDist fdist = FreqDist(tokens) # fdist.plot(50) print(&#34;Most common words:&#34;) for word, count in fdist.most_common(10): print(f&#34;- {word}: {count}&#34;) exclude words that contains numbers – flashcards">
@@ -290,9 +290,91 @@ exclude words that contains numbers &ndash; flashcards" />
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> word, count <span style="color:#f92672">in</span> fdist<span style="color:#f92672">.</span>most_common(<span style="color:#ae81ff">10</span>):
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;- </span><span style="color:#e6db74">{</span>word<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>count<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span></code></pre></div><p>exclude words that contains numbers &ndash; flashcards</p>
-<pre tabindex="0"><code>def check_word_contain_digit:
-	return any(char.isdigit() for char in word)
-</code></pre><hr>
+
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 360 41"
+      >
+      <g transform='translate(8,16)'>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='8' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>w</text>
+<text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>.</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='144' y='20' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='216' y='20' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>:</text>
+<text text-anchor='middle' x='224' y='20' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='232' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='248' y='20' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='256' y='20' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='264' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='272' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='288' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='296' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='312' y='20' fill='currentColor' style='font-size:1em'>w</text>
+<text text-anchor='middle' x='320' y='20' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='328' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='336' y='20' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='344' y='20' fill='currentColor' style='font-size:1em'>)</text>
+</g>
+
+    </svg>
+  
+</div>
+<hr>
 <h2 id="requirements-for-token">requirements for token</h2>
 <ul>
 <li>lowercase

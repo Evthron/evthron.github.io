@@ -30,22 +30,120 @@
 不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。
 其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。
 訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？
-&lt;s&gt; Today the weather is nice &lt;/s&gt;
-&lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt;
-在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。
-把句子的交接處變成 bigram ：
-(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The)
-兩句句子的內容會被 &lt;s&gt; 和 &lt;/s&gt; 分隔開，不會混在一起。
-如果是 trigram 的話，一個 Start token 就不夠用了。
 
-只用一個 Start token 的 trigram（錯誤的做法）：
 
-(nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon)
 
-用兩個 Start token 的 trigram：
 
-(nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The)
-可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。" />
+  
+    
+      
+
+
+&lt;
+&lt;
+s
+s
+&gt;
+&gt;
+T
+T
+o
+h
+d
+e
+a
+y
+p
+h
+t
+e
+h
+n
+e
+o
+m
+w
+e
+e
+n
+a
+o
+t
+n
+h
+e
+o
+r
+f
+i
+q
+s
+u
+a
+n
+n
+i
+t
+c
+u
+e
+m
+e
+/
+n
+s
+t
+&gt;
+a
+n
+g
+l
+e
+m
+e
+n
+t
+c
+h
+a
+l
+l
+e
+n
+g
+e
+s
+o
+u
+r
+c
+l
+a
+s
+s
+i
+c
+a
+l
+i
+n
+t
+u
+i
+t
+i
+o
+n
+s
+/
+s
+&gt;
+
+
+    
+  
+
+在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。" />
   <meta name="author" content="Evthron" /><link rel="preload stylesheet" as="style" href="https://evthron.github.io/main.min.css" />
 
   
@@ -102,31 +200,23 @@
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.145.0">
+  <meta name="generator" content="Hugo 0.146.1">
   <meta itemprop="name" content="N-gram">
   <meta itemprop="description" content="Start token 和 End token 訓練 n-gram 的時候，需要在句子的前後加上 start token 和 end token，像是 &lt;s&gt; 和 &lt;/s&gt;。
 不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。
 其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。
 訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？
-&lt;s&gt; Today the weather is nice &lt;/s&gt; &lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。
-把句子的交接處變成 bigram ：
-(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The) 兩句句子的內容會被 &lt;s&gt; 和 &lt;/s&gt; 分隔開，不會混在一起。
-如果是 trigram 的話，一個 Start token 就不夠用了。
-只用一個 Start token 的 trigram（錯誤的做法）： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon) 用兩個 Start token 的 trigram： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The) 可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。">
+&lt; &lt; s s &gt; &gt; T T o h d e a y p h t e h n e o m w e e n a o t n h e o r f i q s u a n n i t c u e m e / n s t &gt; a n g l e m e n t c h a l l e n g e s o u r c l a s s i c a l i n t u i t i o n s / s &gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。">
   <meta itemprop="datePublished" content="2025-02-26T20:14:32+08:00">
   <meta itemprop="dateModified" content="2025-02-26T20:14:32+08:00">
-  <meta itemprop="wordCount" content="103"><meta property="og:url" content="https://evthron.github.io/zh/profile/ngram/">
+  <meta itemprop="wordCount" content="275"><meta property="og:url" content="https://evthron.github.io/zh/profile/ngram/">
   <meta property="og:site_name" content="Evthron&#39;s blog">
   <meta property="og:title" content="N-gram">
   <meta property="og:description" content="Start token 和 End token 訓練 n-gram 的時候，需要在句子的前後加上 start token 和 end token，像是 &lt;s&gt; 和 &lt;/s&gt;。
 不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。
 其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。
 訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？
-&lt;s&gt; Today the weather is nice &lt;/s&gt; &lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。
-把句子的交接處變成 bigram ：
-(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The) 兩句句子的內容會被 &lt;s&gt; 和 &lt;/s&gt; 分隔開，不會混在一起。
-如果是 trigram 的話，一個 Start token 就不夠用了。
-只用一個 Start token 的 trigram（錯誤的做法）： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon) 用兩個 Start token 的 trigram： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The) 可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。">
+&lt; &lt; s s &gt; &gt; T T o h d e a y p h t e h n e o m w e e n a o t n h e o r f i q s u a n n i t c u e m e / n s t &gt; a n g l e m e n t c h a l l e n g e s o u r c l a s s i c a l i n t u i t i o n s / s &gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
     <meta property="article:section" content="profile">
@@ -139,11 +229,7 @@
 不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。
 其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。
 訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？
-&lt;s&gt; Today the weather is nice &lt;/s&gt; &lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。
-把句子的交接處變成 bigram ：
-(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The) 兩句句子的內容會被 &lt;s&gt; 和 &lt;/s&gt; 分隔開，不會混在一起。
-如果是 trigram 的話，一個 Start token 就不夠用了。
-只用一個 Start token 的 trigram（錯誤的做法）： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon) 用兩個 Start token 的 trigram： (nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The) 可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。">
+&lt; &lt; s s &gt; &gt; T T o h d e a y p h t e h n e o m w e e n a o t n h e o r f i q s u a n n i t c u e m e / n s t &gt; a n g l e m e n t c h a l l e n g e s o u r c l a s s i c a l i n t u i t i o n s / s &gt; 在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。">
 
   <link rel="canonical" href="https://evthron.github.io/zh/profile/ngram/" />
 </head>
@@ -270,22 +356,307 @@
 <p>不過仔細想想，End token 的後面不就肯定是新句子了嗎？Start token 似乎是多餘的。</p>
 <p>其實，Start token 不止是在標示句子的開始，還是分隔 End Token 和下一句句子的工具。</p>
 <p>訓練集的句子之間是獨立的，沒有關係。如果把它們連在一起訓練，不覺得很奇怪嗎？</p>
-<pre tabindex="0"><code>&lt;s&gt; Today the weather is nice &lt;/s&gt;
-&lt;s&gt; The phenomenon of quantum entanglement challenges our classical intuitions &lt;/s&gt;
-</code></pre><p>在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。</p>
+
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 672 41"
+      >
+      <g transform='translate(8,16)'>
+<polygon points='248.000000,0.000000 236.000000,-5.600000 236.000000,5.600000' fill='currentColor' transform='rotate(180.000000, 240.000000, 0.000000)'></polygon>
+<polygon points='640.000000,16.000000 628.000000,10.400000 628.000000,21.600000' fill='currentColor' transform='rotate(180.000000, 632.000000, 16.000000)'></polygon>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='8' y='20' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>w</text>
+<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>q</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='208' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='216' y='20' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='224' y='20' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='240' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='248' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='256' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='264' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='272' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='280' y='20' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='288' y='20' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='296' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='304' y='20' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='312' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='320' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='328' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='344' y='20' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='352' y='20' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='360' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='368' y='20' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='376' y='20' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='384' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='392' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='400' y='20' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='408' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='416' y='20' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='432' y='20' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='440' y='20' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='448' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='464' y='20' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='472' y='20' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='480' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='488' y='20' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='496' y='20' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='504' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='512' y='20' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='520' y='20' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='528' y='20' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='544' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='552' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='560' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='568' y='20' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='576' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='584' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='592' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='600' y='20' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='608' y='20' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='616' y='20' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='640' y='20' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='648' y='20' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='656' y='20' fill='currentColor' style='font-size:1em'>&gt;</text>
+</g>
+
+    </svg>
+  
+</div>
+<p>在這個例子中，模型不應該誤以為「今天天氣很好」的下一句會是「量子力學挑戰經典力學的直覺」，因為這兩句只是碰巧放在一起的句子。訓練集句子的順序不應該影響訓練結果。</p>
 <p>把句子的交接處變成 bigram ：</p>
-<pre tabindex="0"><code>(nice, &lt;/s&gt;), (&lt;/s&gt;, &lt;s&gt;), (&lt;s&gt;, The)
-</code></pre><p>兩句句子的內容會被 <code>&lt;s&gt;</code> 和 <code>&lt;/s&gt;</code> 分隔開，不會混在一起。</p>
+
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 304 25"
+      >
+      <g transform='translate(8,16)'>
+<polygon points='64.000000,0.000000 52.000000,-5.600000 52.000000,5.600000' fill='currentColor' transform='rotate(180.000000, 56.000000, 0.000000)'></polygon>
+<polygon points='128.000000,0.000000 116.000000,-5.600000 116.000000,5.600000' fill='currentColor' transform='rotate(180.000000, 120.000000, 0.000000)'></polygon>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='288' y='4' fill='currentColor' style='font-size:1em'>)</text>
+</g>
+
+    </svg>
+  
+</div>
+<p>兩句句子的內容會被 <code>&lt;s&gt;</code> 和 <code>&lt;/s&gt;</code> 分隔開，不會混在一起。</p>
 <p>如果是 trigram 的話，一個 Start token 就不夠用了。</p>
 <ul>
 <li>只用一個 Start token 的 trigram（錯誤的做法）：</li>
 </ul>
-<pre tabindex="0"><code>(nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, The), (&lt;s&gt;, The, phenomenon)
-</code></pre><ul>
+
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 480 25"
+      >
+      <g transform='translate(8,16)'>
+<polygon points='64.000000,0.000000 52.000000,-5.600000 52.000000,5.600000' fill='currentColor' transform='rotate(180.000000, 56.000000, 0.000000)'></polygon>
+<polygon points='168.000000,0.000000 156.000000,-5.600000 156.000000,5.600000' fill='currentColor' transform='rotate(180.000000, 160.000000, 0.000000)'></polygon>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='304' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='328' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='344' y='4' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='352' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='360' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='368' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='384' y='4' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='392' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='400' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='408' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='416' y='4' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='424' y='4' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='432' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='440' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='448' y='4' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='456' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='464' y='4' fill='currentColor' style='font-size:1em'>)</text>
+</g>
+
+    </svg>
+  
+</div>
+<ul>
 <li>用兩個 Start token 的 trigram：</li>
 </ul>
-<pre tabindex="0"><code>(nice, &lt;/s&gt;, &lt;s&gt;), (&lt;/s&gt;, &lt;s&gt;, &lt;s&gt;), (&lt;s&gt;, &lt;s&gt;, The)
-</code></pre><p>可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。</p>
+
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 424 25"
+      >
+      <g transform='translate(8,16)'>
+<polygon points='64.000000,0.000000 52.000000,-5.600000 52.000000,5.600000' fill='currentColor' transform='rotate(180.000000, 56.000000, 0.000000)'></polygon>
+<polygon points='168.000000,0.000000 156.000000,-5.600000 156.000000,5.600000' fill='currentColor' transform='rotate(180.000000, 160.000000, 0.000000)'></polygon>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>/</text>
+<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='304' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='328' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='344' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='352' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='360' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='368' y='4' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='384' y='4' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='392' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='400' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='408' y='4' fill='currentColor' style='font-size:1em'>)</text>
+</g>
+
+    </svg>
+  
+</div>
+<p>可以看到，句子的結束符不應該和下一個句子開始的單詞連在一起。我們不需要預測句子結束後，下一個新單詞是什麼，因為句子和句子之間是沒有關係的。</p>
 <h2 id="參考資料">參考資料</h2>
 <p><a class="link" href="https://web.stanford.edu/~jurafsky/slp3/3.pdf"  target="_blank" rel="noopener"
     >J&amp;M Ch3 (standford.edu)</a> 的第七頁説明了 trigram 的做法，但沒有解釋原因。</p>

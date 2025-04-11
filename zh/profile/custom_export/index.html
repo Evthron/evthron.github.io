@@ -102,14 +102,14 @@ https://stackoverflow.com/a/27647173/7410886" />
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.145.0">
+  <meta name="generator" content="Hugo 0.146.1">
   <meta itemprop="name" content="Custom Export">
   <meta itemprop="description" content="https://github.com/marph91/joppy/blob/master/examples/custom_export.py
 Parent Graph 和 edge List 的區別 edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。
 graph = {[]} has_parent = {node : False for node in node_list} for start, end in edge_graph: graph[start] = graph.get(start, []}.append(end) has_parent[end] = True import argparse &#39;&#39;&#39; make argument parser &#39;&#39;&#39; parser = argparse.ArgumentParser() parser.add_argument(&#34;--output-folder&#34;, default=&#34;joplin_note_export&#34;) parser.add_argument(&#34;--api-token&#34;, default=os.getenv(&#34;API_TOKEN&#34;)) args = parser.parse_args() # What is the data in args? the dash in flag will be converted to underscore –output-folder -&gt; args.output_folder Replace bad characters in filenames https://stackoverflow.com/a/27647173/7410886">
   <meta itemprop="datePublished" content="2024-09-05T15:44:19+08:00">
   <meta itemprop="dateModified" content="2024-09-05T15:44:19+08:00">
-  <meta itemprop="wordCount" content="747"><meta property="og:url" content="https://evthron.github.io/zh/profile/custom_export/">
+  <meta itemprop="wordCount" content="1174"><meta property="og:url" content="https://evthron.github.io/zh/profile/custom_export/">
   <meta property="og:site_name" content="Evthron&#39;s blog">
   <meta property="og:title" content="Custom Export">
   <meta property="og:description" content="https://github.com/marph91/joppy/blob/master/examples/custom_export.py
@@ -423,29 +423,568 @@ Replace bad characters in filenames
 <li>把 dictionary Tree 改造成 TreeItem tree，每個端點可以儲存 list。TreeItem 是 改造後的 dictionary class</li>
 <li>這也是 Post-order traversal嗎？從最底層開始建立新的 Tree</li>
 </ul>
-<pre tabindex="0"><code>def replace_ids_by_items(id_tree):
-	item_tree = []
-	
-	# 從頂層開始，把一層的 Tree Node 加入 item Tree
-	for key, value in id_tree.items():
-		
-		# 需要呼叫 api 才能獲取所有的 child。
-		child_notes = api.get_all_notes(notebook_id=key, fields=&#34;id,title,body&#34;)
-		
-		# 每有一個 id tree 元素，就要在 item_tree 裏放入一個元素。
-		item_tree.append(
-		# TreeItem 包含子 notebook data
-		# child&#39;s child_tree （用遞歸的方式獲取）
-		# child&#39;s notebook （id, title 和 body）和 resources
-			TreeItem(
-				# 取用外層的 notebook_flat_map 值
-				notebooks_flat_map[key], # notebook_data
-				replace_ids_by_items(value), # child_items，value 指 child id_tree
-				child_notes,
-			)
-		)
-	return item_tree
-</code></pre><ul>
+
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 600 361"
+      >
+      <g transform='translate(8,16)'>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='84' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='100' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='116' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='132' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='148' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='164' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='180' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='196' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='212' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='228' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='244' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='260' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='276' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='292' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='308' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='324' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='0' y='340' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='8' y='20' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='8' y='52' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='8' y='68' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='8' y='84' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='100' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='116' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='132' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='148' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='164' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='180' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='196' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='212' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='228' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='244' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='260' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='276' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='292' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='308' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='324' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='8' y='340' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='16' y='100' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='16' y='116' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='16' y='148' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='16' y='164' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='16' y='180' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='16' y='196' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='16' y='212' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='16' y='228' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='16' y='244' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='16' y='260' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='16' y='276' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='16' y='292' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='16' y='308' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='16' y='324' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='16' y='340' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>從</text>
+<text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='24' y='116' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='24' y='164' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='24' y='228' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='24' y='244' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='24' y='260' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='24' y='276' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='24' y='292' fill='currentColor' style='font-size:1em'>	</text>
+<text text-anchor='middle' x='24' y='308' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='24' y='340' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>頂</text>
+<text text-anchor='middle' x='32' y='100' fill='currentColor' style='font-size:1em'>需</text>
+<text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='32' y='148' fill='currentColor' style='font-size:1em'>每</text>
+<text text-anchor='middle' x='32' y='164' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='32' y='180' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='32' y='196' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='32' y='212' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='32' y='228' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='32' y='244' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='32' y='260' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='32' y='276' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='32' y='292' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='32' y='340' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>層</text>
+<text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='40' y='100' fill='currentColor' style='font-size:1em'>要</text>
+<text text-anchor='middle' x='40' y='116' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='40' y='148' fill='currentColor' style='font-size:1em'>有</text>
+<text text-anchor='middle' x='40' y='164' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='40' y='180' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='40' y='196' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='40' y='212' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='40' y='228' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='40' y='260' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='40' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='40' y='292' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='40' y='340' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>開</text>
+<text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='48' y='100' fill='currentColor' style='font-size:1em'>呼</text>
+<text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='48' y='148' fill='currentColor' style='font-size:1em'>一</text>
+<text text-anchor='middle' x='48' y='164' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='48' y='180' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='48' y='196' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='48' y='212' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='48' y='228' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='48' y='244' fill='currentColor' style='font-size:1em'>取</text>
+<text text-anchor='middle' x='48' y='260' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='48' y='276' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='48' y='292' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='48' y='340' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>始</text>
+<text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>叫</text>
+<text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='56' y='148' fill='currentColor' style='font-size:1em'>個</text>
+<text text-anchor='middle' x='56' y='164' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='56' y='180' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='56' y='196' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='56' y='212' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='56' y='228' fill='currentColor' style='font-size:1em'>I</text>
+<text text-anchor='middle' x='56' y='244' fill='currentColor' style='font-size:1em'>用</text>
+<text text-anchor='middle' x='56' y='260' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='56' y='276' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='56' y='292' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>，</text>
+<text text-anchor='middle' x='64' y='68' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='64' y='116' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='64' y='164' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='64' y='180' fill='currentColor' style='font-size:1em'>I</text>
+<text text-anchor='middle' x='64' y='196' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='64' y='212' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='64' y='228' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='64' y='244' fill='currentColor' style='font-size:1em'>外</text>
+<text text-anchor='middle' x='64' y='260' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='64' y='276' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='64' y='292' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='64' y='340' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>把</text>
+<text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='72' y='116' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='72' y='148' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='72' y='164' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='72' y='180' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='72' y='196' fill='currentColor' style='font-size:1em'>'</text>
+<text text-anchor='middle' x='72' y='212' fill='currentColor' style='font-size:1em'>'</text>
+<text text-anchor='middle' x='72' y='228' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='72' y='244' fill='currentColor' style='font-size:1em'>層</text>
+<text text-anchor='middle' x='72' y='260' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='72' y='276' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='72' y='292' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='72' y='340' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='80' y='52' fill='currentColor' style='font-size:1em'>一</text>
+<text text-anchor='middle' x='80' y='68' fill='currentColor' style='font-size:1em'>v</text>
+<text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='80' y='148' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='80' y='164' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='80' y='180' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='80' y='196' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='80' y='212' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='80' y='228' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='80' y='244' fill='currentColor' style='font-size:1em'>的</text>
+<text text-anchor='middle' x='80' y='260' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='80' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='80' y='292' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='80' y='340' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>=</text>
+<text text-anchor='middle' x='88' y='52' fill='currentColor' style='font-size:1em'>層</text>
+<text text-anchor='middle' x='88' y='68' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='88' y='116' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='88' y='164' fill='currentColor' style='font-size:1em'>.</text>
+<text text-anchor='middle' x='88' y='180' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='88' y='228' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='88' y='260' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='88' y='276' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='88' y='292' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='88' y='340' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='96' y='52' fill='currentColor' style='font-size:1em'>的</text>
+<text text-anchor='middle' x='96' y='68' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='96' y='148' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='96' y='164' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='96' y='196' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='96' y='212' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='96' y='244' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='96' y='260' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='96' y='276' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='96' y='292' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='96' y='340' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>[</text>
+<text text-anchor='middle' x='104' y='68' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'>才</text>
+<text text-anchor='middle' x='104' y='148' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='104' y='164' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='104' y='180' fill='currentColor' style='font-size:1em'>包</text>
+<text text-anchor='middle' x='104' y='196' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='104' y='212' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='104' y='244' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='104' y='260' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='104' y='276' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='104' y='292' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='104' y='340' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>]</text>
+<text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='112' y='68' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>能</text>
+<text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'>=</text>
+<text text-anchor='middle' x='112' y='148' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='112' y='164' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='112' y='180' fill='currentColor' style='font-size:1em'>含</text>
+<text text-anchor='middle' x='112' y='196' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='112' y='212' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='112' y='244' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='112' y='260' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='112' y='276' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='112' y='292' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='112' y='340' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'>獲</text>
+<text text-anchor='middle' x='120' y='148' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='120' y='164' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='120' y='180' fill='currentColor' style='font-size:1em'>子</text>
+<text text-anchor='middle' x='120' y='196' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='120' y='212' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='120' y='244' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='120' y='260' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='120' y='276' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='120' y='292' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='120' y='340' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='128' y='68' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='128' y='100' fill='currentColor' style='font-size:1em'>取</text>
+<text text-anchor='middle' x='128' y='116' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='128' y='164' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='128' y='196' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='128' y='212' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='128' y='244' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='128' y='260' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='128' y='276' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='128' y='340' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='136' y='68' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='136' y='100' fill='currentColor' style='font-size:1em'>所</text>
+<text text-anchor='middle' x='136' y='116' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='136' y='148' fill='currentColor' style='font-size:1em'>元</text>
+<text text-anchor='middle' x='136' y='164' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='136' y='180' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='136' y='196' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='136' y='212' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='136' y='244' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='136' y='260' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='136' y='276' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='144' y='100' fill='currentColor' style='font-size:1em'>有</text>
+<text text-anchor='middle' x='144' y='116' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='144' y='148' fill='currentColor' style='font-size:1em'>素</text>
+<text text-anchor='middle' x='144' y='164' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='144' y='180' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='144' y='196' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='144' y='212' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='144' y='244' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='144' y='260' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='144' y='276' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='152' y='52' fill='currentColor' style='font-size:1em'>N</text>
+<text text-anchor='middle' x='152' y='68' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='152' y='100' fill='currentColor' style='font-size:1em'>的</text>
+<text text-anchor='middle' x='152' y='116' fill='currentColor' style='font-size:1em'>.</text>
+<text text-anchor='middle' x='152' y='148' fill='currentColor' style='font-size:1em'>，</text>
+<text text-anchor='middle' x='152' y='180' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='152' y='196' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='152' y='212' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='152' y='244' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='152' y='260' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='152' y='276' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='160' y='52' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='160' y='68' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='160' y='116' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='160' y='148' fill='currentColor' style='font-size:1em'>就</text>
+<text text-anchor='middle' x='160' y='180' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='160' y='196' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='160' y='244' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='160' y='260' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='160' y='276' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='168' y='52' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='168' y='68' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='168' y='100' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='168' y='116' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='168' y='148' fill='currentColor' style='font-size:1em'>要</text>
+<text text-anchor='middle' x='168' y='180' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='168' y='196' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='168' y='212' fill='currentColor' style='font-size:1em'>（</text>
+<text text-anchor='middle' x='168' y='244' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='168' y='260' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='168' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='176' y='52' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='176' y='68' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='176' y='116' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='176' y='148' fill='currentColor' style='font-size:1em'>在</text>
+<text text-anchor='middle' x='176' y='180' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='176' y='212' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='176' y='244' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='176' y='260' fill='currentColor' style='font-size:1em'>[</text>
+<text text-anchor='middle' x='176' y='276' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='184' y='68' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='184' y='100' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='184' y='116' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='184' y='180' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='184' y='196' fill='currentColor' style='font-size:1em'>（</text>
+<text text-anchor='middle' x='184' y='212' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='184' y='244' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='184' y='260' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='184' y='276' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='192' y='52' fill='currentColor' style='font-size:1em'>加</text>
+<text text-anchor='middle' x='192' y='68' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='192' y='100' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='192' y='116' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='192' y='148' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='192' y='180' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='192' y='196' fill='currentColor' style='font-size:1em'>用</text>
+<text text-anchor='middle' x='192' y='212' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='192' y='244' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='192' y='260' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='192' y='276' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'>入</text>
+<text text-anchor='middle' x='200' y='68' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='200' y='100' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='200' y='116' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='200' y='148' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='200' y='196' fill='currentColor' style='font-size:1em'>遞</text>
+<text text-anchor='middle' x='200' y='244' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='200' y='260' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='200' y='276' fill='currentColor' style='font-size:1em'>v</text>
+<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='208' y='68' fill='currentColor' style='font-size:1em'>.</text>
+<text text-anchor='middle' x='208' y='100' fill='currentColor' style='font-size:1em'>。</text>
+<text text-anchor='middle' x='208' y='116' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='208' y='148' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='208' y='180' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='208' y='196' fill='currentColor' style='font-size:1em'>歸</text>
+<text text-anchor='middle' x='208' y='212' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='208' y='244' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='208' y='260' fill='currentColor' style='font-size:1em'>]</text>
+<text text-anchor='middle' x='208' y='276' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='216' y='68' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='216' y='116' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='216' y='148' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='216' y='180' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='216' y='196' fill='currentColor' style='font-size:1em'>的</text>
+<text text-anchor='middle' x='216' y='212' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='216' y='244' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='216' y='260' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='216' y='276' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='224' y='68' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='224' y='116' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='224' y='148' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='224' y='180' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='224' y='196' fill='currentColor' style='font-size:1em'>方</text>
+<text text-anchor='middle' x='224' y='212' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='224' y='244' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='224' y='276' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='232' y='68' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='232' y='116' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='232' y='148' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='232' y='180' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='232' y='196' fill='currentColor' style='font-size:1em'>式</text>
+<text text-anchor='middle' x='232' y='212' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='232' y='260' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='232' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='240' y='52' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='240' y='68' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='240' y='116' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='240' y='148' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='240' y='196' fill='currentColor' style='font-size:1em'>獲</text>
+<text text-anchor='middle' x='240' y='212' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='240' y='244' fill='currentColor' style='font-size:1em'>值</text>
+<text text-anchor='middle' x='240' y='276' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='248' y='68' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='248' y='116' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='248' y='148' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='248' y='196' fill='currentColor' style='font-size:1em'>取</text>
+<text text-anchor='middle' x='248' y='260' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='248' y='276' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'>T</text>
+<text text-anchor='middle' x='256' y='68' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='256' y='116' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='256' y='148' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='256' y='196' fill='currentColor' style='font-size:1em'>）</text>
+<text text-anchor='middle' x='256' y='212' fill='currentColor' style='font-size:1em'>和</text>
+<text text-anchor='middle' x='256' y='260' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>:</text>
+<text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='264' y='68' fill='currentColor' style='font-size:1em'>)</text>
+<text text-anchor='middle' x='264' y='116' fill='currentColor' style='font-size:1em'>(</text>
+<text text-anchor='middle' x='264' y='260' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='264' y='276' fill='currentColor' style='font-size:1em'>#</text>
+<text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='272' y='68' fill='currentColor' style='font-size:1em'>:</text>
+<text text-anchor='middle' x='272' y='116' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='272' y='148' fill='currentColor' style='font-size:1em'>裏</text>
+<text text-anchor='middle' x='272' y='212' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='272' y='260' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='280' y='52' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='280' y='116' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='280' y='148' fill='currentColor' style='font-size:1em'>放</text>
+<text text-anchor='middle' x='280' y='212' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='280' y='260' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='280' y='276' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='288' y='116' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='288' y='148' fill='currentColor' style='font-size:1em'>入</text>
+<text text-anchor='middle' x='288' y='212' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='288' y='260' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='288' y='276' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='296' y='116' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='296' y='148' fill='currentColor' style='font-size:1em'>一</text>
+<text text-anchor='middle' x='296' y='212' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='296' y='260' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='296' y='276' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='304' y='116' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='304' y='148' fill='currentColor' style='font-size:1em'>個</text>
+<text text-anchor='middle' x='304' y='212' fill='currentColor' style='font-size:1em'>）</text>
+<text text-anchor='middle' x='304' y='260' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='304' y='276' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='312' y='116' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='312' y='148' fill='currentColor' style='font-size:1em'>元</text>
+<text text-anchor='middle' x='312' y='212' fill='currentColor' style='font-size:1em'>和</text>
+<text text-anchor='middle' x='312' y='260' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='312' y='276' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='320' y='116' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='320' y='148' fill='currentColor' style='font-size:1em'>素</text>
+<text text-anchor='middle' x='320' y='260' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='320' y='276' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='328' y='116' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='328' y='148' fill='currentColor' style='font-size:1em'>。</text>
+<text text-anchor='middle' x='328' y='212' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='328' y='260' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='328' y='276' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='336' y='116' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='336' y='212' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='336' y='260' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='336' y='276' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='344' y='116' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='344' y='212' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='344' y='260' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='344' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='352' y='116' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='352' y='212' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='352' y='276' fill='currentColor' style='font-size:1em'>m</text>
+<text text-anchor='middle' x='360' y='116' fill='currentColor' style='font-size:1em'>=</text>
+<text text-anchor='middle' x='360' y='212' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='360' y='276' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='368' y='116' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='368' y='212' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='368' y='276' fill='currentColor' style='font-size:1em'>，</text>
+<text text-anchor='middle' x='376' y='116' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='376' y='212' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='376' y='276' fill='currentColor' style='font-size:1em'>v</text>
+<text text-anchor='middle' x='384' y='116' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='384' y='212' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='384' y='276' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='392' y='116' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='392' y='212' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='392' y='276' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='400' y='276' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='408' y='116' fill='currentColor' style='font-size:1em'>f</text>
+<text text-anchor='middle' x='408' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='416' y='116' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='424' y='116' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='424' y='276' fill='currentColor' style='font-size:1em'>指</text>
+<text text-anchor='middle' x='432' y='116' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='440' y='116' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='440' y='276' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='448' y='116' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='448' y='276' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='456' y='116' fill='currentColor' style='font-size:1em'>=</text>
+<text text-anchor='middle' x='456' y='276' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='464' y='116' fill='currentColor' style='font-size:1em'>"</text>
+<text text-anchor='middle' x='464' y='276' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='472' y='116' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='472' y='276' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='480' y='116' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='488' y='116' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='488' y='276' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='496' y='116' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='496' y='276' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='504' y='116' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='504' y='276' fill='currentColor' style='font-size:1em'>_</text>
+<text text-anchor='middle' x='512' y='116' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='512' y='276' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='520' y='116' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='520' y='276' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='528' y='116' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='528' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='536' y='116' fill='currentColor' style='font-size:1em'>,</text>
+<text text-anchor='middle' x='536' y='276' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='544' y='116' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='552' y='116' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='560' y='116' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='568' y='116' fill='currentColor' style='font-size:1em'>y</text>
+<text text-anchor='middle' x='576' y='116' fill='currentColor' style='font-size:1em'>"</text>
+<text text-anchor='middle' x='584' y='116' fill='currentColor' style='font-size:1em'>)</text>
+</g>
+
+    </svg>
+  
+</div>
+<ul>
 <li>key 是 notebook，notebooks_flat_map[key] 是 notebook 的 data</li>
 <li>value 是 child id_tree，所以要用 replace_ids_by_items 轉換成 item_tree</li>
 <li>底層：value 是空的 dict，傳回空的 list</li>
