@@ -31,67 +31,8 @@
 &lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
 &lt;p&gt;It&amp;rsquo;s not just an ad blocker, but a &lt;em&gt;wide-spectrum content blocker&lt;/em&gt;, which means you can hide all distracting UI elements, like panels, buttons, and empty spaces on any websites using its element picker.&lt;/p&gt;
 &lt;p&gt;Banning infinite scroll is the most powerful thing it can do. Infinite scroll on Youtube equals time sink so put the following line into uBlock Origin setting under the &amp;lsquo;My Filters&amp;rsquo; section.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;goat svg-container &#34;&gt;
-  
-    &lt;svg
-      xmlns=&#34;http://www.w3.org/2000/svg&#34;
-      font-family=&#34;Menlo,Lucida Console,monospace&#34;
-      
-        viewBox=&#34;0 0 352 25&#34;
-      &gt;
-      &lt;g transform=&#39;translate(8,16)&#39;&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;0&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;y&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;8&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;o&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;16&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;u&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;24&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;t&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;32&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;u&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;40&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;b&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;48&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;e&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;56&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;.&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;64&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;c&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;72&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;o&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;80&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;m&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;88&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;#&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;96&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;#&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;104&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;y&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;112&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;t&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;120&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;d&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;128&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;-&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;136&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;c&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;144&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;o&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;152&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;n&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;160&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;t&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;168&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;i&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;176&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;n&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;184&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;u&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;192&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;a&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;200&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;t&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;208&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;i&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;216&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;o&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;224&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;n&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;232&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;-&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;240&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;i&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;248&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;t&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;256&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;e&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;264&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;m&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;272&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;-&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;280&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;r&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;288&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;e&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;296&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;n&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;304&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;d&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;312&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;e&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;320&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;r&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;328&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;e&lt;/text&gt;
-&lt;text text-anchor=&#39;middle&#39; x=&#39;336&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;r&lt;/text&gt;
-&lt;/g&gt;
-
-    &lt;/svg&gt;
-  
-&lt;/div&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;youtube.com##ytd-continuation-item-renderer
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;firefox&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;

@@ -4,11 +4,17 @@
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='第一章 基礎知識 井字棋是一種風靡全世界的遊戲，又名「過三關」，「圈叉棋」。井字棋的規則連小孩子也能明白，卻有着十變百化的局面，使人樂此不疲。
 一、遊玩方法 井字棋不需要棋盤。在白紙上劃兩條豎、兩條橫線（圖一）就可以玩。這個遊戲裏有兩種棋子 O 和 X，雙方各執一種棋子，先手用 O，後手就用 X；先手用 X，後手就用 O。在格子裏畫下自己的棋子叫作「下子」。誰先手誰後手由玩家自行協商，一般都是用剪刀石頭布決定。
-圖 一 ， 井 字 棋 的 格 子 二、勝利方法 自己的棋子沿着橫方向，三個連成一線 自己的棋子沿着豎方向，三個連成一線 自己的棋子沿着對角方向，三個連成一線 井字棋的初學者常常會忽略對角方向的連線，讓對手有可乘之機。只要細心觀察，判斷井字棋的局面其實是很簡單的。
+_|_|_ _|_|_ | | 圖一，井字棋的格子 二、勝利方法 自己的棋子沿着橫方向，三個連成一線 自己的棋子沿着豎方向，三個連成一線 自己的棋子沿着對角方向，三個連成一線 井字棋的初學者常常會忽略對角方向的連線，讓對手有可乘之機。只要細心觀察，判斷井字棋的局面其實是很簡單的。
 這些勝利條件很多時候會是會同時生效的。互相交錯的棋子和難以預測的局面，是井字棋的樂趣所在。
 三、記錄棋局 井字棋用一連串的座標記錄棋局。要玩好井字棋，一定要好好學習棋譜，所以我們要先瞭解井字棋的座標是怎樣定義的。橫行從上至下叫1、2、3，縱列從左到右叫a、b、c。我們根據格子在哪一行哪一列，為這個格子安上名字。例如，中間格在第二行第二列，就叫作 b2。
 一場棋局的棋譜看起來是這樣的：a1, b1, a3, a2, c3, b2, b3。先手在這場棋局（圖二）裏施展了一次著名的三角殺法。
-1 2 3 圖 二 a O X O ， 先 b X X O 手 使 c O 用 了 三 角 殺 取 得 勝 利 因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。
+a b c 1|O X 2|X X 3|O O O 圖二，先手使用了三角殺取得勝利 因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。
+下在了角，那個位置就是 a1。 下在了邊，那個位置就是 b1。 下在了中間格 b2，就由第二步決定座標，下在了角就是 a1，邊就是 b1。 四、攻擊和防守 下子之後，只差一子就連成一線，這次下子就是一次攻擊，也叫作「喊殺」。下子之後，使對方無法落下第三子，這就是一次防守。井子棋的先後手有着明確的區別：先手能頻繁地進攻，主導着棋局的發展，而後手就要不斷地防守，試圖抓住先手的破綻。知道了以上這些，你就可以開始玩井字棋了，不用着急看接下來的部分。第二章會更詳細地説明與攻擊和防守有關的關鍵概念。
+第二章 關鍵概念 一、殺法 你喊殺我就擋，再喊我就再擋，一來一回，似乎雙方只會持續着拉鋸戰，都沒有取勝的辦法。要打破這個僵局，就要説到「殺法」這個概念了。井字棋最為精妙之處，就是能夠下一次子，形成多條殺路。這樣一來，對手就沒有招架的辦法。構建殺法一般需要三條殺路，對手有機會阻擋兩條殺路，只會留下一條能夠取勝的路線。殺法可以根據這三枚棋子的位置分成三種：三角殺、中邊角殺和角邊角殺。
+二、反制 反制，是在防住對手攻擊的時候同時喊殺，迫使對手浪費一次構建殺局的機會來防禦，是後手扭轉局勢的唯一辦法。
+第三章 實戰 開局是先手在一場比賽裏最重要的決定。開局分為三種，中開，邊開，角開。每一種對應不同的戰略。 角開是最適合新手的開局，能夠使用三角殺，快速擊敗缺乏經驗的對手。中開是非常穩定的開局，下子的對稱性能夠大副減少需要思考的可能局面，而且能夠往四方八面連線，殺法眾多，局面豐富。有助新手練習推演能力。邊開是最弱的開局，基本不可能取勝，只有在高手的對決中能當成奇策。
+角開 角開是最簡單的開局，能夠迅速構建三角殺。三角殺需要的是 a1、a3、c1 三個角落，形成形成橫豎斜三條殺路。這個開局的明顯缺陷是放棄了關鍵的中間格。只要被有經驗的對手佔據中間格 b2，擋住斜路，就能被輕易破解。所以角開又被稱為「新手開局」。不需過多的分析，輸贏就看對手能不能看穿自己的意圖。
+從這個新手開局裏，我們發現井子棋的中間格是兵家必爭之地，佔據了中間格，就算不能勝利，也能掌控局面。為何不一開始就下在中間格呢？接下來就要説到最常用的中開了。
 '>
         <title>井字棋入門 | Evthron&#39;s blog</title>
         
@@ -20,11 +26,17 @@
         <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='井字棋入門'>
 <meta property='og:description' content='第一章 基礎知識 井字棋是一種風靡全世界的遊戲，又名「過三關」，「圈叉棋」。井字棋的規則連小孩子也能明白，卻有着十變百化的局面，使人樂此不疲。
 一、遊玩方法 井字棋不需要棋盤。在白紙上劃兩條豎、兩條橫線（圖一）就可以玩。這個遊戲裏有兩種棋子 O 和 X，雙方各執一種棋子，先手用 O，後手就用 X；先手用 X，後手就用 O。在格子裏畫下自己的棋子叫作「下子」。誰先手誰後手由玩家自行協商，一般都是用剪刀石頭布決定。
-圖 一 ， 井 字 棋 的 格 子 二、勝利方法 自己的棋子沿着橫方向，三個連成一線 自己的棋子沿着豎方向，三個連成一線 自己的棋子沿着對角方向，三個連成一線 井字棋的初學者常常會忽略對角方向的連線，讓對手有可乘之機。只要細心觀察，判斷井字棋的局面其實是很簡單的。
+_|_|_ _|_|_ | | 圖一，井字棋的格子 二、勝利方法 自己的棋子沿着橫方向，三個連成一線 自己的棋子沿着豎方向，三個連成一線 自己的棋子沿着對角方向，三個連成一線 井字棋的初學者常常會忽略對角方向的連線，讓對手有可乘之機。只要細心觀察，判斷井字棋的局面其實是很簡單的。
 這些勝利條件很多時候會是會同時生效的。互相交錯的棋子和難以預測的局面，是井字棋的樂趣所在。
 三、記錄棋局 井字棋用一連串的座標記錄棋局。要玩好井字棋，一定要好好學習棋譜，所以我們要先瞭解井字棋的座標是怎樣定義的。橫行從上至下叫1、2、3，縱列從左到右叫a、b、c。我們根據格子在哪一行哪一列，為這個格子安上名字。例如，中間格在第二行第二列，就叫作 b2。
 一場棋局的棋譜看起來是這樣的：a1, b1, a3, a2, c3, b2, b3。先手在這場棋局（圖二）裏施展了一次著名的三角殺法。
-1 2 3 圖 二 a O X O ， 先 b X X O 手 使 c O 用 了 三 角 殺 取 得 勝 利 因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。
+a b c 1|O X 2|X X 3|O O O 圖二，先手使用了三角殺取得勝利 因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。
+下在了角，那個位置就是 a1。 下在了邊，那個位置就是 b1。 下在了中間格 b2，就由第二步決定座標，下在了角就是 a1，邊就是 b1。 四、攻擊和防守 下子之後，只差一子就連成一線，這次下子就是一次攻擊，也叫作「喊殺」。下子之後，使對方無法落下第三子，這就是一次防守。井子棋的先後手有着明確的區別：先手能頻繁地進攻，主導着棋局的發展，而後手就要不斷地防守，試圖抓住先手的破綻。知道了以上這些，你就可以開始玩井字棋了，不用着急看接下來的部分。第二章會更詳細地説明與攻擊和防守有關的關鍵概念。
+第二章 關鍵概念 一、殺法 你喊殺我就擋，再喊我就再擋，一來一回，似乎雙方只會持續着拉鋸戰，都沒有取勝的辦法。要打破這個僵局，就要説到「殺法」這個概念了。井字棋最為精妙之處，就是能夠下一次子，形成多條殺路。這樣一來，對手就沒有招架的辦法。構建殺法一般需要三條殺路，對手有機會阻擋兩條殺路，只會留下一條能夠取勝的路線。殺法可以根據這三枚棋子的位置分成三種：三角殺、中邊角殺和角邊角殺。
+二、反制 反制，是在防住對手攻擊的時候同時喊殺，迫使對手浪費一次構建殺局的機會來防禦，是後手扭轉局勢的唯一辦法。
+第三章 實戰 開局是先手在一場比賽裏最重要的決定。開局分為三種，中開，邊開，角開。每一種對應不同的戰略。 角開是最適合新手的開局，能夠使用三角殺，快速擊敗缺乏經驗的對手。中開是非常穩定的開局，下子的對稱性能夠大副減少需要思考的可能局面，而且能夠往四方八面連線，殺法眾多，局面豐富。有助新手練習推演能力。邊開是最弱的開局，基本不可能取勝，只有在高手的對決中能當成奇策。
+角開 角開是最簡單的開局，能夠迅速構建三角殺。三角殺需要的是 a1、a3、c1 三個角落，形成形成橫豎斜三條殺路。這個開局的明顯缺陷是放棄了關鍵的中間格。只要被有經驗的對手佔據中間格 b2，擋住斜路，就能被輕易破解。所以角開又被稱為「新手開局」。不需過多的分析，輸贏就看對手能不能看穿自己的意圖。
+從這個新手開局裏，我們發現井子棋的中間格是兵家必爭之地，佔據了中間格，就算不能勝利，也能掌控局面。為何不一開始就下在中間格呢？接下來就要説到最常用的中開了。
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/posts/tic-tac-toe/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
@@ -32,11 +44,17 @@
 <meta name="twitter:title" content="井字棋入門">
 <meta name="twitter:description" content="第一章 基礎知識 井字棋是一種風靡全世界的遊戲，又名「過三關」，「圈叉棋」。井字棋的規則連小孩子也能明白，卻有着十變百化的局面，使人樂此不疲。
 一、遊玩方法 井字棋不需要棋盤。在白紙上劃兩條豎、兩條橫線（圖一）就可以玩。這個遊戲裏有兩種棋子 O 和 X，雙方各執一種棋子，先手用 O，後手就用 X；先手用 X，後手就用 O。在格子裏畫下自己的棋子叫作「下子」。誰先手誰後手由玩家自行協商，一般都是用剪刀石頭布決定。
-圖 一 ， 井 字 棋 的 格 子 二、勝利方法 自己的棋子沿着橫方向，三個連成一線 自己的棋子沿着豎方向，三個連成一線 自己的棋子沿着對角方向，三個連成一線 井字棋的初學者常常會忽略對角方向的連線，讓對手有可乘之機。只要細心觀察，判斷井字棋的局面其實是很簡單的。
+_|_|_ _|_|_ | | 圖一，井字棋的格子 二、勝利方法 自己的棋子沿着橫方向，三個連成一線 自己的棋子沿着豎方向，三個連成一線 自己的棋子沿着對角方向，三個連成一線 井字棋的初學者常常會忽略對角方向的連線，讓對手有可乘之機。只要細心觀察，判斷井字棋的局面其實是很簡單的。
 這些勝利條件很多時候會是會同時生效的。互相交錯的棋子和難以預測的局面，是井字棋的樂趣所在。
 三、記錄棋局 井字棋用一連串的座標記錄棋局。要玩好井字棋，一定要好好學習棋譜，所以我們要先瞭解井字棋的座標是怎樣定義的。橫行從上至下叫1、2、3，縱列從左到右叫a、b、c。我們根據格子在哪一行哪一列，為這個格子安上名字。例如，中間格在第二行第二列，就叫作 b2。
 一場棋局的棋譜看起來是這樣的：a1, b1, a3, a2, c3, b2, b3。先手在這場棋局（圖二）裏施展了一次著名的三角殺法。
-1 2 3 圖 二 a O X O ， 先 b X X O 手 使 c O 用 了 三 角 殺 取 得 勝 利 因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。
+a b c 1|O X 2|X X 3|O O O 圖二，先手使用了三角殺取得勝利 因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。
+下在了角，那個位置就是 a1。 下在了邊，那個位置就是 b1。 下在了中間格 b2，就由第二步決定座標，下在了角就是 a1，邊就是 b1。 四、攻擊和防守 下子之後，只差一子就連成一線，這次下子就是一次攻擊，也叫作「喊殺」。下子之後，使對方無法落下第三子，這就是一次防守。井子棋的先後手有着明確的區別：先手能頻繁地進攻，主導着棋局的發展，而後手就要不斷地防守，試圖抓住先手的破綻。知道了以上這些，你就可以開始玩井字棋了，不用着急看接下來的部分。第二章會更詳細地説明與攻擊和防守有關的關鍵概念。
+第二章 關鍵概念 一、殺法 你喊殺我就擋，再喊我就再擋，一來一回，似乎雙方只會持續着拉鋸戰，都沒有取勝的辦法。要打破這個僵局，就要説到「殺法」這個概念了。井字棋最為精妙之處，就是能夠下一次子，形成多條殺路。這樣一來，對手就沒有招架的辦法。構建殺法一般需要三條殺路，對手有機會阻擋兩條殺路，只會留下一條能夠取勝的路線。殺法可以根據這三枚棋子的位置分成三種：三角殺、中邊角殺和角邊角殺。
+二、反制 反制，是在防住對手攻擊的時候同時喊殺，迫使對手浪費一次構建殺局的機會來防禦，是後手扭轉局勢的唯一辦法。
+第三章 實戰 開局是先手在一場比賽裏最重要的決定。開局分為三種，中開，邊開，角開。每一種對應不同的戰略。 角開是最適合新手的開局，能夠使用三角殺，快速擊敗缺乏經驗的對手。中開是非常穩定的開局，下子的對稱性能夠大副減少需要思考的可能局面，而且能夠往四方八面連線，殺法眾多，局面豐富。有助新手練習推演能力。邊開是最弱的開局，基本不可能取勝，只有在高手的對決中能當成奇策。
+角開 角開是最簡單的開局，能夠迅速構建三角殺。三角殺需要的是 a1、a3、c1 三個角落，形成形成橫豎斜三條殺路。這個開局的明顯缺陷是放棄了關鍵的中間格。只要被有經驗的對手佔據中間格 b2，擋住斜路，就能被輕易破解。所以角開又被稱為「新手開局」。不需過多的分析，輸贏就看對手能不能看穿自己的意圖。
+從這個新手開局裏，我們發現井子棋的中間格是兵家必爭之地，佔據了中間格，就算不能勝利，也能掌控局面。為何不一開始就下在中間格呢？接下來就要説到最常用的中開了。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -364,41 +382,11 @@
 <p>井字棋是一種風靡全世界的遊戲，又名「過三關」，「圈叉棋」。井字棋的規則連小孩子也能明白，卻有着十變百化的局面，使人樂此不疲。</p>
 <h2 id="一遊玩方法">一、遊玩方法</h2>
 <p>井字棋不需要棋盤。在白紙上劃兩條豎、兩條橫線（圖一）就可以玩。這個遊戲裏有兩種棋子 O 和 X，雙方各執一種棋子，先手用 O，後手就用 X；先手用 X，後手就用 O。在格子裏畫下自己的棋子叫作「下子」。誰先手誰後手由玩家自行協商，一般都是用剪刀石頭布決定。</p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 80 73"
-      >
-      <g transform='translate(8,16)'>
-<path d='M 0,8 L 8,8' fill='none' stroke='currentColor'></path>
-<path d='M 8,8 L 24,8' fill='none' stroke='currentColor'></path>
-<path d='M 24,8 L 32,8' fill='none' stroke='currentColor'></path>
-<path d='M 0,24 L 8,24' fill='none' stroke='currentColor'></path>
-<path d='M 8,24 L 24,24' fill='none' stroke='currentColor'></path>
-<path d='M 24,24 L 32,24' fill='none' stroke='currentColor'></path>
-<path d='M 8,0 L 8,32' fill='none' stroke='currentColor'></path>
-<path d='M 24,0 L 24,32' fill='none' stroke='currentColor'></path>
-<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>圖</text>
-<text text-anchor='middle' x='8' y='52' fill='currentColor' style='font-size:1em'>一</text>
-<text text-anchor='middle' x='16' y='52' fill='currentColor' style='font-size:1em'>，</text>
-<text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>井</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>字</text>
-<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>棋</text>
-<text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>的</text>
-<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>格</text>
-<text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>子</text>
-</g>
-
-    </svg>
-  
-</div>
-<h2 id="二勝利方法">二、勝利方法</h2>
+<pre tabindex="0"><code>_|_|_
+_|_|_
+ | |
+圖一，井字棋的格子
+</code></pre><h2 id="二勝利方法">二、勝利方法</h2>
 <ol>
 <li>自己的棋子沿着橫方向，三個連成一線</li>
 <li>自己的棋子沿着豎方向，三個連成一線</li>
@@ -409,53 +397,12 @@
 <h2 id="三記錄棋局">三、記錄棋局</h2>
 <p>井字棋用一連串的座標記錄棋局。要玩好井字棋，一定要好好學習棋譜，所以我們要先瞭解井字棋的座標是怎樣定義的。橫行從上至下叫1、2、3，縱列從左到右叫a、b、c。我們根據格子在哪一行哪一列，為這個格子安上名字。例如，中間格在第二行第二列，就叫作 b2。</p>
 <p>一場棋局的棋譜看起來是這樣的：a1, b1, a3, a2, c3, b2, b3。先手在這場棋局（圖二）裏施展了一次著名的三角殺法。</p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 128 89"
-      >
-      <g transform='translate(8,16)'>
-<path d='M 8,16 L 8,48' fill='none' stroke='currentColor'></path>
-<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>圖</text>
-<text text-anchor='middle' x='8' y='68' fill='currentColor' style='font-size:1em'>二</text>
-<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>O</text>
-<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>X</text>
-<text text-anchor='middle' x='16' y='52' fill='currentColor' style='font-size:1em'>O</text>
-<text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>，</text>
-<text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>先</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>b</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>X</text>
-<text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>X</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>O</text>
-<text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>手</text>
-<text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>使</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>O</text>
-<text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>用</text>
-<text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'>了</text>
-<text text-anchor='middle' x='64' y='68' fill='currentColor' style='font-size:1em'>三</text>
-<text text-anchor='middle' x='72' y='68' fill='currentColor' style='font-size:1em'>角</text>
-<text text-anchor='middle' x='80' y='68' fill='currentColor' style='font-size:1em'>殺</text>
-<text text-anchor='middle' x='88' y='68' fill='currentColor' style='font-size:1em'>取</text>
-<text text-anchor='middle' x='96' y='68' fill='currentColor' style='font-size:1em'>得</text>
-<text text-anchor='middle' x='104' y='68' fill='currentColor' style='font-size:1em'>勝</text>
-<text text-anchor='middle' x='112' y='68' fill='currentColor' style='font-size:1em'>利</text>
-</g>
-
-    </svg>
-  
-</div>
-<p>因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。</p>
+<pre tabindex="0"><code>  a b c
+1|O X  
+2|X X
+3|O O O
+圖二，先手使用了三角殺取得勝利
+</code></pre><p>因為棋盤可以旋轉，相似的棋局會有多一種編碼。為了消除重複的編碼，讓棋譜更容易分析。編寫棋譜的時候會按照開局的第一步調整。</p>
 <ol>
 <li>下在了角，那個位置就是 a1。</li>
 <li>下在了邊，那個位置就是 b1。</li>

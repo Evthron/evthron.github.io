@@ -5,7 +5,8 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='.NET Core .NET Core 有幾種模板，文件結構不同：
 Razor Pages：用於網頁 MVC：Model、View、Controller Web API：用於 API 程式從 Program.cs 開始執行。
 Razor Pages 每個 Razor 頁面包含：
-.cshtml：處理前端 .cshtml.cs：處理後端 .cshtml @page：標記頁面 @model：指定後端代碼（哪個 .cshtml.cs 文件） @{}：嵌入 C# 代碼 @section： 每個頁面都基於 Pages/Shared 的佈局生成的，所以不需要放進完整的代碼。@section 指定內容對應佈局的哪個部分 沒用 @ 包住的部分，會放進布局的 @RenderBody() .cshtml.cs [BindProperty]：自動綁定前端數據 示例：public async Task&lt;IActionResult&gt; OnPostUpdateMarkersAsync 根據方法的名稱處理頁面請求 用了 [BindProperty] 之後，無需手動把 JSON 轉成 object 返回 Task，會變成 JavaScript 的 Promise '>
+.cshtml：處理前端 .cshtml.cs：處理後端 .cshtml @page：標記頁面 @model：指定後端代碼（哪個 .cshtml.cs 文件） @{}：嵌入 C# 代碼 @section： 每個頁面都基於 Pages/Shared 的佈局生成的，所以不需要放進完整的代碼。@section 指定內容對應佈局的哪個部分 沒用 @ 包住的部分，會放進布局的 @RenderBody() .cshtml.cs [BindProperty]：自動綁定前端數據 示例：public async Task&lt;IActionResult&gt; OnPostUpdateMarkersAsync 根據方法的名稱處理頁面請求 用了 [BindProperty] 之後，無需手動把 JSON 轉成 object 返回 Task，會變成 JavaScript 的 Promise 設置 API Key dotnet user-secrets init dotnet user-secrets set &#34;GoogleApi:Key&#34; &#34;YOURAPIKEY&#34; 在 cshtml.cs 裏面：
+private readonly IConfiguration _config; public IndexModel(IConfiguration config) { _config = config; } var apiKey = _config[&#34;GoogleApi:Key&#34;] ?? throw new InvalidOperationException(&#34;Google API key not found&#34;); '>
         <title>.NET | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/zh/code/dotnet/'>
@@ -17,15 +18,17 @@ Razor Pages 每個 Razor 頁面包含：
 <meta property='og:description' content='.NET Core .NET Core 有幾種模板，文件結構不同：
 Razor Pages：用於網頁 MVC：Model、View、Controller Web API：用於 API 程式從 Program.cs 開始執行。
 Razor Pages 每個 Razor 頁面包含：
-.cshtml：處理前端 .cshtml.cs：處理後端 .cshtml @page：標記頁面 @model：指定後端代碼（哪個 .cshtml.cs 文件） @{}：嵌入 C# 代碼 @section： 每個頁面都基於 Pages/Shared 的佈局生成的，所以不需要放進完整的代碼。@section 指定內容對應佈局的哪個部分 沒用 @ 包住的部分，會放進布局的 @RenderBody() .cshtml.cs [BindProperty]：自動綁定前端數據 示例：public async Task&lt;IActionResult&gt; OnPostUpdateMarkersAsync 根據方法的名稱處理頁面請求 用了 [BindProperty] 之後，無需手動把 JSON 轉成 object 返回 Task，會變成 JavaScript 的 Promise '>
+.cshtml：處理前端 .cshtml.cs：處理後端 .cshtml @page：標記頁面 @model：指定後端代碼（哪個 .cshtml.cs 文件） @{}：嵌入 C# 代碼 @section： 每個頁面都基於 Pages/Shared 的佈局生成的，所以不需要放進完整的代碼。@section 指定內容對應佈局的哪個部分 沒用 @ 包住的部分，會放進布局的 @RenderBody() .cshtml.cs [BindProperty]：自動綁定前端數據 示例：public async Task&lt;IActionResult&gt; OnPostUpdateMarkersAsync 根據方法的名稱處理頁面請求 用了 [BindProperty] 之後，無需手動把 JSON 轉成 object 返回 Task，會變成 JavaScript 的 Promise 設置 API Key dotnet user-secrets init dotnet user-secrets set &#34;GoogleApi:Key&#34; &#34;YOURAPIKEY&#34; 在 cshtml.cs 裏面：
+private readonly IConfiguration _config; public IndexModel(IConfiguration config) { _config = config; } var apiKey = _config[&#34;GoogleApi:Key&#34;] ?? throw new InvalidOperationException(&#34;Google API key not found&#34;); '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/dotnet/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-04-11T17:10:48&#43;08:00'/><meta property='article:modified_time' content='2025-04-11T17:10:48&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-04-13T19:31:56&#43;08:00'/><meta property='article:modified_time' content='2025-04-13T19:31:56&#43;08:00'/>
 <meta name="twitter:title" content=".NET">
 <meta name="twitter:description" content=".NET Core .NET Core 有幾種模板，文件結構不同：
 Razor Pages：用於網頁 MVC：Model、View、Controller Web API：用於 API 程式從 Program.cs 開始執行。
 Razor Pages 每個 Razor 頁面包含：
-.cshtml：處理前端 .cshtml.cs：處理後端 .cshtml @page：標記頁面 @model：指定後端代碼（哪個 .cshtml.cs 文件） @{}：嵌入 C# 代碼 @section： 每個頁面都基於 Pages/Shared 的佈局生成的，所以不需要放進完整的代碼。@section 指定內容對應佈局的哪個部分 沒用 @ 包住的部分，會放進布局的 @RenderBody() .cshtml.cs [BindProperty]：自動綁定前端數據 示例：public async Task&lt;IActionResult&gt; OnPostUpdateMarkersAsync 根據方法的名稱處理頁面請求 用了 [BindProperty] 之後，無需手動把 JSON 轉成 object 返回 Task，會變成 JavaScript 的 Promise ">
+.cshtml：處理前端 .cshtml.cs：處理後端 .cshtml @page：標記頁面 @model：指定後端代碼（哪個 .cshtml.cs 文件） @{}：嵌入 C# 代碼 @section： 每個頁面都基於 Pages/Shared 的佈局生成的，所以不需要放進完整的代碼。@section 指定內容對應佈局的哪個部分 沒用 @ 包住的部分，會放進布局的 @RenderBody() .cshtml.cs [BindProperty]：自動綁定前端數據 示例：public async Task&lt;IActionResult&gt; OnPostUpdateMarkersAsync 根據方法的名稱處理頁面請求 用了 [BindProperty] 之後，無需手動把 JSON 轉成 object 返回 Task，會變成 JavaScript 的 Promise 設置 API Key dotnet user-secrets init dotnet user-secrets set &#34;GoogleApi:Key&#34; &#34;YOURAPIKEY&#34; 在 cshtml.cs 裏面：
+private readonly IConfiguration _config; public IndexModel(IConfiguration config) { _config = config; } var apiKey = _config[&#34;GoogleApi:Key&#34;] ?? throw new InvalidOperationException(&#34;Google API key not found&#34;); ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -322,7 +325,7 @@ Razor Pages 每個 Razor 頁面包含：
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2025-04-11</time>
+                    <time class="article-time--published">2025-04-13</time>
                 </div>
             
     
@@ -376,7 +379,18 @@ Razor Pages 每個 Razor 頁面包含：
 </ul>
 </li>
 </ul>
-
+<h2 id="設置-api-key">設置 API Key</h2>
+<pre tabindex="0"><code>dotnet user-secrets init
+dotnet user-secrets set &#34;GoogleApi:Key&#34; &#34;YOURAPIKEY&#34;
+</code></pre><p>在 cshtml.cs 裏面：</p>
+<pre tabindex="0"><code>
+        private readonly IConfiguration _config;
+        public IndexModel(IConfiguration config)
+        {
+            _config = config;
+        }
+        var apiKey = _config[&#34;GoogleApi:Key&#34;] ?? throw new InvalidOperationException(&#34;Google API key not found&#34;);
+</code></pre>
     </section>
 
     

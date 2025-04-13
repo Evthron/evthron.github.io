@@ -32,227 +32,32 @@
 所謂的音階，可以看作音程的組合。如果把音程限制在半、全、增三種（1, 2, 3），要跨越一個八度的話，到底有多少種可能的音程組合呢？一個八度裏面有十二個音程。如果把所有的音程都彈出來的話，可以寫成十二個一：1111 1111 1111。在大調音階裏面，一步會跳兩個音程，例如從 C 到 D ，有時候也會跳一個音程，例如從 E 到 F。這些音程可以寫成 2212221。用同樣的方式看待小調音階，就會寫成 2122132（這裏指的是和聲小調音階，我後來才發現小調音階有好幾種）。
 我在這個時候發現，之前考試要考的，讓人學得頭昏的組合數學居然派上用場了。這個問題叫做 Combination with replacement 。解決方法叫做 Stars and bars。不過要分別計算每一種的排列的話，就要一個個數出來了。總共有 927 種。
 
+3333 = 1
 
+33321 = 20
+333111 = 20
 
+33 111 111 = 28
+33 21 111 = 105
+33 22 11 = 90
+33 222 = 10
 
-  
-    
-      
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-2
-2
-2
-2
-2
-2
-1
-T
-3
-3
-3
-3
-3
-3
-3
-2
-2
-2
-2
-2
-1
-o
-3
-3
-3
-1
-2
-2
-2
-2
-2
-2
-2
-2
-1
-t
-3
-2
-1
-1
-2
-2
-2
-1
-1
-2
-2
-2
-2
-2
-2
-1
-1
-1
-a
-1
-1
-1
-1
-2
-2
-1
-2
-2
-2
-2
-1
-1
-1
-l
-=
-1
-1
-2
-1
-1
-2
-2
-1
-1
-1
-=
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-=
-1
-=
-1
-1
-1
-=
-1
-1
-1
-1
-=
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-9
-0
-2
-1
-=
-1
-1
-1
-=
-1
-=
-1
-1
-1
-1
-2
-0
-=
-0
-1
-1
-1
-=
-1
-1
-1
-7
-=
-9
-1
-1
-3
-2
-=
-1
-1
-1
-0
-1
-=
-1
-0
-1
-1
-1
-1
-2
-0
-=
-4
-7
-=
-1
-1
-8
-5
-=
-1
-0
-0
-1
-7
-6
-8
-=
-1
-1
-1
-2
-8
-4
-1
-0
-4
-=
-5
-=
-1
-1
-1
+3 111 111 111 = 10
+3 21 111 111 = 72
+3 22 11 111 = 168
+3 222 111 = 140
+3 2222 1 = 30
 
+222222 = 1
+22222 11 = 21
+2222 11 11 = 70
+222 11 11 11 = 84
+22 11 11 11 11 = 45
+2 11 11 11 11 11 = 11
 
-    
-  
+11 11 11 11 11 11 = 1
 
+Total = 927
 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。" />
   <meta name="author" content="Evthron" /><link rel="preload stylesheet" as="style" href="https://evthron.github.io/main.min.css" />
 
@@ -310,7 +115,7 @@ l
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.146.1">
+  <meta name="generator" content="Hugo 0.146.3">
   <meta itemprop="name" content="音階 ">
   <meta itemprop="description" content="這個世界上到底有多少種旋律？光看一個個音的組合，種類當然無窮無盡。但是真正好聽的組合應該只有一小部分，不可能真的無窮無盡。
 第一個問題是，音樂裏面有幾個音？這個容易回答。隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。在這兩個音之間分割十二份，就有十二個不一樣的音。十二個音太多了，不好編旋律，所以作曲家會挑出當中一部分的音使用，這一部分的音就是音階。
@@ -318,10 +123,10 @@ l
 用音階寫旋律雖然方便，但也限制了我們能寫什麽旋律。那麽，如果能發現新的音階，不就能發現新的旋律嗎？
 所謂的音階，可以看作音程的組合。如果把音程限制在半、全、增三種（1, 2, 3），要跨越一個八度的話，到底有多少種可能的音程組合呢？一個八度裏面有十二個音程。如果把所有的音程都彈出來的話，可以寫成十二個一：1111 1111 1111。在大調音階裏面，一步會跳兩個音程，例如從 C 到 D ，有時候也會跳一個音程，例如從 E 到 F。這些音程可以寫成 2212221。用同樣的方式看待小調音階，就會寫成 2122132（這裏指的是和聲小調音階，我後來才發現小調音階有好幾種）。
 我在這個時候發現，之前考試要考的，讓人學得頭昏的組合數學居然派上用場了。這個問題叫做 Combination with replacement 。解決方法叫做 Stars and bars。不過要分別計算每一種的排列的話，就要一個個數出來了。總共有 927 種。
-3 3 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 1 T 3 3 3 3 3 3 3 2 2 2 2 2 1 o 3 3 3 1 2 2 2 2 2 2 2 2 1 t 3 2 1 1 2 2 2 1 1 2 2 2 2 2 2 1 1 1 a 1 1 1 1 2 2 1 2 2 2 2 1 1 1 l = 1 1 2 1 1 2 2 1 1 1 = 1 1 1 1 1 1 1 1 1 1 1 = 1 = 1 1 1 = 1 1 1 1 = 1 1 1 1 2 1 1 1 1 1 1 1 1 9 0 2 1 = 1 1 1 = 1 = 1 1 1 1 2 0 = 0 1 1 1 = 1 1 1 7 = 9 1 1 3 2 = 1 1 1 0 1 = 1 0 1 1 1 1 2 0 = 4 7 = 1 1 8 5 = 1 0 0 1 7 6 8 = 1 1 1 2 8 4 1 0 4 = 5 = 1 1 1 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。">
+3333 = 1 33321 = 20 333111 = 20 33 111 111 = 28 33 21 111 = 105 33 22 11 = 90 33 222 = 10 3 111 111 111 = 10 3 21 111 111 = 72 3 22 11 111 = 168 3 222 111 = 140 3 2222 1 = 30 222222 = 1 22222 11 = 21 2222 11 11 = 70 222 11 11 11 = 84 22 11 11 11 11 = 45 2 11 11 11 11 11 = 11 11 11 11 11 11 11 = 1 Total = 927 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。">
   <meta itemprop="datePublished" content="2024-06-10T12:52:49+08:00">
   <meta itemprop="dateModified" content="2025-01-18T02:22:29+08:00">
-  <meta itemprop="wordCount" content="776">
+  <meta itemprop="wordCount" content="373">
   <meta itemprop="keywords" content="Maths,Music"><meta property="og:url" content="https://evthron.github.io/zh/profile/posts/scale/">
   <meta property="og:site_name" content="Evthron&#39;s blog">
   <meta property="og:title" content="音階 ">
@@ -331,7 +136,7 @@ l
 用音階寫旋律雖然方便，但也限制了我們能寫什麽旋律。那麽，如果能發現新的音階，不就能發現新的旋律嗎？
 所謂的音階，可以看作音程的組合。如果把音程限制在半、全、增三種（1, 2, 3），要跨越一個八度的話，到底有多少種可能的音程組合呢？一個八度裏面有十二個音程。如果把所有的音程都彈出來的話，可以寫成十二個一：1111 1111 1111。在大調音階裏面，一步會跳兩個音程，例如從 C 到 D ，有時候也會跳一個音程，例如從 E 到 F。這些音程可以寫成 2212221。用同樣的方式看待小調音階，就會寫成 2122132（這裏指的是和聲小調音階，我後來才發現小調音階有好幾種）。
 我在這個時候發現，之前考試要考的，讓人學得頭昏的組合數學居然派上用場了。這個問題叫做 Combination with replacement 。解決方法叫做 Stars and bars。不過要分別計算每一種的排列的話，就要一個個數出來了。總共有 927 種。
-3 3 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 1 T 3 3 3 3 3 3 3 2 2 2 2 2 1 o 3 3 3 1 2 2 2 2 2 2 2 2 1 t 3 2 1 1 2 2 2 1 1 2 2 2 2 2 2 1 1 1 a 1 1 1 1 2 2 1 2 2 2 2 1 1 1 l = 1 1 2 1 1 2 2 1 1 1 = 1 1 1 1 1 1 1 1 1 1 1 = 1 = 1 1 1 = 1 1 1 1 = 1 1 1 1 2 1 1 1 1 1 1 1 1 9 0 2 1 = 1 1 1 = 1 = 1 1 1 1 2 0 = 0 1 1 1 = 1 1 1 7 = 9 1 1 3 2 = 1 1 1 0 1 = 1 0 1 1 1 1 2 0 = 4 7 = 1 1 8 5 = 1 0 0 1 7 6 8 = 1 1 1 2 8 4 1 0 4 = 5 = 1 1 1 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。">
+3333 = 1 33321 = 20 333111 = 20 33 111 111 = 28 33 21 111 = 105 33 22 11 = 90 33 222 = 10 3 111 111 111 = 10 3 21 111 111 = 72 3 22 11 111 = 168 3 222 111 = 140 3 2222 1 = 30 222222 = 1 22222 11 = 21 2222 11 11 = 70 222 11 11 11 = 84 22 11 11 11 11 = 45 2 11 11 11 11 11 = 11 11 11 11 11 11 11 = 1 Total = 927 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
     <meta property="article:section" content="profile">
@@ -348,7 +153,7 @@ l
 用音階寫旋律雖然方便，但也限制了我們能寫什麽旋律。那麽，如果能發現新的音階，不就能發現新的旋律嗎？
 所謂的音階，可以看作音程的組合。如果把音程限制在半、全、增三種（1, 2, 3），要跨越一個八度的話，到底有多少種可能的音程組合呢？一個八度裏面有十二個音程。如果把所有的音程都彈出來的話，可以寫成十二個一：1111 1111 1111。在大調音階裏面，一步會跳兩個音程，例如從 C 到 D ，有時候也會跳一個音程，例如從 E 到 F。這些音程可以寫成 2212221。用同樣的方式看待小調音階，就會寫成 2122132（這裏指的是和聲小調音階，我後來才發現小調音階有好幾種）。
 我在這個時候發現，之前考試要考的，讓人學得頭昏的組合數學居然派上用場了。這個問題叫做 Combination with replacement 。解決方法叫做 Stars and bars。不過要分別計算每一種的排列的話，就要一個個數出來了。總共有 927 種。
-3 3 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 1 T 3 3 3 3 3 3 3 2 2 2 2 2 1 o 3 3 3 1 2 2 2 2 2 2 2 2 1 t 3 2 1 1 2 2 2 1 1 2 2 2 2 2 2 1 1 1 a 1 1 1 1 2 2 1 2 2 2 2 1 1 1 l = 1 1 2 1 1 2 2 1 1 1 = 1 1 1 1 1 1 1 1 1 1 1 = 1 = 1 1 1 = 1 1 1 1 = 1 1 1 1 2 1 1 1 1 1 1 1 1 9 0 2 1 = 1 1 1 = 1 = 1 1 1 1 2 0 = 0 1 1 1 = 1 1 1 7 = 9 1 1 3 2 = 1 1 1 0 1 = 1 0 1 1 1 1 2 0 = 4 7 = 1 1 8 5 = 1 0 0 1 7 6 8 = 1 1 1 2 8 4 1 0 4 = 5 = 1 1 1 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。">
+3333 = 1 33321 = 20 333111 = 20 33 111 111 = 28 33 21 111 = 105 33 22 11 = 90 33 222 = 10 3 111 111 111 = 10 3 21 111 111 = 72 3 22 11 111 = 168 3 222 111 = 140 3 2222 1 = 30 222222 = 1 22222 11 = 21 2222 11 11 = 70 222 11 11 11 = 84 22 11 11 11 11 = 45 2 11 11 11 11 11 = 11 11 11 11 11 11 11 = 1 Total = 927 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。">
 
   <link rel="canonical" href="https://evthron.github.io/zh/profile/posts/scale/" />
 </head>
@@ -476,791 +281,69 @@ l
 <p>用音階寫旋律雖然方便，但也限制了我們能寫什麽旋律。那麽，如果能發現新的音階，不就能發現新的旋律嗎？</p>
 <p>所謂的音階，可以看作音程的組合。如果把音程限制在半、全、增三種（1, 2, 3），要跨越一個八度的話，到底有多少種可能的音程組合呢？一個八度裏面有十二個音程。如果把所有的音程都彈出來的話，可以寫成十二個一：1111 1111 1111。在大調音階裏面，一步會跳兩個音程，例如從 C 到 D ，有時候也會跳一個音程，例如從 E 到 F。這些音程可以寫成 2212221。用同樣的方式看待小調音階，就會寫成 2122132（這裏指的是和聲小調音階，我後來才發現小調音階有好幾種）。</p>
 <p>我在這個時候發現，之前考試要考的，讓人學得頭昏的組合數學居然派上用場了。這個問題叫做 Combination with replacement 。解決方法叫做 Stars and bars。不過要分別計算每一種的排列的話，就要一個個數出來了。總共有 927 種。</p>
+<pre tabindex="0"><code>
+3333 = 1
 
+33321 = 20
+333111 = 20
 
+33 111 111 = 28
+33 21 111 = 105
+33 22 11 = 90
+33 222 = 10
 
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 176 441"
-      >
-      <g transform='translate(8,16)'>
-<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='100' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='116' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='132' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='148' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='180' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='196' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='212' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='228' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='244' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='276' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='292' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='308' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='324' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='340' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='356' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='0' y='420' fill='currentColor' style='font-size:1em'>T</text>
-<text text-anchor='middle' x='8' y='20' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='52' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='68' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='100' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='116' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='132' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='148' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='276' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='292' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='308' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='324' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='340' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='8' y='420' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='16' y='52' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='16' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='16' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='228' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='244' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='276' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='292' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='308' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='324' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='16' y='420' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='116' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='132' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='228' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='244' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='276' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='292' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='308' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='420' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='132' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='228' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='244' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='276' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='292' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='324' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='420' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='40' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='244' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='40' y='276' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='40' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='324' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='420' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='148' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='56' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='276' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='56' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='324' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='324' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='420' fill='currentColor' style='font-size:1em'>9</text>
-<text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='72' y='68' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='132' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='72' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='244' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='72' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='292' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='72' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='420' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='80' y='68' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='80' y='148' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='80' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='228' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='80' y='324' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='420' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='88' y='132' fill='currentColor' style='font-size:1em'>9</text>
-<text text-anchor='middle' x='88' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='88' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='88' y='244' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='88' y='292' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='88' y='308' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='88' y='324' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='88' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='132' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='96' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='212' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='96' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='244' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='96' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='116' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='104' y='196' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='104' y='228' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='104' y='308' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='104' y='324' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='104' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='104' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='112' y='180' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='112' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='228' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='112' y='308' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='112' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='120' y='196' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='120' y='212' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='120' y='324' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='120' y='340' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='120' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='120' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='212' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='128' y='324' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='128' y='388' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='136' y='180' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='136' y='340' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='136' y='356' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='144' y='340' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='144' y='388' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='152' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='160' y='356' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='160' y='388' fill='currentColor' style='font-size:1em'>1</text>
-</g>
+3 111 111 111 = 10
+3 21 111 111 = 72
+3 22 11 111 = 168
+3 222 111 = 140
+3 2222 1 = 30
 
-    </svg>
-  
-</div>
-<p>事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。</p>
+222222 = 1
+22222 11 = 21
+2222 11 11 = 70
+222 11 11 11 = 84
+22 11 11 11 11 = 45
+2 11 11 11 11 11 = 11
 
+11 11 11 11 11 11 = 1
 
+Total = 927
+</code></pre><p>事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。</p>
+<pre tabindex="0"><code>Augment:    2222121
+Lydian:     2221221
+Major:      2212221
+Mixolydian: 2212212 
+Dorian:     2122212 
+Aeolian:    2122122
+Har minor:  2122132
+Phygian:    1222122
+Phy Domin:  1312122
+Locian:     1221222
+Altered:    1212222
+</code></pre><p>但是，在環形排列裏面如果有重複的元素，應該怎麼數呢？我這才發現，我從來都沒有碰到過這樣的問題。環形排列在高中就教過了，可以説連小學生都能懂，但為什麼沒有碰到過呢？原來，只要在環形排列裏加入重複的元素，就要用上群論了，一點也不簡單，難怪沒有學過。Burnside&rsquo;s theorem 的原理很複雜，不過算起來倒不難。就是把音階的旋轉對稱性考慮進去，計算每個音階的「軌道」（Orbit）。全部算出來之後，答案是132。也就是說，在一個八度裏分割音程，只有132種可能。</p>
+<pre tabindex="0"><code>3333 = 1
+33321 = (20 + 0) / 5 = 4
+333111 = (20 + 4) / 6 = 4
+33 111 111 = 28 + 4 / 8 = 4
+33 21 111 = 105 + 0 / 7 = 15 
+33 22 11 = 90 + 6 / 6 = 16
+33 222 = 10 + 0 / 5 = 2
+3 111 111 111 = 10 + 0 / 10 = 1
+3 21 111 111 = 72 + 0 / 9 = 8 
+3 22 11 111 = 168 + 0 / 8 = 21
+3 222 111 = 140 + 0 / 7 = 20
+3 2222 1 = 30 + 0 / 6 = 5
+222222 = 1
+22222 11 = 21 + 0 / 7 = 3
+2222 11 11 = 70 + 10 / 8 = 10
+222 11 11 11 = 84 + 6 / 9 = 10
+22 11 11 11 11 = 45 + 5 / 10 = 5
+2 11 11 11 11 11 = 11 / 11 = 1
+11 11 11 11 11 11 = 1
+= 1 + 4 + 4 + 4 + 15+16+2+1+8+21+20+5+1+3+10+10+5+1+1
 
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 168 185"
-      >
-      <g transform='translate(8,16)'>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>A</text>
-<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>L</text>
-<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>M</text>
-<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>M</text>
-<text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>D</text>
-<text text-anchor='middle' x='0' y='84' fill='currentColor' style='font-size:1em'>A</text>
-<text text-anchor='middle' x='0' y='100' fill='currentColor' style='font-size:1em'>H</text>
-<text text-anchor='middle' x='0' y='116' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='0' y='132' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='0' y='148' fill='currentColor' style='font-size:1em'>L</text>
-<text text-anchor='middle' x='0' y='164' fill='currentColor' style='font-size:1em'>A</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='8' y='20' fill='currentColor' style='font-size:1em'>y</text>
-<text text-anchor='middle' x='8' y='36' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='8' y='52' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='8' y='68' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='8' y='84' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='8' y='100' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='8' y='116' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='8' y='132' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='8' y='148' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='8' y='164' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>j</text>
-<text text-anchor='middle' x='16' y='52' fill='currentColor' style='font-size:1em'>x</text>
-<text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='16' y='84' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='16' y='100' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='16' y='116' fill='currentColor' style='font-size:1em'>y</text>
-<text text-anchor='middle' x='16' y='132' fill='currentColor' style='font-size:1em'>y</text>
-<text text-anchor='middle' x='16' y='148' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='16' y='164' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='24' y='84' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='24' y='116' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='24' y='148' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='24' y='164' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='32' y='84' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='32' y='100' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='32' y='132' fill='currentColor' style='font-size:1em'>D</text>
-<text text-anchor='middle' x='32' y='148' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='32' y='164' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>y</text>
-<text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='84' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='40' y='100' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='40' y='116' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='40' y='132' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='40' y='148' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='40' y='164' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='48' y='84' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='48' y='100' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='48' y='132' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='48' y='148' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='48' y='164' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='56' y='84' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='56' y='132' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='56' y='164' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='64' y='132' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='72' y='132' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='80' y='52' fill='currentColor' style='font-size:1em'>:</text>
-<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='96' y='36' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='96' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='96' y='68' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='96' y='84' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='96' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='164' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='104' y='84' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='104' y='116' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='132' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='104' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='68' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='84' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='112' y='164' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='68' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='84' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='116' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='132' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='120' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='120' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='68' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='84' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='136' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='136' y='84' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='100' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='136' y='116' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='132' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='136' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='144' y='20' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='68' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='84' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='116' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='132' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='144' y='164' fill='currentColor' style='font-size:1em'>2</text>
-</g>
-
-    </svg>
-  
-</div>
-<p>但是，在環形排列裏面如果有重複的元素，應該怎麼數呢？我這才發現，我從來都沒有碰到過這樣的問題。環形排列在高中就教過了，可以説連小學生都能懂，但為什麼沒有碰到過呢？原來，只要在環形排列裏加入重複的元素，就要用上群論了，一點也不簡單，難怪沒有學過。Burnside&rsquo;s theorem 的原理很複雜，不過算起來倒不難。就是把音階的旋轉對稱性考慮進去，計算每個音階的「軌道」（Orbit）。全部算出來之後，答案是132。也就是說，在一個八度裏分割音程，只有132種可能。</p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 432 361"
-      >
-      <g transform='translate(8,16)'>
-<path d='M 176,128 L 184,112' fill='none' stroke='currentColor'></path>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='20' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='52' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='84' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='100' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='116' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='132' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='148' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='164' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='180' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='0' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='228' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='244' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='260' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='276' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='0' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='0' y='308' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='0' y='340' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='20' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='36' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='52' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='68' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='84' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='100' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='8' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='228' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='244' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='260' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='8' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='16' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='16' y='132' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='180' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='228' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='244' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='16' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='16' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='16' y='340' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='84' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='180' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='228' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='24' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='24' y='340' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='84' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='180' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='32' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='32' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='32' y='340' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='40' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='180' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='40' y='196' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='40' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='40' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='84' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='164' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='48' y='308' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='36' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='84' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='164' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='180' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='196' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='56' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='56' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='164' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='64' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='84' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='180' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='72' y='196' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='212' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='72' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='72' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='80' y='36' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='80' y='68' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='164' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='80' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='80' y='308' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='88' y='36' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='88' y='52' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='88' y='84' fill='currentColor' style='font-size:1em'>9</text>
-<text text-anchor='middle' x='88' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='88' y='132' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='88' y='180' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='88' y='212' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='88' y='228' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='88' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='88' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='96' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='84' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='96' y='100' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='148' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='96' y='164' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='180' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='96' y='212' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='96' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='104' y='68' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='104' y='132' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='104' y='164' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='104' y='228' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='104' y='244' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='104' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='104' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='112' y='68' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='112' y='84' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='112' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='164' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='112' y='180' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='112' y='212' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='112' y='228' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='112' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='112' y='308' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='120' y='132' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='120' y='148' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='120' y='244' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='120' y='260' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='120' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='120' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='128' y='68' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='128' y='84' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='128' y='100' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='128' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='132' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='128' y='148' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='128' y='164' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='128' y='180' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='128' y='212' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='128' y='228' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='128' y='244' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='128' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='128' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='136' y='116' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='136' y='260' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='136' y='276' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='144' y='68' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='144' y='84' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='144' y='100' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='144' y='132' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='144' y='148' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='144' y='164' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='144' y='180' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='144' y='212' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='144' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='144' y='244' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='144' y='260' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='144' y='292' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='144' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='152' y='116' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='152' y='228' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='152' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='152' y='308' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='160' y='36' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='160' y='52' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='160' y='68' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='160' y='84' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='160' y='100' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='160' y='132' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='160' y='148' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='160' y='164' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='160' y='180' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='160' y='212' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='160' y='244' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='160' y='260' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='160' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='160' y='292' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='160' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='168' y='116' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='168' y='228' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='168' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='176' y='36' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='176' y='52' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='176' y='68' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='176' y='84' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='176' y='148' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='176' y='164' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='176' y='180' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='176' y='212' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='176' y='244' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='176' y='260' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='176' y='276' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='176' y='308' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='184' y='228' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='184' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='192' y='36' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='192' y='52' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='192' y='68' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='192' y='84' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='192' y='132' fill='currentColor' style='font-size:1em'>9</text>
-<text text-anchor='middle' x='192' y='148' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='192' y='164' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='192' y='180' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='192' y='212' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='192' y='244' fill='currentColor' style='font-size:1em'>9</text>
-<text text-anchor='middle' x='192' y='260' fill='currentColor' style='font-size:1em'>/</text>
-<text text-anchor='middle' x='192' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='192' y='308' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='200' y='84' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='200' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='200' y='228' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='200' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='200' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'>4</text>
-<text text-anchor='middle' x='208' y='68' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='208' y='116' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='208' y='132' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='208' y='148' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='208' y='164' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='208' y='244' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='208' y='260' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='208' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='216' y='68' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='216' y='164' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='216' y='228' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='216' y='260' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='216' y='276' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='216' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='224' y='116' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='224' y='132' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='224' y='148' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='224' y='228' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='224' y='244' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='224' y='308' fill='currentColor' style='font-size:1em'>8</text>
-<text text-anchor='middle' x='232' y='148' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='232' y='244' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='232' y='260' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='232' y='276' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='232' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='240' y='116' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='240' y='308' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='248' y='260' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='248' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='256' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='264' y='308' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='272' y='308' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='280' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='288' y='308' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='296' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='304' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='312' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='320' y='308' fill='currentColor' style='font-size:1em'>3</text>
-<text text-anchor='middle' x='328' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='336' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='344' y='308' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='352' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='360' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='368' y='308' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='376' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='384' y='308' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='392' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='400' y='308' fill='currentColor' style='font-size:1em'>1</text>
-<text text-anchor='middle' x='408' y='308' fill='currentColor' style='font-size:1em'>+</text>
-<text text-anchor='middle' x='416' y='308' fill='currentColor' style='font-size:1em'>1</text>
-</g>
-
-    </svg>
-  
-</div>
-<p>這樣不是很可惜嗎？明明有132種音階，但是我們只會用其中的兩三種。</p>
+= 132
+</code></pre><p>這樣不是很可惜嗎？明明有132種音階，但是我們只會用其中的兩三種。</p>
 <p>不過，這樣只是從理論角度考慮，音樂要好聽似乎有很多限制，不是隨便挑一些音就能組成音階的。例如至少要保留四度音和五度音，像什麼 33 111 111，寫出來的音樂應該很奇怪，派不上用場。</p>
 <p>説不定，我一開始就搞錯方向了。旋律好像是非常自由的，沒有什麼限制。真正決定音樂好不好聽的，不是和弦嗎？所以我應該去數和弦才對。</p>
 </section>
