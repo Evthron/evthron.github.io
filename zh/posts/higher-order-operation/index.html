@@ -2,8 +2,8 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。
-增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='$e$ 之所以「自然」，是因為以 $e^x$ 的增長率與函數的數值本身一致。其實所有指數函數的增長率都和自身成正比，只不過 $e^x$ 但比例係數剛好是1而已。$e$ 雖然特別，但也沒有什麼神秘之處。
+增長率居然能會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
 我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。
 如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？
 例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？
@@ -13,6 +13,7 @@
 然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。
 更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。
 Beyond exponentiation: A tetration investigation (youtube)
+What&rsquo;s so special about Euler&rsquo;s number e? | Chapter 5, Essence of calculus (youtube)
 '>
         <title>高階運算 | Evthron&#39;s blog</title>
         
@@ -22,8 +23,8 @@ Beyond exponentiation: A tetration investigation (youtube)
         
         
         <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='高階運算'>
-<meta property='og:description' content='$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。
-增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
+<meta property='og:description' content='$e$ 之所以「自然」，是因為以 $e^x$ 的增長率與函數的數值本身一致。其實所有指數函數的增長率都和自身成正比，只不過 $e^x$ 但比例係數剛好是1而已。$e$ 雖然特別，但也沒有什麼神秘之處。
+增長率居然能會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
 我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。
 如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？
 例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？
@@ -33,13 +34,14 @@ Beyond exponentiation: A tetration investigation (youtube)
 然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。
 更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。
 Beyond exponentiation: A tetration investigation (youtube)
+What&rsquo;s so special about Euler&rsquo;s number e? | Chapter 5, Essence of calculus (youtube)
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/posts/higher-order-operation/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='maths' /><meta property='article:published_time' content='2025-03-14T10:42:27&#43;08:00'/><meta property='article:modified_time' content='2025-04-06T22:04:11&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='maths' /><meta property='article:published_time' content='2025-03-14T10:42:27&#43;08:00'/><meta property='article:modified_time' content='2025-04-13T19:25:26&#43;08:00'/>
 <meta name="twitter:title" content="高階運算">
-<meta name="twitter:description" content="$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。
-增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
+<meta name="twitter:description" content="$e$ 之所以「自然」，是因為以 $e^x$ 的增長率與函數的數值本身一致。其實所有指數函數的增長率都和自身成正比，只不過 $e^x$ 但比例係數剛好是1而已。$e$ 雖然特別，但也沒有什麼神秘之處。
+增長率居然能會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？
 我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。
 如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？
 例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？
@@ -49,6 +51,7 @@ Beyond exponentiation: A tetration investigation (youtube)
 然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。
 更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。
 Beyond exponentiation: A tetration investigation (youtube)
+What&rsquo;s so special about Euler&rsquo;s number e? | Chapter 5, Essence of calculus (youtube)
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -372,8 +375,8 @@ Beyond exponentiation: A tetration investigation (youtube)
     <section class="article-content">
         
         
-        <p>$e$ 之所以「自然」，是因為以 $e$ 為底的指數函數（$e^x$）的增長率與函數值本身一致。</p>
-<p>增長率會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？</p>
+        <p>$e$ 之所以「自然」，是因為以 $e^x$ 的增長率與函數的數值本身一致。其實所有指數函數的增長率都和自身成正比，只不過 $e^x$ 但比例係數剛好是1而已。$e$ 雖然特別，但也沒有什麼神秘之處。</p>
+<p>增長率居然能會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？</p>
 <p>我們最初學習小數乘法時，很容易就能明白「乘以 1.5」的意義。乘以 1.5 是加上一半，只是簡單的除法。但雖然 1.5 次方可以同樣理解為「再乘上一半」，但因為這涉及了平方根的概念，所以不像除法一樣直觀，對很多人來説就很難懂了。</p>
 <p>如果指數已經這麼複雜了，那更高階的運算呢？乘法是連續的加法，指數運算是連續的乘法，那麼，連續的指數運算，也就是四階運算（tetration）會怎麼樣？</p>
 <p>例如 $2 \uparrow \uparrow 3 = 2^{2^2} = 16$, $2 \uparrow \uparrow 4 = 2^{2^{2^2}} = 65536$，那麼 $2 \uparrow \uparrow 3.5$ 會是什麼？</p>
@@ -383,8 +386,10 @@ Beyond exponentiation: A tetration investigation (youtube)
 <p>指數運算之所以實用，是因為它能夠通過各種運算規則（指數律），從離散的定義（整數次方）自然地擴展到連續的定義（非整數次方）。這種連續性使得我們能夠定義導數，研究函數的變化率。</p>
 <p>然而，運算階數的提升讓運算規則變得越來越稀少，交換律、分配律、結合律都消失了，只剩下遞歸的定義，難以找到一種自然的連續化方式。沒有連續性，就不用談什麼微積分。</p>
 <p>更不用説，這種誇張得超乎想象的運算本來就沒有實際意義，我就連這究竟是在算什麼的比喻都想不出來。算不算得出來也只有少數數學家才會關心了。</p>
-<p><a class="link" href="https://www.youtube.com/watch?v=qdqPTEpq5Xw&amp;pp=ygUJdGV0cmF0aW9u"  target="_blank" rel="noopener"
+<p><a class="link" href="https://www.youtube.com/watch?v=qdqPTEpq5Xw"  target="_blank" rel="noopener"
     >Beyond exponentiation: A tetration investigation (youtube)</a></p>
+<p><a class="link" href="https://www.youtube.com/watch?v=m2MIpDrF7Es"  target="_blank" rel="noopener"
+    >What&rsquo;s so special about Euler&rsquo;s number e? | Chapter 5, Essence of calculus (youtube)</a></p>
 
     </section>
 
@@ -410,7 +415,7 @@ Beyond exponentiation: A tetration investigation (youtube)
 
 
             <span>
-                最後更新 2025-04-06 22:04 &#43;08:00
+                最後更新 2025-04-13 19:25 &#43;08:00
             </span>
         </section></footer>
     
@@ -493,7 +498,7 @@ Beyond exponentiation: A tetration investigation (youtube)
                 
                     
 <article class="">
-    <a href="/zh/posts/median/">
+    <a href="/zh/profile/posts/median/">
         
         
 
@@ -506,7 +511,7 @@ Beyond exponentiation: A tetration investigation (youtube)
                 
                     
 <article class="">
-    <a href="/zh/profile/posts/median/">
+    <a href="/zh/posts/median/">
         
         
 
