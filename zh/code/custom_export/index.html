@@ -3,7 +3,9 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='https://github.com/marph91/joppy/blob/master/examples/custom_export.py
-Parent Graph 和 edge List 的區別 edge graph 不能輕鬆找到沒有 Parent 的元素。
+Parent Graph 和 edge List 的區別
+edge graph 不能輕鬆找到沒有 Parent 的元素。
+在 Edge Graph 中找 Root :: 歷遍，用字典記錄 沒有 Parent 的 Start node
 graph = {[]} has_parent = {node : False for node in node_list} for start, end in edge_graph: graph[start] = graph.get(start, []}.append(end) has_parent[end] = True import argparse &#39;&#39;&#39; make argument parser &#39;&#39;&#39; parser = argparse.ArgumentParser() parser.add_argument(&#34;--output-folder&#34;, default=&#34;joplin_note_export&#34;) parser.add_argument(&#34;--api-token&#34;, default=os.getenv(&#34;API_TOKEN&#34;)) args = parser.parse_args() # What is the data in args? the dash in flag will be converted to underscore &ndash;output-folder -&gt; args.output_folder Replace bad characters in filenames https://stackoverflow.com/a/27647173/7410886
 '>
         <title>Custom Export | Evthron&#39;s blog</title>
@@ -15,7 +17,9 @@ graph = {[]} has_parent = {node : False for node in node_list} for start, end in
         
         <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='Custom Export'>
 <meta property='og:description' content='https://github.com/marph91/joppy/blob/master/examples/custom_export.py
-Parent Graph 和 edge List 的區別 edge graph 不能輕鬆找到沒有 Parent 的元素。
+Parent Graph 和 edge List 的區別
+edge graph 不能輕鬆找到沒有 Parent 的元素。
+在 Edge Graph 中找 Root :: 歷遍，用字典記錄 沒有 Parent 的 Start node
 graph = {[]} has_parent = {node : False for node in node_list} for start, end in edge_graph: graph[start] = graph.get(start, []}.append(end) has_parent[end] = True import argparse &#39;&#39;&#39; make argument parser &#39;&#39;&#39; parser = argparse.ArgumentParser() parser.add_argument(&#34;--output-folder&#34;, default=&#34;joplin_note_export&#34;) parser.add_argument(&#34;--api-token&#34;, default=os.getenv(&#34;API_TOKEN&#34;)) args = parser.parse_args() # What is the data in args? the dash in flag will be converted to underscore &ndash;output-folder -&gt; args.output_folder Replace bad characters in filenames https://stackoverflow.com/a/27647173/7410886
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/custom_export/'>
@@ -23,7 +27,9 @@ graph = {[]} has_parent = {node : False for node in node_list} for start, end in
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2024-09-05T15:44:19&#43;08:00'/><meta property='article:modified_time' content='2024-09-05T15:44:19&#43;08:00'/>
 <meta name="twitter:title" content="Custom Export">
 <meta name="twitter:description" content="https://github.com/marph91/joppy/blob/master/examples/custom_export.py
-Parent Graph 和 edge List 的區別 edge graph 不能輕鬆找到沒有 Parent 的元素。
+Parent Graph 和 edge List 的區別
+edge graph 不能輕鬆找到沒有 Parent 的元素。
+在 Edge Graph 中找 Root :: 歷遍，用字典記錄 沒有 Parent 的 Start node
 graph = {[]} has_parent = {node : False for node in node_list} for start, end in edge_graph: graph[start] = graph.get(start, []}.append(end) has_parent[end] = True import argparse &#39;&#39;&#39; make argument parser &#39;&#39;&#39; parser = argparse.ArgumentParser() parser.add_argument(&#34;--output-folder&#34;, default=&#34;joplin_note_export&#34;) parser.add_argument(&#34;--api-token&#34;, default=os.getenv(&#34;API_TOKEN&#34;)) args = parser.parse_args() # What is the data in args? the dash in flag will be converted to underscore &ndash;output-folder -&gt; args.output_folder Replace bad characters in filenames https://stackoverflow.com/a/27647173/7410886
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
@@ -341,8 +347,9 @@ graph = {[]} has_parent = {node : False for node in node_list} for start, end in
         
         <p><a class="link" href="https://github.com/marph91/joppy/blob/master/examples/custom_export.py"  target="_blank" rel="noopener"
     >https://github.com/marph91/joppy/blob/master/examples/custom_export.py</a></p>
-<p>Parent Graph 和 edge List 的區別
-edge graph 不能輕鬆找到沒有 Parent 的元素。</p>
+<p>Parent Graph 和 edge List 的區別</p>
+<p>edge graph 不能輕鬆找到沒有 Parent 的元素。</p>
+<p>在 Edge Graph 中找 Root :: 歷遍，用字典記錄 沒有 Parent 的 Start node</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>graph <span style="color:#f92672">=</span> {[]}
 </span></span><span style="display:flex;"><span>has_parent <span style="color:#f92672">=</span> {node : <span style="color:#66d9ef">False</span> <span style="color:#66d9ef">for</span> node <span style="color:#f92672">in</span> node_list}
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> start, end <span style="color:#f92672">in</span> edge_graph:
@@ -413,6 +420,33 @@ Replace bad characters in filenames
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">replace_ids_by_items</span>(notebook_tree_ids): <span style="color:#f92672">...</span>	
 </span></span><span style="display:flex;"><span>    notebook_tree_items <span style="color:#f92672">=</span> replace_ids_by_items(notebook_tree_ids)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> notebook_tree_items
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_notebook_tree</span>(graph, roots):
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_hierarchy</span>(graph, names):
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e"># Every node starts with a empty hierarchy, at lowest level, every node has empty hierarchy, no need to modify</span>
+</span></span><span style="display:flex;"><span>        hierarchy <span style="color:#f92672">=</span> {}
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e"># Call the child to make their own hirarchy</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> names:
+</span></span><span style="display:flex;"><span>            hierarchy[name] <span style="color:#f92672">=</span> make_hierarchy(graph, graph[name])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> hierarchy
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> make_hierarchy(graph, roots)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#不夠簡單的另一個版本：</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 第二步：轉換成 Tree</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># graph 不變，names 是每一層的端點，graph[name] 是下一層的 names</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 每一層把把自己一層的 hierarchy 做好，然後傳給上一層</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># hierarchy 是 dict 裏面有 dict 的結構。</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 每層都從一個空 dict 開始。所以沒有必要傳下去</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 底層：names 是空的，hierarchy 也是空的</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_hierarchy</span>(hierarchy, graph, names):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> names:
+</span></span><span style="display:flex;"><span>            hierarchy[name] <span style="color:#f92672">=</span> get_hierarchy({}, graph, graph[name])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> hierarchy
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> traverse({}, graph, roots)
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_notebook_tree</span>(flat_list):
 </span></span><span style="display:flex;"><span>	  <span style="color:#75715e"># 創建空白的 graph</span>
 </span></span><span style="display:flex;"><span>    graph <span style="color:#f92672">=</span> {item: set() <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> flat_list}
@@ -427,8 +461,7 @@ Replace bad characters in filenames
 </span></span><span style="display:flex;"><span>            roots<span style="color:#f92672">.</span>append(id_)
 </span></span></code></pre></div><p>為 Parent List 轉換 Graph 創建空白的 graph</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>graph <span style="color:#f92672">=</span> {item: set() <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> flat_list}
-</span></span></code></pre></div><h4 id="把-tree-轉換成檔案結構--flashcards">把 Tree 轉換成檔案結構 &ndash; flashcards</h4>
-<p>把 Tree 轉換成檔案結構</p>
+</span></span></code></pre></div><p>把 Tree 轉換成檔案結構</p>
 <ol>
 <li>Build folder for itself</li>
 <li>tell the child to run this function(create all the directories)</li>
@@ -462,7 +495,7 @@ Replace bad characters in filenames
 </span></span><span style="display:flex;"><span>                current_directory <span style="color:#f92672">/</span> replacements(resource<span style="color:#f92672">.</span>title), <span style="color:#e6db74">&#34;wb&#34;</span> <span style="color:#75715e"># write binary</span>
 </span></span><span style="display:flex;"><span>            ) <span style="color:#66d9ef">as</span> outfile:
 </span></span><span style="display:flex;"><span>                outfile<span style="color:#f92672">.</span>write(resource_binary)
-</span></span></code></pre></div><h4 id="把-tree-轉換成檔案結構--flashcards-1">把 Tree 轉換成檔案結構 &ndash; flashcards</h4>
+</span></span></code></pre></div><h4 id="把-tree-轉換成檔案結構--flashcards">把 Tree 轉換成檔案結構 &ndash; flashcards</h4>
 <p>把 Tree 轉換成檔案結構
 例子：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pathlib <span style="color:#f92672">import</span> Path
