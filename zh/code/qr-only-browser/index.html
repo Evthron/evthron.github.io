@@ -2,32 +2,47 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？
-對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。
-每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。
-記錄數據
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='如何製作一個只能掃 QR Code 上網的軟件
+Camera API
+QR Code Scanner
+ZXing Webview
+Navigation Activity, Intent, View
+Android Studio
+MyApp/ ├── app/ ├── build.gradle ├── settings.gradle └── gradle/ Material 3
+主要的代碼在 app/src/main/java/MainActivity.kt AndroidManifest.xml 設定需要的權限 build.gradle.kts 設定 dependencies libs.versions.toml 設定 build.gradle.kts dependencies 的具體版本號 Android Studio Sync Project With Gradle File 的作用是下載 Dependencies Compose 能讓我們在 .kt 裏定義網站的外觀，而不是用以前的 XML @Composable 定義網站的組件 Two build.gradle.kts files in package and project are different 我的夢想只用三個半小時就完成了，LLM 真的無敵……
+https://github.com/Evthron/QROnlyBrowser
 '>
-        <title>交換知識的聊天挑戰  | Evthron&#39;s blog</title>
+        <title>qr-only-browser | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/posts/knowledge-exchange/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/code/qr-only-browser/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='交換知識的聊天挑戰 '>
-<meta property='og:description' content='我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？
-對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。
-每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。
-記錄數據
+        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='qr-only-browser'>
+<meta property='og:description' content='如何製作一個只能掃 QR Code 上網的軟件
+Camera API
+QR Code Scanner
+ZXing Webview
+Navigation Activity, Intent, View
+Android Studio
+MyApp/ ├── app/ ├── build.gradle ├── settings.gradle └── gradle/ Material 3
+主要的代碼在 app/src/main/java/MainActivity.kt AndroidManifest.xml 設定需要的權限 build.gradle.kts 設定 dependencies libs.versions.toml 設定 build.gradle.kts dependencies 的具體版本號 Android Studio Sync Project With Gradle File 的作用是下載 Dependencies Compose 能讓我們在 .kt 裏定義網站的外觀，而不是用以前的 XML @Composable 定義網站的組件 Two build.gradle.kts files in package and project are different 我的夢想只用三個半小時就完成了，LLM 真的無敵……
+https://github.com/Evthron/QROnlyBrowser
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/posts/knowledge-exchange/'>
+<meta property='og:url' content='https://evthron.github.io/zh/code/qr-only-browser/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='relationship' /><meta property='article:tag' content='gamification' /><meta property='article:published_time' content='2024-06-29T21:43:57&#43;08:00'/><meta property='article:modified_time' content='2024-12-25T07:48:47&#43;08:00'/>
-<meta name="twitter:title" content="交換知識的聊天挑戰 ">
-<meta name="twitter:description" content="我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？
-對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。
-每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。
-記錄數據
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-04-18T23:53:44&#43;08:00'/><meta property='article:modified_time' content='2025-04-18T23:53:44&#43;08:00'/>
+<meta name="twitter:title" content="qr-only-browser">
+<meta name="twitter:description" content="如何製作一個只能掃 QR Code 上網的軟件
+Camera API
+QR Code Scanner
+ZXing Webview
+Navigation Activity, Intent, View
+Android Studio
+MyApp/ ├── app/ ├── build.gradle ├── settings.gradle └── gradle/ Material 3
+主要的代碼在 app/src/main/java/MainActivity.kt AndroidManifest.xml 設定需要的權限 build.gradle.kts 設定 dependencies libs.versions.toml 設定 build.gradle.kts dependencies 的具體版本號 Android Studio Sync Project With Gradle File 的作用是下載 Dependencies Compose 能讓我們在 .kt 裏定義網站的外觀，而不是用以前的 XML @Composable 定義網站的組件 Two build.gradle.kts files in package and project are different 我的夢想只用三個半小時就完成了，LLM 真的無敵……
+https://github.com/Evthron/QROnlyBrowser
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -192,7 +207,7 @@
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/zh/posts/' >
                 
                 
@@ -242,7 +257,7 @@
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/code/' >
                 
                 
@@ -300,19 +315,10 @@
     <div class="article-details">
         
         
-        <header class="article-category">
-            
-                
-                <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
-                    posts
-                </a>
-            
-        </header>
-        
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/posts/knowledge-exchange/">交換知識的聊天挑戰 </a>
+                <a href="/zh/code/qr-only-browser/">qr-only-browser</a>
             </h2>
         
             
@@ -334,7 +340,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2024-06-29</time>
+                    <time class="article-time--published">2025-04-18</time>
                 </div>
             
     
@@ -351,10 +357,52 @@
     <section class="article-content">
         
         
-        <p>我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？</p>
-<p>對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。</p>
-<p>每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。</p>
-<p><a class="link" href="/zh/skill/right-sider" >記錄數據</a></p>
+        <p>如何製作一個只能掃 QR Code 上網的軟件</p>
+<ul>
+<li>
+<p>Camera API</p>
+</li>
+<li>
+<p>QR Code Scanner</p>
+<ul>
+<li>ZXing</li>
+</ul>
+</li>
+<li>
+<p>Webview</p>
+<ul>
+<li>Navigation</li>
+</ul>
+</li>
+<li>
+<p>Activity, Intent, View</p>
+</li>
+<li>
+<p>Android Studio</p>
+</li>
+</ul>
+<pre tabindex="0"><code>MyApp/
+├── app/
+├── build.gradle
+├── settings.gradle
+└── gradle/
+</code></pre><p>Material 3</p>
+<ul>
+<li>主要的代碼在 app/src/main/java/MainActivity.kt</li>
+<li>AndroidManifest.xml 設定需要的權限</li>
+<li>build.gradle.kts 設定 dependencies</li>
+<li>libs.versions.toml 設定 build.gradle.kts dependencies 的具體版本號</li>
+<li>Android Studio Sync Project With Gradle File 的作用是下載 Dependencies</li>
+<li>Compose 能讓我們在 .kt 裏定義網站的外觀，而不是用以前的 XML
+<ul>
+<li>@Composable 定義網站的組件</li>
+</ul>
+</li>
+<li>Two build.gradle.kts files in package and project are different</li>
+</ul>
+<p>我的夢想只用三個半小時就完成了，LLM 真的無敵……</p>
+<p><a class="link" href="https://github.com/Evthron/QROnlyBrowser"  target="_blank" rel="noopener"
+    >https://github.com/Evthron/QROnlyBrowser</a></p>
 
     </section>
 
@@ -362,29 +410,9 @@
     <footer class="article-footer">
 
         
-        
-        <section class="article-tags">
-            
-                <a href="/zh/tags/relationship/">Relationship</a>
-            
-                <a href="/zh/tags/gamification/">Gamification</a>
-            
-        </section>
          
 
-        <section class="article-lastmod">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-            <span>
-                最後更新 2024-12-25 07:48 &#43;08:00
-            </span>
-        </section></footer>
+        </footer>
     
     
     <link 
@@ -418,54 +446,6 @@
 
     
     
-    
-    <aside class="related-content--wrapper">
-        <h2 class="section-title">相關文章</h2>
-        <div class="related-content">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="/zh/profile/skill/introduction/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">生活遊戲化 </h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/skill/introduction/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">生活遊戲化 </h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/tweet/progress/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">進度</h2>
-        </div>
-    </a>
-</article>
-
-                
-            </div>
-        </div>
-    </aside>
      
 
     
