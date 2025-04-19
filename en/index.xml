@@ -390,6 +390,10 @@ need to make seperate commits.&lt;/p&gt;
 &lt;p&gt;I realised it&amp;rsquo;s not necessary to learn C first&amp;hellip;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=YnWhqhNdYyk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Stop Teaching C (youtube)&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The quote &amp;ldquo;There are only two kinds of languages: the ones people complain about and the ones nobody uses&amp;rdquo; is said by Bjarne Stroustrup, the father of C++.
+&lt;a class=&#34;link&#34; href=&#34;https://www.stroustrup.com/quotes.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.stroustrup.com/quotes.html&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3820,71 +3824,33 @@ traditional media.&lt;/li&gt;
         <item>
         <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
-        <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
+        <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
         
         <guid>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</guid>
-        <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
+        <description>&lt;h1 id=&#34;pc&#34;&gt;PC&lt;/h1&gt;
+&lt;h2 id=&#34;block-browsing&#34;&gt;Block browsing&lt;/h2&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
-&lt;p&gt;A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It’s best to fully block the sites instead of setting timers.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/leechblock-ng&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;firefox&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;pc-hiding&#34;&gt;PC: hiding&lt;/h2&gt;
-&lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
-&lt;p&gt;It&amp;rsquo;s not just an ad blocker, but a &lt;em&gt;wide-spectrum content blocker&lt;/em&gt;, which means you can hide all distracting UI elements, like panels, buttons, and empty spaces on any websites using its element picker.&lt;/p&gt;
-&lt;p&gt;Banning infinite scroll is the most powerful thing it can do. Infinite scroll on Youtube equals time sink so put the following line into uBlock Origin setting under the &amp;lsquo;My Filters&amp;rsquo; section.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;youtube.com##ytd-continuation-item-renderer
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;firefox&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
-&lt;p&gt;Don&amp;rsquo;t remind yourself that you&amp;rsquo;ve blocked sites. Remove them from the search results.
-&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublacklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;firefox&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;pc-changing-habits&#34;&gt;PC: changing habits&lt;/h2&gt;
-&lt;h3 id=&#34;any-rss-reader&#34;&gt;Any RSS reader&lt;/h3&gt;
-&lt;p&gt;Only read posts on one single page. It can replace the Youtube subscribe page.&lt;/p&gt;
-&lt;h2 id=&#34;youtube-blocking&#34;&gt;Youtube: blocking&lt;/h2&gt;
-&lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
-&lt;p&gt;Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos shorter than 5 minutes and longer than 50 minutes.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Block the video
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos with less than 1000 viewcount
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;viewCount&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// Custom conditions did not match, do not block
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/blocktube/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;firefox&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;youtube-hiding&#34;&gt;Youtube: hiding&lt;/h2&gt;
+&lt;p&gt;A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It&amp;rsquo;s best to fully block the sites instead of setting timers.&lt;/p&gt;
+&lt;h2 id=&#34;block-recommendation&#34;&gt;Block recommendation&lt;/h2&gt;
 &lt;h3 id=&#34;unhook&#34;&gt;Unhook&lt;/h3&gt;
 &lt;p&gt;Empty your homepage and recommended videos. You should only search by keywords on Youtube.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/youtube-recommended-videos/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;firefox&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;youtube-building-new-habits&#34;&gt;Youtube: building new habits&lt;/h2&gt;
-&lt;h3 id=&#34;yt-dlp&#34;&gt;yt-dlp&lt;/h3&gt;
-&lt;p&gt;Download the video before you watch. Don&amp;rsquo;t watch hours and hours of stream recordings.&lt;/p&gt;
-&lt;h2 id=&#34;android-blocking&#34;&gt;Android: Blocking&lt;/h2&gt;
-&lt;p&gt;There aren&amp;rsquo;t much we can do on phones because we cannot add extensions on mobile browsers. I&amp;rsquo;ve heard that firefox is adding this feature, still, there&amp;rsquo;s no guarantee that all the above extensions will work on Android.&lt;/p&gt;
+&lt;h3 id=&#34;ublock-origin&#34;&gt;uBlock Origin&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s not just an ad blocker. You can block all distracting items on any websites using its element picker.&lt;/p&gt;
+&lt;h2 id=&#34;block-search&#34;&gt;Block search&lt;/h2&gt;
+&lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
+&lt;p&gt;Don&amp;rsquo;t remind yourself that you blocked sites. Remove them from the search results.&lt;/p&gt;
+&lt;h2 id=&#34;read-in-one-place&#34;&gt;Read in one place&lt;/h2&gt;
+&lt;h3 id=&#34;any-rss-reader&#34;&gt;Any RSS reader&lt;/h3&gt;
+&lt;p&gt;Only read posts on one single page. It can replace the Youtube subscribe page.&lt;/p&gt;
+&lt;h1 id=&#34;phones&#34;&gt;Phones&lt;/h1&gt;
+&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
 &lt;h3 id=&#34;helpmefocus&#34;&gt;HelpMeFocus&lt;/h3&gt;
-&lt;p&gt;This blocker has the the most important feature of app blocker, which is the ability to block itself to prevent the user changing its setting.&lt;/p&gt;
+&lt;p&gt;Decent App blocker.&lt;/p&gt;
 &lt;h3 id=&#34;universal-android-debloater&#34;&gt;Universal Android Debloater&lt;/h3&gt;
-&lt;p&gt;App blocker can sometimes be good enough but you can always bypass them by uninstalling them. Rather than testing your self-discipline, the once and for all solution is to uninstall Google Chrome, Youtube and Play Store from your phone. Since they are pre-installed bloatware, you need the &lt;a class=&#34;link&#34; href=&#34;https://github.com/0x192/universal-android-debloater&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;universal android debloater (github)&lt;/a&gt; the do that.&lt;/p&gt;
-&lt;h2 id=&#34;ios-blocking&#34;&gt;iOS: blocking&lt;/h2&gt;
+&lt;p&gt;Uninstall Google Chrome and Play Store.&lt;/p&gt;
+&lt;h2 id=&#34;ios&#34;&gt;iOS&lt;/h2&gt;
 &lt;h3 id=&#34;screen-time&#34;&gt;Screen Time&lt;/h3&gt;
-&lt;p&gt;Native digital hygiene apps on android all acts like kind reminders, which makes them all jokes. iOS does a better job. As long as you let others keep the passcode for you, you can&amp;rsquo;t break the restrictions.&lt;/p&gt;
+&lt;p&gt;Let others keep the passcode for you.&lt;/p&gt;
 </description>
         </item>
         <item>
