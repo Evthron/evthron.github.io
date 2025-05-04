@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/en/code/</loc>
+    <lastmod>2025-05-05T01:31:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/code/shell/</loc>
+    <lastmod>2025-05-05T01:31:21+08:00</lastmod>
+  </url><url>
     <loc>https://evthron.github.io/en/categories/</loc>
     <lastmod>2025-05-04T17:22:05+08:00</lastmod>
     <xhtml:link
@@ -165,19 +181,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/code/</loc>
-    <lastmod>2025-04-19T20:21:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/code/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/code/quotes/</loc>
@@ -601,7 +604,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/</loc>
-    <lastmod>2025-05-04T23:57:12+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -632,7 +635,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/taskwarrior/</loc>
-    <lastmod>2025-05-04T23:57:12+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -868,7 +871,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/</loc>
-    <lastmod>2025-05-04T23:57:12+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1099,7 +1102,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/writer/</loc>
-    <lastmod>2025-05-04T23:57:11+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1125,7 +1128,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/foreigner/</loc>
-    <lastmod>2025-05-04T23:57:12+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1151,7 +1154,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/programmer/</loc>
-    <lastmod>2025-05-04T23:57:11+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1177,7 +1180,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/right-sider/</loc>
-    <lastmod>2025-05-04T23:57:12+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1311,7 +1314,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/painter/</loc>
-    <lastmod>2025-05-04T23:57:11+08:00</lastmod>
+    <lastmod>2025-05-05T01:32:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
