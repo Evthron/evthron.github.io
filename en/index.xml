@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Speech note –– en</title>
+        <title>Speech Note</title>
         <link>https://evthron.github.io/en/tweet/voice-input/</link>
         <pubDate>Sun, 04 May 2025 03:48:54 +0800</pubDate>
         
@@ -33,7 +33,6 @@
 &lt;p&gt;Is there a special number in the realm of tetration, like &lt;em&gt;e&lt;/em&gt;? Maybe the number whose &amp;ldquo;tetrational rate&amp;rdquo; (whatever that means) is equal to the value of the function itself. Forget about differentiation—maybe we can define a higher-order differentiation operation. To make this happen, we need to extend the definition of tetration, just like how we extended the definitions of multiplication and exponentiation to real numbers.&lt;/p&gt;
 &lt;p&gt;Can we extend this definition to fractions? Unfortunately, this steps into the realm of unsolved math problems. There’s no generally accepted function to extend the definition of tetration to real numbers. If tetration is not a continuous function, there’s no hope in finding its derivative.&lt;/p&gt;
 &lt;p&gt;To make things worse, unlike exponentiation—which models many natural phenomena aptly—tetration is a completely useless operation because it grows so fast that we run out of atoms in the universe by the time we reach the number 4. Nothing in the universe can be modeled using tetration. No one even knows how to make an analogy to demonstrate its growth rate.&lt;/p&gt;
-&lt;p&gt;Something that exponentiate proportionally to its size—whatever that means.&lt;/p&gt;
 </description>
         </item>
         <item>
