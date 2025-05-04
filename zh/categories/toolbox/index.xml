@@ -544,6 +544,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第二是我用了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/oskapt/task2hab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;task2hab (github)&lt;/a&gt; 這個插件，可以自動把 taskwarrior 的任務同步到 habitica 上。另外我還模仿了另一個插件 &lt;a class=&#34;link&#34; href=&#34;https://github.com/robwhitaker/taskwarrior-habitica-bridge&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;taskwarrior-habitica-bridge (github)&lt;/a&gt;，修改了一點代碼，讓完成任務的時候可以在終端裏顯示賺到的經驗和金幣。因為這個不是我寫的，我就不展開説了。&lt;/p&gt;
+&lt;p&gt;第三，我還做了個能顯示每日金句的功能，這個功能很簡單，只是調用別人的 API 而已。&lt;/p&gt;
 </description>
         </item>
         <item>

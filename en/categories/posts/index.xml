@@ -6,7 +6,25 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 20 Nov 2024 04:18:13 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 04 May 2025 03:07:53 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/categories/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Higher order operation</title>
+        <link>https://evthron.github.io/en/posts/higher-order-operation/</link>
+        <pubDate>Sun, 04 May 2025 03:07:53 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
+        <description>&lt;p&gt;The reason why &lt;em&gt;e&lt;/em&gt; is natural is because the exponential function with base &lt;em&gt;e&lt;/em&gt; grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number &lt;em&gt;e&lt;/em&gt; just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how &lt;em&gt;π&lt;/em&gt; achieves the perfect radius-1 curvature.&lt;/p&gt;
+&lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.&lt;/p&gt;
+&lt;p&gt;But if you remember, in primary school, we also took some time to understand what multiplying by a decimal number means. It means addition in fractions. Exponentiation follows this logic but one order higher—it means multiplication in roots.&lt;/p&gt;
+&lt;p&gt;This makes me think: can we extend this definition one order higher? How can we go beyond exponentiation? This is the fourth-order operation: tetration.&lt;/p&gt;
+&lt;p&gt;Tetration is a tower of powers. Each number becomes a tower of powers with a height the same as itself.&lt;/p&gt;
+&lt;p&gt;For example, 2 becomes 2 to the 2, and 3 becomes 3 to the 3 to the 3.&lt;/p&gt;
+&lt;p&gt;Is there a special number in the realm of tetration, like &lt;em&gt;e&lt;/em&gt;? Maybe the number whose &amp;ldquo;tetrational rate&amp;rdquo; (whatever that means) is equal to the value of the function itself. Forget about differentiation—maybe we can define a higher-order differentiation operation. To make this happen, we need to extend the definition of tetration, just like how we extended the definitions of multiplication and exponentiation to real numbers.&lt;/p&gt;
+&lt;p&gt;Can we extend this definition to fractions? Unfortunately, this steps into the realm of unsolved math problems. There’s no generally accepted function to extend the definition of tetration to real numbers. If tetration is not a continuous function, there’s no hope in finding its derivative.&lt;/p&gt;
+&lt;p&gt;To make things worse, unlike exponentiation—which models many natural phenomena aptly—tetration is a completely useless operation because it grows so fast that we run out of atoms in the universe by the time we reach the number 4. Nothing in the universe can be modeled using tetration. No one even knows how to make an analogy to demonstrate its growth rate.&lt;/p&gt;
+&lt;p&gt;Something that exponentiate proportionally to its size—whatever that means.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Why care about people? Reason to socialize</title>
         <link>https://evthron.github.io/en/posts/reason-to-socialize/</link>
         <pubDate>Wed, 20 Nov 2024 04:18:13 +0800</pubDate>

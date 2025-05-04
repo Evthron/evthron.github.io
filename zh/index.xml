@@ -3525,6 +3525,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第二是我用了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/oskapt/task2hab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;task2hab (github)&lt;/a&gt; 這個插件，可以自動把 taskwarrior 的任務同步到 habitica 上。另外我還模仿了另一個插件 &lt;a class=&#34;link&#34; href=&#34;https://github.com/robwhitaker/taskwarrior-habitica-bridge&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;taskwarrior-habitica-bridge (github)&lt;/a&gt;，修改了一點代碼，讓完成任務的時候可以在終端裏顯示賺到的經驗和金幣。因為這個不是我寫的，我就不展開説了。&lt;/p&gt;
+&lt;p&gt;第三，我還做了個能顯示每日金句的功能，這個功能很簡單，只是調用別人的 API 而已。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3563,9 +3564,10 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
 &lt;p&gt;學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。&lt;/p&gt;
 &lt;p&gt;作業裏要連接外部網站的是一個 PHP 程式，是不是程式出錯了？老師給的程序應該不會錯，我對 PHP 又是一竅不通，隨便找了個網站的例子改了改程式碼，沒用。&lt;/p&gt;
-&lt;p&gt;仔細看看網站報了什麼錯，&amp;lsquo;Temporary failure in name resolution&amp;rsquo;，DNS 出問題了。想必是因為我裝了個奇怪的 dnsmasq，雖然很危險但沒辦法只好暫時停用了。沒用。&lt;/p&gt;
-&lt;p&gt;那麼是 Docker 的問題嗎？我對 Docker 也是一竅不通。説到底，這門課也用不着我們懂。本來只是輸一行 &lt;code&gt;docker compose up&lt;/code&gt; 的事，裏面發生什麼事情完全不用管。唉，沒辦法，我還是學了一下 Docker 的運作原理。Docker 可以克服不同電腦甚至操作系統之間水土不服的問題，把開發環境連網站打包成容器 (Container），就哪裏都可以用。原來如此!我還自作聰明地把 Dockerfile，也就是設定檔裏的一行 apt-get 刪掉了呢。 Arch 上下載軟件的工具是 pacman，不是 apt。但只要設定好開發環境裏用 Apache，就沒問題。我把 Container 刪了再重建，沒用。&lt;/p&gt;
-&lt;p&gt;我慌了，這還不夠嗎？看來是網絡設定問題，這就很麻煩了，可以出錯的地方太多了。安裝 Arch 的時候，設置網絡是最頭疼的部分。光説軟件層面已經有一大堆能把人搞糊塗的概念：網絡接口、網絡管理器、主機、IP 地址、端口、域名、DNS、防火牆。如果是 Docker 要調整內部的網絡設定，那就要弄官方文檔上説的什麼「端口轉發」，我一點也看不懂。&lt;/p&gt;
+&lt;p&gt;網站報錯 &amp;lsquo;Temporary failure in name resolution&amp;rsquo;，域名解析出問題了。想必是因為我裝了個域名攔截器 dnsmasq。沒辦法，只好暫時停用了。沒用。&lt;/p&gt;
+&lt;p&gt;那麼是 Docker 的問題嗎？我對 Docker 也是一竅不通。本來只是輸一行 &lt;code&gt;docker compose up&lt;/code&gt; 的事，裏面發生什麼事情完全不用管。唉，沒辦法，我還是學了一下 Docker 的運作原理。&lt;/p&gt;
+&lt;p&gt;Docker 可以克服不同電腦甚至操作系統之間水土不服的問題，把開發環境連網站打包成容器 (Container），哪裏都可以用。原來如此!我還自作聰明地把 Dockerfile 設定檔裏的 apt-get 刪掉了呢。我以為既然 Arch 上下載軟件的工具是 pacman，就不用 apt。但只要設定好開發環境裏用 Apache，就沒問題。我把 Container 刪了再重建，沒用。&lt;/p&gt;
+&lt;p&gt;我慌了，這還不夠嗎？看來是網絡設定的問題。麻煩，能出錯的地方太了。安裝 Arch 最頭疼的，就是設置網絡是。光説軟件層面已經有一大堆能把人搞糊塗的概念：網絡接口、網絡管理器、主機、IP 地址、端口、域名、DNS、防火牆。如果是 Docker 要調整內部的網絡設定，那就要弄官方文檔上説的什麼「端口轉發」，我一點也看不懂。&lt;/p&gt;
 &lt;p&gt;總之先上網找找看。最好先排除學校給的容器有問題的情況。原來只要一句就可以調試 Docker 網絡。 &lt;code&gt;docker run busybox ping google.com&lt;/code&gt;，借一個叫 busybox 的開發環境，向google 發一個乒乓球，看看對方會不會傳球回來。沒反應，丟包率 100%。&lt;/p&gt;
 &lt;p&gt;網上的答案都説是 docker 是 DNS 設定出錯了。沒有辦法把 google.com 翻譯成真實的 IP 地址。要手動把 docker 的 dns 服務器改成 &lt;code&gt;8.8.8.8&lt;/code&gt;，也就是 Google 提供的 DNS 服務器。一樣沒用。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/etc/docker/daemon.json
@@ -5881,7 +5883,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;hr&gt;
 &lt;p&gt;又不小心研究了一會 emacs，因為 orgdown 的語法好像比 markdown 好。練習快捷鍵除了輸入的時候比較爽快沒有什麼意義。我很滿意 vim。過早的優化是萬惡之源。有些人連盲打都不會呢，照樣能寫出好的程序。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;記錄浪費了的時間的最大好處不是獲得數據，而是用記錄的動作作為行動的開關，有意識地「浪費」時間。逃避結束的時候同時結束記錄，完結的感覺會更加強烈。數據是讓記錄變得有意義的把戲，順帶能了解自己的習慣，知道自己真正需要多少逃避的時間。&lt;/p&gt;
+&lt;p&gt;記錄浪費了的時間的最大好處不是獲得數據，而是用記錄的動作作為行動的開關，有意識地「浪費」時間。逃避結束的時候同時結束記錄，作為切換狀態的訊號。計時是讓無意義的按按鈕儀式變得有意義的把戲，順帶能了解自己的習慣，知道自己真正需要多少逃避的時間。&lt;/p&gt;
 &lt;p&gt;被動地用軟件記錄，或者記錄不會重複的事件都是沒有意義的。&lt;/p&gt;
 </description>
         </item>

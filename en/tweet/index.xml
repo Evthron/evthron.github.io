@@ -6,7 +6,19 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 03 Apr 2025 12:19:15 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 04 May 2025 03:48:54 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Speech note –– en</title>
+        <link>https://evthron.github.io/en/tweet/voice-input/</link>
+        <pubDate>Sun, 04 May 2025 03:48:54 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/en/tweet/voice-input/</guid>
+        <description>&lt;p&gt;I used to think voice typing was a poor technology invented for people who couldn’t type correctly. After all, it’s full of errors—especially in Chinese, where many words share the same sound and differ only in tones.&lt;/p&gt;
+&lt;p&gt;That changed when I tried &lt;strong&gt;Speech Note&lt;/strong&gt;. The software integrates common voice recognition models, and the evolution of voice recognition AI surprised me with its accuracy. It can recognize Chinese sentences with acceptable processing time, often in just a few seconds, thanks to CUDA and my graphics card. Its performance is far better than Google’s voice recognition on my phone.&lt;/p&gt;
+&lt;p&gt;The minor errors from the model are negligible, especially with AI assistance, making voice typing a much more efficient input method.&lt;/p&gt;
+&lt;p&gt;Maybe I type too much and have forgotten how to speak. And voice typing is a great way to practice.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>I prefer phone over text, probably</title>
         <link>https://evthron.github.io/en/tweet/phone-vs-text/</link>
         <pubDate>Thu, 03 Apr 2025 12:19:15 +0800</pubDate>
