@@ -558,7 +558,9 @@ address=/example1.com/
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sleep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$delay&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$CMD
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;雖然很簡單，不過這就是我一直想要的工具。&lt;/p&gt;
-&lt;p&gt;delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。&lt;/p&gt;
+&lt;p&gt;設定好了以後還要修改 makepkg.conf，不然無法使用 makepkg 呼叫 pacman，也就無法安裝 AUR 裏的軟件。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PACMAN_AUTH=(sudo delayed %c)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;安裝 at，排程工具&lt;/li&gt;
 &lt;li&gt;手動建立 /etc/sudoers.d/delayed-admin，加入上面的 sudoers 設定&lt;/li&gt;

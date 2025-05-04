@@ -52,7 +52,7 @@ Universal Android Debloater (Android) 在 Android 上，Google Chrome，Youtube 
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/toolbox/say-goodbye-to-internet/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='productivity' /><meta property='article:tag' content='software' /><meta property='article:published_time' content='2024-01-29T04:13:29&#43;08:00'/><meta property='article:modified_time' content='2025-04-09T15:46:01&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='productivity' /><meta property='article:tag' content='software' /><meta property='article:published_time' content='2024-01-29T04:13:29&#43;08:00'/><meta property='article:modified_time' content='2025-05-05T01:36:02&#43;08:00'/>
 <meta name="twitter:title" content="如何告別互聯網">
 <meta name="twitter:description" content="以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？
 不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。
@@ -521,7 +521,9 @@ address=/example1.com/
 </span></span><span style="display:flex;"><span>sleep <span style="color:#e6db74">&#34;</span>$delay<span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>$CMD
 </span></span></code></pre></div><p>雖然很簡單，不過這就是我一直想要的工具。</p>
-<p>delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。</p>
+<p>設定好了以後還要修改 makepkg.conf，不然無法使用 makepkg 呼叫 pacman，也就無法安裝 AUR 裏的軟件。</p>
+<pre tabindex="0"><code>PACMAN_AUTH=(sudo delayed %c)
+</code></pre><p>delayed-admin 還有另一個模式，是讓自己在指定時間內離開 Wheel 羣組（ 一般會在 sudoers 裏設定，讓 Wheel 羣組的用户獲得和 root 一樣的權限）。雖然我用不上，但因為我在安裝這個的時候遇到了點麻煩，所以還是在這裏記錄一下使用 setup.sh 安裝之後要做的事。</p>
 <ol>
 <li>安裝 at，排程工具</li>
 <li>手動建立 /etc/sudoers.d/delayed-admin，加入上面的 sudoers 設定</li>
@@ -580,7 +582,7 @@ super-user-command=sudo
 
 
             <span>
-                最後更新 2025-04-09 15:46 &#43;08:00
+                最後更新 2025-05-05 01:36 &#43;08:00
             </span>
         </section></footer>
     
