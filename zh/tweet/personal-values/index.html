@@ -2,63 +2,30 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='2024/03/30 21:13
-搗鼓了 joppy（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。
-2024/03/30 23:03
-如果我用普通地利用依賴系統檔案結構的，像 Obsidian 之類的筆記軟件，甚至是 VS Code，能直接打開檔案編輯，而不是用數據庫的 Joplin，不就不用這麼麻煩了嗎？我到底是為了什麼？開源嗎？哈哈哈……
-2024/05/28 12:22
-讀了讀 joppy 的源碼。其實也不是很複雜。只是調用 Joplin 原有的 API 而已。果然讀源碼才是增長知識的最好方法。
-2024/12/27/ 02:21
-我把 Joplin 的文章全部導出來，變成純文本檔案了。所有的筆記和文章都可以放在同一個文件夾裏，很容易備份，也可以用 vimwiki 修改。發佈流程沒改，還是會先複製一份到 Joplin 裏才發佈。雖然有點麻煩，但能把草稿的和發到網站上的文章分開算是意料之外的的好處。
-文章複製一份不是什麼大問題，但隨手記下的想法還要先複製一份的話就很麻煩。
-2025/03/24 22:05
-我之前用 Syncthing 同步手機和電腦的 Joplin 筆記。但是 Android 系統似乎限制了 App 從文件夾裡讀取筆記數據的速度，使得同步速度非常慢，手機上寫的筆記要等很久才能同步到電腦上去，所以一直以來，我只用 Joplin App 查看筆記。但是這樣在路上的時間就不能修改文章了。
-今天弄好 Joplin Server 之後，同步的速度變得很快，問題解決了。用 Docker 就能把自己的電腦當成服務器用。其實根本不用把資料放在雲端，點對點的同步已經很足夠了。
-我現在混用着兩套系統：一部分文章是從 Joplin 匯出的，另一部分則是直接從純文字檔匯出的，哪一種比較好我也說不清楚。問題在於 Linux 上的文件不能保留創建時間。
-還有，這讓我發現了電腦連接到不同的 Wi-Fi 的時候會有不同的 IP 地址。不知道 Syncthing 是怎樣讓設備無論在什麼 Wi-Fi 下都能找到對方的。
-'>
-        <title>改進發佈流程 | Evthron&#39;s blog</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='人到底應該相信什麼呢？這是探索自己心中追求的起點。眾多的答案也是以雞湯和成功學的形式放滿了書店。我總會瞧不起這些書，但排除了現成的答案後，我又應該從哪裏找到自己的信念呢？雞湯、成功學和真正有用的建議，又要怎麼區分呢？
+要是只靠現在樸素的價值觀，我要是遇到了什麼挫折大概也不堪一擊。
+受 Designing your life 這本書和其他心理學觀點的啓發，我決定帶着一些不容易動搖的信念輕裝上陣。
+能進步 就算步調比其他人慢，也能逐漸累積進步。 就算有些日子和經歷浪費了時間，只要回過頭分析，吸取經驗，就能感受過去的經歷是怎麼塑造現在的自己的。 能同情自己 可以原諒自己犯下的錯，可以接受自己能力的不足。 埋怨自己是為了抒發自己的感受，這種感受有時會和事實不符。 不能控制的事情比想象中多。就連自己的行動也不是完全能由自己掌握的。 能發現自己的目標 人是值得追求自己認同的目標的。 多做不同的嘗試，總會找到的 能務實地看待事物 不要執着於沒有必要改變的事物 專注於自己能控制的部分，思考不同的解決方案 不要悲觀，也不要樂觀，分析問題總是辛苦的 能建立有意義的關係 人際關係會帶來意想不到的收穫。 '>
+        <title>基礎的信念-- zh | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/easier-publish/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/tweet/personal-values/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='改進發佈流程'>
-<meta property='og:description' content='2024/03/30 21:13
-搗鼓了 joppy（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。
-2024/03/30 23:03
-如果我用普通地利用依賴系統檔案結構的，像 Obsidian 之類的筆記軟件，甚至是 VS Code，能直接打開檔案編輯，而不是用數據庫的 Joplin，不就不用這麼麻煩了嗎？我到底是為了什麼？開源嗎？哈哈哈……
-2024/05/28 12:22
-讀了讀 joppy 的源碼。其實也不是很複雜。只是調用 Joplin 原有的 API 而已。果然讀源碼才是增長知識的最好方法。
-2024/12/27/ 02:21
-我把 Joplin 的文章全部導出來，變成純文本檔案了。所有的筆記和文章都可以放在同一個文件夾裏，很容易備份，也可以用 vimwiki 修改。發佈流程沒改，還是會先複製一份到 Joplin 裏才發佈。雖然有點麻煩，但能把草稿的和發到網站上的文章分開算是意料之外的的好處。
-文章複製一份不是什麼大問題，但隨手記下的想法還要先複製一份的話就很麻煩。
-2025/03/24 22:05
-我之前用 Syncthing 同步手機和電腦的 Joplin 筆記。但是 Android 系統似乎限制了 App 從文件夾裡讀取筆記數據的速度，使得同步速度非常慢，手機上寫的筆記要等很久才能同步到電腦上去，所以一直以來，我只用 Joplin App 查看筆記。但是這樣在路上的時間就不能修改文章了。
-今天弄好 Joplin Server 之後，同步的速度變得很快，問題解決了。用 Docker 就能把自己的電腦當成服務器用。其實根本不用把資料放在雲端，點對點的同步已經很足夠了。
-我現在混用着兩套系統：一部分文章是從 Joplin 匯出的，另一部分則是直接從純文字檔匯出的，哪一種比較好我也說不清楚。問題在於 Linux 上的文件不能保留創建時間。
-還有，這讓我發現了電腦連接到不同的 Wi-Fi 的時候會有不同的 IP 地址。不知道 Syncthing 是怎樣讓設備無論在什麼 Wi-Fi 下都能找到對方的。
-'>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/easier-publish/'>
+        <link rel="stylesheet" href="/scss/style.min.9e6864c396522fda3ca6f2c29d541ae4324cd8d6881f3112dd4263fb83430245.css"><meta property='og:title' content='基礎的信念-- zh'>
+<meta property='og:description' content='人到底應該相信什麼呢？這是探索自己心中追求的起點。眾多的答案也是以雞湯和成功學的形式放滿了書店。我總會瞧不起這些書，但排除了現成的答案後，我又應該從哪裏找到自己的信念呢？雞湯、成功學和真正有用的建議，又要怎麼區分呢？
+要是只靠現在樸素的價值觀，我要是遇到了什麼挫折大概也不堪一擊。
+受 Designing your life 這本書和其他心理學觀點的啓發，我決定帶着一些不容易動搖的信念輕裝上陣。
+能進步 就算步調比其他人慢，也能逐漸累積進步。 就算有些日子和經歷浪費了時間，只要回過頭分析，吸取經驗，就能感受過去的經歷是怎麼塑造現在的自己的。 能同情自己 可以原諒自己犯下的錯，可以接受自己能力的不足。 埋怨自己是為了抒發自己的感受，這種感受有時會和事實不符。 不能控制的事情比想象中多。就連自己的行動也不是完全能由自己掌握的。 能發現自己的目標 人是值得追求自己認同的目標的。 多做不同的嘗試，總會找到的 能務實地看待事物 不要執着於沒有必要改變的事物 專注於自己能控制的部分，思考不同的解決方案 不要悲觀，也不要樂觀，分析問題總是辛苦的 能建立有意義的關係 人際關係會帶來意想不到的收穫。 '>
+<meta property='og:url' content='https://evthron.github.io/zh/tweet/personal-values/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='grumble' /><meta property='article:tag' content='software' /><meta property='article:published_time' content='2024-03-30T21:13:23&#43;08:00'/><meta property='article:modified_time' content='2025-04-03T10:18:13&#43;08:00'/>
-<meta name="twitter:title" content="改進發佈流程">
-<meta name="twitter:description" content="2024/03/30 21:13
-搗鼓了 joppy（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。
-2024/03/30 23:03
-如果我用普通地利用依賴系統檔案結構的，像 Obsidian 之類的筆記軟件，甚至是 VS Code，能直接打開檔案編輯，而不是用數據庫的 Joplin，不就不用這麼麻煩了嗎？我到底是為了什麼？開源嗎？哈哈哈……
-2024/05/28 12:22
-讀了讀 joppy 的源碼。其實也不是很複雜。只是調用 Joplin 原有的 API 而已。果然讀源碼才是增長知識的最好方法。
-2024/12/27/ 02:21
-我把 Joplin 的文章全部導出來，變成純文本檔案了。所有的筆記和文章都可以放在同一個文件夾裏，很容易備份，也可以用 vimwiki 修改。發佈流程沒改，還是會先複製一份到 Joplin 裏才發佈。雖然有點麻煩，但能把草稿的和發到網站上的文章分開算是意料之外的的好處。
-文章複製一份不是什麼大問題，但隨手記下的想法還要先複製一份的話就很麻煩。
-2025/03/24 22:05
-我之前用 Syncthing 同步手機和電腦的 Joplin 筆記。但是 Android 系統似乎限制了 App 從文件夾裡讀取筆記數據的速度，使得同步速度非常慢，手機上寫的筆記要等很久才能同步到電腦上去，所以一直以來，我只用 Joplin App 查看筆記。但是這樣在路上的時間就不能修改文章了。
-今天弄好 Joplin Server 之後，同步的速度變得很快，問題解決了。用 Docker 就能把自己的電腦當成服務器用。其實根本不用把資料放在雲端，點對點的同步已經很足夠了。
-我現在混用着兩套系統：一部分文章是從 Joplin 匯出的，另一部分則是直接從純文字檔匯出的，哪一種比較好我也說不清楚。問題在於 Linux 上的文件不能保留創建時間。
-還有，這讓我發現了電腦連接到不同的 Wi-Fi 的時候會有不同的 IP 地址。不知道 Syncthing 是怎樣讓設備無論在什麼 Wi-Fi 下都能找到對方的。
-">
+<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:published_time' content='2025-05-05T00:20:52&#43;08:00'/><meta property='article:modified_time' content='2025-05-06T09:47:51&#43;08:00'/>
+<meta name="twitter:title" content="基礎的信念-- zh">
+<meta name="twitter:description" content="人到底應該相信什麼呢？這是探索自己心中追求的起點。眾多的答案也是以雞湯和成功學的形式放滿了書店。我總會瞧不起這些書，但排除了現成的答案後，我又應該從哪裏找到自己的信念呢？雞湯、成功學和真正有用的建議，又要怎麼區分呢？
+要是只靠現在樸素的價值觀，我要是遇到了什麼挫折大概也不堪一擊。
+受 Designing your life 這本書和其他心理學觀點的啓發，我決定帶着一些不容易動搖的信念輕裝上陣。
+能進步 就算步調比其他人慢，也能逐漸累積進步。 就算有些日子和經歷浪費了時間，只要回過頭分析，吸取經驗，就能感受過去的經歷是怎麼塑造現在的自己的。 能同情自己 可以原諒自己犯下的錯，可以接受自己能力的不足。 埋怨自己是為了抒發自己的感受，這種感受有時會和事實不符。 不能控制的事情比想象中多。就連自己的行動也不是完全能由自己掌握的。 能發現自己的目標 人是值得追求自己認同的目標的。 多做不同的嘗試，總會找到的 能務實地看待事物 不要執着於沒有必要改變的事物 專注於自己能控制的部分，思考不同的解決方案 不要悲觀，也不要樂觀，分析問題總是辛苦的 能建立有意義的關係 人際關係會帶來意想不到的收穫。 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -293,29 +260,6 @@
         
 
         <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                    
-                            <option value="https://evthron.github.io/zh/tweet/easier-publish/" selected>中文</option>
-                    
-                            <option value="https://evthron.github.io/en/tweet/easier-publish/" >English</option>
-                    
-                            <option value="https://evthron.github.io/tok/tweet/easier-publish/" >toki pona</option>
-                    
-				    </select>
-                </li>
-            
 
             
                 <li id="dark-mode-toggle">
@@ -365,7 +309,7 @@
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/easier-publish/">改進發佈流程</a>
+                <a href="/zh/tweet/personal-values/">基礎的信念-- zh</a>
             </h2>
         
             
@@ -387,7 +331,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2024-03-30</time>
+                    <time class="article-time--published">2025-05-05</time>
                 </div>
             
     
@@ -395,27 +339,6 @@
         </footer>
         
     
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/tweet/easier-publish/" class="link">English</a>
-                    
-                        <a href="https://evthron.github.io/tok/tweet/easier-publish/" class="link">toki pona</a>
-                    
-                </div>
-            </footer>
         
     </div>
     
@@ -425,22 +348,45 @@
     <section class="article-content">
         
         
-        <p>2024/03/30 21:13</p>
-<p>搗鼓了 <a class="link" href="https://github.com/marph91/joppy"  target="_blank" rel="noopener"
-    >joppy</a>（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。</p>
-<p>2024/03/30 23:03</p>
-<p>如果我用普通地利用依賴系統檔案結構的，像 Obsidian 之類的筆記軟件，甚至是 VS Code，能直接打開檔案編輯，而不是用數據庫的 Joplin，不就不用這麼麻煩了嗎？我到底是為了什麼？開源嗎？哈哈哈……</p>
-<p>2024/05/28 12:22</p>
-<p>讀了讀 joppy 的源碼。其實也不是很複雜。只是調用 Joplin 原有的 API 而已。果然讀源碼才是增長知識的最好方法。</p>
-<p>2024/12/27/ 02:21</p>
-<p>我把 Joplin 的文章全部導出來，變成純文本檔案了。所有的筆記和文章都可以放在同一個文件夾裏，很容易備份，也可以用 vimwiki 修改。發佈流程沒改，還是會先複製一份到 Joplin 裏才發佈。雖然有點麻煩，但能把草稿的和發到網站上的文章分開算是意料之外的的好處。</p>
-<hr>
-<p>文章複製一份不是什麼大問題，但隨手記下的想法還要先複製一份的話就很麻煩。</p>
-<p>2025/03/24 22:05</p>
-<p>我之前用 Syncthing 同步手機和電腦的 Joplin 筆記。但是 Android 系統似乎限制了 App 從文件夾裡讀取筆記數據的速度，使得同步速度非常慢，手機上寫的筆記要等很久才能同步到電腦上去，所以一直以來，我只用 Joplin App 查看筆記。但是這樣在路上的時間就不能修改文章了。</p>
-<p>今天弄好 Joplin Server 之後，同步的速度變得很快，問題解決了。用 Docker 就能把自己的電腦當成服務器用。其實根本不用把資料放在雲端，點對點的同步已經很足夠了。</p>
-<p>我現在混用着兩套系統：一部分文章是從 Joplin 匯出的，另一部分則是直接從純文字檔匯出的，哪一種比較好我也說不清楚。問題在於 Linux 上的文件不能保留創建時間。</p>
-<p>還有，這讓我發現了電腦連接到不同的 Wi-Fi 的時候會有不同的 IP 地址。不知道 Syncthing 是怎樣讓設備無論在什麼 Wi-Fi 下都能找到對方的。</p>
+        <p>人到底應該相信什麼呢？這是探索自己心中追求的起點。眾多的答案也是以雞湯和成功學的形式放滿了書店。我總會瞧不起這些書，但排除了現成的答案後，我又應該從哪裏找到自己的信念呢？雞湯、成功學和真正有用的建議，又要怎麼區分呢？</p>
+<p>要是只靠現在樸素的價值觀，我要是遇到了什麼挫折大概也不堪一擊。</p>
+<p>受 Designing your life 這本書和其他心理學觀點的啓發，我決定帶着一些不容易動搖的信念輕裝上陣。</p>
+<ol>
+<li>能進步</li>
+</ol>
+<ul>
+<li>就算步調比其他人慢，也能逐漸累積進步。</li>
+<li>就算有些日子和經歷浪費了時間，只要回過頭分析，吸取經驗，就能感受過去的經歷是怎麼塑造現在的自己的。</li>
+</ul>
+<ol start="2">
+<li>能同情自己</li>
+</ol>
+<ul>
+<li>可以原諒自己犯下的錯，可以接受自己能力的不足。</li>
+<li>埋怨自己是為了抒發自己的感受，這種感受有時會和事實不符。</li>
+<li>不能控制的事情比想象中多。就連自己的行動也不是完全能由自己掌握的。</li>
+</ul>
+<ol start="3">
+<li>能發現自己的目標</li>
+</ol>
+<ul>
+<li>人是值得追求自己認同的目標的。</li>
+<li>多做不同的嘗試，總會找到的</li>
+</ul>
+<ol start="4">
+<li>能務實地看待事物</li>
+</ol>
+<ul>
+<li>不要執着於沒有必要改變的事物</li>
+<li>專注於自己能控制的部分，思考不同的解決方案</li>
+<li>不要悲觀，也不要樂觀，分析問題總是辛苦的</li>
+</ul>
+<ol start="5">
+<li>能建立有意義的關係</li>
+</ol>
+<ul>
+<li>人際關係會帶來意想不到的收穫。</li>
+</ul>
 
     </section>
 
@@ -448,14 +394,6 @@
     <footer class="article-footer">
 
         
-        
-        <section class="article-tags">
-            
-                <a href="/zh/tags/grumble/">Grumble</a>
-            
-                <a href="/zh/tags/software/">Software</a>
-            
-        </section>
          
 
         <section class="article-lastmod">
@@ -468,7 +406,7 @@
 
 
             <span>
-                最後更新 2025-04-03 10:18 &#43;08:00
+                最後更新 2025-05-06 09:47 &#43;08:00
             </span>
         </section></footer>
     
@@ -504,80 +442,6 @@
 
     
     
-    
-    <aside class="related-content--wrapper">
-        <h2 class="section-title">相關文章</h2>
-        <div class="related-content">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="/zh/tweet/joplin-vim-mode/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Joplin Vim Mode</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/tweet/delusions/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">幻想</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/tweet/search-count/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">搜尋次數</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/tweet/productivity-tools/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">時間管理工具</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/profile/toolbox/say-goodbye-to-internet/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">如何告別互聯網</h2>
-        </div>
-    </a>
-</article>
-
-                
-            </div>
-        </div>
-    </aside>
      
 
     

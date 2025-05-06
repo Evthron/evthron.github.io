@@ -8,6 +8,7 @@ $$ \ket{\psi} = \cos\left(\frac{\theta}{2}\right) \ket{0} &#43; \sin\left(\frac{
 離散傅立葉變換 基礎頻率 = 疊加態 纏繞頻率 = 週期（第幾個/總共有幾個）
 Quantum Oracle Reduced 和 Complete 的關係 如果 output register 是 |e_1&gt;，對 |e_1&gt; 進行週期性的取模運算不會改變狀態，因為只是把所有狀態輪一次而已。只有前面的相位會改變，相位改變是全局的，就算 Input Register 沒有改變，也可以認為相位改變是作用在它上面。這就是用 Complete 模擬 Reduced 的做法。
 既然 Reduced 很常用， Output Register 應該經常會是 |e_1&gt;。
+Trace $$ \mathrm{Tr}(A \otimes B) = \mathrm{Tr}(A) \times \mathrm{Tr}(B) $$ $$ \mathrm{Tr}(|A\rangle \langle B|) = \langle A | B \rangle $$ $$ \mathrm{Tr}[\mathcal{C}(\rho) \cdot \mathcal{C}(\sigma)] = \mathrm{Tr}(\rho \sigma). $$ $$ \mathrm{Tr}(|A\rangle \langle A|B\rangle \langle B|) = \langle A | B \rangle^2 $$
 '>
         <title>量子資訊 | Evthron&#39;s blog</title>
         
@@ -23,6 +24,7 @@ $$ \ket{\psi} = \cos\left(\frac{\theta}{2}\right) \ket{0} &#43; \sin\left(\frac{
 離散傅立葉變換 基礎頻率 = 疊加態 纏繞頻率 = 週期（第幾個/總共有幾個）
 Quantum Oracle Reduced 和 Complete 的關係 如果 output register 是 |e_1&gt;，對 |e_1&gt; 進行週期性的取模運算不會改變狀態，因為只是把所有狀態輪一次而已。只有前面的相位會改變，相位改變是全局的，就算 Input Register 沒有改變，也可以認為相位改變是作用在它上面。這就是用 Complete 模擬 Reduced 的做法。
 既然 Reduced 很常用， Output Register 應該經常會是 |e_1&gt;。
+Trace $$ \mathrm{Tr}(A \otimes B) = \mathrm{Tr}(A) \times \mathrm{Tr}(B) $$ $$ \mathrm{Tr}(|A\rangle \langle B|) = \langle A | B \rangle $$ $$ \mathrm{Tr}[\mathcal{C}(\rho) \cdot \mathcal{C}(\sigma)] = \mathrm{Tr}(\rho \sigma). $$ $$ \mathrm{Tr}(|A\rangle \langle A|B\rangle \langle B|) = \langle A | B \rangle^2 $$
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/quantum/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
@@ -34,6 +36,7 @@ $$ \ket{\psi} = \cos\left(\frac{\theta}{2}\right) \ket{0} &#43; \sin\left(\frac{
 離散傅立葉變換 基礎頻率 = 疊加態 纏繞頻率 = 週期（第幾個/總共有幾個）
 Quantum Oracle Reduced 和 Complete 的關係 如果 output register 是 |e_1&gt;，對 |e_1&gt; 進行週期性的取模運算不會改變狀態，因為只是把所有狀態輪一次而已。只有前面的相位會改變，相位改變是全局的，就算 Input Register 沒有改變，也可以認為相位改變是作用在它上面。這就是用 Complete 模擬 Reduced 的做法。
 既然 Reduced 很常用， Output Register 應該經常會是 |e_1&gt;。
+Trace $$ \mathrm{Tr}(A \otimes B) = \mathrm{Tr}(A) \times \mathrm{Tr}(B) $$ $$ \mathrm{Tr}(|A\rangle \langle B|) = \langle A | B \rangle $$ $$ \mathrm{Tr}[\mathcal{C}(\rho) \cdot \mathcal{C}(\sigma)] = \mathrm{Tr}(\rho \sigma). $$ $$ \mathrm{Tr}(|A\rangle \langle A|B\rangle \langle B|) = \langle A | B \rangle^2 $$
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -361,6 +364,19 @@ $$</p>
 <p>Reduced 和 Complete 的關係
 如果 output register 是 |e_1&gt;，對 |e_1&gt; 進行週期性的取模運算不會改變狀態，因為只是把所有狀態輪一次而已。只有前面的相位會改變，相位改變是全局的，就算 Input Register 沒有改變，也可以認為相位改變是作用在它上面。這就是用 Complete 模擬 Reduced 的做法。</p>
 <p>既然 Reduced 很常用， Output Register 應該經常會是 |e_1&gt;。</p>
+<h2 id="trace">Trace</h2>
+<p>$$
+\mathrm{Tr}(A \otimes B) = \mathrm{Tr}(A) \times \mathrm{Tr}(B)
+$$
+$$
+\mathrm{Tr}(|A\rangle \langle B|) = \langle A | B \rangle
+$$
+$$
+\mathrm{Tr}[\mathcal{C}(\rho) \cdot \mathcal{C}(\sigma)] = \mathrm{Tr}(\rho \sigma).
+$$
+$$
+\mathrm{Tr}(|A\rangle \langle A|B\rangle \langle B|) = \langle A | B \rangle^2
+$$</p>
 
     </section>
 
