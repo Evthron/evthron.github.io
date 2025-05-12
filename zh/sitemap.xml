@@ -804,6 +804,9 @@
     <loc>https://evthron.github.io/zh/profile/skill/sprinter/</loc>
     <lastmod>2025-03-21T03:14:44+08:00</lastmod>
   </url><url>
+    <loc>https://evthron.github.io/zh/skill/sprinter/</loc>
+    <lastmod>2025-05-05T01:32:27+08:00</lastmod>
+  </url><url>
     <loc>https://evthron.github.io/zh/profile/skill/</loc>
     <lastmod>2025-03-21T03:14:44+08:00</lastmod>
     <xhtml:link
@@ -820,6 +823,24 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/profile/skill/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/skill/</loc>
+    <lastmod>2025-05-05T01:32:27+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/skill/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/lottery/</loc>
@@ -1310,24 +1331,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/skill/introduction/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/skill/</loc>
-    <lastmod>2025-05-05T01:32:27+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/skill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/skill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/skill/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/arch-linux-installation/</loc>
@@ -1866,8 +1869,6 @@
   </url><url>
     <loc>https://evthron.github.io/zh/posts/overnight-revision/</loc>
     <lastmod>2023-05-16T20:41:00+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/skill/sprinter/</loc>
   </url><url>
     <loc>https://evthron.github.io/zh/profile/sandbox/img-fetch/</loc>
   </url><url>

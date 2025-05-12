@@ -374,7 +374,7 @@ Replace bad characters in filenames
 <p>把 Tree 轉換成檔案結構
 例子：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pathlib <span style="color:#f92672">import</span> Path
-</span></span><span style="display:flex;"><span>desktop_path <span style="color:#f92672">=</span> Path(<span style="color:#e6db74">&#34;C:</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Users</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Jacky</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Desktop</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">Test&#34;</span>)
+</span></span><span style="display:flex;"><span>desktop_path <span style="color:#f92672">=</span> Path(<span style="color:#e6db74">&#34;/home/User/Desktop/Test&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">output_to_desktop</span>(tree : dict, output_dir : Path):
 </span></span><span style="display:flex;"><span>    output_dir<span style="color:#f92672">.</span>mkdir(exist_ok<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> parent, child <span style="color:#f92672">in</span> tree<span style="color:#f92672">.</span>items():
