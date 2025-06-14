@@ -6,7 +6,15 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Tue, 06 May 2025 10:03:30 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 14 Jun 2025 16:52:00 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Stories</title>
+        <link>https://evthron.github.io/zh/tags/stories/</link>
+        <pubDate>Sat, 14 Jun 2025 16:52:00 +0800</pubDate>
+        
+        <guid>https://evthron.github.io/zh/tags/stories/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Fiction</title>
         <link>https://evthron.github.io/zh/tags/fiction/</link>
         <pubDate>Tue, 06 May 2025 10:03:30 +0800</pubDate>
@@ -100,14 +108,6 @@
         <pubDate>Sun, 16 Feb 2025 15:43:55 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tags/coding/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Stories</title>
-        <link>https://evthron.github.io/zh/tags/stories/</link>
-        <pubDate>Sun, 09 Feb 2025 22:10:41 +0800</pubDate>
-        
-        <guid>https://evthron.github.io/zh/tags/stories/</guid>
         <description></description>
         </item>
         <item>
