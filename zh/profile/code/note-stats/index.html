@@ -116,7 +116,7 @@ exclude words that contains numbers &ndash; flashcards" />
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.147.7">
+  <meta name="generator" content="Hugo 0.147.8">
   <meta itemprop="name" content="文本分析">
   <meta itemprop="description" content="def analyze_text(text: str): tokens = word_tokenize(text) # tokens are all the words # reset tokens using list generator tokens = [ # normalize to lower case word.lower() for word in tokens # exculde punctuation if word not in (&#34;...&#34;, &#34;&#39;&#39;&#34;, &#34;``&#34;, &#34;--&#34;, &#34;&#43;&#43;&#34;) and word not in string.punctuation and # exclude single character words len(word) &gt; 1 and # exclude words containing less than one digit not any(character.isdigit() for character in word) # generator is allowed to be used in any() ] # show how many words are there print(&#34;Words:&#34;, len(tokens)) # filter most common words tokens = [ word for word in tokens if word not in set(stopwords.words(&#34;english&#34;) &#43; stopwords.words(&#34;german&#34;)) ] # generate frequecy dictionary using FreqDist fdist = FreqDist(tokens) # fdist.plot(50) print(&#34;Most common words:&#34;) for word, count in fdist.most_common(10): print(f&#34;- {word}: {count}&#34;) exclude words that contains numbers – flashcards">
   <meta itemprop="datePublished" content="2024-09-09T13:02:35+08:00">
