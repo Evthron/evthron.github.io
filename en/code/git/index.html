@@ -460,6 +460,12 @@ Make sure you use the SSH link (not HTTPS) for your own repo for better authenti
 need to make seperate commits.</p>
 <h2 id="cicd-pipeline-github-action">CI/CD Pipeline (Github Action)</h2>
 <p>Continuous Integration, Continuous Delivery</p>
+<h2 id="when-will-automerge-fail">When will automerge fail?</h2>
+<ul>
+<li>You pushed some mistake to the remote branch and you want to undo it, so you go back a few commits and branch off to work on new features.</li>
+<li>However, if the mistake does not conflict with the new feature, the mistake will be reintroduced to the code when automerging.</li>
+<li>Solution: Be careful when you merge, or use <code>push --force</code> if the branch is your private branch.</li>
+</ul>
 
     </section>
 
