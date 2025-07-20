@@ -6,7 +6,31 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Thu, 09 May 2024 18:29:26 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/profile/skill/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/profile/skill/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>class Sprinter</title>
+        <link>https://evthron.github.io/zh/profile/skill/sprinter/</link>
+        <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/skill/sprinter/</guid>
+        <description>
+&lt;div class=&#34;chart-wrap vertical&#34;&gt;
+  &lt;div class=&#34;title&#34;&gt;Weekly step count&lt;/div&gt;
+  &lt;div class=&#34;grid&#34;&gt;
+    &lt;div class=&#34;bottom&#34;&gt; 0 step &lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-15&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-16&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-17&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-18&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-19&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-20&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-21&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;top&#34;&gt; 7000 steps &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
         <title>生活遊戲化 </title>
         <link>https://evthron.github.io/zh/profile/skill/introduction/</link>
         <pubDate>Thu, 09 May 2024 18:29:26 +0800</pubDate>
@@ -1690,15 +1714,6 @@ traditional media.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;It thoroughly discussed how should we practise drawing to learn our true styles. Artistic drawings are not likely to be eye candies. We draw not only what we see but beyond what we see.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://evthron.github.io/zh/profile/skill/sprinter/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://evthron.github.io/zh/profile/skill/sprinter/</guid>
-        <description>&lt;h1&gt;&lt;/h1&gt;
 </description>
         </item>
         

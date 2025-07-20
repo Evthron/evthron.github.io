@@ -12,9 +12,16 @@
         <pubDate>Sat, 14 Jun 2025 16:52:00 +0800</pubDate>
         
         <guid>https://evthron.github.io/zh/tweet/working-life/</guid>
-        <description>&lt;p&gt;就算是考試，我一天能專注六個小時就很難得了。但工作一天卻能輕輕鬆鬆連續專心八個小時，代價是回到家後，就喪失思考能力和意志力了。&lt;/p&gt;
+        <description>&lt;p&gt;2025/06/14
+就算是考試，我一天能專注六個小時就很難得了。但工作一天卻能輕輕鬆鬆連續專心八個小時，代價是回到家後，就喪失思考能力和意志力了。&lt;/p&gt;
 &lt;p&gt;工作做的事情和我自己一個人在家搗鼓電腦差不多，依舊是一邊學，一邊加新功能，一邊修 Bug 。只不過自己做不出來可以放棄，工作任務不能放棄而已。&lt;/p&gt;
 &lt;p&gt;更加不知道週末能夠做什麼了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;2025/07/20
+能夠什麼都不用擔心，專注地思考麻煩問題的感覺很好。單從這個方面來説，沒有比這個更適合我的工作了。&lt;/p&gt;
+&lt;p&gt;但這是因為我的工作簡單，責任輕的緣故，要是我的能力變強，要負責設計系統的話，就會有容不下犯錯的壓力了。&lt;/p&gt;
+&lt;p&gt;IT 部門掌握了公司的命脈，但實際的地位和權力卻不太高。這就是這份工作的難處吧。&lt;/p&gt;
+&lt;p&gt;週末缺乏動力的感覺還是一樣差，不過是完全閒下來沒有壓力的，至少能養精蓄鋭睡好覺就好，學習就在工作裏學吧。要是把週末當成放縱的機會，週日晚上睡不着就慘了。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -2292,6 +2299,30 @@ need to make seperate commits.&lt;/p&gt;
 &lt;p&gt;我先數學角度開始着手，Ax^2 + Bx + C 到底是按照什麼算法變成 (Dx+E)(Fx+G) 的形式的呢？我用一些很基礎的運算把未知數搬來搬去。我當時沒學會配方法，無論怎麼做都只是徒勞無功。就算現在學會了，我也不知道要怎麼樣用配方法推導一元二次方程的公式。&lt;/p&gt;
 &lt;p&gt;數學不好，我還可以編程嘛。既然會問到的因式分解的答案必定是整數，那我逐個答案測試不就可以了嗎？我便試着寫了個像質數篩一樣的程序。但計算器編程很受限制，能用的變數只有7個，也不能迴圈套迴圈，我最後也沒成功。&lt;/p&gt;
 &lt;p&gt;後來我才發現，計算器內置了一元二次方程的公式。只要知道一個一元二次方程的答案，就能寫出它因式分解後的形式。大家説用計算器程式算的時候，並不是真的自己編了段程序。知道了標準的做法之後，我就把這事忘了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>class Sprinter</title>
+        <link>https://evthron.github.io/zh/profile/skill/sprinter/</link>
+        <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://evthron.github.io/zh/profile/skill/sprinter/</guid>
+        <description>
+&lt;div class=&#34;chart-wrap vertical&#34;&gt;
+  &lt;div class=&#34;title&#34;&gt;Weekly step count&lt;/div&gt;
+  &lt;div class=&#34;grid&#34;&gt;
+    &lt;div class=&#34;bottom&#34;&gt; 0 step &lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-15&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-16&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-17&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-18&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-19&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-20&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;bar&#34; style=&#34;--bar-value:0%;&#34; data-name=&#34;0&#34; title=&#34;03-21&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;top&#34;&gt; 7000 steps &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -8549,15 +8580,6 @@ super-user-command=sudo
 &lt;p&gt;考試結束後，回家恍如隔世。這種一心一意的能量，要是能放在其他事情上就好了。假期要好好充實地過。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;我受夠這種焦慮得肚子打滾，沒看兩頁書就怕得跑掉，毫無意義地在空間裏踱步，胸口一陣陣麻痹的感覺了。一開始就沒有必要自己一個人埋頭苦幹。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://evthron.github.io/zh/profile/skill/sprinter/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://evthron.github.io/zh/profile/skill/sprinter/</guid>
-        <description>&lt;h1&gt;&lt;/h1&gt;
 </description>
         </item>
         <item>
