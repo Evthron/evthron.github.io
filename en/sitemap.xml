@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/en/code/</loc>
-    <lastmod>2025-05-30T21:16:18+08:00</lastmod>
+    <lastmod>2025-08-10T15:03:23+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +13,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/code/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/code/hugo-theme-stack/</loc>
+    <lastmod>2025-08-10T15:03:23+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/hugo-theme-stack/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/hugo-theme-stack/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/code/relationship-tracker/</loc>
@@ -246,6 +259,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/tweet/learn-from-economics/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/code/javascript/</loc>
+    <lastmod>2025-03-07T14:39:56+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/javascript/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/profile/code/</loc>
@@ -617,7 +643,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/</loc>
-    <lastmod>2025-07-27T16:52:42+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -648,7 +674,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/taskwarrior/</loc>
-    <lastmod>2025-07-27T16:52:42+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -884,7 +910,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/</loc>
-    <lastmod>2025-07-27T16:52:42+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1115,7 +1141,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/writer/</loc>
-    <lastmod>2025-07-27T16:52:42+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1141,7 +1167,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/foreigner/</loc>
-    <lastmod>2025-07-27T16:52:42+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1167,7 +1193,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/programmer/</loc>
-    <lastmod>2025-07-27T16:52:41+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1193,7 +1219,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/right-sider/</loc>
-    <lastmod>2025-07-27T16:52:42+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:28+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1327,7 +1353,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/skill/painter/</loc>
-    <lastmod>2025-07-27T16:52:41+08:00</lastmod>
+    <lastmod>2025-08-10T20:10:26+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
