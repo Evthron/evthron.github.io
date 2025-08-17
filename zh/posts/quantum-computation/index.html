@@ -2,68 +2,65 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Anki 用的是 SQLite。實戰是好事吧？
-很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。
-順利完成了。
-https://evthron.github.io/zh/sandbox/test-vocab/
-參考資料：
-本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。
-https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/
-python tutorial
-https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
-這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？
-https://kylerego.github.io/anki-schema#the-notes-table
-Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。
-https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/
-https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
-界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。
-https://marcjenkins.co.uk/bookshelf/
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='量子計算機已經成為現實了，但是距離實際應用還有很長很長的路要走。不過不用擔心，真正學過量子計算之後，你就不會對量子計算機的發展有什麼期待了。
+疊加 量子計算機並不是直接計算答案，而是在所有有可能的答案裏，隨機挑選一個答案出來。
+疊加態的存在，讓量子計算能夠表示這些所有可能的答案。
+在量子的世界，粒子的狀態大多不是簡單的 0 和 1，而是處於 0 和 1 之間的某種狀態。這個就是疊加態，也叫作一個量子比特。
+一個量子比特處於什麼狀態，是需要測量才能知道的，但是測量結果不能是中間狀態，只能是 0 或者 1 。這個結果是隨機的，我們只能知道得到每種結果的概率是多少。
+兩個比特能表示四種結果。但是如果我們需要同時操作這四個結果，在經典的世界，我們就要操作八個比特，但是在量子的世界，就只需要操作兩個量子比特。這是計算能夠加速的其中一個因素。
+不過，如果我們沒有辦法控制這些隨機的結果，就只會得到一堆隨機的亂碼而已。
+糾纏 隨機測量得到的結果幾乎肯定是錯的。我們要在測量之前，操作這個量子系統的狀態狀態，把得到錯誤答案的概率降到最低。
+一對糾纏的粒子，測量出來的狀態，總是會呈現出某些關聯。例如「結果必定相反」、「結果必定相同」、「結果有90%的可能相同」。
+這種關聯，並不是在製作糾纏粒子的時候決定好的，我們可以在製作了兩個糾纏粒子之後，才按照情況改變觀測方法，控制兩個粒子的關聯程度，調整結果相同或相反的概率。
+在量子計算，糾纏的作用就是能把多個的分開的量子比特變成一個整體。這麼一來，操作其中任何一個量子比特，都相當於操作整體的狀態。
+疊加和糾纏，都體現了量子計算的一個特點：我們必須在對量子系統的內在一無所知的狀態下，操控量子系統的整體狀態。
+這種一無所知，其實有着莫大的好處。因為我們不知道系統內部是哪一種狀態，所以必須要在考慮所有狀態的情況下對系統進行整體操作。量子的物理性質會幫我們把整體操作應用到所有可能存在的狀態上，實現加速。
+具體能加速多少，就看我們能想出什麼操作來提升測量出正確答案的概率了。這是量子計算最困難的部分。據我所知有兩種主要流派，分別類似 Grover&rsquo;s Algorithm 和 Shor&rsquo;s Algorithm。
+Grover&rsquo;s Algorithm 會不斷對整體系統驗證答案。 應用範圍很廣，但加速程度有限，不一定比優化過的普通經典算法快。 Shor&rsquo;s Algorithm 會大批抵消錯誤的答案。 雖然快得出奇，但只對和週期有關的數學問題有效。 所以，量子計算機不僅還要過很久才能實現，就算實現了，對大部分的問題也沒有什麼驚天動地的效能改善。
 '>
-        <title>Anki SQLite | Evthron&#39;s blog</title>
+        <title>量子計算的原理 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/sqlite-anki/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/posts/quantum-computation/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.8320945c7ba827dbaa5b573307e742d49e55ac73c3baabb5f82dc9e9a9751caf.css"><meta property='og:title' content='Anki SQLite'>
-<meta property='og:description' content='Anki 用的是 SQLite。實戰是好事吧？
-很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。
-順利完成了。
-https://evthron.github.io/zh/sandbox/test-vocab/
-參考資料：
-本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。
-https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/
-python tutorial
-https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
-這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？
-https://kylerego.github.io/anki-schema#the-notes-table
-Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。
-https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/
-https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
-界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。
-https://marcjenkins.co.uk/bookshelf/
+        <link rel="stylesheet" href="/scss/style.min.8320945c7ba827dbaa5b573307e742d49e55ac73c3baabb5f82dc9e9a9751caf.css"><meta property='og:title' content='量子計算的原理'>
+<meta property='og:description' content='量子計算機已經成為現實了，但是距離實際應用還有很長很長的路要走。不過不用擔心，真正學過量子計算之後，你就不會對量子計算機的發展有什麼期待了。
+疊加 量子計算機並不是直接計算答案，而是在所有有可能的答案裏，隨機挑選一個答案出來。
+疊加態的存在，讓量子計算能夠表示這些所有可能的答案。
+在量子的世界，粒子的狀態大多不是簡單的 0 和 1，而是處於 0 和 1 之間的某種狀態。這個就是疊加態，也叫作一個量子比特。
+一個量子比特處於什麼狀態，是需要測量才能知道的，但是測量結果不能是中間狀態，只能是 0 或者 1 。這個結果是隨機的，我們只能知道得到每種結果的概率是多少。
+兩個比特能表示四種結果。但是如果我們需要同時操作這四個結果，在經典的世界，我們就要操作八個比特，但是在量子的世界，就只需要操作兩個量子比特。這是計算能夠加速的其中一個因素。
+不過，如果我們沒有辦法控制這些隨機的結果，就只會得到一堆隨機的亂碼而已。
+糾纏 隨機測量得到的結果幾乎肯定是錯的。我們要在測量之前，操作這個量子系統的狀態狀態，把得到錯誤答案的概率降到最低。
+一對糾纏的粒子，測量出來的狀態，總是會呈現出某些關聯。例如「結果必定相反」、「結果必定相同」、「結果有90%的可能相同」。
+這種關聯，並不是在製作糾纏粒子的時候決定好的，我們可以在製作了兩個糾纏粒子之後，才按照情況改變觀測方法，控制兩個粒子的關聯程度，調整結果相同或相反的概率。
+在量子計算，糾纏的作用就是能把多個的分開的量子比特變成一個整體。這麼一來，操作其中任何一個量子比特，都相當於操作整體的狀態。
+疊加和糾纏，都體現了量子計算的一個特點：我們必須在對量子系統的內在一無所知的狀態下，操控量子系統的整體狀態。
+這種一無所知，其實有着莫大的好處。因為我們不知道系統內部是哪一種狀態，所以必須要在考慮所有狀態的情況下對系統進行整體操作。量子的物理性質會幫我們把整體操作應用到所有可能存在的狀態上，實現加速。
+具體能加速多少，就看我們能想出什麼操作來提升測量出正確答案的概率了。這是量子計算最困難的部分。據我所知有兩種主要流派，分別類似 Grover&rsquo;s Algorithm 和 Shor&rsquo;s Algorithm。
+Grover&rsquo;s Algorithm 會不斷對整體系統驗證答案。 應用範圍很廣，但加速程度有限，不一定比優化過的普通經典算法快。 Shor&rsquo;s Algorithm 會大批抵消錯誤的答案。 雖然快得出奇，但只對和週期有關的數學問題有效。 所以，量子計算機不僅還要過很久才能實現，就算實現了，對大部分的問題也沒有什麼驚天動地的效能改善。
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/sqlite-anki/'>
+<meta property='og:url' content='https://evthron.github.io/zh/posts/quantum-computation/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2025-01-06T14:00:46&#43;08:00'/><meta property='article:modified_time' content='2025-03-07T15:58:44&#43;08:00'/>
-<meta name="twitter:title" content="Anki SQLite">
-<meta name="twitter:description" content="Anki 用的是 SQLite。實戰是好事吧？
-很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。
-順利完成了。
-https://evthron.github.io/zh/sandbox/test-vocab/
-參考資料：
-本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。
-https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/
-python tutorial
-https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial
-這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？
-https://kylerego.github.io/anki-schema#the-notes-table
-Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。
-https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/
-https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/
-界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。
-https://marcjenkins.co.uk/bookshelf/
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='science' /><meta property='article:tag' content='maths' /><meta property='article:published_time' content='2025-08-17T18:22:11&#43;08:00'/><meta property='article:modified_time' content='2025-08-17T19:09:43&#43;08:00'/>
+<meta name="twitter:title" content="量子計算的原理">
+<meta name="twitter:description" content="量子計算機已經成為現實了，但是距離實際應用還有很長很長的路要走。不過不用擔心，真正學過量子計算之後，你就不會對量子計算機的發展有什麼期待了。
+疊加 量子計算機並不是直接計算答案，而是在所有有可能的答案裏，隨機挑選一個答案出來。
+疊加態的存在，讓量子計算能夠表示這些所有可能的答案。
+在量子的世界，粒子的狀態大多不是簡單的 0 和 1，而是處於 0 和 1 之間的某種狀態。這個就是疊加態，也叫作一個量子比特。
+一個量子比特處於什麼狀態，是需要測量才能知道的，但是測量結果不能是中間狀態，只能是 0 或者 1 。這個結果是隨機的，我們只能知道得到每種結果的概率是多少。
+兩個比特能表示四種結果。但是如果我們需要同時操作這四個結果，在經典的世界，我們就要操作八個比特，但是在量子的世界，就只需要操作兩個量子比特。這是計算能夠加速的其中一個因素。
+不過，如果我們沒有辦法控制這些隨機的結果，就只會得到一堆隨機的亂碼而已。
+糾纏 隨機測量得到的結果幾乎肯定是錯的。我們要在測量之前，操作這個量子系統的狀態狀態，把得到錯誤答案的概率降到最低。
+一對糾纏的粒子，測量出來的狀態，總是會呈現出某些關聯。例如「結果必定相反」、「結果必定相同」、「結果有90%的可能相同」。
+這種關聯，並不是在製作糾纏粒子的時候決定好的，我們可以在製作了兩個糾纏粒子之後，才按照情況改變觀測方法，控制兩個粒子的關聯程度，調整結果相同或相反的概率。
+在量子計算，糾纏的作用就是能把多個的分開的量子比特變成一個整體。這麼一來，操作其中任何一個量子比特，都相當於操作整體的狀態。
+疊加和糾纏，都體現了量子計算的一個特點：我們必須在對量子系統的內在一無所知的狀態下，操控量子系統的整體狀態。
+這種一無所知，其實有着莫大的好處。因為我們不知道系統內部是哪一種狀態，所以必須要在考慮所有狀態的情況下對系統進行整體操作。量子的物理性質會幫我們把整體操作應用到所有可能存在的狀態上，實現加速。
+具體能加速多少，就看我們能想出什麼操作來提升測量出正確答案的概率了。這是量子計算最困難的部分。據我所知有兩種主要流派，分別類似 Grover&rsquo;s Algorithm 和 Shor&rsquo;s Algorithm。
+Grover&rsquo;s Algorithm 會不斷對整體系統驗證答案。 應用範圍很廣，但加速程度有限，不一定比優化過的普通經典算法快。 Shor&rsquo;s Algorithm 會大批抵消錯誤的答案。 雖然快得出奇，但只對和週期有關的數學問題有效。 所以，量子計算機不僅還要過很久才能實現，就算實現了，對大部分的問題也沒有什麼驚天動地的效能改善。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -228,7 +225,7 @@ https://marcjenkins.co.uk/bookshelf/
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/posts/' >
                 
                 
@@ -248,7 +245,7 @@ https://marcjenkins.co.uk/bookshelf/
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/zh/tweet/' >
                 
                 
@@ -339,8 +336,8 @@ https://marcjenkins.co.uk/bookshelf/
         <header class="article-category">
             
                 
-                <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                    tweet
+                <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
+                    posts
                 </a>
             
         </header>
@@ -348,7 +345,7 @@ https://marcjenkins.co.uk/bookshelf/
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/sqlite-anki/">Anki SQLite</a>
+                <a href="/zh/posts/quantum-computation/">量子計算的原理</a>
             </h2>
         
             
@@ -370,7 +367,7 @@ https://marcjenkins.co.uk/bookshelf/
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2025-01-06</time>
+                    <time class="article-time--published">2025-08-17</time>
                 </div>
             
     
@@ -387,29 +384,36 @@ https://marcjenkins.co.uk/bookshelf/
     <section class="article-content">
         
         
-        <p>Anki 用的是 SQLite。實戰是好事吧？</p>
-<p>很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。</p>
-<p>順利完成了。</p>
-<p><a class="link" href="https://evthron.github.io/zh/sandbox/test-vocab/"  target="_blank" rel="noopener"
-    >https://evthron.github.io/zh/sandbox/test-vocab/</a></p>
-<p>參考資料：</p>
-<p>本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。</p>
-<p><a class="link" href="https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/"  target="_blank" rel="noopener"
-    >https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/</a></p>
-<p>python tutorial</p>
-<p><a class="link" href="https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial"  target="_blank" rel="noopener"
-    >https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial</a></p>
-<p>這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？</p>
-<p><a class="link" href="https://kylerego.github.io/anki-schema#the-notes-table"  target="_blank" rel="noopener"
-    >https://kylerego.github.io/anki-schema#the-notes-table</a></p>
-<p>Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。</p>
-<p><a class="link" href="https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/"  target="_blank" rel="noopener"
-    >https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/</a></p>
-<p><a class="link" href="https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/"  target="_blank" rel="noopener"
-    >https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/</a></p>
-<p>界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。</p>
-<p><a class="link" href="https://marcjenkins.co.uk/bookshelf/"  target="_blank" rel="noopener"
-    >https://marcjenkins.co.uk/bookshelf/</a></p>
+        <p>量子計算機已經成為現實了，但是距離實際應用還有很長很長的路要走。不過不用擔心，真正學過量子計算之後，你就不會對量子計算機的發展有什麼期待了。</p>
+<h2 id="疊加">疊加</h2>
+<p>量子計算機並不是直接計算答案，而是在所有有可能的答案裏，隨機挑選一個答案出來。</p>
+<p>疊加態的存在，讓量子計算能夠表示這些所有可能的答案。</p>
+<p>在量子的世界，粒子的狀態大多不是簡單的 0 和 1，而是處於 0 和 1 之間的某種狀態。這個就是疊加態，也叫作一個量子比特。</p>
+<p>一個量子比特處於什麼狀態，是需要測量才能知道的，但是測量結果不能是中間狀態，只能是 0 或者 1 。這個結果是隨機的，我們只能知道得到每種結果的概率是多少。</p>
+<p>兩個比特能表示四種結果。但是如果我們需要同時操作這四個結果，在經典的世界，我們就要操作八個比特，但是在量子的世界，就只需要操作兩個量子比特。這是計算能夠加速的其中一個因素。</p>
+<p>不過，如果我們沒有辦法控制這些隨機的結果，就只會得到一堆隨機的亂碼而已。</p>
+<h2 id="糾纏">糾纏</h2>
+<p>隨機測量得到的結果幾乎肯定是錯的。我們要在測量之前，操作這個量子系統的狀態狀態，把得到錯誤答案的概率降到最低。</p>
+<p>一對糾纏的粒子，測量出來的狀態，總是會呈現出某些關聯。例如「結果必定相反」、「結果必定相同」、「結果有90%的可能相同」。</p>
+<p>這種關聯，並不是在製作糾纏粒子的時候決定好的，我們可以在製作了兩個糾纏粒子之後，才按照情況改變觀測方法，控制兩個粒子的關聯程度，調整結果相同或相反的概率。</p>
+<p>在量子計算，糾纏的作用就是能把多個的分開的量子比特變成一個整體。這麼一來，操作其中任何一個量子比特，都相當於操作整體的狀態。</p>
+<hr>
+<p>疊加和糾纏，都體現了量子計算的一個特點：我們必須在對量子系統的內在一無所知的狀態下，操控量子系統的整體狀態。</p>
+<p>這種一無所知，其實有着莫大的好處。因為我們不知道系統內部是哪一種狀態，所以必須要在考慮所有狀態的情況下對系統進行整體操作。量子的物理性質會幫我們把整體操作應用到所有可能存在的狀態上，實現加速。</p>
+<p>具體能加速多少，就看我們能想出什麼操作來提升測量出正確答案的概率了。這是量子計算最困難的部分。據我所知有兩種主要流派，分別類似 Grover&rsquo;s Algorithm 和 Shor&rsquo;s Algorithm。</p>
+<ul>
+<li>Grover&rsquo;s Algorithm 會不斷對整體系統驗證答案。
+<ul>
+<li>應用範圍很廣，但加速程度有限，不一定比優化過的普通經典算法快。</li>
+</ul>
+</li>
+<li>Shor&rsquo;s Algorithm 會大批抵消錯誤的答案。
+<ul>
+<li>雖然快得出奇，但只對和週期有關的數學問題有效。</li>
+</ul>
+</li>
+</ul>
+<p>所以，量子計算機不僅還要過很久才能實現，就算實現了，對大部分的問題也沒有什麼驚天動地的效能改善。</p>
 
     </section>
 
@@ -420,7 +424,9 @@ https://marcjenkins.co.uk/bookshelf/
         
         <section class="article-tags">
             
-                <a href="/zh/tags/coding/">Coding</a>
+                <a href="/zh/tags/science/">Science</a>
+            
+                <a href="/zh/tags/maths/">Maths</a>
             
         </section>
          
@@ -435,7 +441,7 @@ https://marcjenkins.co.uk/bookshelf/
 
 
             <span>
-                最後更新 2025-03-07 15:58 &#43;08:00
+                最後更新 2025-08-17 19:09 &#43;08:00
             </span>
         </section></footer>
     
@@ -479,12 +485,12 @@ https://marcjenkins.co.uk/bookshelf/
                 
                     
 <article class="">
-    <a href="/zh/profile/toolbox/upload-workflow/">
+    <a href="/zh/posts/higher-order-operation/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">文章發佈流程</h2>
+            <h2 class="article-title">高階運算</h2>
         </div>
     </a>
 </article>
@@ -492,12 +498,12 @@ https://marcjenkins.co.uk/bookshelf/
                 
                     
 <article class="">
-    <a href="/zh/toolbox/upload-workflow/">
+    <a href="/zh/profile/posts/higher-order-operation/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">文章發佈流程</h2>
+            <h2 class="article-title">高階運算</h2>
         </div>
     </a>
 </article>
@@ -505,12 +511,12 @@ https://marcjenkins.co.uk/bookshelf/
                 
                     
 <article class="">
-    <a href="/zh/profile/toolbox/taskwarrior-hooks/">
+    <a href="/zh/posts/reinvent-the-wheel-in-maths/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">定製 Taskwarrior</h2>
+            <h2 class="article-title">數學造輪子</h2>
         </div>
     </a>
 </article>
@@ -518,12 +524,12 @@ https://marcjenkins.co.uk/bookshelf/
                 
                     
 <article class="">
-    <a href="/zh/toolbox/taskwarrior-hooks/">
+    <a href="/zh/tweet/lottery/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">定製 Taskwarrior</h2>
+            <h2 class="article-title">彩票</h2>
         </div>
     </a>
 </article>
@@ -531,12 +537,12 @@ https://marcjenkins.co.uk/bookshelf/
                 
                     
 <article class="">
-    <a href="/zh/tweet/sticky-menu/">
+    <a href="/zh/profile/posts/median/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">黏在旁邊的選單</h2>
+            <h2 class="article-title">中位數公式</h2>
         </div>
     </a>
 </article>
