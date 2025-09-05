@@ -11,14 +11,14 @@
 我在這個時候發現，之前考試要考的，讓人學得頭昏的組合數學居然派上用場了。這個問題叫做 Combination with replacement 。解決方法叫做 Stars and bars。不過要分別計算每一種的排列的話，就要一個個數出來了。總共有 927 種。
 3333 = 1 33321 = 20 333111 = 20 33 111 111 = 28 33 21 111 = 105 33 22 11 = 90 33 222 = 10 3 111 111 111 = 10 3 21 111 111 = 72 3 22 11 111 = 168 3 222 111 = 140 3 2222 1 = 30 222222 = 1 22222 11 = 21 2222 11 11 = 70 222 11 11 11 = 84 22 11 11 11 11 = 45 2 11 11 11 11 11 = 11 11 11 11 11 11 11 = 1 Total = 927 事情本來到這裏就結束了。但是我又想到，和五聲音階這種連音的數量都不一樣的音階不一樣，大調和小調看似不同，但使用的是的是同一組的音程。音階是循環的，不用加入新的音，也可以形成新的音階，但音程組合並沒有改變。這應該不是簡單的排列組合，而是環形的排列組合。
 '>
-        <title>音階  | Evthron&#39;s blog</title>
+        <title>音階一共有多少種？ | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/zh/posts/scale/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.8320945c7ba827dbaa5b573307e742d49e55ac73c3baabb5f82dc9e9a9751caf.css"><meta property='og:title' content='音階 '>
+        <link rel="stylesheet" href="/scss/style.min.8320945c7ba827dbaa5b573307e742d49e55ac73c3baabb5f82dc9e9a9751caf.css"><meta property='og:title' content='音階一共有多少種？'>
 <meta property='og:description' content='音樂的旋律到底有多少種？音符的序列有無窮無盡的可能，但是真正好聽的組合應該只有一小部分。
 先從容易回答的問題開始：音樂裏面有幾個音？隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。古代人透過調整弦的長度，在這兩個頻率之間分割。分成五個音或是七個音。後來在分割成十二份，就是現在一個八度裏的十三個音。傳統上，考慮人對聲音的喜好，作曲家只會挑出當中一部分的音使用，這一部分的音就是音階。
 旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。
@@ -30,8 +30,8 @@
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/posts/scale/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='music' /><meta property='article:published_time' content='2024-06-10T12:52:49&#43;08:00'/><meta property='article:modified_time' content='2025-06-14T16:45:53&#43;08:00'/>
-<meta name="twitter:title" content="音階 ">
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='music' /><meta property='article:published_time' content='2024-06-10T12:52:49&#43;08:00'/><meta property='article:modified_time' content='2025-09-05T14:01:37&#43;08:00'/>
+<meta name="twitter:title" content="音階一共有多少種？">
 <meta name="twitter:description" content="音樂的旋律到底有多少種？音符的序列有無窮無盡的可能，但是真正好聽的組合應該只有一小部分。
 先從容易回答的問題開始：音樂裏面有幾個音？隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。古代人透過調整弦的長度，在這兩個頻率之間分割。分成五個音或是七個音。後來在分割成十二份，就是現在一個八度裏的十三個音。傳統上，考慮人對聲音的喜好，作曲家只會挑出當中一部分的音使用，這一部分的音就是音階。
 旋律通常是在某個音階上寫成的。例如 Do Re Mi Fa So La Ti Do形成了大調音階，很多兒歌都是用大調音階寫的。其他音階是在大調音階加上臨時記號之後的變種。例如小調就是把大調音階的第三，第六和第七個音降半音。如果只挑五個音，就會形成五聲音階。如果把這十二個音全部彈出來，就會形成半音階。
@@ -275,6 +275,27 @@
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                            <option value="https://evthron.github.io/zh/posts/scale/" selected>中文</option>
+                    
+                            <option value="https://evthron.github.io/en/posts/scale/" >English</option>
+                    
+				    </select>
+                </li>
+            
 
             
                 <li id="dark-mode-toggle">
@@ -324,7 +345,7 @@
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/posts/scale/">音階 </a>
+                <a href="/zh/posts/scale/">音階一共有多少種？</a>
             </h2>
         
             
@@ -354,6 +375,25 @@
         </footer>
         
     
+        
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <div>
+                    
+                        <a href="https://evthron.github.io/en/posts/scale/" class="link">English</a>
+                    
+                </div>
+            </footer>
         
     </div>
     
@@ -462,7 +502,7 @@ Altered:    1212222
 
 
             <span>
-                最後更新 2025-06-14 16:45 &#43;08:00
+                最後更新 2025-09-05 14:01 &#43;08:00
             </span>
         </section></footer>
     

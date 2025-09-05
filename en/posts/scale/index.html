@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.
+Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.
+'>
+        <title>How many scales are there? | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/en/posts/scale/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.8320945c7ba827dbaa5b573307e742d49e55ac73c3baabb5f82dc9e9a9751caf.css"><meta property='og:title' content='How many scales are there?'>
+<meta property='og:description' content='In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.
+Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.
+'>
+<meta property='og:url' content='https://evthron.github.io/en/posts/scale/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='music' /><meta property='article:published_time' content='2025-09-03T15:07:16&#43;08:00'/><meta property='article:modified_time' content='2025-09-05T14:00:56&#43;08:00'/>
+<meta name="twitter:title" content="How many scales are there?">
+<meta name="twitter:description" content="In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.
+Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.
+">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/en/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_b7a1c28cc8c8dbe4.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/en">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/en/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/en/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>Timeline</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/en/posts/' >
+                
+                
+                
+                <span>📝Posts</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/gallery/' >
+                
+                
+                
+                <span>🖼️Gallery</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/toolbox/' >
+                
+                
+                
+                <span>🛠Toobox</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/skill/' >
+                
+                
+                
+                <span>🎮Skill</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/sandbox/' >
+                
+                
+                
+                <span>🪣Sandbox</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                            <option value="https://evthron.github.io/zh/posts/scale/" >中文</option>
+                    
+                            <option value="https://evthron.github.io/en/posts/scale/" selected>English</option>
+                    
+				    </select>
+                </li>
+            
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+        <header class="article-category">
+            
+                
+                <a href="/en/categories/posts/" style="background-color: #e4484d; color: #fff;">
+                    posts
+                </a>
+            
+        </header>
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/en/posts/scale/">How many scales are there?</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-09-03</time>
+                </div>
+            
+    
+            
+        </footer>
+        
+    
+        
+            <footer class="article-translations">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <div>
+                    
+                        <a href="https://evthron.github.io/zh/posts/scale/" class="link">中文</a>
+                    
+                </div>
+            </footer>
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <p>In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.</p>
+<p>Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.</p>
+<p>People only pick those tried and tested, good-sounding scales, if we ignore this limitation, in theory, how many scales could have possibly exist? To better understand our question, let me give a very brief explanation to music notes.</p>
+<p>To write music, we start from one note and travel to other notes by changing pitch, the pitch distance between notes is called interval. Notes that are octaves apart are in perfect harmony, making octave the most natural interval in music. To create more varieties in music, musicians further divide an octave to 12 equal intervals, each of the 1/12 portion is called a semitone. Remember, like line segments, an interval consists of two notes, so there are 13 notes in a octave.</p>
+<p>Counting the step sizes of major scale in semitones, it is 2-2-1-2-2-2-1, for minor scale, that sequence is 2-1-2-2-1-2-2. For each scales, we can write such sequence based on the numbers of semitones travels at each step.</p>
+<pre tabindex="0"><code>Major:           2212221
+Harmonic minor:  2122131
+Natural minor:   2122122
+Pentatonic:      23222
+</code></pre><p>Now we can better frame our question: how many sequence are there to divided an octave, if I only allow the steps to be 1, 2 or 3 semitones?</p>
+<p>We can easily notice that the sum of all intervals in a scale sums to 12. In combintorics, this is a combination with replacement problem. To count all the possible arrangements, we need to use a technique called stars and bars.</p>
+<pre tabindex="0"><code>
+3333 = 1
+
+33321 = 20
+333111 = 20
+
+33 111 111 = 28
+33 21 111 = 105
+33 22 11 = 90
+33 222 = 10
+
+3 111 111 111 = 10
+3 21 111 111 = 72
+3 22 11 111 = 168
+3 222 111 = 140
+3 2222 1 = 30
+
+222222 = 1
+22222 11 = 21
+2222 11 11 = 70
+222 11 11 11 = 84
+22 11 11 11 11 = 45
+2 11 11 11 11 11 = 11
+
+11 11 11 11 11 11 = 1
+
+Total = 927
+</code></pre><p>Therefore, there are in total 927 scales.</p>
+<p>If we think deeper, many scales in the 927 combinations are somewhat similar. For example, major and minor actually uses the same set of notes, just different in starting position. C major and A minor both only uses the white keys, but they sound different just because the starting position is different.</p>
+<p>For any sequence, we can pick any key inside that sequence as the starting position to create a new sequence. Modes are derived in this way.</p>
+<pre tabindex="0"><code>Phygian:    1222122
+Dorian:     2122212 
+Major:      2212221
+Locian:     1221222
+Aeolian:    2122122
+Mixolydian: 2212212 
+Lydian:     2221221
+</code></pre><p>How many scales are there if we treat these modes as the same? It now becomes a circular permutation with repetition problem. This is not so simple as it may seem. It require Burnside&rsquo;s theorem to calculate the &lsquo;orbit&rsquo; of each sequence.</p>
+<p>The final result is 132.</p>
+<pre tabindex="0"><code>3333 = 1
+33321 = (20 + 0) / 5 = 4
+333111 = (20 + 4) / 6 = 4
+33 111 111 = 28 + 4 / 8 = 4
+33 21 111 = 105 + 0 / 7 = 15 
+33 22 11 = 90 + 6 / 6 = 16
+33 222 = 10 + 0 / 5 = 2
+3 111 111 111 = 10 + 0 / 10 = 1
+3 21 111 111 = 72 + 0 / 9 = 8 
+3 22 11 111 = 168 + 0 / 8 = 21
+3 222 111 = 140 + 0 / 7 = 20
+3 2222 1 = 30 + 0 / 6 = 5
+222222 = 1
+22222 11 = 21 + 0 / 7 = 3
+2222 11 11 = 70 + 10 / 8 = 10
+222 11 11 11 = 84 + 6 / 9 = 10
+22 11 11 11 11 = 45 + 5 / 10 = 5
+2 11 11 11 11 11 = 11 / 11 = 1
+11 11 11 11 11 11 = 1
+= 1 + 4 + 4 + 4 + 15+16+2+1+8+21+20+5+1+3+10+10+5+1+1
+
+= 132
+</code></pre>
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+        
+        <section class="article-tags">
+            
+                <a href="/en/tags/maths/">Maths</a>
+            
+                <a href="/en/tags/music/">Music</a>
+            
+        </section>
+         
+
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <span>
+                Last updated on 2025-09-05 14:00 &#43;08:00
+            </span>
+        </section></footer>
+    
+    
+    <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+        window.addEventListener("DOMContentLoaded", () => {
+            renderMathInElement(document.querySelector(`.article-content`), {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                ignoredClasses: ["gist"]
+            });})
+    </script>
+    
+</article>
+
+    
+    
+
+    
+    
+    
+    <aside class="related-content--wrapper">
+        <h2 class="section-title">Related content</h2>
+        <div class="related-content">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/en/posts/higher-order-operation/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Higher order operation</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/en/tweet/origami/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">origami</h2>
+        </div>
+    </a>
+</article>
+
+                
+            </div>
+        </div>
+    </aside>
+     
+
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="evthron/blogComment"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2025 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>
