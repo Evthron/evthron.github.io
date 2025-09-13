@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Array Check whether array empty No need to check whether array is undefind anymore, just use null conditional operator. if (array !=== undefined &amp;&amp; array.length != 0){} if (array?.length){} forEach array.forEach( () =&gt; {} ) filter array.filter( () =&gt; {} ) Check whether an array contains all the elements in another array (tag check) required_tags = [&#39;A&#39;, &#39;B&#39;] doc_tags = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;] if (requried_tags.every((tag) =&gt; doc_tags.includes(tag))) '>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Array Check whether array empty No need to check whether array is undefind anymore, just use null conditional operator. if (array !=== undefined &amp;&amp; array.length != 0){} if (array?.length){} forEach array.forEach( () =&gt; {} ) filter array.filter( () =&gt; {} ) Check whether an array contains all the elements in another array (tag check) required_tags = [&#39;A&#39;, &#39;B&#39;] doc_tags = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;] if (requried_tags.every((tag) =&gt; doc_tags.includes(tag))) Custom attribute HTML element are all just javascript objects, we can add custom attributes on it if needed.
+'>
         <title>javascript | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/en/code/javascript/'>
@@ -11,12 +12,14 @@
         
         
         <link rel="stylesheet" href="/scss/style.min.355e1c7b9c40ad6a15d124e7fc81e4103dd4dfcb5e64fa21e5b57460e06087ae.css"><meta property='og:title' content='javascript'>
-<meta property='og:description' content='Array Check whether array empty No need to check whether array is undefind anymore, just use null conditional operator. if (array !=== undefined &amp;&amp; array.length != 0){} if (array?.length){} forEach array.forEach( () =&gt; {} ) filter array.filter( () =&gt; {} ) Check whether an array contains all the elements in another array (tag check) required_tags = [&#39;A&#39;, &#39;B&#39;] doc_tags = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;] if (requried_tags.every((tag) =&gt; doc_tags.includes(tag))) '>
+<meta property='og:description' content='Array Check whether array empty No need to check whether array is undefind anymore, just use null conditional operator. if (array !=== undefined &amp;&amp; array.length != 0){} if (array?.length){} forEach array.forEach( () =&gt; {} ) filter array.filter( () =&gt; {} ) Check whether an array contains all the elements in another array (tag check) required_tags = [&#39;A&#39;, &#39;B&#39;] doc_tags = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;] if (requried_tags.every((tag) =&gt; doc_tags.includes(tag))) Custom attribute HTML element are all just javascript objects, we can add custom attributes on it if needed.
+'>
 <meta property='og:url' content='https://evthron.github.io/en/code/javascript/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-03-07T14:39:56&#43;08:00'/><meta property='article:modified_time' content='2025-03-07T14:39:56&#43;08:00'/>
 <meta name="twitter:title" content="javascript">
-<meta name="twitter:description" content="Array Check whether array empty No need to check whether array is undefind anymore, just use null conditional operator. if (array !=== undefined &amp;&amp; array.length != 0){} if (array?.length){} forEach array.forEach( () =&gt; {} ) filter array.filter( () =&gt; {} ) Check whether an array contains all the elements in another array (tag check) required_tags = [&#39;A&#39;, &#39;B&#39;] doc_tags = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;] if (requried_tags.every((tag) =&gt; doc_tags.includes(tag))) ">
+<meta name="twitter:description" content="Array Check whether array empty No need to check whether array is undefind anymore, just use null conditional operator. if (array !=== undefined &amp;&amp; array.length != 0){} if (array?.length){} forEach array.forEach( () =&gt; {} ) filter array.filter( () =&gt; {} ) Check whether an array contains all the elements in another array (tag check) required_tags = [&#39;A&#39;, &#39;B&#39;] doc_tags = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;] if (requried_tags.every((tag) =&gt; doc_tags.includes(tag))) Custom attribute HTML element are all just javascript objects, we can add custom attributes on it if needed.
+">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -376,7 +379,12 @@
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">doc_tags</span> <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;A&#39;</span>, <span style="color:#e6db74">&#39;B&#39;</span>, <span style="color:#e6db74">&#39;C&#39;</span>]
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">requried_tags</span>.<span style="color:#a6e22e">every</span>((<span style="color:#a6e22e">tag</span>) =&gt; <span style="color:#a6e22e">doc_tags</span>.<span style="color:#a6e22e">includes</span>(<span style="color:#a6e22e">tag</span>)))
-</span></span></code></pre></div>
+</span></span></code></pre></div><h2 id="custom-attribute">Custom attribute</h2>
+<p>HTML element are all just javascript objects, we can add custom attributes on it if needed.</p>
+<p>The convention is to add &lsquo;data-&rsquo; prefix on the attribute name.</p>
+<pre tabindex="0"><code>let tagButtonsContainer = document.getElementsByClassName(&#34;tagSearch-tags&#34;);
+tagButtonsContainer.searchTags = [];
+</code></pre>
     </section>
 
     
