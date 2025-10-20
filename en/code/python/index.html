@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='enumerate(items, start=1) Use the start argument to control the start index of the enumeration
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='enumerate(items, start=1) Use the start argument to control the start index of the enumeration change from 0 index to 1 index
 items = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;] for index, item in enumerate(items, 1): print(index, item) 1 a 2 b 3 c error: externally-managed-environment
 python -m venv myenv source myenv/bin/activate note:
 use myenv/bin/{executable} (e.g. myenv/bin/pip)
 don&rsquo;t change the folder path after creating the virtual env
-Conda conda create --name myenv python=3.X conda activate myenv conda env list zip(*[&hellip;]) auto crop to the length of the shortest list '>
+Conda conda create --name myenv python=3.X conda activate myenv conda env list zip(*[&hellip;]) auto crop to the length of the shortest list use zip as sliding window for first, second, third in zip(string, string[1:], string[2:]): print(first &#43; second &#43; third)
+'>
         <title>python | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/en/code/python/'>
@@ -16,22 +17,24 @@ Conda conda create --name myenv python=3.X conda activate myenv conda env list z
         
         
         <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='python'>
-<meta property='og:description' content='enumerate(items, start=1) Use the start argument to control the start index of the enumeration
+<meta property='og:description' content='enumerate(items, start=1) Use the start argument to control the start index of the enumeration change from 0 index to 1 index
 items = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;] for index, item in enumerate(items, 1): print(index, item) 1 a 2 b 3 c error: externally-managed-environment
 python -m venv myenv source myenv/bin/activate note:
 use myenv/bin/{executable} (e.g. myenv/bin/pip)
 don&rsquo;t change the folder path after creating the virtual env
-Conda conda create --name myenv python=3.X conda activate myenv conda env list zip(*[&hellip;]) auto crop to the length of the shortest list '>
+Conda conda create --name myenv python=3.X conda activate myenv conda env list zip(*[&hellip;]) auto crop to the length of the shortest list use zip as sliding window for first, second, third in zip(string, string[1:], string[2:]): print(first &#43; second &#43; third)
+'>
 <meta property='og:url' content='https://evthron.github.io/en/code/python/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-02-24T17:56:55&#43;08:00'/><meta property='article:modified_time' content='2025-02-24T17:56:55&#43;08:00'/>
 <meta name="twitter:title" content="python">
-<meta name="twitter:description" content="enumerate(items, start=1) Use the start argument to control the start index of the enumeration
+<meta name="twitter:description" content="enumerate(items, start=1) Use the start argument to control the start index of the enumeration change from 0 index to 1 index
 items = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;] for index, item in enumerate(items, 1): print(index, item) 1 a 2 b 3 c error: externally-managed-environment
 python -m venv myenv source myenv/bin/activate note:
 use myenv/bin/{executable} (e.g. myenv/bin/pip)
 don&rsquo;t change the folder path after creating the virtual env
-Conda conda create --name myenv python=3.X conda activate myenv conda env list zip(*[&hellip;]) auto crop to the length of the shortest list ">
+Conda conda create --name myenv python=3.X conda activate myenv conda env list zip(*[&hellip;]) auto crop to the length of the shortest list use zip as sliding window for first, second, third in zip(string, string[1:], string[2:]): print(first &#43; second &#43; third)
+">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -376,7 +379,8 @@ Conda conda create --name myenv python=3.X conda activate myenv conda env list z
         
         
         <h2 id="enumerateitems-start1">enumerate(items, start=1)</h2>
-<p>Use the <code>start</code> argument to control the start index of the enumeration</p>
+<p>Use the <code>start</code> argument to control the start index of the enumeration
+change from 0 index to 1 index</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>items <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;a&#39;</span>, <span style="color:#e6db74">&#39;b&#39;</span>, <span style="color:#e6db74">&#39;c&#39;</span>]
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> index, item <span style="color:#f92672">in</span> enumerate(items, <span style="color:#ae81ff">1</span>):
 </span></span><span style="display:flex;"><span>    print(index, item)
@@ -397,6 +401,9 @@ Conda conda create --name myenv python=3.X conda activate myenv conda env list z
 <ul>
 <li>auto crop to the length of the shortest list</li>
 </ul>
+<h2 id="use-zip-as-sliding-window">use zip as sliding window</h2>
+<p>for first, second, third in zip(string, string[1:], string[2:]):
+print(first + second + third)</p>
 
     </section>
 
