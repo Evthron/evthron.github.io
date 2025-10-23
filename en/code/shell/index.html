@@ -3,8 +3,8 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Shell array In linux config files, sometimes it&rsquo;s required to input argument in the form of shell array.
-&lsquo;&lsquo;&lsquo;shell #makepkg.conf #&ndash; Command used to run pacman as root, instead of trying sudo and su PACMAN_AUTH=(sudo delayed %c)
-&rsquo;&rsquo;&rsquo; Don&rsquo;t put the arguments in quotes, otherwise they will be treated as a single argument.
+&lsquo;&lsquo;&lsquo;shell #makepkg.conf #&ndash; Command used to run pacman as root, instead of trying sudo and su PACMAN_AUTH=(sudo delayed %c) &rsquo;&rsquo;&rsquo;
+Use parenthesis to create a shell array, which can be appended before other commands. Don&rsquo;t put the arguments in quotes, otherwise they will be treated as a single argument.
 '>
         <title>shell | Evthron&#39;s blog</title>
         
@@ -15,16 +15,16 @@
         
         <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='shell'>
 <meta property='og:description' content='Shell array In linux config files, sometimes it&rsquo;s required to input argument in the form of shell array.
-&lsquo;&lsquo;&lsquo;shell #makepkg.conf #&ndash; Command used to run pacman as root, instead of trying sudo and su PACMAN_AUTH=(sudo delayed %c)
-&rsquo;&rsquo;&rsquo; Don&rsquo;t put the arguments in quotes, otherwise they will be treated as a single argument.
+&lsquo;&lsquo;&lsquo;shell #makepkg.conf #&ndash; Command used to run pacman as root, instead of trying sudo and su PACMAN_AUTH=(sudo delayed %c) &rsquo;&rsquo;&rsquo;
+Use parenthesis to create a shell array, which can be appended before other commands. Don&rsquo;t put the arguments in quotes, otherwise they will be treated as a single argument.
 '>
 <meta property='og:url' content='https://evthron.github.io/en/code/shell/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-05-05T01:31:21&#43;08:00'/><meta property='article:modified_time' content='2025-05-05T01:31:21&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-09-14T03:15:05&#43;08:00'/><meta property='article:modified_time' content='2025-09-14T03:15:05&#43;08:00'/>
 <meta name="twitter:title" content="shell">
 <meta name="twitter:description" content="Shell array In linux config files, sometimes it&rsquo;s required to input argument in the form of shell array.
-&lsquo;&lsquo;&lsquo;shell #makepkg.conf #&ndash; Command used to run pacman as root, instead of trying sudo and su PACMAN_AUTH=(sudo delayed %c)
-&rsquo;&rsquo;&rsquo; Don&rsquo;t put the arguments in quotes, otherwise they will be treated as a single argument.
+&lsquo;&lsquo;&lsquo;shell #makepkg.conf #&ndash; Command used to run pacman as root, instead of trying sudo and su PACMAN_AUTH=(sudo delayed %c) &rsquo;&rsquo;&rsquo;
+Use parenthesis to create a shell array, which can be appended before other commands. Don&rsquo;t put the arguments in quotes, otherwise they will be treated as a single argument.
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -312,7 +312,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2025-05-05</time>
+                    <time class="article-time--published">2025-09-14</time>
                 </div>
             
     
@@ -334,8 +334,9 @@
 <p>&lsquo;&lsquo;&lsquo;shell
 #makepkg.conf
 #&ndash; Command used to run pacman as root, instead of trying sudo and su
-PACMAN_AUTH=(sudo delayed %c)</p>
-<p>&rsquo;&rsquo;&rsquo;
+PACMAN_AUTH=(sudo delayed %c)
+&rsquo;&rsquo;&rsquo;</p>
+<p>Use parenthesis to create a shell array, which can be appended before other commands.
 Don&rsquo;t put the arguments in quotes, otherwise they will be treated as a single argument.</p>
 
     </section>

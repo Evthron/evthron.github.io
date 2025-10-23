@@ -94,7 +94,7 @@ const h = img.height;
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.151.1">
+  <meta name="generator" content="Hugo 0.151.2">
   <meta itemprop="name" content="Open Library Api">
   <meta itemprop="description" content="https://openlibrary.org/dev/docs/api/covers
 async function fetchImage(url) { const img = new Image(); return new Promise((res, rej) =&gt; { img.onload = () =&gt; res(img); img.onerror = e =&gt; rej(e); img.src = url; }); } const img = await fetchImage(&#39;https://covers.openlibrary.org/b/id/12547191-L.jpg&#39;); const w = img.width; const h = img.height;">
