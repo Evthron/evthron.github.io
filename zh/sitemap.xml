@@ -28,6 +28,19 @@
                 href="https://evthron.github.io/zh/code/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/zh/code/electron/</loc>
+    <lastmod>2025-10-07T18:19:27+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/electron/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/electron/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/code/c/</loc>
     <lastmod>2025-09-18T13:27:40+08:00</lastmod>
     <xhtml:link
@@ -1097,7 +1110,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/taskwarrior/</loc>
-    <lastmod>2025-10-24T02:36:37+08:00</lastmod>
+    <lastmod>2025-10-24T02:49:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1128,7 +1141,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/sandbox/</loc>
-    <lastmod>2025-10-24T02:36:37+08:00</lastmod>
+    <lastmod>2025-10-24T02:49:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
