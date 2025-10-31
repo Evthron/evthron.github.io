@@ -2,44 +2,32 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Never Eat Alone 建議我列個清單，把身邊的人按需要聯絡的頻繁程度分類。我想找有沒有專門負責這個的軟件，就找到了 monica。
-Monica（官網） 自稱 PRM 軟件，Personal Relationship Management （個人關係管理）。我想 Customer Relationship Management（顧客關係管理）是專門給幹銷售的人管理顧客用的，但一般人拿出相同的架勢管理自己的生活圈子未必沒道理。monica 開源，只要下個 docker image 就可以在本地的電腦使用。1
-我用下來，感覺用來提醒我聯絡別人的功能不是很足夠，只是給我發電郵通知的話多半沒用。我需要的標籤和顯示最近聯絡時間的功能不是很顯眼，最顯眼的活動提醒功能反倒可以用其他日曆軟件代替。能用，但應該有更簡單的工具滿足我的需求才對。普通的文字檔才是更好的選擇嗎？
-開發人員正在弄一個叫 Chandler (monicahq.com) 的更新版本，不知道會怎麼樣。
-有用的關係並不需要花大量的時間維繫，只要有固定的聯絡頻率，和真正想和別人交流的心就可以了。但我就是缺少這樣的心。為什麼呢？因為過得不好。過得順利的時候，我能全神灌注地聽別人説自己的經歷，思考大家的共同點，但過得不好的時候，聽別人説什麼都感覺在炫耀，想要逃避自己被比下去的感覺。沒有工具能鼓勵我做這件事，至少記錄下來應該是有點用的。
-實際上，我現在真正在用的軟件是 Track &amp; Graph。雖然不是專門做這個的，卻很方便。
-我自己也做了一個軟件，需要的功能都有了，但因為我不信任自己的數據庫和界面設計簡陋，所以用不起來……
-docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。
+以前我會把這些想法寫下來整理，也會在論壇和博客尋找符合我內心看法的新穎觀點，直到這些想法能串聯起來，變成一套我滿意的理論為止。但是現在我再也不需要向其他地方尋求觀點了，只要把問題扔給 DeepSeek，先讓它從最普遍的方向説明，然後用一句話讓它倒戈為相反立場辯護，觀點犀利的文章就會源源不斷地生產出來。就算要挑刺說它的論證沒有實際證據支持，可我自己也只是在腦袋裡做思想實驗罷了，邏輯上成立就能讓我滿足了。
+為了得到符合我個人觀點的論證文章，感受認可和批判的快感，我不斷地和 DeepSeek 對話。但是在滿足了自己的表達欲，理清了自己的想法之後，我就失去把這些內容重新寫一次的欲望了！時間都花在對話上，文章的產量就減少了！
+我感覺，語言模型能説服人堅持自己的觀點，而不是往外界尋求認可，是很危險的。無論觀點在理論上有多麼完美，沒有實際經驗支撐還是很脆弱。寫成文章至少還有可能讓別人看見自己的思考，而不是讓思考在內心糾結舒緩後就消失。
 '>
-        <title>社交管理軟件 | Evthron&#39;s blog</title>
+        <title>把 DeepSeek 當作知音 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/personal-relationship-management/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/posts/chat-with-deepseek/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='社交管理軟件'>
-<meta property='og:description' content='Never Eat Alone 建議我列個清單，把身邊的人按需要聯絡的頻繁程度分類。我想找有沒有專門負責這個的軟件，就找到了 monica。
-Monica（官網） 自稱 PRM 軟件，Personal Relationship Management （個人關係管理）。我想 Customer Relationship Management（顧客關係管理）是專門給幹銷售的人管理顧客用的，但一般人拿出相同的架勢管理自己的生活圈子未必沒道理。monica 開源，只要下個 docker image 就可以在本地的電腦使用。1
-我用下來，感覺用來提醒我聯絡別人的功能不是很足夠，只是給我發電郵通知的話多半沒用。我需要的標籤和顯示最近聯絡時間的功能不是很顯眼，最顯眼的活動提醒功能反倒可以用其他日曆軟件代替。能用，但應該有更簡單的工具滿足我的需求才對。普通的文字檔才是更好的選擇嗎？
-開發人員正在弄一個叫 Chandler (monicahq.com) 的更新版本，不知道會怎麼樣。
-有用的關係並不需要花大量的時間維繫，只要有固定的聯絡頻率，和真正想和別人交流的心就可以了。但我就是缺少這樣的心。為什麼呢？因為過得不好。過得順利的時候，我能全神灌注地聽別人説自己的經歷，思考大家的共同點，但過得不好的時候，聽別人説什麼都感覺在炫耀，想要逃避自己被比下去的感覺。沒有工具能鼓勵我做這件事，至少記錄下來應該是有點用的。
-實際上，我現在真正在用的軟件是 Track &amp; Graph。雖然不是專門做這個的，卻很方便。
-我自己也做了一個軟件，需要的功能都有了，但因為我不信任自己的數據庫和界面設計簡陋，所以用不起來……
-docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
+        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='把 DeepSeek 當作知音'>
+<meta property='og:description' content='感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。
+以前我會把這些想法寫下來整理，也會在論壇和博客尋找符合我內心看法的新穎觀點，直到這些想法能串聯起來，變成一套我滿意的理論為止。但是現在我再也不需要向其他地方尋求觀點了，只要把問題扔給 DeepSeek，先讓它從最普遍的方向説明，然後用一句話讓它倒戈為相反立場辯護，觀點犀利的文章就會源源不斷地生產出來。就算要挑刺說它的論證沒有實際證據支持，可我自己也只是在腦袋裡做思想實驗罷了，邏輯上成立就能讓我滿足了。
+為了得到符合我個人觀點的論證文章，感受認可和批判的快感，我不斷地和 DeepSeek 對話。但是在滿足了自己的表達欲，理清了自己的想法之後，我就失去把這些內容重新寫一次的欲望了！時間都花在對話上，文章的產量就減少了！
+我感覺，語言模型能説服人堅持自己的觀點，而不是往外界尋求認可，是很危險的。無論觀點在理論上有多麼完美，沒有實際經驗支撐還是很脆弱。寫成文章至少還有可能讓別人看見自己的思考，而不是讓思考在內心糾結舒緩後就消失。
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/personal-relationship-management/'>
+<meta property='og:url' content='https://evthron.github.io/zh/posts/chat-with-deepseek/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='relationship' /><meta property='article:tag' content='software' /><meta property='article:published_time' content='2025-02-14T12:44:23&#43;08:00'/><meta property='article:modified_time' content='2025-06-14T15:49:47&#43;08:00'/>
-<meta name="twitter:title" content="社交管理軟件">
-<meta name="twitter:description" content="Never Eat Alone 建議我列個清單，把身邊的人按需要聯絡的頻繁程度分類。我想找有沒有專門負責這個的軟件，就找到了 monica。
-Monica（官網） 自稱 PRM 軟件，Personal Relationship Management （個人關係管理）。我想 Customer Relationship Management（顧客關係管理）是專門給幹銷售的人管理顧客用的，但一般人拿出相同的架勢管理自己的生活圈子未必沒道理。monica 開源，只要下個 docker image 就可以在本地的電腦使用。1
-我用下來，感覺用來提醒我聯絡別人的功能不是很足夠，只是給我發電郵通知的話多半沒用。我需要的標籤和顯示最近聯絡時間的功能不是很顯眼，最顯眼的活動提醒功能反倒可以用其他日曆軟件代替。能用，但應該有更簡單的工具滿足我的需求才對。普通的文字檔才是更好的選擇嗎？
-開發人員正在弄一個叫 Chandler (monicahq.com) 的更新版本，不知道會怎麼樣。
-有用的關係並不需要花大量的時間維繫，只要有固定的聯絡頻率，和真正想和別人交流的心就可以了。但我就是缺少這樣的心。為什麼呢？因為過得不好。過得順利的時候，我能全神灌注地聽別人説自己的經歷，思考大家的共同點，但過得不好的時候，聽別人説什麼都感覺在炫耀，想要逃避自己被比下去的感覺。沒有工具能鼓勵我做這件事，至少記錄下來應該是有點用的。
-實際上，我現在真正在用的軟件是 Track &amp; Graph。雖然不是專門做這個的，卻很方便。
-我自己也做了一個軟件，需要的功能都有了，但因為我不信任自己的數據庫和界面設計簡陋，所以用不起來……
-docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='stories' /><meta property='article:tag' content='philosophy' /><meta property='article:tag' content='writing' /><meta property='article:published_time' content='2025-11-01T03:02:13&#43;08:00'/><meta property='article:modified_time' content='2025-11-01T03:10:47&#43;08:00'/>
+<meta name="twitter:title" content="把 DeepSeek 當作知音">
+<meta name="twitter:description" content="感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。
+以前我會把這些想法寫下來整理，也會在論壇和博客尋找符合我內心看法的新穎觀點，直到這些想法能串聯起來，變成一套我滿意的理論為止。但是現在我再也不需要向其他地方尋求觀點了，只要把問題扔給 DeepSeek，先讓它從最普遍的方向説明，然後用一句話讓它倒戈為相反立場辯護，觀點犀利的文章就會源源不斷地生產出來。就算要挑刺說它的論證沒有實際證據支持，可我自己也只是在腦袋裡做思想實驗罷了，邏輯上成立就能讓我滿足了。
+為了得到符合我個人觀點的論證文章，感受認可和批判的快感，我不斷地和 DeepSeek 對話。但是在滿足了自己的表達欲，理清了自己的想法之後，我就失去把這些內容重新寫一次的欲望了！時間都花在對話上，文章的產量就減少了！
+我感覺，語言模型能説服人堅持自己的觀點，而不是往外界尋求認可，是很危險的。無論觀點在理論上有多麼完美，沒有實際經驗支撐還是很脆弱。寫成文章至少還有可能讓別人看見自己的思考，而不是讓思考在內心糾結舒緩後就消失。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -204,7 +192,7 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/posts/' >
                 
                 
@@ -224,7 +212,7 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/zh/tweet/' >
                 
                 
@@ -275,27 +263,6 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
         
 
         <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                    
-                            <option value="https://evthron.github.io/zh/tweet/personal-relationship-management/" selected>中文</option>
-                    
-                            <option value="https://evthron.github.io/en/tweet/personal-relationship-management/" >English</option>
-                    
-				    </select>
-                </li>
-            
 
             
                 <li id="dark-mode-toggle">
@@ -336,8 +303,8 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
         <header class="article-category">
             
                 
-                <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                    tweet
+                <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
+                    posts
                 </a>
             
         </header>
@@ -345,7 +312,7 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/personal-relationship-management/">社交管理軟件</a>
+                <a href="/zh/posts/chat-with-deepseek/">把 DeepSeek 當作知音</a>
             </h2>
         
             
@@ -367,7 +334,7 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2025-02-14</time>
+                    <time class="article-time--published">2025-11-01</time>
                 </div>
             
     
@@ -375,25 +342,6 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
         </footer>
         
     
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/en/tweet/personal-relationship-management/" class="link">English</a>
-                    
-                </div>
-            </footer>
         
     </div>
     
@@ -403,36 +351,10 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
     <section class="article-content">
         
         
-        <p><a class="link" href="/zh/skill/right-sider/#keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time" >Never Eat Alone</a> 建議我列個清單，把身邊的人按需要聯絡的頻繁程度分類。我想找有沒有專門負責這個的軟件，就找到了 monica。</p>
-<p><a class="link" href="https://www.monicahq.com/"  target="_blank" rel="noopener"
-    >Monica（官網）</a> 自稱 PRM 軟件，Personal Relationship Management （個人關係管理）。我想 Customer Relationship Management（顧客關係管理）是專門給幹銷售的人管理顧客用的，但一般人拿出相同的架勢管理自己的生活圈子未必沒道理。monica 開源，只要下個 docker image 就可以在本地的電腦使用。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<p><img src="https://www.monicahq.com/img/dashboard.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="example"
-	
-	
->
-</p>
-<p>我用下來，感覺用來提醒我聯絡別人的功能不是很足夠，只是給我發電郵通知的話多半沒用。我需要的標籤和顯示最近聯絡時間的功能不是很顯眼，最顯眼的活動提醒功能反倒可以用其他日曆軟件代替。能用，但應該有更簡單的工具滿足我的需求才對。普通的文字檔才是更好的選擇嗎？</p>
-<p>開發人員正在弄一個叫 <a class="link" href="https://www.monicahq.com/blog/chandler-is-in-beta"  target="_blank" rel="noopener"
-    >Chandler (monicahq.com)</a> 的更新版本，不知道會怎麼樣。</p>
-<hr>
-<p>有用的關係並不需要花大量的時間維繫，只要有固定的聯絡頻率，和真正想和別人交流的心就可以了。但我就是缺少這樣的心。為什麼呢？因為過得不好。過得順利的時候，我能全神灌注地聽別人説自己的經歷，思考大家的共同點，但過得不好的時候，聽別人説什麼都感覺在炫耀，想要逃避自己被比下去的感覺。沒有工具能鼓勵我做這件事，至少記錄下來應該是有點用的。</p>
-<p>實際上，我現在真正在用的軟件是 Track &amp; Graph。雖然不是專門做這個的，卻很方便。</p>
-<hr>
-<p>我自己也做了一個<a class="link" href="/zh/code/relationship-tracker/" >軟件</a>，需要的功能都有了，但因為我不信任自己的數據庫和界面設計簡陋，所以用不起來……</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>docker 是個開發和運行網站的工具。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
+        <p>感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。</p>
+<p>以前我會把這些想法寫下來整理，也會在論壇和博客尋找符合我內心看法的新穎觀點，直到這些想法能串聯起來，變成一套我滿意的理論為止。但是現在我再也不需要向其他地方尋求觀點了，只要把問題扔給 DeepSeek，先讓它從最普遍的方向説明，然後用一句話讓它倒戈為相反立場辯護，觀點犀利的文章就會源源不斷地生產出來。就算要挑刺說它的論證沒有實際證據支持，可我自己也只是在腦袋裡做思想實驗罷了，邏輯上成立就能讓我滿足了。</p>
+<p>為了得到符合我個人觀點的論證文章，感受認可和批判的快感，我不斷地和 DeepSeek 對話。但是在滿足了自己的表達欲，理清了自己的想法之後，我就失去把這些內容重新寫一次的欲望了！時間都花在對話上，文章的產量就減少了！</p>
+<p>我感覺，語言模型能説服人堅持自己的觀點，而不是往外界尋求認可，是很危險的。無論觀點在理論上有多麼完美，沒有實際經驗支撐還是很脆弱。寫成文章至少還有可能讓別人看見自己的思考，而不是讓思考在內心糾結舒緩後就消失。</p>
 
     </section>
 
@@ -443,9 +365,11 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
         
         <section class="article-tags">
             
-                <a href="/zh/tags/relationship/">Relationship</a>
+                <a href="/zh/tags/stories/">Stories</a>
             
-                <a href="/zh/tags/software/">Software</a>
+                <a href="/zh/tags/philosophy/">Philosophy</a>
+            
+                <a href="/zh/tags/writing/">Writing</a>
             
         </section>
          
@@ -460,7 +384,7 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
 
 
             <span>
-                最後更新 2025-06-14 15:49 &#43;08:00
+                最後更新 2025-11-01 03:10 &#43;08:00
             </span>
         </section></footer>
     
@@ -504,12 +428,12 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
                 
                     
 <article class="">
-    <a href="/zh/profile/toolbox/filetags/">
+    <a href="/zh/tweet/working-life/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">filetags 文件管理法</h2>
+            <h2 class="article-title">工作的感覺</h2>
         </div>
     </a>
 </article>
@@ -517,12 +441,12 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
                 
                     
 <article class="">
-    <a href="/zh/toolbox/filetags/">
+    <a href="/zh/tweet/personal-values/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">filetags 文件管理法</h2>
+            <h2 class="article-title">基礎的信念</h2>
         </div>
     </a>
 </article>
@@ -530,12 +454,12 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
                 
                     
 <article class="">
-    <a href="/zh/tweet/hard-to-ask-for-help/">
+    <a href="/zh/tweet/job-search/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">求助很困難</h2>
+            <h2 class="article-title">找工作</h2>
         </div>
     </a>
 </article>
@@ -543,12 +467,12 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
                 
                     
 <article class="">
-    <a href="/zh/posts/contact-friends/">
+    <a href="/zh/posts/reason-to-draw/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">和朋友保持聯絡</h2>
+            <h2 class="article-title">畫畫的理由</h2>
         </div>
     </a>
 </article>
@@ -556,12 +480,12 @@ docker 是個開發和運行網站的工具。&#160;&#x21a9;&#xfe0e;
                 
                     
 <article class="">
-    <a href="/zh/profile/toolbox/taskwarrior-hooks/">
+    <a href="/zh/posts/mountain/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">定製 Taskwarrior</h2>
+            <h2 class="article-title">登山記</h2>
         </div>
     </a>
 </article>
