@@ -2,9 +2,8 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='malloc Array defined in a function as local variables and will be deallocated once the function returns. use malloc instead, return the pointer
-Use it before strcpy Before copying to a a new string, allocate the memory for the string first.
-malloc for string When trying to use malloc to assign memory to a string array, do not use the square-bracket syntax (char string[]), use the astrisk form (char * string)to indicate that this is a character pointer.
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Swapping pointers Although the pointer&rsquo;s address is shared among functions, the pointer variable itself is still passed by value. When a function receives a pointer variable, its changes on the pointer variable doesn&rsquo;t reflect on the pointer variable in the originial function. The function can only go to the pointer&rsquo;s address and change the data there.
+This means, you cannot swap pointer variables in a separete function. To mimic pointer swapping, you need to add one more layer of pointer.the pointer passed to the function should store another pointer pointing to the actual data. To update the value of the pointer, you just update the address of the pointer.
 '>
         <title>C | Evthron&#39;s blog</title>
         
@@ -14,17 +13,15 @@ malloc for string When trying to use malloc to assign memory to a string array, 
         
         
         <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='C'>
-<meta property='og:description' content='malloc Array defined in a function as local variables and will be deallocated once the function returns. use malloc instead, return the pointer
-Use it before strcpy Before copying to a a new string, allocate the memory for the string first.
-malloc for string When trying to use malloc to assign memory to a string array, do not use the square-bracket syntax (char string[]), use the astrisk form (char * string)to indicate that this is a character pointer.
+<meta property='og:description' content='Swapping pointers Although the pointer&rsquo;s address is shared among functions, the pointer variable itself is still passed by value. When a function receives a pointer variable, its changes on the pointer variable doesn&rsquo;t reflect on the pointer variable in the originial function. The function can only go to the pointer&rsquo;s address and change the data there.
+This means, you cannot swap pointer variables in a separete function. To mimic pointer swapping, you need to add one more layer of pointer.the pointer passed to the function should store another pointer pointing to the actual data. To update the value of the pointer, you just update the address of the pointer.
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/c/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-09-18T13:27:40&#43;08:00'/><meta property='article:modified_time' content='2025-09-18T13:27:40&#43;08:00'/>
 <meta name="twitter:title" content="C">
-<meta name="twitter:description" content="malloc Array defined in a function as local variables and will be deallocated once the function returns. use malloc instead, return the pointer
-Use it before strcpy Before copying to a a new string, allocate the memory for the string first.
-malloc for string When trying to use malloc to assign memory to a string array, do not use the square-bracket syntax (char string[]), use the astrisk form (char * string)to indicate that this is a character pointer.
+<meta name="twitter:description" content="Swapping pointers Although the pointer&rsquo;s address is shared among functions, the pointer variable itself is still passed by value. When a function receives a pointer variable, its changes on the pointer variable doesn&rsquo;t reflect on the pointer variable in the originial function. The function can only go to the pointer&rsquo;s address and change the data there.
+This means, you cannot swap pointer variables in a separete function. To mimic pointer swapping, you need to add one more layer of pointer.the pointer passed to the function should store another pointer pointing to the actual data. To update the value of the pointer, you just update the address of the pointer.
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -379,13 +376,24 @@ malloc for string When trying to use malloc to assign memory to a string array, 
     <section class="article-content">
         
         
-        <h1 id="malloc">malloc</h1>
-<p>Array defined in a function as local variables and will be deallocated once the function returns.
-use malloc instead, return the pointer</p>
+        <h1 id="swapping-pointers">Swapping pointers</h1>
+<p>Although the pointer&rsquo;s address is shared among functions, the pointer variable itself is still passed by value. When a function receives a pointer variable, its changes on the pointer variable doesn&rsquo;t reflect on the pointer variable in the originial function. The function can only go to the pointer&rsquo;s address and change the data there.</p>
+<p>This means, you cannot swap pointer variables in a separete function. To mimic pointer swapping, you need to add one more layer of pointer.the pointer passed to the function should store another pointer pointing to the actual data. To update the value of the pointer, you just update the address of the pointer.</p>
+<p>Since one more layer of reference is added, one more layer of dereferencing is needed to get the actual value.</p>
+<h1 id="malloc">malloc</h1>
+<p>If you define an array inside a function, it&rsquo;s only stored as a local variableson on the stack. Once the function returns, the array is deallocated. You can no longer have access to that memory adderss.</p>
+<p>If you want to pass or return the array to another functions, you need to assign a memory location to to array using <code>malloc</code>. <code>malloc</code> register a patch of memory and returns the registerd memory address to your pointer. By passing your pointer to other functions, other functions can now have access to that memory address.</p>
 <h2 id="use-it-before-strcpy">Use it before strcpy</h2>
-<p>Before copying to a a new string, allocate the memory for the string first.</p>
+<p>Before copying to a a new string, allocate the memory for the string first. strcpy doesn&rsquo;t alloctate the memory for you.</p>
 <h2 id="malloc-for-string">malloc for string</h2>
-<p>When trying to use <code>malloc</code> to assign memory to a string array, do not use the square-bracket syntax (<code>char string[]</code>), use the astrisk form (<code>char * string</code>)to indicate that this is a character pointer.</p>
+<p>When assigning a string array, don&rsquo;t use the square-bracket syntax (<code>char string[]</code>). Use the astrisk form (<code>char * string</code>) to indicate that this is a character pointer.</p>
+<h1 id="pointer-dereferencing">pointer dereferencing</h1>
+<p>the asterisk pointer means the same thing, which is doing operation to the actual value located at the address which the pointer is pointing to.</p>
+<p>If the asterisk is on the right-hand side of the equal sign, it is dereferencing, which is returns the value of the pointer&rsquo;s address.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> value <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>ptr
+</span></span></code></pre></div><p>If the asterisk pointer is on the left-hand side, it means writing to the value of the address.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#f92672">*</span>ptr <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>One is getting the value at the address and the other one is assigning value to the address. Their meanings are slightly different.</p>
 <h1 id="how-to-read-arguments">How to read arguments</h1>
 <p><code>int main(int argc, char* argv[])</code></p>
 <p><code>int main(int argc, char** argv)</code></p>
