@@ -128,24 +128,6 @@
                 href="https://evthron.github.io/tok/categories/posts/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/profile/</loc>
-    <lastmod>2025-01-18T02:20:57+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/profile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/profile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/profile/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/posts/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
     <xhtml:link
@@ -664,23 +646,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/sandbox/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/page/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/profile/sandbox/sitelen-pona/</loc>

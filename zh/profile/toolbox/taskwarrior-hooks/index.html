@@ -106,7 +106,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.152.2">
+  <meta name="generator" content="Hugo 0.154.4">
   <meta itemprop="name" content="定製 Taskwarrior">
   <meta itemprop="description" content="Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
 第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
@@ -294,7 +294,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
 19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
 </code></pre><p>要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>TASK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>&lt;/dev/stdin<span style="color:#66d9ef">)</span> 
+</span></span></span><span style="display:flex;"><span>TASK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>&lt;/dev/stdin<span style="color:#66d9ef">)</span> 
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;</span>$TASK<span style="color:#e6db74">&#34;</span> | python <span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.config/task/hooks/priority.py&#34;</span> $@ 
 </span></span></code></pre></div><p>每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
@@ -327,7 +327,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
     </main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >
-  <div class="mr-auto">&copy;2025<a class="link" href="https://evthron.github.io/">Evthron&#39;s blog</a></div>
+  <div class="mr-auto">&copy;2026<a class="link" href="https://evthron.github.io/">Evthron&#39;s blog</a></div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >powered by hugo️️</a
   >️

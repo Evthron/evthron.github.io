@@ -81,7 +81,7 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
                     
                     
                         
-                        <img src="/img/avatar_hu_b7a1c28cc8c8dbe4.png" width="300"
+                        <img src="/img/avatar_hu_b39cfeb929fcf976.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -388,7 +388,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
 19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
 </code></pre><p>要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>TASK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>&lt;/dev/stdin<span style="color:#66d9ef">)</span> 
+</span></span></span><span style="display:flex;"><span>TASK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>&lt;/dev/stdin<span style="color:#66d9ef">)</span> 
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;</span>$TASK<span style="color:#e6db74">&#34;</span> | python <span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.config/task/hooks/priority.py&#34;</span> $@ 
 </span></span></code></pre></div><p>每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
@@ -604,7 +604,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
         
             2023 - 
         
-        2025 Evthron&#39;s blog
+        2026 Evthron&#39;s blog
     </section>
     
     <section class="powerby">

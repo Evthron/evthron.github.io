@@ -72,7 +72,7 @@ Structure MainActivity -&gt; MainScreen -&gt; MainViewModel -&gt; AppDatabase -&
                     
                     
                         
-                        <img src="/img/avatar_hu_b7a1c28cc8c8dbe4.png" width="300"
+                        <img src="/img/avatar_hu_b39cfeb929fcf976.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -469,7 +469,7 @@ Structure MainActivity -&gt; MainScreen -&gt; MainViewModel -&gt; AppDatabase -&
 <h2 id="launcheffect-not-executed">LaunchEffect not executed</h2>
 <p>In MainScreen.kt:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#75715e">// Collect conversation data
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    LaunchedEffect(viewMode, selectedTag) {
+</span></span></span><span style="display:flex;"><span>    LaunchedEffect(viewMode, selectedTag) {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Log</span>.d(<span style="color:#e6db74">&#34;MainScreen&#34;</span>, <span style="color:#e6db74">&#34;Collecting conversations: &#34;</span> +
 </span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;viewMode=</span><span style="color:#e6db74">$viewMode</span><span style="color:#e6db74">, &#34;</span> +
 </span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;selectedTag=</span><span style="color:#e6db74">$selectedTag</span><span style="color:#e6db74">&#34;</span>
@@ -504,7 +504,7 @@ Structure MainActivity -&gt; MainScreen -&gt; MainViewModel -&gt; AppDatabase -&
 </span></span></code></pre></div><p>When any one of the <code>collectLatest</code> is triggered, the code after that will not run. Possibly because it triggered the LaunchedEffect function once again interrupted the flow, but I can&rsquo;t find the exact cause.</p>
 <p>reworked the code using combine</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#75715e">// Collect conversation data
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    LaunchedEffect(viewMode, selectedTag) {
+</span></span></span><span style="display:flex;"><span>    LaunchedEffect(viewMode, selectedTag) {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Log</span>.d(<span style="color:#e6db74">&#34;MainScreen&#34;</span>, <span style="color:#e6db74">&#34;Collecting conversations: &#34;</span> +
 </span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;viewMode=</span><span style="color:#e6db74">$viewMode</span><span style="color:#e6db74">, &#34;</span> +
 </span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;selectedTag=</span><span style="color:#e6db74">$selectedTag</span><span style="color:#e6db74">&#34;</span>
@@ -512,24 +512,24 @@ Structure MainActivity -&gt; MainScreen -&gt; MainViewModel -&gt; AppDatabase -&
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (viewMode <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;AllConversations&#34;</span>) {
 </span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Determine the conversations flow based on selectedTag
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">val</span> conversationsFlow = selectedTag<span style="color:#f92672">?.</span>let { tag <span style="color:#f92672">-&gt;</span>
+</span></span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> conversationsFlow = selectedTag<span style="color:#f92672">?.</span>let { tag <span style="color:#f92672">-&gt;</span>
 </span></span><span style="display:flex;"><span>                viewModel.getAllConversationsByTag(tag)
 </span></span><span style="display:flex;"><span>            } <span style="color:#f92672">?:</span> viewModel.getAllConversations()
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Combine both flows
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            combine(
+</span></span></span><span style="display:flex;"><span>            combine(
 </span></span><span style="display:flex;"><span>                conversationsFlow,
 </span></span><span style="display:flex;"><span>                viewModel.getAllConversationStats()
 </span></span><span style="display:flex;"><span>            ) { convs, stats <span style="color:#f92672">-&gt;</span>
 </span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Update both values together
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                conversations = convs
+</span></span></span><span style="display:flex;"><span>                conversations = convs
 </span></span><span style="display:flex;"><span>                conversationStats = stats
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Log updates
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#a6e22e">Log</span>.d(<span style="color:#e6db74">&#34;MainScreen&#34;</span>, <span style="color:#e6db74">&#34;Updated conversations: </span><span style="color:#e6db74">${convs.size}</span><span style="color:#e6db74"> items&#34;</span>)
+</span></span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">Log</span>.d(<span style="color:#e6db74">&#34;MainScreen&#34;</span>, <span style="color:#e6db74">&#34;Updated conversations: </span><span style="color:#e6db74">${convs.size}</span><span style="color:#e6db74"> items&#34;</span>)
 </span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">Log</span>.d(<span style="color:#e6db74">&#34;MainScreen&#34;</span>, <span style="color:#e6db74">&#34;Updated conversation stats: </span><span style="color:#e6db74">$stats</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>            }.collect() <span style="color:#75715e">// Collect the combined flow
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        }
+</span></span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div>
     </section>
@@ -631,7 +631,7 @@ Structure MainActivity -&gt; MainScreen -&gt; MainViewModel -&gt; AppDatabase -&
         
             2023 - 
         
-        2025 Evthron&#39;s blog
+        2026 Evthron&#39;s blog
     </section>
     
     <section class="powerby">

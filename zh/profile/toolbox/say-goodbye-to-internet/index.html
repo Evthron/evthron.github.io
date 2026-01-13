@@ -109,7 +109,7 @@ iOS 可不像 Android 那麼自由可以隨意禁用軟件，不過 iOS 的數�
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.152.2">
+  <meta name="generator" content="Hugo 0.154.4">
   <meta itemprop="name" content="如何告別互聯網">
   <meta itemprop="description" content="以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？
 不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。
@@ -341,17 +341,17 @@ Universal Android Debloater (Android) 在 Android 上，Google Chrome，Youtube 
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>(<span style="color:#a6e22e">video</span>, <span style="color:#a6e22e">objectType</span>) =&gt; {
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 只留下時長在5到50分鐘之間的影片
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">3000</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">300</span>) {
+</span></span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">3000</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">300</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Block the video
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 要求影片至少要有 1000 觀看次數
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">viewCount</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1000</span>){
+</span></span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">viewCount</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1000</span>){
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Custom conditions did not match, do not block
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>排除所有不是英文的影片標題</p>
 <pre tabindex="0"><code class="language-regex" data-lang="regex">/[^\x00-\x7F]+/
@@ -411,12 +411,12 @@ super-user-command=sudo
     >How do I &ldquo;graphical-sudo&rdquo; under KDE (not &ldquo;su&rdquo;)? (gentoo forum)</a> 改的。</p>
 <p>在 /etc/polkit-1/rules.d/10-admin.rules 裏：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">polkit</span>.<span style="color:#a6e22e">addAdminRule</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">action</span>, <span style="color:#a6e22e">subject</span>) {
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">polkit</span>.<span style="color:#a6e22e">addAdminRule</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">action</span>, <span style="color:#a6e22e">subject</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [<span style="color:#e6db74">&#34;unix-group:wheel&#34;</span>];
 </span></span><span style="display:flex;"><span>});
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">// 如果用户想在 Dolphin 裏面提升權限，直接否決
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">polkit</span>.<span style="color:#a6e22e">addRule</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">action</span>, <span style="color:#a6e22e">subject</span>) {
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">polkit</span>.<span style="color:#a6e22e">addRule</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">action</span>, <span style="color:#a6e22e">subject</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">subject</span>.<span style="color:#a6e22e">isInGroup</span>(<span style="color:#e6db74">&#34;admin&#34;</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">action</span>.<span style="color:#a6e22e">id</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;org.kde.kio.admin.commands&#34;</span>) {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">polkit</span>.<span style="color:#a6e22e">Result</span>.<span style="color:#a6e22e">NO</span>;
 </span></span><span style="display:flex;"><span>    }
@@ -431,7 +431,7 @@ super-user-command=sudo
     </main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >
-  <div class="mr-auto">&copy;2025<a class="link" href="https://evthron.github.io/">Evthron&#39;s blog</a></div>
+  <div class="mr-auto">&copy;2026<a class="link" href="https://evthron.github.io/">Evthron&#39;s blog</a></div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >powered by hugo️️</a
   >️
