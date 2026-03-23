@@ -6,7 +6,18 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 23 Mar 2026 10:29:45 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 Mar 2026 00:05:59 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/maths/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>sin^(-1)</title>
+        <link>https://evthron.github.io/zh/posts/sin-1/</link>
+        <pubDate>Tue, 24 Mar 2026 00:05:59 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/sin-1/</guid>
+        <description>&lt;p&gt;我不知道為什麼大家經常説 sin^-1 是個不好的符號。
+在學習的時候根本不會有什麼混淆，因為學習 sin 的時候根本沒有 inverse function 的概念。也從來不會有人把 1/sin 寫成 sin^-1&lt;/p&gt;
+&lt;p&gt;這個符號明明很好的反映了逆函數的特性，不如説，有問題的符號是 sin^2 才對。純粹是為了少寫一個括號，導致符號邏輯不一致。&lt;/p&gt;
+&lt;p&gt;在微積分的時候，大家總是無腦地把指數扔到旁邊，這時候就會出錯。反映符號好不好，完全是看能不能讓符號操作不需要動腦也能做對。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>中位數</title>
         <link>https://evthron.github.io/zh/posts/%E4%B8%AD%E4%BD%8D%E6%95%B8/</link>
         <pubDate>Mon, 23 Mar 2026 10:29:45 +0800</pubDate>

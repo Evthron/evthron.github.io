@@ -7,9 +7,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>sin^(-1)</title>
+        <link>https://evthron.github.io/zh/posts/sin-1/</link>
+        <pubDate>Tue, 24 Mar 2026 00:05:59 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/sin-1/</guid>
+        <description>&lt;p&gt;我不知道為什麼大家經常説 sin^-1 是個不好的符號。
+在學習的時候根本不會有什麼混淆，因為學習 sin 的時候根本沒有 inverse function 的概念。也從來不會有人把 1/sin 寫成 sin^-1&lt;/p&gt;
+&lt;p&gt;這個符號明明很好的反映了逆函數的特性，不如説，有問題的符號是 sin^2 才對。純粹是為了少寫一個括號，導致符號邏輯不一致。&lt;/p&gt;
+&lt;p&gt;在微積分的時候，大家總是無腦地把指數扔到旁邊，這時候就會出錯。反映符號好不好，完全是看能不能讓符號操作不需要動腦也能做對。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>時間管理工具</title>
         <link>https://evthron.github.io/zh/tweet/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
-        <pubDate>Mon, 23 Mar 2026 23:53:40 +0800</pubDate>
+        <pubDate>Mon, 23 Mar 2026 23:59:34 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
         <description>&lt;p&gt;不工作跑去研究工具是沒有好下場的。不過 Super Productivity 和 ActivityWatch 用起來都不錯。要怎樣運用徹底監控電腦使用時間得到的數據，才能把生活變成數值管理遊戲？不過總之先記錄，其他問題以後再想。&lt;/p&gt;
 &lt;hr&gt;
