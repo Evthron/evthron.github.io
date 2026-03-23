@@ -380,24 +380,6 @@
                 href="https://evthron.github.io/tok/tweet/better-search-engine/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tweet/productivity-tools/</loc>
-    <lastmod>2025-04-09T15:42:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/productivity-tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/productivity-tools/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/productivity-tools/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/tweet/joplin-vim-mode/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
@@ -432,24 +414,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/tweet/search-count/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/productivity/</loc>
-    <lastmod>2025-04-09T15:42:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/productivity/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/productivity/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/productivity/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/delusions/</loc>
