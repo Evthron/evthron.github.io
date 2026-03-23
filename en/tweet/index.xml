@@ -6,7 +6,19 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 04 May 2025 03:48:54 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Mar 2026 11:48:41 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>origami</title>
+        <link>https://evthron.github.io/en/tweet/origami/</link>
+        <pubDate>Mon, 23 Mar 2026 11:48:41 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/origami/</guid>
+        <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
+&lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because it can solve the unsolvable &amp;ldquo;trisect any angle&amp;rdquo; problem. When I was still holding the flier and walking, I started wondering what the basic mathematical operations of origami are. The first one could be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. When all they do is to cut things in half, is cutting things in third even possible? I went straight to the library to find the answer.&lt;/p&gt;
+&lt;p&gt;The answer is stupidly simple: Just fold the line in half two times and cut out the extra segment. It&amp;rsquo;s like Columbus&amp;rsquo;s egg, my stubborn mind can&amp;rsquo;t solve it.&lt;/p&gt;
+&lt;p&gt;But I still wanted a technical answer. Surprisingly, there weren&amp;rsquo;t many videos talking about the maths behind origami. Oddly, I could easily learn how to trisect angles by folding paper, but not for trisecting lines, which should be a much easier task.&lt;/p&gt;
+&lt;p&gt;So I tried that out myself. When using ruler and compass, the knack of that problem is to cast an already trisected line onto the new line using parallel lines. But how to make parallel lines in origami? Just remember that the perpendicular line of a perpendicular line is a parallel line. Let me share my experience: To get a more accurate result, the angle between the already trisected line and the new line should be small to make it easier to fold the perpendicular lines.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Speech Note</title>
         <link>https://evthron.github.io/en/tweet/voice-input/</link>
         <pubDate>Sun, 04 May 2025 03:48:54 +0800</pubDate>
@@ -160,6 +172,14 @@
         </item>
         <item>
         <title>Website redesign</title>
+        <link>https://evthron.github.io/en/tweet/website-redesign/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/website-redesign/</guid>
+        <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Website redesign</title>
         <link>https://evthron.github.io/en/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
@@ -193,18 +213,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>origami</title>
-        <link>https://evthron.github.io/en/tweet/origami/</link>
-        <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/origami/</guid>
-        <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
-&lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because it can solve the unsolvable &amp;ldquo;trisect any angle&amp;rdquo; problem. When I was still holding the flier and walking, I started wondering what the basic mathematical operations of origami are. The first one could be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. When all they do is to cut things in half, is cutting things in third even possible? I went straight to the library to find the answer.&lt;/p&gt;
-&lt;p&gt;The answer is stupidly simple: Just fold the line in half two times and cut out the extra segment. It&amp;rsquo;s like Columbus&amp;rsquo;s egg, my stubborn mind can&amp;rsquo;t solve it.&lt;/p&gt;
-&lt;p&gt;But I still wanted a technical answer. Surprisingly, there weren&amp;rsquo;t many videos talking about the maths behind origami. Oddly, I could easily learn how to trisect angles by folding paper, but not for trisecting lines, which should be a much easier task.&lt;/p&gt;
-&lt;p&gt;So I tried that out myself. When using ruler and compass, the knack of that problem is to cast an already trisected line onto the new line using parallel lines. But how to make parallel lines in origami? Just remember that the perpendicular line of a perpendicular line is a parallel line. Let me share my experience: To get a more accurate result, the angle between the already trisected line and the new line should be small to make it easier to fold the perpendicular lines.&lt;/p&gt;
 </description>
         </item>
         <item>

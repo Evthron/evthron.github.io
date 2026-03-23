@@ -144,6 +144,28 @@ super-user-command=sudo
 </description>
         </item>
         <item>
+        <title>更好的搜尋引擎</title>
+        <link>https://evthron.github.io/zh/tweet/%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E/</link>
+        <pubDate>Sun, 02 Mar 2025 06:29:45 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/tweet/%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E/</guid>
+        <description>&lt;p&gt;我已經厭倦 Google 的搜尋結果了（雖然我用的是 Startpage）。今天發現了 &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;marginalia.nu&lt;/a&gt;，它能找到一些更小型的網站。順帶一提，&lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wiby&lt;/a&gt; 是另一個專門找小型網站的搜尋引擎，但是因為太小型，全部都很奇怪，所以沒什麼用。&lt;/p&gt;
+&lt;p&gt;鏈接：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/item?id=28550764&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.ycombinator.com/item?id=28550764&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ericmurphy.xyz/blog/discoverability/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://ericmurphy.xyz/blog/discoverability/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2024/04/02 18:50&lt;/p&gt;
+&lt;p&gt;我知道的，只要是有趣而且對我無益的事物。我總是會按一個按鈕把它們全部封死，只是看時間和心情有沒有到而已。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;2025/03/02&lt;/p&gt;
+&lt;p&gt;Google 已經比不上 AI 了。沒有廣告，沒有廢話。只要能接受知識是可以沒有來源的就行。&lt;/p&gt;
+&lt;p&gt;在防沉迷的角度來説，完全不上網就能獲取網上的一切知識，徹底迴避互聯網的無底洞。這難道不是 AI 帶來的奇蹟嗎？&lt;/p&gt;
+&lt;p&gt;我不想再意外發現有趣的網站了。就算隨手搜尋自己想到的關鍵字是我以前上網的主要樂趣，這種網絡探險的浪費的時間和回報總是不成正比。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>docker 連不上網</title>
         <link>https://evthron.github.io/zh/posts/docker-%E9%80%A3%E4%B8%8D%E4%B8%8A%E7%B6%B2/</link>
         <pubDate>Sun, 12 Jan 2025 08:49:51 +0800</pubDate>
@@ -209,6 +231,17 @@ sudo reboot
 &lt;p&gt;搞了半天，我學會什麼了呢？重新温習了一遍 Arch 的上網設置，放棄了原本已經調整好的 dnsmasq，還知道了 nftables 和 iptables 有着神秘的關係。一天就這樣過去了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;nftables 和 iptables 指的是一套規則，負責處理訊息在各種 IP 上的接收和發送，設置好了可以充當防火牆。docker 能讓多個網站運行在相同的端口號上，原理説不定也是什麼端口轉發。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>網站設計</title>
+        <link>https://evthron.github.io/zh/tweet/%E7%B6%B2%E7%AB%99%E8%A8%AD%E8%A8%88/</link>
+        <pubDate>Sat, 28 Dec 2024 05:08:32 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/tweet/%E7%B6%B2%E7%AB%99%E8%A8%AD%E8%A8%88/</guid>
+        <description>&lt;p&gt;我總算按照我想要的樣子，把網站的編排調整一遍了！畫廊能把圖片排成方格、Tweet 能直接展示文章內容、能把自我介紹搬到主頁，把原本的主頁搬到新開的另一頁。主頁就要像目錄一樣，而不是一長串像新聞一樣的時間線。我現在更熟悉 hugo 編排頁面的原理了。當然，HTML 和 CSS 的知識也增長了不少。真的很高興。不過，現在卻不知道接下來該做什麼了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;現在重新看一次代碼，我完全不知道自己是怎麼做到的。完全不像是我自己寫的啊…… 應該是從原本的代碼裏找到適合的部分，複製黏貼再重組的吧。&lt;/p&gt;
+&lt;p&gt;感覺用這個模板很受限制，CSS 雖然好像很有條理，但內容四散，不知道是按着什麼結構組織的。&lt;/p&gt;
 </description>
         </item>
         <item>

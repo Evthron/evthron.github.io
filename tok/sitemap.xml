@@ -173,6 +173,27 @@
     <loc>https://evthron.github.io/tok/profile/posts/toki-pona-introduction/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
   </url><url>
+    <loc>https://evthron.github.io/tok/tweet/ilo-pali/</loc>
+    <lastmod>2025-01-09T05:16:23+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/software/</loc>
+    <lastmod>2025-04-09T15:42:31+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/software/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/tok/tags/grumble/</loc>
     <lastmod>2025-04-09T15:42:31+08:00</lastmod>
     <xhtml:link
@@ -191,6 +212,9 @@
                 href="https://evthron.github.io/tok/tags/grumble/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/tok/tweet/nasin-pali-sin-li-pona/</loc>
+    <lastmod>2025-01-09T05:13:58+08:00</lastmod>
+  </url><url>
     <loc>https://evthron.github.io/tok/tweet/haircut/</loc>
     <lastmod>2025-04-09T15:42:31+08:00</lastmod>
     <xhtml:link
@@ -207,6 +231,45 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/tweet/haircut/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/tweet/ilo-alasa-pona/</loc>
+    <lastmod>2024-08-05T05:52:39+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tweet/ilo-vim-li-lon-lipu-joplin/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tweet/nanpa-lukin/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tweet/nanpa-pali/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tweet/pali-pi-nasin-arch/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tweet/tenpo-lete/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tweet/toki-lawa-pi-lon-ala/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/web/</loc>
+    <lastmod>2025-04-09T15:42:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/web/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/categories/gallery/</loc>
@@ -281,24 +344,6 @@
                 href="https://evthron.github.io/tok/tweet/arch-linux-installation/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/tags/software/</loc>
-    <lastmod>2025-04-09T15:42:31+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/software/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/tweet/easier-publish/</loc>
     <lastmod>2025-01-05T11:29:26+08:00</lastmod>
     <xhtml:link
@@ -333,24 +378,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/tweet/better-search-engine/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/web/</loc>
-    <lastmod>2025-04-09T15:42:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/web/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/web/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/web/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/tweet/productivity-tools/</loc>

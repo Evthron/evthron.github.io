@@ -206,6 +206,34 @@
 &lt;p&gt;寫作動機被 AI 大幅削弱了，發佈流程就算只是多一道工序，也不可能有心情發出去。必須直接從寫的位置發出去才可以。&lt;/p&gt;
 </description>
         </item>
+        <item>
+        <title>改進發佈流程</title>
+        <link>https://evthron.github.io/zh/tweet/%E6%94%B9%E9%80%B2%E7%99%BC%E4%BD%88%E6%B5%81%E7%A8%8B/</link>
+        <pubDate>Thu, 09 Jan 2025 05:12:49 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/tweet/%E6%94%B9%E9%80%B2%E7%99%BC%E4%BD%88%E6%B5%81%E7%A8%8B/</guid>
+        <description>&lt;p&gt;2024/03/30 21:13&lt;/p&gt;
+&lt;p&gt;搗鼓了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;joppy&lt;/a&gt;（用 Python 調用 Joplin 的 API）之後，現在可以直接從 Joplin 生成 Markdown 檔案，無論是發佈還是修改都比以前簡單了。總算能用編程技術做點有用的事了。就算已經寫好了，如果只是放著不看的話是沒有意義的，應該要定期修改檢討才對。&lt;/p&gt;
+&lt;p&gt;2024/03/30 23:03&lt;/p&gt;
+&lt;p&gt;如果我用普通地利用依賴系統檔案結構的，像 Obsidian 之類的筆記軟件，甚至是 VS Code，能直接打開檔案編輯，而不是用數據庫的 Joplin，不就不用這麼麻煩了嗎？我到底是為了什麼？開源嗎？哈哈哈……&lt;/p&gt;
+&lt;p&gt;2024/05/28 12:22&lt;/p&gt;
+&lt;p&gt;讀了讀 joppy 的源碼。其實也不是很複雜。只是調用 Joplin 原有的 API 而已。果然讀源碼才是增長知識的最好方法。&lt;/p&gt;
+&lt;p&gt;27/12/2024 02:21&lt;/p&gt;
+&lt;p&gt;我把 Joplin 的文章全部導出來，變成純文本檔案了。所有的筆記和文章都可以放在同一個文件夾裏，很容易備份，也可以用 vimwiki 修改。發佈流程沒改，還是會先複製一份到 Joplin 裏才發佈。雖然有點麻煩，但能把草稿的和發到網站上的文章分開算是意料之外的的好處。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;文章複製一份不是什麼大問題，但隨手記下的想法還要先複製一份的話就很麻煩。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>黏在旁邊的選單</title>
+        <link>https://evthron.github.io/zh/tweet/%E9%BB%8F%E5%9C%A8%E6%97%81%E9%82%8A%E7%9A%84%E9%81%B8%E5%96%AE/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/tweet/%E9%BB%8F%E5%9C%A8%E6%97%81%E9%82%8A%E7%9A%84%E9%81%B8%E5%96%AE/</guid>
+        <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
+&lt;p&gt;2024/06/25 03:44
+問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
+</description>
+        </item>
         
     </channel>
 </rss>
