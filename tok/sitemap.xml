@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/tok/categories/</loc>
-    <lastmod>2025-04-19T20:46:32+08:00</lastmod>
+    <lastmod>2026-03-23T11:14:05+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -19,6 +19,66 @@
                 hreflang="tok"
                 href="https://evthron.github.io/tok/categories/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/language/</loc>
+    <lastmod>2026-03-23T11:14:05+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/tok/categories/posts/</loc>
+    <lastmod>2026-03-23T11:14:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/posts/</loc>
+    <lastmod>2026-03-23T11:14:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/tags/</loc>
+    <lastmod>2026-03-23T11:14:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/tok/posts/toki-pona-%E4%BB%8B%E7%B4%B9/</loc>
+    <lastmod>2026-03-23T11:14:05+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/tok/tags/coding/</loc>
     <lastmod>2025-04-19T20:46:32+08:00</lastmod>
@@ -54,24 +114,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/tweet/cpp-practice/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/</loc>
-    <lastmod>2025-04-19T20:46:32+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
                 />
   </url><url>
     <loc>https://evthron.github.io/tok/categories/tweet/</loc>
@@ -110,24 +152,6 @@
                 href="https://evthron.github.io/tok/tweet/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/tok/categories/posts/</loc>
-    <lastmod>2025-01-18T02:20:57+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/tok/profile/posts/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
     <xhtml:link
@@ -148,30 +172,6 @@
   </url><url>
     <loc>https://evthron.github.io/tok/profile/posts/toki-pona-introduction/</loc>
     <lastmod>2025-01-18T02:20:57+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/tok/tags/language/</loc>
-    <lastmod>2025-01-12T08:40:54+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/tok/posts/</loc>
-    <lastmod>2025-01-12T08:40:54+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/tok/posts/toki-pona-%E4%BB%8B%E7%B4%B9/</loc>
-    <lastmod>2025-01-12T08:40:54+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/tok/tags/grumble/</loc>
     <lastmod>2025-04-09T15:42:31+08:00</lastmod>

@@ -6,7 +6,26 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 23 Mar 2026 10:50:35 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/productivity/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Mar 2026 11:14:54 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/productivity/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>完美學習法</title>
+        <link>https://evthron.github.io/zh/posts/%E5%AE%8C%E7%BE%8E%E5%AD%B8%E7%BF%92%E6%B3%95/</link>
+        <pubDate>Mon, 23 Mar 2026 11:14:54 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E5%AE%8C%E7%BE%8E%E5%AD%B8%E7%BF%92%E6%B3%95/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Incremental_reading&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;增量閲讀（supermemo.guru）&lt;/a&gt;能讓我用最好的效率學會一切事物。但是有了記下一切的能力之後，要花時間記什麼就成了問題。&lt;/p&gt;
+&lt;p&gt;增量閱讀的目標是維持長久的記憶，並在不斷重複閱讀的過程中分辨重點和無用的細節。不只是在幾個星期之內把材料記住，而是要在以年為單位的時間裏不斷地回顧。&lt;/p&gt;
+&lt;p&gt;自己有興趣記下來的，往往是不管用的東西，外界不感興趣的東西。要是沒有根據外界的要求，記憶外界需要的學習材料，無論學什麼都只會被當成自娛自樂而已。&lt;/p&gt;
+&lt;p&gt;即使可以使用增量閲讀應付考試，但強迫自己記憶不感興趣的細節，本來就違背了增量閲讀的初衷。考試結束的一瞬間，所有的知識都似乎變得無用，增量學習系統裏面存放的文章摘錄和問題卡，突然變成要慢慢清理的負債了，因為會妨礙加入新的內容。&lt;/p&gt;
+&lt;p&gt;方法終究只是錦上添花。就算學習方法差了一點，人只要受到正確的鼓勵和引導，也會學得很好，沒有必要追求什麼完美學習法。&lt;/p&gt;
+&lt;p&gt;想要得到正確的鼓勵和引導，可能比追求完美的學習法還要困難。知識是免費的，而人是無價的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;這對於 AI 也是適用的。AI 唯一不能解答的就是我應該學什麼。不過，這個世界上有人能告訴我學什麼對未來最有用嗎？&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;從工作學習有強大的動機，但無論是什麼工作都是一樣的。不能透過抽象的難關這種做法有效是理所當然的。&lt;/p&gt;
+&lt;p&gt;但是培養人在壓力下的學習，快速掌握基本技能的代價是有害的。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>重設鍵盤佈局</title>
         <link>https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/</link>
         <pubDate>Mon, 23 Mar 2026 10:50:35 +0800</pubDate>
@@ -204,26 +223,6 @@ super-user-command=sudo
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>完美學習法</title>
-        <link>https://evthron.github.io/zh/posts/%E5%AE%8C%E7%BE%8E%E5%AD%B8%E7%BF%92%E6%B3%95/</link>
-        <pubDate>Mon, 23 Mar 2026 04:05:09 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/%E5%AE%8C%E7%BE%8E%E5%AD%B8%E7%BF%92%E6%B3%95/</guid>
-        <description>&lt;h1 id=&#34;完美學習法&#34;&gt;完美學習法&lt;/h1&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Incremental_reading&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;增量閲讀（supermemo.guru）&lt;/a&gt;能讓我用最好的效率學會一切事物。但是有了記下一切的能力之後，要花時間記什麼就成了問題。&lt;/p&gt;
-&lt;p&gt;增量閱讀的目標是維持長久的記憶，並在不斷重複閱讀的過程中分辨重點和無用的細節。不只是在幾個星期之內把材料記住，而是要在以年為單位的時間裏不斷地回顧。&lt;/p&gt;
-&lt;p&gt;自己有興趣記下來的，往往是不管用的東西，外界不感興趣的東西。要是沒有根據外界的要求，記憶外界需要的學習材料，無論學什麼都只會被當成自娛自樂而已。&lt;/p&gt;
-&lt;p&gt;即使可以使用增量閲讀應付考試，但強迫自己記憶不感興趣的細節，本來就違背了增量閲讀的初衷。考試結束的一瞬間，所有的知識都似乎變得無用，增量學習系統裏面存放的文章摘錄和問題卡，突然變成要慢慢清理的負債了，因為會妨礙加入新的內容。&lt;/p&gt;
-&lt;p&gt;方法終究只是錦上添花。就算學習方法差了一點，人只要受到正確的鼓勵和引導，也會學得很好，沒有必要追求什麼完美學習法。&lt;/p&gt;
-&lt;p&gt;想要得到正確的鼓勵和引導，可能比追求完美的學習法還要困難。知識是免費的，而人是無價的。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;這對於 AI 也是適用的。AI 唯一不能解答的就是我應該學什麼。不過，這個世界上有人能告訴我學什麼對未來最有用嗎？&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;從工作學習有強大的動機，但無論是什麼工作都是一樣的。不能透過抽象的難關這種做法有效是理所當然的。&lt;/p&gt;
-&lt;p&gt;但是培養人在壓力下的學習，快速掌握基本技能的代價是有害的。&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>完美主義</title>

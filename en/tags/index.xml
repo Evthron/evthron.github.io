@@ -6,7 +6,14 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 23 Mar 2026 10:29:16 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Mar 2026 11:14:44 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Stories</title>
+        <link>https://evthron.github.io/en/tags/stories/</link>
+        <pubDate>Mon, 23 Mar 2026 11:14:44 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tags/stories/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Gamification</title>
         <link>https://evthron.github.io/en/tags/gamification/</link>
         <pubDate>Mon, 23 Mar 2026 10:29:16 +0800</pubDate>
@@ -53,13 +60,6 @@
         <link>https://evthron.github.io/en/tags/coding/</link>
         <pubDate>Thu, 23 Jan 2025 00:40:03 +0800</pubDate>
         <guid>https://evthron.github.io/en/tags/coding/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Stories</title>
-        <link>https://evthron.github.io/en/tags/stories/</link>
-        <pubDate>Wed, 15 Jan 2025 22:27:22 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tags/stories/</guid>
         <description></description>
         </item>
         <item>
