@@ -6,7 +6,277 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Wed, 26 Mar 2025 11:01:31 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Mar 2026 10:54:26 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>文章發佈流程</title>
+        <link>https://evthron.github.io/zh/toolbox/%E6%96%87%E7%AB%A0%E7%99%BC%E4%BD%88%E6%B5%81%E7%A8%8B/</link>
+        <pubDate>Mon, 23 Mar 2026 10:54:26 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/toolbox/%E6%96%87%E7%AB%A0%E7%99%BC%E4%BD%88%E6%B5%81%E7%A8%8B/</guid>
+        <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
+&lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo（網站鏈接）&lt;/a&gt; 這個網站生成器建立網站，只要把文字和圖片擺放成 hugo 指定的結構，就可以把它們轉換成網站的代碼，然後把整份代碼上傳到網上去。&lt;/p&gt;
+&lt;p&gt;hugo 用 content 文件夾存放全部文章內容。可以設置文章分區，每個文章分區都是個文件夾。文章本身也是個文件夾，同一篇文章的多個語言版本都會放在裏面。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blog
+&lt;ul&gt;
+&lt;li&gt;content
+&lt;ul&gt;
+&lt;li&gt;gallery&lt;/li&gt;
+&lt;li&gt;posts
+&lt;ul&gt;
+&lt;li&gt;cardinal-ordinal
+&lt;ul&gt;
+&lt;li&gt;index.en.md&lt;/li&gt;
+&lt;li&gt;index.zh.md&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但我不會直接在這文件夾裏增加文章，而是先在 Joplin 寫好，再用代碼把文章自動複製到適合的位置。&lt;/p&gt;
+&lt;p&gt;Joplin 的筆記本結構和上面一樣。每篇文章都是一個筆記本，放在分區筆記本裏，文章筆記本裏放不同語言的文章。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;posts
+&lt;ul&gt;
+&lt;li&gt;cardinal-ordinal
+&lt;ul&gt;
+&lt;li&gt;量數和序數&lt;/li&gt;
+&lt;li&gt;Cardinals and ordinals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;為了區分沒寫完的文章和要發佈的文章，我會用 Joplin 的標籤功能，在準備好發佈的文章上加一個語言標籤。&lt;/p&gt;
+&lt;p&gt;然後我會用 python 導出文章到 content 文件夾，再用 shell script 生成網站代碼然後上傳。&lt;/p&gt;
+&lt;p&gt;以上就是大致的流程，接下來要説一些代碼了。到底要怎麼把文章按照需要的結構，從 Joplin 導出到 content 文件夾裏面呢？&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;joppy (github)&lt;/a&gt; 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。&lt;/p&gt;
+&lt;p&gt;除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。&lt;/p&gt;
+&lt;p&gt;這樣就知道怎樣篩選筆記本了，剩下的就只是麻煩的搬運工作，代碼如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 調用 joppy 的 API&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;api &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Api(token&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;YOUR_API_TOKEN&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;output_posts_in_certain_notebook_id&lt;/span&gt;(all_notebooks, notebook_id):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    category &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_notebook(notebook_id)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; notebook_data &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; all_notebooks:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# 只有當筆記本（文章）放在需要的筆記本（分區）裏面才繼續&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parent_id &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parent_id &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; notebook_id:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# 獲取筆記本裏面的所有筆記（不同的語言版本）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            post_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_notes(notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id, fields&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;created_time,updated_time,body,order,title,id&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            folder_name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(notebook_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            zh_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            en_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tok_posts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; post_language_version &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; post_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;items:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post_language_version&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                如果文章沒有標籤，就跳過
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; get_tag_list(post_language_version&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; tag_list: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;# 把文章按語言版本分類&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    zh_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    en_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; tag_list:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    language_code &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    tok_posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(post_language_version)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;continue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;zh&amp;#39;&lt;/span&gt;, zh_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en&amp;#39;&lt;/span&gt;, en_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            combine_and_output_posts_in_same_language(category, folder_name, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tok&amp;#39;&lt;/span&gt;, tok_posts)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;combine_and_output_posts_in_same_language&lt;/span&gt;(category, folder_name, language_code, posts):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; posts:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        這是個把拆成幾段的筆記合併到一起的功能。我是想着用來把一段段的小説合併起來，不過還沒有什麼實際作用
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        posts&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sort(key&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;lambda&lt;/span&gt; x: x&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;order, reverse&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; posts[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; get_tag_list(posts[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        tag_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;remove(language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        body &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        created_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        updated_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; post &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; posts:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (created_time &lt;span style=&#34;color:#f92672&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;created_time &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; created_time):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                created_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;created_time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (updated_time &lt;span style=&#34;color:#f92672&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;updated_time &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; updated_time):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                updated_time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;updated_time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            body &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;body &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        提取筆記的資料，然後扔到 generate_front_matter() 裏面，自動生成 hugo 需要的
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        markdown front matter，也就是文章的屬性資料。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        date &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; created_time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;isoformat()[:&lt;span style=&#34;color:#ae81ff&#34;&gt;19&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;+08:00&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; updated_time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;isoformat()[:&lt;span style=&#34;color:#ae81ff&#34;&gt;19&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;+08:00&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        home_dir &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;HOME&amp;#39;&lt;/span&gt;] 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        如果文件夾裏放了圖片，自動在 front matter 裏加入資料，作為文章的標題圖片。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        feature_png_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;png&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        feature_jpg_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;jpg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(feature_png_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.png&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category, image&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;image)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(feature_jpg_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.jpg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category, image&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;image)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; generate_front_matter(title, date, lastmod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;lastmod, tags&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;repr(tag_list), categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;category)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        把生成的 Markdown 文章複製到指定的文件夾裏面
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        folder_directory &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; home_dir &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/Blog/blog/evthronblog/content/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; category &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; folder_name
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;exists(folder_directory):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;makedirs(folder_directory)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        path &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; folder_directory &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/index.&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; language_code &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.md&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(path, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;w&amp;#39;&lt;/span&gt;, encoding&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; fout:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            fout&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; body)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;done in&amp;#34;&lt;/span&gt;, language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;no post in&amp;#34;&lt;/span&gt;, language_code)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;generate_front_matter&lt;/span&gt;(title, date, description &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, image &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, categories &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, tags &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, slug &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;, layout &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; str:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; lastmod &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        lastmod &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; strftime(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%Y-%m-&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;T%H:%M:%S+08:00&amp;#34;&lt;/span&gt;, localtime())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;---&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;title: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; title &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;description: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; description &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; date &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;lastmod: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; lastmod &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; image &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;categories: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; categories &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tags: &amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; tags &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;math: &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;license: &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;hidden: false&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;comments: true&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; slug:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;slug: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; slug &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; layout:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;layout: &amp;#34;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; layout &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    front_matter &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;---&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; front_matter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;get_tag_list&lt;/span&gt;(note_id):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    info &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_tags(note_id)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;items
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    tag_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; info:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; tagdata &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; info:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tag &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tagdata&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            tag_list&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(tag)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; tag_list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;               
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    all_notebooks &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; api&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get_all_notebooks()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# 為需要的筆記本生成檔案&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    post_notebook_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PUT_NOTEBOOK_ID_HERE&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    output_posts_in_certain_notebook_id(all_notebooks, post_notebook_id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    gallery_notebook_id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PUT_NOTEBOOK_ID_HERE&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    output_posts_in_certain_notebook_id(all_notebooks, gallery_notebook_id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; __name__ &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果我完全不用 Joplin 的話，流程應該可以變得更簡單一些，但我做得這麼辛苦，不是很想改。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;2026-03-23&lt;/p&gt;
+&lt;p&gt;寫作動機被 AI 大幅削弱了，發佈流程就算只是多一道工序，也不可能有心情發出去。必須直接從寫的位置發出去才可以。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>filetags 文件管理法</title>
+        <link>https://evthron.github.io/zh/toolbox/filetags-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E6%B3%95/</link>
+        <pubDate>Mon, 23 Mar 2026 10:49:59 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/toolbox/filetags-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E6%B3%95/</guid>
+        <description>&lt;p&gt;電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。&lt;/p&gt;
+&lt;p&gt;在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。&lt;/p&gt;
+&lt;p&gt;filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 &amp;ndash; 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document &amp;ndash; john books review.txt。&lt;/p&gt;
+&lt;p&gt;這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。&lt;/p&gt;
+&lt;p&gt;可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。&lt;/p&gt;
+&lt;p&gt;原作者的介紹：&lt;a class=&#34;link&#34; href=&#34;https://karl-voit.at/managing-digital-photographs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;karl-voit.at/managing-digital-photographs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;filetags python script：&lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github.com/novoid/filetags&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>定製 Taskwarrior</title>
+        <link>https://evthron.github.io/zh/toolbox/%E5%AE%9A%E8%A3%BD-taskwarrior/</link>
+        <pubDate>Mon, 23 Mar 2026 10:49:43 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/toolbox/%E5%AE%9A%E8%A3%BD-taskwarrior/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Taskwarrior&lt;/a&gt; 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。&lt;/p&gt;
+&lt;p&gt;第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 &lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Tasklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tasklist&lt;/a&gt; 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。&lt;/p&gt;
+&lt;p&gt;首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.value.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.value.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Value
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;numeric
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Worth
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然後修改 report.list 的欄位，加入 Time, Value，和 Worth&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.columns&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.labels&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最後是根據 worth，也就是性價比排序&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;例子：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; task add 買牛奶 time:60 value:30
+# 買牛奶要花 60 分鐘
+# 我覺得買牛奶對我來説值 30 元
+
+# 顯示效果
+ID | Active | Age | Description | Time | Value | Worth  |
+19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TASK&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;&amp;lt;/dev/stdin&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$TASK&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; | python &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.config/task/hooks/priority.py&amp;#34;&lt;/span&gt; $@ 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; json
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    task &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;loads(sys&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;stdin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;readline())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;except&lt;/span&gt; json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decoder&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;JSONDecodeError:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;pass&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# worth calculation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;time&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; task&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;keys() &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;value&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; task&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;keys():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    task[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;worth&amp;#39;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; str(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{:.3f}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;format(int(float(task[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;value&amp;#39;&lt;/span&gt;])) &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; int(float(task[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;time&amp;#39;&lt;/span&gt;]))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dumps(task))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第二是我用了 &lt;a class=&#34;link&#34; href=&#34;https://github.com/oskapt/task2hab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;task2hab (github)&lt;/a&gt; 這個插件，可以自動把 taskwarrior 的任務同步到 habitica 上。另外我還模仿了另一個插件 &lt;a class=&#34;link&#34; href=&#34;https://github.com/robwhitaker/taskwarrior-habitica-bridge&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;taskwarrior-habitica-bridge (github)&lt;/a&gt;，修改了一點代碼，讓完成任務的時候可以在終端裏顯示賺到的經驗和金幣。因為這個不是我寫的，我就不展開説了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Speech Note</title>
         <link>https://evthron.github.io/zh/tweet/voice-input/</link>
         <pubDate>Wed, 26 Mar 2025 11:01:31 +0800</pubDate>
@@ -84,19 +354,71 @@
 </description>
         </item>
         <item>
-        <title>filetags 文件管理法</title>
-        <link>https://evthron.github.io/zh/toolbox/filetags/</link>
-        <pubDate>Sat, 18 Jan 2025 02:14:37 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/toolbox/filetags/</guid>
-        <description>&lt;p&gt;電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。&lt;/p&gt;
-&lt;p&gt;在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。&lt;/p&gt;
-&lt;p&gt;filetags 會在文件名上打標籤。文件名無論在哪裏都是通用的，不會受到工具的限制，自然也不用害怕丟失重要的標籤數據。格式是把主要文件名和標籤詞之間用「 &amp;ndash; 」分開。例如 document.txt 是 john 寫的書評，就可以把文件名改成 document &amp;ndash; john books review.txt。&lt;/p&gt;
-&lt;p&gt;這種方法最適合用在散亂的文件上，例如相片和筆記。按照這種方法，檔案結構會變得非常簡單扁平：照片可以先按照時間分類，然後不加組織地放在裏面。&lt;/p&gt;
-&lt;p&gt;可惜，沒有文件系統會支持這種特別的格式，要搜尋文件的話需要用作者自己寫的 Python 腳本工具，或是自己寫 Regular Expression。&lt;/p&gt;
-&lt;p&gt;原作者的介紹：&lt;a class=&#34;link&#34; href=&#34;https://karl-voit.at/managing-digital-photographs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;karl-voit.at/managing-digital-photographs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;filetags python script：&lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;github.com/novoid/filetags&lt;/a&gt;&lt;/p&gt;
+        <title>docker 連不上網</title>
+        <link>https://evthron.github.io/zh/posts/docker-%E9%80%A3%E4%B8%8D%E4%B8%8A%E7%B6%B2/</link>
+        <pubDate>Sun, 12 Jan 2025 08:49:51 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/docker-%E9%80%A3%E4%B8%8D%E4%B8%8A%E7%B6%B2/</guid>
+        <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
+&lt;p&gt;學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。&lt;/p&gt;
+&lt;p&gt;作業裏要連接外部網站的是一個 PHP 程式，是不是程式出錯了？老師給的程序應該不會錯，我對 PHP 又是一竅不通，隨便找了個網站的例子改了改程式碼，沒用。&lt;/p&gt;
+&lt;p&gt;仔細看看網站報了什麼錯，&amp;lsquo;Temporary failure in name resolution&amp;rsquo;，DNS 出問題了。想必是因為我裝了個奇怪的 dnsmasq，雖然很危險但沒辦法只好暫時停用了。沒用。&lt;/p&gt;
+&lt;p&gt;那麼是 Docker 的問題嗎？我對 Docker 也是一竅不通。説到底，這門課也用不着我們懂。本來只是輸一行 &lt;code&gt;docker compose up&lt;/code&gt; 的事，裏面發生什麼事情完全不用管。唉，沒辦法，我還是學了一下 Docker 的運作原理。Docker 可以克服不同電腦甚至操作系統之間水土不服的問題，把開發環境連網站打包成容器 (Container），就哪裏都可以用。原來如此!我還自作聰明地把 Dockerfile，也就是設定檔裏的一行 apt-get 刪掉了呢。 Arch 上下載軟件的工具是 pacman，不是 apt。但只要設定好開發環境裏用 Apache，就沒問題。我把 Container 刪了再重建，沒用。&lt;/p&gt;
+&lt;p&gt;我慌了，這還不夠嗎？看來是網絡設定問題，這就很麻煩了，可以出錯的地方太多了。安裝 Arch 的時候，設置網絡是最頭疼的部分。光説軟件層面已經有一大堆能把人搞糊塗的概念：網絡接口、網絡管理器、主機、IP 地址、端口、域名、DNS、防火牆。如果是 Docker 要調整內部的網絡設定，那就要弄官方文檔上説的什麼「端口轉發」，我一點也看不懂。&lt;/p&gt;
+&lt;p&gt;總之先上網找找看。最好先排除學校給的容器有問題的情況。原來只要一句就可以調試 Docker 網絡。 &lt;code&gt;docker run busybox ping google.com&lt;/code&gt;，借一個叫 busybox 的開發環境，向google 發一個乒乓球，看看對方會不會傳球回來。沒反應，丟包率 100%。&lt;/p&gt;
+&lt;p&gt;網上的答案都説是 docker 是 DNS 設定出錯了。沒有辦法把 google.com 翻譯成真實的 IP 地址。要手動把 docker 的 dns 服務器改成 &lt;code&gt;8.8.8.8&lt;/code&gt;，也就是 Google 提供的 DNS 服務器。一樣沒用。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/etc/docker/daemon.json
+{
+    &amp;#34;dns&amp;#34;: [&amp;#34;8.8.8.8&amp;#34;]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這時我想起來，直接 ping IP 地址就可以排除 DNS 服務器的影響了。&lt;code&gt;docker run busybox ping 127.0.0.1&lt;/code&gt;，這次成功，確認了 Docker 可以連上自家主機。然後是&lt;code&gt;docker run busybox ping 8.8.8.8&lt;/code&gt;，但一樣不管用。&lt;/p&gt;
+&lt;p&gt;説不定是防火牆的問題，乾脆關掉，沒用。我連防火牆軟件都試着從 ufw 換到 firewalld，還是沒用。&lt;/p&gt;
+&lt;p&gt;這下就徹底沒辦法了，只能像無頭蒼蠅一樣在各大論壇遊走碰運氣。Arch wiki，Gentoo wiki，當然少不了 StackOverFlow。解決方法有一大堆，就是沒一種管用。別問我是什麼意思，我也不知道。按指示執行自己看不懂的步驟可是操作電腦的基本功。&lt;/p&gt;
+&lt;h2 id=&#34;arch-wiki&#34;&gt;Arch wiki&lt;/h2&gt;
+&lt;p&gt;在 /etc/docker/daemon.json 設定：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://wiki.archlinux.org/title/Docker#Starting_Docker_breaks_KVM_bridged_networking
+{
+  &amp;#34;iptables&amp;#34;: false
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;gentoo-wiki&#34;&gt;Gentoo wiki&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.gentoo.org/wiki/Docker#Networking&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wiki.gentoo.org/wiki/Docker#Networking&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 /etc/sysctl.d/local.conf 裏設定：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;net.ipv4.ip_forward=1
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;改-docker-composeyaml&#34;&gt;改 docker-compose.yaml&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/33780947/not-able-to-connect-to-network-inside-docker-container&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/questions/33780947/not-able-to-connect-to-network-inside-docker-container&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;services:
+  worker:
+    build: .
+    network_mode: host #added here
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用主機的網絡&#34;&gt;使用主機的網絡&lt;/h3&gt;
+&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。
+&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/5626362&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/a/5626362&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run busybox --network=&amp;#34;host&amp;#34; ping google.com
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;windows-式修理法&#34;&gt;Windows 式修理法&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/68474595&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/a/68474595&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl restart docker
+reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;nftables-flush&#34;&gt;nftables flush&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277638&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277638&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nft flush ruleset
+sudo pacman -R nftables 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;搞了這麼久，真的感覺自己在浪費時間，趕緊換到 Windows 弄 WSL (Windows Subsystem of linux）或者直接在 Linux 上裝虛擬機肯定會比較快。但我只要一被麻煩纏上就沒有心情思考其他的解決辦法。我説不定是在追求柳暗花明的感覺。&lt;/p&gt;
+&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。
+&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/70452290&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stackoverflow.com/a/70452290&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl disable nftables
+sudo systemctl stop nftables
+sudo reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我明明已經解除安裝 nftables 了，是沒有重啓，還是因為再下載了要用到 nftables 的 firewalld 呢？總之現在再試 &lt;code&gt;docker run busybox ping google.com&lt;/code&gt; 成功了！PHP 程式也順利拿到了網站的 JSON 檔案。真的高興得要拍手慶祝。&lt;/p&gt;
+&lt;p&gt;搞了半天，我學會什麼了呢？重新温習了一遍 Arch 的上網設置，放棄了原本已經調整好的 dnsmasq，還知道了 nftables 和 iptables 有着神秘的關係。一天就這樣過去了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;nftables 和 iptables 指的是一套規則，負責處理訊息在各種 IP 上的接收和發送，設置好了可以充當防火牆。docker 能讓多個網站運行在相同的端口號上，原理説不定也是什麼端口轉發。&lt;/p&gt;
 </description>
         </item>
         <item>

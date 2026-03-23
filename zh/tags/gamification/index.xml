@@ -6,7 +6,21 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sun, 23 Feb 2025 01:34:13 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/gamification/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Mar 2026 09:49:02 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/gamification/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>生活遊戲化</title>
+        <link>https://evthron.github.io/zh/posts/%E7%94%9F%E6%B4%BB%E9%81%8A%E6%88%B2%E5%8C%96/</link>
+        <pubDate>Mon, 23 Mar 2026 09:49:02 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E7%94%9F%E6%B4%BB%E9%81%8A%E6%88%B2%E5%8C%96/</guid>
+        <description>&lt;p&gt;好玩的遊戲，一定能讓玩家享受自己越玩越好的過程：玩家從規則開始學起，通過一次次的失敗累積經驗，直到成為高手順利通關。這和學習的過程是一樣的，但對學習樂在其中的人不多，因為學習「越玩越好」的過程實在是太長了，還沒有辦法馬上看見自己的成果。而遊戲化，就是用經驗值和等級，把努力的成果變得一目瞭然。&lt;/p&gt;
+&lt;p&gt;讓我拿遊戲化網站 Habitica 來當例子。在 Habtica 裏面，你可以向系統加入自己的生活任務，完成這些任務就可以增加經驗值、賺取金幣。但是久而久之，玩耍的感覺就消失了。我發現，這只是一個比較有趣的待辦清單而已。這是因為無論我在遊戲裏面的等級再怎麼高，技能再怎麼厲害，也對現實沒有影響。我在遊戲裏的等級是 88，這些經驗有些是做運動賺的，有些是做作業賺的，有些是自己做菜賺的，具體怎麼樣，我不可能記得清，現在 88 這個數字只能説明我玩這個遊戲玩了很久，不能説明我是運動健將，也不能説明我是消滅作業的高手。遊戲機制也一樣，在 Habitica 裏面，我可以消耗魔力，施展「冷凍冰霜」（Chilling Frost），把任務冷凍起來，這樣一來，就算完成不了任務也不會扣生命值。但現實裏面，我根本沒有這種不做作業也不會被罵的特殊技能。&lt;/p&gt;
+&lt;p&gt;遊戲裏面的數值，應該要能應該要能夠轉化成現實裏面的努力。我的方法是，要記錄那些「看得見，增長得快，而且能實際反映能力」的東西。比如學習語言的時候，可以拿詞彙量當經驗值：我懂一百個字，你懂一千個字，那你可以用的字就比我多九倍。如果我努力一點，拿出遊戲刷等級一樣的氣勢，可能只要花四個月的時間就能多學九百個字。不過因為記憶是看不見的，所以一邊學習新詞的時候要一邊記下來，這樣就有了一本能夠反映自己記憶的本子了。我在記錄繪畫經驗的時候，採用了一種更複雜的系統：每畫一副畫，我就會拍一張照，然後我會給這副畫打上標籤，一幅畫可能是畫人的，也可能用了顏色。每一種標籤都對應到一種繪畫的能力，標籤的數量就是那種能力的經驗值，用程序統計好之後做成經驗條，更新到網站上。&lt;/p&gt;
+&lt;p&gt;不過，這個系統還是會有很多做不到的事。在學習一項新的技術之前，是沒有辦法預測學習這項技術的時候，到底有什麼東西是「看得見，增長得快，而且能實際反映能力」的。要先練習過一陣子，才能知道到底有什麼東西是適合記錄的，然後回頭修改系統。&lt;/p&gt;
+&lt;p&gt;有些活動，我甚至不知道有沒有這種能反映實際能力的指標，例如體能、友誼和睡眠質量，這些屬於生活習慣，沒法提升，而不保持就會退化。所以上面的方法應該不適用，反倒是簡單的方法會比較好。&lt;/p&gt;
+&lt;p&gt;如果我能把這個系統改得無懈可擊，讓自己樂在其中的話，這個系統可能就能成為一款真正的遊戲。
+戲的系統是很重要的，少了自己也會繼續運轉的系統，沒有自己運行自己的系統的道理。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>步數清零</title>
         <link>https://evthron.github.io/zh/tweet/lost-step-data/</link>
         <pubDate>Sun, 23 Feb 2025 01:34:13 +0800</pubDate>
@@ -45,10 +59,10 @@
 </description>
         </item>
         <item>
-        <title>交換知識的聊天挑戰 </title>
-        <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
-        <pubDate>Sat, 29 Jun 2024 21:43:57 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/knowledge-exchange/</guid>
+        <title>交換知識的聊天挑戰</title>
+        <link>https://evthron.github.io/zh/posts/%E4%BA%A4%E6%8F%9B%E7%9F%A5%E8%AD%98%E7%9A%84%E8%81%8A%E5%A4%A9%E6%8C%91%E6%88%B0/</link>
+        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E4%BA%A4%E6%8F%9B%E7%9F%A5%E8%AD%98%E7%9A%84%E8%81%8A%E5%A4%A9%E6%8C%91%E6%88%B0/</guid>
         <description>&lt;p&gt;我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？&lt;/p&gt;
 &lt;p&gt;對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。&lt;/p&gt;
 &lt;p&gt;每個人都有自己熟悉的事情，所以不愁沒有交換的材料。可以聊當天的新聞，可以推薦自己最近聽的歌，可以分享自己在維基百科上讀到的冷門知識。不要擔心別人沒有興趣，只要讓別人也説一件他熟悉的事情，你們就扯平了。這就像是玩卡片遊戲的時候互相交換多出來的卡片，雖然自己的卡片和別人的卡組不一定合得起來，但總有機會派上用場的。這樣一點一滴地累積卡片，還能組成一副新的卡組。&lt;/p&gt;

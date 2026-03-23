@@ -6,11 +6,11 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sun, 17 Aug 2025 18:22:11 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/science/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 17 Aug 2025 19:10:00 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/science/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>量子計算的原理</title>
-        <link>https://evthron.github.io/zh/posts/quantum-computation/</link>
-        <pubDate>Sun, 17 Aug 2025 18:22:11 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/quantum-computation/</guid>
+        <link>https://evthron.github.io/zh/posts/%E9%87%8F%E5%AD%90%E8%A8%88%E7%AE%97%E7%9A%84%E5%8E%9F%E7%90%86/</link>
+        <pubDate>Sun, 17 Aug 2025 19:10:00 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E9%87%8F%E5%AD%90%E8%A8%88%E7%AE%97%E7%9A%84%E5%8E%9F%E7%90%86/</guid>
         <description>&lt;p&gt;量子計算機已經成為現實了，但是距離實際應用還有很長很長的路要走。不過不用擔心，真正學過量子計算之後，你就不會對量子計算機的發展有什麼期待了。&lt;/p&gt;
 &lt;h2 id=&#34;疊加&#34;&gt;疊加&lt;/h2&gt;
 &lt;p&gt;量子計算機並不是直接計算答案，而是在所有有可能的答案裏，隨機挑選一個答案出來。&lt;/p&gt;

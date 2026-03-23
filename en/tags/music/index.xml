@@ -6,13 +6,18 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 03 Sep 2025 15:07:16 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Nov 2025 17:56:54 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/music/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How many scales are there?</title>
-        <link>https://evthron.github.io/en/posts/scale/</link>
-        <pubDate>Wed, 03 Sep 2025 15:07:16 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/scale/</guid>
-        <description>&lt;p&gt;In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.&lt;/p&gt;
-&lt;p&gt;Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.&lt;/p&gt;
+        <link>https://evthron.github.io/en/posts/how-many-scales-are-there/</link>
+        <pubDate>Wed, 26 Nov 2025 17:56:54 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/how-many-scales-are-there/</guid>
+        <description>&lt;p&gt;If you play piano, you must know about sharps and flats. They are the fingerprints of a specific key. For example, people like to play music on C major and A minor because they don&amp;rsquo;t have sharps and flats. On the other hand, F sharp major and  E flat minor are horrible to look at because they are running on&lt;/p&gt;
+&lt;p&gt;I always think those notes are evenly spaced, like they are the seven members of a scale and adding accidentals.&lt;/p&gt;
+&lt;p&gt;Noticed that I used the relative note names instead of the absolute ones, like C, D, E, F, G, because the starting pitch of the music does not affect the nature of a music piece.&lt;/p&gt;
+&lt;p&gt;An octave is the most natural way to divide sounds. Notes that are octaves apart sounds like the higher or lower version of the same note.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.&lt;/p&gt;
+&lt;p&gt;Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and Chinese music.&lt;/p&gt;
 &lt;p&gt;People only pick those tried and tested, good-sounding scales, if we ignore this limitation, in theory, how many scales could have possibly exist? To better understand our question, let me give a very brief explanation to music notes.&lt;/p&gt;
 &lt;p&gt;To write music, we start from one note and travel to other notes by changing pitch, the pitch distance between notes is called interval. Notes that are octaves apart are in perfect harmony, making octave the most natural interval in music. To create more varieties in music, musicians further divide an octave to 12 equal intervals, each of the 1/12 portion is called a semitone. Remember, like line segments, an interval consists of two notes, so there are 13 notes in a octave.&lt;/p&gt;
 &lt;p&gt;Counting the step sizes of major scale in semitones, it is 2-2-1-2-2-2-1, for minor scale, that sequence is 2-1-2-2-1-2-2. For each scales, we can write such sequence based on the numbers of semitones travels at each step.&lt;/p&gt;
@@ -21,7 +26,7 @@ Harmonic minor:  2122131
 Natural minor:   2122122
 Pentatonic:      23222
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we can better frame our question: how many sequence are there to divided an octave, if I only allow the steps to be 1, 2 or 3 semitones?&lt;/p&gt;
-&lt;p&gt;We can easily notice that the sum of all intervals in a scale sums to 12. In combintorics, this is a combination with replacement problem. To count all the possible arrangements, we need to use a technique called stars and bars.&lt;/p&gt;
+&lt;p&gt;We can easily notice that the sum of all intervals in a scale sums to 12. In combinatorics, this is a combination with replacement problem. To count all the possible arrangements, we need to use a technique called stars and bars.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
 3333 = 1
 
@@ -59,7 +64,7 @@ Locian:     1221222
 Aeolian:    2122122
 Mixolydian: 2212212 
 Lydian:     2221221
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;How many scales are there if we treat these modes as the same? It now becomes a circular permutation with repetition problem. This is not so simple as it may seem. It require Burnside&amp;rsquo;s theorem to calculate the &amp;lsquo;orbit&amp;rsquo; of each sequence.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;How many scales are there if we treat these modes as the same? It now becomes a circular permutation with repetition problem. This is not so simple as it may seem. To solve this, it would require Burnside&amp;rsquo;s theorem to calculate the &amp;lsquo;orbit&amp;rsquo; of each sequence.&lt;/p&gt;
 &lt;p&gt;The final result is 132.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;3333 = 1
 33321 = (20 + 0) / 5 = 4

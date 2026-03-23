@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='現在的鍵盤佈局完全沒有考慮過人體工學：
+沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
+Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 鍵盤上還有不少多餘的鍵：
+上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt&#43;F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？ Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。 另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl &#43; Shift &#43; Alt &#43; P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。
+AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我把鍵盤設定成這樣：
+打字 打字舒服是最重要的。
+Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&gt; Win &#43; Space（切換中英文輸入法） 瀏覽器操作 真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。
+'>
+        <title>重設鍵盤佈局 | Evthron&#39;s blog</title>
+        
+        <link rel='canonical' href='https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/'>
+
+        
+        
+        
+        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='重設鍵盤佈局'>
+<meta property='og:description' content='現在的鍵盤佈局完全沒有考慮過人體工學：
+沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
+Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 鍵盤上還有不少多餘的鍵：
+上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt&#43;F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？ Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。 另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl &#43; Shift &#43; Alt &#43; P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。
+AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我把鍵盤設定成這樣：
+打字 打字舒服是最重要的。
+Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&gt; Win &#43; Space（切換中英文輸入法） 瀏覽器操作 真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。
+'>
+<meta property='og:url' content='https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/'>
+<meta property='og:site_name' content='Evthron&#39;s blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Toolbox' /><meta property='article:tag' content='productivity' /><meta property='article:published_time' content='2026-03-23T10:50:35&#43;08:00'/><meta property='article:modified_time' content='2026-03-23T10:50:35&#43;08:00'/>
+<meta name="twitter:title" content="重設鍵盤佈局">
+<meta name="twitter:description" content="現在的鍵盤佈局完全沒有考慮過人體工學：
+沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。 常用的 Enter 和 Backspace 要用小指去按，還離得很遠。 沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。 還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。 至少要改成這樣才算理想的鍵位：
+Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 鍵盤上還有不少多餘的鍵：
+上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt&#43;F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？ Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。 另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl &#43; Shift &#43; Alt &#43; P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。
+AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我把鍵盤設定成這樣：
+打字 打字舒服是最重要的。
+Capslock -&gt; Backspace Left Alt -&gt; Esc Right Alt -&gt; Enter 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。 Enter -&gt; Win &#43; Space（切換中英文輸入法） 瀏覽器操作 真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。
+">
+            <link rel="shortcut icon" href="/favicon.ico" />
+        
+    </head>
+    <body class="
+    article-page
+    ">
+
+
+    
+            <script>
+                (function() {
+                    const colorSchemeKey = 'StackColorScheme';
+                    if(!localStorage.getItem(colorSchemeKey)){
+                        localStorage.setItem(colorSchemeKey, "auto");
+                    }
+                })();
+            </script><script>
+            (function() {
+                const colorSchemeKey = 'StackColorScheme';
+                const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+                const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        
+                if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+                    
+
+                    document.documentElement.dataset.scheme = 'dark';
+                } else {
+                    document.documentElement.dataset.scheme = 'light';
+                }
+            })();
+        </script>
+    
+
+        <div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh/">
+                
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_b39cfeb929fcf976.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Evthron/'
+                        target="_blank"
+                        title="🐱Github"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Evthron'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/zh/index.xml'
+                        target="_blank"
+                        title="📡RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh/timeline/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                
+                <span>最新文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>找文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
+                
+                
+                
+                <span>🐦Tweet</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh/toolbox/' >
+                
+                
+                
+                <span>🛠️工具集</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/skill/' >
+                
+                
+                
+                <span>🎮技能</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/code/' >
+                
+                
+                
+                <span>⚔️ 代碼筆記</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+
+    <header class="article-header">
+
+    
+    <div class="article-details">
+        
+        
+        <header class="article-category">
+            
+                
+                <a href="/zh/categories/toolbox/" style="background-color: #888888; color: #fff;">
+                    toolbox
+                </a>
+            
+        </header>
+        
+    
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/">重設鍵盤佈局</a>
+            </h2>
+        
+            
+        </div>
+    
+        
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2026-03-23</time>
+                </div>
+            
+    
+            
+        </footer>
+        
+    
+        
+    </div>
+    
+</header>
+
+    
+    <section class="article-content">
+        
+        
+        <p>現在的鍵盤佈局完全沒有考慮過人體工學：</p>
+<ul>
+<li>沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。</li>
+<li>常用的 Enter 和 Backspace 要用小指去按，還離得很遠。</li>
+<li>沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。</li>
+<li>還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。</li>
+</ul>
+<p>至少要改成這樣才算理想的鍵位：</p>
+<ul>
+<li>Capslock -&gt; Backspace</li>
+<li>Left Alt -&gt; Esc</li>
+<li>Right Alt -&gt; Enter</li>
+</ul>
+<p>鍵盤上還有不少多餘的鍵：</p>
+<ul>
+<li>上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt+F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？</li>
+<li>Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。</li>
+</ul>
+<p>另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl + Shift + Alt + P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。</p>
+<p>AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我把鍵盤設定成這樣：</p>
+<h2 id="打字">打字</h2>
+<p>打字舒服是最重要的。</p>
+<ul>
+<li>Capslock -&gt; Backspace</li>
+<li>Left Alt -&gt; Esc</li>
+<li>Right Alt -&gt; Enter
+這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。</li>
+<li>Enter -&gt; Win + Space（切換中英文輸入法）</li>
+</ul>
+<h2 id="瀏覽器操作">瀏覽器操作</h2>
+<p>真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。</p>
+<ul>
+<li>F6 -&gt; Shift + Ctrl + T （打開上一個關閉的分頁）</li>
+<li>Delete -&gt; Ctrl + W （關閉分頁）</li>
+<li>PgUp -&gt; Ctrl + Shift + Tab （往前一個分頁）</li>
+<li>PgDn -&gt; Ctrl + Tab (往後一個分頁)</li>
+<li>Insert -&gt; Ctrl + T （新增分頁）</li>
+</ul>
+<h2 id="啓動軟件">啓動軟件</h2>
+<ul>
+<li>F1: 番茄鐘</li>
+<li>F4: 字典（Saladict）</li>
+<li>F7: 命令窗口（Terminal）</li>
+<li>F8: 筆記軟件（Vim）</li>
+</ul>
+<p>我的鼠標上有兩個額外的鍵用作複製和貼上。如果鼠標上沒有額外按鍵的話，我還會把它們放在兩個 Fn 鍵上。</p>
+<p>AutoHotKey 有一些缺點，你用着用着就知道了。ahk 腳本的格式不太容易學；登入界面和資源管理器是用不了快捷鍵的，因為這些都需要需要系統管理員權限。不過功能很豐富，可以滿足一切自動操作的需求。</p>
+<h2 id="keyd">Keyd</h2>
+<p>不知道算 Linux 上沒有 Autohotkey 算不算可惜。不過我也不需要那麼多亂七八糟的功能，只要能改鍵就好。keyd 是 Linux 上的一個簡單易用的替代品。缺點是沒有辦法按每個程序設置快捷鍵，只能設置全局快捷鍵。而且輸出受到鍵盤佈局影響，我同時使用 qwerty 的中文輸入和 dvorak，有時候就會出錯。</p>
+<p>「在偏門的佈局上打得飛快，反而在普通的鍵盤上就打不出字來，不是本末倒置嗎？」不用擔心，我已經掌握了在兩種鍵盤佈局之間切換的能力，並深深體會到了兼容的意義。</p>
+
+    </section>
+
+    
+    <footer class="article-footer">
+
+        
+        
+        <section class="article-tags">
+            
+                <a href="/zh/tags/productivity/">Productivity</a>
+            
+        </section>
+         
+
+        </footer>
+    
+    
+    <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+        window.addEventListener("DOMContentLoaded", () => {
+            renderMathInElement(document.querySelector(`.article-content`), {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                ignoredClasses: ["gist"]
+            });})
+    </script>
+    
+</article>
+
+    
+    
+
+    
+    
+    
+    <aside class="related-content--wrapper">
+        <h2 class="section-title">相關文章</h2>
+        <div class="related-content">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/zh/toolbox/filetags-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E6%B3%95/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">filetags 文件管理法</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/toolbox/%E5%A6%82%E4%BD%95%E5%91%8A%E5%88%A5%E4%BA%92%E8%81%AF%E7%B6%B2/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何告別互聯網</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/posts/%E5%AE%8C%E7%BE%8E%E5%AD%B8%E7%BF%92%E6%B3%95/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">完美學習法</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/tweet/perfectionism/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">完美主義</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/posts/%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E8%AA%8D%E5%8F%AF%E6%89%8D%E6%98%AF%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E5%8B%95%E5%8A%9B/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">我想要的認可才是我想要的動力</h2>
+        </div>
+    </a>
+</article>
+
+                
+            </div>
+        </div>
+    </aside>
+     
+
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="evthron/blogComment"
+        issue-term="pathname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2026 Evthron&#39;s blog
+    </section>
+    
+    <section class="powerby">
+        
+            🌐Check out other language versions! <br/>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+
+            </main>
+        </div>
+    
+        
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script><script type="text/javascript" src="/ts/custom.js" defer></script>
+        <script>
+            (function () {
+                const customFont = document.createElement('link');
+                customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+        
+                customFont.type = "text/css";
+                customFont.rel = "stylesheet";
+        
+                document.head.appendChild(customFont);
+            }());
+        </script> 
+    </body>
+</html>

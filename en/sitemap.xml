@@ -2,6 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/en/categories/</loc>
+    <lastmod>2026-03-23T10:29:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/gamification/</loc>
+    <lastmod>2026-03-23T10:29:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/gamification/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/gamification/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/gamification/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/gamify-my-life/</loc>
+    <lastmod>2026-03-23T10:29:16+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/en/categories/posts/</loc>
+    <lastmod>2026-03-23T10:29:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/</loc>
+    <lastmod>2026-03-23T10:29:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/</loc>
+    <lastmod>2026-03-23T10:29:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/higher-order-operation/</loc>
+    <lastmod>2026-03-23T08:08:25+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/maths/</loc>
+    <lastmod>2026-03-23T08:08:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/maths/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/maths/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/code/</loc>
     <lastmod>2026-01-30T00:26:00+08:00</lastmod>
     <xhtml:link
@@ -54,6 +163,22 @@
                 href="https://evthron.github.io/en/code/electron/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/posts/how-many-scales-are-there/</loc>
+    <lastmod>2025-11-26T17:56:54+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/music/</loc>
+    <lastmod>2025-11-26T17:56:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/music/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/music/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/code/opengl/</loc>
     <lastmod>2025-10-24T02:29:41+08:00</lastmod>
     <xhtml:link
@@ -83,37 +208,6 @@
     <loc>https://evthron.github.io/en/code/shell/</loc>
     <lastmod>2025-09-14T03:15:05+08:00</lastmod>
   </url><url>
-    <loc>https://evthron.github.io/en/categories/</loc>
-    <lastmod>2025-09-05T14:00:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/scale/</loc>
-    <lastmod>2025-09-05T14:00:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/scale/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/scale/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/sandbox/%E9%9F%B3%E9%9A%8E-123/</loc>
     <lastmod>2025-09-05T14:00:56+08:00</lastmod>
     <xhtml:link
@@ -125,68 +219,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/sandbox/%E9%9F%B3%E9%9A%8E-123/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/tags/maths/</loc>
-    <lastmod>2025-09-05T14:00:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/maths/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/maths/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/tags/music/</loc>
-    <lastmod>2025-09-05T14:00:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/music/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/music/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/categories/posts/</loc>
-    <lastmod>2025-09-05T14:00:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/</loc>
-    <lastmod>2025-09-05T14:00:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/sandbox/</loc>
@@ -205,24 +237,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/sandbox/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/tags/</loc>
-    <lastmod>2025-09-05T14:00:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/code/javascript/</loc>
@@ -329,19 +343,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/tweet/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/higher-order-operation/</loc>
-    <lastmod>2025-05-04T17:22:05+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/higher-order-operation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/higher-order-operation/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/code/quotes/</loc>
@@ -540,7 +541,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tags/relationship/</loc>
-    <lastmod>2025-04-09T15:42:29+08:00</lastmod>
+    <lastmod>2025-04-06T21:00:13+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -600,6 +601,22 @@
                 hreflang="en"
                 href="https://evthron.github.io/en/tags/coding/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/stories/</loc>
+    <lastmod>2025-04-09T15:42:31+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/stories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/stories/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/why-care-about-people/</loc>
+    <lastmod>2025-01-15T22:27:22+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/en/categories/gallery/</loc>
     <lastmod>2025-03-30T12:28:43+08:00</lastmod>
@@ -855,32 +872,6 @@
                 href="https://evthron.github.io/en/toolbox/upload-workflow/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/tags/stories/</loc>
-    <lastmod>2025-04-09T15:42:31+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/stories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/stories/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/reason-to-socialize/</loc>
-    <lastmod>2025-04-09T15:42:29+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/reason-to-socialize/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/reason-to-socialize/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/tweet/bad-mood-holiday/</loc>
     <lastmod>2025-04-09T15:42:31+08:00</lastmod>
     <xhtml:link
@@ -959,24 +950,6 @@
                 href="https://evthron.github.io/en/sandbox/arsenal/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/tags/gamification/</loc>
-    <lastmod>2025-05-21T15:19:35+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tags/gamification/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tags/gamification/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tags/gamification/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/profile/skill/</loc>
     <lastmod>2025-03-21T03:14:44+08:00</lastmod>
     <xhtml:link
@@ -1012,9 +985,6 @@
                 hreflang="en"
                 href="https://evthron.github.io/en/skill/"
                 />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/skill-gamification/</loc>
-    <lastmod>2025-05-21T15:19:35+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/en/profile/posts/skill-gamification/</loc>
     <lastmod>2024-09-12T03:47:15+08:00</lastmod>
@@ -1076,6 +1046,25 @@
                 href="https://evthron.github.io/en/tweet/migrating-to-linux/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/posts/cardinals-and-ordinals/</loc>
+    <lastmod>2024-07-27T20:21:14+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/images/</loc>
+    <lastmod>2024-07-27T20:21:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/images/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/images/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/limitations-of-instant-messaging/</loc>
+    <lastmod>2024-07-27T20:21:14+08:00</lastmod>
+  </url><url>
     <loc>https://evthron.github.io/en/tags/web/</loc>
     <lastmod>2025-04-09T15:42:30+08:00</lastmod>
     <xhtml:link
@@ -1093,6 +1082,9 @@
                 hreflang="en"
                 href="https://evthron.github.io/en/tags/web/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/en/posts/writing-diary/</loc>
+    <lastmod>2024-07-27T20:21:14+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/en/tweet/blog-layout-modification/</loc>
     <lastmod>2025-02-17T02:55:06+08:00</lastmod>
@@ -1534,19 +1526,6 @@
                 href="https://evthron.github.io/en/toolbox/say-goodbye-to-internet/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/posts/cardinal-ordinal/</loc>
-    <lastmod>2024-01-20T22:43:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/cardinal-ordinal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/cardinal-ordinal/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</loc>
     <lastmod>2024-01-20T22:43:24+08:00</lastmod>
     <xhtml:link
@@ -1584,19 +1563,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/gallery/the-lizard/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/instant-messaging/</loc>
-    <lastmod>2024-01-01T18:23:45+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/instant-messaging/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/instant-messaging/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/profile/posts/instant-messaging/</loc>
@@ -1698,19 +1664,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/gallery/complex-scenary/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/posts/diary/</loc>
-    <lastmod>2023-11-26T08:58:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/posts/diary/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/posts/diary/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/park/</loc>

@@ -6,26 +6,42 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sun, 16 Feb 2025 15:43:55 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/art/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>抗拒人工智能</title>
-        <link>https://evthron.github.io/zh/posts/refuse-ai/</link>
-        <pubDate>Sun, 16 Feb 2025 15:43:55 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/refuse-ai/</guid>
+        <lastBuildDate>Mon, 23 Mar 2026 10:38:59 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/art/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>抗拒 AI</title>
+        <link>https://evthron.github.io/zh/posts/%E6%8A%97%E6%8B%92-ai/</link>
+        <pubDate>Mon, 23 Mar 2026 10:38:59 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E6%8A%97%E6%8B%92-ai/</guid>
         <description>&lt;p&gt;不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。&lt;/p&gt;
 &lt;p&gt;我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。&lt;/p&gt;
-&lt;p&gt;人工智能，更準確地説，各種文字、圖像、聲音、影像生產模型的存在，揭示了一個事實：我們以為只有人能做的創作，隱藏着能用機械的計算模擬的規律，是可以像商品一樣大量生產的。以創作為職業，很可能只是在重複勞動而不自知。&lt;/p&gt;
-&lt;p&gt;以畫素描為例，這只是把眼睛看到的線條、形狀和色塊複製到紙上去而已。用電腦的角度來看，不過是一種邊緣檢測算法：圖像可以理解為像素矩陣，圖像模糊可以用矩陣和常態分佈函數的卷積計算，邊緣可以理解為像素值變化率高的地方。&lt;/p&gt;
-&lt;p&gt;從原理上講，畫素描的運算過程既複雜又單調，為什麼我還能樂在其中？直白地説，是因為我的智力不足，沒有辦法像電腦一樣用相同的算法處理每一副景象，才會享受這個努力辨識線條的過程。&lt;/p&gt;
-&lt;p&gt;你可能會説：「電腦運算出來的只是一串像素，沒有人手畫的靈魂。」我也是這麼認為的。畫家對景物的認知和感情會反映在線條上，是一種獨特的記錄，任何機器都無法取代。&lt;/p&gt;
-&lt;p&gt;但對平庸的畫家而言，無論他能在這複製線條的過程裏獲得多少樂趣，這種情感帶來的線條變化並不會為畫增加經濟價值。在發明相機以後，只懂得複製眼前所見景像的平庸肖像畫家統統丟掉了飯碗。&lt;/p&gt;
-&lt;p&gt;這看起來是一種進化，把人從低端的描線，填色工作解放出來，能夠專注在更高層次的創意上。但描線、填色雖然低端，卻是有樂趣的工作。&lt;/p&gt;
-&lt;p&gt;在圖像生產模型出現以後，情況變得更加極端，模仿別人的藝術風格，從學習的必經過程，變成了新一代的低端工作。無論畫家的個人風格有多麼獨特，只要訓練樣本足夠，任何人也能訓練出對應的圖像生產模型，按一個按鈕就能大量生產。&lt;/p&gt;
-&lt;p&gt;能夠迅速接受人工智能的創作者明白，創作和其他所有工作一樣，並沒有特殊的地位，一樣是要生產出別人需要的商品而已。質量比較差也好，沒有所謂的「靈魂」也好，這些缺點能夠用低成本和數量彌補。&lt;/p&gt;
-&lt;p&gt;幸好，畫畫並不是我的工作，而寫程序雖然需要一點創意，相對來説也比較死板，程式碼的細節並不會直接反映到成品上。新手寫出來的程式碼，怎麼可能會比得上無敵的大模型？&lt;/p&gt;
-&lt;p&gt;使用人工智能，我失去的就只有樂趣而已：自己摸索答案的樂趣；師從某位老師、某本教材的樂趣；明白知識起源的樂趣；自豪地宣稱某份作品是自己原創的樂趣。淨是些效率低下，沒有經濟價值的樂趣。這和&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/&#34; &gt;數學造輪子&lt;/a&gt;一樣讓我失落。&lt;/p&gt;
-&lt;p&gt;像我一樣能從總結規律中獲得樂趣的人終究是少數，大部分人總是比較喜歡直接得到成果的感覺。對自己親手寫的程式碼帶有感情，就像是覺得用人手算出來答案會比計算器算出來的答案更有人情味一樣可笑。&lt;/p&gt;
-&lt;p&gt;不斷打破過去的規則，用新的角度看待事物，才算得上是創作者。人類探索了地球上的每一個角落之後，想要自稱探險家，只能往宇宙進發，這是只有極少數人有能力挑戰的任務。&lt;/p&gt;
-&lt;p&gt;我會用的。無論是寫文章、寫程序、還是畫畫，只要放棄那一部分微不足道又無可替代的樂趣，我就能進步得更快，拋棄底層的低端重複勞動，專注在更加高層次的創作上。我應該是能做到的才對。&lt;/p&gt;
+&lt;p&gt;人工智能，更準確地説，各種文字、圖像、聲音、影像生產模型的存在，揭示了一個事實：我們以為只有人能做的創作，隱藏着能用機械的計算模擬的規律，是可以像商品一樣大量生產的。以創作為職業，很可能只是在重複勞動而不自知。以畫素描為例，這只是把眼睛看到的線條、形狀和色塊複製到紙上去而已。用電腦的角度來看，不過是一種邊緣檢測算法：圖像可以理解為像素矩陣，圖像模糊可以用矩陣和常態分佈函數的卷積計算，邊緣可以理解為像素值變化率高的地方。從原理上講，畫素描的運算過程既複雜又單調，為什麼我還能樂在其中？直白地説，是因為我的智力不足，沒有辦法像電腦一樣用相同的算法處理每一副景象，才會享受這個努力辨識線條的過程。&lt;/p&gt;
+&lt;p&gt;你可能會説：「電腦運算出來的只是一串像素，沒有人手畫的靈魂。」我也是這麼認為的。畫家對景物的認知和感情會反映在線條上，是一種獨特的記錄，任何機器都無法取代。但對平庸的畫家而言，無論他能在這複製線條的過程裏獲得多少樂趣，這種情感帶來的線條變化並不會為畫增加經濟價值。在發明相機以後，只懂得複製眼前所見景像的平庸肖像畫家統統丟掉了飯碗。這看起來是一種進化，把人從低端的描線，填色工作解放出來，能夠專注在更高層次的創意上。但描線、填色雖然低端，卻是有樂趣的工作。&lt;/p&gt;
+&lt;p&gt;在圖像生產模型出現以後，情況變得更加極端，模仿別人的藝術風格，從學習的必經過程，變成了新一代的低端工作。無論畫家的個人風格有多麼獨特，只要訓練樣本足夠，任何人也能訓練出對應的圖像生產模型，按一個按鈕就能大量生產。能夠迅速接受人工智能的創作者明白，創作和其他所有工作一樣，並沒有特殊的地位，一樣是要生產出別人需要的商品而已。質量比較差也好，沒有所謂的「靈魂」也好，這些缺點能夠用低成本和數量彌補。&lt;/p&gt;
+&lt;p&gt;幸好，畫畫並不是我的工作，而寫程序雖然需要一點創意，相對來説也比較死板，程式碼的細節並不會直接反映到成品上。新手寫出來的程式碼，怎麼可能會比得上無敵的大模型？使用人工智能，我失去的就只有樂趣而已：自己摸索答案的樂趣；師從某位老師、某本教材的樂趣；明白知識起源的樂趣；自豪地宣稱某份作品是自己原創的樂趣。淨是些效率低下，沒有經濟價值的樂趣。這和&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/&#34; &gt;數學造輪子&lt;/a&gt;一樣讓我失落。像我一樣能從總結規律中獲得樂趣的人終究是少數，大部分人總是比較喜歡直接得到成果的感覺。對自己親手寫的程式碼帶有感情，就像是覺得用人手算出來答案會比計算器算出來的答案更有人情味一樣可笑。&lt;/p&gt;
+&lt;p&gt;不斷打破過去的規則，用新的角度看待事物，才算得上是創作者。人類探索了地球上的每一個角落之後，想要自稱探險家，只能往宇宙進發，這是只有極少數人有能力挑戰的任務。我會用的。無論是寫文章、寫程序、還是畫畫，只要放棄那一部分微不足道又無可替代的樂趣，我就能進步得更快，拋棄底層的低端重複勞動，專注在更加高層次的創作上。我應該是能做到的才對。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;新時代的藝術家只能繼續往上爬，以人工智能為工具，探索更加前所未見的風格。&lt;/p&gt;
+&lt;p&gt;反對新技術的總是輸家，擁有新技術的才是贏家。織布機對織布工，相機對肖像畫家，網上商店對實體店。&lt;/p&gt;
+&lt;p&gt;我不怎麼喜歡用AI。我覺得創作應該是要由自己的手寫出來的才對。我想學習理工科的人可能對寫作和繪畫的過程不感興趣，所以不明白作家和畫家的心情。&lt;/p&gt;
+&lt;p&gt;任何創作，只要背後有某種通則存在，都是可以用運算模擬出來的。
+不斷地解方程，計算概率。看似需要創意的工作，實際上仍然帶有重複的要素。電腦缺乏的創意，只要用隨機生成的初始數據彌補就好。這使創作變成一種可以大量生產的商品。創作者的期待在商業作品中寄託的自我表達，執著於以人手製作的作品，成了多餘的奢侈。&lt;/p&gt;
+&lt;p&gt;說到這裡，似乎只是和過去所有的科技進步一樣，不斷以自動的機械代替人手而已。為什麼會不能接受呢？&lt;/p&gt;
+&lt;p&gt;問題在於，創作本身是有樂趣的，。&lt;/p&gt;
+&lt;p&gt;人不需要任何外在的好處，就會自發地創作。人會對自己創作灌注感情，相信自己的創作有特別的價值。&lt;/p&gt;
+&lt;p&gt;完全由機械生產的，本質是模仿的。藝術作品，當然不可能哪怕一丁點的藝術價值，但很明顯有無窮無盡的商業價值。現在的人工智能帶來了一個殘酷的現況，除了頂尖的一小撮人以外，藝術創作不是某種有特別意義的工作，不過是和其他所有行業一樣的重複勞動罷了。把這種幻想打破了。平庸的創作，可以完全被機械取代。創作的價值，在於新，沒有辦法做出前所未見的事物&lt;/p&gt;
+&lt;p&gt;人無法以自己感到樂趣的事情維生。&lt;/p&gt;
+&lt;p&gt;只要是在科幻作品裡見識過人工智能的人，我在第一次看見現在的文字製造機的時候，十分驚訝。畢竟好幾年前，在GPT-2 模型流行的時候。有個叫做 AI dungeon 的互動故事網站。這還只是個有點意思的玩具，我根本就不。但是那時我還相當樂在其中，因為我知道背後的原理，用小時訓練。&lt;/p&gt;
+&lt;p&gt;但是現在的文字製造機完全超越了。&lt;/p&gt;
+&lt;p&gt;對創作的潔癖。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;無法接受自己的創作是由別人代筆的。&lt;/li&gt;
+&lt;li&gt;追求一種靈魂，一種屬於自己的感覺。無論好還是不好&lt;/li&gt;
+&lt;li&gt;就算是模仿別人，也知道模仿的來源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;依賴一種不能理解的東西&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;圍棋，模仿AI的下法，因為下棋是沒有過程的，只有最後的結果。但畫畫就不可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我想大部分的人都覺得得到結果最重要。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;幫這篇文章取標題，潤色，使文章更容易閲讀：&lt;/p&gt;
 &lt;p&gt;DeepSeek:&lt;/p&gt;
@@ -150,6 +166,86 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;對比結果已保存為 comparison_result.html&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>地鐵畫畫</title>
+        <link>https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/</link>
+        <pubDate>Mon, 23 Mar 2026 08:01:43 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/</guid>
+        <description>&lt;img src="https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/feature.jpg" alt="Featured image of post 地鐵畫畫" /&gt;&lt;p&gt;地鐵上，大家的握手機姿勢各種各樣：單手小指頂着機底，拇指滑屏幕；左手手掌捧着機背，右手食指滑屏幕；雙手在機背交疊，兩隻拇指在屏幕上快速敲擊；還有雙手抓着橫置的手機兩側，兩隻拇指在屏幕上劃圈。加上我的觀察角度也變來變去，有時是瞄旁邊的座位，有時是抬頭看坐在我正對面的人，或是側着身子抓把手的人。居然有種「橫看成嶺側成峯」的感覺。&lt;/p&gt;
+&lt;p&gt;這個時候，我作為列車上唯一一個不想看手機的人，該做什麼才能消除盯着玻璃窗做白日夢的煩悶呢？就是把這些形態各異的手掌全部描在紙上，做一本手掌合輯。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/hands-1.jpg&#34;
+	width=&#34;4305&#34;
+	height=&#34;6053&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/hands-1_hu_7e534bc46f3150c7.webp 480w, https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/hands-1_hu_23713c89db46afe1.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;hands-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;71&#34;
+		data-flex-basis=&#34;170px&#34;
+	
+&gt;
+&lt;img src=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/hands-2.jpg&#34;
+	width=&#34;4326&#34;
+	height=&#34;5916&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/hands-2_hu_deac4f682a3017eb.webp 480w, https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/hands-2_hu_614d4532ddcb7daa.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;hands-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;73&#34;
+		data-flex-basis=&#34;175px&#34;
+	
+&gt;
+&lt;/p&gt;
+&lt;p&gt;要盯着陌生人看肯定是不自在的。所以我會使用一些技巧。豎起本子，不能讓別人看見自己的畫紙；挑選離自己很遠的目標；不要一邊盯着人看一邊畫，要記住影像才在紙上動筆等等。不過這些技巧其實都不重要，最大的功臣還是手機。雖然我不太樂見，但正正是因為大家都無暇顧及手機之外的事物，我才有可乘之機。&lt;/p&gt;
+&lt;p&gt;手掌合輯畫膩了，就改畫球鞋合輯，再接着畫髮型合輯。「列車上有數不清的模特兒站着不動讓我畫，真是個理想的畫室！」但他們隨便翻一下手掌，轉一下頭，我就只能傻傻地盯着紙上的半成品了。沒什麼好抱怨的，畢竟世界的一切景象本來就是稍縱即逝的。不僅落筆要快，萬一目標下車了，就要找另外一個姿勢相似的目標拼接起來。&lt;/p&gt;
+&lt;p&gt;就這樣，我練就了一項無人能及的功夫：筆走龍蛇如入無人之境；目所能及之處，皆是素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/passengers-1.jpg&#34;
+	width=&#34;4317&#34;
+	height=&#34;6081&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/passengers-1_hu_fca0199977dffb5b.webp 480w, https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/passengers-1_hu_9e0ab0db68c7d7aa.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;passengers-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;170px&#34;
+	
+&gt;
+&lt;img src=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/passengers-2.jpg&#34;
+	width=&#34;4329&#34;
+	height=&#34;6052&#34;
+	srcset=&#34;https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/passengers-2_hu_761f48efadc8f8a4.webp 480w, https://evthron.github.io/zh/posts/%E5%9C%B0%E9%90%B5%E7%95%AB%E7%95%AB/passengers-2_hu_d4a7e2683b10be49.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;passengers-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;71&#34;
+		data-flex-basis=&#34;171px&#34;
+	
+&gt;
+&lt;img src=&#34;https://evthron.github.io/shoes.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shoes&#34;
+	
+	
+&gt;
+&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>抗拒人工智能</title>
@@ -297,25 +393,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
-        <title>畫畫的理由</title>
-        <link>https://evthron.github.io/zh/posts/reason-to-draw/</link>
-        <pubDate>Sat, 18 Jan 2025 02:52:51 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/reason-to-draw/</guid>
-        <description>&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;我完全沒有所謂畫畫的天賦，我想證明無論是什麼事，只要我想學就能學會。結果嘛，我可以很自信地説：「只要是我看得見的東西，我就畫得出來。」但自學只能學到自己需要的程度，沒有外界刺激的話也很難進步。&lt;/li&gt;
-&lt;li&gt;我想培養一門像樣的興趣，所謂的心靈寄託。&lt;/li&gt;
-&lt;li&gt;我本來是想畫些卡通角色來着，但現在已經不怎麼感興趣了。技術也不到家。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;好處&#34;&gt;好處&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;能仔細地觀察世界的形狀，不受任何文字概念的限制。事物不再有美麗和醜陋的區別，只有容易畫和難畫的區別。例如佈滿皺紋的老人會比皮膚光滑無暇的模特兒好畫。&lt;/li&gt;
-&lt;li&gt;無論在什麼地方都能有意義地消磨時間，提升繪畫技術。要是已經畫得太多，沒有技術上的長進的話，至少也能把眼前的景象印在腦海裏。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;作畫是件奇妙的事。親手一筆一畫讓作品成形，事後卻無法說明創作當下的具體步驟。這並非什麼神祕現象，純粹是因為繪畫能讓我們暫時脫離慣性的符號化思考而已。我平常也是在用符號的方式來看待文字嗎？&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>橡皮擦的妙用</title>
         <link>https://evthron.github.io/zh/tweet/graphite-eraser/</link>
         <pubDate>Sat, 19 Oct 2024 04:53:17 +0800</pubDate>
@@ -332,224 +409,10 @@
 </description>
         </item>
         <item>
-        <title>地鐵畫畫</title>
-        <link>https://evthron.github.io/zh/posts/drawing-on-train/</link>
-        <pubDate>Sun, 13 Oct 2024 04:48:32 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/drawing-on-train/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/posts/drawing-on-train/drawing-on-train.jpg" alt="Featured image of post 地鐵畫畫" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/viewpoint.jpg&#34;
-	width=&#34;1775&#34;
-	height=&#34;1147&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/viewpoint_hu_9fa1dbf73d70c60d.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/viewpoint_hu_ed017b70c41a84a1.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;viewpoint&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;154&#34;
-		data-flex-basis=&#34;371px&#34;
-	
-&gt;
-&lt;/p&gt;
-&lt;p&gt;地鐵上，大家的握手機姿勢各種各樣：單手小指頂着機底，拇指滑屏幕；左手手掌捧着機背，右手食指滑屏幕；雙手在機背交疊，兩隻拇指在屏幕上快速敲擊；還有雙手抓着橫置的手機兩側，兩隻拇指在屏幕上劃圈。加上我的觀察角度也變來變去，有時是瞄旁邊的座位，有時是抬頭看坐在我正對面的人，或是側着身子抓把手的人。居然有種「橫看成嶺側成峯」的感覺。&lt;/p&gt;
-&lt;p&gt;這個時候，我作為列車上唯一一個不想看手機的人，該做什麼才能消除盯着玻璃窗做白日夢的煩悶呢？就是把這些形態各異的手掌全部描在紙上，做一本手掌合輯。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-1.jpg&#34;
-	width=&#34;4305&#34;
-	height=&#34;6053&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-1_hu_7e534bc46f3150c7.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/hands-1_hu_23713c89db46afe1.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;hands-1&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;71&#34;
-		data-flex-basis=&#34;170px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-2.jpg&#34;
-	width=&#34;4326&#34;
-	height=&#34;5916&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-2_hu_deac4f682a3017eb.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/hands-2_hu_614d4532ddcb7daa.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;hands-2&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;73&#34;
-		data-flex-basis=&#34;175px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-3.jpg&#34;
-	width=&#34;1142&#34;
-	height=&#34;1819&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/hands-3_hu_e24359b83cab4c16.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/hands-3_hu_d2b770d1e99ac1cd.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;hands-3&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;62&#34;
-		data-flex-basis=&#34;150px&#34;
-	
-&gt;
-&lt;/p&gt;
-&lt;p&gt;要盯着陌生人看肯定是不自在的。所以我會使用一些技巧。豎起本子，不能讓別人看見自己的畫紙；挑選離自己很遠的目標；不要一邊盯着人看一邊畫，要記住影像才在紙上動筆等等。不過這些技巧其實都不重要，最大的功臣還是手機。雖然我不太樂見，但正正是因為大家都無暇顧及手機之外的事物，我才有可乘之機。&lt;/p&gt;
-&lt;p&gt;手掌合輯畫膩了，就改畫球鞋合輯，再接着畫髮型合輯。「列車上有數不清的模特兒站着不動讓我畫，真是個理想的畫室！」但他們隨便翻一下手掌，轉一下頭，我就只能傻傻地盯着紙上的半成品了。沒什麼好抱怨的，畢竟世界的一切景象本來就是稍縱即逝的。不僅落筆要快，萬一目標下車了，就要找另外一個姿勢相似的目標拼接起來。&lt;/p&gt;
-&lt;p&gt;就這樣，我練就了一項無人能及的功夫：筆走龍蛇如入無人之境；目所能及之處，皆是素材。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-1.jpg&#34;
-	width=&#34;4317&#34;
-	height=&#34;6081&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-1_hu_fca0199977dffb5b.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/passengers-1_hu_9e0ab0db68c7d7aa.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;passengers-1&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;170px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-2.jpg&#34;
-	width=&#34;4329&#34;
-	height=&#34;6052&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-2_hu_761f48efadc8f8a4.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/passengers-2_hu_d4a7e2683b10be49.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;passengers-2&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;71&#34;
-		data-flex-basis=&#34;171px&#34;
-	
-&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/shoes-1.jpg&#34;
-	width=&#34;4356&#34;
-	height=&#34;5951&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/shoes-1_hu_84b0e11b453ac108.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/shoes-1_hu_2007be05f6439efc.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;shoes-1&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;73&#34;
-		data-flex-basis=&#34;175px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/shoes-2.jpg&#34;
-	width=&#34;1121&#34;
-	height=&#34;1579&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/shoes-2_hu_462df826b981c769.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/shoes-2_hu_575be55dc8fa2a86.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;shoes-2&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;170px&#34;
-	
-&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-1.jpg&#34;
-	width=&#34;1146&#34;
-	height=&#34;1326&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-1_hu_4112fc3fd4b28f3e.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/heads-1_hu_4a7454b270ba7d3a.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;heads-1&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;86&#34;
-		data-flex-basis=&#34;207px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-2.jpg&#34;
-	width=&#34;1140&#34;
-	height=&#34;1471&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-2_hu_a139c8da14f48f51.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/heads-2_hu_441c4b274f71e5d.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;heads-2&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;77&#34;
-		data-flex-basis=&#34;185px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-3.jpg&#34;
-	width=&#34;1165&#34;
-	height=&#34;1430&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-3_hu_1b16baa1ee6d0889.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/heads-3_hu_3e2a1e6d0419305d.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;heads-3&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;81&#34;
-		data-flex-basis=&#34;195px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-4.jpg&#34;
-	width=&#34;1135&#34;
-	height=&#34;1810&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/heads-4_hu_aa5bcaf6dd9a29aa.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/heads-4_hu_df2bb40d324cd50f.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;heads-4&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;62&#34;
-		data-flex-basis=&#34;150px&#34;
-	
-&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-3.jpg&#34;
-	width=&#34;1981&#34;
-	height=&#34;3472&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-3_hu_ea393ab40369a0c7.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/passengers-3_hu_ac83025b78677044.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;passengers-3&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;57&#34;
-		data-flex-basis=&#34;136px&#34;
-	
-&gt;
-&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-4.jpg&#34;
-	width=&#34;1132&#34;
-	height=&#34;1722&#34;
-	srcset=&#34;https://evthron.github.io/zh/posts/drawing-on-train/passengers-4_hu_8929eec51367b15b.webp 480w, https://evthron.github.io/zh/posts/drawing-on-train/passengers-4_hu_eb6f724d94b384b8.webp 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;passengers-4&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;65&#34;
-		data-flex-basis=&#34;157px&#34;
-	
-&gt;
-&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>寫作和繪畫 </title>
-        <link>https://evthron.github.io/zh/posts/writing-and-drawing/</link>
-        <pubDate>Fri, 21 Jun 2024 19:16:06 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/writing-and-drawing/</guid>
+        <title>寫作和繪畫</title>
+        <link>https://evthron.github.io/zh/posts/%E5%AF%AB%E4%BD%9C%E5%92%8C%E7%B9%AA%E7%95%AB/</link>
+        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E5%AF%AB%E4%BD%9C%E5%92%8C%E7%B9%AA%E7%95%AB/</guid>
         <description>&lt;p&gt;寫作好像和繪畫不沾邊，但這兩項活動其實是十分相似的。我聽説過有些古代的文人既是文學家，也是畫家，兩項活動對他們來説是不分家的。我自己研究了一下之後，也明白了繪畫和寫作之間相似又相反的奇特關係。&lt;/p&gt;
 &lt;p&gt;從表面看，寫文章和畫畫似乎一點相似的地方都沒有：文章是逐字逐句去讀的，但畫是一眼就看得完的；任何人寫作，用的都是同一套漢字，但每個人畫畫，用的顏料都不一樣；好的文章是要複製一千份、一萬份，甚至要翻譯成其他語言，讓世界各地的人讀的，但好的畫作卻是獨一無二的，要是讓其他人重畫一次，就不再是原來的那一副畫了。&lt;/p&gt;
 &lt;p&gt;但其實作家和畫家都有一樣的目的，就是把自己觀察到的東西記錄下來。作家寫不出自己沒經歷過的事情，畫家也畫不出自己沒見過的東西。好的作品，一定誠實地記錄下了自己的所見所聞。這裏的誠實，不只是不改變事物原本的面貌，更重要的是不能扭曲腦海裏的真實印象。可以説，並不是因為想要寫作、想要畫畫，才會去觀察身邊的事情，而是因為觀察到了身邊發生的事情，得到了一些印象，然後想要把這些印象記錄下來，才會去寫作和畫畫。&lt;/p&gt;

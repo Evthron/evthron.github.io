@@ -7,12 +7,47 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Gamify my life</title>
+        <link>https://evthron.github.io/en/posts/gamify-my-life/</link>
+        <pubDate>Mon, 23 Mar 2026 10:29:16 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/gamify-my-life/</guid>
+        <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
+&lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. Now my avatar is at level 88. I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
+&lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design and may defeat the purpose of gamification. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
+&lt;p&gt;I focused on experiences and knowledge because they are easy to quantify and cannot regress even if you slack off for a while, just like you don&amp;rsquo;t lose the in-game experience points even if you forget the game. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
+&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Higher order operation</title>
+        <link>https://evthron.github.io/en/posts/higher-order-operation/</link>
+        <pubDate>Mon, 23 Mar 2026 08:08:25 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
+        <description>&lt;p&gt;The reason why &lt;em&gt;e&lt;/em&gt; is natural is because the exponential function with base &lt;em&gt;e&lt;/em&gt; grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number &lt;em&gt;e&lt;/em&gt; just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how &lt;em&gt;π&lt;/em&gt; achieves the perfect radius-1 curvature.&lt;/p&gt;
+&lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.&lt;/p&gt;
+&lt;p&gt;But if you remember, in primary school, we also took some time to understand what multiplying by a decimal number means. It means addition in fractions. Exponentiation follows this logic but one order higher—it means multiplication in roots.&lt;/p&gt;
+&lt;p&gt;This makes me think: can we extend this definition one order higher? How can we go beyond exponentiation? This is the fourth-order operation: tetration.&lt;/p&gt;
+&lt;p&gt;Tetration is a tower of powers. Each number becomes a tower of powers with a height the same as itself.&lt;/p&gt;
+&lt;p&gt;For example, 2 becomes 2 to the 2, and 3 becomes 3 to the 3 to the 3.&lt;/p&gt;
+&lt;p&gt;Is there a special number in the realm of tetration, like &lt;em&gt;e&lt;/em&gt;? Maybe the number whose &amp;ldquo;tetrational rate&amp;rdquo; (whatever that means) is equal to the value of the function itself. Forget about differentiation—maybe we can define a higher-order differentiation operation. To make this happen, we need to extend the definition of tetration, just like how we extended the definitions of multiplication and exponentiation to real numbers.&lt;/p&gt;
+&lt;p&gt;Can we extend this definition to fractions? Unfortunately, this steps into the realm of unsolved math problems. There’s no generally accepted function to extend the definition of tetration to real numbers. If tetration is not a continuous function, there’s no hope in finding its derivative.&lt;/p&gt;
+&lt;p&gt;To make things worse, unlike exponentiation—which models many natural phenomena aptly—tetration is a completely useless operation because it grows so fast that we run out of atoms in the universe by the time we reach the number 4. Nothing in the universe can be modeled using tetration. No one even knows how to make an analogy to demonstrate its growth rate.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How many scales are there?</title>
-        <link>https://evthron.github.io/en/posts/scale/</link>
-        <pubDate>Wed, 03 Sep 2025 15:07:16 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/scale/</guid>
-        <description>&lt;p&gt;In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.&lt;/p&gt;
-&lt;p&gt;Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.&lt;/p&gt;
+        <link>https://evthron.github.io/en/posts/how-many-scales-are-there/</link>
+        <pubDate>Wed, 26 Nov 2025 17:56:54 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/how-many-scales-are-there/</guid>
+        <description>&lt;p&gt;If you play piano, you must know about sharps and flats. They are the fingerprints of a specific key. For example, people like to play music on C major and A minor because they don&amp;rsquo;t have sharps and flats. On the other hand, F sharp major and  E flat minor are horrible to look at because they are running on&lt;/p&gt;
+&lt;p&gt;I always think those notes are evenly spaced, like they are the seven members of a scale and adding accidentals.&lt;/p&gt;
+&lt;p&gt;Noticed that I used the relative note names instead of the absolute ones, like C, D, E, F, G, because the starting pitch of the music does not affect the nature of a music piece.&lt;/p&gt;
+&lt;p&gt;An octave is the most natural way to divide sounds. Notes that are octaves apart sounds like the higher or lower version of the same note.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.&lt;/p&gt;
+&lt;p&gt;Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and Chinese music.&lt;/p&gt;
 &lt;p&gt;People only pick those tried and tested, good-sounding scales, if we ignore this limitation, in theory, how many scales could have possibly exist? To better understand our question, let me give a very brief explanation to music notes.&lt;/p&gt;
 &lt;p&gt;To write music, we start from one note and travel to other notes by changing pitch, the pitch distance between notes is called interval. Notes that are octaves apart are in perfect harmony, making octave the most natural interval in music. To create more varieties in music, musicians further divide an octave to 12 equal intervals, each of the 1/12 portion is called a semitone. Remember, like line segments, an interval consists of two notes, so there are 13 notes in a octave.&lt;/p&gt;
 &lt;p&gt;Counting the step sizes of major scale in semitones, it is 2-2-1-2-2-2-1, for minor scale, that sequence is 2-1-2-2-1-2-2. For each scales, we can write such sequence based on the numbers of semitones travels at each step.&lt;/p&gt;
@@ -21,7 +56,7 @@ Harmonic minor:  2122131
 Natural minor:   2122122
 Pentatonic:      23222
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we can better frame our question: how many sequence are there to divided an octave, if I only allow the steps to be 1, 2 or 3 semitones?&lt;/p&gt;
-&lt;p&gt;We can easily notice that the sum of all intervals in a scale sums to 12. In combintorics, this is a combination with replacement problem. To count all the possible arrangements, we need to use a technique called stars and bars.&lt;/p&gt;
+&lt;p&gt;We can easily notice that the sum of all intervals in a scale sums to 12. In combinatorics, this is a combination with replacement problem. To count all the possible arrangements, we need to use a technique called stars and bars.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
 3333 = 1
 
@@ -59,7 +94,7 @@ Locian:     1221222
 Aeolian:    2122122
 Mixolydian: 2212212 
 Lydian:     2221221
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;How many scales are there if we treat these modes as the same? It now becomes a circular permutation with repetition problem. This is not so simple as it may seem. It require Burnside&amp;rsquo;s theorem to calculate the &amp;lsquo;orbit&amp;rsquo; of each sequence.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;How many scales are there if we treat these modes as the same? It now becomes a circular permutation with repetition problem. This is not so simple as it may seem. To solve this, it would require Burnside&amp;rsquo;s theorem to calculate the &amp;lsquo;orbit&amp;rsquo; of each sequence.&lt;/p&gt;
 &lt;p&gt;The final result is 132.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;3333 = 1
 33321 = (20 + 0) / 5 = 4
@@ -95,22 +130,6 @@ Lydian:     2221221
     &gt;Speech Note&lt;/a&gt;, which integrates common voice recognition models. The evolution of voice recognition surprised me with its accuracy. Thanks to my graphics card&amp;rsquo;s CUDA, it transcrbes Chinese sentences in just a few seconds. Its performance is far better than Google&amp;rsquo;s voice recognition on my phone.&lt;/p&gt;
 &lt;p&gt;The minor errors from the model can be easily corrected with AI, making voice typing a much more efficient input method now.&lt;/p&gt;
 &lt;p&gt;Maybe I type too much and have forgotten how to speak. And voice typing is a great way to practice.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Higher order operation</title>
-        <link>https://evthron.github.io/en/posts/higher-order-operation/</link>
-        <pubDate>Sun, 04 May 2025 03:07:53 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
-        <description>&lt;p&gt;The reason why &lt;em&gt;e&lt;/em&gt; is natural is because the exponential function with base &lt;em&gt;e&lt;/em&gt; grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number &lt;em&gt;e&lt;/em&gt; just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how &lt;em&gt;π&lt;/em&gt; achieves the perfect radius-1 curvature.&lt;/p&gt;
-&lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.&lt;/p&gt;
-&lt;p&gt;But if you remember, in primary school, we also took some time to understand what multiplying by a decimal number means. It means addition in fractions. Exponentiation follows this logic but one order higher—it means multiplication in roots.&lt;/p&gt;
-&lt;p&gt;This makes me think: can we extend this definition one order higher? How can we go beyond exponentiation? This is the fourth-order operation: tetration.&lt;/p&gt;
-&lt;p&gt;Tetration is a tower of powers. Each number becomes a tower of powers with a height the same as itself.&lt;/p&gt;
-&lt;p&gt;For example, 2 becomes 2 to the 2, and 3 becomes 3 to the 3 to the 3.&lt;/p&gt;
-&lt;p&gt;Is there a special number in the realm of tetration, like &lt;em&gt;e&lt;/em&gt;? Maybe the number whose &amp;ldquo;tetrational rate&amp;rdquo; (whatever that means) is equal to the value of the function itself. Forget about differentiation—maybe we can define a higher-order differentiation operation. To make this happen, we need to extend the definition of tetration, just like how we extended the definitions of multiplication and exponentiation to real numbers.&lt;/p&gt;
-&lt;p&gt;Can we extend this definition to fractions? Unfortunately, this steps into the realm of unsolved math problems. There’s no generally accepted function to extend the definition of tetration to real numbers. If tetration is not a continuous function, there’s no hope in finding its derivative.&lt;/p&gt;
-&lt;p&gt;To make things worse, unlike exponentiation—which models many natural phenomena aptly—tetration is a completely useless operation because it grows so fast that we run out of atoms in the universe by the time we reach the number 4. Nothing in the universe can be modeled using tetration. No one even knows how to make an analogy to demonstrate its growth rate.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -491,6 +510,16 @@ need to make seperate commits.&lt;/p&gt;
 &lt;p&gt;The quote &amp;ldquo;There are only two kinds of languages: the ones people complain about and the ones nobody uses&amp;rdquo; is said by Bjarne Stroustrup, the father of C++.
 &lt;a class=&#34;link&#34; href=&#34;https://www.stroustrup.com/quotes.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.stroustrup.com/quotes.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Why care about people</title>
+        <link>https://evthron.github.io/en/posts/why-care-about-people/</link>
+        <pubDate>Wed, 15 Jan 2025 22:27:22 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/why-care-about-people/</guid>
+        <description>&lt;p&gt;I used to think that talking to people was a waste of time. I tried to ask about their lives out of curiosity, but their life snippets didn&amp;rsquo;t benefit me in any way. Sometimes, it did give have some benefits, like they could correct my homework or invite me to events, but that made me feel like the benefits are more important than the people.&lt;/p&gt;
+&lt;p&gt;I only changed my mind until I read the book &lt;em&gt;Getting Relationships Right&lt;/em&gt;. I realised that even though I&amp;rsquo;ve been pretending it&amp;rsquo;s not the case, I still crave connections. I usually assume that I have nothing interesting to share, but it is very gratifying if someone actually listens to what I say. On the other hand, I am usually afraid of hearing my friends&amp;rsquo; talk about their lives when they&amp;rsquo;re doing better than me, but sometimes I do get inspired by their experiences. I care about my friends because I want to build connections, not for any other concrete benefits.&lt;/p&gt;
+&lt;p&gt;Now I feel more comfortable making small talk, sending and replying text messages, and eating with others if it means I can express myself and learn more about my friends&amp;rsquo; interests and aspirations. It&amp;rsquo;ll take a lot of time, and there&amp;rsquo;s no guarantee it&amp;rsquo;ll go well. But isn&amp;rsquo;t this the most rewarding hobby I could ever get?&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1225,16 +1254,6 @@ Age   Description
 </description>
         </item>
         <item>
-        <title>Why care about people? Reason to socialize</title>
-        <link>https://evthron.github.io/en/posts/reason-to-socialize/</link>
-        <pubDate>Wed, 20 Nov 2024 04:18:13 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/reason-to-socialize/</guid>
-        <description>&lt;p&gt;I used to think that talking to people was a waste of time. I tried to ask about their lives out of curiosity, but their life snippets didn&amp;rsquo;t benefit me in any way. Sometimes, it did give have some benefits, like they could correct my homework or invite me to events, but that made me feel like the benefits are more important than the people.&lt;/p&gt;
-&lt;p&gt;I only changed my mind until I read the book &lt;em&gt;Getting Relationships Right&lt;/em&gt;. I realised that even though I&amp;rsquo;ve been pretending it&amp;rsquo;s not the case, I still crave connections. I usually assume that I have nothing interesting to share, but it is very gratifying if someone actually listens to what I say. On the other hand, I am usually afraid of hearing my friends&amp;rsquo; talk about their lives when they&amp;rsquo;re doing better than me, but sometimes I do get inspired by their experiences. I care about my friends because I want to build connections, not for any other concrete benefits.&lt;/p&gt;
-&lt;p&gt;Now I feel more comfortable making small talk, sending and replying text messages, and eating with others if it means I can express myself and learn more about my friends&amp;rsquo; interests and aspirations. It&amp;rsquo;ll take a lot of time, and there&amp;rsquo;s no guarantee it&amp;rsquo;ll go well. But isn&amp;rsquo;t this the most rewarding hobby I could ever get?&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Bad mood holiday</title>
         <link>https://evthron.github.io/en/tweet/bad-mood-holiday/</link>
         <pubDate>Wed, 16 Oct 2024 04:01:51 +0800</pubDate>
@@ -1578,20 +1597,6 @@ Age   Description
         </item>
         <item>
         <title>Gamify my life</title>
-        <link>https://evthron.github.io/en/posts/skill-gamification/</link>
-        <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/skill-gamification/</guid>
-        <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
-&lt;p&gt;I have used Habitica for a few years and I really love this concept. However, the numbers become less and less meaningful as my level grows. My avatar is at level 88. I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
-&lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design play and may defeat the purpose of gamification, which is to motivate myself. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
-&lt;p&gt;I focused on experiences and knowledge because they are easy to quantify and cannot regress even if you slack off for a while, just like you don&amp;rsquo;t lose the in-game experience points even if you forget the game. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;this page (class Painter)&lt;/a&gt;. I listed all the possible goals I may have as a simple wish list.&lt;/p&gt;
-&lt;p&gt;However, my current system can&amp;rsquo;t go beyond skills and knowledge because most other things in life are hard to gamify. Either they don&amp;rsquo;t grow as a simple straight line, like health, or they are impossible to quantify, like relationships. I&amp;rsquo;m still finding possible ways to gamify those aspects of my life.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Gamify my life</title>
         <link>https://evthron.github.io/en/profile/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
         <guid>https://evthron.github.io/en/profile/posts/skill-gamification/</guid>
@@ -1625,6 +1630,74 @@ Age   Description
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
 &lt;p&gt;Surprisingly, everything software I need on Windows has an linux alternative. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have finished all the work earlier but I wasted a lot of time browsing because there are no ready-made net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cardinals and ordinals</title>
+        <link>https://evthron.github.io/en/posts/cardinals-and-ordinals/</link>
+        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/cardinals-and-ordinals/</guid>
+        <description>&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
+&lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
+&lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
+&lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
+&lt;p&gt;On the other hand, we want to know about the distance between ordinals. For example, from 1 o&amp;rsquo;clock to 3 o&amp;rsquo;clock, we count &amp;lsquo;1 o&amp;rsquo;clock, 2 o&amp;rsquo;clocks, 3 o&amp;rsquo;clocks&amp;rsquo;. There are three &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo; in total but this is not useful. We care about how many hours have passed. 1 o&amp;rsquo;clock to 2 o&amp;rsquo;clock is one hour and 2 o&amp;rsquo;clock to 3 o&amp;rsquo;clock is another hour. Hours count the distance between the &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo;. Similarly, we use &amp;lsquo;2021, 2022&amp;rsquo; to count years but we don&amp;rsquo;t care how many year names have passed. We care about the age, which is the distance between the year names. We count three year names from 2021 to 2023 but only two years have passed.&lt;/p&gt;
+&lt;p&gt;We get the distance between ordinals by subtracting them. 3 - 1 = 2 and 2023 - 2021 = 2. Two hours have passed and the baby is two years old. Conversely, we can add a distance to a ordinal to get the next ordinal. For example, 1 o&amp;rsquo;clock plus 2 hours equals 3 o&amp;rsquo;clock.&lt;/p&gt;
+&lt;p&gt;Although the preceding calculations are for elementary school students and it seems no one has a problem with it, theoretically, we can count from any numbers and in any directions for ordinals so the conversion methods may change. This problem doesn&amp;rsquo;t exist in daily life because we always count from one in ascending order. Unfortunately, programming languages start counting from 0. So if we are not clear with these basic concepts, it&amp;rsquo;s difficult to proceed.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Limitations of Instant Messaging</title>
+        <link>https://evthron.github.io/en/posts/limitations-of-instant-messaging/</link>
+        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/limitations-of-instant-messaging/</guid>
+        <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
+&lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
+&lt;h2 id=&#34;write-what&#34;&gt;Write what？&lt;/h2&gt;
+&lt;p&gt;The first question we have to think about writing letter is, &amp;lsquo;What should I write?&amp;rsquo;. But it might surprise you that we don&amp;rsquo;t usually worry about it in real life. Conversations in real life is related to time and place. Most of the topics are trivial. This is because being in the same place strongly encourages people to communicate.&lt;/p&gt;
+&lt;p&gt;However, on the Internet, people are not sharing the same physical space. So that people know that such casual conversions are not reasonable. Just like you won&amp;rsquo;t drop a letter writing only the sentence &amp;lsquo;How&amp;rsquo;s the weather today?&amp;rsquo; into the post box.&lt;/p&gt;
+&lt;p&gt;As a result, we are forced to prepare an actual topic to start a conversation on instant messengers, even if you just want to say hi.&lt;/p&gt;
+&lt;h2 id=&#34;will-they-reply&#34;&gt;Will they reply？&lt;/h2&gt;
+&lt;p&gt;Assume that we&amp;rsquo;ve already sent the letter. If it&amp;rsquo;s a normal letter, we have to wait for days. However we are using instant messengers, why would we need to wait?  There are only two reasons. Either the person hasn&amp;rsquo;t read the letter, or the person doesn&amp;rsquo;t want to reply. You can never be sure. At worst case, the receiver reads the letter immediately but decides not to reply. That means you have to wait for a reply that never comes starting from the second you press the &amp;lsquo;send&amp;rsquo; button. How can that encourages us to start a conversation?&lt;/p&gt;
+&lt;h2 id=&#34;will-i-be-satisfied&#34;&gt;Will I be satisfied？&lt;/h2&gt;
+&lt;p&gt;Do we succeed if we&amp;rsquo;ve received the reply? Not so fast. The reply might not be satisfying since texts are not genuine. You cannot feel that you are talking to a real person through texts. How can that be the case if people in the past could have in-depth conversations through letters? That&amp;rsquo;s because we are not writing letter nowadays. We are writing &lt;em&gt;dialogue&lt;/em&gt; line by line. The two characteristics of writing dialogue, time dilation and length contraction (just like spaceships in space), make us speculate on each other.&lt;/p&gt;
+&lt;p&gt;Firstly, time dilation gives people enough time to carefully design their words. To put it in an extreme way, all words could be spilled out by an AI chatbot to manipulate your thoughts and feelings. This possibility sows the seed of doubt.&lt;/p&gt;
+&lt;p&gt;Secondly, length contraction makes messages contains no emotional information. Texts excels at explaining complex ideas, but not when the length is short. By the way, emojis and emoticons are not very useful because their meaning slowly alters as people abuse them.&lt;/p&gt;
+&lt;h2 id=&#34;imitate-real-life-conversation&#34;&gt;Imitate real-life conversation&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s still a way to make instant messaging better — imitate real-life conversation by reducing time lags. I think people who are good at instant messaging might be using these techniques already. Although writing messages takes the same form as writing a letter, we should not make them too long because it takes more time thus worsen the time dilation problem (and long messages also scare people off). We should type at the speed of talking without much thought. If your tongue slips, just correct that immediately.&lt;/p&gt;
+&lt;p&gt;On top of that, you should follow the manners of real-life conversation like saying goodbye properly. Don&amp;rsquo;t leave a conversation suspending.&lt;/p&gt;
+&lt;h2 id=&#34;spread-to-the-world&#34;&gt;Spread to the world&lt;/h2&gt;
+&lt;p&gt;On the other hand, the Internet allows us to spread our thoughts to the whole world. Why should we be satisfied with the traditional, two-way conversation?&lt;/p&gt;
+&lt;p&gt;Sometimes, when we have thoughts to share, we don&amp;rsquo;t need to share them to a specific person. This is great because it fundamentally doesn&amp;rsquo;t have the problems of instant messaging.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;There no need need to come up with a topic that catches others&amp;rsquo; interest.&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s no need to wait for replies.&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s no doubt for insincerity as you are writing for yourself, and you have got plenty of space to put them down.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You could spread your thoughts in social media, but that&amp;rsquo;s not the best choice since you might waste more time scrolling and deal with people&amp;rsquo;s reactions. On WeChat, there&amp;rsquo;s a microblogging space called &lt;em&gt;Moments&lt;/em&gt; (literally in Chinese: Friend Circle), which might be a good choice since your posts are limited to your friends. However, the best place to share your thought is on your personal website. Building one could be difficult if you are not a tech-savvy person. At least don&amp;rsquo;t lock your contents behind a login wall.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The first stamp, Penny Black is issued at 1840. It would be too expensive for the public to sent letters without one.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>Writing Diary</title>
+        <link>https://evthron.github.io/en/posts/writing-diary/</link>
+        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
+        <guid>https://evthron.github.io/en/posts/writing-diary/</guid>
+        <description>&lt;p&gt;+++
+title = &amp;lsquo;Writing Diary&amp;rsquo;
+date = 2023-11-26T08:58:15+08:00
++++&lt;/p&gt;
+&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
+&lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;
+&lt;p&gt;Why are we doing this? Why not spread the 3 years on 900 pages? This mean you get to re-read your dairy once a year. Usually, once you put down your day, you never read that entry again. By revisiting your previous years entry, you will starting to realise your mistakes in your writing. Diary is a private thing and there should be any reader. But now you become the reader of your own wrining. You would learn to keep things simple and clear and avoid boring and repetitive events.&lt;/p&gt;
+&lt;p&gt;As a additional bonus, each pages comes with an unique question. You compare your changes in the answer. They said you could see you changes in thought each year. Ironically, for some question, thinking of an new answer becomes the intereresting part,&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3948,20 +4021,6 @@ traditional media.&lt;/li&gt;
         </item>
         <item>
         <title>Cardinals and ordinals</title>
-        <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
-        <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
-&lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
-&lt;p&gt;To make use of ordinals, we often need to convert them to cardinals. There are two types of cardinal information we can get from ordinals. One is the total count of ordinals and the other one is the distance between ordinals.&lt;/p&gt;
-&lt;p&gt;When we are counting objects, we care about how many objects are there. Not very coincidentally, it&amp;rsquo;s equal to the ordinal of the final object. For example, when we count apples on the table, we go on like &amp;lsquo;first apple, second apple, third apple&amp;rsquo;. If the final apple we counted is the third apple, then there are in total three apples on the table.&lt;/p&gt;
-&lt;p&gt;On the other hand, we want to know about the distance between ordinals. For example, from 1 o&amp;rsquo;clock to 3 o&amp;rsquo;clock, we count &amp;lsquo;1 o&amp;rsquo;clock, 2 o&amp;rsquo;clocks, 3 o&amp;rsquo;clocks&amp;rsquo;. There are three &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo; in total but this is not useful. We care about how many hours have passed. 1 o&amp;rsquo;clock to 2 o&amp;rsquo;clock is one hour and 2 o&amp;rsquo;clock to 3 o&amp;rsquo;clock is another hour. Hours count the distance between the &amp;lsquo;o&amp;rsquo;clocks&amp;rsquo;. Similarly, we use &amp;lsquo;2021, 2022&amp;rsquo; to count years but we don&amp;rsquo;t care how many year names have passed. We care about the age, which is the distance between the year names. We count three year names from 2021 to 2023 but only two years have passed.&lt;/p&gt;
-&lt;p&gt;We get the distance between ordinals by subtracting them. 3 - 1 = 2 and 2023 - 2021 = 2. Two hours have passed and the baby is two years old. Conversely, we can add a distance to a ordinal to get the next ordinal. For example, 1 o&amp;rsquo;clock plus 2 hours equals 3 o&amp;rsquo;clock.&lt;/p&gt;
-&lt;p&gt;Although the preceding calculations are for elementary school students and it seems no one has a problem with it, theoretically, we can count from any numbers and in any directions for ordinals so the conversion methods may change. This problem doesn&amp;rsquo;t exist in daily life because we always count from one in ascending order. Unfortunately, programming languages start counting from 0. So if we are not clear with these basic concepts, it&amp;rsquo;s difficult to proceed.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Cardinals and ordinals</title>
         <link>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
         <guid>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</guid>
@@ -3995,45 +4054,6 @@ traditional media.&lt;/li&gt;
 	
 &gt;
 &lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Limitations of Instant Messaging</title>
-        <link>https://evthron.github.io/en/posts/instant-messaging/</link>
-        <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/instant-messaging/</guid>
-        <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
-&lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
-&lt;h2 id=&#34;write-what&#34;&gt;Write what？&lt;/h2&gt;
-&lt;p&gt;The first question we have to think about writing letter is, &amp;lsquo;What should I write?&amp;rsquo;. But it might surprise you that we don&amp;rsquo;t usually worry about it in real life. Conversations in real life is related to time and place. Most of the topics are trivial. This is because being in the same place strongly encourages people to communicate.&lt;/p&gt;
-&lt;p&gt;However, on the Internet, people are not sharing the same physical space. So that people know that such casual conversions are not reasonable. Just like you won&amp;rsquo;t drop a letter writing only the sentence &amp;lsquo;How&amp;rsquo;s the weather today?&amp;rsquo; into the post box.&lt;/p&gt;
-&lt;p&gt;As a result, we are forced to prepare an actual topic to start a conversation on instant messengers, even if you just want to say hi.&lt;/p&gt;
-&lt;h2 id=&#34;will-they-reply&#34;&gt;Will they reply？&lt;/h2&gt;
-&lt;p&gt;Assume that we&amp;rsquo;ve already sent the letter. If it&amp;rsquo;s a normal letter, we have to wait for days. However we are using instant messengers, why would we need to wait?  There are only two reasons. Either the person hasn&amp;rsquo;t read the letter, or the person doesn&amp;rsquo;t want to reply. You can never be sure. At worst case, the receiver reads the letter immediately but decides not to reply. That means you have to wait for a reply that never comes starting from the second you press the &amp;lsquo;send&amp;rsquo; button. How can that encourages us to start a conversation?&lt;/p&gt;
-&lt;h2 id=&#34;will-i-be-satisfied&#34;&gt;Will I be satisfied？&lt;/h2&gt;
-&lt;p&gt;Do we succeed if we&amp;rsquo;ve received the reply? Not so fast. The reply might not be satisfying since texts are not genuine. You cannot feel that you are talking to a real person through texts. How can that be the case if people in the past could have in-depth conversations through letters? That&amp;rsquo;s because we are not writing letter nowadays. We are writing &lt;em&gt;dialogue&lt;/em&gt; line by line. The two characteristics of writing dialogue, time dilation and length contraction (just like spaceships in space), make us speculate on each other.&lt;/p&gt;
-&lt;p&gt;Firstly, time dilation gives people enough time to carefully design their words. To put it in an extreme way, all words could be spilled out by an AI chatbot to manipulate your thoughts and feelings. This possibility sows the seed of doubt.&lt;/p&gt;
-&lt;p&gt;Secondly, length contraction makes messages contains no emotional information. Texts excels at explaining complex ideas, but not when the length is short. By the way, emojis and emoticons are not very useful because their meaning slowly alters as people abuse them.&lt;/p&gt;
-&lt;h2 id=&#34;imitate-real-life-conversation&#34;&gt;Imitate real-life conversation&lt;/h2&gt;
-&lt;p&gt;There&amp;rsquo;s still a way to make instant messaging better — imitate real-life conversation by reducing time lags. I think people who are good at instant messaging might be using these techniques already. Although writing messages takes the same form as writing a letter, we should not make them too long because it takes more time thus worsen the time dilation problem (and long messages also scare people off). We should type at the speed of talking without much thought. If your tongue slips, just correct that immediately.&lt;/p&gt;
-&lt;p&gt;On top of that, you should follow the manners of real-life conversation like saying goodbye properly. Don&amp;rsquo;t leave a conversation suspending.&lt;/p&gt;
-&lt;h2 id=&#34;spread-to-the-world&#34;&gt;Spread to the world&lt;/h2&gt;
-&lt;p&gt;On the other hand, the Internet allows us to spread our thoughts to the whole world. Why should we be satisfied with the traditional, two-way conversation?&lt;/p&gt;
-&lt;p&gt;Sometimes, when we have thoughts to share, we don&amp;rsquo;t need to share them to a specific person. This is great because it fundamentally doesn&amp;rsquo;t have the problems of instant messaging.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;There no need need to come up with a topic that catches others&amp;rsquo; interest.&lt;/li&gt;
-&lt;li&gt;There&amp;rsquo;s no need to wait for replies.&lt;/li&gt;
-&lt;li&gt;There&amp;rsquo;s no doubt for insincerity as you are writing for yourself, and you have got plenty of space to put them down.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;You could spread your thoughts in social media, but that&amp;rsquo;s not the best choice since you might waste more time scrolling and deal with people&amp;rsquo;s reactions. On WeChat, there&amp;rsquo;s a microblogging space called &lt;em&gt;Moments&lt;/em&gt; (literally in Chinese: Friend Circle), which might be a good choice since your posts are limited to your friends. However, the best place to share your thought is on your personal website. Building one could be difficult if you are not a tech-savvy person. At least don&amp;rsquo;t lock your contents behind a login wall.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The first stamp, Penny Black is issued at 1840. It would be too expensive for the public to sent letters without one.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
 </description>
         </item>
         <item>
@@ -4244,17 +4264,6 @@ traditional media.&lt;/li&gt;
 &gt;
 &lt;/p&gt;
 &lt;p&gt;Sketching means capturing everything you see on paper. Look as closely as you can!&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Writing Diary</title>
-        <link>https://evthron.github.io/en/posts/diary/</link>
-        <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
-        <guid>https://evthron.github.io/en/posts/diary/</guid>
-        <description>&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
-&lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;
-&lt;p&gt;Why are we doing this? Why not spread the 3 years on 900 pages? This mean you get to re-read your dairy once a year. Usually, once you put down your day, you never read that entry again. By revisiting your previous years entry, you will starting to realise your mistakes in your writing. Diary is a private thing and there should be any reader. But now you become the reader of your own wrining. You would learn to keep things simple and clear and avoid boring and repetitive events.&lt;/p&gt;
-&lt;p&gt;As a additional bonus, each pages comes with an unique question. You compare your changes in the answer. They said you could see you changes in thought each year. Ironically, for some question, thinking of an new answer becomes the intereresting part,&lt;/p&gt;
 </description>
         </item>
         <item>
