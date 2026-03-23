@@ -10,7 +10,6 @@
         <title>C&#43;&#43; Practice</title>
         <link>https://evthron.github.io/en/tweet/cpp-practice/</link>
         <pubDate>Thu, 23 Jan 2025 00:40:03 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/cpp-practice/</guid>
         <description>&lt;p&gt;I haven&amp;rsquo;t practised much C++. Instead, I keep nudging my python scripts. That doesn&amp;rsquo;t look good. What kinds of project can C++ make?&lt;/p&gt;
 &lt;p&gt;I realised it&amp;rsquo;s not necessary to learn C first&amp;hellip;&lt;/p&gt;
@@ -26,7 +25,6 @@
         <title>Upload workflow</title>
         <link>https://evthron.github.io/en/profile/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
 &lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -74,7 +72,7 @@
 &lt;p&gt;Due to its database nature, the way how Joplin stores folders is not intuitive. The &amp;rsquo;nested&amp;rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&amp;rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;Now I know how to filter the notebooks, all that&amp;rsquo;s left is the hassle of generating the actual markdown files. Let&amp;rsquo;s take a look at the final code:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Use Joppy API&lt;/span&gt;
@@ -228,7 +226,6 @@
         <title>Upload workflow</title>
         <link>https://evthron.github.io/en/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
 &lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -276,7 +273,7 @@
 &lt;p&gt;Due to its database nature, the way how Joplin stores folders is not intuitive. The &amp;rsquo;nested&amp;rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&amp;rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;Now I know how to filter the notebooks, all that&amp;rsquo;s left is the hassle of generating the actual markdown files. Let&amp;rsquo;s take a look at the final code:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Use Joppy API&lt;/span&gt;
@@ -430,7 +427,6 @@
         <title>Sticky menu</title>
         <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
@@ -441,7 +437,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <title>New to JavaScript</title>
         <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;

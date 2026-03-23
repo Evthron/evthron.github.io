@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -64,7 +64,7 @@ for title in args.note_titles:
   <script
     defer
     src="https://evthron.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
+    onload="hljs.initHighlightingOnLoad()"
   ></script><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
@@ -108,7 +108,7 @@ for title in args.note_titles:
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.154.5">
+  <meta name="generator" content="Hugo 0.157.0">
   <meta itemprop="name" content="Note export">
   <meta itemprop="description" content="https://github.com/marph91/joppy/blob/master/examples/note_export.py
 extend a list generator Finding notes with certain title.
@@ -251,21 +251,22 @@ Bad version for note in notes: for title in args.note_titles: if note.title == t
     >
       <article>
         <header class="mb-14">
-          <h1 class="my-0! pb-2.5">Note export</h1><div class="text-xs antialiased opacity-60"><time>2024年9月2日</time></div></header>
+          <h1 class="my-0! pb-2.5">Note export</h1><div class="text-xs antialiased opacity-60"><time>2024年9月2日</time>
+          </div></header>
 
         <section><p><a class="link" href="https://github.com/marph91/joppy/blob/master/examples/note_export.py"  target="_blank" rel="noopener"
     >https://github.com/marph91/joppy/blob/master/examples/note_export.py</a></p>
 <p>extend a list generator
 Finding notes with certain title.</p>
 <h2 id="bad-version">Bad version</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> note <span style="color:#f92672">in</span> notes:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> note <span style="color:#f92672">in</span> notes:
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> title <span style="color:#f92672">in</span> args<span style="color:#f92672">.</span>note_titles:
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> note<span style="color:#f92672">.</span>title <span style="color:#f92672">==</span> title:
 </span></span><span style="display:flex;"><span>			candidates<span style="color:#f92672">.</span>append note
 </span></span></code></pre></div><h2 id="good-version">Good version</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> title <span style="color:#f92672">in</span> args<span style="color:#f92672">.</span>note_titles:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> title <span style="color:#f92672">in</span> args<span style="color:#f92672">.</span>note_titles:
 </span></span><span style="display:flex;"><span>    candidates<span style="color:#f92672">.</span>extend([note <span style="color:#66d9ef">for</span> note <span style="color:#f92672">in</span> notes <span style="color:#66d9ef">if</span> note<span style="color:#f92672">.</span>title <span style="color:#f92672">==</span> title])
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a temporary directory for the resources.</span>
 </span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">with</span> tempfile<span style="color:#f92672">.</span>TemporaryDirectory() <span style="color:#66d9ef">as</span> tmpdirname:
 </span></span><span style="display:flex;"><span>       <span style="color:#75715e"># Convert all notes to the specified format.</span>

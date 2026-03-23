@@ -10,7 +10,6 @@
         <title>在網上説話像寫作文但是改不掉</title>
         <link>https://evthron.github.io/zh/tweet/text-like-a-outsider/</link>
         <pubDate>Thu, 03 Apr 2025 10:52:45 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/text-like-a-outsider/</guid>
         <description>&lt;p&gt;雖然我自有記憶以來就一直在上網，卻一點都不習慣用網絡語言。在這個語言混雜的地方，用寫作文一樣的中文聊天會顯得相當奇怪。&lt;/p&gt;
 &lt;p&gt;過了這麼久我才發現，在這個網絡時代，不會按照聊天對象和潮流調整文字風格，就跟語言不通差不多。要模仿應該不難，但最過不去的一關是我的語言潔癖。&lt;/p&gt;
@@ -22,7 +21,6 @@
         <title>網站設計</title>
         <link>https://evthron.github.io/zh/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 18:11:52 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;我總算按照我想要的樣子，把網站的編排調整一遍了！畫廊能把圖片排成方格、Tweet 能直接展示文章內容、能把自我介紹搬到主頁，把原本的主頁搬到新開的另一頁。主頁就要像目錄一樣，而不是一長串像新聞一樣的時間線。我現在更熟悉 hugo 編排頁面的原理了。當然，HTML 和 CSS 的知識也增長了不少。真的很高興。不過，現在卻不知道接下來該做什麼了。&lt;/p&gt;
 &lt;hr&gt;
@@ -54,7 +52,6 @@ AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試
         <title>更好的搜尋引擎</title>
         <link>https://evthron.github.io/zh/tweet/better-search-engine/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;我已經厭倦 Google 的搜尋結果了（雖然我用的是 Startpage）。今天發現了 &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt;，它能找到一些更小型的網站。順帶一提，&lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

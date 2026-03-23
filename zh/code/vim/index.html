@@ -3,7 +3,8 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Jump to next instance of the word that is on the cursor press *
-Search for current selected text y q / p Enter Open URL gx '>
+Search for current selected text y q / p Enter Open URL gx replace word with yanked word in visual mode, select the word that you want to replace, then press p to paste. The problem is you cannot reuse this operation, because it updates the paste buffer with the replaced word. If you try to repeat this operation, it pastes the word you have just replaced, not the original word you yanked. any better solution? https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-word-in-normal-mode
+'>
         <title>vim | Evthron&#39;s blog</title>
         
         <link rel='canonical' href='https://evthron.github.io/zh/code/vim/'>
@@ -13,13 +14,15 @@ Search for current selected text y q / p Enter Open URL gx '>
         
         <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='vim'>
 <meta property='og:description' content='Jump to next instance of the word that is on the cursor press *
-Search for current selected text y q / p Enter Open URL gx '>
+Search for current selected text y q / p Enter Open URL gx replace word with yanked word in visual mode, select the word that you want to replace, then press p to paste. The problem is you cannot reuse this operation, because it updates the paste buffer with the replaced word. If you try to repeat this operation, it pastes the word you have just replaced, not the original word you yanked. any better solution? https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-word-in-normal-mode
+'>
 <meta property='og:url' content='https://evthron.github.io/zh/code/vim/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2026-01-01T16:38:57&#43;08:00'/><meta property='article:modified_time' content='2026-01-01T16:38:57&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2026-01-30T00:26:00&#43;08:00'/><meta property='article:modified_time' content='2026-01-30T00:26:00&#43;08:00'/>
 <meta name="twitter:title" content="vim">
 <meta name="twitter:description" content="Jump to next instance of the word that is on the cursor press *
-Search for current selected text y q / p Enter Open URL gx ">
+Search for current selected text y q / p Enter Open URL gx replace word with yanked word in visual mode, select the word that you want to replace, then press p to paste. The problem is you cannot reuse this operation, because it updates the paste buffer with the replaced word. If you try to repeat this operation, it pastes the word you have just replaced, not the original word you yanked. any better solution? https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-word-in-normal-mode
+">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -337,7 +340,7 @@ Search for current selected text y q / p Enter Open URL gx ">
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2026-01-01</time>
+                    <time class="article-time--published">2026-01-30</time>
                 </div>
             
     
@@ -386,6 +389,13 @@ Search for current selected text y q / p Enter Open URL gx ">
 <ul>
 <li>gx</li>
 </ul>
+<h2 id="replace-word-with-yanked-word">replace word with yanked word</h2>
+<ul>
+<li>in visual mode, select the word that you want to replace, then press p to paste. The problem is you cannot reuse this operation, because it updates the paste buffer with the replaced word. If you try to repeat this operation, it pastes the word you have just replaced, not the original word you yanked.</li>
+<li>any better solution?</li>
+</ul>
+<p><a class="link" href="https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-word-in-normal-mode"  target="_blank" rel="noopener"
+    >https://vi.stackexchange.com/questions/3328/how-to-replace-a-word-with-a-yanked-word-in-normal-mode</a></p>
 
     </section>
 

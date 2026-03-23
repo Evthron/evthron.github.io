@@ -10,7 +10,6 @@
         <title>How many scales are there?</title>
         <link>https://evthron.github.io/en/posts/scale/</link>
         <pubDate>Wed, 03 Sep 2025 15:07:16 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/scale/</guid>
         <description>&lt;p&gt;In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.&lt;/p&gt;
 &lt;p&gt;Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.&lt;/p&gt;
@@ -90,7 +89,6 @@ Lydian:     2221221
         <title>Higher order operation</title>
         <link>https://evthron.github.io/en/posts/higher-order-operation/</link>
         <pubDate>Sun, 04 May 2025 03:07:53 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
         <description>&lt;p&gt;The reason why &lt;em&gt;e&lt;/em&gt; is natural is because the exponential function with base &lt;em&gt;e&lt;/em&gt; grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number &lt;em&gt;e&lt;/em&gt; just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how &lt;em&gt;π&lt;/em&gt; achieves the perfect radius-1 curvature.&lt;/p&gt;
 &lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.&lt;/p&gt;
@@ -107,7 +105,6 @@ Lydian:     2221221
         <title>origami</title>
         <link>https://evthron.github.io/en/tweet/origami/</link>
         <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/origami/</guid>
         <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
 &lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because it can solve the unsolvable &amp;ldquo;trisect any angle&amp;rdquo; problem. When I was still holding the flier and walking, I started wondering what the basic mathematical operations of origami are. The first one could be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. When all they do is to cut things in half, is cutting things in third even possible? I went straight to the library to find the answer.&lt;/p&gt;

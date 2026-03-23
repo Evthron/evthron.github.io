@@ -10,7 +10,6 @@
         <title>Accurate Colour Wheel</title>
         <link>https://evthron.github.io/en/gallery/accurate-colour-wheel/</link>
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/accurate-colour-wheel/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post Accurate Colour Wheel" /&gt;&lt;p&gt;Most colour wheels failed to isolate hue from lightness and chroma, so we can&amp;rsquo;t rely on them to make appealing colour palates. Luckily, the &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;oklch colour space (oklch.com)&lt;/a&gt; separates the three elements of colours beautifully. Go play around with their colour picker. You will have a better understanding in colour.&lt;/p&gt;

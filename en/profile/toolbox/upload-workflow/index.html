@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -40,7 +40,7 @@ Each section of the website, like posts and gallery, are represented as a folder
   <script
     defer
     src="https://evthron.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
+    onload="hljs.initHighlightingOnLoad()"
   ></script><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
@@ -84,7 +84,7 @@ Each section of the website, like posts and gallery, are represented as a folder
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.154.5">
+  <meta name="generator" content="Hugo 0.157.0">
   <meta itemprop="name" content="Upload workflow">
   <meta itemprop="description" content="My workflow for uploading posts is a bit complicatated, let me explain that here.
 I use hugo (official site) to generate my site. It requries me to put the text files and images in a certain structure so that it can convert them to the website code. Then I can upload the whole piece of code to the hosting service.
@@ -207,7 +207,8 @@ Each section of the website, like posts and gallery, are represented as a folder
     >
       <article>
         <header class="mb-14">
-          <h1 class="my-0! pb-2.5">Upload workflow</h1><div class="text-xs antialiased opacity-60"><time>Dec 27, 2024</time></div></header>
+          <h1 class="my-0! pb-2.5">Upload workflow</h1><div class="text-xs antialiased opacity-60"><time>Dec 27, 2024</time>
+          </div></header>
 
         <section><p>My workflow for uploading posts is a bit complicatated, let me explain that here.</p>
 <p>I use <a class="link" href="https://gohugo.io"  target="_blank" rel="noopener"
@@ -255,7 +256,7 @@ Each section of the website, like posts and gallery, are represented as a folder
 <p>Due to its database nature, the way how Joplin stores folders is not intuitive. The &rsquo;nested&rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &lsquo;posts&rsquo;, I have to search through all the notebooks to check whether its parent is &lsquo;post&rsquo;. It seems that this is the &lsquo;parent list&rsquo; data structure, where each child is pointing to its parent.</p>
 <p>It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &lsquo;posts&rsquo;, I have to search through all the notebooks to check whether its parent is &lsquo;post&rsquo;. It seems that this is the &lsquo;parent list&rsquo; data structure, where each child is pointing to its parent.</p>
 <p>Now I know how to filter the notebooks, all that&rsquo;s left is the hassle of generating the actual markdown files. Let&rsquo;s take a look at the final code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> joppy.client_api <span style="color:#f92672">import</span> ClientApi <span style="color:#66d9ef">as</span> Api
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Use Joppy API</span>

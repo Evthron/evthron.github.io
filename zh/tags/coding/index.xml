@@ -10,7 +10,6 @@
         <title>抗拒人工智能</title>
         <link>https://evthron.github.io/zh/posts/refuse-ai/</link>
         <pubDate>Sun, 16 Feb 2025 15:43:55 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/refuse-ai/</guid>
         <description>&lt;p&gt;不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。&lt;/p&gt;
 &lt;p&gt;我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。&lt;/p&gt;
@@ -93,7 +92,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; jieba
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;split_text_into_words&lt;/span&gt;(text):
@@ -156,7 +155,6 @@
         <title>抗拒人工智能</title>
         <link>https://evthron.github.io/zh/profile/posts/refuse-ai/</link>
         <pubDate>Sun, 16 Feb 2025 15:43:55 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/posts/refuse-ai/</guid>
         <description>&lt;p&gt;不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。&lt;/p&gt;
 &lt;p&gt;我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。&lt;/p&gt;
@@ -239,7 +237,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; jieba
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;split_text_into_words&lt;/span&gt;(text):
@@ -302,7 +300,6 @@
         <title>練習 C&#43;&#43;</title>
         <link>https://evthron.github.io/zh/tweet/cpp-practice/</link>
         <pubDate>Thu, 23 Jan 2025 00:39:43 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/cpp-practice/</guid>
         <description>&lt;p&gt;不妙，沒有寫 C++ 的機會。幾乎全部都在寫 Python。應該寫什麼工具當練習呢？&lt;/p&gt;
 &lt;p&gt;沒先學 C 反而更好嗎……&lt;/p&gt;
@@ -318,7 +315,6 @@
         <title>從 CLI 到 GUI</title>
         <link>https://evthron.github.io/zh/tweet/from-cli-to-gui/</link>
         <pubDate>Sat, 18 Jan 2025 02:00:14 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/from-cli-to-gui/</guid>
         <description>&lt;p&gt;如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。&lt;/p&gt;
 &lt;p&gt;只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。&lt;/p&gt;
@@ -333,7 +329,6 @@
         <title>Anki SQLite</title>
         <link>https://evthron.github.io/zh/tweet/sqlite-anki/</link>
         <pubDate>Mon, 06 Jan 2025 14:00:46 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/sqlite-anki/</guid>
         <description>&lt;p&gt;Anki 用的是 SQLite。實戰是好事吧？&lt;/p&gt;
 &lt;p&gt;很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。&lt;/p&gt;
@@ -364,7 +359,6 @@
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/profile/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
 &lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -411,7 +405,7 @@
     &gt;joppy (github)&lt;/a&gt; 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。&lt;/p&gt;
 &lt;p&gt;除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。&lt;/p&gt;
 &lt;p&gt;這樣就知道怎樣篩選筆記本了，剩下的就只是麻煩的搬運工作，代碼如下：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 調用 joppy 的 API&lt;/span&gt;
@@ -562,7 +556,6 @@
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
 &lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -609,7 +602,7 @@
     &gt;joppy (github)&lt;/a&gt; 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。&lt;/p&gt;
 &lt;p&gt;除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。&lt;/p&gt;
 &lt;p&gt;這樣就知道怎樣篩選筆記本了，剩下的就只是麻煩的搬運工作，代碼如下：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 調用 joppy 的 API&lt;/span&gt;
@@ -760,14 +753,13 @@
         <title>定製 Taskwarrior</title>
         <link>https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/</link>
         <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Taskwarrior&lt;/a&gt; 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。&lt;/p&gt;
 &lt;p&gt;第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 &lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Tasklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;tasklist&lt;/a&gt; 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。&lt;/p&gt;
 &lt;p&gt;首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Time
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.value.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
@@ -775,11 +767,11 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;numeric
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Worth
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然後修改 report.list 的欄位，加入 Time, Value，和 Worth&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.columns&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.labels&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最後是根據 worth，也就是性價比排序&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;例子：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; task add 買牛奶 time:60 value:30
 # 買牛奶要花 60 分鐘
@@ -789,11 +781,11 @@
 ID | Active | Age | Description | Time | Value | Worth  |
 19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TASK&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;&amp;lt;/dev/stdin&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$TASK&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; | python &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.config/task/hooks/priority.py&amp;#34;&lt;/span&gt; $@ 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; json
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
@@ -815,14 +807,13 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <title>定製 Taskwarrior</title>
         <link>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</link>
         <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/toolbox/taskwarrior-hooks/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Taskwarrior&lt;/a&gt; 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。&lt;/p&gt;
 &lt;p&gt;第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 &lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Tasklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;tasklist&lt;/a&gt; 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。&lt;/p&gt;
 &lt;p&gt;首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Time
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.value.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
@@ -830,11 +821,11 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;numeric
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Worth
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然後修改 report.list 的欄位，加入 Time, Value，和 Worth&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.columns&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.labels&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最後是根據 worth，也就是性價比排序&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;例子：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; task add 買牛奶 time:60 value:30
 # 買牛奶要花 60 分鐘
@@ -844,11 +835,11 @@ ID | Active | Age | Description | Time | Value | Worth  |
 ID | Active | Age | Description | Time | Value | Worth  |
 19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TASK&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;&amp;lt;/dev/stdin&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$TASK&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; | python &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.config/task/hooks/priority.py&amp;#34;&lt;/span&gt; $@ 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; json
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
@@ -871,7 +862,6 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <title>黏在旁邊的選單</title>
         <link>https://evthron.github.io/zh/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
@@ -882,7 +872,6 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <title>JavaScript 新手</title>
         <link>https://evthron.github.io/zh/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 19:48:42 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;最近和同學在玩血染鐘樓。簡單介紹一下，這個遊戲是狼人殺應該要有的樣子，是真正的「社交推理遊戲」。&lt;/p&gt;
 &lt;p&gt;我們用的是很方便的&lt;a class=&#34;link&#34; href=&#34;https://clocktower.online/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -62,7 +62,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
   <script
     defer
     src="https://evthron.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
+    onload="hljs.initHighlightingOnLoad()"
   ></script><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
@@ -106,7 +106,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.154.5">
+  <meta name="generator" content="Hugo 0.157.0">
   <meta itemprop="name" content="定製 Taskwarrior">
   <meta itemprop="description" content="Taskwarrior 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。
 第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 tasklist 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。
@@ -264,14 +264,15 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
     >
       <article>
         <header class="mb-14">
-          <h1 class="my-0! pb-2.5">定製 Taskwarrior</h1><div class="text-xs antialiased opacity-60"><time>2024年11月25日</time></div></header>
+          <h1 class="my-0! pb-2.5">定製 Taskwarrior</h1><div class="text-xs antialiased opacity-60"><time>2024年11月25日</time>
+          </div></header>
 
         <section><p><a class="link" href="https://taskwarrior.org"  target="_blank" rel="noopener"
     >Taskwarrior</a> 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。</p>
 <p>第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 <a class="link" href="https://supermemo.guru/wiki/Tasklist"  target="_blank" rel="noopener"
     >tasklist</a> 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。</p>
 <p>首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。</span>
 </span></span><span style="display:flex;"><span>uda.time.type<span style="color:#f92672">=</span>string
 </span></span><span style="display:flex;"><span>uda.time.label<span style="color:#f92672">=</span>Time
 </span></span><span style="display:flex;"><span>uda.value.type<span style="color:#f92672">=</span>string
@@ -279,11 +280,11 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 </span></span><span style="display:flex;"><span>uda.worth.type<span style="color:#f92672">=</span>numeric
 </span></span><span style="display:flex;"><span>uda.worth.label<span style="color:#f92672">=</span>Worth
 </span></span></code></pre></div><p>然後修改 report.list 的欄位，加入 Time, Value，和 Worth</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>default.command<span style="color:#f92672">=</span>list <span style="color:#75715e"># 輸入 task 的時候自動執行 task list，而不是 task next</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>default.command<span style="color:#f92672">=</span>list <span style="color:#75715e"># 輸入 task 的時候自動執行 task list，而不是 task next</span>
 </span></span><span style="display:flex;"><span>report.list.columns<span style="color:#f92672">=</span>id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
 </span></span><span style="display:flex;"><span>report.list.labels<span style="color:#f92672">=</span>ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
 </span></span></code></pre></div><p>最後是根據 worth，也就是性價比排序</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>report.list.sort<span style="color:#f92672">=</span>worth-,start-,due+,project+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>report.list.sort<span style="color:#f92672">=</span>worth-,start-,due+,project+
 </span></span></code></pre></div><p>例子：</p>
 <pre tabindex="0"><code>&gt; task add 買牛奶 time:60 value:30
 # 買牛奶要花 60 分鐘
@@ -293,11 +294,11 @@ report.list.sort=worth-,start-,due&#43;,project&#43; 例子：
 ID | Active | Age | Description | Time | Value | Worth  |
 19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
 </code></pre><p>要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
 </span></span></span><span style="display:flex;"><span>TASK<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>&lt;/dev/stdin<span style="color:#66d9ef">)</span> 
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;</span>$TASK<span style="color:#e6db74">&#34;</span> | python <span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.config/task/hooks/priority.py&#34;</span> $@ 
 </span></span></code></pre></div><p>每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> json
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:

@@ -390,9 +390,9 @@ This means, you cannot swap pointer variables in a separete function. To mimic p
 <h1 id="pointer-dereferencing">pointer dereferencing</h1>
 <p>the asterisk pointer means the same thing, which is doing operation to the actual value located at the address which the pointer is pointing to.</p>
 <p>If the asterisk is on the right-hand side of the equal sign, it is dereferencing, which is returns the value of the pointer&rsquo;s address.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> value <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>ptr
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> value <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>ptr
 </span></span></code></pre></div><p>If the asterisk pointer is on the left-hand side, it means writing to the value of the address.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#f92672">*</span>ptr <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#f92672">*</span>ptr <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
 </span></span></code></pre></div><p>One is getting the value at the address and the other one is assigning value to the address. Their meanings are slightly different.</p>
 <h1 id="how-to-read-arguments">How to read arguments</h1>
 <p><code>int main(int argc, char* argv[])</code></p>

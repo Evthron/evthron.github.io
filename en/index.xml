@@ -10,7 +10,6 @@
         <title>How many scales are there?</title>
         <link>https://evthron.github.io/en/posts/scale/</link>
         <pubDate>Wed, 03 Sep 2025 15:07:16 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/scale/</guid>
         <description>&lt;p&gt;In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.&lt;/p&gt;
 &lt;p&gt;Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.&lt;/p&gt;
@@ -90,7 +89,6 @@ Lydian:     2221221
         <title>Speech Note</title>
         <link>https://evthron.github.io/en/tweet/voice-input/</link>
         <pubDate>Sun, 04 May 2025 03:48:54 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/voice-input/</guid>
         <description>&lt;p&gt;I used to think voice typing was a poor technology invented for people who couldn&amp;rsquo;t type correctly. It&amp;rsquo;s full of errors after all, especially in Chinese, where many words share the same sound and differ only in tones.&lt;/p&gt;
 &lt;p&gt;I changed my view after I tried &lt;a class=&#34;link&#34; href=&#34;https://flathub.org/apps/net.mkiol.SpeechNote&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -103,7 +101,6 @@ Lydian:     2221221
         <title>Higher order operation</title>
         <link>https://evthron.github.io/en/posts/higher-order-operation/</link>
         <pubDate>Sun, 04 May 2025 03:07:53 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
         <description>&lt;p&gt;The reason why &lt;em&gt;e&lt;/em&gt; is natural is because the exponential function with base &lt;em&gt;e&lt;/em&gt; grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number &lt;em&gt;e&lt;/em&gt; just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how &lt;em&gt;π&lt;/em&gt; achieves the perfect radius-1 curvature.&lt;/p&gt;
 &lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.&lt;/p&gt;
@@ -120,7 +117,6 @@ Lydian:     2221221
         <title>I prefer phone over text, probably</title>
         <link>https://evthron.github.io/en/tweet/phone-vs-text/</link>
         <pubDate>Thu, 03 Apr 2025 12:19:15 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/phone-vs-text/</guid>
         <description>&lt;p&gt;If a phone call is a explosion, a message ring is ticking bomb, which is much mroe horrible.&lt;/p&gt;
 </description>
@@ -129,7 +125,6 @@ Lydian:     2221221
         <title>What I learn from economics</title>
         <link>https://evthron.github.io/en/tweet/learn-from-economics/</link>
         <pubDate>Mon, 10 Mar 2025 02:34:20 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/learn-from-economics/</guid>
         <description>&lt;p&gt;The society follows the principles of economics:&lt;/p&gt;
 &lt;ul&gt;
@@ -163,7 +158,6 @@ Lydian:     2221221
         <title>streamlit</title>
         <link>https://evthron.github.io/en/profile/code/streamlit/</link>
         <pubDate>Thu, 06 Mar 2025 14:35:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/code/streamlit/</guid>
         <description>&lt;p&gt;import streamlit as st&lt;/p&gt;
 &lt;h2 id=&#34;stsession_state&#34;&gt;st.session_state&lt;/h2&gt;
@@ -193,7 +187,6 @@ give context to code, similar to Go syntax&lt;/p&gt;
         <title>streamlit</title>
         <link>https://evthron.github.io/en/profile/streamlit/</link>
         <pubDate>Thu, 06 Mar 2025 14:35:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/streamlit/</guid>
         <description>&lt;p&gt;import streamlit as st&lt;/p&gt;
 &lt;h2 id=&#34;stsession_state&#34;&gt;st.session_state&lt;/h2&gt;
@@ -223,13 +216,12 @@ give context to code, similar to Go syntax&lt;/p&gt;
         <title>git</title>
         <link>https://evthron.github.io/en/profile/code/git/</link>
         <pubDate>Thu, 06 Mar 2025 12:31:38 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/code/git/</guid>
         <description>&lt;h2 id=&#34;how-to-upload-local-repo-to-github&#34;&gt;How to Upload Local Repo to GitHub&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Create Local Git Repo:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;Create an Empty Repo on GitHub&lt;/p&gt;
@@ -241,11 +233,11 @@ give context to code, similar to Go syntax&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin git@github.com:username/reponame.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin git@github.com:username/reponame.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;If you used the HTTPS URL, change it using &lt;code&gt;set-url&lt;/code&gt;:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote set-url origin git@github.com:username/reponame.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote set-url origin git@github.com:username/reponame.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;origin&lt;/code&gt; is the default name that prefixes all upstream branches. All upstream branches are referred to as &lt;code&gt;origin/branch&lt;/code&gt; when viewed in the local repo.&lt;/p&gt;
@@ -254,11 +246,11 @@ give context to code, similar to Go syntax&lt;/p&gt;
 &lt;p&gt;You can check the remote URL to confirm the change:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote -v
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote -v
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Push Local &lt;code&gt;main&lt;/code&gt; Branch to the &lt;code&gt;origin/main&lt;/code&gt; Branch:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;If your default local branch name is &lt;code&gt;master&lt;/code&gt;, you may encounter an error like:&lt;/li&gt;
 &lt;/ul&gt;
@@ -267,20 +259,20 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Normally, the remote branch and the local branch should have the same name. Change the local branch name by:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Now, &lt;code&gt;git push origin main&lt;/code&gt; should work.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Set Upstream Tracking: To make the branch remember its upstream branch, use the &lt;code&gt;--set-upstream&lt;/code&gt; or &lt;code&gt;-u&lt;/code&gt; flag once:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --set-upstream origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --set-upstream origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or equivalently:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Next time, you can simply push the branch by using:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;contribute-by-forking&#34;&gt;Contribute by Forking&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -290,24 +282,24 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;p&gt;Clone the Forked Repo to Local:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone git@github.com:username/reponame.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone git@github.com:username/reponame.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Add the Original Repository as Upstream: This time use the HTTPS URL.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add upstream &amp;lt;ORIGINAL_REPO_URL&amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add upstream &amp;lt;ORIGINAL_REPO_URL&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Fetch the Latest Changes from Upstream:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git fetch upstream
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git fetch upstream
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Merge Changes into Your Local Branch: If you want to merge changes from the upstream branch (usually &lt;code&gt;main&lt;/code&gt;) into your local &lt;code&gt;main&lt;/code&gt; branch:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout main
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge upstream/main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;Push to Your Forked Repo: After merging, push the updated local branch to your forked repo on GitHub:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
 &lt;/ol&gt;
@@ -322,13 +314,12 @@ need to make seperate commits.&lt;/p&gt;
         <title>git</title>
         <link>https://evthron.github.io/en/profile/git/</link>
         <pubDate>Thu, 06 Mar 2025 12:31:38 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/git/</guid>
         <description>&lt;h2 id=&#34;how-to-upload-local-repo-to-github&#34;&gt;How to Upload Local Repo to GitHub&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Create Local Git Repo:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;Create an Empty Repo on GitHub&lt;/p&gt;
@@ -340,11 +331,11 @@ need to make seperate commits.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin git@github.com:username/reponame.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin git@github.com:username/reponame.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;If you used the HTTPS URL, change it using &lt;code&gt;set-url&lt;/code&gt;:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote set-url origin git@github.com:username/reponame.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote set-url origin git@github.com:username/reponame.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;origin&lt;/code&gt; is the default name that prefixes all upstream branches. All upstream branches are referred to as &lt;code&gt;origin/branch&lt;/code&gt; when viewed in the local repo.&lt;/p&gt;
@@ -353,11 +344,11 @@ need to make seperate commits.&lt;/p&gt;
 &lt;p&gt;You can check the remote URL to confirm the change:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote -v
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote -v
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Push Local &lt;code&gt;main&lt;/code&gt; Branch to the &lt;code&gt;origin/main&lt;/code&gt; Branch:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;If your default local branch name is &lt;code&gt;master&lt;/code&gt;, you may encounter an error like:&lt;/li&gt;
 &lt;/ul&gt;
@@ -366,20 +357,20 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;Normally, the remote branch and the local branch should have the same name. Change the local branch name by:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Now, &lt;code&gt;git push origin main&lt;/code&gt; should work.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Set Upstream Tracking: To make the branch remember its upstream branch, use the &lt;code&gt;--set-upstream&lt;/code&gt; or &lt;code&gt;-u&lt;/code&gt; flag once:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --set-upstream origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --set-upstream origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or equivalently:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Next time, you can simply push the branch by using:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;contribute-by-forking&#34;&gt;Contribute by Forking&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -389,24 +380,24 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;p&gt;Clone the Forked Repo to Local:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone git@github.com:username/reponame.git
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone git@github.com:username/reponame.git
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Add the Original Repository as Upstream: This time use the HTTPS URL.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add upstream &amp;lt;ORIGINAL_REPO_URL&amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add upstream &amp;lt;ORIGINAL_REPO_URL&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Fetch the Latest Changes from Upstream:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git fetch upstream
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git fetch upstream
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Merge Changes into Your Local Branch: If you want to merge changes from the upstream branch (usually &lt;code&gt;main&lt;/code&gt;) into your local &lt;code&gt;main&lt;/code&gt; branch:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout main
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge upstream/main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;Push to Your Forked Repo: After merging, push the updated local branch to your forked repo on GitHub:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
 &lt;/ol&gt;
@@ -421,16 +412,15 @@ need to make seperate commits.&lt;/p&gt;
         <title>python-venv</title>
         <link>https://evthron.github.io/en/profile/code/python-venv/</link>
         <pubDate>Mon, 24 Feb 2025 17:56:55 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/code/python-venv/</guid>
         <description>&lt;p&gt;error: externally-managed-environment&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv myenv
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv myenv
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source myenv/bin/activate
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;note:&lt;/p&gt;
 &lt;p&gt;use myenv/bin/{executable} (e.g. myenv/bin/pip)&lt;/p&gt;
 &lt;p&gt;don&amp;rsquo;t change the folder path after creating the virtual env&lt;/p&gt;
 &lt;h2 id=&#34;conda&#34;&gt;Conda&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda create --name myenv python&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;3.X
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda create --name myenv python&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;3.X
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda activate myenv
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda env list
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -439,16 +429,15 @@ need to make seperate commits.&lt;/p&gt;
         <title>python-venv</title>
         <link>https://evthron.github.io/en/profile/python-venv/</link>
         <pubDate>Mon, 24 Feb 2025 17:56:55 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/python-venv/</guid>
         <description>&lt;p&gt;error: externally-managed-environment&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv myenv
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python -m venv myenv
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source myenv/bin/activate
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;note:&lt;/p&gt;
 &lt;p&gt;use myenv/bin/{executable} (e.g. myenv/bin/pip)&lt;/p&gt;
 &lt;p&gt;don&amp;rsquo;t change the folder path after creating the virtual env&lt;/p&gt;
 &lt;h2 id=&#34;conda&#34;&gt;Conda&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda create --name myenv python&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;3.X
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda create --name myenv python&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;3.X
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda activate myenv
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;conda env list
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -457,7 +446,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Relationship management software</title>
         <link>https://evthron.github.io/en/tweet/personal-relationship-management/</link>
         <pubDate>Fri, 14 Feb 2025 13:53:18 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/personal-relationship-management/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/right-sider/#keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time&#34; &gt;Never Eat Alone&lt;/a&gt; suggests making a list to group people according to contact frequencies. Although the book recommends to stick to simple technology like pencil and paper, I still want a specialised software and I found monica.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.monicahq.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -494,7 +482,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>C&#43;&#43; Practice</title>
         <link>https://evthron.github.io/en/tweet/cpp-practice/</link>
         <pubDate>Thu, 23 Jan 2025 00:40:03 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/cpp-practice/</guid>
         <description>&lt;p&gt;I haven&amp;rsquo;t practised much C++. Instead, I keep nudging my python scripts. That doesn&amp;rsquo;t look good. What kinds of project can C++ make?&lt;/p&gt;
 &lt;p&gt;I realised it&amp;rsquo;s not necessary to learn C first&amp;hellip;&lt;/p&gt;
@@ -510,7 +497,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Watermelon peel</title>
         <link>https://evthron.github.io/en/gallery/watermelon/</link>
         <pubDate>Fri, 03 Jan 2025 12:52:38 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/watermelon/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/watermelon/watermelon.jpg" alt="Featured image of post Watermelon peel" /&gt;&lt;p&gt;No one should let fresh fruits rot in the air.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/watermelon/watermelon.jpg&#34;
@@ -534,7 +520,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Minibus</title>
         <link>https://evthron.github.io/en/gallery/minibus/</link>
         <pubDate>Fri, 03 Jan 2025 12:49:46 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/minibus/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/minibus/minibus.jpg" alt="Featured image of post Minibus" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/minibus/minibus.jpg&#34;
 	width=&#34;5100&#34;
@@ -557,7 +542,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Beach</title>
         <link>https://evthron.github.io/en/gallery/beach/</link>
         <pubDate>Fri, 03 Jan 2025 12:35:41 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/beach/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/beach/beach.jpg" alt="Featured image of post Beach" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/beach/beach.jpg&#34;
 	width=&#34;4247&#34;
@@ -580,7 +564,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Colour practice</title>
         <link>https://evthron.github.io/en/gallery/colour-practice/</link>
         <pubDate>Fri, 03 Jan 2025 12:17:01 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/colour-practice/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/colour-practice/colour-practice.png" alt="Featured image of post Colour practice" /&gt;&lt;ul&gt;
 &lt;li&gt;Original&lt;/li&gt;
@@ -626,7 +609,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Labcoat</title>
         <link>https://evthron.github.io/en/gallery/labcoat/</link>
         <pubDate>Fri, 03 Jan 2025 12:11:18 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/labcoat/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/labcoat/labcoat.png" alt="Featured image of post Labcoat" /&gt;&lt;p&gt;This is much better as a drawing, but as a icon, somehow the original one (drawn with mouse) looks better.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/labcoat/labcoat.png&#34;
@@ -650,7 +632,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Christmas house</title>
         <link>https://evthron.github.io/en/gallery/christmas-house/</link>
         <pubDate>Fri, 03 Jan 2025 12:01:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/christmas-house/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/christmas-house/christmas-house.png" alt="Featured image of post Christmas house" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/christmas-house/christmas-house.png&#34;
 	width=&#34;4624&#34;
@@ -673,7 +654,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>Figures</title>
         <link>https://evthron.github.io/en/gallery/body-skeleton/</link>
         <pubDate>Fri, 03 Jan 2025 11:41:20 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/body-skeleton/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton.png" alt="Featured image of post Figures" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton.png&#34;
 	width=&#34;5034&#34;
@@ -771,7 +751,6 @@ need to make seperate commits.&lt;/p&gt;
         <title>taskwarrior</title>
         <link>https://evthron.github.io/en/profile/sandbox/taskwarrior/</link>
         <pubDate>Tue, 31 Dec 2024 08:01:55 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/sandbox/taskwarrior/</guid>
         <description>&lt;p&gt;My task list, I add everything I can think of in it.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
@@ -835,7 +814,6 @@ Age   Description
         <title>Hard to ask for help</title>
         <link>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</link>
         <pubDate>Sat, 28 Dec 2024 05:02:20 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s hard to ask for help. If you procrastinating until the last hour and realise you can&amp;rsquo;t solve the problem on time, the shame you feel when typing the text message to ask someone for help will makes you throw the phone away and panic alone.&lt;/p&gt;
 &lt;p&gt;If we rely on the internet to answer every small question, we miss the chance to slowly build trust with others with these questions. It is very tempting to quickly obtain the knowledge without having to admit our ignorance. Is it really the cause? Only trust begets trust, but I don&amp;rsquo;t have to trust others when asking those easy questions, it doesn&amp;rsquo;t matter whether they could answer them.&lt;/p&gt;
@@ -848,7 +826,6 @@ Age   Description
         <title>Upload workflow</title>
         <link>https://evthron.github.io/en/profile/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
 &lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -896,7 +873,7 @@ Age   Description
 &lt;p&gt;Due to its database nature, the way how Joplin stores folders is not intuitive. The &amp;rsquo;nested&amp;rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&amp;rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;Now I know how to filter the notebooks, all that&amp;rsquo;s left is the hassle of generating the actual markdown files. Let&amp;rsquo;s take a look at the final code:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Use Joppy API&lt;/span&gt;
@@ -1050,7 +1027,6 @@ Age   Description
         <title>Upload workflow</title>
         <link>https://evthron.github.io/en/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
 &lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1098,7 +1074,7 @@ Age   Description
 &lt;p&gt;Due to its database nature, the way how Joplin stores folders is not intuitive. The &amp;rsquo;nested&amp;rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&amp;rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;Now I know how to filter the notebooks, all that&amp;rsquo;s left is the hassle of generating the actual markdown files. Let&amp;rsquo;s take a look at the final code:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Use Joppy API&lt;/span&gt;
@@ -1252,7 +1228,6 @@ Age   Description
         <title>Why care about people? Reason to socialize</title>
         <link>https://evthron.github.io/en/posts/reason-to-socialize/</link>
         <pubDate>Wed, 20 Nov 2024 04:18:13 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;I used to think that talking to people was a waste of time. I tried to ask about their lives out of curiosity, but their life snippets didn&amp;rsquo;t benefit me in any way. Sometimes, it did give have some benefits, like they could correct my homework or invite me to events, but that made me feel like the benefits are more important than the people.&lt;/p&gt;
 &lt;p&gt;I only changed my mind until I read the book &lt;em&gt;Getting Relationships Right&lt;/em&gt;. I realised that even though I&amp;rsquo;ve been pretending it&amp;rsquo;s not the case, I still crave connections. I usually assume that I have nothing interesting to share, but it is very gratifying if someone actually listens to what I say. On the other hand, I am usually afraid of hearing my friends&amp;rsquo; talk about their lives when they&amp;rsquo;re doing better than me, but sometimes I do get inspired by their experiences. I care about my friends because I want to build connections, not for any other concrete benefits.&lt;/p&gt;
@@ -1263,7 +1238,6 @@ Age   Description
         <title>Bad mood holiday</title>
         <link>https://evthron.github.io/en/tweet/bad-mood-holiday/</link>
         <pubDate>Wed, 16 Oct 2024 04:01:51 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/bad-mood-holiday/</guid>
         <description>&lt;p&gt;I hate holiday. It gives me a fake sense of comfort that I could slack off. Time flies no matter what I do. I always get stuck in deep regret and really annoyed by myself.&lt;/p&gt;
 &lt;p&gt;&amp;lsquo;This is such a tiny thing. I shouldn&amp;rsquo;t be angry and waste any more time on this.&amp;rsquo; This meta emotion makes me feel angrier. What a vicious circle, until I can&amp;rsquo;t take this anymore and cried. After that, I could sit down and write this reflection very easily. It&amp;rsquo;s hard to admit, but emotion plays heavily of the tug-of-war between motivation and procrastination.&lt;/p&gt;
@@ -1273,7 +1247,6 @@ Age   Description
         <title>Update breakage</title>
         <link>https://evthron.github.io/en/tweet/update-breakage/</link>
         <pubDate>Wed, 02 Oct 2024 14:30:46 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/update-breakage/</guid>
         <description>&lt;p&gt;I shouldn&amp;rsquo;t update the system when I am doing work&amp;hellip; what a classic mistake. The bookmark bar of Firefox became blank and the button layout is stirred up. I spent the whole night trying to open new profiles and imported all the setting twice but somehow it couldn&amp;rsquo;t fix the problem. I have no choice but to remove all the profiles and reinstall firefox.&lt;/p&gt;
 &lt;p&gt;Joppy updates and spilt its API into clientAPI and serverAPI. I have to change my import statement in my python script to make it work. I now understand why people fixate on old versions.&lt;/p&gt;
@@ -1283,7 +1256,6 @@ Age   Description
         <title>Haircut</title>
         <link>https://evthron.github.io/en/tweet/haircut/</link>
         <pubDate>Wed, 18 Sep 2024 23:57:32 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/haircut/</guid>
         <description>&lt;p&gt;The hairdresser grumbled that my demand was unclear, although I had been using the same vague words and the outcomes were somewhat consistent. How misfortunate. At least I learnt their lingo.&lt;/p&gt;
 </description>
@@ -1292,7 +1264,6 @@ Age   Description
         <title>Component Collection</title>
         <link>https://evthron.github.io/en/profile/sandbox/arsenal/</link>
         <pubDate>Thu, 29 Aug 2024 22:12:22 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/sandbox/arsenal/</guid>
         <description>&lt;h3 id=&#34;progress-bar&#34;&gt;Progress bar&lt;/h3&gt;
 
@@ -1609,7 +1580,6 @@ Age   Description
         <title>Gamify my life</title>
         <link>https://evthron.github.io/en/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/skill-gamification/</guid>
         <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
 &lt;p&gt;I have used Habitica for a few years and I really love this concept. However, the numbers become less and less meaningful as my level grows. My avatar is at level 88. I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
@@ -1624,7 +1594,6 @@ Age   Description
         <title>Gamify my life</title>
         <link>https://evthron.github.io/en/profile/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/posts/skill-gamification/</guid>
         <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
 &lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. My avatar is at level 88.  I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
@@ -1639,7 +1608,6 @@ Age   Description
         <title>Gamify my life</title>
         <link>https://evthron.github.io/en/profile/skill/introduction/</link>
         <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/skill/introduction/</guid>
         <description>&lt;p&gt;Gamification is adding game elements to activities. This motivates people to do things they will not normally do. A great example is Habitica, a platform for nurturing habits in an RPG way. Players gain experience points and coins by completing daily tasks. They level up and buy new equipment to attack monsters in quests. I have used Habitica for a years and I recommend anyone to try it to grasp what gamification is.&lt;/p&gt;
 &lt;p&gt;However, as my level grows, the numbers becomes less and less meaningful. I felt that this is just a glorified to-do list. The reason is obvious: A game is not a accurate representation of reality. My avatar is at level 88, but what does that mean? Maybe that was a reward of I being a good learner, or having a great habit of exercising. I can&amp;rsquo;t tell because all the things I earned have been mixed together and there&amp;rsquo;s no record keeping track of them. I want the number to be meaningful, like that actual stats in RPGs that can do actual damages.&lt;/p&gt;
@@ -1653,7 +1621,6 @@ Age   Description
         <title>Migrating to Linux</title>
         <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
         <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
@@ -1664,7 +1631,6 @@ Age   Description
         <title>Website redesign</title>
         <link>https://evthron.github.io/en/tweet/blog-layout-modification/</link>
         <pubDate>Mon, 01 Jul 2024 18:21:29 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/blog-layout-modification/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
 &lt;hr&gt;
@@ -1683,7 +1649,6 @@ Age   Description
         <title>night view</title>
         <link>https://evthron.github.io/en/gallery/nightview/</link>
         <pubDate>Wed, 26 Jun 2024 02:46:52 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/nightview/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/nightview/nightview.png&#34;
@@ -1707,7 +1672,6 @@ Age   Description
         <title>Sticky menu</title>
         <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
@@ -1718,7 +1682,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <title>New to JavaScript</title>
         <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
@@ -1728,7 +1691,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <title>origami</title>
         <link>https://evthron.github.io/en/tweet/origami/</link>
         <pubDate>Tue, 18 Jun 2024 01:10:39 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/origami/</guid>
         <description>&lt;p&gt;When I received fliers on the street, I often felt the urge to make use of it. No, I don&amp;rsquo;t mean making paper planes, that no fun making paper planes. What about origami? (Though technically, making paper planes is origami) I remembered when I was in primary school, our maths teacher had taught us how to craft 3D shapes out of paper pieces.&lt;/p&gt;
 &lt;p&gt;Now as I am talking about maths, you may notice origami is very similar with constructing shapes using ruler and compass. Actually, I&amp;rsquo;ve heard origami is more powerful than ruler and compass because it can solve the unsolvable &amp;ldquo;trisect any angle&amp;rdquo; problem. When I was still holding the flier and walking, I started wondering what the basic mathematical operations of origami are. The first one could be folding a line in half, which forms the perpendicular bisector of the line. The other one might be folding an angle in half, which gave us the diagonal line. When all they do is to cut things in half, is cutting things in third even possible? I went straight to the library to find the answer.&lt;/p&gt;
@@ -1741,7 +1703,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <title>Oil pastel flower pot </title>
         <link>https://evthron.github.io/en/gallery/flower-pot/</link>
         <pubDate>Thu, 23 May 2024 04:03:14 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/flower-pot/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post Oil pastel flower pot " /&gt;&lt;p&gt;I want to include more colour in my practice. After considering various tools I&amp;rsquo;ve got, I think oil pastel is the best pick since it is mixable and portable. I first studied how well the pigment mixes then gave it a try. The result is not bad isn&amp;rsquo;t it? We may thought oil pastel is child&amp;rsquo;s toy but it isn&amp;rsquo;t the case.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png&#34;
@@ -1765,7 +1726,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <title>Arch Linux Installation</title>
         <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
@@ -1774,7 +1734,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <title>Improved publishing workflow </title>
         <link>https://evthron.github.io/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
 &lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1793,7 +1752,6 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
         <title>class Writer</title>
         <link>https://evthron.github.io/en/profile/skill/writer/</link>
         <pubDate>Fri, 29 Mar 2024 12:53:39 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/skill/writer/</guid>
         <description>&lt;h2 id=&#34;writing-statistics&#34;&gt;Writing Statistics&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;              File count:  61 --- Lv3 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱
@@ -1832,7 +1790,6 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
         <title>class Foreigner</title>
         <link>https://evthron.github.io/en/profile/skill/foreigner/</link>
         <pubDate>Thu, 28 Mar 2024 02:39:05 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/skill/foreigner/</guid>
         <description>&lt;h2 id=&#34;skill&#34;&gt;Skill&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;     English vocab (web): 930 --- Lv12 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱
@@ -1849,7 +1806,6 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
         <title>class Programmer</title>
         <link>https://evthron.github.io/en/profile/skill/programmer/</link>
         <pubDate>Mon, 25 Mar 2024 12:05:21 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/skill/programmer/</guid>
         <description>&lt;h2 id=&#34;read-code&#34;&gt;Read Code&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;              Code notes:  18
@@ -1935,7 +1891,6 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <title>class Right-sider</title>
         <link>https://evthron.github.io/en/profile/skill/right-sider/</link>
         <pubDate>Mon, 25 Mar 2024 12:05:21 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/skill/right-sider/</guid>
         <description>&lt;h2 id=&#34;skill&#34;&gt;Skill&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;                 Collect: 124 --- Lv5 ▰▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
@@ -2024,7 +1979,6 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <title>Better Search Engine</title>
         <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
         <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
         <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;marginalia.nu&lt;/a&gt; are much more interesting than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;reddit&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2042,7 +1996,6 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <title>Delusions</title>
         <link>https://evthron.github.io/en/tweet/delusions/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/delusions/</guid>
         <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
@@ -2051,7 +2004,6 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <title>Joplin Vim Mode</title>
         <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
 </description>
@@ -2060,7 +2012,6 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;
 </description>
@@ -2069,7 +2020,6 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <title>Search Count</title>
         <link>https://evthron.github.io/en/tweet/search-count/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/search-count/</guid>
         <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
 &lt;p&gt;2024/04/07 03:37&lt;/p&gt;
@@ -2080,7 +2030,6 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <title>class Painter</title>
         <link>https://evthron.github.io/en/profile/skill/painter/</link>
         <pubDate>Sun, 10 Mar 2024 06:10:52 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/skill/painter/</guid>
         <description>&lt;h2 id=&#34;overall&#34;&gt;Overall&lt;/h2&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
@@ -3506,7 +3455,6 @@ traditional media.&lt;/li&gt;
         <title>Progress</title>
         <link>https://evthron.github.io/en/tweet/progress/</link>
         <pubDate>Mon, 26 Feb 2024 01:46:25 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/progress/</guid>
         <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
 </description>
@@ -3515,7 +3463,6 @@ traditional media.&lt;/li&gt;
         <title>Accurate Colour Wheel</title>
         <link>https://evthron.github.io/en/gallery/accurate-colour-wheel/</link>
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/accurate-colour-wheel/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/accurate-colour-wheel/accurate-colour-wheel.png" alt="Featured image of post Accurate Colour Wheel" /&gt;&lt;p&gt;Most colour wheels failed to isolate hue from lightness and chroma, so we can&amp;rsquo;t rely on them to make appealing colour palates. Luckily, the &lt;a class=&#34;link&#34; href=&#34;https://oklch.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;oklch colour space (oklch.com)&lt;/a&gt; separates the three elements of colours beautifully. Go play around with their colour picker. You will have a better understanding in colour.&lt;/p&gt;
@@ -3865,7 +3812,6 @@ traditional media.&lt;/li&gt;
         <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/profile/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
@@ -3892,7 +3838,7 @@ traditional media.&lt;/li&gt;
 &lt;h2 id=&#34;youtube-blocking&#34;&gt;Youtube: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
 &lt;p&gt;Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos shorter than 5 minutes and longer than 50 minutes.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
@@ -3935,7 +3881,6 @@ traditional media.&lt;/li&gt;
         <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
@@ -3962,7 +3907,7 @@ traditional media.&lt;/li&gt;
 &lt;h2 id=&#34;youtube-blocking&#34;&gt;Youtube: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
 &lt;p&gt;Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos shorter than 5 minutes and longer than 50 minutes.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
@@ -4005,7 +3950,6 @@ traditional media.&lt;/li&gt;
         <title>Cardinals and ordinals</title>
         <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
@@ -4020,7 +3964,6 @@ traditional media.&lt;/li&gt;
         <title>Cardinals and ordinals</title>
         <link>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/posts/cardinal-ordinal/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/profile/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
@@ -4035,7 +3978,6 @@ traditional media.&lt;/li&gt;
         <title>The Lizard</title>
         <link>https://evthron.github.io/en/gallery/the-lizard/</link>
         <pubDate>Thu, 11 Jan 2024 06:05:12 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/the-lizard/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png" alt="Featured image of post The Lizard" /&gt;&lt;p&gt;I picked the colour from my newly made colour chart and the result is unexpectedly good. I bought this Spider-Man series blind box full of hope but ended up getting the worst one out of eight. But there&amp;rsquo;s no fun drawing Spider-Man right?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/the-lizard/the-lizard.png&#34;
@@ -4059,7 +4001,6 @@ traditional media.&lt;/li&gt;
         <title>Limitations of Instant Messaging</title>
         <link>https://evthron.github.io/en/posts/instant-messaging/</link>
         <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/instant-messaging/</guid>
         <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
 &lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
@@ -4099,7 +4040,6 @@ traditional media.&lt;/li&gt;
         <title>Limitations of Instant Messaging</title>
         <link>https://evthron.github.io/en/profile/posts/instant-messaging/</link>
         <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/posts/instant-messaging/</guid>
         <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
 &lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
@@ -4139,7 +4079,6 @@ traditional media.&lt;/li&gt;
         <title>Winter</title>
         <link>https://evthron.github.io/en/tweet/winter/</link>
         <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/winter/</guid>
         <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
@@ -4148,7 +4087,6 @@ traditional media.&lt;/li&gt;
         <title>Remap keyboard</title>
         <link>https://evthron.github.io/en/profile/toolbox/remap-keyboard/</link>
         <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;Ergonomics has never been a concern for past keyboard designers:&lt;/p&gt;
 &lt;ul&gt;
@@ -4193,7 +4131,6 @@ traditional media.&lt;/li&gt;
         <title>Remap keyboard</title>
         <link>https://evthron.github.io/en/toolbox/remap-keyboard/</link>
         <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;Ergonomics has never been a concern for past keyboard designers:&lt;/p&gt;
 &lt;ul&gt;
@@ -4238,7 +4175,6 @@ traditional media.&lt;/li&gt;
         <title>AI Generated Oil Painting</title>
         <link>https://evthron.github.io/en/gallery/agi/</link>
         <pubDate>Sat, 02 Dec 2023 10:32:58 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/agi/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/agi/london-cat.png" alt="Featured image of post AI Generated Oil Painting" /&gt;&lt;p&gt;This one is reward winning!&lt;/p&gt;
 &lt;ul&gt;
@@ -4291,7 +4227,6 @@ traditional media.&lt;/li&gt;
         <title>Complex Scenary</title>
         <link>https://evthron.github.io/en/gallery/complex-scenary/</link>
         <pubDate>Sat, 02 Dec 2023 07:28:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/complex-scenary/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg" alt="Featured image of post Complex Scenary" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/gallery/complex-scenary/nightview.jpg&#34;
 	width=&#34;2317&#34;
@@ -4315,7 +4250,6 @@ traditional media.&lt;/li&gt;
         <title>Writing Diary</title>
         <link>https://evthron.github.io/en/posts/diary/</link>
         <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/diary/</guid>
         <description>&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
 &lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;
@@ -4327,7 +4261,6 @@ traditional media.&lt;/li&gt;
         <title>Bench</title>
         <link>https://evthron.github.io/en/gallery/park/</link>
         <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/park/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post Bench" /&gt;&lt;p&gt;A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/park/bench.jpg&#34;
@@ -4351,7 +4284,6 @@ traditional media.&lt;/li&gt;
         <title>Shelf site cloud</title>
         <link>https://evthron.github.io/en/gallery/shelf-site-sky/</link>
         <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/gallery/shelf-site-sky/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post Shelf site cloud" /&gt;&lt;p&gt;See something draw something.
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
@@ -4375,7 +4307,6 @@ traditional media.&lt;/li&gt;
         <title>OKLCH Color Wheel</title>
         <link>https://evthron.github.io/en/oklch-color-wheel/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
         <guid>https://evthron.github.io/en/oklch-color-wheel/</guid>
         <description></description>
         </item>
@@ -4383,7 +4314,6 @@ traditional media.&lt;/li&gt;
         <title>Search</title>
         <link>https://evthron.github.io/en/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
         <guid>https://evthron.github.io/en/search/</guid>
         <description></description>
         </item>

@@ -10,7 +10,6 @@
         <title>How many scales are there?</title>
         <link>https://evthron.github.io/en/posts/scale/</link>
         <pubDate>Wed, 03 Sep 2025 15:07:16 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/scale/</guid>
         <description>&lt;p&gt;In a piano piece, only a handful of keys on the board will be played, otherwise it will sound like a mess. Composers only uses the notes from a scale in their mind. When the scale is chosen, the possible intervals that can be played are fixed. This gives character to a music piece.&lt;/p&gt;
 &lt;p&gt;Different culture have their own scale to create the distinct sounding of their cultural music. Major scale and minor scale are the most common scales in modern music. the pentatonic scale give a sense of traditional and chinese music.&lt;/p&gt;
@@ -90,7 +89,6 @@ Lydian:     2221221
         <title>Higher order operation</title>
         <link>https://evthron.github.io/en/posts/higher-order-operation/</link>
         <pubDate>Sun, 04 May 2025 03:07:53 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
         <description>&lt;p&gt;The reason why &lt;em&gt;e&lt;/em&gt; is natural is because the exponential function with base &lt;em&gt;e&lt;/em&gt; grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number &lt;em&gt;e&lt;/em&gt; just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how &lt;em&gt;π&lt;/em&gt; achieves the perfect radius-1 curvature.&lt;/p&gt;
 &lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.&lt;/p&gt;
@@ -107,7 +105,6 @@ Lydian:     2221221
         <title>Why care about people? Reason to socialize</title>
         <link>https://evthron.github.io/en/posts/reason-to-socialize/</link>
         <pubDate>Wed, 20 Nov 2024 04:18:13 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;I used to think that talking to people was a waste of time. I tried to ask about their lives out of curiosity, but their life snippets didn&amp;rsquo;t benefit me in any way. Sometimes, it did give have some benefits, like they could correct my homework or invite me to events, but that made me feel like the benefits are more important than the people.&lt;/p&gt;
 &lt;p&gt;I only changed my mind until I read the book &lt;em&gt;Getting Relationships Right&lt;/em&gt;. I realised that even though I&amp;rsquo;ve been pretending it&amp;rsquo;s not the case, I still crave connections. I usually assume that I have nothing interesting to share, but it is very gratifying if someone actually listens to what I say. On the other hand, I am usually afraid of hearing my friends&amp;rsquo; talk about their lives when they&amp;rsquo;re doing better than me, but sometimes I do get inspired by their experiences. I care about my friends because I want to build connections, not for any other concrete benefits.&lt;/p&gt;
@@ -118,7 +115,6 @@ Lydian:     2221221
         <title>Gamify my life</title>
         <link>https://evthron.github.io/en/posts/skill-gamification/</link>
         <pubDate>Tue, 27 Aug 2024 12:25:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/skill-gamification/</guid>
         <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
 &lt;p&gt;I have used Habitica for a few years and I really love this concept. However, the numbers become less and less meaningful as my level grows. My avatar is at level 88. I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
@@ -133,7 +129,6 @@ Lydian:     2221221
         <title>Cardinals and ordinals</title>
         <link>https://evthron.github.io/en/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/cardinal-ordinal/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post Cardinals and ordinals" /&gt;&lt;p&gt;How many hours have passed from one o&amp;rsquo;clock to three o&amp;rsquo;clock? If a baby was born in 2021, how old is he in 2023? These calculations may be trivial.However, the differences between clock hour and time, year and age, and the underlying concepts of cardinals and ordinals are not so trivial.&lt;/p&gt;
 &lt;p&gt;Cardinals are more useful than ordinals. Cardinals represents the amount of objects. We can apply mathematical operations to cardinals like we combine and separate real life objects. While ordinals are just labels to represent the order of objects and we can&amp;rsquo;t apply mathematical operations on them. We can see that 2 o&amp;rsquo;clock is after 1 o&amp;rsquo;clock and 3 o&amp;rsquo;clock is after 2 o&amp;rsquo;clock but we can&amp;rsquo;t add 1 o&amp;rsquo;clock and 2 o&amp;rsquo;clock up to get 3 o&amp;rsquo;clock. This is meaningless.&lt;/p&gt;
@@ -148,7 +143,6 @@ Lydian:     2221221
         <title>Limitations of Instant Messaging</title>
         <link>https://evthron.github.io/en/posts/instant-messaging/</link>
         <pubDate>Mon, 01 Jan 2024 18:23:45 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/instant-messaging/</guid>
         <description>&lt;p&gt;It seems obvious that the Internet &lt;em&gt;is&lt;/em&gt; communication. We can contact anyone in the world including old friends, relatives or even strangers we&amp;rsquo;ve just met five minutes ago, by pressing a &amp;lsquo;send&amp;rsquo; button. Communication is easy. However, that doesn&amp;rsquo;t encourage us to communicate.&lt;/p&gt;
 &lt;p&gt;Although instant messaging applies cutting-edge communication technologies, its design is fundamentally the same as post, which was invented one hundred and eighty&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; years ago. It involves three steps: write and send the letter, wait for reply, and read the reply. Since the system is so obsolete, there&amp;rsquo;s no surprise that we feel uncomfortable using it.&lt;/p&gt;
@@ -188,7 +182,6 @@ Lydian:     2221221
         <title>Writing Diary</title>
         <link>https://evthron.github.io/en/posts/diary/</link>
         <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/posts/diary/</guid>
         <description>&lt;p&gt;When I was in the literature club of my Secondary School, the teacher has give us a diary as a present. I had been writing diray for three years since then.&lt;/p&gt;
 &lt;p&gt;That is a diary with special format design. It packs 3 years&amp;rsquo; date onto 366 pages. The writer would need to loop through the book 3 times, he put the 1st year on the first row, 2nd year on the second row and the 3rd year on the third row,&lt;/p&gt;

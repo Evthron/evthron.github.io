@@ -10,7 +10,6 @@
         <title>filetags 文件管理法</title>
         <link>https://evthron.github.io/zh/profile/toolbox/filetags/</link>
         <pubDate>Sat, 18 Jan 2025 02:14:37 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/toolbox/filetags/</guid>
         <description>&lt;p&gt;電腦上有大量的文件，為了快速找到自己需要的文件，我們會分類，把文件放到不同的文件夾裏面。分類越細，搜尋效率越高，但分類錯誤的代價也就越大：如果把文件放在了錯誤的文件夾，就可能會丟失文件；如果要修改分類結構，就需要花費大量精力重新整理文件。filetags 這套系統可以避免這個問題。&lt;/p&gt;
 &lt;p&gt;在現實中，一份文件只能放在一個文件夾裏，所以要考慮分類的先後順序問題：要先按年份分類，再按作者分類，還是先按作者分類，再按年份分類？在電腦上，我們沒要必要照搬這種思路，只要能為文件同時打上作者和年份的標籤，然後按標籤搜尋就可以了。&lt;/p&gt;
@@ -27,7 +26,6 @@
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/profile/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 06:01:25 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
 &lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -74,7 +72,7 @@
     &gt;joppy (github)&lt;/a&gt; 把 Joplin 的 API 用 Python 包裝了一遍，這樣我就能用 python 存取 Joplin 的筆記了。&lt;/p&gt;
 &lt;p&gt;除了要上傳的文章以外，我的 Joplin 裏面還放了幾百篇不相關的筆記，如果要逐篇筆記檢查它屬於哪本筆記本的話會很耗時間。我只想檢查需要的筆記本，但是這個 API ，或者説 Joplin 存放文件的結構，有個麻煩的地方。所有的筆記本雖然表面上有層級關係，實際上是平級的。我不能像一般的樹狀結構一樣從最頂層往下搜尋筆記本，而是只能從底層，也就是所有筆記本開始往上篩選，才能知道這個筆記本的上一級到底是哪一個筆記本。舉個例子，我要查看 cardinal-ordinal 筆記本才能知道它的上一級是 posts 筆記本，而不能直接查看 posts 筆記本裏面有什麼筆記本。這種結構好像是叫作 Parent list，每個端點會指向它的 Parent。&lt;/p&gt;
 &lt;p&gt;這樣就知道怎樣篩選筆記本了，剩下的就只是麻煩的搬運工作，代碼如下：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 調用 joppy 的 API&lt;/span&gt;
@@ -225,14 +223,13 @@
         <title>定製 Taskwarrior</title>
         <link>https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/</link>
         <pubDate>Mon, 25 Nov 2024 01:51:20 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/toolbox/taskwarrior-hooks/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://taskwarrior.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Taskwarrior&lt;/a&gt; 是一個簡單不花俏，功能豐富的待辦清單軟件。我自己改裝了一下。&lt;/p&gt;
 &lt;p&gt;第一是實現了性價比排序功能。這是模仿 Supermemo 裏的 &lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Tasklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;tasklist&lt;/a&gt; 功能，可以每個任務估算時間和價值，然後按照價值除以時間，也就是性價比排序。&lt;/p&gt;
 &lt;p&gt;首先在 taskrc 裏設定 UDA (User Defined Attributes，用户定義的屬性）分別是 Time， Value，和 Worth（= Value / Time）。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 不知道為什麼，要是把 Time 和 Value 和定義為 numeric type 的話，顯示就會延伸到小數後很多位。&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.time.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Time
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.value.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;string
@@ -240,11 +237,11 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;numeric
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;uda.worth.label&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Worth
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然後修改 report.list 的欄位，加入 Time, Value，和 Worth&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;default.command&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;list &lt;span style=&#34;color:#75715e&#34;&gt;# 輸入 task 的時候自動執行 task list，而不是 task next&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.columns&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,time,value,worth
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.labels&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Time,Value,Worth
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最後是根據 worth，也就是性價比排序&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;report.list.sort&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;worth-,start-,due+,project+
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;例子：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; task add 買牛奶 time:60 value:30
 # 買牛奶要花 60 分鐘
@@ -254,11 +251,11 @@
 ID | Active | Age | Description | Time | Value | Worth  |
 19 |        | 1s  | 買牛奶      |  60  |  30   | 0.500  |
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;要讓 taskwarrior 自動計算性價比，就需要用到 hooks，也就是自動和 taskwarrior 一起運行的程序。寫兩個 Shell Script，分別是 on-add.01.prioirty 和 on-modify.01.priority，一個在增加任務的時候執行，另一個在修改任務的時候執行。兩個 Shell Script 的內容是一樣的。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TASK&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;&amp;lt;/dev/stdin&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$TASK&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; | python &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.config/task/hooks/priority.py&amp;#34;&lt;/span&gt; $@ 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每次增加或者修改任務，任務就會以 JSON 的形式交給 priority.py 處理，計算任務的性價比。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; sys
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; json
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt;:
@@ -280,7 +277,6 @@ ID | Active | Age | Description | Time | Value | Worth  |
         <title>如何告別互聯網</title>
         <link>https://evthron.github.io/zh/profile/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Mon, 29 Jan 2024 04:13:29 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;p&gt;以前，互聯網對我來説，是個充滿知識、幻想和樂趣的遊樂場。但現在，我卻在想盡辦法把互聯網從我的生活裏趕出去。原因很簡單，不就是因為互聯網是個充滿無用的知識、虛妄的幻想和過剩的樂趣的遊樂場嗎？在網上得到的樂趣，讓自己放棄了多少次反抗外界壓力的機會？又讓自己擱置了多少個改變生活的願望？&lt;/p&gt;
 &lt;p&gt;不過，如果你和我一樣，真的有放棄互聯網的決心，一定會一次又一次地失敗。原因無非有兩個。&lt;/p&gt;
@@ -316,7 +312,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;h2 id=&#34;阻擋blocktube&#34;&gt;阻擋：BlockTube&lt;/h2&gt;
 &lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
 還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 只留下時長在5到50分鐘之間的影片
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
@@ -363,7 +359,7 @@ address=/example1.com/
 &lt;p&gt;而 delayed-admin 這個程序會新增一個 delayed-admin 羣組，這個羣組沒有常規的 root 權限，羣組裏的用户只能用 delayed 指令執行需要 root 權限的操作，等待一段時間後才會執行。做法是在 sudoers 文件裏加上一行：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;%delayed-admin ALL = /usr/local/bin/delayed
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這個 delayed 程序也很簡單，主體邏輯只有三行。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CMD&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;@&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CMD&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;@&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sleep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$delay&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$CMD
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;雖然很簡單，不過這就是我一直想要的工具。&lt;/p&gt;
@@ -388,7 +384,7 @@ super-user-command=sudo
     &gt;Bypass KDEsu Authentication Dialog (archlinux bbs)&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://forums.gentoo.org/viewtopic-p-8236824.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;How do I &amp;ldquo;graphical-sudo&amp;rdquo; under KDE (not &amp;ldquo;su&amp;rdquo;)? (gentoo forum)&lt;/a&gt; 改的。&lt;/p&gt;
 &lt;p&gt;在 /etc/polkit-1/rules.d/10-admin.rules 裏：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;polkit&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addAdminRule&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;action&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;subject&lt;/span&gt;) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;unix-group:wheel&amp;#34;&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
@@ -405,7 +401,6 @@ super-user-command=sudo
         <title>重設鍵盤佈局</title>
         <link>https://evthron.github.io/zh/profile/toolbox/remap-keyboard/</link>
         <pubDate>Thu, 21 Dec 2023 22:44:00 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/profile/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;現在的鍵盤佈局完全沒有考慮過人體工學：&lt;/p&gt;
 &lt;ul&gt;

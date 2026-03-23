@@ -415,7 +415,7 @@
 </code></pre>
 <h2 id="launcheffect-not-executed">LaunchEffect not executed</h2>
 <p>In MainScreen.kt:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#75715e">// Collect conversation data
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#75715e">// Collect conversation data
 </span></span></span><span style="display:flex;"><span>    LaunchedEffect(viewMode, selectedTag) {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Log</span>.d(<span style="color:#e6db74">&#34;MainScreen&#34;</span>, <span style="color:#e6db74">&#34;Collecting conversations: &#34;</span> +
 </span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;viewMode=</span><span style="color:#e6db74">$viewMode</span><span style="color:#e6db74">, &#34;</span> +
@@ -450,7 +450,7 @@
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>When any one of the <code>collectLatest</code> is triggered, the code after that will not run. Possibly because it triggered the LaunchedEffect function once again interrupted the flow, but I can&rsquo;t find the exact cause.</p>
 <p>reworked the code using combine</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#75715e">// Collect conversation data
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#75715e">// Collect conversation data
 </span></span></span><span style="display:flex;"><span>    LaunchedEffect(viewMode, selectedTag) {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Log</span>.d(<span style="color:#e6db74">&#34;MainScreen&#34;</span>, <span style="color:#e6db74">&#34;Collecting conversations: &#34;</span> +
 </span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;viewMode=</span><span style="color:#e6db74">$viewMode</span><span style="color:#e6db74">, &#34;</span> +

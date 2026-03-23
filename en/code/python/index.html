@@ -381,20 +381,20 @@ Conda conda create --name myenv python=3.X conda activate myenv conda env list z
         <h2 id="enumerateitems-start1">enumerate(items, start=1)</h2>
 <p>Use the <code>start</code> argument to control the start index of the enumeration
 change from 0 index to 1 index</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>items <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;a&#39;</span>, <span style="color:#e6db74">&#39;b&#39;</span>, <span style="color:#e6db74">&#39;c&#39;</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>items <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;a&#39;</span>, <span style="color:#e6db74">&#39;b&#39;</span>, <span style="color:#e6db74">&#39;c&#39;</span>]
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> index, item <span style="color:#f92672">in</span> enumerate(items, <span style="color:#ae81ff">1</span>):
 </span></span><span style="display:flex;"><span>    print(index, item)
 </span></span></code></pre></div><pre tabindex="0"><code>1 a
 2 b
 3 c
 </code></pre><p>error: externally-managed-environment</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python -m venv myenv
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python -m venv myenv
 </span></span><span style="display:flex;"><span>source myenv/bin/activate
 </span></span></code></pre></div><p>note:</p>
 <p>use myenv/bin/{executable} (e.g. myenv/bin/pip)</p>
 <p>don&rsquo;t change the folder path after creating the virtual env</p>
 <h2 id="conda">Conda</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda create --name myenv python<span style="color:#f92672">=</span>3.X
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda create --name myenv python<span style="color:#f92672">=</span>3.X
 </span></span><span style="display:flex;"><span>conda activate myenv
 </span></span><span style="display:flex;"><span>conda env list
 </span></span></code></pre></div><h2 id="zip">zip(*[&hellip;])</h2>

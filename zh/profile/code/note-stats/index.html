@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -72,7 +72,7 @@ exclude words that contains numbers &ndash; flashcards" />
   <script
     defer
     src="https://evthron.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
+    onload="hljs.initHighlightingOnLoad()"
   ></script><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
@@ -116,7 +116,7 @@ exclude words that contains numbers &ndash; flashcards" />
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.154.5">
+  <meta name="generator" content="Hugo 0.157.0">
   <meta itemprop="name" content="文本分析">
   <meta itemprop="description" content="def analyze_text(text: str): tokens = word_tokenize(text) # tokens are all the words # reset tokens using list generator tokens = [ # normalize to lower case word.lower() for word in tokens # exculde punctuation if word not in (&#34;...&#34;, &#34;&#39;&#39;&#34;, &#34;``&#34;, &#34;--&#34;, &#34;&#43;&#43;&#34;) and word not in string.punctuation and # exclude single character words len(word) &gt; 1 and # exclude words containing less than one digit not any(character.isdigit() for character in word) # generator is allowed to be used in any() ] # show how many words are there print(&#34;Words:&#34;, len(tokens)) # filter most common words tokens = [ word for word in tokens if word not in set(stopwords.words(&#34;english&#34;) &#43; stopwords.words(&#34;german&#34;)) ] # generate frequecy dictionary using FreqDist fdist = FreqDist(tokens) # fdist.plot(50) print(&#34;Most common words:&#34;) for word, count in fdist.most_common(10): print(f&#34;- {word}: {count}&#34;) exclude words that contains numbers – flashcards">
   <meta itemprop="datePublished" content="2024-09-09T13:02:35+08:00">
@@ -253,9 +253,10 @@ exclude words that contains numbers &ndash; flashcards" />
     >
       <article>
         <header class="mb-14">
-          <h1 class="my-0! pb-2.5">文本分析</h1><div class="text-xs antialiased opacity-60"><time>2024年9月9日</time></div></header>
+          <h1 class="my-0! pb-2.5">文本分析</h1><div class="text-xs antialiased opacity-60"><time>2024年9月9日</time>
+          </div></header>
 
-        <section><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">analyze_text</span>(text: str):
+        <section><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">analyze_text</span>(text: str):
 </span></span><span style="display:flex;"><span>    tokens <span style="color:#f92672">=</span> word_tokenize(text)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e"># tokens are all the words</span>
@@ -325,7 +326,7 @@ exclude words that contains numbers &ndash; flashcards" />
 </ul>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>tokens <span style="color:#f92672">=</span> word_tokenize(text)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>tokens <span style="color:#f92672">=</span> word_tokenize(text)
 </span></span><span style="display:flex;"><span>    tokens <span style="color:#f92672">=</span> [
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># normalize to lower case</span>
 </span></span><span style="display:flex;"><span>        word<span style="color:#f92672">.</span>lower()
@@ -341,7 +342,7 @@ exclude words that contains numbers &ndash; flashcards" />
 </span></span><span style="display:flex;"><span>    ]
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Words:&#34;</span>, len(tokens))
 </span></span></code></pre></div><p>def analyze_text(text: str):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>tokens <span style="color:#f92672">=</span> word_tokenize(text)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>tokens <span style="color:#f92672">=</span> word_tokenize(text)
 </span></span><span style="display:flex;"><span>    tokens <span style="color:#f92672">=</span> [
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># normalize to lower case</span>
 </span></span><span style="display:flex;"><span>        word<span style="color:#f92672">.</span>lower()

@@ -10,7 +10,6 @@
         <title>Upload workflow</title>
         <link>https://evthron.github.io/en/profile/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
 &lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -58,7 +57,7 @@
 &lt;p&gt;Due to its database nature, the way how Joplin stores folders is not intuitive. The &amp;rsquo;nested&amp;rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&amp;rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;Now I know how to filter the notebooks, all that&amp;rsquo;s left is the hassle of generating the actual markdown files. Let&amp;rsquo;s take a look at the final code:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Use Joppy API&lt;/span&gt;
@@ -212,7 +211,6 @@
         <title>Upload workflow</title>
         <link>https://evthron.github.io/en/toolbox/upload-workflow/</link>
         <pubDate>Fri, 27 Dec 2024 07:38:36 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/toolbox/upload-workflow/</guid>
         <description>&lt;p&gt;My workflow for uploading posts is a bit complicatated, let me explain that here.&lt;/p&gt;
 &lt;p&gt;I use &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -260,7 +258,7 @@
 &lt;p&gt;Due to its database nature, the way how Joplin stores folders is not intuitive. The &amp;rsquo;nested&amp;rsquo; notebooks in Joplin are not actually nested. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;It would be very time consuming if I have to check through my few hundreds unrelated notes in Joplin. I only want to check the notebooks that represent my blog sections. However, due to Joplin&amp;rsquo;s database nature, the way how Joplin stores folders is not intuitive. Unlike the common tree-like file structure, in Joplin, only the chlid notebooks store who their parent is, while the parent notebook has no access to its child. For instance, if I want to know which notebooks are the child of &amp;lsquo;posts&amp;rsquo;, I have to search through all the notebooks to check whether its parent is &amp;lsquo;post&amp;rsquo;. It seems that this is the &amp;lsquo;parent list&amp;rsquo; data structure, where each child is pointing to its parent.&lt;/p&gt;
 &lt;p&gt;Now I know how to filter the notebooks, all that&amp;rsquo;s left is the hassle of generating the actual markdown files. Let&amp;rsquo;s take a look at the final code:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; joppy.client_api &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; ClientApi &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; Api
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Use Joppy API&lt;/span&gt;
@@ -414,7 +412,6 @@
         <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/profile/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
@@ -441,7 +438,7 @@
 &lt;h2 id=&#34;youtube-blocking&#34;&gt;Youtube: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
 &lt;p&gt;Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos shorter than 5 minutes and longer than 50 minutes.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
@@ -484,7 +481,6 @@
         <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
         <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</guid>
         <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
@@ -511,7 +507,7 @@
 &lt;h2 id=&#34;youtube-blocking&#34;&gt;Youtube: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;blocktube&#34;&gt;BlockTube&lt;/h3&gt;
 &lt;p&gt;Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// block videos shorter than 5 minutes and longer than 50 minutes.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vidLength&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;) {
@@ -554,7 +550,6 @@
         <title>Remap keyboard</title>
         <link>https://evthron.github.io/en/profile/toolbox/remap-keyboard/</link>
         <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/profile/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;Ergonomics has never been a concern for past keyboard designers:&lt;/p&gt;
 &lt;ul&gt;
@@ -599,7 +594,6 @@
         <title>Remap keyboard</title>
         <link>https://evthron.github.io/en/toolbox/remap-keyboard/</link>
         <pubDate>Fri, 22 Dec 2023 03:46:57 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/toolbox/remap-keyboard/</guid>
         <description>&lt;p&gt;Ergonomics has never been a concern for past keyboard designers:&lt;/p&gt;
 &lt;ul&gt;

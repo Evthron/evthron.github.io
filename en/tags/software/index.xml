@@ -10,7 +10,6 @@
         <title>Speech Note</title>
         <link>https://evthron.github.io/en/tweet/voice-input/</link>
         <pubDate>Sun, 04 May 2025 03:48:54 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/voice-input/</guid>
         <description>&lt;p&gt;I used to think voice typing was a poor technology invented for people who couldn&amp;rsquo;t type correctly. It&amp;rsquo;s full of errors after all, especially in Chinese, where many words share the same sound and differ only in tones.&lt;/p&gt;
 &lt;p&gt;I changed my view after I tried &lt;a class=&#34;link&#34; href=&#34;https://flathub.org/apps/net.mkiol.SpeechNote&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -23,7 +22,6 @@
         <title>Relationship management software</title>
         <link>https://evthron.github.io/en/tweet/personal-relationship-management/</link>
         <pubDate>Fri, 14 Feb 2025 13:53:18 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/personal-relationship-management/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/right-sider/#keith-ferrazzi-tahl-raz---never-eat-alone--and-other-secrets-to-success-one-relationship-at-a-time&#34; &gt;Never Eat Alone&lt;/a&gt; suggests making a list to group people according to contact frequencies. Although the book recommends to stick to simple technology like pencil and paper, I still want a specialised software and I found monica.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.monicahq.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -60,7 +58,6 @@
         <title>Update breakage</title>
         <link>https://evthron.github.io/en/tweet/update-breakage/</link>
         <pubDate>Wed, 02 Oct 2024 14:30:46 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/update-breakage/</guid>
         <description>&lt;p&gt;I shouldn&amp;rsquo;t update the system when I am doing work&amp;hellip; what a classic mistake. The bookmark bar of Firefox became blank and the button layout is stirred up. I spent the whole night trying to open new profiles and imported all the setting twice but somehow it couldn&amp;rsquo;t fix the problem. I have no choice but to remove all the profiles and reinstall firefox.&lt;/p&gt;
 &lt;p&gt;Joppy updates and spilt its API into clientAPI and serverAPI. I have to change my import statement in my python script to make it work. I now understand why people fixate on old versions.&lt;/p&gt;
@@ -70,7 +67,6 @@
         <title>Migrating to Linux</title>
         <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
         <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
         <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
@@ -81,7 +77,6 @@
         <title>New to JavaScript</title>
         <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
         <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
@@ -91,7 +86,6 @@
         <title>Arch Linux Installation</title>
         <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
         <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
@@ -100,7 +94,6 @@
         <title>Improved publishing workflow </title>
         <link>https://evthron.github.io/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/easier-publish/</guid>
         <description>&lt;p&gt;2024/03/30 21:19&lt;/p&gt;
 &lt;p&gt;Now I can generate blog post directly from joplin thanks to &lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -119,7 +112,6 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
         <title>Joplin Vim Mode</title>
         <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
 </description>
@@ -128,7 +120,6 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        
         <guid>https://evthron.github.io/en/tweet/productivity-tools/</guid>
         <description>&lt;p&gt;Tweaking new productivity tools may not really pay off. Still, I tried Super Productivity and ActivityWatch and they both seem promising. How will the data be useful if I&amp;rsquo;m trying to gamify my life? I shouldn&amp;rsquo;t worry too much as long as it is automatic.&lt;/p&gt;
 </description>

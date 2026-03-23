@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -44,7 +44,7 @@ It&rsquo;s not just an ad blocker, but a wide-spectrum content blocker, which me
   <script
     defer
     src="https://evthron.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
+    onload="hljs.initHighlightingOnLoad()"
   ></script><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
@@ -88,7 +88,7 @@ It&rsquo;s not just an ad blocker, but a wide-spectrum content blocker, which me
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.154.5">
+  <meta name="generator" content="Hugo 0.157.0">
   <meta itemprop="name" content="Say Goodbye to Internet">
   <meta itemprop="description" content="PC: blocking Leechblock NG A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It’s best to fully block the sites instead of setting timers.
 chrome firefox
@@ -210,7 +210,8 @@ PC: hiding uBlock Origin It’s not just an ad blocker, but a wide-spectrum cont
     >
       <article>
         <header class="mb-14">
-          <h1 class="my-0! pb-2.5">Say Goodbye to Internet</h1><div class="text-xs antialiased opacity-60"><time>Jan 29, 2024</time></div></header>
+          <h1 class="my-0! pb-2.5">Say Goodbye to Internet</h1><div class="text-xs antialiased opacity-60"><time>Jan 29, 2024</time>
+          </div></header>
 
         <section><h2 id="pc-blocking">PC: blocking</h2>
 <h3 id="leechblock-ng">Leechblock NG</h3>
@@ -237,7 +238,7 @@ PC: hiding uBlock Origin It’s not just an ad blocker, but a wide-spectrum cont
 <h2 id="youtube-blocking">Youtube: blocking</h2>
 <h3 id="blocktube">BlockTube</h3>
 <p>Youtube is a double-edged sword that can be both educational and time-consuming. Unfortunately, it never offers any kind of sorting system to separate them. Luckily, BlockTube can keep videos out of your sight based on keywords (e.g memes), channel names, and length. Yes, video length is the best way we have to separate useless and educational videos, useful videos have medium length at around 5 minutes to 1 hour. This requires some Javascript. Put the following code into the advanced setting.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>(<span style="color:#a6e22e">video</span>, <span style="color:#a6e22e">objectType</span>) =&gt; {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>(<span style="color:#a6e22e">video</span>, <span style="color:#a6e22e">objectType</span>) =&gt; {
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">// block videos shorter than 5 minutes and longer than 50 minutes.
 </span></span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">3000</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">300</span>) {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -50,7 +50,7 @@ const h = img.height;
   <script
     defer
     src="https://evthron.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
+    onload="hljs.initHighlightingOnLoad()"
   ></script><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
@@ -94,7 +94,7 @@ const h = img.height;
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.154.5">
+  <meta name="generator" content="Hugo 0.157.0">
   <meta itemprop="name" content="Open Library Api">
   <meta itemprop="description" content="https://openlibrary.org/dev/docs/api/covers
 async function fetchImage(url) { const img = new Image(); return new Promise((res, rej) =&gt; { img.onload = () =&gt; res(img); img.onerror = e =&gt; rej(e); img.src = url; }); } const img = await fetchImage(&#39;https://covers.openlibrary.org/b/id/12547191-L.jpg&#39;); const w = img.width; const h = img.height;">
@@ -234,11 +234,12 @@ async function fetchImage(url) { const img = new Image(); return new Promise((re
     >
       <article>
         <header class="mb-14">
-          <h1 class="my-0! pb-2.5">Open Library Api</h1><div class="text-xs antialiased opacity-60"><time>2025年1月18日</time></div></header>
+          <h1 class="my-0! pb-2.5">Open Library Api</h1><div class="text-xs antialiased opacity-60"><time>2025年1月18日</time>
+          </div></header>
 
         <section><p><a class="link" href="https://openlibrary.org/dev/docs/api/covers"  target="_blank" rel="noopener"
     >https://openlibrary.org/dev/docs/api/covers</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">fetchImage</span>(<span style="color:#a6e22e">url</span>) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">fetchImage</span>(<span style="color:#a6e22e">url</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">img</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Image</span>();
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Promise((<span style="color:#a6e22e">res</span>, <span style="color:#a6e22e">rej</span>) =&gt; {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">img</span>.<span style="color:#a6e22e">onload</span> <span style="color:#f92672">=</span> () =&gt; <span style="color:#a6e22e">res</span>(<span style="color:#a6e22e">img</span>);

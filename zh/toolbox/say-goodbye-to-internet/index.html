@@ -470,7 +470,7 @@ Universal Android Debloater (Android) 在 Android 上，Google Chrome，Youtube 
 <h2 id="阻擋blocktube">阻擋：BlockTube</h2>
 <p>把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
 還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>(<span style="color:#a6e22e">video</span>, <span style="color:#a6e22e">objectType</span>) =&gt; {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>(<span style="color:#a6e22e">video</span>, <span style="color:#a6e22e">objectType</span>) =&gt; {
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 只留下時長在5到50分鐘之間的影片
 </span></span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">3000</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">video</span>.<span style="color:#a6e22e">vidLength</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">300</span>) {
@@ -517,7 +517,7 @@ address=/example1.com/
 <p>而 delayed-admin 這個程序會新增一個 delayed-admin 羣組，這個羣組沒有常規的 root 權限，羣組裏的用户只能用 delayed 指令執行需要 root 權限的操作，等待一段時間後才會執行。做法是在 sudoers 文件裏加上一行：</p>
 <pre tabindex="0"><code>%delayed-admin ALL = /usr/local/bin/delayed
 </code></pre><p>這個 delayed 程序也很簡單，主體邏輯只有三行。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>CMD<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>@<span style="color:#e6db74">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>CMD<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>@<span style="color:#e6db74">}</span>
 </span></span><span style="display:flex;"><span>sleep <span style="color:#e6db74">&#34;</span>$delay<span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>$CMD
 </span></span></code></pre></div><p>雖然很簡單，不過這就是我一直想要的工具。</p>
@@ -544,7 +544,7 @@ super-user-command=sudo
     >Bypass KDEsu Authentication Dialog (archlinux bbs)</a> 和 <a class="link" href="https://forums.gentoo.org/viewtopic-p-8236824.html"  target="_blank" rel="noopener"
     >How do I &ldquo;graphical-sudo&rdquo; under KDE (not &ldquo;su&rdquo;)? (gentoo forum)</a> 改的。</p>
 <p>在 /etc/polkit-1/rules.d/10-admin.rules 裏：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// 讓 Wheel 羣組的用户輸入用户密碼，而不是 root 密碼。這部分和上面無關，只是不需要使用 root 密碼的話，就算換一個複雜一點的密碼，甚至直接消除密碼，無法登入 root 也沒問題。
 </span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">polkit</span>.<span style="color:#a6e22e">addAdminRule</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">action</span>, <span style="color:#a6e22e">subject</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [<span style="color:#e6db74">&#34;unix-group:wheel&#34;</span>];
 </span></span><span style="display:flex;"><span>});

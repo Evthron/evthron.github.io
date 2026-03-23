@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -76,7 +76,7 @@ DeepSeek:
   <script
     defer
     src="https://evthron.github.io/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
+    onload="hljs.initHighlightingOnLoad()"
   ></script><link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
@@ -120,7 +120,7 @@ DeepSeek:
     href="https://evthron.github.io/apple-touch-icon.png"
   />
 
-  <meta name="generator" content="Hugo 0.154.5">
+  <meta name="generator" content="Hugo 0.157.0">
   <meta itemprop="name" content="抗拒人工智能">
   <meta itemprop="description" content="不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。
 我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。
@@ -311,7 +311,8 @@ DeepSeek:
     >
       <article>
         <header class="mb-14">
-          <h1 class="my-0! pb-2.5">抗拒人工智能</h1><div class="text-xs antialiased opacity-60"><time>2025年2月16日</time></div></header>
+          <h1 class="my-0! pb-2.5">抗拒人工智能</h1><div class="text-xs antialiased opacity-60"><time>2025年2月16日</time>
+          </div></header>
 
         <section><p>不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。</p>
 <p>我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。</p>
@@ -394,7 +395,7 @@ DeepSeek:
 </ul>
 <hr>
 <p>寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> difflib
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> difflib
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> jieba
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">split_text_into_words</span>(text):

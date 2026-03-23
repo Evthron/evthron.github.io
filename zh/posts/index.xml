@@ -10,7 +10,6 @@
         <title>把 DeepSeek 當作知音</title>
         <link>https://evthron.github.io/zh/posts/chat-with-deepseek/</link>
         <pubDate>Sat, 01 Nov 2025 03:02:13 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/chat-with-deepseek/</guid>
         <description>&lt;p&gt;感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。&lt;/p&gt;
 &lt;p&gt;以前我會把這些想法寫下來整理，也會在論壇和博客尋找符合我內心看法的新穎觀點，直到這些想法能串聯起來，變成一套我滿意的理論為止。但是現在我再也不需要向其他地方尋求觀點了，只要把問題扔給 DeepSeek，先讓它從最普遍的方向説明，然後用一句話讓它倒戈為相反立場辯護，觀點犀利的文章就會源源不斷地生產出來。就算要挑刺說它的論證沒有實際證據支持，可我自己也只是在腦袋裡做思想實驗罷了，邏輯上成立就能讓我滿足了。&lt;/p&gt;
@@ -28,7 +27,6 @@
         <title>量子計算的原理</title>
         <link>https://evthron.github.io/zh/posts/quantum-computation/</link>
         <pubDate>Sun, 17 Aug 2025 18:22:11 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/quantum-computation/</guid>
         <description>&lt;p&gt;量子計算機已經成為現實了，但是距離實際應用還有很長很長的路要走。不過不用擔心，真正學過量子計算之後，你就不會對量子計算機的發展有什麼期待了。&lt;/p&gt;
 &lt;h2 id=&#34;疊加&#34;&gt;疊加&lt;/h2&gt;
@@ -66,7 +64,6 @@
         <title>什麼才算「會用 AI」？</title>
         <link>https://evthron.github.io/zh/posts/ai-is-just-a-tool/</link>
         <pubDate>Thu, 15 May 2025 07:50:42 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/ai-is-just-a-tool/</guid>
         <description>&lt;p&gt;「AI 不會取代人類，但會用AI的人會取代不用 AI 的人」。但什麼才算「會用 AI」？真的是精通 AI 工具的操作技巧嗎？或許目前 AI 的質量還不夠好，仍然需要找人修正，但本質上，這些工作是不是已經失去由人來做的價值了呢？&lt;/p&gt;
 &lt;p&gt;説來慚愧，兩年前，就在 ChatGPT 爆紅的時候，我也沉迷於 AI 圖像生成工具 Stable Diffusion。讓我樂在其中的，是生成動畫角色的圖片，簡單地説就是「捏人」。&lt;/p&gt;
@@ -146,7 +143,6 @@ sunny sky, clouds
         <title>淺談世界線理論</title>
         <link>https://evthron.github.io/zh/posts/world-line-theory/</link>
         <pubDate>Tue, 06 May 2025 10:03:30 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/world-line-theory/</guid>
         <description>&lt;p&gt;我很喜歡《命運石之門》這部作品，但最吸引我的不是劇情，而是它的時間旅行科幻設定，世界線理論。&lt;/p&gt;
 &lt;p&gt;說起來有點慚愧，原作的視覺小說我只讀過一次，動畫也只是粗略看了一遍。我的心血都用在研究世界線理論的運作原理上了。這套理論最適合在不破壞因果律的情況下，製造出許多有趣的劇情衝突，甚至可以説是最優秀的時間旅行設定。&lt;/p&gt;
@@ -167,7 +163,6 @@ sunny sky, clouds
         <title>真不想承認，認可才是我想要的動力</title>
         <link>https://evthron.github.io/zh/posts/validation-motivation/</link>
         <pubDate>Mon, 07 Apr 2025 19:36:57 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/validation-motivation/</guid>
         <description>&lt;p&gt;拖延的根源並不是互聯網和遊戲。刪光遊戲、斷開網絡之後，只是從沉迷娛樂變成什麼都不做而已。&lt;/p&gt;
 &lt;p&gt;我真正缺乏的是內在的動力。我想做的事情似乎都已經完成了，剩下的那些應該做的事，做不到似乎也無所謂。難道我對生活已經失去期望了嗎？&lt;/p&gt;
@@ -183,7 +178,6 @@ sunny sky, clouds
         <title>高階運算</title>
         <link>https://evthron.github.io/zh/posts/higher-order-operation/</link>
         <pubDate>Fri, 14 Mar 2025 10:42:27 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/higher-order-operation/</guid>
         <description>&lt;p&gt;$e$ 之所以「自然」，是因為以 $e^x$ 的增長率與函數的數值本身一致。其實所有指數函數的增長率都和自身成正比，只不過 $e^x$ 但比例係數剛好是1而已。$e$ 雖然特別，但也沒有什麼神秘之處。&lt;/p&gt;
 &lt;p&gt;增長率居然能會隨着數值連貫地上升，實在是很難想象。例如在 $x = 2.5$ 的時候，$e^x$ 的增長率就是 $e^{2.5}$。如果 2 次方是自乘兩次，3次方是自乘三次，那麼 2.5 次方就是自乘 2.5 次嗎？&lt;/p&gt;
@@ -206,7 +200,6 @@ sunny sky, clouds
         <title>抗拒人工智能</title>
         <link>https://evthron.github.io/zh/posts/refuse-ai/</link>
         <pubDate>Sun, 16 Feb 2025 15:43:55 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/refuse-ai/</guid>
         <description>&lt;p&gt;不懂得用人工智能就會被淘汰，我卻有點抗拒使用。學習電腦技術不正正是是我的專業領域嗎？這使我很不安。&lt;/p&gt;
 &lt;p&gt;我搞清楚了這種厭惡背後的原因：人工智能打破了人能以平庸的創作工作維生的幻想，還把我學習的樂趣徹底剝奪了。&lt;/p&gt;
@@ -289,7 +282,7 @@ sunny sky, clouds
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;寫一段能夠對比兩篇文章不同之處的 python 腳本。先把文章進行分詞，再以詞語為單位對比，把舊的詞組用 html style 畫上紅色刪除線，把新的詞組以綠色標記，輸出修改後的文章。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; difflib
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; jieba
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;split_text_into_words&lt;/span&gt;(text):
@@ -352,7 +345,6 @@ sunny sky, clouds
         <title>畫畫的理由</title>
         <link>https://evthron.github.io/zh/posts/reason-to-draw/</link>
         <pubDate>Sat, 18 Jan 2025 02:52:51 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/reason-to-draw/</guid>
         <description>&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
 &lt;ol&gt;
@@ -372,7 +364,6 @@ sunny sky, clouds
         <title>登山記</title>
         <link>https://evthron.github.io/zh/posts/mountain/</link>
         <pubDate>Sat, 18 Jan 2025 02:16:31 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/mountain/</guid>
         <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;糾結一個沒什麼潛力的故事讓我很不爽。寫了很久都寫不完，還是先把一部分放出來。
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;風衣一行人下了山，來到了一家披薩館。餐館外依然寒風凜冽。大家躲在餐館裏面，冰冷的身體慢慢暖起來了。&lt;/p&gt;
@@ -410,7 +401,6 @@ sunny sky, clouds
         <title>完美學習法</title>
         <link>https://evthron.github.io/zh/posts/ultimate-learning-method/</link>
         <pubDate>Sat, 18 Jan 2025 02:02:08 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/ultimate-learning-method/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://supermemo.guru/wiki/Incremental_reading&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;增量閲讀（supermemo.guru）&lt;/a&gt;能讓我用最好的效率學會一切事物。但是有了記下一切的能力之後，要花時間記什麼就成了問題。&lt;/p&gt;
@@ -427,7 +417,6 @@ sunny sky, clouds
         <title>演奏的樂趣</title>
         <link>https://evthron.github.io/zh/posts/joy-of-music/</link>
         <pubDate>Sat, 18 Jan 2025 01:59:10 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/joy-of-music/</guid>
         <description>&lt;p&gt;音樂只是由各種的音程組成的，和音的絕對音高無關。知道了這個之後，我就能記住各種音程的聲音，把自己熟悉的音樂在鋼琴上彈出來。無論聽起來多麼豐富的音樂，都是由千篇一律的音程組成的，但各種音高和節奏組合起來之後，卻完全不會讓人感到重複，真的很有趣。&lt;/p&gt;
 &lt;p&gt;我以前還試着練習記音高，鍛鍊絕對音感呢，這種概念真是誤導人。絕對音感大概只能幫樂器調音吧。&lt;/p&gt;
@@ -438,7 +427,6 @@ sunny sky, clouds
         <title>數學造輪子</title>
         <link>https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/</link>
         <pubDate>Sat, 18 Jan 2025 01:50:37 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/reinvent-the-wheel-in-maths/</guid>
         <description>&lt;p&gt;中學的時候，數學課教到因式分解，也就是把像 x^2 + 3x + 2 分解成 (x+1)(x+2) 的時候，我聽説過可以用計算器程式快速算出答案。那時候我剛學會一點計算器編程的方法，想着：去網上抄別人的寫好的程序沒有意思，我能不能自己解決這個問題呢？&lt;/p&gt;
 &lt;p&gt;我先數學角度開始着手，Ax^2 + Bx + C 到底是按照什麼算法變成 (Dx+E)(Fx+G) 的形式的呢？我用一些很基礎的運算把未知數搬來搬去。我當時沒學會配方法，無論怎麼做都只是徒勞無功。就算現在學會了，我也不知道要怎麼樣用配方法推導一元二次方程的公式。&lt;/p&gt;
@@ -450,7 +438,6 @@ sunny sky, clouds
         <title>和朋友保持聯絡</title>
         <link>https://evthron.github.io/zh/posts/contact-friends/</link>
         <pubDate>Wed, 25 Dec 2024 07:36:05 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/contact-friends/</guid>
         <description>&lt;p&gt;「保持聯絡」絕不是客套話，友誼是從見面的第一天起就開始玩的乒乓球，你來我往，不能停下來。但我空有這種觀念，還是當不成一個好朋友，因為只要離開了自己的視線，我就幾乎不會去關心別人過得怎麼樣。大部分人關心的事，我不是覺得害怕，就是覺得沒意義。&lt;/p&gt;
 &lt;h2 id=&#34;志同道合&#34;&gt;志同道合&lt;/h2&gt;
@@ -474,7 +461,6 @@ sunny sky, clouds
         <title>交朋友的理由</title>
         <link>https://evthron.github.io/zh/posts/reason-to-socialize/</link>
         <pubDate>Wed, 20 Nov 2024 04:18:31 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/reason-to-socialize/</guid>
         <description>&lt;p&gt;我以前不太關心朋友的生活。如果關心他們的生活對我沒有好處的話，我就會覺得沒有意義，但如果是為了得到好處才去關心的話，我又會覺得自己很不真誠。直到我讀了 Getting Relationships Right 這本書之後，才發現我其實也是很渴望能和別人建立連繫的。我雖然害怕別人對自己的事情不敢興趣，不過如果他們真的能聽進去，我就會很驚喜；我雖然害怕聽到別人的生活比自己充實，但有時候也能從中發現一些讓我覺得很新奇的事情。關心別人是為了滿足我內心的感覺，而不是為了外在的利益，這是我交際的動力。&lt;/p&gt;
 &lt;p&gt;我要陪朋友閒聊，發我不喜歡用的短信，參加我沒有興趣的聚會，和不認識的人搭話。不是為了&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/posts/knowledge-exchange/&#34; &gt;得到知識（交換知識的聊天挑戰 ）&lt;/a&gt;，也不是為了獲得幫助，而是為了互相了解大家的性格、興趣和目標。這是一件多麼冒險，多麼耗時，但又多麼好玩的事啊！&lt;/p&gt;
@@ -484,7 +470,6 @@ sunny sky, clouds
         <title>docker 連不上網的解決辦法和折騰的悲哀</title>
         <link>https://evthron.github.io/zh/posts/docker-panic/</link>
         <pubDate>Thu, 17 Oct 2024 19:37:47 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/docker-panic/</guid>
         <description>&lt;p&gt;電腦出了問題，我就會死纏爛打，絕不放棄，這種性格連我自己也感到很無奈。&lt;/p&gt;
 &lt;p&gt;學校的作業要用到 Docker 開發網頁，把 Docker 想象成一個工具箱就可以。我發現網頁在 Docker 裏面連不上網，功課做不成了。很不巧，我用的是 Arch Linux。一般人用的操作系統不是 Windows 就是 MacOS。但 Arch 是要自己逐步把一個個組件拼起來的操作系統。好處是無論系統出了什麼問題都可以自己修理，壞處是會遇到很多一般人根本不會遇到的問題，可以説是作繭自縛。&lt;/p&gt;
@@ -554,7 +539,6 @@ sudo reboot
         <title>地鐵畫畫</title>
         <link>https://evthron.github.io/zh/posts/drawing-on-train/</link>
         <pubDate>Sun, 13 Oct 2024 04:48:32 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/drawing-on-train/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/posts/drawing-on-train/drawing-on-train.jpg" alt="Featured image of post 地鐵畫畫" /&gt;&lt;p&gt;&lt;img src=&#34;https://evthron.github.io/zh/posts/drawing-on-train/viewpoint.jpg&#34;
 	width=&#34;1775&#34;
@@ -769,7 +753,6 @@ sudo reboot
         <title>井字棋入門</title>
         <link>https://evthron.github.io/zh/posts/tic-tac-toe/</link>
         <pubDate>Sun, 15 Sep 2024 23:39:01 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/tic-tac-toe/</guid>
         <description>&lt;h1 id=&#34;第一章-基礎知識&#34;&gt;第一章 基礎知識&lt;/h1&gt;
 &lt;p&gt;井字棋是一種風靡全世界的遊戲，又名「過三關」，「圈叉棋」。井字棋的規則連小孩子也能明白，卻有着十變百化的局面，使人樂此不疲。&lt;/p&gt;
@@ -834,7 +817,6 @@ _|_|_
         <title>中位數公式</title>
         <link>https://evthron.github.io/zh/posts/median/</link>
         <pubDate>Thu, 12 Sep 2024 03:35:28 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/median/</guid>
         <description>&lt;p&gt;我為什麼要莫名其妙地研究什麼「&lt;a class=&#34;link&#34; href=&#34;../cardinal-ordinal&#34; &gt;量數和序數&lt;/a&gt;」呢？這是因為我搞不懂中位數的公式。統計學課本上都寫着，是 (n+1)/2，n 是數字的總數。公式很簡單，但卻很難理解。為什麼要先加一再除以二？你可能會説，管它那麼多幹嘛，套公式就完了。但是，二分查找法&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;也要用到中位數，但公式變成了 (n - 1)/2，這似乎和編程語言從零開始編號的做法有關。兩者的差異使我如鯁在喉，這個問題又不需要特殊的數學知識，為了以後寫二分查找法的時候不會出錯，我接下了這個挑戰。&lt;/p&gt;
 &lt;p&gt;歸根究底是這個問題：為什麼五个蘋果平分是 2.5 個，但五根手指的中間是第三根呢？這就是量數和序數的不同。想象你在一排路燈旁邊散步。路燈從一到五編好了號。從一號路燈走到五號路燈需要四步，用數式表示是這樣的：&lt;/p&gt;
@@ -884,7 +866,6 @@ _|_|_
         <title>交換知識的聊天挑戰 </title>
         <link>https://evthron.github.io/zh/posts/knowledge-exchange/</link>
         <pubDate>Sat, 29 Jun 2024 21:43:57 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/knowledge-exchange/</guid>
         <description>&lt;p&gt;我不喜歡閒聊時大家常常會説的話題。聊天氣吃飯？沒有辦法瞭解對方。聊學習工作？簡直是嚴刑逼供。聊煩惱夢想？又害怕交淺言深。到底什麼話題才能讓閒聊有趣起來？&lt;/p&gt;
 &lt;p&gt;對話的基本目的，不就是知道自己不知道的事嗎？所以我想了一個能讓閒聊變得有收穫的挑戰：每次閒聊的時候，都要交換一件對方不知道的事。&lt;/p&gt;
@@ -896,7 +877,6 @@ _|_|_
         <title>寫作和繪畫 </title>
         <link>https://evthron.github.io/zh/posts/writing-and-drawing/</link>
         <pubDate>Fri, 21 Jun 2024 19:16:06 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/writing-and-drawing/</guid>
         <description>&lt;p&gt;寫作好像和繪畫不沾邊，但這兩項活動其實是十分相似的。我聽説過有些古代的文人既是文學家，也是畫家，兩項活動對他們來説是不分家的。我自己研究了一下之後，也明白了繪畫和寫作之間相似又相反的奇特關係。&lt;/p&gt;
 &lt;p&gt;從表面看，寫文章和畫畫似乎一點相似的地方都沒有：文章是逐字逐句去讀的，但畫是一眼就看得完的；任何人寫作，用的都是同一套漢字，但每個人畫畫，用的顏料都不一樣；好的文章是要複製一千份、一萬份，甚至要翻譯成其他語言，讓世界各地的人讀的，但好的畫作卻是獨一無二的，要是讓其他人重畫一次，就不再是原來的那一副畫了。&lt;/p&gt;
@@ -909,7 +889,6 @@ _|_|_
         <title>音階一共有多少種？</title>
         <link>https://evthron.github.io/zh/posts/scale/</link>
         <pubDate>Mon, 10 Jun 2024 12:52:49 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/scale/</guid>
         <description>&lt;p&gt;音樂的旋律到底有多少種？音符的序列有無窮無盡的可能，但是真正好聽的組合應該只有一小部分。&lt;/p&gt;
 &lt;p&gt;先從容易回答的問題開始：音樂裏面有幾個音？隨意選一個震動頻率，把這個頻率加倍，就是高八度的同一個音。古代人透過調整弦的長度，在這兩個頻率之間分割。分成五個音或是七個音。後來在分割成十二份，就是現在一個八度裏的十三個音。傳統上，考慮人對聲音的喜好，作曲家只會挑出當中一部分的音使用，這一部分的音就是音階。&lt;/p&gt;
@@ -989,7 +968,6 @@ Altered:    1212222
         <title>量數和序數</title>
         <link>https://evthron.github.io/zh/posts/cardinal-ordinal/</link>
         <pubDate>Sat, 20 Jan 2024 22:43:24 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/cardinal-ordinal/</guid>
         <description>&lt;img src="https://evthron.github.io/zh/posts/cardinal-ordinal/apple-clock.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;/p&gt;
 &lt;p&gt;量數遠比序數有用。量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如在時鐘上，兩點在一點的後面，三點在兩點的後面，但是不能把「一點」和「兩點」加起來得到「三點」，這是沒有意義的。&lt;/p&gt;
@@ -1012,7 +990,6 @@ Altered:    1212222
         <title>即時通訊的障礙</title>
         <link>https://evthron.github.io/zh/posts/instant-messaging/</link>
         <pubDate>Fri, 29 Dec 2023 16:36:02 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/instant-messaging/</guid>
         <description>&lt;p&gt;互聯網能促進交流，這似乎是理所當然的。感覺只要有一部手機，無論是身在國外的舊同學，家鄉的親人，還是只有一面之緣的人，發一個訊息就聯繫得上。但是為什麽我們還是覺得孤獨？就算手機裏有一百個聯絡人，關鍵時刻能聊上天的人還是一個都沒有。&lt;/p&gt;
 &lt;p&gt;其實即時通訊並不是現實聊天的補充，而是一種另類的信件交流。它的設計和一百八十年前 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 的郵遞送信一樣，仍然是由三個步驟組成：寫信寄出，等待回信，閱讀回信。因此，找不到適合的交流對象也不足為奇。&lt;/p&gt;
@@ -1052,7 +1029,6 @@ Altered:    1212222
         <title>時區</title>
         <link>https://evthron.github.io/zh/posts/timezone/</link>
         <pubDate>Sat, 02 Dec 2023 08:13:39 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/timezone/</guid>
         <description>&lt;p&gt;2022/12/29 09:36&lt;/p&gt;
 &lt;p&gt;要是按照時區算的話，現在我正準備橫渡太平洋。&lt;/p&gt;
@@ -1067,7 +1043,6 @@ Altered:    1212222
         <title>寫日記</title>
         <link>https://evthron.github.io/zh/posts/diary/</link>
         <pubDate>Sun, 26 Nov 2023 08:58:15 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/diary/</guid>
         <description>&lt;p&gt;中學的時候，文學社的老師給我們送了一本日記。&lt;/p&gt;
 &lt;p&gt;這本日記有366頁，代表一年的日期。每頁有三欄，所以可以寫三年。&lt;/p&gt;
@@ -1083,7 +1058,6 @@ Altered:    1212222
         <title>通宵</title>
         <link>https://evthron.github.io/zh/posts/overnight-revision/</link>
         <pubDate>Tue, 16 May 2023 20:41:00 +0800</pubDate>
-        
         <guid>https://evthron.github.io/zh/posts/overnight-revision/</guid>
         <description>&lt;p&gt;複習週一直被作業綁著，結果只剩下一天時間複習兩門課的考試，於是毅然決然在學校住了兩天。這與其說是不受常識束縛的超人之舉，不如說是被逼到走投無路的下下策。&lt;/p&gt;
 &lt;p&gt;這才發現，原來自己的時間這麼好用。從腦袋空空開始，慢慢從頭學開始學。以三十分鐘為單位，循環十二次，六小時後又六小時，簡直取之不盡。一直到學完後，還能因為考試時間沒到而不知所措。從來都沒有必要擔心時間不夠，寶貴的時間，往往是在在地鐵站到家之間、床到書桌之間、書桌到飯桌之間溜走的。把平常人的生活全部拋棄掉，就能突破極限——真的只能當作非常手段。&lt;/p&gt;
