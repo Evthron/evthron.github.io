@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 23 Mar 2026 11:13:52 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Mar 2026 22:43:57 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/coding/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>函數式編程的殘酷真相</title>
         <link>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</link>
-        <pubDate>Mon, 23 Mar 2026 11:13:52 +0800</pubDate>
+        <pubDate>Mon, 23 Mar 2026 22:43:57 +0800</pubDate>
         <guid>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</guid>
         <description>&lt;p&gt;Haskell 是函數式語言。看似鼓勵使用遞歸，實際卻沒有辦法優化遞歸，例如計算斐波那契數列：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
@@ -23,6 +23,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- https://wiki.haskell.org/The_Fibonacci_sequence&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。&lt;/p&gt;
 &lt;p&gt;能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;函數式編程是終極地實踐「過早優化是萬惡之源」。拒絕一切讓編程變得更脫離理論的優化。編譯器優化的上限就是程序的上限。&lt;/p&gt;
 </description>
         </item>
         <item>

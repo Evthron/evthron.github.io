@@ -6,13 +6,15 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 23 Mar 2026 12:04:17 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Mar 2026 22:48:33 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>博客的固有觀念</title>
         <link>https://evthron.github.io/zh/tweet/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BA%E6%9C%89%E8%A7%80%E5%BF%B5/</link>
-        <pubDate>Mon, 23 Mar 2026 12:04:17 +0800</pubDate>
+        <pubDate>Mon, 23 Mar 2026 22:48:33 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BA%E6%9C%89%E8%A7%80%E5%BF%B5/</guid>
         <description>&lt;p&gt;2026-03-23&lt;/p&gt;
-&lt;p&gt;根本沒有必要保存創建時間，歷史記錄難道比內容更重要嗎？覺得寫得不好就改掉，URL slug 也換掉，反正死鏈不是致命的問題。&lt;/p&gt;
+&lt;p&gt;根本沒有必要保存創建時間，歷史記錄難道比內容更重要嗎？覺得寫得不好就改掉，URL slug 也換掉，反正死鏈不是致命的問題，想看的人自然會找到的。&lt;/p&gt;
+&lt;p&gt;什麽國際化翻譯也是，就算想用多語言寫作，也不需要每個語言版本一一對應吧？只要分開就可以了。文件系統很難承載這種「多篇文章其實是同一個的不同版本」的結構，徒增多餘的複雜度。&lt;/p&gt;
+&lt;p&gt;說到底RSS的模型沒有版本更新的概念，本來就不適合讓我大刀闊斧地修改內容，只會束手束腳。&lt;/p&gt;
 </description>
         </item>
         <item>

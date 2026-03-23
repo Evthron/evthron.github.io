@@ -8,6 +8,7 @@ fibonacci :: Int -&gt; Int fibonacci 0 = 0 fibonacci 1 = 1 fibonacci x = fibonac
 是我太天真了，居然期望函數語言能自動優化算法。如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。
 fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_Fibonacci_sequence 這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。
 能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。
+函數式編程是終極地實踐「過早優化是萬惡之源」。拒絕一切讓編程變得更脫離理論的優化。編譯器優化的上限就是程序的上限。
 '>
         <title>函數式編程的殘酷真相 | Evthron&#39;s blog</title>
         
@@ -23,10 +24,11 @@ fibonacci :: Int -&gt; Int fibonacci 0 = 0 fibonacci 1 = 1 fibonacci x = fibonac
 是我太天真了，居然期望函數語言能自動優化算法。如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。
 fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_Fibonacci_sequence 這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。
 能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。
+函數式編程是終極地實踐「過早優化是萬惡之源」。拒絕一切讓編程變得更脫離理論的優化。編譯器優化的上限就是程序的上限。
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-03-23T11:13:52&#43;08:00'/><meta property='article:modified_time' content='2026-03-23T11:13:52&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-03-23T22:43:57&#43;08:00'/><meta property='article:modified_time' content='2026-03-23T22:43:49&#43;08:00'/>
 <meta name="twitter:title" content="函數式編程的殘酷真相">
 <meta name="twitter:description" content="Haskell 是函數式語言。看似鼓勵使用遞歸，實際卻沒有辦法優化遞歸，例如計算斐波那契數列：
 fibonacci :: Int -&gt; Int fibonacci 0 = 0 fibonacci 1 = 1 fibonacci x = fibonacci (x-1) &#43; fibonacci (x-2) 多麼數學，多麼優美！什麼？你説時間複雜度是 O(2^n) ？我當然知道了，但 Haskell 的編譯器總有辦法幫我搞定的吧？
@@ -34,6 +36,7 @@ fibonacci :: Int -&gt; Int fibonacci 0 = 0 fibonacci 1 = 1 fibonacci x = fibonac
 是我太天真了，居然期望函數語言能自動優化算法。如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。
 fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_Fibonacci_sequence 這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。
 能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。
+函數式編程是終極地實踐「過早優化是萬惡之源」。拒絕一切讓編程變得更脫離理論的優化。編譯器優化的上限就是程序的上限。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -369,6 +372,8 @@ fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_
 </span></span><span style="display:flex;"><span><span style="color:#75715e">-- https://wiki.haskell.org/The_Fibonacci_sequence</span>
 </span></span></code></pre></div><p>這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。</p>
 <p>能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。</p>
+<hr>
+<p>函數式編程是終極地實踐「過早優化是萬惡之源」。拒絕一切讓編程變得更脫離理論的優化。編譯器優化的上限就是程序的上限。</p>
 
     </section>
 
@@ -384,7 +389,19 @@ fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_
         </section>
          
 
-        </footer>
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <span>
+                最後更新 2026-03-23 22:43 &#43;08:00
+            </span>
+        </section></footer>
     
     
     <link 

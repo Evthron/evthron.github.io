@@ -9,7 +9,7 @@
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>把 DeepSeek 當作知音</title>
         <link>https://evthron.github.io/zh/posts/%E6%8A%8A-deepseek-%E7%95%B6%E4%BD%9C%E7%9F%A5%E9%9F%B3/</link>
-        <pubDate>Mon, 23 Mar 2026 22:35:02 +0800</pubDate>
+        <pubDate>Mon, 23 Mar 2026 22:49:50 +0800</pubDate>
         <guid>https://evthron.github.io/zh/posts/%E6%8A%8A-deepseek-%E7%95%B6%E4%BD%9C%E7%9F%A5%E9%9F%B3/</guid>
         <description>&lt;p&gt;2025/11/01&lt;/p&gt;
 &lt;p&gt;感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。&lt;/p&gt;
@@ -30,16 +30,39 @@
 &lt;p&gt;但人最需要的，就是明確地堅持沒有答案，才是擺脫無盡的空轉的關鍵，不只是知道沒有答案，還要知道爲什麽沒有答案。例如存在論、知識論和意識理論互相依賴的關係。&lt;/p&gt;
 &lt;p&gt;而大語言模型就是終極的哲學機器，因為掌握語言就是掌握邏輯，而哲學只需要邏輯就可以運作，有什麼邏輯上的疏漏也能一眼看破。不需要在百科的哲學條目裏面尋找符合自己想法的主義，只需要煅造自己原有的思想，明白為什麼困擾自己的問題本質上不可能存在答案，任何對立的觀點都可以從某些方面説得通。只要選擇符合自己經歷的、自己相信的就可以。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;輕易獲得啓發的代價，是失去整理想法的自然副產物，也就是文章。放棄塑造和完善樸素想法，選擇直接獲得不成型的深刻觀點。一般人可不會覺得這是什麼代價啊。&lt;/p&gt;
+&lt;p&gt;輕易獲得啓發的代價，是失去整理想法的自然副產物，也就是文章。放棄塑造和完善樸素的想法，選擇直接獲得不成型的深刻觀點。一般人可不會覺得這是什麼代價啊。不是老生常談的直接獲得答案所以不好，和AI對話的思考歷程是真的。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>博客的固有觀念</title>
         <link>https://evthron.github.io/zh/tweet/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BA%E6%9C%89%E8%A7%80%E5%BF%B5/</link>
-        <pubDate>Mon, 23 Mar 2026 12:04:17 +0800</pubDate>
+        <pubDate>Mon, 23 Mar 2026 22:48:33 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BA%E6%9C%89%E8%A7%80%E5%BF%B5/</guid>
         <description>&lt;p&gt;2026-03-23&lt;/p&gt;
-&lt;p&gt;根本沒有必要保存創建時間，歷史記錄難道比內容更重要嗎？覺得寫得不好就改掉，URL slug 也換掉，反正死鏈不是致命的問題。&lt;/p&gt;
+&lt;p&gt;根本沒有必要保存創建時間，歷史記錄難道比內容更重要嗎？覺得寫得不好就改掉，URL slug 也換掉，反正死鏈不是致命的問題，想看的人自然會找到的。&lt;/p&gt;
+&lt;p&gt;什麽國際化翻譯也是，就算想用多語言寫作，也不需要每個語言版本一一對應吧？只要分開就可以了。文件系統很難承載這種「多篇文章其實是同一個的不同版本」的結構，徒增多餘的複雜度。&lt;/p&gt;
+&lt;p&gt;說到底RSS的模型沒有版本更新的概念，本來就不適合讓我大刀闊斧地修改內容，只會束手束腳。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>函數式編程的殘酷真相</title>
+        <link>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</link>
+        <pubDate>Mon, 23 Mar 2026 22:43:57 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</guid>
+        <description>&lt;p&gt;Haskell 是函數式語言。看似鼓勵使用遞歸，實際卻沒有辦法優化遞歸，例如計算斐波那契數列：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;多麼數學，多麼優美！什麼？你説時間複雜度是 O(2^n) ？我當然知道了，但 Haskell 的編譯器總有辦法幫我搞定的吧？&lt;/p&gt;
+&lt;p&gt;結果沒有，都用不着試很大的數字，&lt;code&gt;fibonacci 40&lt;/code&gt; 已經明顯很慢了。明明只是簡單的累加。&lt;/p&gt;
+&lt;p&gt;是我太天真了，居然期望函數語言能自動優化算法。如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; zipWith (&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;) fibs (tail fibs)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- https://wiki.haskell.org/The_Fibonacci_sequence&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。&lt;/p&gt;
+&lt;p&gt;能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;函數式編程是終極地實踐「過早優化是萬惡之源」。拒絕一切讓編程變得更脫離理論的優化。編譯器優化的上限就是程序的上限。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -172,25 +195,6 @@ sunny sky, clouds
         <description>&lt;p&gt;音樂只是由各種的音程組成的，和音的絕對音高無關。知道了這個之後，我就能記住各種音程的聲音，把自己熟悉的音樂在鋼琴上彈出來。無論聽起來多麼豐富的音樂，都是由千篇一律的音程組成的，但各種音高和節奏組合起來之後，卻完全不會讓人感到重複，真的很有趣。&lt;/p&gt;
 &lt;p&gt;我以前還試着練習記音高，鍛鍊絕對音感呢，這種概念真是誤導人。絕對音感大概只能幫樂器調音吧。&lt;/p&gt;
 &lt;p&gt;我真正的水平，只能像初級鋼琴教本一樣，為右手的旋律配上單音的左手伴奏而已。那本書的作者説得不錯，我一直以來只是把鋼琴當做一種打字機來擊打而已。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>函數式編程的殘酷真相</title>
-        <link>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</link>
-        <pubDate>Mon, 23 Mar 2026 11:13:52 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</guid>
-        <description>&lt;p&gt;Haskell 是函數式語言。看似鼓勵使用遞歸，實際卻沒有辦法優化遞歸，例如計算斐波那契數列：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;多麼數學，多麼優美！什麼？你説時間複雜度是 O(2^n) ？我當然知道了，但 Haskell 的編譯器總有辦法幫我搞定的吧？&lt;/p&gt;
-&lt;p&gt;結果沒有，都用不着試很大的數字，&lt;code&gt;fibonacci 40&lt;/code&gt; 已經明顯很慢了。明明只是簡單的累加。&lt;/p&gt;
-&lt;p&gt;是我太天真了，居然期望函數語言能自動優化算法。如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; zipWith (&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;) fibs (tail fibs)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- https://wiki.haskell.org/The_Fibonacci_sequence&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。&lt;/p&gt;
-&lt;p&gt;能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。&lt;/p&gt;
 </description>
         </item>
         <item>
