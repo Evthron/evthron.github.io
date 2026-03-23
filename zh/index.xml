@@ -139,6 +139,25 @@ sunny sky, clouds
 </description>
         </item>
         <item>
+        <title>函數式編程的殘酷真相</title>
+        <link>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</link>
+        <pubDate>Mon, 23 Mar 2026 11:13:52 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B%E7%9A%84%E6%AE%98%E9%85%B7%E7%9C%9F%E7%9B%B8/</guid>
+        <description>&lt;p&gt;Haskell 是函數式語言。看似鼓勵使用遞歸，實際卻沒有辦法優化遞歸，例如計算斐波那契數列：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;多麼數學，多麼優美！什麼？你説時間複雜度是 O(2^n) ？我當然知道了，但 Haskell 的編譯器總有辦法幫我搞定的吧？&lt;/p&gt;
+&lt;p&gt;結果沒有，都用不着試很大的數字，&lt;code&gt;fibonacci 40&lt;/code&gt; 已經明顯很慢了。明明只是簡單的累加。&lt;/p&gt;
+&lt;p&gt;是我太天真了，居然期望函數語言能自動優化算法。如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; zipWith (&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;) fibs (tail fibs)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- https://wiki.haskell.org/The_Fibonacci_sequence&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這是好的解法，是把所有數字都記下來，但是這不就是動態規劃嗎？和函數式一點關係都沒有。&lt;/p&gt;
+&lt;p&gt;能不能優美地表達遞歸，和實際上能不能用遞歸，完全是兩回事。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>把 DeepSeek 當作知音</title>
         <link>https://evthron.github.io/zh/posts/%E6%8A%8A-deepseek-%E7%95%B6%E4%BD%9C%E7%9F%A5%E9%9F%B3/</link>
         <pubDate>Mon, 23 Mar 2026 11:12:57 +0800</pubDate>
