@@ -6,10 +6,10 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Tue, 24 Mar 2026 00:12:05 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 Mar 2026 13:10:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/toolbox/%E6%96%87%E7%AB%A0%E7%99%BC%E4%BD%88%E6%B5%81%E7%A8%8B/</link>
-        <pubDate>Tue, 24 Mar 2026 00:12:05 +0800</pubDate>
+        <pubDate>Tue, 24 Mar 2026 13:10:28 +0800</pubDate>
         <guid>https://evthron.github.io/zh/toolbox/%E6%96%87%E7%AB%A0%E7%99%BC%E4%BD%88%E6%B5%81%E7%A8%8B/</guid>
         <description>&lt;p&gt;我把文章發佈到網站的流程其實還挺複雜的，在這裏説明一下。&lt;/p&gt;
 &lt;p&gt;我用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -205,6 +205,7 @@
 &lt;p&gt;2026-03-23&lt;/p&gt;
 &lt;p&gt;寫作動機被 AI 大幅削弱了，就算只是多一道工序，我也已經發不出去了。寫作的位置必須直連發佈才可以。
 繞開 joplin，直接把檔案複製一份到 hugo 的 content 檔案，用 filetags 分類。&lt;/p&gt;
+&lt;p&gt;在手機上直接用 markor 寫，用 syncthing 同步。&lt;/p&gt;
 </description>
         </item>
         <item>
