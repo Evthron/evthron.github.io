@@ -125,7 +125,7 @@
         <item>
         <title>Hard to ask for help</title>
         <link>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</link>
-        <pubDate>Sun, 29 Dec 2024 00:14:03 +0800</pubDate>
+        <pubDate>Sat, 28 Dec 2024 05:02:20 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s hard to ask for help. If you procrastinating until the last hour and realise you can&amp;rsquo;t solve the problem on time, the shame you feel when typing the text message to ask someone for help will makes you throw the phone away and panic alone.&lt;/p&gt;
 &lt;p&gt;If we rely on the internet to answer every small question, we miss the chance to slowly build trust with others with these questions. It is very tempting to quickly obtain the knowledge without having to admit our ignorance. Is it really the cause? Only trust begets trust, but I don&amp;rsquo;t have to trust others when asking those easy questions, it doesn&amp;rsquo;t matter whether they could answer them.&lt;/p&gt;
@@ -144,12 +144,12 @@
 </description>
         </item>
         <item>
-        <title>update breakage</title>
+        <title>Update breakage</title>
         <link>https://evthron.github.io/en/tweet/update-breakage/</link>
-        <pubDate>Wed, 02 Oct 2024 14:31:04 +0800</pubDate>
+        <pubDate>Wed, 02 Oct 2024 14:30:46 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/update-breakage/</guid>
-        <description>&lt;p&gt;I shouldn&amp;rsquo;t update the system when I am doing work&amp;hellip; what a classic mistake. The bookmark bar of Firefox became blank and the button layout is stirred up. I tried to open new profiles and imported all the setting twice but somehow it couldn&amp;rsquo;t fix the problem. I have to remove all the profiles and reinstall firefox.&lt;/p&gt;
-&lt;p&gt;Joppy updates and spilt its Api into clientApi and serverApi. I have to change my import statement in my python script to make it work. I now understand why people fixate on old versions.&lt;/p&gt;
+        <description>&lt;p&gt;I shouldn&amp;rsquo;t update the system when I am doing work&amp;hellip; what a classic mistake. The bookmark bar of Firefox became blank and the button layout is stirred up. I spent the whole night trying to open new profiles and imported all the setting twice but somehow it couldn&amp;rsquo;t fix the problem. I have no choice but to remove all the profiles and reinstall firefox.&lt;/p&gt;
+&lt;p&gt;Joppy updates and spilt its API into clientAPI and serverAPI. I have to change my import statement in my python script to make it work. I now understand why people fixate on old versions.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -179,6 +179,15 @@
 </description>
         </item>
         <item>
+        <title>New to JavaScript</title>
+        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
+        <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sends and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
+&lt;p&gt;Since the web app is open-source, I may modify the code and host the game on my own website. However, the app could not run on my computer since it was written in an older version of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shortcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
@@ -187,14 +196,21 @@
 </description>
         </item>
         <item>
-        <title>Sticky menu</title>
-        <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
+        <title>Progress</title>
+        <link>https://evthron.github.io/en/tweet/progress/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
-        <description>&lt;p&gt;tags:#iw
-I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
-&lt;p&gt;2024/06/25 03:44
-Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.&lt;/p&gt;
+        <guid>https://evthron.github.io/en/tweet/progress/</guid>
+        <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search Count</title>
+        <link>https://evthron.github.io/en/tweet/search-count/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
+        <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
+&lt;p&gt;2024/04/07 03:37&lt;/p&gt;
+&lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -203,14 +219,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/website-redesign/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
-        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -232,12 +240,13 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
 </description>
         </item>
         <item>
-        <title>New to JavaScript</title>
-        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
-        <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
-        <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
-&lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
+        <title>Sticky menu</title>
+        <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
+        <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
+        <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
+&lt;p&gt;2024/06/25 03:44
+Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -292,21 +301,11 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
 </description>
         </item>
         <item>
-        <title>Search Count</title>
-        <link>https://evthron.github.io/en/tweet/search-count/</link>
-        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
-        <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
-&lt;p&gt;2024/04/07 03:37&lt;/p&gt;
-&lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Progress</title>
-        <link>https://evthron.github.io/en/tweet/progress/</link>
-        <pubDate>Mon, 26 Feb 2024 01:46:25 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/progress/</guid>
-        <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
+        <title>Winter</title>
+        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         
