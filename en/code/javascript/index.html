@@ -401,6 +401,9 @@ array.filter( (r) =&gt; r &gt; 3 )</p>
 <p>When returning an object, you need to add an extra pair of brackets</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>.<span style="color:#a6e22e">map</span>( (<span style="color:#a6e22e">f</span>) =&gt; ({}) )
 </span></span></code></pre></div><p>In curly braces, you must explicitly return something</p>
+<h1 id="query-selector">Query selector</h1>
+<p><code>getElementByClassName</code> returns a <code>HTMLElementCollection</code>.</p>
+<p>If you want to use array methods like <code>forEach</code> on a <code>HTMLElementCollection</code>, you have to convert it to array by <code>Array.from()</code></p>
 <h1 id="javascript-object">JavaScript object</h1>
 <h2 id="find-length">Find length</h2>
 <p>object.entries().length ?</p>
