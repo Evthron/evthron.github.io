@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://evthron.github.io/zh/code/vim/</loc>
+    <lastmod>2026-03-29T10:54:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/vim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/vim/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/code/</loc>
+    <lastmod>2026-03-29T10:54:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/tags/ai/</loc>
     <lastmod>2026-03-28T16:59:06+08:00</lastmod>
   </url><url>
@@ -96,32 +122,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/posts/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/code/vim/</loc>
-    <lastmod>2026-03-27T05:43:42+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/code/vim/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/code/vim/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/code/</loc>
-    <lastmod>2026-03-27T05:43:42+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/code/"
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/blog/</loc>
