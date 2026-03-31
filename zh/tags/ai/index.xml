@@ -6,19 +6,10 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Sun, 29 Mar 2026 14:11:14 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>AI 寫代碼的代價</title>
-        <link>https://evthron.github.io/zh/posts/ai-%E5%AF%AB%E4%BB%A3%E7%A2%BC%E7%9A%84%E4%BB%A3%E5%83%B9/</link>
-        <pubDate>Sun, 29 Mar 2026 14:11:14 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/ai-%E5%AF%AB%E4%BB%A3%E7%A2%BC%E7%9A%84%E4%BB%A3%E5%83%B9/</guid>
-        <description>&lt;p&gt;AI 寫代碼看似是無本生利，但確實是有代價的。本質是用學習動機和創作欲望作爲抵押，借來馬上得到的成果和能完成事物的信心，只是一般人不把這些當作是代價而已。你真的能利用這些預支的資產，繼續產生動機和知識嗎？&lt;/p&gt;
-&lt;p&gt;當你以為自己完成了 90% 的工作的時候，距離能正式交付其實還差 50%。這是讓自己滿意和讓別人滿意的差距。AI 拿走了前 90% 的成就感，還要接着完成剩下 50% 的工作。當然這剩下的工作也可以讓 AI 來做，但是因為自己對工作沒有投入任何感情，所以不會容忍任何不符合自己預期的地方。&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 31 Mar 2026 09:57:29 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>把 DeepSeek 當作知音</title>
         <link>https://evthron.github.io/zh/posts/%E6%8A%8A-deepseek-%E7%95%B6%E4%BD%9C%E7%9F%A5%E9%9F%B3/</link>
-        <pubDate>Mon, 23 Mar 2026 22:49:50 +0800</pubDate>
+        <pubDate>Tue, 31 Mar 2026 09:57:29 +0800</pubDate>
         <guid>https://evthron.github.io/zh/posts/%E6%8A%8A-deepseek-%E7%95%B6%E4%BD%9C%E7%9F%A5%E9%9F%B3/</guid>
         <description>&lt;p&gt;2025/11/01&lt;/p&gt;
 &lt;p&gt;感到痛苦的時候，我常常會一邊踱步，一邊試着想通一些抽象廣泛的問題。雖然這往往是在拖延，但我很珍惜在煩惱的時候生產出的想法，因為在輕鬆的時候就不會想這些問題了。&lt;/p&gt;
@@ -40,6 +31,17 @@
 &lt;p&gt;而大語言模型就是終極的哲學機器，因為掌握語言就是掌握邏輯，而哲學只需要邏輯就可以運作，有什麼邏輯上的疏漏也能一眼看破。不需要在百科的哲學條目裏面尋找符合自己想法的主義，只需要煅造自己原有的思想，明白為什麼困擾自己的問題本質上不可能存在答案，任何對立的觀點都可以從某些方面説得通。只要選擇符合自己經歷的、自己相信的就可以。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;輕易獲得啓發的代價，是失去整理想法的自然副產物，也就是文章。放棄塑造和完善樸素的想法，選擇直接獲得不成型的深刻觀點。一般人可不會覺得這是什麼代價啊。不是老生常談的直接獲得答案所以不好，和AI對話的思考歷程是真的。&lt;/p&gt;
+&lt;p&gt;明明是邏輯上絕對正確的論證，但因為沒有真正的人認可，就沒有大聲宣揚的自信。&lt;/p&gt;
+&lt;p&gt;本來如果沒有自信，就不太可能會把邏輯完善到無懈可擊的地步。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AI 寫代碼的代價</title>
+        <link>https://evthron.github.io/zh/posts/ai-%E5%AF%AB%E4%BB%A3%E7%A2%BC%E7%9A%84%E4%BB%A3%E5%83%B9/</link>
+        <pubDate>Sun, 29 Mar 2026 14:11:14 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/ai-%E5%AF%AB%E4%BB%A3%E7%A2%BC%E7%9A%84%E4%BB%A3%E5%83%B9/</guid>
+        <description>&lt;p&gt;AI 寫代碼看似是無本生利，但確實是有代價的。本質是用學習動機和創作欲望作爲抵押，借來馬上得到的成果和能完成事物的信心，只是一般人不把這些當作是代價而已。你真的能利用這些預支的資產，繼續產生動機和知識嗎？&lt;/p&gt;
+&lt;p&gt;當你以為自己完成了 90% 的工作的時候，距離能正式交付其實還差 50%。這是讓自己滿意和讓別人滿意的差距。AI 拿走了前 90% 的成就感，還要接着完成剩下 50% 的工作。當然這剩下的工作也可以讓 AI 來做，但是因為自己對工作沒有投入任何感情，所以不會容忍任何不符合自己預期的地方。&lt;/p&gt;
 </description>
         </item>
         <item>

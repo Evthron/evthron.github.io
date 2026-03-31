@@ -74,14 +74,6 @@
 </description>
         </item>
         <item>
-        <title>Joplin Vim Mode</title>
-        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
-        <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
@@ -122,6 +114,14 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to copy quick thoughts like tweet. Maybe I should improve this.&lt;/p&gt;
 &lt;p&gt;2025/03/24 22:41&lt;/p&gt;
 &lt;p&gt;Syncthing proved too sluggish for syncing my Joplin notes—Android&amp;rsquo;s transfer throttling turned every load into a test of patience. The solution? A self-hosted Joplin server via Docker. Now, I can seamlessly edit my blog posts straight from my phone, without the wait.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Joplin Vim Mode</title>
+        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
+        <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
 </description>
         </item>
         
