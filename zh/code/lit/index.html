@@ -2,30 +2,27 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。
-2024/04/07 03:36
-可惜我沒有貫徹這種規則的工具。本來是個好主意的。
-'>
-        <title>搜尋次數 | Evthron&#39;s blog</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='custom event 在 @ 後面可以加入自己定義的事件，在如果在組件裏面定義了 file-click 事件，就能在組件的 tag 用 @file-click 監聽事件
+event bubbling bug Lion Drawer 組件會監聽所有 transition 事件，而我的 hover 按鈕設置了 color transition 動畫，event propagate upwards，被 Lion Drawer 捕獲了，意外觸發狀態改變。
+_waitForTransition({ contentNode }) { return new Promise(resolve =&gt; { contentNode.addEventListener(EVENT.TRANSITION_START, transitionStarted); contentNode.addEventListener(EVENT.TRANSITION_END, transitionEnded); }); } '>
+        <title>lit | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/search-count/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/code/lit/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='搜尋次數'>
-<meta property='og:description' content='亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。
-2024/04/07 03:36
-可惜我沒有貫徹這種規則的工具。本來是個好主意的。
-'>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/search-count/'>
+        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='lit'>
+<meta property='og:description' content='custom event 在 @ 後面可以加入自己定義的事件，在如果在組件裏面定義了 file-click 事件，就能在組件的 tag 用 @file-click 監聽事件
+event bubbling bug Lion Drawer 組件會監聽所有 transition 事件，而我的 hover 按鈕設置了 color transition 動畫，event propagate upwards，被 Lion Drawer 捕獲了，意外觸發狀態改變。
+_waitForTransition({ contentNode }) { return new Promise(resolve =&gt; { contentNode.addEventListener(EVENT.TRANSITION_START, transitionStarted); contentNode.addEventListener(EVENT.TRANSITION_END, transitionEnded); }); } '>
+<meta property='og:url' content='https://evthron.github.io/zh/code/lit/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='software' /><meta property='article:published_time' content='2024-03-19T20:20:35&#43;08:00'/><meta property='article:modified_time' content='2024-06-26T02:39:50&#43;08:00'/>
-<meta name="twitter:title" content="搜尋次數">
-<meta name="twitter:description" content="亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。
-2024/04/07 03:36
-可惜我沒有貫徹這種規則的工具。本來是個好主意的。
-">
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-12-28T17:49:18&#43;08:00'/><meta property='article:modified_time' content='2025-12-28T17:49:18&#43;08:00'/>
+<meta name="twitter:title" content="lit">
+<meta name="twitter:description" content="custom event 在 @ 後面可以加入自己定義的事件，在如果在組件裏面定義了 file-click 事件，就能在組件的 tag 用 @file-click 監聽事件
+event bubbling bug Lion Drawer 組件會監聽所有 transition 事件，而我的 hover 按鈕設置了 color transition 動畫，event propagate upwards，被 Lion Drawer 捕獲了，意外觸發狀態改變。
+_waitForTransition({ contentNode }) { return new Promise(resolve =&gt; { contentNode.addEventListener(EVENT.TRANSITION_START, transitionStarted); contentNode.addEventListener(EVENT.TRANSITION_END, transitionEnded); }); } ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
     </head>
@@ -209,7 +206,7 @@
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/zh/tweet/' >
                 
                 
@@ -239,7 +236,7 @@
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/code/' >
                 
                 
@@ -274,11 +271,9 @@
 
                     <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
                     
-                            <option value="https://evthron.github.io/zh/tweet/search-count/" selected>中文</option>
+                            <option value="https://evthron.github.io/zh/code/lit/" selected>中文</option>
                     
-                            <option value="https://evthron.github.io/en/tweet/search-count/" >English</option>
-                    
-                            <option value="https://evthron.github.io/tok/tweet/search-count/" >toki pona</option>
+                            <option value="https://evthron.github.io/en/code/lit/" >English</option>
                     
 				    </select>
                 </li>
@@ -320,19 +315,10 @@
     <div class="article-details">
         
         
-        <header class="article-category">
-            
-                
-                <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                    tweet
-                </a>
-            
-        </header>
-        
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/search-count/">搜尋次數</a>
+                <a href="/zh/code/lit/">lit</a>
             </h2>
         
             
@@ -354,7 +340,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2024-03-19</time>
+                    <time class="article-time--published">2025-12-28</time>
                 </div>
             
     
@@ -377,9 +363,7 @@
 
                 <div>
                     
-                        <a href="https://evthron.github.io/en/tweet/search-count/" class="link">English</a>
-                    
-                        <a href="https://evthron.github.io/tok/tweet/search-count/" class="link">toki pona</a>
+                        <a href="https://evthron.github.io/en/code/lit/" class="link">English</a>
                     
                 </div>
             </footer>
@@ -392,37 +376,26 @@
     <section class="article-content">
         
         
-        <p>亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。</p>
-<p>2024/04/07 03:36</p>
-<p>可惜我沒有貫徹這種規則的工具。本來是個好主意的。</p>
-
+        <h1 id="custom-event">custom event</h1>
+<p>在 @ 後面可以加入自己定義的事件，在如果在組件裏面定義了 file-click 事件，就能在組件的 tag 用 @file-click 監聽事件</p>
+<h1 id="event-bubbling-bug">event bubbling bug</h1>
+<p>Lion Drawer 組件會監聽所有 transition 事件，而我的 hover 按鈕設置了 color transition 動畫，event propagate upwards，被 Lion Drawer 捕獲了，意外觸發狀態改變。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">_waitForTransition</span>({ <span style="color:#a6e22e">contentNode</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Promise(<span style="color:#a6e22e">resolve</span> =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">contentNode</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#a6e22e">EVENT</span>.<span style="color:#a6e22e">TRANSITION_START</span>, <span style="color:#a6e22e">transitionStarted</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">contentNode</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#a6e22e">EVENT</span>.<span style="color:#a6e22e">TRANSITION_END</span>, <span style="color:#a6e22e">transitionEnded</span>);
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
     </section>
 
     
     <footer class="article-footer">
 
         
-        
-        <section class="article-tags">
-            
-                <a href="/zh/tags/software/">Software</a>
-            
-        </section>
          
 
-        <section class="article-lastmod">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-            <span>
-                最後更新 2024-06-26 02:39 &#43;08:00
-            </span>
-        </section></footer>
+        </footer>
     
     
     <link 
@@ -456,80 +429,6 @@
 
     
     
-    
-    <aside class="related-content--wrapper">
-        <h2 class="section-title">相關文章</h2>
-        <div class="related-content">
-            <div class="flex article-list--tile">
-                
-                    
-<article class="">
-    <a href="/zh/tweet/joplin-vim-mode/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Joplin Vim Mode</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/toolbox/say-goodbye-to-internet/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">如何告別互聯網</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/profile/toolbox/say-goodbye-to-internet/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">如何告別互聯網</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/toolbox/remap-keyboard/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">重設鍵盤佈局</h2>
-        </div>
-    </a>
-</article>
-
-                
-                    
-<article class="">
-    <a href="/zh/profile/toolbox/remap-keyboard/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">重設鍵盤佈局</h2>
-        </div>
-    </a>
-</article>
-
-                
-            </div>
-        </div>
-    </aside>
      
 
     
