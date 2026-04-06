@@ -210,21 +210,9 @@
         <item>
         <title>Say Goodbye to Internet</title>
         <link>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</link>
-        <pubDate>Mon, 12 Aug 2024 03:41:28 +0800</pubDate>
+        <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
         <guid>https://evthron.github.io/en/toolbox/say-goodbye-to-internet/</guid>
-        <description>&lt;hr&gt;
-&lt;p&gt;title: Say Goodbye to Internet &amp;ndash; en
-updated: 2024-06-25 18:39:50Z
-created: 2024-01-28 20:13:00Z
-tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;en&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;tags:#iw
-I used to love surfing the net, this was how I spend holidays: watching videos, playing flash games, reading Wikis, readings Comics. I don&amp;rsquo;t have to eat, I just sit there and see the sun brightness changing from sunrise to sunset. I wake up early to browse, I stay up at night to browse. I never find anything wrong because I still have to spend most of the time at school and I could finish most of my work there.&lt;/p&gt;
-&lt;p&gt;But I always hate to procrastinate. I hate the feeling to avoid important task and spending time in a fictitious wonderland. Self-control doesn&amp;rsquo;t work. Stay at home for the whole day with my computer and restrain the urge to push the boot button? Doesn&amp;rsquo;t sound right. I need better tools.&lt;/p&gt;
-&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
+        <description>&lt;h2 id=&#34;pc-blocking&#34;&gt;PC: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;leechblock-ng&#34;&gt;Leechblock NG&lt;/h3&gt;
 &lt;p&gt;A must-have blocker. If you hesitate to block the whole website, study its URL carefully, you may just need a small part of the site. It’s best to fully block the sites instead of setting timers.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -275,7 +263,7 @@ I used to love surfing the net, this was how I spend holidays: watching videos, 
     &gt;firefox&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;youtube-building-new-habits&#34;&gt;Youtube: building new habits&lt;/h2&gt;
 &lt;h3 id=&#34;yt-dlp&#34;&gt;yt-dlp&lt;/h3&gt;
-&lt;p&gt;Try download the video before you watch. You will realise how many bandwidth you&amp;rsquo;ve waste by watching hours and hours of stream recordings.&lt;/p&gt;
+&lt;p&gt;Download the video before you watch. Don&amp;rsquo;t watch hours and hours of stream recordings.&lt;/p&gt;
 &lt;h2 id=&#34;android-blocking&#34;&gt;Android: Blocking&lt;/h2&gt;
 &lt;p&gt;There aren&amp;rsquo;t much we can do on phones because we cannot add extensions on mobile browsers. I&amp;rsquo;ve heard that firefox is adding this feature, still, there&amp;rsquo;s no guarantee that all the above extensions will work on Android.&lt;/p&gt;
 &lt;h3 id=&#34;helpmefocus&#34;&gt;HelpMeFocus&lt;/h3&gt;
@@ -286,9 +274,6 @@ I used to love surfing the net, this was how I spend holidays: watching videos, 
 &lt;h2 id=&#34;ios-blocking&#34;&gt;iOS: blocking&lt;/h2&gt;
 &lt;h3 id=&#34;screen-time&#34;&gt;Screen Time&lt;/h3&gt;
 &lt;p&gt;Native digital hygiene apps on android all acts like kind reminders, which makes them all jokes. iOS does a better job. As long as you let others keep the passcode for you, you can&amp;rsquo;t break the restrictions.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;linux-system-level-block&#34;&gt;Linux: system level block&lt;/h1&gt;
-&lt;h2 id=&#34;dnsmasq&#34;&gt;dnsmasq&lt;/h2&gt;
 </description>
         </item>
         <item>
