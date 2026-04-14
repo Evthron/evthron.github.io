@@ -7,6 +7,14 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>直播</title>
+        <link>https://evthron.github.io/zh/tweet/%E7%9B%B4%E6%92%AD/</link>
+        <pubDate>Wed, 15 Apr 2026 03:36:07 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/tweet/%E7%9B%B4%E6%92%AD/</guid>
+        <description>&lt;p&gt;對了，可以直播！和博客的異步邏輯是一樣的！只需要宣告存在，不知道有沒有人在看，不需要互動和評價的社交方式！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>把 DeepSeek 當作知音</title>
         <link>https://evthron.github.io/zh/posts/%E6%8A%8A-deepseek-%E7%95%B6%E4%BD%9C%E7%9F%A5%E9%9F%B3/</link>
         <pubDate>Mon, 06 Apr 2026 23:39:50 +0800</pubDate>
@@ -159,6 +167,15 @@
         <link>https://evthron.github.io/zh/posts/ai-%E5%AF%AB%E4%BB%A3%E7%A2%BC%E7%9A%84%E4%BB%A3%E5%83%B9/</link>
         <pubDate>Sun, 29 Mar 2026 14:11:14 +0800</pubDate>
         <guid>https://evthron.github.io/zh/posts/ai-%E5%AF%AB%E4%BB%A3%E7%A2%BC%E7%9A%84%E4%BB%A3%E5%83%B9/</guid>
+        <description>&lt;p&gt;AI 寫代碼看似是無本生利，但確實是有代價的。本質是用學習動機和創作欲望作爲抵押，借來馬上得到的成果和能完成事物的信心，只是一般人不把這些當作是代價而已。你真的能利用這些預支的資產，繼續產生動機和知識嗎？&lt;/p&gt;
+&lt;p&gt;當你以為自己完成了 90% 的工作的時候，距離能正式交付其實還差 50%。這是讓自己滿意和讓別人滿意的差距。AI 拿走了前 90% 的成就感，還要接着完成剩下 50% 的工作。當然這剩下的工作也可以讓 AI 來做，但是因為自己對工作沒有投入任何感情，所以不會容忍任何不符合自己預期的地方。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Vibe coding 的代價</title>
+        <link>https://evthron.github.io/zh/posts/vibe-coding-%E7%9A%84%E4%BB%A3%E5%83%B9/</link>
+        <pubDate>Sun, 29 Mar 2026 14:11:14 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/vibe-coding-%E7%9A%84%E4%BB%A3%E5%83%B9/</guid>
         <description>&lt;p&gt;AI 寫代碼看似是無本生利，但確實是有代價的。本質是用學習動機和創作欲望作爲抵押，借來馬上得到的成果和能完成事物的信心，只是一般人不把這些當作是代價而已。你真的能利用這些預支的資產，繼續產生動機和知識嗎？&lt;/p&gt;
 &lt;p&gt;當你以為自己完成了 90% 的工作的時候，距離能正式交付其實還差 50%。這是讓自己滿意和讓別人滿意的差距。AI 拿走了前 90% 的成就感，還要接着完成剩下 50% 的工作。當然這剩下的工作也可以讓 AI 來做，但是因為自己對工作沒有投入任何感情，所以不會容忍任何不符合自己預期的地方。&lt;/p&gt;
 </description>

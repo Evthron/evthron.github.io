@@ -462,6 +462,24 @@
                 href="https://evthron.github.io/en/profile/code/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/profile/</loc>
+    <lastmod>2025-03-21T03:14:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/profile/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/code/streamlit/</loc>
     <lastmod>2025-03-06T14:35:35+08:00</lastmod>
     <xhtml:link
@@ -1122,11 +1140,60 @@
                 href="https://evthron.github.io/en/tags/web/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/tweet/delusions/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/delusions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/delusions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/delusions/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tags/frame-of-mind/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/frame-of-mind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/frame-of-mind/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/tweet/productivity-tools/</loc>
     <lastmod>2024-07-27T19:30:21+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/en/tweet/website-redesign/</loc>
     <lastmod>2024-08-12T06:12:03+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/winter/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/winter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/winter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/winter/"
+                />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/blog-layout-modification/</loc>
     <lastmod>2025-02-17T02:55:06+08:00</lastmod>
@@ -1356,24 +1423,6 @@
                 href="https://evthron.github.io/en/tweet/better-search-engine/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/tweet/delusions/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/delusions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/delusions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/delusions/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/tweet/joplin-vim-mode/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
@@ -1584,24 +1633,6 @@
                 href="https://evthron.github.io/en/profile/posts/instant-messaging/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/tweet/winter/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/winter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/winter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/winter/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/</loc>
     <lastmod>2025-01-18T03:56:30+08:00</lastmod>
     <xhtml:link
@@ -1749,6 +1780,11 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://evthron.github.io/zh/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/page/"
                 />
     <xhtml:link
                 rel="alternate"

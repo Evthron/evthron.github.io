@@ -414,6 +414,11 @@ array.filter( (r) =&gt; r &gt; 3 )</p>
 <h1 id="event-listener">event listener</h1>
 <p>get the element from the event</p>
 <p>(e) =&gt; {e.target}</p>
+<h2 id="event-delagtion">Event delagtion</h2>
+<ul>
+<li>don&rsquo;t add the event listener to all the child element</li>
+<li>bubble up and handle in the parent element</li>
+</ul>
 <h1 id="query-selector">Query selector</h1>
 <p><code>getElementByClassName</code> returns a <code>HTMLElementCollection</code>.</p>
 <p>If you want to use array methods like <code>forEach</code> on a <code>HTMLElementCollection</code>, you have to convert it to array by <code>Array.from()</code></p>

@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://evthron.github.io/zh/tags/ai/</loc>
-    <lastmod>2026-04-06T23:39:50+08:00</lastmod>
-  </url><url>
     <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2026-04-06T23:39:50+08:00</lastmod>
+    <lastmod>2026-04-15T03:36:07+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -22,6 +19,48 @@
                 hreflang="zh"
                 href="https://evthron.github.io/zh/categories/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/zh/categories/tweet/</loc>
+    <lastmod>2026-04-15T03:36:07+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/tweet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tweet/</loc>
+    <lastmod>2026-04-15T03:36:07+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tweet/%E7%9B%B4%E6%92%AD/</loc>
+    <lastmod>2026-04-15T03:36:07+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/zh/tags/ai/</loc>
+    <lastmod>2026-04-06T23:39:50+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/tags/philosophy/</loc>
     <lastmod>2026-04-06T23:39:50+08:00</lastmod>
@@ -130,42 +169,6 @@
                 href="https://evthron.github.io/zh/tags/software/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/categories/tweet/</loc>
-    <lastmod>2026-04-02T08:34:48+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/tweet/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/tweet/</loc>
-    <lastmod>2026-04-02T08:34:48+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/tweet/%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2026-04-02T08:34:48+08:00</lastmod>
   </url><url>
@@ -189,6 +192,9 @@
                 hreflang="zh"
                 href="https://evthron.github.io/zh/tags/coding/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/zh/posts/vibe-coding-%E7%9A%84%E4%BB%A3%E5%83%B9/</loc>
+    <lastmod>2026-03-29T14:11:02+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/code/vim/</loc>
     <lastmod>2026-03-29T10:54:05+08:00</lastmod>
@@ -632,6 +638,16 @@
   </url><url>
     <loc>https://evthron.github.io/zh/tags/frame-of-mind/</loc>
     <lastmod>2025-04-07T19:36:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/frame-of-mind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/frame-of-mind/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/%E4%B8%8D%E5%BE%97%E4%B8%8D%E6%89%BF%E8%AA%8D%E8%AA%8D%E5%8F%AF%E6%89%8D%E6%98%AF%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E5%8B%95%E5%8A%9B/</loc>
     <lastmod>2025-04-07T19:36:42+08:00</lastmod>
@@ -697,6 +713,21 @@
   </url><url>
     <loc>https://evthron.github.io/zh/profile/</loc>
     <lastmod>2025-03-21T03:14:44+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/profile/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/profile/code/</loc>
     <lastmod>2025-03-17T02:26:19+08:00</lastmod>
@@ -2136,6 +2167,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/page/"
                 />
     <xhtml:link
                 rel="alternate"
