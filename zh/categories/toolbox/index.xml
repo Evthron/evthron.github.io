@@ -6,7 +6,78 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Tue, 24 Mar 2026 13:10:28 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 Apr 2026 19:44:02 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/categories/toolbox/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>重設鍵盤佈局</title>
+        <link>https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/</link>
+        <pubDate>Tue, 28 Apr 2026 19:44:02 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/</guid>
+        <description>&lt;h2 id=&#34;不好的位置&#34;&gt;不好的位置&lt;/h2&gt;
+&lt;p&gt;鍵盤佈局的設計並沒有考慮過人體工學：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;浪費兩隻有力的拇指，只用來按一個空格鍵。正好在拇指旁邊的 Alt 鍵卻不怎麼常用。&lt;/li&gt;
+&lt;li&gt;Enter 和 Backspace 依賴小指去按，按 backspace 把還要整隻手搬過去。&lt;/li&gt;
+&lt;li&gt;沒用的 CapsLock 放在了小指能輕鬆按到的位置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;多餘的鍵&#34;&gt;多餘的鍵&lt;/h2&gt;
+&lt;p&gt;鍵盤上還有不少多餘的鍵：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fn 鍵。只有 F2 重新命名， F3 搜尋 和 F11 全屏算是有用的；F4 (Alt+F4 強制關閉窗口)，F5（刷新）和 F12（打開網頁源代碼）佔用一個專門的鍵已經算浪費了。其他 F1, 6,7,8, 9,10，都沒什麽像樣的功能。&lt;/li&gt;
+&lt;li&gt;Insert、Pause、ScrollLock 和 NumLock 已經過時了。Home、End、PgUp、PgDn 也不是每個軟件都需要的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;快捷鍵&#34;&gt;快捷鍵&lt;/h2&gt;
+&lt;p&gt;快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl + Shift + Alt + P 之類的奇怪組合。&lt;/p&gt;
+&lt;h2 id=&#34;映射&#34;&gt;映射&lt;/h2&gt;
+&lt;p&gt;鍵盤上多餘的鍵重新映射成組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。&lt;/p&gt;
+&lt;h2 id=&#34;打字&#34;&gt;打字&lt;/h2&gt;
+&lt;p&gt;打字舒服是最重要的，鍵位至少要改成這樣才算理想：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Capslock -&amp;gt; Backspace&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Left Alt -&amp;gt; Esc&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Right Alt -&amp;gt; Enter&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;但這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、或者某個 Fn 鍵上，偶爾會用得上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter -&amp;gt; Win + Space（切換中英文輸入法）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵在鍵盤的左上角。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你習慣用 CapsLock 打大寫字母的話，建議你改用 Sticky Keys。&lt;/p&gt;
+&lt;h2 id=&#34;瀏覽器操作&#34;&gt;瀏覽器操作&lt;/h2&gt;
+&lt;p&gt;真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;F6 -&amp;gt; Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
+&lt;li&gt;Delete -&amp;gt; Ctrl + W （關閉分頁）&lt;/li&gt;
+&lt;li&gt;PgUp -&amp;gt; Ctrl + Shift + Tab （往前一個分頁）&lt;/li&gt;
+&lt;li&gt;PgDn -&amp;gt; Ctrl + Tab (往後一個分頁)&lt;/li&gt;
+&lt;li&gt;Insert -&amp;gt; Ctrl + T （新增分頁）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;啓動軟件&#34;&gt;啓動軟件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;F1: 番茄鐘&lt;/li&gt;
+&lt;li&gt;F4: 字典（Saladict）&lt;/li&gt;
+&lt;li&gt;F7: 命令窗口（Terminal）&lt;/li&gt;
+&lt;li&gt;F8: 筆記軟件（Vim）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我的鼠標上有兩個額外的鍵用作複製和貼上。如果鼠標上沒有額外按鍵的話，我會把它們放在兩個 Fn 鍵上。&lt;/p&gt;
+&lt;h2 id=&#34;autohotkey&#34;&gt;AutoHotKey&lt;/h2&gt;
+&lt;p&gt;AutoHotKey 是 Windows 的鍵盤工具，可以滿足一切自動操作的需求。不過 ahk 腳本的格式難學；而且沒有辦法真正從系統層面修改鍵位，需要系統管理員權限的界面，像是登入界面和資源管理器，就是用不了快捷鍵&lt;/p&gt;
+&lt;h2 id=&#34;keyd&#34;&gt;Keyd&lt;/h2&gt;
+&lt;p&gt;不知道算 Linux 上沒有 Autohotkey 算不算可惜。不過我也不需要那麼多亂七八糟的功能，只要能改鍵就好。&lt;/p&gt;
+&lt;p&gt;keyd 是 Linux 上的一個鍵位重映射工具。能真正在系統控制按鍵輸出，相比AutoHotKey沒那麽靈活的，是沒有辦法按程序設置鍵位。而且輸出受到鍵盤佈局影響，同時使用 qwerty 的中文輸入和 dvorak，。&lt;/p&gt;
+&lt;p&gt;「在偏門的佈局上打得飛快，反而在普通的鍵盤上就打不出字來，不是本末倒置嗎？」不用擔心，我已經掌握了在兩種鍵盤佈局之間切換的能力，並深深體會到了兼容的意義。&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
         <title>文章發佈流程</title>
         <link>https://evthron.github.io/zh/toolbox/%E6%96%87%E7%AB%A0%E7%99%BC%E4%BD%88%E6%B5%81%E7%A8%8B/</link>
         <pubDate>Tue, 24 Mar 2026 13:10:28 +0800</pubDate>
@@ -206,63 +277,6 @@
 &lt;p&gt;寫作動機被 AI 大幅削弱了，就算只是多一道工序，我也已經發不出去了。寫作的位置必須直連發佈才可以。
 繞開 joplin，直接把檔案複製一份到 hugo 的 content 檔案，用 filetags 分類。&lt;/p&gt;
 &lt;p&gt;在手機上直接用 markor 寫，用 syncthing 同步。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>重設鍵盤佈局</title>
-        <link>https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/</link>
-        <pubDate>Mon, 23 Mar 2026 10:50:35 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/</guid>
-        <description>&lt;p&gt;現在的鍵盤佈局完全沒有考慮過人體工學：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;沒好好利用有力的拇指，反而浪費兩隻手指按一個空格鍵。難得兩個 Alt 鍵很容易用拇指按到，卻不常用。&lt;/li&gt;
-&lt;li&gt;常用的 Enter 和 Backspace 要用小指去按，還離得很遠。&lt;/li&gt;
-&lt;li&gt;沒用的 CapsLock 放在了小指能輕鬆按到的位置。如果你習慣用 CapsLock 打大寫字母的話，我建議你改用 Sticky Keys。&lt;/li&gt;
-&lt;li&gt;還有一個少數人才能遇到的問題：文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵居然在鍵盤的左上角。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;至少要改成這樣才算理想的鍵位：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
-&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
-&lt;li&gt;Right Alt -&amp;gt; Enter&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;鍵盤上還有不少多餘的鍵：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;上面一排 F1 到 F12 沒什麼用。有用的預設功能只有 F2 （重新命名）和 F3（搜尋）；勉強稱得上有用的有 F4 (Alt+F4 強制關閉窗口)、F11（放大窗口到全屏幕）；只有網頁開發人員有用的有 F12（打開網頁源代碼）。這些功能真的值得專門佔一個寶貴的鍵嗎？&lt;/li&gt;
-&lt;li&gt;Insert、Pause、ScrollLock，NumLock，這些鍵已經沒有意義了。Home、End、PgUp、PgDn 也不算常用。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;另一方面，快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl + Shift + Alt + P 之類的奇怪組合。用鍵盤上多餘的鍵取代組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。&lt;/p&gt;
-&lt;p&gt;AutoHotKey 是 Windows 的改鍵工具。很簡單就能實現這些要求。我把鍵盤設定成這樣：&lt;/p&gt;
-&lt;h2 id=&#34;打字&#34;&gt;打字&lt;/h2&gt;
-&lt;p&gt;打字舒服是最重要的。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
-&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
-&lt;li&gt;Right Alt -&amp;gt; Enter
-這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。&lt;/li&gt;
-&lt;li&gt;Enter -&amp;gt; Win + Space（切換中英文輸入法）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;瀏覽器操作&#34;&gt;瀏覽器操作&lt;/h2&gt;
-&lt;p&gt;真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;F6 -&amp;gt; Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
-&lt;li&gt;Delete -&amp;gt; Ctrl + W （關閉分頁）&lt;/li&gt;
-&lt;li&gt;PgUp -&amp;gt; Ctrl + Shift + Tab （往前一個分頁）&lt;/li&gt;
-&lt;li&gt;PgDn -&amp;gt; Ctrl + Tab (往後一個分頁)&lt;/li&gt;
-&lt;li&gt;Insert -&amp;gt; Ctrl + T （新增分頁）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;啓動軟件&#34;&gt;啓動軟件&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;F1: 番茄鐘&lt;/li&gt;
-&lt;li&gt;F4: 字典（Saladict）&lt;/li&gt;
-&lt;li&gt;F7: 命令窗口（Terminal）&lt;/li&gt;
-&lt;li&gt;F8: 筆記軟件（Vim）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我的鼠標上有兩個額外的鍵用作複製和貼上。如果鼠標上沒有額外按鍵的話，我還會把它們放在兩個 Fn 鍵上。&lt;/p&gt;
-&lt;p&gt;AutoHotKey 有一些缺點，你用着用着就知道了。ahk 腳本的格式不太容易學；登入界面和資源管理器是用不了快捷鍵的，因為這些都需要需要系統管理員權限。不過功能很豐富，可以滿足一切自動操作的需求。&lt;/p&gt;
-&lt;h2 id=&#34;keyd&#34;&gt;Keyd&lt;/h2&gt;
-&lt;p&gt;不知道算 Linux 上沒有 Autohotkey 算不算可惜。不過我也不需要那麼多亂七八糟的功能，只要能改鍵就好。keyd 是 Linux 上的一個簡單易用的替代品。缺點是沒有辦法按每個程序設置快捷鍵，只能設置全局快捷鍵。而且輸出受到鍵盤佈局影響，我同時使用 qwerty 的中文輸入和 dvorak，有時候就會出錯。&lt;/p&gt;
-&lt;p&gt;「在偏門的佈局上打得飛快，反而在普通的鍵盤上就打不出字來，不是本末倒置嗎？」不用擔心，我已經掌握了在兩種鍵盤佈局之間切換的能力，並深深體會到了兼容的意義。&lt;/p&gt;
 </description>
         </item>
         <item>
