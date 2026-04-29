@@ -6,75 +6,89 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Tue, 28 Apr 2026 19:44:02 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/productivity/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 30 Apr 2026 00:41:49 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/productivity/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>重設鍵盤佈局</title>
         <link>https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/</link>
-        <pubDate>Tue, 28 Apr 2026 19:44:02 +0800</pubDate>
+        <pubDate>Thu, 30 Apr 2026 00:41:49 +0800</pubDate>
         <guid>https://evthron.github.io/zh/toolbox/%E9%87%8D%E8%A8%AD%E9%8D%B5%E7%9B%A4%E4%BD%88%E5%B1%80/</guid>
-        <description>&lt;h2 id=&#34;不好的位置&#34;&gt;不好的位置&lt;/h2&gt;
-&lt;p&gt;鍵盤佈局的設計並沒有考慮過人體工學：&lt;/p&gt;
+        <description>&lt;p&gt;鍵盤佈局的設計並沒有考慮過人體工學：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;浪費兩隻有力的拇指，只用來按一個空格鍵。正好在拇指旁邊的 Alt 鍵卻不怎麼常用。&lt;/li&gt;
-&lt;li&gt;Enter 和 Backspace 依賴小指去按，按 backspace 把還要整隻手搬過去。&lt;/li&gt;
-&lt;li&gt;沒用的 CapsLock 放在了小指能輕鬆按到的位置。&lt;/li&gt;
+&lt;li&gt;兩隻拇指只用來按一個空格鍵，很浪費。Alt 鍵正好放在拇指旁邊，卻沒什麼用。&lt;/li&gt;
+&lt;li&gt;Enter 和 Backspace 要用小指去按，按 backspace 把還要整隻手搬過去。&lt;/li&gt;
+&lt;li&gt;小指能輕鬆按到 CapsLock，也是浪費。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;多餘的鍵&#34;&gt;多餘的鍵&lt;/h2&gt;
 &lt;p&gt;鍵盤上還有不少多餘的鍵：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fn 鍵。只有 F2 重新命名， F3 搜尋 和 F11 全屏算是有用的；F4 (Alt+F4 強制關閉窗口)，F5（刷新）和 F12（打開網頁源代碼）佔用一個專門的鍵已經算浪費了。其他 F1, 6,7,8, 9,10，都沒什麽像樣的功能。&lt;/li&gt;
 &lt;li&gt;Insert、Pause、ScrollLock 和 NumLock 已經過時了。Home、End、PgUp、PgDn 也不是每個軟件都需要的。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;快捷鍵&#34;&gt;快捷鍵&lt;/h2&gt;
 &lt;p&gt;快捷鍵的設計也是在折磨手指。軟件的快捷鍵一大堆，常用的就那麼幾個，還可能是 Ctrl + Shift + Alt + P 之類的奇怪組合。&lt;/p&gt;
-&lt;h2 id=&#34;映射&#34;&gt;映射&lt;/h2&gt;
 &lt;p&gt;鍵盤上多餘的鍵重新映射成組合鍵就再適合不過了。我們應該好好感謝這些殘留下來的歷史按鍵，多一個鍵，就能多設定一個功能。&lt;/p&gt;
-&lt;h2 id=&#34;打字&#34;&gt;打字&lt;/h2&gt;
-&lt;p&gt;打字舒服是最重要的，鍵位至少要改成這樣才算理想：&lt;/p&gt;
+&lt;p&gt;要打字舒服，鍵位至少要改成這樣：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Capslock -&amp;gt; Backspace&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Left Alt -&amp;gt; Esc&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Right Alt -&amp;gt; Enter&lt;/p&gt;
+&lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
+&lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
+&lt;li&gt;Right Alt -&amp;gt; Enter
 &lt;ul&gt;
-&lt;li&gt;但這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、或者某個 Fn 鍵上，偶爾會用得上。&lt;/li&gt;
+&lt;li&gt;但這樣就沒有 Alt 可以用了&lt;/li&gt;
+&lt;li&gt;可以把 Alt 搬到 Compose 、Right Ctrl、或者 Fn 鍵上&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Enter -&amp;gt; Win + Space（切換中英文輸入法）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;文字編輯器 Vim 很常用到 Esc 鍵，但這個鍵在鍵盤的左上角。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Enter -&amp;gt; Win + Space（輸入法語言切換）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;如果你習慣用 CapsLock 打大寫字母的話，建議你改用 Sticky Keys。&lt;/p&gt;
+&lt;p&gt;我用 Vim 編輯文字，很常用到 Esc 鍵，所以 Capslock -&amp;gt; Esc，Left Alt -&amp;gt; Backspace。&lt;/p&gt;
+&lt;p&gt;Sticky Keys 也是很值得開起來的，就和很久以前只知道用 CapsLock 打大寫字母的感覺一樣。&lt;/p&gt;
+&lt;p&gt;鼠標上如果有額外的鍵，自然會用來 Ctrl + C 和 Ctrl + V。沒有的話可以放在 F1 F2 上。&lt;/p&gt;
 &lt;h2 id=&#34;瀏覽器操作&#34;&gt;瀏覽器操作&lt;/h2&gt;
-&lt;p&gt;真不知道這些快捷鍵是誰設計的。説起來也可以安裝插件，用 Vim 鍵位操作頁面，但我覺得還是方向鍵比較方便。&lt;/p&gt;
+&lt;p&gt;常用操作也要 Ctrl 説不過去。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;F6 -&amp;gt; Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/li&gt;
-&lt;li&gt;Delete -&amp;gt; Ctrl + W （關閉分頁）&lt;/li&gt;
-&lt;li&gt;PgUp -&amp;gt; Ctrl + Shift + Tab （往前一個分頁）&lt;/li&gt;
-&lt;li&gt;PgDn -&amp;gt; Ctrl + Tab (往後一個分頁)&lt;/li&gt;
-&lt;li&gt;Insert -&amp;gt; Ctrl + T （新增分頁）&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shift + Ctrl + T （打開上一個關閉的分頁）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ctrl + W （關閉分頁）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ctrl + Shift + Tab （往前一個分頁）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ctrl + Tab (往後一個分頁)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ctrl + T （新增分頁）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;F6 -&amp;gt; Shift + Ctrl + T&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Delete -&amp;gt; Ctrl + W&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PgUp -&amp;gt; Ctrl + Shift + Tab&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PgDn -&amp;gt; Ctrl + Tab&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Insert -&amp;gt; Ctrl + T&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;也可以安裝插件，用 Vim 鍵位操作頁面。但還是方向鍵比較方便，因為 Vim 的價值在於編輯和移動光標，hjkl 反而不是什麼好設計。&lt;/p&gt;
 &lt;h2 id=&#34;啓動軟件&#34;&gt;啓動軟件&lt;/h2&gt;
+&lt;p&gt;多出來的 Fn 鍵適合用來打開軟件，例如：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;F1: 番茄鐘&lt;/li&gt;
-&lt;li&gt;F4: 字典（Saladict）&lt;/li&gt;
-&lt;li&gt;F7: 命令窗口（Terminal）&lt;/li&gt;
-&lt;li&gt;F8: 筆記軟件（Vim）&lt;/li&gt;
+&lt;li&gt;計時器（番茄鐘）&lt;/li&gt;
+&lt;li&gt;字典（例如 Saladict）&lt;/li&gt;
+&lt;li&gt;命令窗口（Terminal）&lt;/li&gt;
+&lt;li&gt;筆記軟件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;我的鼠標上有兩個額外的鍵用作複製和貼上。如果鼠標上沒有額外按鍵的話，我會把它們放在兩個 Fn 鍵上。&lt;/p&gt;
-&lt;h2 id=&#34;autohotkey&#34;&gt;AutoHotKey&lt;/h2&gt;
-&lt;p&gt;AutoHotKey 是 Windows 的鍵盤工具，可以滿足一切自動操作的需求。不過 ahk 腳本的格式難學；而且沒有辦法真正從系統層面修改鍵位，需要系統管理員權限的界面，像是登入界面和資源管理器，就是用不了快捷鍵&lt;/p&gt;
-&lt;h2 id=&#34;keyd&#34;&gt;Keyd&lt;/h2&gt;
-&lt;p&gt;不知道算 Linux 上沒有 Autohotkey 算不算可惜。不過我也不需要那麼多亂七八糟的功能，只要能改鍵就好。&lt;/p&gt;
-&lt;p&gt;keyd 是 Linux 上的一個鍵位重映射工具。能真正在系統控制按鍵輸出，相比AutoHotKey沒那麽靈活的，是沒有辦法按程序設置鍵位。而且輸出受到鍵盤佈局影響，同時使用 qwerty 的中文輸入和 dvorak，。&lt;/p&gt;
-&lt;p&gt;「在偏門的佈局上打得飛快，反而在普通的鍵盤上就打不出字來，不是本末倒置嗎？」不用擔心，我已經掌握了在兩種鍵盤佈局之間切換的能力，並深深體會到了兼容的意義。&lt;/p&gt;
-&lt;hr&gt;
+&lt;h2 id=&#34;實現方法&#34;&gt;實現方法&lt;/h2&gt;
+&lt;p&gt;要實現這些，只是在軟件內設置快捷鍵是不夠的，需要鍵位重映射工具。&lt;/p&gt;
+&lt;h3 id=&#34;autohotkey-windows&#34;&gt;AutoHotKey (Windows)&lt;/h3&gt;
+&lt;p&gt;AutoHotKey 可以滿足 Windows 上一切自動操作的需求。不過 ahk 腳本的格式難學，而且沒有辦法真正從系統層面修改鍵位；而需要系統管理員權限的界面，像是登入界面和資源管理器，也用不了快捷鍵&lt;/p&gt;
+&lt;h2 id=&#34;keyd-linux&#34;&gt;Keyd (Linux)&lt;/h2&gt;
+&lt;p&gt;keyd 能真正在系統層面控制按鍵輸出，相比 AutoHotKey 沒那麽靈活，沒有辦法按程序設置鍵位，而且輸出受到鍵盤佈局影響，會影響鼠標快捷鍵。&lt;/p&gt;
+&lt;p&gt;「在偏門的佈局上打得飛快，在普通的鍵盤上反而忘記了怎麼打字，本末倒置。」雖然大家都説學 dvorak 是自找麻煩，但幸好我同時需要打中文佈局，所以練成了能在qwerty 和 dvoark 之間切換自如的功夫，多學一種佈局對我説只有好處。這就是所謂的兼容：不想向傳統規範妥協，要和世界作對，就要付出代價，訓練自己在不同標準間切換的能力，&lt;/p&gt;
 </description>
         </item>
         <item>

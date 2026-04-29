@@ -33,22 +33,6 @@
 </description>
         </item>
         <item>
-        <title>Delusions</title>
-        <link>https://evthron.github.io/en/tweet/delusions/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
-        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
-        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Sticky menu</title>
         <link>https://evthron.github.io/en/tweet/sticky-menu/</link>
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
@@ -74,6 +58,22 @@ I dived in to the source code of joppy, which is not complicated at all. It&amp;
 It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to copy quick thoughts like tweet. Maybe I should improve this.&lt;/p&gt;
 &lt;p&gt;2025/03/24 22:41&lt;/p&gt;
 &lt;p&gt;Syncthing proved too sluggish for syncing my Joplin notes—Android&amp;rsquo;s transfer throttling turned every load into a test of patience. The solution? A self-hosted Joplin server via Docker. Now, I can seamlessly edit my blog posts straight from my phone, without the wait.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Delusions</title>
+        <link>https://evthron.github.io/en/tweet/delusions/</link>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
+        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Winter</title>
+        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         
