@@ -1648,10 +1648,9 @@ Age   Description
         <item>
         <title>Migrating to Linux</title>
         <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
-        <pubDate>Tue, 13 Aug 2024 03:00:19 +0800</pubDate>
+        <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
-        <description>&lt;p&gt;tags:#iw
-I finally migrated my operating system to linux.&lt;/p&gt;
+        <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
 &lt;p&gt;Surprisingly, everything software I need on Windows has an linux alternative. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have finished all the work earlier but I wasted a lot of time browsing because there are no ready-made net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
 </description>
@@ -1710,20 +1709,11 @@ I finally migrated my operating system to linux.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Better Search Engine</title>
-        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
+        <title>Arch Linux Installation</title>
+        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
-        <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;marginalia.nu&lt;/a&gt; are much more diverse than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;site:reddit.com&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
-&lt;p&gt;Links:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/item?id=28550764&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://news.ycombinator.com/item?id=28550764&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ericmurphy.xyz/blog/discoverability/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://ericmurphy.xyz/blog/discoverability/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2024/04/02 18:59&lt;/p&gt;
-&lt;p&gt;Anything that is fun and useless will eventually be blocked by my own hands. It&amp;rsquo;s just a matter of time and frame of mind.&lt;/p&gt;
+        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
+        <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encountered problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1740,6 +1730,14 @@ I finally migrated my operating system to linux.&lt;/p&gt;
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/website-redesign/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Winter</title>
+        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1823,14 +1821,6 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
 	
 &gt;
 &lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Arch Linux Installation</title>
-        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
-        <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
-        <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -2076,6 +2066,23 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;ul&gt;
 &lt;li&gt;Attracted me by the book title and blew my mind by promoting &amp;lsquo;get as many friends as you can&amp;rsquo;. Since the author is a businessman, you might think the book will tell you ways to manipulate others to benefit from relationships. Rather, you can still be very sincereto others while following his advice.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Better Search Engine</title>
+        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
+        <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
+        <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;marginalia.nu&lt;/a&gt; are much more interesting than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;reddit&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/item?id=28550764&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.ycombinator.com/item?id=28550764&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ericmurphy.xyz/blog/discoverability/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://ericmurphy.xyz/blog/discoverability/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2024/04/02 18:59&lt;/p&gt;
+&lt;p&gt;Anything that is fun and useless will eventually be blocked by my own hands. It&amp;rsquo;s just a matter of time and frame of mind.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -4098,14 +4105,6 @@ traditional media.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        </item>
-        <item>
-        <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
-        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
-        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>

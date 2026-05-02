@@ -66,12 +66,19 @@
         <item>
         <title>Migrating to Linux</title>
         <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
-        <pubDate>Tue, 13 Aug 2024 03:00:19 +0800</pubDate>
+        <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
-        <description>&lt;p&gt;tags:#iw
-I finally migrated my operating system to linux.&lt;/p&gt;
+        <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
 &lt;p&gt;Surprisingly, everything software I need on Windows has an linux alternative. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have finished all the work earlier but I wasted a lot of time browsing because there are no ready-made net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Arch Linux Installation</title>
+        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
+        <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encountered problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -89,14 +96,6 @@ I finally migrated my operating system to linux.&lt;/p&gt;
         <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
         <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
 &lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Arch Linux Installation</title>
-        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
-        <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
-        <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
 </description>
         </item>
         <item>
