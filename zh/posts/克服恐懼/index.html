@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.
-2024/06/25 03:44 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='雖然硬着頭皮上能解決眼前的問題，但卻會給自己刻下恐懼的記憶。下次遇到相同問題的時候，明明已經有充足的經驗，卻會更抗拒面對問題本身，實際做的準備反而比完全沒有經驗的時候還少。這是因為自己已經體驗了應對方法的代價，本能地想推遲面對的時間。
+要獲得勇氣，就要讓自己獲得「不拼命也能度過難關」的經驗。這種經驗是沒有辦法從安全的預演中得到的，只能在真實的危機中，選擇改變自己的應對模式。
+不會錯的原則是，不要在面對的過程中讓自己產生過分的恐懼，反過來製造不好的記憶。接下來的就當是個人經驗之談吧：恐懼感會隨着面對時間增加，到了受不了的時候，就要順應自己逃跑的本能，先避開壓力源。這裏不應該進行自己分心的活動，而是要平靜中讓恐懼慢慢退去，而且有回去再次嘗試的意願才繼續。這段時間很可能不是深呼吸五分鐘就能過去的，更可能是三十分鐘什麼都做不了的焦慮時間。
+保持情緒穩定就能獲得好結果嗎？在我看來是沒有根據的：人憑着恐懼，能炸開看似不可解決的問題，而放棄拼命，就等於放棄發揮自己能力的極限。如果只是表現不理想那都算好的，最壞的情況，是要直接面對慘痛的失敗。在恐懼中穩步前行聽起來很成熟，但不要忘記了這樣做的代價和目標：切實地接受自己有可能一敗塗地的結果，放棄這次的表現，只是為了下次有可能不會逃避面對困難而已。
+不能説應激是錯誤的應對方法。如果是只會面對一次的重大難關，無論用什麼手段、把自己摧殘到什麼程度，只要活下來就沒有問題，因為反正不會再來一次了。不過殘酷的現實是，難關本身可能只會經歷一次，但相似的情景是會重複發生的，並沒有辦法預料；相反，看似會重複發生的難關，實際要面對的事也可能不一樣。誰也説不清這次會不會是最後一次。
 '>
-        <title>Sticky menu | Evthron&#39;s blog</title>
+        <title>克服恐懼 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/en/tweet/sticky-menu/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/posts/%E5%85%8B%E6%9C%8D%E6%81%90%E6%87%BC/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='Sticky menu'>
-<meta property='og:description' content='I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.
-2024/06/25 03:44 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.
+        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='克服恐懼'>
+<meta property='og:description' content='雖然硬着頭皮上能解決眼前的問題，但卻會給自己刻下恐懼的記憶。下次遇到相同問題的時候，明明已經有充足的經驗，卻會更抗拒面對問題本身，實際做的準備反而比完全沒有經驗的時候還少。這是因為自己已經體驗了應對方法的代價，本能地想推遲面對的時間。
+要獲得勇氣，就要讓自己獲得「不拼命也能度過難關」的經驗。這種經驗是沒有辦法從安全的預演中得到的，只能在真實的危機中，選擇改變自己的應對模式。
+不會錯的原則是，不要在面對的過程中讓自己產生過分的恐懼，反過來製造不好的記憶。接下來的就當是個人經驗之談吧：恐懼感會隨着面對時間增加，到了受不了的時候，就要順應自己逃跑的本能，先避開壓力源。這裏不應該進行自己分心的活動，而是要平靜中讓恐懼慢慢退去，而且有回去再次嘗試的意願才繼續。這段時間很可能不是深呼吸五分鐘就能過去的，更可能是三十分鐘什麼都做不了的焦慮時間。
+保持情緒穩定就能獲得好結果嗎？在我看來是沒有根據的：人憑着恐懼，能炸開看似不可解決的問題，而放棄拼命，就等於放棄發揮自己能力的極限。如果只是表現不理想那都算好的，最壞的情況，是要直接面對慘痛的失敗。在恐懼中穩步前行聽起來很成熟，但不要忘記了這樣做的代價和目標：切實地接受自己有可能一敗塗地的結果，放棄這次的表現，只是為了下次有可能不會逃避面對困難而已。
+不能説應激是錯誤的應對方法。如果是只會面對一次的重大難關，無論用什麼手段、把自己摧殘到什麼程度，只要活下來就沒有問題，因為反正不會再來一次了。不過殘酷的現實是，難關本身可能只會經歷一次，但相似的情景是會重複發生的，並沒有辦法預料；相反，看似會重複發生的難關，實際要面對的事也可能不一樣。誰也説不清這次會不會是最後一次。
 '>
-<meta property='og:url' content='https://evthron.github.io/en/tweet/sticky-menu/'>
+<meta property='og:url' content='https://evthron.github.io/zh/posts/%E5%85%8B%E6%9C%8D%E6%81%90%E6%87%BC/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='grumble' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2024-06-25T02:03:52&#43;08:00'/><meta property='article:modified_time' content='2025-04-09T15:42:31&#43;08:00'/>
-<meta name="twitter:title" content="Sticky menu">
-<meta name="twitter:description" content="I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.
-2024/06/25 03:44 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='philosophy' /><meta property='article:published_time' content='2026-05-21T19:46:27&#43;08:00'/><meta property='article:modified_time' content='2026-05-24T11:39:23&#43;08:00'/>
+<meta name="twitter:title" content="克服恐懼">
+<meta name="twitter:description" content="雖然硬着頭皮上能解決眼前的問題，但卻會給自己刻下恐懼的記憶。下次遇到相同問題的時候，明明已經有充足的經驗，卻會更抗拒面對問題本身，實際做的準備反而比完全沒有經驗的時候還少。這是因為自己已經體驗了應對方法的代價，本能地想推遲面對的時間。
+要獲得勇氣，就要讓自己獲得「不拼命也能度過難關」的經驗。這種經驗是沒有辦法從安全的預演中得到的，只能在真實的危機中，選擇改變自己的應對模式。
+不會錯的原則是，不要在面對的過程中讓自己產生過分的恐懼，反過來製造不好的記憶。接下來的就當是個人經驗之談吧：恐懼感會隨着面對時間增加，到了受不了的時候，就要順應自己逃跑的本能，先避開壓力源。這裏不應該進行自己分心的活動，而是要平靜中讓恐懼慢慢退去，而且有回去再次嘗試的意願才繼續。這段時間很可能不是深呼吸五分鐘就能過去的，更可能是三十分鐘什麼都做不了的焦慮時間。
+保持情緒穩定就能獲得好結果嗎？在我看來是沒有根據的：人憑着恐懼，能炸開看似不可解決的問題，而放棄拼命，就等於放棄發揮自己能力的極限。如果只是表現不理想那都算好的，最壞的情況，是要直接面對慘痛的失敗。在恐懼中穩步前行聽起來很成熟，但不要忘記了這樣做的代價和目標：切實地接受自己有可能一敗塗地的結果，放棄這次的表現，只是為了下次有可能不會逃避面對困難而已。
+不能説應激是錯誤的應對方法。如果是只會面對一次的重大難關，無論用什麼手段、把自己摧殘到什麼程度，只要活下來就沒有問題，因為反正不會再來一次了。不過殘酷的現實是，難關本身可能只會經歷一次，但相似的情景是會重複發生的，並沒有辦法預料；相反，看似會重複發生的難關，實際要面對的事也可能不一樣。誰也説不清這次會不會是最後一次。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -61,7 +70,7 @@
         
             
             <figure class="site-avatar">
-                <a href="/en/">
+                <a href="/zh/">
                 
                     
                     
@@ -76,7 +85,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/en">Evthron&#39;s blog</a></h1>
+            <h1 class="site-name"><a href="/zh">Evthron&#39;s blog</a></h1>
             <h2 class="site-description"></h2>
         </div>
     </header><ol class="social-menu">
@@ -123,7 +132,7 @@
             
                 <li>
                     <a 
-                        href='/en/index.xml'
+                        href='/zh/index.xml'
                         target="_blank"
                         title="📡RSS"
                         rel="me"
@@ -148,7 +157,7 @@
         
         
         <li >
-            <a href='/en/timeline/' >
+            <a href='/zh/timeline/' >
                 
                 
                 
@@ -162,13 +171,13 @@
   <path d="M18 16.496v1.504l1 1" />
 </svg>
                 
-                <span>Timeline</span>
+                <span>最新文章</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/search/' >
+            <a href='/zh/search/' >
                 
                 
                 
@@ -181,33 +190,33 @@
 
 
                 
-                <span>Search</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/en/posts/' >
-                
-                
-                
-                <span>📝Posts</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/en/gallery/' >
-                
-                
-                
-                <span>🖼️Gallery</span>
+                <span>找文章</span>
             </a>
         </li>
         
         
         <li  class='current' >
-            <a href='/en/tweet/' >
+            <a href='/zh/posts/' >
+                
+                
+                
+                <span>📝文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/gallery/' >
+                
+                
+                
+                <span>🖼️畫</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/tweet/' >
                 
                 
                 
@@ -217,57 +226,46 @@
         
         
         <li >
-            <a href='/en/toolbox/' >
+            <a href='/zh/toolbox/' >
                 
                 
                 
-                <span>🛠Toobox</span>
+                <span>🛠️工具集</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/skill/' >
+            <a href='/zh/skill/' >
                 
                 
                 
-                <span>🎮Skill</span>
+                <span>🎮技能</span>
             </a>
         </li>
         
         
         <li >
-            <a href='/en/sandbox/' >
+            <a href='/zh/code/' >
                 
                 
                 
-                <span>🪣Sandbox</span>
+                <span>⚔️ 代碼筆記</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh/sandbox/' >
+                
+                
+                
+                <span>🪣沙盒</span>
             </a>
         </li>
         
 
         <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                    
-                            <option value="https://evthron.github.io/zh/tweet/sticky-menu/" >中文</option>
-                    
-                            <option value="https://evthron.github.io/en/tweet/sticky-menu/" selected>English</option>
-                    
-				    </select>
-                </li>
-            
 
             
                 <li id="dark-mode-toggle">
@@ -287,7 +285,7 @@
 
 
 
-                    <span>Dark Mode</span>
+                    <span>夜晚模式</span>
                 </li>
             
         </div>
@@ -308,8 +306,8 @@
         <header class="article-category">
             
                 
-                <a href="/en/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                    tweet
+                <a href="/zh/categories/posts/" style="background-color: #e4484d; color: #fff;">
+                    posts
                 </a>
             
         </header>
@@ -317,7 +315,7 @@
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/en/tweet/sticky-menu/">Sticky menu</a>
+                <a href="/zh/posts/%E5%85%8B%E6%9C%8D%E6%81%90%E6%87%BC/">克服恐懼</a>
             </h2>
         
             
@@ -339,7 +337,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2024-06-25</time>
+                    <time class="article-time--published">2026-05-21</time>
                 </div>
             
     
@@ -347,25 +345,6 @@
         </footer>
         
     
-        
-            <footer class="article-translations">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                <div>
-                    
-                        <a href="https://evthron.github.io/zh/tweet/sticky-menu/" class="link">中文</a>
-                    
-                </div>
-            </footer>
         
     </div>
     
@@ -375,9 +354,11 @@
     <section class="article-content">
         
         
-        <p>I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.</p>
-<p>2024/06/25 03:44
-Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.</p>
+        <p>雖然硬着頭皮上能解決眼前的問題，但卻會給自己刻下恐懼的記憶。下次遇到相同問題的時候，明明已經有充足的經驗，卻會更抗拒面對問題本身，實際做的準備反而比完全沒有經驗的時候還少。這是因為自己已經體驗了應對方法的代價，本能地想推遲面對的時間。</p>
+<p>要獲得勇氣，就要讓自己獲得「不拼命也能度過難關」的經驗。這種經驗是沒有辦法從安全的預演中得到的，只能在真實的危機中，選擇改變自己的應對模式。</p>
+<p>不會錯的原則是，不要在面對的過程中讓自己產生過分的恐懼，反過來製造不好的記憶。接下來的就當是個人經驗之談吧：恐懼感會隨着面對時間增加，到了受不了的時候，就要順應自己逃跑的本能，先避開壓力源。這裏不應該進行自己分心的活動，而是要平靜中讓恐懼慢慢退去，而且有回去再次嘗試的意願才繼續。這段時間很可能不是深呼吸五分鐘就能過去的，更可能是三十分鐘什麼都做不了的焦慮時間。</p>
+<p>保持情緒穩定就能獲得好結果嗎？在我看來是沒有根據的：人憑着恐懼，能炸開看似不可解決的問題，而放棄拼命，就等於放棄發揮自己能力的極限。如果只是表現不理想那都算好的，最壞的情況，是要直接面對慘痛的失敗。在恐懼中穩步前行聽起來很成熟，但不要忘記了這樣做的代價和目標：切實地接受自己有可能一敗塗地的結果，放棄這次的表現，只是為了下次有可能不會逃避面對困難而已。</p>
+<p>不能説應激是錯誤的應對方法。如果是只會面對一次的重大難關，無論用什麼手段、把自己摧殘到什麼程度，只要活下來就沒有問題，因為反正不會再來一次了。不過殘酷的現實是，難關本身可能只會經歷一次，但相似的情景是會重複發生的，並沒有辦法預料；相反，看似會重複發生的難關，實際要面對的事也可能不一樣。誰也説不清這次會不會是最後一次。</p>
 
     </section>
 
@@ -388,9 +369,7 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         
         <section class="article-tags">
             
-                <a href="/en/tags/grumble/">Grumble</a>
-            
-                <a href="/en/tags/coding/">Coding</a>
+                <a href="/zh/tags/philosophy/">Philosophy</a>
             
         </section>
          
@@ -405,7 +384,7 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
 
 
             <span>
-                Last updated on 2025-04-09 15:42 &#43;08:00
+                最後更新 2026-05-24 11:39 &#43;08:00
             </span>
         </section></footer>
     
@@ -443,18 +422,18 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
     
     
     <aside class="related-content--wrapper">
-        <h2 class="section-title">Related content</h2>
+        <h2 class="section-title">相關文章</h2>
         <div class="related-content">
             <div class="flex article-list--tile">
                 
                     
 <article class="">
-    <a href="/en/tweet/new-to-javascript/">
+    <a href="/zh/posts/%E6%8A%8A-deepseek-%E7%95%B6%E4%BD%9C%E7%9F%A5%E9%9F%B3/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">New to JavaScript</h2>
+            <h2 class="article-title">把 DeepSeek 當作知音</h2>
         </div>
     </a>
 </article>
@@ -462,12 +441,12 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
                 
                     
 <article class="">
-    <a href="/en/tweet/easier-publish/">
+    <a href="/zh/posts/%E5%AE%8C%E7%BE%8E%E5%AD%B8%E7%BF%92%E6%B3%95/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Improved publishing workflow </h2>
+            <h2 class="article-title">完美學習法</h2>
         </div>
     </a>
 </article>
@@ -475,12 +454,38 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
                 
                     
 <article class="">
-    <a href="/en/tweet/winter/">
+    <a href="/zh/tweet/personal-values/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Winter</h2>
+            <h2 class="article-title">基礎的信念</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/posts/%E4%B8%8D%E5%BE%97%E4%B8%8D%E6%89%BF%E8%AA%8D%E8%AA%8D%E5%8F%AF%E6%89%8D%E6%98%AF%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E5%8B%95%E5%8A%9B/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">不得不承認，認可才是我想要的動力</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="">
+    <a href="/zh/posts/%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E8%AA%8D%E5%8F%AF%E6%89%8D%E6%98%AF%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E5%8B%95%E5%8A%9B/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">我想要的認可才是我想要的動力</h2>
         </div>
     </a>
 </article>
@@ -552,8 +557,8 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
     <section class="powerby">
         
             🌐Check out other language versions! <br/>
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        網站使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 製作 <br />
+        模板 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.22.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
     </section>
 </footer>
 
