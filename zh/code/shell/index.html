@@ -2,9 +2,8 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Filter consecutive lines only show the line if the line repeats more than 5 time consecutively uniq -c text.txt | awk &#39;$1 &gt; 5&#39; | sort | uniq single quote vs double quote single quotes is literal string, shell won&rsquo;t identify the special shell symbols like $ and \ in the string.
-e.g. echo &#39;$1&#39; will not work, you have to use echo &quot;$1&quot;
-what about the &lsquo;&#39;? why - is required for both single and double quotes?
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Filter consecutive lines only show the line if the line repeats more than 5 time consecutively uniq -c text.txt | awk &#39;$1 &gt; 5&#39; | sort | uniq flag terminator If your argument starts with -, like yt-dlp -14t6_yu-7w, it may be treated as a invalid flag. Add -- before to marks the end of flags, like yt-dlp -- -14t6_yugw.
+single quote vs double quote single quotes is literal string, shell won&rsquo;t identify the special shell symbols like $ and \ in the string.
 '>
         <title>shell | Evthron&#39;s blog</title>
         
@@ -14,17 +13,15 @@ what about the &lsquo;&#39;? why - is required for both single and double quotes
         
         
         <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='shell'>
-<meta property='og:description' content='Filter consecutive lines only show the line if the line repeats more than 5 time consecutively uniq -c text.txt | awk &#39;$1 &gt; 5&#39; | sort | uniq single quote vs double quote single quotes is literal string, shell won&rsquo;t identify the special shell symbols like $ and \ in the string.
-e.g. echo &#39;$1&#39; will not work, you have to use echo &quot;$1&quot;
-what about the &lsquo;&#39;? why - is required for both single and double quotes?
+<meta property='og:description' content='Filter consecutive lines only show the line if the line repeats more than 5 time consecutively uniq -c text.txt | awk &#39;$1 &gt; 5&#39; | sort | uniq flag terminator If your argument starts with -, like yt-dlp -14t6_yu-7w, it may be treated as a invalid flag. Add -- before to marks the end of flags, like yt-dlp -- -14t6_yugw.
+single quote vs double quote single quotes is literal string, shell won&rsquo;t identify the special shell symbols like $ and \ in the string.
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/code/shell/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-09-14T03:18:05&#43;08:00'/><meta property='article:modified_time' content='2025-09-14T03:18:05&#43;08:00'/>
 <meta name="twitter:title" content="shell">
-<meta name="twitter:description" content="Filter consecutive lines only show the line if the line repeats more than 5 time consecutively uniq -c text.txt | awk &#39;$1 &gt; 5&#39; | sort | uniq single quote vs double quote single quotes is literal string, shell won&rsquo;t identify the special shell symbols like $ and \ in the string.
-e.g. echo &#39;$1&#39; will not work, you have to use echo &quot;$1&quot;
-what about the &lsquo;&#39;? why - is required for both single and double quotes?
+<meta name="twitter:description" content="Filter consecutive lines only show the line if the line repeats more than 5 time consecutively uniq -c text.txt | awk &#39;$1 &gt; 5&#39; | sort | uniq flag terminator If your argument starts with -, like yt-dlp -14t6_yu-7w, it may be treated as a invalid flag. Add -- before to marks the end of flags, like yt-dlp -- -14t6_yugw.
+single quote vs double quote single quotes is literal string, shell won&rsquo;t identify the special shell symbols like $ and \ in the string.
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -384,7 +381,9 @@ what about the &lsquo;&#39;? why - is required for both single and double quotes
 <li>only show the line if the line repeats more than 5 time consecutively</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>uniq -c text.txt | awk <span style="color:#e6db74">&#39;$1 &gt; 5&#39;</span> | sort | uniq 
-</span></span></code></pre></div><h1 id="single-quote-vs-double-quote">single quote vs double quote</h1>
+</span></span></code></pre></div><h2 id="flag-terminator">flag terminator</h2>
+<p>If your argument starts with <code>-</code>, like <code>yt-dlp -14t6_yu-7w</code>, it may be treated as a invalid flag. Add <code>--</code> before to marks the end of flags, like <code>yt-dlp -- -14t6_yugw</code>.</p>
+<h1 id="single-quote-vs-double-quote">single quote vs double quote</h1>
 <ul>
 <li>
 <p>single quotes is literal string, shell won&rsquo;t identify the special shell symbols like <code>$</code> and <code>\</code> in the string.</p>
