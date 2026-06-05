@@ -458,7 +458,16 @@ Make sure you use the SSH link (not HTTPS) for your own repo for better authenti
 <h2 id="submodule">submodule</h2>
 <p>make a repo as a node inside another repo, treating the whole folder as one file.
 need to make seperate commits.</p>
-<h2 id="cicd-pipeline-github-action">CI/CD Pipeline (Github Action)</h2>
+<h3 id="下載-sub-module">下載 Sub-module</h3>
+<pre tabindex="0"><code>git submodule init
+git submodule update
+</code></pre><h2 id="修改-sub-module-地址">修改 sub-module 地址</h2>
+<p>在 .gitmodules 裡修改 URL</p>
+<pre tabindex="0"><code>[submodule &#34;evthronblog/public&#34;]
+	path = evthronblog/public
+	url = git@github.com:Evthron/evthron.github.io
+	branch = main
+</code></pre><h2 id="cicd-pipeline-github-action">CI/CD Pipeline (Github Action)</h2>
 <p>Continuous Integration, Continuous Delivery</p>
 <h2 id="when-will-automerge-fail">When will automerge fail?</h2>
 <ul>

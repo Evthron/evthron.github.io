@@ -2,7 +2,8 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='0. SSH setting ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; eval &#34;$(ssh-agent -s)&#34; ssh-add ~/.ssh/id_ed25519 .public 公鑰
+How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
 Link the Local Repo to the Remote GitHub Repo:
 Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security. git remote add origin git@github.com:username/reponame.git If you used the HTTPS URL, change it using set-url: git remote set-url origin git@github.com:username/reponame.git origin is the default name that prefixes all upstream branches. All upstream branches are referred to as origin/branch when viewed in the local repo.
 '>
@@ -14,7 +15,8 @@ Make sure you use the SSH link (not HTTPS) for your own repo for better authenti
         
         
         <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='Git'>
-<meta property='og:description' content='How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
+<meta property='og:description' content='0. SSH setting ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; eval &#34;$(ssh-agent -s)&#34; ssh-add ~/.ssh/id_ed25519 .public 公鑰
+How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
 Link the Local Repo to the Remote GitHub Repo:
 Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security. git remote add origin git@github.com:username/reponame.git If you used the HTTPS URL, change it using set-url: git remote set-url origin git@github.com:username/reponame.git origin is the default name that prefixes all upstream branches. All upstream branches are referred to as origin/branch when viewed in the local repo.
 '>
@@ -22,7 +24,8 @@ Make sure you use the SSH link (not HTTPS) for your own repo for better authenti
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2025-03-06T05:39:19&#43;08:00'/><meta property='article:modified_time' content='2025-03-06T05:39:19&#43;08:00'/>
 <meta name="twitter:title" content="Git">
-<meta name="twitter:description" content="How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
+<meta name="twitter:description" content="0. SSH setting ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; eval &#34;$(ssh-agent -s)&#34; ssh-add ~/.ssh/id_ed25519 .public 公鑰
+How to Upload Local Repo to GitHub Create Local Git Repo: git init Create an Empty Repo on GitHub
 Link the Local Repo to the Remote GitHub Repo:
 Make sure you use the SSH link (not HTTPS) for your own repo for better authentication security. git remote add origin git@github.com:username/reponame.git If you used the HTTPS URL, change it using set-url: git remote set-url origin git@github.com:username/reponame.git origin is the default name that prefixes all upstream branches. All upstream branches are referred to as origin/branch when viewed in the local repo.
 ">
@@ -379,7 +382,12 @@ Make sure you use the SSH link (not HTTPS) for your own repo for better authenti
     <section class="article-content">
         
         
-        <h2 id="how-to-upload-local-repo-to-github">How to Upload Local Repo to GitHub</h2>
+        <h1 id="0-ssh-setting">0. SSH setting</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-keygen -t ed25519 -C <span style="color:#e6db74">&#34;your_email@example.com&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>ssh-agent -s<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-add ~/.ssh/id_ed25519
+</span></span></code></pre></div><p>.public 公鑰</p>
+<h2 id="how-to-upload-local-repo-to-github">How to Upload Local Repo to GitHub</h2>
 <ol>
 <li>Create Local Git Repo:</li>
 </ol>
@@ -468,7 +476,16 @@ Make sure you use the SSH link (not HTTPS) for your own repo for better authenti
 <h2 id="submodule">submodule</h2>
 <p>make a repo as a node inside another repo, treating the whole folder as one file.
 need to make seperate commits.</p>
-<h2 id="cicd-pipeline-github-action">CI/CD Pipeline (Github Action)</h2>
+<h3 id="下載-sub-module">下載 Sub-module</h3>
+<pre tabindex="0"><code>git submodule init
+git submodule update
+</code></pre><h2 id="修改-sub-module-地址">修改 sub-module 地址</h2>
+<p>在 .gitmodules 裡修改 URL</p>
+<pre tabindex="0"><code>[submodule &#34;evthronblog/public&#34;]
+	path = evthronblog/public
+	url = git@github.com:Evthron/evthron.github.io
+	branch = main
+</code></pre><h2 id="cicd-pipeline-github-action">CI/CD Pipeline (Github Action)</h2>
 <p>Continuous Integration, Continuous Delivery</p>
 <h2 id="when-will-automerge-fail">When will automerge fail?</h2>
 <ul>
