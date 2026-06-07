@@ -6,13 +6,12 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Fri, 05 Jun 2026 17:18:14 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/philosophy/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 08 Jun 2026 04:38:19 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tags/philosophy/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>四元數和四維空間</title>
         <link>https://evthron.github.io/zh/posts/%E5%9B%9B%E5%85%83%E6%95%B8%E5%92%8C%E5%9B%9B%E7%B6%AD%E7%A9%BA%E9%96%93/</link>
-        <pubDate>Fri, 05 Jun 2026 17:18:14 +0800</pubDate>
+        <pubDate>Mon, 08 Jun 2026 04:38:19 +0800</pubDate>
         <guid>https://evthron.github.io/zh/posts/%E5%9B%9B%E5%85%83%E6%95%B8%E5%92%8C%E5%9B%9B%E7%B6%AD%E7%A9%BA%E9%96%93/</guid>
-        <description>&lt;h1 id=&#34;四元數和四維空間&#34;&gt;四元數和四維空間&lt;/h1&gt;
-&lt;p&gt;在四維空間裏面，就連普通的物件移動，在我們看來都伴隨着隔空取物、大小變化的異常現象。&lt;/p&gt;
+        <description>&lt;p&gt;在四維空間裏面，就連普通的物件移動，在我們看來都伴隨着隔空取物、大小變化的異常現象。&lt;/p&gt;
 &lt;p&gt;這是因為我們缺乏理解四維世界的感官，會把四維旋轉看成穿透、擠壓和變形，把四維移動誤認成憑空出現和消失，才會覺得神奇。&lt;/p&gt;
 &lt;p&gt;一旦意識到空間還有更多的可能，三維空間就會頓時變得侷促起來。為了把這些概念塞進我們的世界，我們只能用些粗糙的手段模仿，例如用自我相交代替四維的連接，用大小變化代替距離四維的遠近。這些做法不可避免地扭曲了本來的形狀，喪失原本的簡單結構。&lt;/p&gt;
 &lt;p&gt;但即使是這種殘缺狀態下，我們還是可以在腦海裏拼合概念的碎片，不受物理約束地窺探只存在於紙面上的概念，正是因為無論空間有多少個維度，底層的幾何法則都是統一的，這種自由正是數學讓人着迷的原因。&lt;/p&gt;
@@ -31,6 +30,13 @@
 &lt;p&gt;任何四元數計算結果，終究是要回到三維，把第四個參數變回零的，也就是純四元數——實部為0、只有虛部有數值的四元數。實部非0的，有第四維存在的四元數，只會在運算過程中出現，不然就真的轉到四維空間去了。&lt;/p&gt;
 &lt;p&gt;我還是想把第四個參數理解成一個臨時的資訊儲存位，這個參數保存的是移動過程的資訊，根據出發的位置，定義用什麼方式描述奇異點。四元數乘法就是把這個資訊在第四個參數打包和解碼的過程。這樣就不用動用，不動用四維空間的概念。&lt;/p&gt;
 &lt;p&gt;雖然這像做是為了應付人類有限的認知，強行拆散完整的數學概念，但我不想為自己看不見世界之外的維度而嘆息，不想用徒勞的方式把握超乎想象的概念。如果這些概念註定是只能以碎片形式呈現的話，這些碎片就是我們能擁有的全部。&lt;/p&gt;
+&lt;h3 id=&#34;參考資料&#34;&gt;參考資料&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://eater.net/quaternions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualizing quaternions (eater.net)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/d4EgbgTm0Bg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualizing the 4d numbers Quaternions (youtube.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Quaternions and Rotations (stanford.edu)&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
