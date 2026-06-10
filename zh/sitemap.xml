@@ -4,10 +4,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://evthron.github.io/zh/tags/ai/</loc>
-    <lastmod>2026-06-11T02:03:45+08:00</lastmod>
+    <lastmod>2026-06-11T02:07:06+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/categories/</loc>
-    <lastmod>2026-06-11T02:03:45+08:00</lastmod>
+    <lastmod>2026-06-11T02:07:06+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -25,7 +25,7 @@
                 />
   </url><url>
     <loc>https://evthron.github.io/zh/tags/coding/</loc>
-    <lastmod>2026-06-11T02:03:45+08:00</lastmod>
+    <lastmod>2026-06-11T02:07:06+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -42,26 +42,8 @@
                 href="https://evthron.github.io/tok/tags/coding/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/categories/posts/</loc>
-    <lastmod>2026-06-11T02:03:45+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/posts/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/tags/</loc>
-    <lastmod>2026-06-11T02:03:45+08:00</lastmod>
+    <lastmod>2026-06-11T02:07:06+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -78,26 +60,44 @@
                 href="https://evthron.github.io/tok/tags/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/posts/vibe-coding-%E7%9A%84%E4%BB%A3%E5%83%B9/</loc>
-    <lastmod>2026-06-11T02:03:45+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/posts/</loc>
-    <lastmod>2026-06-11T02:03:45+08:00</lastmod>
+    <loc>https://evthron.github.io/zh/categories/tweet/</loc>
+    <lastmod>2026-06-11T02:07:06+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://evthron.github.io/zh/posts/"
+                href="https://evthron.github.io/zh/categories/tweet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://evthron.github.io/en/posts/"
+                href="https://evthron.github.io/en/categories/tweet/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tok"
-                href="https://evthron.github.io/tok/posts/"
+                href="https://evthron.github.io/tok/categories/tweet/"
                 />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tweet/</loc>
+    <lastmod>2026-06-11T02:07:06+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/zh/tweet/vibe-coding-%E7%9A%84%E4%BB%A3%E5%83%B9/</loc>
+    <lastmod>2026-06-11T02:07:06+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/skill/observer/</loc>
     <lastmod>2026-06-11T01:44:37+08:00</lastmod>
@@ -136,50 +136,50 @@
     <loc>https://evthron.github.io/zh/tags/philosophy/</loc>
     <lastmod>2026-06-08T04:38:19+08:00</lastmod>
   </url><url>
+    <loc>https://evthron.github.io/zh/categories/posts/</loc>
+    <lastmod>2026-06-08T04:38:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/categories/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/categories/posts/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/posts/%E5%9B%9B%E5%85%83%E6%95%B8%E5%92%8C%E5%9B%9B%E7%B6%AD%E7%A9%BA%E9%96%93/</loc>
     <lastmod>2026-06-08T04:38:19+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/zh/posts/</loc>
+    <lastmod>2026-06-08T04:38:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/posts/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B/</loc>
     <lastmod>2026-05-28T18:31:17+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/posts/%E5%85%8B%E6%9C%8D%E6%81%90%E6%87%BC/</loc>
     <lastmod>2026-06-08T04:00:45+08:00</lastmod>
-  </url><url>
-    <loc>https://evthron.github.io/zh/categories/tweet/</loc>
-    <lastmod>2026-06-05T17:44:53+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/categories/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/categories/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/categories/tweet/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/zh/tweet/</loc>
-    <lastmod>2026-06-05T17:44:53+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/"
-                />
   </url><url>
     <loc>https://evthron.github.io/zh/tweet/%E6%84%8F%E5%BF%97%E6%B6%88%E7%A3%A8%E4%BA%86/</loc>
     <lastmod>2026-05-09T04:51:05+08:00</lastmod>
@@ -696,6 +696,16 @@
   </url><url>
     <loc>https://evthron.github.io/zh/tags/frame-of-mind/</loc>
     <lastmod>2025-04-07T19:36:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tags/frame-of-mind/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tags/frame-of-mind/"
+                />
   </url><url>
     <loc>https://evthron.github.io/zh/posts/%E4%B8%8D%E5%BE%97%E4%B8%8D%E6%89%BF%E8%AA%8D%E8%AA%8D%E5%8F%AF%E6%89%8D%E6%98%AF%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E5%8B%95%E5%8A%9B/</loc>
     <lastmod>2025-04-07T19:36:42+08:00</lastmod>
