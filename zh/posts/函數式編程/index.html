@@ -30,7 +30,7 @@ fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-06-11T02:31:08&#43;08:00'/><meta property='article:modified_time' content='2026-06-11T02:31:08&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-06-11T02:38:48&#43;08:00'/><meta property='article:modified_time' content='2026-06-11T02:46:55&#43;08:00'/>
 <meta name="twitter:title" content="函數式編程">
 <meta name="twitter:description" content="Haskell 是函數式語言，特色是使用遞歸就能一招鮮解決所有問題。但是算法課的老師一般都不會喜歡這种答案，例如計算斐波那契數列：
 fibonacci :: Int -&gt; Int fibonacci 0 = 0 fibonacci 1 = 1 fibonacci x = fibonacci (x-1) &#43; fibonacci (x-2) 看！和數學式子一模一樣簡單。什麼？你説時間複雜度是 O(2^n) ？但 Haskell 的編譯器總有辦法幫我搞定的吧？
@@ -393,7 +393,19 @@ fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_
         </section>
          
 
-        </footer>
+        <section class="article-lastmod">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <span>
+                最後更新 2026-06-11 02:46 &#43;08:00
+            </span>
+        </section></footer>
     
     
     <link 
