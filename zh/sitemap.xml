@@ -99,6 +99,27 @@
                 href="https://evthron.github.io/tok/posts/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/zh/skill/observer/</loc>
+    <lastmod>2026-06-11T01:44:37+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/zh/skill/</loc>
+    <lastmod>2026-06-11T01:44:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/skill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/skill/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/zh/tags/maths/</loc>
     <lastmod>2026-06-08T04:38:19+08:00</lastmod>
     <xhtml:link
@@ -1121,24 +1142,6 @@
                 href="https://evthron.github.io/tok/profile/skill/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/zh/skill/</loc>
-    <lastmod>2026-03-29T21:19:21+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/skill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/skill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/skill/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/zh/posts/docker-%E9%80%A3%E4%B8%8D%E4%B8%8A%E7%B6%B2/</loc>
     <lastmod>2025-01-12T08:49:51+08:00</lastmod>
   </url><url>
@@ -1734,9 +1737,6 @@
                 hreflang="en"
                 href="https://evthron.github.io/en/skill/foreigner/"
                 />
-  </url><url>
-    <loc>https://evthron.github.io/zh/skill/observer/</loc>
-    <lastmod>2024-03-25T12:05:21+08:00</lastmod>
   </url><url>
     <loc>https://evthron.github.io/zh/profile/skill/programmer/</loc>
     <lastmod>2025-03-21T03:14:43+08:00</lastmod>
