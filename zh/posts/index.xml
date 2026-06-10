@@ -6,7 +6,29 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Mon, 08 Jun 2026 04:38:19 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Jun 2026 02:31:08 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>函數式編程</title>
+        <link>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B/</link>
+        <pubDate>Thu, 11 Jun 2026 02:31:08 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B/</guid>
+        <description>&lt;p&gt;Haskell 是函數式語言，特色是使用遞歸就能一招鮮解決所有問題。但是算法課的老師一般都不會喜歡這种答案，例如計算斐波那契數列：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;看！和數學式子一模一樣簡單。什麼？你説時間複雜度是 O(2^n) ？但 Haskell 的編譯器總有辦法幫我搞定的吧？&lt;/p&gt;
+&lt;p&gt;結果沒有，都用不着試很大的數字，&lt;code&gt;fibonacci 40&lt;/code&gt; 明顯已經很慢了。明明只是簡單的累加而已。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; zipWith (&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;) fibs (tail fibs)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- https://wiki.haskell.org/The_Fibonacci_sequence&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這是利用 haskell 無限遞歸構造出來的，間接地把數字都記下來，但是這種形式已經很不直觀了。&lt;/p&gt;
+&lt;p&gt;這樣也是很現實的，如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;不過這個例子很能說明，函數式編程才是在實踐「過早優化是萬惡之源」的理念，讓人先寫出正確的代碼，不考慮優化問題。&lt;/p&gt;
+&lt;p&gt;把問題定義成遞歸形式，其實就等於已經解決問題了。這就是無處不在的動態規劃思想，只是沒有把中間步驟記錄下來而已。&lt;/p&gt;
+&lt;p&gt;算法效率完全靠編譯器優化，所以編譯器的上限就是 Haskell 的上限。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>四元數和四維空間</title>
         <link>https://evthron.github.io/zh/posts/%E5%9B%9B%E5%85%83%E6%95%B8%E5%92%8C%E5%9B%9B%E7%B6%AD%E7%A9%BA%E9%96%93/</link>
         <pubDate>Mon, 08 Jun 2026 04:38:19 +0800</pubDate>
@@ -37,28 +59,6 @@
     &gt;Visualizing the 4d numbers Quaternions (youtube.com)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Quaternions and Rotations (stanford.edu)&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>函數式編程</title>
-        <link>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B/</link>
-        <pubDate>Thu, 28 May 2026 20:37:17 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B/</guid>
-        <description>&lt;p&gt;Haskell 是函數式語言，特色是使用遞歸就能一招鮮解決所有問題。但是算法課的老師一般都不會喜歡這种答案，例如計算斐波那契數列：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; fibonacci (x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;看！和數學式子一模一樣簡單。什麼？你説時間複雜度是 O(2^n) ？但 Haskell 的編譯器總有辦法幫我搞定的吧？&lt;/p&gt;
-&lt;p&gt;結果沒有，都用不着試很大的數字，&lt;code&gt;fibonacci 40&lt;/code&gt; 明顯已經很慢了。明明只是簡單的累加而已。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; zipWith (&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;) fibs (tail fibs)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- https://wiki.haskell.org/The_Fibonacci_sequence&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這是利用 haskell 無限遞歸構造出來的，間接地把數字都記下來，但是這種形式已經很不直觀了。&lt;/p&gt;
-&lt;p&gt;這樣也是很現實的，如果只要寫出漂亮的遞歸式子就能解決問題的話，大家都不用學算法了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;不過這個例子很能說明，函數式編程才是在實踐「過早優化是萬惡之源」的理念，讓人先寫出正確的代碼，不考慮優化問題。&lt;/p&gt;
-&lt;p&gt;把問題定義成遞歸形式，其實就等於已經解決問題了。這就是無處不在的動態規劃思想，只是沒有把中間步驟記錄下來而已。&lt;/p&gt;
-&lt;p&gt;算法效率完全靠編譯器優化，所以變異器的上限就是 Haskell 的上限。&lt;/p&gt;
 </description>
         </item>
         <item>
