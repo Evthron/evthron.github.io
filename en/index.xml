@@ -35,7 +35,7 @@
         <pubDate>Mon, 23 Mar 2026 10:29:16 +0800</pubDate>
         <guid>https://evthron.github.io/en/posts/gamify-my-life/</guid>
         <description>&lt;p&gt;Gamification is a way to motivate people by adding game elements to activities. A great example is Habitica, which gamifies habits by turning life tasks into an RPG. Players complete daily tasks to gain experience points and buy new equipment to attack monsters.&lt;/p&gt;
-&lt;p&gt;I have used Habitica for a years and I really love this concept. However, as my level grows, the numbers become less and less meaningful. Now my avatar is at level 88. I partly earned that from learning, partly from exercising, and mostly from activities I don&amp;rsquo;t remember because the system don&amp;rsquo;t keep track of individual record.&lt;/p&gt;
+&lt;p&gt;I have been using Habitica for a years and I really love this concept. However, as my level grows, the EXP and coins has becoming less and less meaningful. One major reason is system don&amp;rsquo;t keep track of individual records. The EXP could be earned from learning, exercising, or some other activities that I don&amp;rsquo;t remember.&lt;/p&gt;
 &lt;p&gt;Therefore, I want to create my own system to represent my real life. Of course, this game will be much complicated to design and may defeat the purpose of gamification. Still, I want the numbers to be meaningful. Imagine how intriguing it would be to have the accurate stats that can prove my ability in real life.&lt;/p&gt;
 &lt;p&gt;I focused on experiences and knowledge because they are easy to quantify and cannot regress even if you slack off for a while, just like you don&amp;rsquo;t lose the in-game experience points even if you forget the game. I first started my test on my drawing practices. I took pictures for every pages on my sketchbooks and tag them according to what skill I&amp;rsquo;ve trained when drawing those pages (using a tool called &lt;a class=&#34;link&#34; href=&#34;https://github.com/novoid/filetags&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;filetags (github)&lt;/a&gt;), I wrote code to automatically count the tags and convert them as progress bars on &lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/en/skill/painter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -48,7 +48,7 @@
         <link>https://evthron.github.io/en/posts/higher-order-operation/</link>
         <pubDate>Mon, 23 Mar 2026 08:08:25 +0800</pubDate>
         <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
-        <description>&lt;p&gt;The reason why &lt;em&gt;e&lt;/em&gt; is natural is because the exponential function with base &lt;em&gt;e&lt;/em&gt; grows exactly at the rate of its own value. This is not a miracle. In fact, every exponential function grows proportionally to its own value, but not exactly. The number &lt;em&gt;e&lt;/em&gt; just happens to be the only one to achieve this, with the help of infinitely fine-tuned digits, just like how &lt;em&gt;π&lt;/em&gt; achieves the perfect radius-1 curvature.&lt;/p&gt;
+        <description>&lt;p&gt;The reason why $e$ is natural is that $e^x$ grows exactly at the rate of its own value. This may seem $e$ has some special place in maths, but in fact, every exponential function grows proportionally to its own value. The number $e$ just happens to be the only one to achieve the perfect coefficient-1 with the help of its infinitely-many fine-tuned digits, just like how $\pi$ achieves the perfect radius-1 curvature.&lt;/p&gt;
 &lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We know that we can imagine it using roots, but this is not intuitive at all.&lt;/p&gt;
 &lt;p&gt;But if you remember, in primary school, we also took some time to understand what multiplying by a decimal number means. It means addition in fractions. Exponentiation follows this logic but one order higher—it means multiplication in roots.&lt;/p&gt;
 &lt;p&gt;This makes me think: can we extend this definition one order higher? How can we go beyond exponentiation? This is the fourth-order operation: tetration.&lt;/p&gt;
@@ -1709,6 +1709,15 @@ Age   Description
 </description>
         </item>
         <item>
+        <title>New to JavaScript</title>
+        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
+        <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sends and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
+&lt;p&gt;Since the web app is open-source, I may modify the code and host the game on my own website. However, the app could not run on my computer since it was written in an older version of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shortcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
@@ -1722,16 +1731,6 @@ Age   Description
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/progress/</guid>
         <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Search Count</title>
-        <link>https://evthron.github.io/en/tweet/search-count/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
-        <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
-&lt;p&gt;2024/04/07 03:37&lt;/p&gt;
-&lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1799,15 +1798,6 @@ Age   Description
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
 &lt;p&gt;2024/06/25 03:44
 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>New to JavaScript</title>
-        <link>https://evthron.github.io/en/tweet/new-to-javascript/</link>
-        <pubDate>Wed, 19 Jun 2024 23:37:40 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/new-to-javascript/</guid>
-        <description>&lt;p&gt;I was playing &amp;ldquo;Blood on the Clocktower&amp;rdquo; with my friends using an web app. As the game progresses, the host sents and receives information to and from the players. But the web app lacks the way for the host to communicate with the players so the host need to directly message the players and wait for their response. This slows down the game.&lt;/p&gt;
-&lt;p&gt;Since the web app is open source, I thought I may modify the code and host the game on my own website. However, the app could not run on my computer since it was writen in an older verison of Vue. I am new to JavaScript and learning JavaScript frameworks immediately is a bit overwhelming. I thought reading source code might be good shoutcut but now it seems that there&amp;rsquo;s no such thing, sigh.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -2117,6 +2107,16 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
         <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search Count</title>
+        <link>https://evthron.github.io/en/tweet/search-count/</link>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
+        <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
+&lt;p&gt;2024/04/07 03:37&lt;/p&gt;
+&lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
 </description>
         </item>
         <item>
