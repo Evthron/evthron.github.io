@@ -417,7 +417,14 @@ array.filter( (r) =&gt; r &gt; 3 )</p>
 <p>object.entries().length ?</p>
 <h2 id="vs-json">vs JSON</h2>
 <p>Unlike JSON, in JS, we don&rsquo;t need to wrap object keys in double quotes.</p>
+<h3 id="promise">Promise</h3>
 <p><code>async</code> works exactly like Haskell&rsquo;s do-notaiton, turning chained function call into imperative code.</p>
+<p>Imperative code can be represented as chained function, alternatively, we can make chained functions look like imperative code</p>
+<pre tabindex="0"><code>pdf = await loadingTask
+{...}
+</code></pre><p>is the syntatic sugar of</p>
+<pre tabindex="0"><code>loadingTask.promise.then( (pdf) =&gt; {...} )
+</code></pre><p>all the code after the await statement is actually wrapping in a nested function.</p>
 
     </section>
 
