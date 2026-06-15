@@ -31,12 +31,15 @@
 &lt;p&gt;我還是想把第四個參數理解成一個臨時的資訊儲存位，這個參數保存的是移動過程的資訊，根據出發的位置，定義用什麼方式描述奇異點。四元數乘法就是把這個資訊在第四個參數打包和解碼的過程。這樣就不用動用，不動用四維空間的概念。&lt;/p&gt;
 &lt;p&gt;雖然這像做是為了應付人類有限的認知，強行拆散完整的數學概念，但我不想為自己看不見世界之外的維度而嘆息，不想用徒勞的方式把握超乎想象的概念。如果這些概念註定是只能以碎片形式呈現的話，這些碎片就是我們能擁有的全部。&lt;/p&gt;
 &lt;h3 id=&#34;參考資料&#34;&gt;參考資料&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://eater.net/quaternions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Visualizing quaternions (eater.net)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/d4EgbgTm0Bg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Visualizing the 4d numbers Quaternions (youtube.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;解釋優美，對計算沒有幫助。受了很大的刺激。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://eater.net/quaternions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualizing quaternions (eater.net)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;影片居然還能互動！&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Quaternions and Rotations (stanford.edu)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;教材的參考資料。參考定義和性質，性質的證明看不懂&lt;/p&gt;
 </description>
         </item>
         <item>
