@@ -706,16 +706,22 @@
         </item>
         <item>
         <title>從 CLI 到 GUI</title>
-        <link>https://evthron.github.io/zh/tweet/from-cli-to-gui/</link>
-        <pubDate>Sat, 18 Jan 2025 02:00:14 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/tweet/from-cli-to-gui/</guid>
-        <description>&lt;p&gt;如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。&lt;/p&gt;
+        <link>https://evthron.github.io/zh/tweet/%E5%BE%9E-cli-%E5%88%B0-gui/</link>
+        <pubDate>Sat, 18 Jan 2025 02:20:58 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/tweet/%E5%BE%9E-cli-%E5%88%B0-gui/</guid>
+        <description>&lt;h1 id=&#34;從-cli-到-gui&#34;&gt;從 CLI 到 GUI&lt;/h1&gt;
+&lt;p&gt;如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。&lt;/p&gt;
 &lt;p&gt;只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C++，Python 本身是做不到的。
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;how to make gui in python without tools (stackoverflow)&lt;/a&gt;
-用網站做 UI 最簡單……&lt;/p&gt;
+瀏覽器是最通用的渲染引擎，所以用網站做 UI 應該是最簡單的……&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;UI 也算是數據可視化的一種吧？&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interface with Statecharts 這本書説明了最基礎的狀態轉移圖(State Transition Diagram) 根本不可能用來描述複雜的軟件，一定要使用帶有層級、記憶、分離等常見模式的符號的 Statechart，才能把狀態數量壓縮到可理解的狀態。&lt;/p&gt;
+&lt;p&gt;我覺得這本書太着重符號的定義了，對於個人開發來説是過度工程。而軟件沒有實體按鍵，定義狀態本身就不容易，狀態轉移式的代碼也和 JavaScript 的 event action 設計模式不太適配。&lt;/p&gt;
 </description>
         </item>
         <item>
