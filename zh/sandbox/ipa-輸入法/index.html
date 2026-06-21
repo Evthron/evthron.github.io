@@ -2,38 +2,74 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。
-只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。
-要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C&#43;&#43;，Python 本身是做不到的。 how to make gui in python without tools (stackoverflow) 瀏覽器是最通用的渲染引擎，所以用網站做 UI 應該是最簡單的……
-UI 也算是數據可視化的一種吧？
-UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interface with Statecharts 這本書説明了，最基礎的狀態轉移圖 (State Transition Diagram) 根本不可能用來描述複雜的軟件，一定要使用帶有層級、記憶、分離等常見模式的符號的 Statechart，才能把狀態數量壓縮到可理解的狀態。
-我覺得這本書太着重符號的定義了，對於個人開發來説是過度工程。而軟件沒有實體，定義狀態本身就不容易，狀態轉移式的代碼也和 JavaScript 的 event action 設計模式不太適配。
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='小鶴音形輸入法非常好用。大部分的詞語和漢字都只需要四鍵就能精確檢索，使盲打變得可能。
+純拆字的的輸入法（形碼）也能做到盲打，但是拆分邏輯都不易學，就算學會了還是需要大量的練習，因為沒有發音的直覺，所以實際使用的時候是靠反射動作輸入的。
+小鶴的優秀之處，是把「音碼」和「形碼」分開：兩鍵定發音、兩鍵定寫法。這種設計讓用户可以漸進學習：先學雙拼的部分，體驗輸入速度的提升，有興趣深入再補充形碼，消滅選字的麻煩。
+英文會不會也有類似的快速輸入法呢？Stenograph 的概念看起來還是很吸引的，用特別設計的鍵盤，按音節輸入。
+但認真瞭解過一下之後，就發現這個是學不來的。特殊的鍵盤設計不是單純的人體工學，而是按鍵和弦 （key chord ） 能成立的基礎設備。一隻手指需要同時按下兩到四個相鄰的按鍵，所以需要按鍵接近而且觸發力度低的鍵盤。
+就算在普通鍵盤上復現，拇指區的設計也相當彆扭，要用非常扭曲的姿勢用力按下五六個按鍵，對手部自然不是什麼好事。
+本質是音節輸入，為了區分不同的拼寫，需要記憶大量的輸入規則，有些是沒什麼道理的，純粹是利用編碼空間消滅重碼，求快而已。
+但是我並不需要追求極致的速度，也不想投資特殊的裝備和練習特殊指法，只是想要像小鶴輸入法一樣的確定性和節奏感。
+同樣的元輔音分離，落在普通鍵盤上一樣是可以實現的，只是一鍵一音的思路，不能像多鍵並擊一樣壓縮按鍵空間塞下三個分區。只能用普通的左右交替，兩個分區。
+和「就算編碼很長，只要能同時按下去就能加速」，我是想要盡可能用儘量多的鍵縮短編碼。
+速度上可能不會有特別誇張的提升，但是確定性上是可以的。
+説到元輔音分離的理念，Dvorak 和 steno keyboard 是最接近的。雖然逐字拼寫的手感可能不如現代設計的方案，但是這種設計哲學是很泛用的，很適合轉換成 IPA 輸入法。
+輸入法定製自然是用一直都很好用的 RIME，以前只能按官方指南寫些簡單的配置，現在用能力借別人寫好的 schema 方案來用了，把中文輸入法引擎用來輸入英文有點水土不服，不過做個 demo 是足夠的，前人有在 easy English 等等，用簡單的代碼和詞彙表，
+我首先找了 lapwing 詞庫來用，製作完成之後，發現有些不同的音節被壓縮到相同的按鍵了，很難反向翻譯回來。
+既然這樣，倒不如乾脆從 IPA 的源頭入手，先做個純粹的音節輸入法，再從 stenograph theory 獲取縮短編碼的靈感。
+幸好已經有了用 steno generator 這樣的工具指南，我只需要用到 IPA syllable 分離的部分代碼，截斷然後魔改了一下就能生成詞彙表了。
+生成出來的的特色，是不需要繁複的規則了，因為沒有特意壓縮長度，所以重碼只限同音字，也沒有輸入衝突和例外，所有元音都直展開了，雖然難但直截了當。steno theory 也給了有很多縮短的靈感，例如省略夾在輔音中間 ə ɪ ɛ，常見的後綴 -ment 和 -ibility 都有專門的縮寫。
+另一部分的問題是怎麼把這些 IPA 符號分配到鍵盤上，特別是大量的元音應該怎麼分配， aoeui 五個字母不夠用。美式英語在沒有簡化合併的情況下，需要 ɔ ɑ ə i æ o ɛ u ɪ ʊ 。右手只是空了一個 q 的位置，所以連 Dvorak 鍵位的.,&rsquo; 都要利用起來才塞得下。
 '>
-        <title>從 CLI 到 GUI | Evthron&#39;s blog</title>
+        <title>IPA 輸入法 | Evthron&#39;s blog</title>
         
-        <link rel='canonical' href='https://evthron.github.io/zh/tweet/%E5%BE%9E-cli-%E5%88%B0-gui/'>
+        <link rel='canonical' href='https://evthron.github.io/zh/sandbox/ipa-%E8%BC%B8%E5%85%A5%E6%B3%95/'>
 
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='從 CLI 到 GUI'>
-<meta property='og:description' content='如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。
-只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。
-要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C&#43;&#43;，Python 本身是做不到的。 how to make gui in python without tools (stackoverflow) 瀏覽器是最通用的渲染引擎，所以用網站做 UI 應該是最簡單的……
-UI 也算是數據可視化的一種吧？
-UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interface with Statecharts 這本書説明了，最基礎的狀態轉移圖 (State Transition Diagram) 根本不可能用來描述複雜的軟件，一定要使用帶有層級、記憶、分離等常見模式的符號的 Statechart，才能把狀態數量壓縮到可理解的狀態。
-我覺得這本書太着重符號的定義了，對於個人開發來説是過度工程。而軟件沒有實體，定義狀態本身就不容易，狀態轉移式的代碼也和 JavaScript 的 event action 設計模式不太適配。
+        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='IPA 輸入法'>
+<meta property='og:description' content='小鶴音形輸入法非常好用。大部分的詞語和漢字都只需要四鍵就能精確檢索，使盲打變得可能。
+純拆字的的輸入法（形碼）也能做到盲打，但是拆分邏輯都不易學，就算學會了還是需要大量的練習，因為沒有發音的直覺，所以實際使用的時候是靠反射動作輸入的。
+小鶴的優秀之處，是把「音碼」和「形碼」分開：兩鍵定發音、兩鍵定寫法。這種設計讓用户可以漸進學習：先學雙拼的部分，體驗輸入速度的提升，有興趣深入再補充形碼，消滅選字的麻煩。
+英文會不會也有類似的快速輸入法呢？Stenograph 的概念看起來還是很吸引的，用特別設計的鍵盤，按音節輸入。
+但認真瞭解過一下之後，就發現這個是學不來的。特殊的鍵盤設計不是單純的人體工學，而是按鍵和弦 （key chord ） 能成立的基礎設備。一隻手指需要同時按下兩到四個相鄰的按鍵，所以需要按鍵接近而且觸發力度低的鍵盤。
+就算在普通鍵盤上復現，拇指區的設計也相當彆扭，要用非常扭曲的姿勢用力按下五六個按鍵，對手部自然不是什麼好事。
+本質是音節輸入，為了區分不同的拼寫，需要記憶大量的輸入規則，有些是沒什麼道理的，純粹是利用編碼空間消滅重碼，求快而已。
+但是我並不需要追求極致的速度，也不想投資特殊的裝備和練習特殊指法，只是想要像小鶴輸入法一樣的確定性和節奏感。
+同樣的元輔音分離，落在普通鍵盤上一樣是可以實現的，只是一鍵一音的思路，不能像多鍵並擊一樣壓縮按鍵空間塞下三個分區。只能用普通的左右交替，兩個分區。
+和「就算編碼很長，只要能同時按下去就能加速」，我是想要盡可能用儘量多的鍵縮短編碼。
+速度上可能不會有特別誇張的提升，但是確定性上是可以的。
+説到元輔音分離的理念，Dvorak 和 steno keyboard 是最接近的。雖然逐字拼寫的手感可能不如現代設計的方案，但是這種設計哲學是很泛用的，很適合轉換成 IPA 輸入法。
+輸入法定製自然是用一直都很好用的 RIME，以前只能按官方指南寫些簡單的配置，現在用能力借別人寫好的 schema 方案來用了，把中文輸入法引擎用來輸入英文有點水土不服，不過做個 demo 是足夠的，前人有在 easy English 等等，用簡單的代碼和詞彙表，
+我首先找了 lapwing 詞庫來用，製作完成之後，發現有些不同的音節被壓縮到相同的按鍵了，很難反向翻譯回來。
+既然這樣，倒不如乾脆從 IPA 的源頭入手，先做個純粹的音節輸入法，再從 stenograph theory 獲取縮短編碼的靈感。
+幸好已經有了用 steno generator 這樣的工具指南，我只需要用到 IPA syllable 分離的部分代碼，截斷然後魔改了一下就能生成詞彙表了。
+生成出來的的特色，是不需要繁複的規則了，因為沒有特意壓縮長度，所以重碼只限同音字，也沒有輸入衝突和例外，所有元音都直展開了，雖然難但直截了當。steno theory 也給了有很多縮短的靈感，例如省略夾在輔音中間 ə ɪ ɛ，常見的後綴 -ment 和 -ibility 都有專門的縮寫。
+另一部分的問題是怎麼把這些 IPA 符號分配到鍵盤上，特別是大量的元音應該怎麼分配， aoeui 五個字母不夠用。美式英語在沒有簡化合併的情況下，需要 ɔ ɑ ə i æ o ɛ u ɪ ʊ 。右手只是空了一個 q 的位置，所以連 Dvorak 鍵位的.,&rsquo; 都要利用起來才塞得下。
 '>
-<meta property='og:url' content='https://evthron.github.io/zh/tweet/%E5%BE%9E-cli-%E5%88%B0-gui/'>
+<meta property='og:url' content='https://evthron.github.io/zh/sandbox/ipa-%E8%BC%B8%E5%85%A5%E6%B3%95/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2025-01-18T02:20:58&#43;08:00'/><meta property='article:modified_time' content='2026-06-17T14:23:25&#43;08:00'/>
-<meta name="twitter:title" content="從 CLI 到 GUI">
-<meta name="twitter:description" content="如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。
-只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。
-要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C&#43;&#43;，Python 本身是做不到的。 how to make gui in python without tools (stackoverflow) 瀏覽器是最通用的渲染引擎，所以用網站做 UI 應該是最簡單的……
-UI 也算是數據可視化的一種吧？
-UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interface with Statecharts 這本書説明了，最基礎的狀態轉移圖 (State Transition Diagram) 根本不可能用來描述複雜的軟件，一定要使用帶有層級、記憶、分離等常見模式的符號的 Statechart，才能把狀態數量壓縮到可理解的狀態。
-我覺得這本書太着重符號的定義了，對於個人開發來説是過度工程。而軟件沒有實體，定義狀態本身就不容易，狀態轉移式的代碼也和 JavaScript 的 event action 設計模式不太適配。
+<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-06-21T20:14:18&#43;08:00'/><meta property='article:modified_time' content='2026-06-22T03:41:12&#43;08:00'/>
+<meta name="twitter:title" content="IPA 輸入法">
+<meta name="twitter:description" content="小鶴音形輸入法非常好用。大部分的詞語和漢字都只需要四鍵就能精確檢索，使盲打變得可能。
+純拆字的的輸入法（形碼）也能做到盲打，但是拆分邏輯都不易學，就算學會了還是需要大量的練習，因為沒有發音的直覺，所以實際使用的時候是靠反射動作輸入的。
+小鶴的優秀之處，是把「音碼」和「形碼」分開：兩鍵定發音、兩鍵定寫法。這種設計讓用户可以漸進學習：先學雙拼的部分，體驗輸入速度的提升，有興趣深入再補充形碼，消滅選字的麻煩。
+英文會不會也有類似的快速輸入法呢？Stenograph 的概念看起來還是很吸引的，用特別設計的鍵盤，按音節輸入。
+但認真瞭解過一下之後，就發現這個是學不來的。特殊的鍵盤設計不是單純的人體工學，而是按鍵和弦 （key chord ） 能成立的基礎設備。一隻手指需要同時按下兩到四個相鄰的按鍵，所以需要按鍵接近而且觸發力度低的鍵盤。
+就算在普通鍵盤上復現，拇指區的設計也相當彆扭，要用非常扭曲的姿勢用力按下五六個按鍵，對手部自然不是什麼好事。
+本質是音節輸入，為了區分不同的拼寫，需要記憶大量的輸入規則，有些是沒什麼道理的，純粹是利用編碼空間消滅重碼，求快而已。
+但是我並不需要追求極致的速度，也不想投資特殊的裝備和練習特殊指法，只是想要像小鶴輸入法一樣的確定性和節奏感。
+同樣的元輔音分離，落在普通鍵盤上一樣是可以實現的，只是一鍵一音的思路，不能像多鍵並擊一樣壓縮按鍵空間塞下三個分區。只能用普通的左右交替，兩個分區。
+和「就算編碼很長，只要能同時按下去就能加速」，我是想要盡可能用儘量多的鍵縮短編碼。
+速度上可能不會有特別誇張的提升，但是確定性上是可以的。
+説到元輔音分離的理念，Dvorak 和 steno keyboard 是最接近的。雖然逐字拼寫的手感可能不如現代設計的方案，但是這種設計哲學是很泛用的，很適合轉換成 IPA 輸入法。
+輸入法定製自然是用一直都很好用的 RIME，以前只能按官方指南寫些簡單的配置，現在用能力借別人寫好的 schema 方案來用了，把中文輸入法引擎用來輸入英文有點水土不服，不過做個 demo 是足夠的，前人有在 easy English 等等，用簡單的代碼和詞彙表，
+我首先找了 lapwing 詞庫來用，製作完成之後，發現有些不同的音節被壓縮到相同的按鍵了，很難反向翻譯回來。
+既然這樣，倒不如乾脆從 IPA 的源頭入手，先做個純粹的音節輸入法，再從 stenograph theory 獲取縮短編碼的靈感。
+幸好已經有了用 steno generator 這樣的工具指南，我只需要用到 IPA syllable 分離的部分代碼，截斷然後魔改了一下就能生成詞彙表了。
+生成出來的的特色，是不需要繁複的規則了，因為沒有特意壓縮長度，所以重碼只限同音字，也沒有輸入衝突和例外，所有元音都直展開了，雖然難但直截了當。steno theory 也給了有很多縮短的靈感，例如省略夾在輔音中間 ə ɪ ɛ，常見的後綴 -ment 和 -ibility 都有專門的縮寫。
+另一部分的問題是怎麼把這些 IPA 符號分配到鍵盤上，特別是大量的元音應該怎麼分配， aoeui 五個字母不夠用。美式英語在沒有簡化合併的情況下，需要 ɔ ɑ ə i æ o ɛ u ɪ ʊ 。右手只是空了一個 q 的位置，所以連 Dvorak 鍵位的.,&rsquo; 都要利用起來才塞得下。
 ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -218,7 +254,7 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/zh/tweet/' >
                 
                 
@@ -258,7 +294,7 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/zh/sandbox/' >
                 
                 
@@ -309,8 +345,8 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
         <header class="article-category">
             
                 
-                <a href="/zh/categories/tweet/" style="background-color: #1da1f2; color: #fff;">
-                    tweet
+                <a href="/zh/categories/toolbox/" style="background-color: #888888; color: #fff;">
+                    toolbox
                 </a>
             
         </header>
@@ -318,7 +354,7 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
     
         <div class="article-title-wrapper">
             <h2 class="article-title">
-                <a href="/zh/tweet/%E5%BE%9E-cli-%E5%88%B0-gui/">從 CLI 到 GUI</a>
+                <a href="/zh/sandbox/ipa-%E8%BC%B8%E5%85%A5%E6%B3%95/">IPA 輸入法</a>
             </h2>
         
             
@@ -340,7 +376,7 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2025-01-18</time>
+                    <time class="article-time--published">2026-06-21</time>
                 </div>
             
     
@@ -357,18 +393,25 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
     <section class="article-content">
         
         
-        <p>如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。</p>
-<p>只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。</p>
-<hr>
-<p>要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C++，Python 本身是做不到的。
-<a class="link" href="https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli"  target="_blank" rel="noopener"
-    >how to make gui in python without tools (stackoverflow)</a>
-瀏覽器是最通用的渲染引擎，所以用網站做 UI 應該是最簡單的……</p>
-<hr>
-<p>UI 也算是數據可視化的一種吧？</p>
-<hr>
-<p>UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interface with Statecharts 這本書説明了，最基礎的狀態轉移圖 (State Transition Diagram) 根本不可能用來描述複雜的軟件，一定要使用帶有層級、記憶、分離等常見模式的符號的 Statechart，才能把狀態數量壓縮到可理解的狀態。</p>
-<p>我覺得這本書太着重符號的定義了，對於個人開發來説是過度工程。而軟件沒有實體，定義狀態本身就不容易，狀態轉移式的代碼也和 JavaScript 的 event action 設計模式不太適配。</p>
+        <p>小鶴音形輸入法非常好用。大部分的詞語和漢字都只需要四鍵就能精確檢索，使盲打變得可能。</p>
+<p>純拆字的的輸入法（形碼）也能做到盲打，但是拆分邏輯都不易學，就算學會了還是需要大量的練習，因為沒有發音的直覺，所以實際使用的時候是靠反射動作輸入的。</p>
+<p>小鶴的優秀之處，是把「音碼」和「形碼」分開：兩鍵定發音、兩鍵定寫法。這種設計讓用户可以漸進學習：先學雙拼的部分，體驗輸入速度的提升，有興趣深入再補充形碼，消滅選字的麻煩。</p>
+<p>英文會不會也有類似的快速輸入法呢？Stenograph 的概念看起來還是很吸引的，用特別設計的鍵盤，按音節輸入。</p>
+<p>但認真瞭解過一下之後，就發現這個是學不來的。特殊的鍵盤設計不是單純的人體工學，而是按鍵和弦 （key chord ） 能成立的基礎設備。一隻手指需要同時按下兩到四個相鄰的按鍵，所以需要按鍵接近而且觸發力度低的鍵盤。</p>
+<p>就算在普通鍵盤上復現，拇指區的設計也相當彆扭，要用非常扭曲的姿勢用力按下五六個按鍵，對手部自然不是什麼好事。</p>
+<p>本質是音節輸入，為了區分不同的拼寫，需要記憶大量的輸入規則，有些是沒什麼道理的，純粹是利用編碼空間消滅重碼，求快而已。</p>
+<p>但是我並不需要追求極致的速度，也不想投資特殊的裝備和練習特殊指法，只是想要像小鶴輸入法一樣的確定性和節奏感。</p>
+<p>同樣的元輔音分離，落在普通鍵盤上一樣是可以實現的，只是一鍵一音的思路，不能像多鍵並擊一樣壓縮按鍵空間塞下三個分區。只能用普通的左右交替，兩個分區。</p>
+<p>和「就算編碼很長，只要能同時按下去就能加速」，我是想要盡可能用儘量多的鍵縮短編碼。</p>
+<p>速度上可能不會有特別誇張的提升，但是確定性上是可以的。</p>
+<p>説到元輔音分離的理念，Dvorak 和 steno keyboard 是最接近的。雖然逐字拼寫的手感可能不如現代設計的方案，但是這種設計哲學是很泛用的，很適合轉換成 IPA 輸入法。</p>
+<p>輸入法定製自然是用一直都很好用的 RIME，以前只能按官方指南寫些簡單的配置，現在用能力借別人寫好的 schema 方案來用了，把中文輸入法引擎用來輸入英文有點水土不服，不過做個 demo 是足夠的，前人有在 easy English 等等，用簡單的代碼和詞彙表，</p>
+<p>我首先找了 lapwing 詞庫來用，製作完成之後，發現有些不同的音節被壓縮到相同的按鍵了，很難反向翻譯回來。</p>
+<p>既然這樣，倒不如乾脆從 IPA 的源頭入手，先做個純粹的音節輸入法，再從 stenograph theory 獲取縮短編碼的靈感。</p>
+<p>幸好已經有了用 steno generator 這樣的工具指南，我只需要用到 IPA syllable 分離的部分代碼，截斷然後魔改了一下就能生成詞彙表了。</p>
+<p>生成出來的的特色，是不需要繁複的規則了，因為沒有特意壓縮長度，所以重碼只限同音字，也沒有輸入衝突和例外，所有元音都直展開了，雖然難但直截了當。steno theory 也給了有很多縮短的靈感，例如省略夾在輔音中間  ə ɪ ɛ，常見的後綴 -ment 和 -ibility 都有專門的縮寫。</p>
+<p>另一部分的問題是怎麼把這些 IPA 符號分配到鍵盤上，特別是大量的元音應該怎麼分配， aoeui 五個字母不夠用。美式英語在沒有簡化合併的情況下，需要 ɔ ɑ ə i æ o ɛ u ɪ ʊ 。右手只是空了一個 q 的位置，所以連 Dvorak 鍵位的.,&rsquo; 都要利用起來才塞得下。</p>
+<p>輔音的部分倒是剛好夠用，c 和 x 空了出來，可以放 θ 和 ʃ，把 &rsquo; 的位置也用了放了 ŋ ，這樣一個輔音最多兩鍵，雖然是有更有效率的擺法，例如因為沒有了 th，sh，ch，應該把 h 移到較少用的位置，把 r 換上來，順便把 l 移到無名指能按到的位置，這些小優化自然是可以做的，但我想還是應該儘量不改動原有的 Dvorak 鍵位比較好，自己把自己搞混亂就麻煩了。</p>
 
     </section>
 
@@ -394,7 +437,7 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
 
 
             <span>
-                最後更新 2026-06-17 14:23 &#43;08:00
+                最後更新 2026-06-22 03:41 &#43;08:00
             </span>
         </section></footer>
     
@@ -438,12 +481,12 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
                 
                     
 <article class="">
-    <a href="/zh/tweet/sqlite-anki/">
+    <a href="/zh/posts/%E5%87%BD%E6%95%B8%E5%BC%8F%E7%B7%A8%E7%A8%8B/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Anki SQLite</h2>
+            <h2 class="article-title">函數式編程</h2>
         </div>
     </a>
 </article>
@@ -451,12 +494,12 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
                 
                     
 <article class="">
-    <a href="/zh/toolbox/upload-workflow/">
+    <a href="/zh/tweet/vibe-coding-%E7%9A%84%E4%BB%A3%E5%83%B9/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">文章發佈流程</h2>
+            <h2 class="article-title">Vibe coding 的代價</h2>
         </div>
     </a>
 </article>
@@ -464,12 +507,12 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
                 
                     
 <article class="">
-    <a href="/zh/profile/toolbox/upload-workflow/">
+    <a href="/zh/tweet/%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%84%9F%E8%A6%BA/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">文章發佈流程</h2>
+            <h2 class="article-title">工作的感覺</h2>
         </div>
     </a>
 </article>
@@ -477,12 +520,12 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
                 
                     
 <article class="">
-    <a href="/zh/toolbox/taskwarrior-hooks/">
+    <a href="/zh/posts/ai-%E5%AF%AB%E4%BB%A3%E7%A2%BC%E7%9A%84%E4%BB%A3%E5%83%B9/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">定製 Taskwarrior</h2>
+            <h2 class="article-title">AI 寫代碼的代價</h2>
         </div>
     </a>
 </article>
@@ -490,7 +533,7 @@ UI 是狀態機，所以應該用狀態機圖來設計。Construct User Interfac
                 
                     
 <article class="">
-    <a href="/zh/profile/toolbox/taskwarrior-hooks/">
+    <a href="/zh/toolbox/%E5%AE%9A%E8%A3%BD-taskwarrior/">
         
         
 
