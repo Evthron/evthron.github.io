@@ -14,7 +14,7 @@
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://evthron.github.io/zh/tweet/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-06-22T03:41:12&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-06-22T11:54:27&#43;08:00 '/>
 <meta name="twitter:title" content="Tweet">
 <meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="https://evthron.github.io/zh/tweet/index.xml">
             <link rel="shortcut icon" href="/favicon.ico" />
@@ -304,7 +304,7 @@
     <header class="section-header">
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">53 篇</h3>
+                <h3 class="section-count">54 篇</h3>
                 <h1 class="section-term">Tweet</h1>
                 
             </div>
@@ -312,6 +312,81 @@
     </header>
     
     <section class="article-list">
+        
+            
+<article class="">
+    <div class="article-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/tweet/%E6%9F%8F%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/">柏斯卡三角形和二的次方</a>
+            </h2>
+            
+        </div>
+    
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2026-06-22</time>
+                </div>
+            
+    
+        </footer>
+        
+    
+        
+        <div class="article-content">
+            
+            <p>$$
+\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n
+$$</p>
+<p>這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：</p>
+<p>Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？</p>
+<p>如果是為了計算答案，就會用「每個按鍵有兩個可能的狀態，所以是二的四次方」這種作弊的方法思考。</p>
+<p>但真的需要使用 EU、AO 這種組合鍵代表不同輔音的時候，真的要把所有組合列出來的時候，我就完全忘記了這回事，而是會用「n 個鍵的組合有多少」來思考。</p>
+<p>自然就會從 $C_{1}^{n}$ 開始一路數到 $C_{n}^{n}$</p>
+<ul>
+<li>A</li>
+<li>O</li>
+<li>E</li>
+<li>U</li>
+<li>AO</li>
+<li>AE</li>
+<li>AU</li>
+<li>OE</li>
+<li>OU</li>
+<li>EU</li>
+<li>AOE</li>
+<li>AOU</li>
+<li>OEU</li>
+<li>AOEU</li>
+</ul>
+<p>得出結論，總組合數就是
+$$ C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4} $$，這個是柏斯卡三角形第四層的總和減一。</p>
+<p>等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。</p>
+<p>特別是我根本不會去考慮 C_{0}^{4} 的情況，因為什麼都不按根本不能用來代表一個元音。所以是 $2^n - 1$</p>
+
+        </div>
+    </div>
+
+    
+    
+    
+    <header class="article-header">
+    
+    </header>
+</article>
         
             
 <article class="">
@@ -895,57 +970,6 @@
 </ol>
 <p>不是所有時間都是需要記錄的，像是通勤時間和上課時間一樣，無法避免的不受控時間沒有必要記錄。不過還是看自己的感覺能不能掌控。</p>
 <p>爲了讓系統不會失敗，還有一個逃脫按鈕，當你確認自己不想確認自己的行動的時候，就按下去。要是連逃脫按鈕都按不下去的話，無論處於什麽狀況，都毋庸置疑是不受控的時間，所以也不用愧疚。</p>
-
-        </div>
-    </div>
-
-    
-    
-    
-    <header class="article-header">
-    
-    </header>
-</article>
-        
-            
-<article class="">
-    <div class="article-details">
-        <div class="article-title-wrapper">
-            <h2 class="article-title">
-                <a href="/zh/tweet/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BA%E6%9C%89%E8%A7%80%E5%BF%B5/">博客的固有觀念</a>
-            </h2>
-            
-        </div>
-    
-        
-        
-        
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published">2026-03-23</time>
-                </div>
-            
-    
-        </footer>
-        
-    
-        
-        <div class="article-content">
-            
-            <p>2026-03-23</p>
-<p>根本沒有必要保存創建時間，歷史記錄難道比內容更重要嗎？覺得寫得不好就改掉，URL slug 也換掉，反正死鏈不是致命的問題，想看的人自然會找到的。</p>
-<p>什麽國際化翻譯也是，就算想用多語言寫作，也不需要每個語言版本一一對應吧？只要分開就可以了。文件系統很難承載這種「多篇文章其實是同一個的不同版本」的結構，徒增多餘的複雜度。</p>
-<p>說到底RSS的模型沒有版本更新的概念，本來就不適合讓我大刀闊斧地修改內容，只會束手束腳。</p>
 
         </div>
     </div>

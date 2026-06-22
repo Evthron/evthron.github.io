@@ -6,7 +6,42 @@
         <description>Recent content on Evthron&#39;s blog zh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
-        <lastBuildDate>Thu, 11 Jun 2026 02:07:06 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 22 Jun 2026 11:01:43 +0800</lastBuildDate><atom:link href="https://evthron.github.io/zh/tweet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>柏斯卡三角形和二的次方</title>
+        <link>https://evthron.github.io/zh/tweet/%E6%9F%8F%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</link>
+        <pubDate>Mon, 22 Jun 2026 11:01:43 +0800</pubDate>
+        <guid>https://evthron.github.io/zh/tweet/%E6%9F%8F%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</guid>
+        <description>&lt;p&gt;$$
+\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n
+$$&lt;/p&gt;
+&lt;p&gt;這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：&lt;/p&gt;
+&lt;p&gt;Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？&lt;/p&gt;
+&lt;p&gt;如果是為了計算答案，就會用「每個按鍵有兩個可能的狀態，所以是二的四次方」這種作弊的方法思考。&lt;/p&gt;
+&lt;p&gt;但真的需要使用 EU、AO 這種組合鍵代表不同輔音的時候，真的要把所有組合列出來的時候，我就完全忘記了這回事，而是會用「n 個鍵的組合有多少」來思考。&lt;/p&gt;
+&lt;p&gt;自然就會從 $C_{1}^{n}$ 開始一路數到 $C_{n}^{n}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A&lt;/li&gt;
+&lt;li&gt;O&lt;/li&gt;
+&lt;li&gt;E&lt;/li&gt;
+&lt;li&gt;U&lt;/li&gt;
+&lt;li&gt;AO&lt;/li&gt;
+&lt;li&gt;AE&lt;/li&gt;
+&lt;li&gt;AU&lt;/li&gt;
+&lt;li&gt;OE&lt;/li&gt;
+&lt;li&gt;OU&lt;/li&gt;
+&lt;li&gt;EU&lt;/li&gt;
+&lt;li&gt;AOE&lt;/li&gt;
+&lt;li&gt;AOU&lt;/li&gt;
+&lt;li&gt;OEU&lt;/li&gt;
+&lt;li&gt;AOEU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;得出結論，總組合數就是
+$$ C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4} $$，這個是柏斯卡三角形第四層的總和減一。&lt;/p&gt;
+&lt;p&gt;等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。&lt;/p&gt;
+&lt;p&gt;特別是我根本不會去考慮 C_{0}^{4} 的情況，因為什麼都不按根本不能用來代表一個元音。所以是 $2^n - 1$&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Vibe coding 的代價</title>
         <link>https://evthron.github.io/zh/tweet/vibe-coding-%E7%9A%84%E4%BB%A3%E5%83%B9/</link>
         <pubDate>Thu, 11 Jun 2026 02:07:06 +0800</pubDate>
