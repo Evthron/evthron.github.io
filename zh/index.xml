@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh</language>
         <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/zh/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>柏斯卡三角形和二的次方</title>
-        <link>https://evthron.github.io/zh/tweet/%E6%9F%8F%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</link>
+        <title>帕斯卡三角形和二的次方</title>
+        <link>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</link>
         <pubDate>Mon, 22 Jun 2026 11:01:43 +0800</pubDate>
-        <guid>https://evthron.github.io/zh/tweet/%E6%9F%8F%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</guid>
+        <guid>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</guid>
         <description>&lt;p&gt;$$
 \binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n
 $$&lt;/p&gt;
@@ -37,7 +37,7 @@ $$&lt;/p&gt;
 &lt;li&gt;AOEU&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;得出結論，總組合數就是
-$C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是柏斯卡三角形第四層的總和減一。&lt;/p&gt;
+$C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。&lt;/p&gt;
 &lt;p&gt;等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。&lt;/p&gt;
 &lt;p&gt;特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$
 \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。&lt;/p&gt;
