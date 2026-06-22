@@ -1140,8 +1140,75 @@
                 href="https://evthron.github.io/tok/tags/web/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/tweet/arch-linux-installation/</loc>
+    <lastmod>2024-08-05T20:08:58+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/arch-linux-installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/arch-linux-installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/arch-linux-installation/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/delusions/</loc>
+    <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/delusions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/delusions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/delusions/"
+                />
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/new-to-javascript/</loc>
+    <lastmod>2024-08-11T16:57:48+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/new-to-javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/new-to-javascript/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/tweet/productivity-tools/</loc>
     <lastmod>2024-07-27T19:30:21+08:00</lastmod>
+  </url><url>
+    <loc>https://evthron.github.io/en/tweet/progress/</loc>
+    <lastmod>2024-08-13T21:50:31+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/tweet/progress/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/tweet/progress/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tok"
+                href="https://evthron.github.io/tok/tweet/progress/"
+                />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/website-redesign/</loc>
     <lastmod>2024-08-12T06:12:03+08:00</lastmod>
@@ -1185,19 +1252,6 @@
                 href="https://evthron.github.io/en/tweet/sticky-menu/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/tweet/new-to-javascript/</loc>
-    <lastmod>2025-04-09T15:42:31+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/new-to-javascript/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/new-to-javascript/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/gallery/flower-pot/</loc>
     <lastmod>2024-06-26T02:39:50+08:00</lastmod>
     <xhtml:link
@@ -1214,24 +1268,6 @@
                 rel="alternate"
                 hreflang="tok"
                 href="https://evthron.github.io/tok/gallery/flower-pot/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/tweet/arch-linux-installation/</loc>
-    <lastmod>2024-06-26T02:39:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/arch-linux-installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/arch-linux-installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/arch-linux-installation/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/tweet/easier-publish/</loc>
@@ -1374,24 +1410,6 @@
                 href="https://evthron.github.io/tok/tweet/better-search-engine/"
                 />
   </url><url>
-    <loc>https://evthron.github.io/en/tweet/delusions/</loc>
-    <lastmod>2024-06-26T02:39:49+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/delusions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/delusions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/delusions/"
-                />
-  </url><url>
     <loc>https://evthron.github.io/en/tweet/joplin-vim-mode/</loc>
     <lastmod>2024-06-26T02:39:49+08:00</lastmod>
     <xhtml:link
@@ -1452,24 +1470,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://evthron.github.io/en/skill/painter/"
-                />
-  </url><url>
-    <loc>https://evthron.github.io/en/tweet/progress/</loc>
-    <lastmod>2025-04-09T15:42:31+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://evthron.github.io/zh/tweet/progress/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://evthron.github.io/en/tweet/progress/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tok"
-                href="https://evthron.github.io/tok/tweet/progress/"
                 />
   </url><url>
     <loc>https://evthron.github.io/en/gallery/accurate-colour-wheel/</loc>
