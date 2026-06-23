@@ -50,13 +50,12 @@
         <guid>https://evthron.github.io/en/posts/higher-order-operation/</guid>
         <description>&lt;p&gt;The reason why $e$ is natural is that $e^x$ grows exactly at the rate of its own value. This may seem $e$ has some special place in maths, but in fact, every exponential function grows proportionally to its own value. The number $e$ just happens to be the only one to achieve the perfect coefficient-1 with the help of its infinitely-many fine-tuned digits, just like how $\pi$ achieves the perfect radius-1 curvature.&lt;/p&gt;
 &lt;p&gt;It’s very hard to imagine an exponential index that is not an integer. How on earth can an exponential index grow continuously? Things can only multiply by themselves once, twice, but not 1.5 times. We may imagine it using roots, but this is not intuitive.&lt;/p&gt;
-&lt;p&gt;In primary school, we also took some time to understand what multiplying by a decimal number means. It means addition in fractions. Exponentiation follows this logic but one order higher—it means multiplication in roots.&lt;/p&gt;
-&lt;p&gt;This got me thinking: can we extend this definition one order higher? Can we go beyond exponentiation? This is the fourth-order operation: tetration.&lt;/p&gt;
-&lt;p&gt;Tetration is a tower of powers. Each number becomes a tower of powers with a height the same as itself.&lt;/p&gt;
-&lt;p&gt;For example, Tetration(2) becomes 2^2, and Tetration(3) becomes 3^3^3.&lt;/p&gt;
-&lt;p&gt;Is there a special number in the realm of tetration, like &lt;em&gt;e&lt;/em&gt;? Maybe the number whose &amp;ldquo;tetrational rate&amp;rdquo; (whatever that means) is equal to the value of the function itself. Forget about differentiation—maybe we can define a higher-order differentiation operation. To make this happen, we need to extend the definition of tetration, just like how we extended the definitions of multiplication and exponentiation to real numbers.&lt;/p&gt;
-&lt;p&gt;Can we extend this definition to fractions? Unfortunately, this steps into the realm of unsolved math problems. There’s no generally accepted function to extend the definition of tetration to real numbers. If tetration is not a continuous function, there’s no hope in finding its derivative.&lt;/p&gt;
-&lt;p&gt;To make things worse, unlike exponentiation—which models many natural phenomena aptly—tetration is a completely useless operation because it grows so fast that we run out of atoms in the universe by the time we reach the number 4. Nothing in the universe can be modeled using tetration. No one even knows how to make an analogy to demonstrate its growth rate.&lt;/p&gt;
+&lt;p&gt;In primary school, we also took some time to understand what multiplying by a decimal number means — addition in fractions. Exponentiation follows this logic but one order higher — multiplication in roots.&lt;/p&gt;
+&lt;p&gt;This got me thinking: can we do this one more time? Can we go beyond exponentiation? This is the fourth-order operation: tetration.&lt;/p&gt;
+&lt;p&gt;Tetration is a tower of powers. For example, Tetration(2) becomes 2^2, and Tetration(3) becomes 3^3^3. Each number becomes a tower of powers with it&amp;rsquo;s height the same as itself.&lt;/p&gt;
+&lt;p&gt;Is there a special number in the realm of tetration, like &lt;em&gt;e&lt;/em&gt;? Maybe the number whose &amp;ldquo;tetrational rate&amp;rdquo; (whatever that means) is equal to the value of the function itself. Wait, if we can define this rate, maybe we can even futher define a higher-order differentiation operation!&lt;/p&gt;
+&lt;p&gt;To make this happen, we need to extend the definition of tetration to real numbers. Unfortunately, this steps into the realm of unsolved math problems. There’s no generally accepted function to extend the definition of tetration to real numbers. If tetration is not even a continuous function, there’s no hope in finding its derivative.&lt;/p&gt;
+&lt;p&gt;To make things worse, unlike exponentiation, which models many natural phenomena aptly, tetration is a completely useless operation because it grows so fast that we run out of atoms in the universe by the time we reach the number 4. Nothing in the universe can be modeled using tetration. I can&amp;rsquo;t even think of an analogy to demonstrate its growth rate. this is because in natural phenomenon, exponential index is usually a constant number. If you think of it as a iterative process, in exponential function, the result of the last iteration is plugged into the base, while the exponent remains unchanged. in  tetration, the result is plugged into the exponent while the base remains unchanged.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1709,31 +1708,6 @@ Age   Description
 </description>
         </item>
         <item>
-        <title>Better Search Engine</title>
-        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
-        <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;marginalia.nu&lt;/a&gt; are much more diverse than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;site:reddit.com&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
-&lt;p&gt;Links:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/item?id=28550764&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://news.ycombinator.com/item?id=28550764&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ericmurphy.xyz/blog/discoverability/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://ericmurphy.xyz/blog/discoverability/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2024/04/02 18:59&lt;/p&gt;
-&lt;p&gt;Anything that is fun and useless will eventually be blocked by my own hands. It&amp;rsquo;s just a matter of time and frame of mind.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Delusions</title>
-        <link>https://evthron.github.io/en/tweet/delusions/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
-        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
@@ -1747,14 +1721,6 @@ Age   Description
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/website-redesign/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
-        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -2091,6 +2057,31 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;ul&gt;
 &lt;li&gt;Attracted me by the book title and blew my mind by promoting &amp;lsquo;get as many friends as you can&amp;rsquo;. Since the author is a businessman, you might think the book will tell you ways to manipulate others to benefit from relationships. Rather, you can still be very sincereto others while following his advice.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Better Search Engine</title>
+        <link>https://evthron.github.io/en/tweet/better-search-engine/</link>
+        <pubDate>Sat, 23 Mar 2024 01:04:38 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/better-search-engine/</guid>
+        <description>&lt;p&gt;The search results from &lt;a class=&#34;link&#34; href=&#34;https://search.marginalia.nu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;marginalia.nu&lt;/a&gt; are much more interesting than those from Google. I&amp;rsquo;m tired of those bloated SEO sites and adding &amp;ldquo;reddit&amp;rdquo; or &amp;ldquo;site:zhuanlan.zhihu.com&amp;rdquo; after every query! By the way if you like the old internet, there&amp;rsquo;s another search engine called &lt;a class=&#34;link&#34; href=&#34;https://wiby.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wiby&lt;/a&gt; to help you find old and weird websites.&lt;/p&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://news.ycombinator.com/item?id=28550764&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://news.ycombinator.com/item?id=28550764&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ericmurphy.xyz/blog/discoverability/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://ericmurphy.xyz/blog/discoverability/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2024/04/02 18:59&lt;/p&gt;
+&lt;p&gt;Anything that is fun and useless will eventually be blocked by my own hands. It&amp;rsquo;s just a matter of time and frame of mind.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Delusions</title>
+        <link>https://evthron.github.io/en/tweet/delusions/</link>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
+        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -4105,6 +4096,14 @@ traditional media.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>Winter</title>
+        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>
