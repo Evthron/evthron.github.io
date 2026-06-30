@@ -216,7 +216,7 @@ Lydian:     2221221
 &lt;/ul&gt;
 &lt;p&gt;st.sidebar.text_input&lt;/p&gt;
 &lt;h2 id=&#34;with&#34;&gt;with&lt;/h2&gt;
-&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;
+&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;&lt;br&gt;
 give context to code, similar to Go syntax&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;with st.chat_message(&amp;#34;AI&amp;#34;)
     st.markdown(message.content)
@@ -245,7 +245,7 @@ give context to code, similar to Go syntax&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;st.sidebar.text_input&lt;/p&gt;
 &lt;h2 id=&#34;with&#34;&gt;with&lt;/h2&gt;
-&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;
+&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;&lt;br&gt;
 give context to code, similar to Go syntax&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;with st.chat_message(&amp;#34;AI&amp;#34;)
     st.markdown(message.content)
@@ -345,7 +345,7 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;submodule&#34;&gt;submodule&lt;/h2&gt;
-&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.
+&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.&lt;br&gt;
 need to make seperate commits.&lt;/p&gt;
 &lt;h2 id=&#34;cicd-pipeline-github-action&#34;&gt;CI/CD Pipeline (Github Action)&lt;/h2&gt;
 &lt;p&gt;Continuous Integration, Continuous Delivery&lt;/p&gt;
@@ -443,7 +443,7 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;submodule&#34;&gt;submodule&lt;/h2&gt;
-&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.
+&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.&lt;br&gt;
 need to make seperate commits.&lt;/p&gt;
 &lt;h2 id=&#34;cicd-pipeline-github-action&#34;&gt;CI/CD Pipeline (Github Action)&lt;/h2&gt;
 &lt;p&gt;Continuous Integration, Continuous Delivery&lt;/p&gt;
@@ -529,7 +529,7 @@ need to make seperate commits.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=YnWhqhNdYyk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Stop Teaching C (youtube)&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;The quote &amp;ldquo;There are only two kinds of languages: the ones people complain about and the ones nobody uses&amp;rdquo; is said by Bjarne Stroustrup, the father of C++.
+&lt;p&gt;The quote &amp;ldquo;There are only two kinds of languages: the ones people complain about and the ones nobody uses&amp;rdquo; is said by Bjarne Stroustrup, the father of C++.&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://www.stroustrup.com/quotes.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.stroustrup.com/quotes.html&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -549,7 +549,7 @@ need to make seperate commits.&lt;/p&gt;
         <link>https://evthron.github.io/en/gallery/watermelon/</link>
         <pubDate>Fri, 03 Jan 2025 12:52:38 +0800</pubDate>
         <guid>https://evthron.github.io/en/gallery/watermelon/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/watermelon/watermelon.jpg" alt="Featured image of post Watermelon peel" /&gt;&lt;p&gt;No one should let fresh fruits rot in the air.
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/watermelon/watermelon.jpg" alt="Featured image of post Watermelon peel" /&gt;&lt;p&gt;No one should let fresh fruits rot in the air.&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/watermelon/watermelon.jpg&#34;
 	width=&#34;2318&#34;
 	height=&#34;3465&#34;
@@ -661,7 +661,7 @@ need to make seperate commits.&lt;/p&gt;
         <link>https://evthron.github.io/en/gallery/labcoat/</link>
         <pubDate>Fri, 03 Jan 2025 12:11:18 +0800</pubDate>
         <guid>https://evthron.github.io/en/gallery/labcoat/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/labcoat/labcoat.png" alt="Featured image of post Labcoat" /&gt;&lt;p&gt;This is much better as a drawing, but as a icon, somehow the original one (drawn with mouse) looks better.
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/labcoat/labcoat.png" alt="Featured image of post Labcoat" /&gt;&lt;p&gt;This is much better as a drawing, but as a icon, somehow the original one (drawn with mouse) looks better.&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/labcoat/labcoat.png&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
@@ -750,7 +750,7 @@ need to make seperate commits.&lt;/p&gt;
 		data-flex-basis=&#34;151px&#34;
 	
 &gt;
-
+&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-3.png&#34;
 	width=&#34;710&#34;
 	height=&#34;1039&#34;
@@ -765,7 +765,7 @@ need to make seperate commits.&lt;/p&gt;
 		data-flex-basis=&#34;164px&#34;
 	
 &gt;
-
+&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/body-skeleton/body-skeleton-4.png&#34;
 	width=&#34;1417&#34;
 	height=&#34;1417&#34;
@@ -864,7 +864,7 @@ Age   Description
         <item>
         <title>Hard to ask for help</title>
         <link>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</link>
-        <pubDate>Sun, 29 Dec 2024 00:14:03 +0800</pubDate>
+        <pubDate>Sat, 28 Dec 2024 05:02:20 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/hard-to-ask-for-help/</guid>
         <description>&lt;p&gt;It&amp;rsquo;s hard to ask for help. If you procrastinating until the last hour and realise you can&amp;rsquo;t solve the problem on time, the shame you feel when typing the text message to ask someone for help will makes you throw the phone away and panic alone.&lt;/p&gt;
 &lt;p&gt;If we rely on the internet to answer every small question, we miss the chance to slowly build trust with others with these questions. It is very tempting to quickly obtain the knowledge without having to admit our ignorance. Is it really the cause? Only trust begets trust, but I don&amp;rsquo;t have to trust others when asking those easy questions, it doesn&amp;rsquo;t matter whether they could answer them.&lt;/p&gt;
@@ -1449,57 +1449,57 @@ Age   Description
     &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-v&#34; &gt; pos-v &lt;/button&gt;
     &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-n&#34; &gt; pos-n &lt;/button&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-similar type-people&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; fellow &lt;div&gt; pos-adj property-similar type-people&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj type-bad&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; out of luck &lt;div&gt; pos-adj type-bad&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-personality theme-fashion type-bad type-good&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; sleek &lt;div&gt; pos-adj property-personality theme-fashion type-bad type-good&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n theme-work&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; livelihood &lt;div&gt; pos-n theme-work&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-good type-object type-people&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; gem &lt;div&gt; pos-n type-good type-object type-people&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-object&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; phoenix &lt;div&gt; pos-n type-object&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-people&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; attorney &lt;div&gt; pos-n type-people&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n property-difficult type-bad&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; peril &lt;div&gt; pos-n property-difficult type-bad&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-future&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; foresee &lt;div&gt; pos-v time-future&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v theme-info&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; keep you posted &lt;div&gt; pos-v theme-info&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-result type-good&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; pay off &lt;div&gt; pos-v time-result type-good&lt;/div&gt;&lt;/div&gt;
@@ -1514,7 +1514,7 @@ Age   Description
 &lt;/span&gt;
 &lt;span class=&#34;experience&#34;&gt;10&lt;/span&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 
@@ -1647,10 +1647,9 @@ Age   Description
         <item>
         <title>Migrating to Linux</title>
         <link>https://evthron.github.io/en/tweet/migrating-to-linux/</link>
-        <pubDate>Tue, 13 Aug 2024 03:00:19 +0800</pubDate>
+        <pubDate>Thu, 15 Aug 2024 02:59:49 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/migrating-to-linux/</guid>
-        <description>&lt;p&gt;tags:#iw
-I finally migrated my operating system to linux.&lt;/p&gt;
+        <description>&lt;p&gt;I finally migrated my operating system to linux.&lt;/p&gt;
 &lt;p&gt;Originally, I wanted to do a small-scale test on my old desktop computer, but my beloved ancient machine has failed me and refused to boot up. I have no choice but to install linux on my laptop&amp;rsquo;s spare drive. It&amp;rsquo;s very simple since I&amp;rsquo;ve tried that before on a virtual machine, but on bare metal I need be careful and not to accidentally wipe my original drive when formatting disk space.&lt;/p&gt;
 &lt;p&gt;Surprisingly, everything software I need on Windows has an linux alternative. I also tried other interesting stuff like a tiling window manager (qtile is the only one that works out of the box). I could have finished all the work earlier but I wasted a lot of time browsing because there are no ready-made net blocking software on linux. Finding the key to lock the Pandora&amp;rsquo;s box is really tough.&lt;/p&gt;
 </description>
@@ -1709,11 +1708,11 @@ I finally migrated my operating system to linux.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Joplin Vim Mode</title>
-        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
+        <title>Delusions</title>
+        <link>https://evthron.github.io/en/tweet/delusions/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
-        <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
+        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
+        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1725,29 +1724,19 @@ I finally migrated my operating system to linux.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Progress</title>
-        <link>https://evthron.github.io/en/tweet/progress/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/progress/</guid>
-        <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Search Count</title>
-        <link>https://evthron.github.io/en/tweet/search-count/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
-        <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
-&lt;p&gt;2024/04/07 03:37&lt;/p&gt;
-&lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Website redesign</title>
         <link>https://evthron.github.io/en/tweet/website-redesign/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/website-redesign/</guid>
         <description>&lt;p&gt;I finally finished rearranging this site! Now the gallery section shows my drawing in pleasant grids, the tweet section directly loads the contents of my tweets, and the homepage is no longer a messy feed but a clean introduction and table of contents (I move the feed to a separate page). I become more familiar with how hugo manages the page templates and of course, learnt a lot about editing html and css. I am very satisfied. Hmm&amp;hellip; what should I do next?&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Winter</title>
+        <link>https://evthron.github.io/en/tweet/winter/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/winter/</guid>
+        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1773,7 +1762,7 @@ I finally migrated my operating system to linux.&lt;/p&gt;
         <link>https://evthron.github.io/en/gallery/nightview/</link>
         <pubDate>Wed, 26 Jun 2024 02:46:52 +0800</pubDate>
         <guid>https://evthron.github.io/en/gallery/nightview/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/nightview/nightview.png" alt="Featured image of post night view" /&gt;&lt;p&gt;I orginally drawn this picture as the background image of this site but it made the site looked messy. I then added a strong filter on it but it defeated my purpose. Clean website templates surely look professional but they lack personality.&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/nightview/nightview.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;768&#34;
@@ -1797,7 +1786,7 @@ I finally migrated my operating system to linux.&lt;/p&gt;
         <pubDate>Tue, 25 Jun 2024 02:03:52 +0800</pubDate>
         <guid>https://evthron.github.io/en/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;I just want to make a menu that sticks on the pages using CSS, how come this could be so difficult? Even ChatGPT gave me the wrong answer.&lt;/p&gt;
-&lt;p&gt;2024/06/25 03:44
+&lt;p&gt;2024/06/25 03:44&lt;br&gt;
 Problem Solved. The key is to make the max height of the panel be 100vh minus top padding minus bottom padding.&lt;/p&gt;
 </description>
         </item>
@@ -1815,7 +1804,7 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
         <link>https://evthron.github.io/en/gallery/flower-pot/</link>
         <pubDate>Thu, 23 May 2024 04:03:14 +0800</pubDate>
         <guid>https://evthron.github.io/en/gallery/flower-pot/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post Oil pastel flower pot " /&gt;&lt;p&gt;I want to include more colour in my practice. After considering various tools I&amp;rsquo;ve got, I think oil pastel is the best pick since it is mixable and portable. I first studied how well the pigment mixes then gave it a try. The result is not bad isn&amp;rsquo;t it? We may thought oil pastel is child&amp;rsquo;s toy but it isn&amp;rsquo;t the case.
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png" alt="Featured image of post Oil pastel flower pot " /&gt;&lt;p&gt;I want to include more colour in my practice. After considering various tools I&amp;rsquo;ve got, I think oil pastel is the best pick since it is mixable and portable. I first studied how well the pigment mixes then gave it a try. The result is not bad isn&amp;rsquo;t it? We may thought oil pastel is child&amp;rsquo;s toy but it isn&amp;rsquo;t the case.&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/flower-pot/flower-pot.png&#34;
 	width=&#34;3119&#34;
 	height=&#34;4086&#34;
@@ -1851,9 +1840,9 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
     &gt;joppy&lt;/a&gt;, which is a python version of Joplin API. Finally I did something useful for myself using python. Old posts should not be just dead archives of past thoughts. I should review and improve them after some period.&lt;/p&gt;
 &lt;p&gt;2024/03/30 23:06&lt;/p&gt;
 &lt;p&gt;If I could simply use Obsidian or VS Code to edit the files, why should I configure this mess? For the sake of open source? I&amp;rsquo;m tired&amp;hellip;&lt;/p&gt;
-&lt;p&gt;2024/05/28 12:22
+&lt;p&gt;2024/05/28 12:22&lt;br&gt;
 I dived in to the source code of joppy, which is not complicated at all. It&amp;rsquo;s just making requests to joplin&amp;rsquo;s native API. Scrutinising other&amp;rsquo;s work is really the best way to improve.&lt;/p&gt;
-&lt;p&gt;05/01/2025 11:23
+&lt;p&gt;05/01/2025 11:23&lt;br&gt;
 It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to copy quick thoughts like tweet. Maybe I should improve this.&lt;/p&gt;
 &lt;p&gt;2025/03/24 22:41&lt;/p&gt;
 &lt;p&gt;Syncthing proved too sluggish for syncing my Joplin notes—Android&amp;rsquo;s transfer throttling turned every load into a test of patience. The solution? A self-hosted Joplin server via Docker. Now, I can seamlessly edit my blog posts straight from my phone, without the wait.&lt;/p&gt;
@@ -2104,11 +2093,21 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 </description>
         </item>
         <item>
-        <title>Delusions</title>
-        <link>https://evthron.github.io/en/tweet/delusions/</link>
+        <title>Joplin Vim Mode</title>
+        <link>https://evthron.github.io/en/tweet/joplin-vim-mode/</link>
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
-        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
+        <guid>https://evthron.github.io/en/tweet/joplin-vim-mode/</guid>
+        <description>&lt;p&gt;How could I not find out that there&amp;rsquo;s Vim mode in Joplin? I could&amp;rsquo;ve saved my time configuring _vimrc and pressing :w over and over again.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search Count</title>
+        <link>https://evthron.github.io/en/tweet/search-count/</link>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/search-count/</guid>
+        <description>&lt;p&gt;After giving up on YouTube, Zhihu and games, mindless searching had become my only time drainer. I thought of a way to set a soft search limit by opening ten search tabs upon browser launch. Also, I removed the search function of the omnibar. That means I run out of searches after the ten tabs have been used. What an elegant solution.&lt;/p&gt;
+&lt;p&gt;2024/04/07 03:37&lt;/p&gt;
+&lt;p&gt;It was a good idea but I can&amp;rsquo;t really cling to it. What a shame.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -2227,7 +2226,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2278,7 +2277,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2333,7 +2332,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2436,7 +2435,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2459,7 +2458,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2543,7 +2542,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 &lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2590,7 +2589,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2633,7 +2632,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2664,7 +2663,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2707,7 +2706,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2758,7 +2757,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2841,7 +2840,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2940,7 +2939,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -2971,7 +2970,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -3022,7 +3021,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -3049,7 +3048,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -3092,7 +3091,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -3123,7 +3122,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;/div&gt;
 
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 &lt;div class=&#34;badges-wrapper&#34;&gt;
@@ -3248,7 +3247,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Andrew Loomis - Drawing the Head and Hands&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#andrew-loomis---figure-drawing-for-all-its-worth&#34;&gt;
@@ -3264,7 +3263,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Andrew Loomis - Figure drawing for all it&amp;#39;s worth&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#betty-edwards---the-new-drawing-on-the-right-side-of-the-brain&#34;&gt;
@@ -3280,7 +3279,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Betty Edwards - The new drawing on the right side of the brain&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#betty-edwards---color--a-course-in-mastering-the-art-of-mixing-colors&#34;&gt;
@@ -3296,7 +3295,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#charles-williams---basic-drawing--how-to-draw-what-you-see&#34;&gt;
@@ -3313,7 +3312,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Charles Williams - Basic drawing : how to draw what you see&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#donna-krizek---drawing-and-sketching-secrets--200-tips-and-techniques-for-drawing-the-easy-way&#34;&gt;
@@ -3329,7 +3328,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#gilles-ronin---le-dessin-en-perspective-a-main-levee&#34;&gt;
@@ -3346,7 +3345,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Gilles Ronin - Le dessin en perspective a main levee&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#james-hobbs---sketch-your-world&#34;&gt;
@@ -3362,7 +3361,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;James Hobbs - Sketch Your World&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#mark-kistler---you-can-draw-in-30-days--the-fun-easy-way-to-learn-to-draw-in-one-month-or-less&#34;&gt;
@@ -3378,7 +3377,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#mark-kistler---you-can-draw-it-in-just-30-minutes--see-it-and-sketch-it-in-a-half-hour-or-less&#34;&gt;
@@ -3394,7 +3393,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#rudy-de-reyna---how-to-draw-what-you-see&#34;&gt;
@@ -3410,7 +3409,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Rudy de Reyna - How to draw what you see&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#r-o-dunlop-ra---painting-for-pleasure&#34;&gt;
@@ -3427,7 +3426,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;R. O. Dunlop, R.A - Painting for pleasure&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#sam-piyasena-beverly-philp---just-draw-it&#34;&gt;
@@ -3443,7 +3442,7 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
     &lt;div class=&#34;book-card-title&#34;&gt;Sam Piyasena, Beverly Philp - Just draw it!&lt;/div&gt;
   &lt;/div&gt;
 &lt;/a&gt;
-
+&lt;br&gt;
 
 
 &lt;a href=&#34;#%e8%b6%99%e5%b7%8d%e5%b2%a9-%e9%99%bd%e4%bd%b3-%e6%a5%8a%e8%90%8c---between-object-and-subject--painting-as-a-way-to-perceive-and-express&#34;&gt;
@@ -3464,50 +3463,50 @@ Python function (module):  29 --- Lv2 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 &lt;h3 id=&#34;andrew-loomis---drawing-the-head-and-hands&#34;&gt;Andrew Loomis - Drawing the Head and Hands&lt;/h3&gt;
 &lt;h3 id=&#34;andrew-loomis---figure-drawing-for-all-its-worth&#34;&gt;Andrew Loomis - Figure drawing for all it&amp;rsquo;s worth&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Both are the classic books that often gets recommends until this day. They
-presents more examples than explanation so I still need to copy a lot more
+&lt;li&gt;Both are the classic books that often gets recommends until this day. They&lt;br&gt;
+presents more examples than explanation so I still need to copy a lot more&lt;br&gt;
 drawings of to get the most out of them.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;betty-edwards---the-new-drawing-on-the-right-side-of-the-brain&#34;&gt;Betty Edwards - The new drawing on the right side of the brain&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;A very important book for beginners. It explains the reason why people draw
-badly is that they only draw symbols instead of what they actually see.
+&lt;li&gt;A very important book for beginners. It explains the reason why people draw&lt;br&gt;
+badly is that they only draw symbols instead of what they actually see.&lt;br&gt;
 Anyone could draw well once they know the knack.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;betty-edwards---color--a-course-in-mastering-the-art-of-mixing-colors&#34;&gt;Betty Edwards - Color : A Course in Mastering the Art of Mixing Colors&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Introduces the important concepts about colours: colour wheels, components
+&lt;li&gt;Introduces the important concepts about colours: colour wheels, components&lt;br&gt;
 of colour (hue, saturation and value), and how to actually mix them.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;charles-williams---basic-drawing--how-to-draw-what-you-see&#34;&gt;Charles Williams - Basic drawing : how to draw what you see&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Drawing doesn&amp;rsquo;t have to be masterpieces, it can be a dirty doodle drawn on
-boring lectures. In fact, the book said you don&amp;rsquo;t have to draw what you
-see. Most example shown are rough sketches, which makes it
+&lt;li&gt;Drawing doesn&amp;rsquo;t have to be masterpieces, it can be a dirty doodle drawn on&lt;br&gt;
+boring lectures. In fact, the book said you don&amp;rsquo;t have to draw what you&lt;br&gt;
+see. Most example shown are rough sketches, which makes it&lt;br&gt;
 beginner-friendly.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;donna-krizek---drawing-and-sketching-secrets--200-tips-and-techniques-for-drawing-the-easy-way&#34;&gt;Donna Krizek - Drawing and sketching secrets : 200 tips and techniques for drawing the easy way&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Introduces a lot of advanced techniques around many traditional media. It&amp;rsquo;s
+&lt;li&gt;Introduces a lot of advanced techniques around many traditional media. It&amp;rsquo;s&lt;br&gt;
 examples are all masterpieces so it&amp;rsquo;s not very useful to me yet.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;gilles-ronin---le-dessin-en-perspective-a-main-levee&#34;&gt;Gilles Ronin - Le dessin en perspective a main levee&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Introduces the mathematical knowledge behind the construction of accurate
-shapes, shadows and perspective. It&amp;rsquo;s very interesting to learn the
+&lt;li&gt;Introduces the mathematical knowledge behind the construction of accurate&lt;br&gt;
+shapes, shadows and perspective. It&amp;rsquo;s very interesting to learn the&lt;br&gt;
 principles but not very useful to me for now since I don&amp;rsquo;t need this kind of precision.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;james-hobbs---sketch-your-world&#34;&gt;James Hobbs - Sketch Your World&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Giving me the idea of outdoor sketching, which is much more interesting
+&lt;li&gt;Giving me the idea of outdoor sketching, which is much more interesting&lt;br&gt;
 than drawing indoors. To me, drawing is the best way to spend outdoor time.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;mark-kistler---you-can-draw-in-30-days--the-fun-easy-way-to-learn-to-draw-in-one-month-or-less&#34;&gt;Mark Kistler - You can draw in 30 days : the fun, easy way to learn to draw in one month or less&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;A true beginner&amp;rsquo;s book. It&amp;rsquo;s first lesson is to teach you how to draw a
-ball, then a cube, then a cylinder, then all the basic techniques in
-drawing. To me, the most brilliant technique introduced is smudging. Although
-any art teacher will tell you this is bad, this is much more
+&lt;li&gt;A true beginner&amp;rsquo;s book. It&amp;rsquo;s first lesson is to teach you how to draw a&lt;br&gt;
+ball, then a cube, then a cylinder, then all the basic techniques in&lt;br&gt;
+drawing. To me, the most brilliant technique introduced is smudging. Although&lt;br&gt;
+any art teacher will tell you this is bad, this is much more&lt;br&gt;
 beginner-friendly than cross-hatching, while the effect created is still stunning.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;mark-kistler---you-can-draw-it-in-just-30-minutes--see-it-and-sketch-it-in-a-half-hour-or-less&#34;&gt;Mark Kistler - You can draw it in just 30 minutes : see it and sketch it in a half-hour or less&lt;/h3&gt;
@@ -3516,24 +3515,32 @@ beginner-friendly than cross-hatching, while the effect created is still stunnin
 &lt;/ul&gt;
 &lt;h3 id=&#34;rudy-de-reyna---how-to-draw-what-you-see&#34;&gt;Rudy de Reyna - How to draw what you see&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Every object is a combination of spheres, cubes, cylinders and cones,
+&lt;li&gt;Every object is a combination of spheres, cubes, cylinders and cones,&lt;br&gt;
 really?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;r-o-dunlop-ra---painting-for-pleasure&#34;&gt;R. O. Dunlop, R.A - Painting for pleasure&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;It recommends pastels as a good outdoor medium, although I later found
-out that it meant the powdery ones. Powdery pastels are more expensive
+&lt;li&gt;It recommends pastels as a good outdoor medium, although I later found&lt;br&gt;
+out that it meant the powdery ones. Powdery pastels are more expensive&lt;br&gt;
 and create a powdery mess. So I&amp;rsquo;m satisfied with the oily ones. It is another book that encourages beginners to do outdoor painting.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;sam-piyasena-beverly-philp---just-draw-it&#34;&gt;Sam Piyasena, Beverly Philp - Just draw it!&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;It gives out lot of interesting ideas on creative art making, not bounded by
+&lt;li&gt;It gives out lot of interesting ideas on creative art making, not bounded by&lt;br&gt;
 traditional media.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;趙巍岩-陽佳-楊萌---between-object-and-subject--painting-as-a-way-to-perceive-and-express&#34;&gt;趙巍岩, 陽佳, 楊萌 - Between object and subject : painting as a way to perceive and express&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;It thoroughly discussed how should we practise drawing to learn our true styles. Artistic drawings are not likely to be eye candies. We draw not only what we see but beyond what we see.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Progress</title>
+        <link>https://evthron.github.io/en/tweet/progress/</link>
+        <pubDate>Mon, 26 Feb 2024 01:46:25 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/progress/</guid>
+        <description>&lt;p&gt;If I don&amp;rsquo;t post anything, I can&amp;rsquo;t feel my progress. If I can&amp;rsquo;t feel my progress, I get stuck on changing the same text. In term of writing novel, should quantity be favoured over quality? Is there a way to quantity progress if I can&amp;rsquo;t predict when and how the project is going to be completed?&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -3848,7 +3855,7 @@ traditional media.&lt;/li&gt;
 	
 &gt;
 &lt;/p&gt;
-&lt;p&gt;Now repaint it with the preset colour palate from MS Paint. This surely looked childish, but somehow it still looks more pleasant than the above one. That because contrast in lightness are reintroduced.
+&lt;p&gt;Now repaint it with the preset colour palate from MS Paint. This surely looked childish, but somehow it still looks more pleasant than the above one. That because contrast in lightness are reintroduced.&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/accurate-colour-wheel/naive-contrast.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;1024&#34;
@@ -3905,7 +3912,7 @@ traditional media.&lt;/li&gt;
     &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;firefox&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
-&lt;p&gt;Don&amp;rsquo;t remind yourself that you&amp;rsquo;ve blocked sites. Remove them from the search results.
+&lt;p&gt;Don&amp;rsquo;t remind yourself that you&amp;rsquo;ve blocked sites. Remove them from the search results.&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublacklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;firefox&lt;/a&gt;&lt;/p&gt;
@@ -3974,7 +3981,7 @@ traditional media.&lt;/li&gt;
     &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;firefox&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h3&gt;
-&lt;p&gt;Don&amp;rsquo;t remind yourself that you&amp;rsquo;ve blocked sites. Remove them from the search results.
+&lt;p&gt;Don&amp;rsquo;t remind yourself that you&amp;rsquo;ve blocked sites. Remove them from the search results.&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;chrome&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublacklist&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;firefox&lt;/a&gt;&lt;/p&gt;
@@ -4097,14 +4104,6 @@ traditional media.&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-        </item>
-        <item>
-        <title>Winter</title>
-        <link>https://evthron.github.io/en/tweet/winter/</link>
-        <pubDate>Fri, 22 Dec 2023 18:20:01 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/winter/</guid>
-        <description>&lt;p&gt;It is so cold. I thought it would be warmer since the sunlight was so bright last week as if it were August. Sunny days can&amp;rsquo;t go on forever.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -4275,7 +4274,7 @@ traditional media.&lt;/li&gt;
         <link>https://evthron.github.io/en/gallery/park/</link>
         <pubDate>Sun, 23 Jul 2023 04:39:53 +0800</pubDate>
         <guid>https://evthron.github.io/en/gallery/park/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post Bench" /&gt;&lt;p&gt;A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/park/bench.jpg" alt="Featured image of post Bench" /&gt;&lt;p&gt;A cardboard frame is necessary for sketching. A phone camera works too if you zoom in a bit.&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/park/bench.jpg&#34;
 	width=&#34;1344&#34;
 	height=&#34;1581&#34;
@@ -4298,7 +4297,7 @@ traditional media.&lt;/li&gt;
         <link>https://evthron.github.io/en/gallery/shelf-site-sky/</link>
         <pubDate>Mon, 22 May 2023 18:46:01 +0800</pubDate>
         <guid>https://evthron.github.io/en/gallery/shelf-site-sky/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post Shelf site cloud" /&gt;&lt;p&gt;See something draw something.
+        <description>&lt;img src="https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg" alt="Featured image of post Shelf site cloud" /&gt;&lt;p&gt;See something draw something.&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/gallery/shelf-site-sky/shelf-site-sky.jpg&#34;
 	width=&#34;512&#34;
 	height=&#34;657&#34;

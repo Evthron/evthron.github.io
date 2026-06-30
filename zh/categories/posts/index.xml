@@ -235,7 +235,7 @@ sunny sky, clouds
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這裏的訣竅是，為了指定物件的顏色，又不讓顏色擴散到其他物件上，就要把同類特徵打包在一起，不用逗號隔開，讓模型認為這是一個整體。&lt;/p&gt;
 &lt;p&gt;同時還要用負面提示詞過濾掉相似但不相干的概念：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hair bow, hair ribbon, backpack, messenger bag, shoulder bag, school bag, hand bag, thigh strap, blush, worst quality, (petite,child,infant,toddlers,chibi,sd character:1.1), (bad_prompt_version2:0.8)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;效果：
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;效果：&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/posts/%E4%BB%80%E9%BA%BC%E6%89%8D%E7%AE%97%E6%9C%83%E7%94%A8-ai/ai-image-1.png&#34;
 	width=&#34;512&#34;
 	height=&#34;512&#34;
@@ -329,7 +329,7 @@ sunny sky, clouds
 &lt;p&gt;新時代的藝術家只能繼續往上爬，以人工智能為工具，探索更加前所未見的風格。&lt;/p&gt;
 &lt;p&gt;反對新技術的總是輸家，擁有新技術的才是贏家。織布機對織布工，相機對肖像畫家，網上商店對實體店。&lt;/p&gt;
 &lt;p&gt;我不怎麼喜歡用AI。我覺得創作應該是要由自己的手寫出來的才對。我想學習理工科的人可能對寫作和繪畫的過程不感興趣，所以不明白作家和畫家的心情。&lt;/p&gt;
-&lt;p&gt;任何創作，只要背後有某種通則存在，都是可以用運算模擬出來的。
+&lt;p&gt;任何創作，只要背後有某種通則存在，都是可以用運算模擬出來的。&lt;br&gt;
 不斷地解方程，計算概率。看似需要創意的工作，實際上仍然帶有重複的要素。電腦缺乏的創意，只要用隨機生成的初始數據彌補就好。這使創作變成一種可以大量生產的商品。創作者的期待在商業作品中寄託的自我表達，執著於以人手製作的作品，成了多餘的奢侈。&lt;/p&gt;
 &lt;p&gt;說到這裡，似乎只是和過去所有的科技進步一樣，不斷以自動的機械代替人手而已。為什麼會不能接受呢？&lt;/p&gt;
 &lt;p&gt;問題在於，創作本身是有樂趣的，。&lt;/p&gt;
@@ -522,7 +522,7 @@ _|_|_
 &lt;p&gt;角開是最簡單的開局，能夠迅速構建三角殺。三角殺需要的是 a1、a3、c1 三個角落，形成形成橫豎斜三條殺路。這個開局的明顯缺陷是放棄了關鍵的中間格。只要被有經驗的對手佔據中間格 b2，擋住斜路，就能被輕易破解。所以角開又被稱為「新手開局」。不需過多的分析，輸贏就看對手能不能看穿自己的意圖。&lt;/p&gt;
 &lt;p&gt;從這個新手開局裏，我們發現井子棋的中間格是兵家必爭之地，佔據了中間格，就算不能勝利，也能掌控局面。為何不一開始就下在中間格呢？接下來就要説到最常用的中開了。&lt;/p&gt;
 &lt;h2 id=&#34;中開&#34;&gt;中開&lt;/h2&gt;
-&lt;p&gt;井字棋的棋盤設計，使得棋手佔領中心，才能形成橫、豎、斜三路（三角殺除外）。所以，先手開局「搶中」，是常見的做法。
+&lt;p&gt;井字棋的棋盤設計，使得棋手佔領中心，才能形成橫、豎、斜三路（三角殺除外）。所以，先手開局「搶中」，是常見的做法。&lt;br&gt;
 中開的局面變化多樣，可使用多種殺法，如中邊角殺和角邊角殺。適合進階的棋手使用。&lt;/p&gt;
 &lt;p&gt;這個開局追求的是中邊角殺。中邊角殺還細分成直角三角形式（a1, a2, b2） 和等腰三角形式（a1, b2, a3）。要採用那種形式，要按照對方的應對決定。中邊角有兩點要注意，第一是要熟記兩種形式的形狀，第二是要注意不要給對方反制的機會，必須更注重防禦。在角開裏，後手是沒有取勝的機會的，但在中開裏，對手可以埋伏好角角邊殺反擊。經驗不足的棋手容易出錯，使後手有反敗爲勝的機會。&lt;/p&gt;
 &lt;h3 id=&#34;一對方使用邊擋b1&#34;&gt;一、對方使用邊擋（b1）&lt;/h3&gt;
@@ -611,7 +611,7 @@ _|_|_
 &lt;p&gt;遊戲裏面的數值，應該要能應該要能夠轉化成現實裏面的努力。我的方法是，要記錄那些「看得見，增長得快，而且能實際反映能力」的東西。比如學習語言的時候，可以拿詞彙量當經驗值：我懂一百個字，你懂一千個字，那你可以用的字就比我多九倍。如果我努力一點，拿出遊戲刷等級一樣的氣勢，可能只要花四個月的時間就能多學九百個字。不過因為記憶是看不見的，所以一邊學習新詞的時候要一邊記下來，這樣就有了一本能夠反映自己記憶的本子了。我在記錄繪畫經驗的時候，採用了一種更複雜的系統：每畫一副畫，我就會拍一張照，然後我會給這副畫打上標籤，一幅畫可能是畫人的，也可能用了顏色。每一種標籤都對應到一種繪畫的能力，標籤的數量就是那種能力的經驗值，用程序統計好之後做成經驗條，更新到網站上。&lt;/p&gt;
 &lt;p&gt;不過，這個系統還是會有很多做不到的事。在學習一項新的技術之前，是沒有辦法預測學習這項技術的時候，到底有什麼東西是「看得見，增長得快，而且能實際反映能力」的。要先練習過一陣子，才能知道到底有什麼東西是適合記錄的，然後回頭修改系統。&lt;/p&gt;
 &lt;p&gt;有些活動，我甚至不知道有沒有這種能反映實際能力的指標，例如體能、友誼和睡眠質量，這些屬於生活習慣，沒法提升，而不保持就會退化。所以上面的方法應該不適用，反倒是簡單的方法會比較好。&lt;/p&gt;
-&lt;p&gt;如果我能把這個系統改得無懈可擊，讓自己樂在其中的話，這個系統可能就能成為一款真正的遊戲。
+&lt;p&gt;如果我能把這個系統改得無懈可擊，讓自己樂在其中的話，這個系統可能就能成為一款真正的遊戲。&lt;br&gt;
 戲的系統是很重要的，少了自己也會繼續運轉的系統，沒有自己運行自己的系統的道理。&lt;/p&gt;
 </description>
         </item>
@@ -711,20 +711,20 @@ Altered:    1212222
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;風衣一行人下了山，來到了一家披薩館。餐館外依然寒風凜冽。大家躲在餐館裏面，冰冷的身體慢慢暖起來了。&lt;/p&gt;
 &lt;p&gt;風衣蹲在點餐處前，掃視着展櫃裏的披薩款式。這家披薩館專門製作超級大塊的披薩，只要吃一塊就能吃飽。風衣喜歡吃的口味應該是印度咖喱辣肉，但紐約芝士完全沒有餡料的看起來十分吸引，既然沒有餡料，口味應該有過人之處吧？想着自己能回到這裏漫不經心地選擇晚餐，風衣不禁微笑了起來。回想起今天的艱辛經歷，或許一開始就應該取消這種有勇無謀的遠足。躲在温暖的商場裏亂逛説不定會比較好。&lt;/p&gt;
 &lt;p&gt;就在風衣思考的時候，兜帽搶先跑到櫃枱，豪爽地點了三大塊，分別是夏威夷菠蘿香腸、經典莎樂美腸青椒和日式照燒雞。墨鏡點了黑松露蘑菇芝士。牛仔則是香草雞肉。&lt;/p&gt;
-&lt;p&gt;風衣點的芝士披薩是最後上來的。看見大家的披薩都上齊了之後，兜帽誇張地宣佈：「好，開始分吧！」
-「分什麽？」墨鏡不解。
-「當然是把每個人的披薩切開然後平分。」
-「但是我只想吃這個黑松露，別算上我。」
-「我點了三種口味都拿出來分了，能多吃幾種，所謂要學會分享才能成長，你就不要計較了。」
-「我的可是最貴的啊……等等，我還沒拍照！」
+&lt;p&gt;風衣點的芝士披薩是最後上來的。看見大家的披薩都上齊了之後，兜帽誇張地宣佈：「好，開始分吧！」&lt;br&gt;
+「分什麽？」墨鏡不解。&lt;br&gt;
+「當然是把每個人的披薩切開然後平分。」&lt;br&gt;
+「但是我只想吃這個黑松露，別算上我。」&lt;br&gt;
+「我點了三種口味都拿出來分了，能多吃幾種，所謂要學會分享才能成長，你就不要計較了。」&lt;br&gt;
+「我的可是最貴的啊……等等，我還沒拍照！」&lt;br&gt;
 兜帽沒有理會墨鏡，強行把所有人的披薩，切成三四塊，然後分攤到每個人的盤子裏。披薩上面的菠蘿、香腸、牛肉和雞塊全部混在一起了。&lt;/p&gt;
-&lt;p&gt;墨鏡很不悦地舉起手機，能拍的就只剩下桌上的一團混亂了。墨鏡充滿怨念地在手機上打字：「發不了帖，只好發動態控訴這種恐怖行徑……」
+&lt;p&gt;墨鏡很不悦地舉起手機，能拍的就只剩下桌上的一團混亂了。墨鏡充滿怨念地在手機上打字：「發不了帖，只好發動態控訴這種恐怖行徑……」&lt;br&gt;
 牛仔有點尷尬地笑着：「這樣就嘗不清楚每種的味道了，菠蘿就給你們吧。」&lt;/p&gt;
 &lt;p&gt;風衣盯著桌上的披薩，心想：披薩固然很好吃，但也只是好吃而已。只要進肚子裏都會消化成碳水化合物、脂肪和蛋白質，變得被兜帽手弄得亂七八糟的披薩配料一樣。養分完全被身體吸收了之後，狼吞虎嚥的愉悅也會消失無蹤。無論是精緻的餐點還是流質食品，只要能補充營養就足夠了。&lt;/p&gt;
 &lt;p&gt;風衣把餐桌上的墨西哥辣椒醬和胡椒粉擠在芝士披薩上面，大口吃了起來。墨鏡一臉訝異：「辣椒醬和芝士？我絕對不會這樣搭。」&lt;/p&gt;
 &lt;p&gt;風衣不喜歡吃辣，這只不過是嚐鮮而已。把口味未知的辣椒醬放到芝士披薩上，讓風衣感到很新鮮。這和風衣來到這家披薩餐館覺得高興的原因一樣，只是大型披薩有新鮮感而已。如果風衣自己挑的話，應該會到更普通一點的餐館吃飯。&lt;/p&gt;
-&lt;p&gt;大家一邊吃一邊聊起天來。兜帽感嘆：「我們偏偏在這麼冷的天氣才去爬山啊。偶爾在旅途裏經歷些磨難也好，印象才會更深刻嘛。」
-墨鏡不滿：「才不是！雖然很久沒爬，但也應該找個合適一點的日子吧？虧兜帽你穿這麼少還能撐得住。」
+&lt;p&gt;大家一邊吃一邊聊起天來。兜帽感嘆：「我們偏偏在這麼冷的天氣才去爬山啊。偶爾在旅途裏經歷些磨難也好，印象才會更深刻嘛。」&lt;br&gt;
+墨鏡不滿：「才不是！雖然很久沒爬，但也應該找個合適一點的日子吧？虧兜帽你穿這麼少還能撐得住。」&lt;br&gt;
 牛仔説：「這樣一來，大家的耐寒抗性就上升了。之後我還想在冬天的時候去外國爬山呢，累積點經驗也好。」&lt;/p&gt;
 &lt;p&gt;風衣靜靜聽着他們的話。辣椒醬似乎放得太多了，他正頂着舌頭上的灼熱感，不停冒汗。&lt;/p&gt;
 &lt;p&gt;無論是好的經歷還是不好的經歷，被腦袋消化了之後都是一樣的。除了一點稱作回憶的養分以外，什麼都不會剩下。不過，除了這種常有的落寞感之外，風衣還有一種奇怪的感覺。&lt;/p&gt;
@@ -734,8 +734,8 @@ Altered:    1212222
 &lt;p&gt;「嗯，我沒有帶巧克力上山。」&lt;/p&gt;
 &lt;p&gt;牛仔認真地想了一下，回答：「不可能，因為今天我只帶了兩排巧克力。同一口味的我沒有帶兩排。」&lt;/p&gt;
 &lt;p&gt;風衣打開背包，把被咬了一口的巧克力拿出來。「莫非這成了來歷不明的物件嗎？」風衣難得地覺得自己遇上了超自然事件。不過，風衣心裏還是很清楚，現實一點的答案，大概是媽媽在自己出發前塞進自己背包裏面的吧，回家之後才能確認了。&lt;/p&gt;
-&lt;p&gt;兜帽從座位上站起來：「好了，那麼該走了，這麼早還不用急着回去吧？接下來去商場逛一下。」
-牛仔提醒兜帽：「兜帽，走之前你該先擦一下嘴。」
+&lt;p&gt;兜帽從座位上站起來：「好了，那麼該走了，這麼早還不用急着回去吧？接下來去商場逛一下。」&lt;br&gt;
+牛仔提醒兜帽：「兜帽，走之前你該先擦一下嘴。」&lt;br&gt;
 兜帽的鼻子上沾了一塊黑松露醬。兜帽一邊笑着，一邊不好意思地拿起餐巾紙擦嘴。&lt;/p&gt;
 </description>
         </item>
@@ -824,8 +824,8 @@ Altered:    1212222
         <link>https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/</link>
         <pubDate>Mon, 23 Mar 2026 07:53:13 +0800</pubDate>
         <guid>https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/feature.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。
-這些雖然是基礎得不能再基礎的算數題
+        <description>&lt;img src="https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/feature.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;br&gt;
+這些雖然是基礎得不能再基礎的算數題&lt;br&gt;
 量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如兩點鐘在一點鐘後面，三點鐘在兩點鐘後面，這和兩小時在一小時後面，三小時在兩小時後面是一樣的，但是一小時加兩小時等於三小時，而「一點鐘」加「兩點鐘」是沒有意義的 。&lt;/p&gt;
 &lt;p&gt;要利用序數，就要先轉換成有用的量數。對於不同的問題，我們關心的量數是不一樣的，所以轉換方法也不一樣。&lt;/p&gt;
 &lt;p&gt;在數物件的時候，我們關心的量數是「物件的量數」，這剛好和「最後一個物件的序數」是相等的。比如要知道桌子上有幾個蘋果，就要「第一個，第二個，第三個」這樣數出來。數到了第三個，蘋果總數就是三個。&lt;/p&gt;
@@ -1193,7 +1193,7 @@ Altered:    1212222
     build: .
     network_mode: host #added here
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用主機的網絡&#34;&gt;使用主機的網絡&lt;/h3&gt;
-&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。
+&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/5626362&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/5626362&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run busybox --network=&amp;#34;host&amp;#34; ping google.com
@@ -1204,13 +1204,13 @@ Altered:    1212222
 reboot
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;nftables-flush&#34;&gt;nftables flush&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277638&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://bbs.archlinux.org/viewtopic.php?id=277638&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nft flush ruleset
 sudo pacman -R nftables 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;搞了這麼久，真的感覺自己在浪費時間，趕緊換到 Windows 弄 WSL (Windows Subsystem of linux）或者直接在 Linux 上裝虛擬機肯定會比較快。但我只要一被麻煩纏上就沒有心情思考其他的解決辦法。我説不定是在追求柳暗花明的感覺。&lt;/p&gt;
-&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。
+&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/70452290&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/70452290&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl disable nftables
@@ -1284,7 +1284,7 @@ sudo reboot
     build: .
     network_mode: host #added here
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用主機的網絡&#34;&gt;使用主機的網絡&lt;/h3&gt;
-&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。
+&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/5626362&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/5626362&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run busybox --network=&amp;#34;host&amp;#34; ping google.com
@@ -1295,13 +1295,13 @@ sudo reboot
 reboot
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;nftables-flush&#34;&gt;nftables flush&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277638&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://bbs.archlinux.org/viewtopic.php?id=277638&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nft flush ruleset
 sudo pacman -R nftables 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;搞了這麼久，真的感覺自己在浪費時間，趕緊換到 Windows 弄 WSL (Windows Subsystem of linux）或者直接在 Linux 上裝虛擬機肯定會比較快。但我只要一被麻煩纏上就沒有心情思考其他的解決辦法。我説不定是在追求柳暗花明的感覺。&lt;/p&gt;
-&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。
+&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/70452290&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/70452290&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl disable nftables
@@ -1387,8 +1387,8 @@ sudo reboot
 &lt;h2 id=&#34;往全世界分享&#34;&gt;往全世界分享&lt;/h2&gt;
 &lt;p&gt;往另一個方面想，互聯網能夠讓我們對全世界廣播自己的想法，那為什麽還要侷限在單對單的信件交流呢？&lt;/p&gt;
 &lt;p&gt;我們期望的「交流」，有時候只是向其他人扔出一個又一個的想法而已。為何不把這些想法扔向全世界？這種做法叫「分享」。分享沒有特定的交流對象，這個特性能消除上面所說的、即時通訊有的所有缺點。&lt;/p&gt;
-&lt;p&gt;第一，話題只需要自己感興趣就可以。
-第二，不期待回應，讓人讀到自己的訊息就是全部目的，所以絕對不會失敗。而且只要帖子還在網上，就不斷會有新的人讀到。
+&lt;p&gt;第一，話題只需要自己感興趣就可以。&lt;br&gt;
+第二，不期待回應，讓人讀到自己的訊息就是全部目的，所以絕對不會失敗。而且只要帖子還在網上，就不斷會有新的人讀到。&lt;br&gt;
 第三，沒有說謊的理由，也有充足的篇幅表達自己的想法，所以給人可信的感覺。&lt;/p&gt;
 &lt;p&gt;其實大家每天在社交網站發帖，就已經在分享了。但是社交網站有各種各樣的問題，比如光讀不寫、浪費時間、龍蛇混雜等等。微信朋友圈的形式也不錯，只會看到朋友的內容，但是不能讓所有人看到自己寫的東西還是有一種小家子氣的感覺。所以要在網絡上立足分享，還是需要一個自己的網站。雖然我能建好，但一般的人應該不懂。所以至少要把自己創造的內容，放在不需要登入也能讓所有人看到的地方。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;

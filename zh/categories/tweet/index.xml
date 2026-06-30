@@ -11,8 +11,8 @@
         <link>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</link>
         <pubDate>Mon, 22 Jun 2026 11:01:43 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</guid>
-        <description>&lt;p&gt;$$
-\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n
+        <description>&lt;p&gt;$$&lt;br&gt;
+\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n&lt;br&gt;
 $$&lt;/p&gt;
 &lt;p&gt;這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：&lt;/p&gt;
 &lt;p&gt;Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？&lt;/p&gt;
@@ -36,10 +36,10 @@ $$&lt;/p&gt;
 &lt;li&gt;OEU&lt;/li&gt;
 &lt;li&gt;AOEU&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;得出結論，總組合數就是
+&lt;p&gt;得出結論，總組合數就是&lt;br&gt;
 $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。&lt;/p&gt;
 &lt;p&gt;等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。&lt;/p&gt;
-&lt;p&gt;特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$
+&lt;p&gt;特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$&lt;br&gt;
 \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1&lt;/li&gt;
@@ -126,14 +126,14 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <link>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</link>
         <pubDate>Tue, 28 Apr 2026 23:16:10 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</guid>
-        <description>&lt;p&gt;2026-04-26
+        <description>&lt;p&gt;2026-04-26&lt;br&gt;
 用 AI 寫需要蒐集新聞、分析數據和下判斷的報告就是找死。&lt;/p&gt;
 &lt;p&gt;海量的新聞根本看不完，而且永遠都是最新的，沒有因為太新所以沒注意的藉口。&lt;/p&gt;
 &lt;p&gt;已經給你整理好數據之後，又怎麼會有動力逐個來源點進去看？弄成引用正確的格式更是奢望。&lt;/p&gt;
 &lt;p&gt;一支股票未來會漲會是跌怎麼説都説得通。聊到天荒地老也搞不清楚。做的一切都只是為看漲還是看跌找理由。&lt;/p&gt;
 &lt;p&gt;報告的寫法和結構也拿不了主意，同一句話有一百種表達方式。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;2026-04-28
+&lt;p&gt;2026-04-28&lt;br&gt;
 主要業務、增長趨勢、覆蓋範圍、護城河、短期優劣勢……這哪是投資建議？這是找工作選公司啊。&lt;/p&gt;
 </description>
         </item>
@@ -409,7 +409,7 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <pubDate>Sat, 29 Mar 2025 22:45:40 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%B9%BB%E6%83%B3/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
-&lt;p&gt;2024/04/01 00:30
+&lt;p&gt;2024/04/01 00:30&lt;br&gt;
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
 &lt;p&gt;幻想是行不通的，最需要幻想的時候，是幻想不出來的。要消耗腦袋的力量&lt;/p&gt;
 </description>
@@ -640,7 +640,7 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
 &lt;p&gt;先看看招聘告示有什麼需求吧，有什麼需要的技能和軟件。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Version control: Git, CI/CD pipelines&lt;/li&gt;
-&lt;li&gt;Web: JavaScript, TypeScript, REST APIs, Responsive design, Redux/Context, RESTful APIs, React.js, React Native, MongoDB
+&lt;li&gt;Web: JavaScript, TypeScript, REST APIs, Responsive design, Redux/Context, RESTful APIs, React.js, React Native, MongoDB&lt;br&gt;
 – Cloud: Google Cloud Platform (GCP), Amazon Web Services (AWS), Firebase&lt;/li&gt;
 &lt;li&gt;Data: Excel VBA, Python, Matlab, SQL, Tableau, R, S+, SAS, PowerBI&lt;/li&gt;
 &lt;li&gt;Backend: Django, Spring Boot, Express.js&lt;/li&gt;
@@ -655,11 +655,11 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
 &lt;p&gt;有公司是專門用 AI 寫 CV 的。果然，CV 和求職信都是先用 ATS 自動根據關鍵字篩選的，面試前根本沒人看。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;2025/03/10&lt;/p&gt;
-&lt;p&gt;一段時間沒看又變得焦慮起來了。最近很多都開始截止申請了。沒問題的，今天是個繼續的好日子，正好幾份申請的截止日期，捏了一把冷汗……
+&lt;p&gt;一段時間沒看又變得焦慮起來了。最近很多都開始截止申請了。沒問題的，今天是個繼續的好日子，正好幾份申請的截止日期，捏了一把冷汗……&lt;br&gt;
 很痛苦地檢查了一遍郵件，就算有多忙也好，每天都要看才可以，不然會錯過很多機會。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://evthron.github.io/zh/code/dotnet/&#34; &gt;.NET&lt;/a&gt; 是什麼玩意啊，Web Dev 課沒教…… 「我能熟練掌握 .NETCORE, ASP.NET 和 C#」……「裝久了就是真的」。&lt;/p&gt;
-&lt;p&gt;修改了一下 CV，加入了我在講座學回來的「僱主最重視的三大特質」── 溝通合作能力、領導能力和主動思考。感覺比較充實。但項目的質量還是不怎麼樣。
-為太晚了而恐懼的時候，還可以更晚。這次的不同之處只在於這次是我無法掌握的而已。
+&lt;p&gt;修改了一下 CV，加入了我在講座學回來的「僱主最重視的三大特質」── 溝通合作能力、領導能力和主動思考。感覺比較充實。但項目的質量還是不怎麼樣。&lt;br&gt;
+為太晚了而恐懼的時候，還可以更晚。這次的不同之處只在於這次是我無法掌握的而已。&lt;br&gt;
 &lt;div class=&#34;pdf-embed&#34;&gt;
     &lt;iframe src=&#34;https://evthron.github.io/evthron-cv-2.pdf&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border: none;&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -759,9 +759,9 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <description>&lt;p&gt;如果不用別人寫好的工具，到底要怎麼做出有圖形界面的程序呢？簡單的編程練習總是在純文字的界面打轉。需要用到圖形界面的時候，就要導入一些神奇的函式庫。&lt;/p&gt;
 &lt;p&gt;只是自己寫給自己用的話，軟件根本不需要有圖形界面，在終端裏輸入命令就足夠了。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C++，Python 本身是做不到的。
+&lt;p&gt;要和操作系統交互才能畫出窗口，所以需要導入函式庫和用 C++，Python 本身是做不到的。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;how to make gui in python without tools (stackoverflow)&lt;/a&gt;
+    &gt;how to make gui in python without tools (stackoverflow)&lt;/a&gt;&lt;br&gt;
 瀏覽器是最通用的渲染引擎，所以用網站做 UI 應該是最簡單的……&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;UI 也算是數據可視化的一種吧？&lt;/p&gt;
@@ -794,11 +794,11 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <pubDate>Tue, 07 Jan 2025 18:13:55 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/lottery/</guid>
         <description>&lt;p&gt;「49個數字選6個」，規則雖然很簡單但要把概率算出來還真不是這麼容易。要算中頭獎的概率很簡單，只是1/49C6 = 1/13983816 而已。概率這麼低，就算頭獎獎金能退高期望值也沒有意義。現實一點，如果6個數字可以中3個的話，就能把買票錢賺回來，這個概率是多少呢？&lt;/p&gt;
-&lt;p&gt;簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。
-全部不中的可能性 = (43/49)*7 = 0.4
-中一個的可能性 = 6/49 * (43/49)^5 * 6 = 0.38
-中兩個的可能性 = 6/49 * 6/49 * (43/49)^4 * 6C2 = 0.133
-至少中三個的可能性 = 1- 0.4 -0.38 -0.133 = 0.087
+&lt;p&gt;簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。&lt;br&gt;
+全部不中的可能性 = (43/49)*7 = 0.4&lt;br&gt;
+中一個的可能性 = 6/49 * (43/49)^5 * 6 = 0.38&lt;br&gt;
+中兩個的可能性 = 6/49 * 6/49 * (43/49)^4 * 6C2 = 0.133&lt;br&gt;
+至少中三個的可能性 = 1- 0.4 -0.38 -0.133 = 0.087&lt;br&gt;
 正確答案應該會比這個高？&lt;/p&gt;
 &lt;p&gt;就算學過了離散數學的排列組合，算這些還是很頭疼，真是白學了。難怪明明不可能中還是有這麼多人前仆後繼地買彩票。&lt;/p&gt;
 &lt;hr&gt;
@@ -942,7 +942,7 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%AE%89%E8%A3%9D-arch-linux/</guid>
         <description>&lt;p&gt;Arch Wiki 的網絡設置和啟動引導部分寫得不清晰，除此之外不算太難。現在五分鐘就能裝好。&lt;/p&gt;
-&lt;p&gt;19/07/2024
+&lt;p&gt;19/07/2024&lt;br&gt;
 現在看來 Arch Wiki 寫得不好的地方就只有安裝指南。無論遇到什麼問題，Arch Wiki 都能解決。&lt;/p&gt;
 </description>
         </item>
@@ -968,7 +968,7 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E9%BB%8F%E5%9C%A8%E6%97%81%E9%82%8A%E7%9A%84%E9%81%B8%E5%96%AE/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
-&lt;p&gt;2024/06/25 03:44
+&lt;p&gt;2024/06/25 03:44&lt;br&gt;
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
 </description>
         </item>
@@ -1037,7 +1037,7 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
 AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試試看吧！ 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;居然寫得相當不錯……用 AI 來佔字數這個把戲大家多看幾次也會無聊，還是扔進沙盒裏好了。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;2025/08/10
+&lt;p&gt;2025/08/10&lt;br&gt;
 弄好了一直想要的標籤搜尋功能。難得有心情為網站寫代碼添磚加瓦。寫 React 和寫一般的 JavaScript 的感覺差得很遠。&lt;/p&gt;
 </description>
         </item>
@@ -1047,7 +1047,7 @@ AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試
         <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
-&lt;p&gt;2024/06/25 03:44
+&lt;p&gt;2024/06/25 03:44&lt;br&gt;
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
 </description>
         </item>
@@ -1092,7 +1092,7 @@ AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試
         <pubDate>Thu, 18 Apr 2024 09:26:05 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/arch-linux-installation/</guid>
         <description>&lt;p&gt;Arch Wiki 的網絡設置和啟動引導部分寫得不清晰，除此之外不算太難。現在五分鐘就能裝好。&lt;/p&gt;
-&lt;p&gt;19/07/2024
+&lt;p&gt;19/07/2024&lt;br&gt;
 現在看來 Arch Wiki 寫得不好的地方就只有安裝指南。無論遇到什麼問題，Arch Wiki 都能解決。&lt;/p&gt;
 </description>
         </item>
@@ -1156,7 +1156,7 @@ AI覺得有趣的文章，可能對我們來說並不有趣。不過，還是試
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
-&lt;p&gt;2024/04/01 00:30
+&lt;p&gt;2024/04/01 00:30&lt;br&gt;
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;個人的想法是敵不過文化的。無論是好還是壞，跟隨文化傳統的人總是會比沒有跟隨任何文化的人強。&lt;/p&gt;

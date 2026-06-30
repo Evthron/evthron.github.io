@@ -13,8 +13,8 @@
         <guid>https://evthron.github.io/zh/profile/code/quantum/</guid>
         <description>&lt;h2 id=&#34;自旋&#34;&gt;自旋&lt;/h2&gt;
 &lt;p&gt;為什麼描述量子態旋轉的角度 $\theta$ 要多除一個 2？例如：&lt;/p&gt;
-&lt;p&gt;$$
-\ket{\psi} = \cos\left(\frac{\theta}{2}\right) \ket{0} + \sin\left(\frac{\theta}{2}\right) \ket{1}
+&lt;p&gt;$$&lt;br&gt;
+\ket{\psi} = \cos\left(\frac{\theta}{2}\right) \ket{0} + \sin\left(\frac{\theta}{2}\right) \ket{1}&lt;br&gt;
 $$&lt;/p&gt;
 &lt;p&gt;這是因為量子態具有一種特殊的性質，需要旋轉兩個圈才能回到原本的位置，這種特性在物理上稱為「自旋是 1/2」。$\frac{\theta}{2}$ 代表旋轉的範圍是從 $0$ 到 $4\pi$。&lt;/p&gt;
 </description>
@@ -40,7 +40,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;st.sidebar.text_input&lt;/p&gt;
 &lt;h2 id=&#34;with&#34;&gt;with&lt;/h2&gt;
-&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;
+&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;&lt;br&gt;
 give context to code, similar to Go syntax&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;with st.chat_message(&amp;#34;AI&amp;#34;)
     st.markdown(message.content)
@@ -140,7 +140,7 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;submodule&#34;&gt;submodule&lt;/h2&gt;
-&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.
+&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.&lt;br&gt;
 need to make seperate commits.&lt;/p&gt;
 &lt;h2 id=&#34;cicd-pipeline-github-action&#34;&gt;CI/CD Pipeline (Github Action)&lt;/h2&gt;
 &lt;p&gt;Continuous Integration, Continuous Delivery&lt;/p&gt;
@@ -678,7 +678,7 @@ need to make seperate commits.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        statistics_row &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (key&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;capitalize() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;: &amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;rjust(&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; str(value)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;rjust(&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; statistics_row
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;randomsample&#34;&gt;random.sample()&lt;/h3&gt;
-&lt;p&gt;Use: Read and randomly order the word list from a file
+&lt;p&gt;Use: Read and randomly order the word list from a file&lt;br&gt;
 Note: Although &amp;lsquo;sample&amp;rsquo; sounds like random sampling, picks from random.sample() do not repeat.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(filename, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;r&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; file:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    words &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; file&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read()&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;split()
@@ -815,19 +815,19 @@ Note: Although &amp;lsquo;sample&amp;rsquo; sounds like random sampling, picks f
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;@app.route&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;redirect_to_github&lt;/span&gt;():
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; redirect(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:5000/50&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;@app.route(&amp;ldquo;這裏是 relative link&amp;rdquo;)
-def 這裏放要執行的 function
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;@app.route(&amp;ldquo;這裏是 relative link&amp;rdquo;)&lt;br&gt;
+def 這裏放要執行的 function&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;int:progress&#34; &gt;int:progress&lt;/a&gt; 可以接受 input&lt;/p&gt;
 &lt;h4 id=&#34;flask-讀取-url-query--flashcards&#34;&gt;Flask 讀取 Url query &amp;ndash; flashcards&lt;/h4&gt;
-&lt;p&gt;Flask 讀取 Url query
+&lt;p&gt;Flask 讀取 Url query&lt;br&gt;
 @app.route(&amp;quot;/&lt;a class=&#34;link&#34; href=&#34;int:variable_name&#34; &gt;int:variable_name&lt;/a&gt;&amp;quot;)&lt;/p&gt;
-&lt;p&gt;Flask 設定每個 URL 對應的 function &amp;ndash; flashcards
-@app.route(&amp;quot;&amp;quot;)
+&lt;p&gt;Flask 設定每個 URL 對應的 function &amp;ndash; flashcards&lt;br&gt;
+@app.route(&amp;quot;&amp;quot;)&lt;br&gt;
 def test():&lt;/p&gt;
 &lt;h2 id=&#34;get-url-arguments&#34;&gt;Get Url arguments&lt;/h2&gt;
-&lt;p&gt;try:
-request.args.get(&amp;ldquo;query&amp;rdquo;)
-except (TypeError, ValueError):
+&lt;p&gt;try:&lt;br&gt;
+request.args.get(&amp;ldquo;query&amp;rdquo;)&lt;br&gt;
+except (TypeError, ValueError):&lt;br&gt;
 pass&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;def get_template_fields(progress):
     title = request.args.get(&amp;#34;title&amp;#34;)
@@ -990,7 +990,7 @@ pass&lt;/p&gt;
         <guid>https://evthron.github.io/zh/profile/code/custom_export/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy/blob/master/examples/custom_export.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/marph91/joppy/blob/master/examples/custom_export.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Parent Graph 和 edge List 的區別
+&lt;p&gt;Parent Graph 和 edge List 的區別&lt;br&gt;
 edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;graph &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {[]}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;has_parent &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {node : &lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; node &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; node_list}
@@ -1006,9 +1006,9 @@ edge graph 不能從 edge list 輕鬆找到沒有 Parent 的元素。&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    parser&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;add_argument(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;--api-token&amp;#34;&lt;/span&gt;, default&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;getenv(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;API_TOKEN&amp;#34;&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	args &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; parser&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parse_args()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#75715e&#34;&gt;# What is the data in args?&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;the dash in flag will be converted to underscore
-&amp;ndash;output-folder -&amp;gt; args.output_folder
-Replace bad characters in filenames
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;the dash in flag will be converted to underscore&lt;br&gt;
+&amp;ndash;output-folder -&amp;gt; args.output_folder&lt;br&gt;
+Replace bad characters in filenames&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/27647173/7410886&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/27647173/7410886&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;replacements&lt;/span&gt;(value: str) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; str:
@@ -1112,7 +1112,7 @@ Replace bad characters in filenames
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; outfile:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                outfile&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;write(resource_binary)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;把-tree-轉換成檔案結構--flashcards-1&#34;&gt;把 Tree 轉換成檔案結構 &amp;ndash; flashcards&lt;/h4&gt;
-&lt;p&gt;把 Tree 轉換成檔案結構
+&lt;p&gt;把 Tree 轉換成檔案結構&lt;br&gt;
 例子：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; pathlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Path
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;desktop_path &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Path(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Users&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Jacky&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Desktop&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Test&amp;#34;&lt;/span&gt;)
@@ -1205,7 +1205,7 @@ Replace bad characters in filenames
         <guid>https://evthron.github.io/zh/profile/code/note-export/</guid>
         <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/marph91/joppy/blob/master/examples/note_export.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/marph91/joppy/blob/master/examples/note_export.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;extend a list generator
+&lt;p&gt;extend a list generator&lt;br&gt;
 Finding notes with certain title.&lt;/p&gt;
 &lt;h2 id=&#34;bad-version&#34;&gt;Bad version&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; note &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; notes:

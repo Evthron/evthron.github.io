@@ -391,13 +391,13 @@ single quote vs double quote single quotes is literal string, shell won&rsquo;t 
 <p>use multiple <code>-e</code> arguments to sed the same string multiple times</p>
 <h2 id="shell-array">Shell array</h2>
 <p>If you want to store multiple arguments in a variable, you can make them a shell array.</p>
-<p>Example in config file, you are required to do this:
-&lsquo;&lsquo;&lsquo;shell
-#makepkg.conf
-#&ndash; Command used to run pacman as root, instead of trying sudo and su
-PACMAN_AUTH=(sudo delayed %c)
+<p>Example in config file, you are required to do this:<br>
+&lsquo;&lsquo;&lsquo;shell<br>
+#makepkg.conf<br>
+#&ndash; Command used to run pacman as root, instead of trying sudo and su<br>
+PACMAN_AUTH=(sudo delayed %c)<br>
 &rsquo;&rsquo;&rsquo;</p>
-<p>Use parenthesis to create a shell array, which can be appended before other commands.
+<p>Use parenthesis to create a shell array, which can be appended before other commands.<br>
 Don&rsquo;t put the quote the arguments or they will be treated as one single argument.</p>
 <h1 id="tee">tee</h1>
 <p><code>&gt;</code> cannot be used if the output location requires sudo privilege. Pipe the output to <code>tee</code> instead.</p>

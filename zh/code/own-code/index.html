@@ -470,7 +470,7 @@ Count the number of function in python file import ast with open(file_path, &#39
 </span></span><span style="display:flex;"><span>        statistics_row <span style="color:#f92672">=</span> (key<span style="color:#f92672">.</span>capitalize() <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;: &#39;</span>)<span style="color:#f92672">.</span>rjust(<span style="color:#ae81ff">30</span>, <span style="color:#e6db74">&#39; &#39;</span>) <span style="color:#f92672">+</span> str(value)<span style="color:#f92672">.</span>rjust(<span style="color:#ae81ff">3</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#39;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> statistics_row
 </span></span></code></pre></div><h3 id="randomsample">random.sample()</h3>
-<p>Use: Read and randomly order the word list from a file
+<p>Use: Read and randomly order the word list from a file<br>
 Note: Although &lsquo;sample&rsquo; sounds like random sampling, picks from random.sample() do not repeat.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(filename, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> file:
 </span></span><span style="display:flex;"><span>    words <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span>read()<span style="color:#f92672">.</span>split()

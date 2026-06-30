@@ -11,14 +11,14 @@
         <link>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</link>
         <pubDate>Tue, 28 Apr 2026 23:16:10 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</guid>
-        <description>&lt;p&gt;2026-04-26
+        <description>&lt;p&gt;2026-04-26&lt;br&gt;
 用 AI 寫需要蒐集新聞、分析數據和下判斷的報告就是找死。&lt;/p&gt;
 &lt;p&gt;海量的新聞根本看不完，而且永遠都是最新的，沒有因為太新所以沒注意的藉口。&lt;/p&gt;
 &lt;p&gt;已經給你整理好數據之後，又怎麼會有動力逐個來源點進去看？弄成引用正確的格式更是奢望。&lt;/p&gt;
 &lt;p&gt;一支股票未來會漲會是跌怎麼説都説得通。聊到天荒地老也搞不清楚。做的一切都只是為看漲還是看跌找理由。&lt;/p&gt;
 &lt;p&gt;報告的寫法和結構也拿不了主意，同一句話有一百種表達方式。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;2026-04-28
+&lt;p&gt;2026-04-28&lt;br&gt;
 主要業務、增長趨勢、覆蓋範圍、護城河、短期優劣勢……這哪是投資建議？這是找工作選公司啊。&lt;/p&gt;
 </description>
         </item>
@@ -28,7 +28,7 @@
         <pubDate>Sat, 29 Mar 2025 22:45:40 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%B9%BB%E6%83%B3/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
-&lt;p&gt;2024/04/01 00:30
+&lt;p&gt;2024/04/01 00:30&lt;br&gt;
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
 &lt;p&gt;幻想是行不通的，最需要幻想的時候，是幻想不出來的。要消耗腦袋的力量&lt;/p&gt;
 </description>
@@ -147,7 +147,7 @@
     build: .
     network_mode: host #added here
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用主機的網絡&#34;&gt;使用主機的網絡&lt;/h3&gt;
-&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。
+&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/5626362&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/5626362&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run busybox --network=&amp;#34;host&amp;#34; ping google.com
@@ -158,13 +158,13 @@
 reboot
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;nftables-flush&#34;&gt;nftables flush&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277638&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://bbs.archlinux.org/viewtopic.php?id=277638&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nft flush ruleset
 sudo pacman -R nftables 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;搞了這麼久，真的感覺自己在浪費時間，趕緊換到 Windows 弄 WSL (Windows Subsystem of linux）或者直接在 Linux 上裝虛擬機肯定會比較快。但我只要一被麻煩纏上就沒有心情思考其他的解決辦法。我説不定是在追求柳暗花明的感覺。&lt;/p&gt;
-&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。
+&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/70452290&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/70452290&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl disable nftables
@@ -209,7 +209,7 @@ sudo reboot
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E9%BB%8F%E5%9C%A8%E6%97%81%E9%82%8A%E7%9A%84%E9%81%B8%E5%96%AE/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
-&lt;p&gt;2024/06/25 03:44
+&lt;p&gt;2024/06/25 03:44&lt;br&gt;
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
 </description>
         </item>
@@ -219,7 +219,7 @@ sudo reboot
         <pubDate>Tue, 25 Jun 2024 02:01:20 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/sticky-menu/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
-&lt;p&gt;2024/06/25 03:44
+&lt;p&gt;2024/06/25 03:44&lt;br&gt;
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
 </description>
         </item>
@@ -252,7 +252,7 @@ sudo reboot
         <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/delusions/</guid>
         <description>&lt;p&gt;一切的概念只存在於腦海當中，既然有否定自我的、不切實際的幻想，那當然也有肯定自我的、不切實際的幻想。雖然我不喜歡脫離現實，不過用幻想來對抗幻想是理所當然的選擇。&lt;/p&gt;
-&lt;p&gt;2024/04/01 00:30
+&lt;p&gt;2024/04/01 00:30&lt;br&gt;
 很難……腦海的空想還是打不過眼前所見的現實。尤其是疲勞無法思考的時候，正是這種時候才需要。不對，只是事前的準備功夫不夠而已。無形的概念不能化為實體，有實體的東西才可以化為概念。就好像是抓住看不見的東西一樣。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;個人的想法是敵不過文化的。無論是好還是壞，跟隨文化傳統的人總是會比沒有跟隨任何文化的人強。&lt;/p&gt;

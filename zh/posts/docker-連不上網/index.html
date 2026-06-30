@@ -397,7 +397,7 @@
     build: .
     network_mode: host #added here
 </code></pre><h3 id="使用主機的網絡">使用主機的網絡</h3>
-<p>這個辦法是有效的，繞過了問題，但好像不能和 <code>docker compose</code> 一起用。
+<p>這個辦法是有效的，繞過了問題，但好像不能和 <code>docker compose</code> 一起用。<br>
 <a class="link" href="https://stackoverflow.com/a/5626362"  target="_blank" rel="noopener"
     >https://stackoverflow.com/a/5626362</a></p>
 <pre tabindex="0"><code>docker run busybox --network=&#34;host&#34; ping google.com
@@ -408,13 +408,13 @@
 reboot
 </code></pre><h2 id="nftables-flush">nftables flush</h2>
 <p><a class="link" href="https://bbs.archlinux.org/viewtopic.php?id=277653"  target="_blank" rel="noopener"
-    >https://bbs.archlinux.org/viewtopic.php?id=277653</a>
+    >https://bbs.archlinux.org/viewtopic.php?id=277653</a><br>
 <a class="link" href="https://bbs.archlinux.org/viewtopic.php?id=277638"  target="_blank" rel="noopener"
     >https://bbs.archlinux.org/viewtopic.php?id=277638</a></p>
 <pre tabindex="0"><code>sudo nft flush ruleset
 sudo pacman -R nftables 
 </code></pre><p>搞了這麼久，真的感覺自己在浪費時間，趕緊換到 Windows 弄 WSL (Windows Subsystem of linux）或者直接在 Linux 上裝虛擬機肯定會比較快。但我只要一被麻煩纏上就沒有心情思考其他的解決辦法。我説不定是在追求柳暗花明的感覺。</p>
-<p>幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。
+<p>幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。<br>
 <a class="link" href="https://stackoverflow.com/a/70452290"  target="_blank" rel="noopener"
     >https://stackoverflow.com/a/70452290</a></p>
 <pre tabindex="0"><code>sudo systemctl disable nftables
@@ -496,7 +496,7 @@ sudo reboot
                 
                     
 <article class="">
-    <a href="/zh/profile/toolbox/taskwarrior-hooks/">
+    <a href="/zh/toolbox/taskwarrior-hooks/">
         
         
 
@@ -509,7 +509,7 @@ sudo reboot
                 
                     
 <article class="">
-    <a href="/zh/toolbox/taskwarrior-hooks/">
+    <a href="/zh/profile/toolbox/taskwarrior-hooks/">
         
         
 

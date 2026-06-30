@@ -468,7 +468,7 @@ Universal Android Debloater (Android) 在 Android 上，Google Chrome，Youtube 
 <h1 id="youtube">Youtube</h1>
 <p>值得為了 Youtube 專門開一段。Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。</p>
 <h2 id="阻擋blocktube">阻擋：BlockTube</h2>
-<p>把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
+<p>把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。<br>
 還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>(<span style="color:#a6e22e">video</span>, <span style="color:#a6e22e">objectType</span>) =&gt; {
 </span></span><span style="display:flex;"><span>
@@ -499,7 +499,7 @@ Universal Android Debloater (Android) 在 Android 上，Google Chrome，Youtube 
 <p>Linux 和 Windows 其實並沒有什麼區別，除了 Cold Turkey Blocker 之外全部都能用。可能 Cold Turkey Blocker 的作者也知道，在 Linux 上不用瀏覽器也能上網，破解網絡封鎖的辦法也多的是，所以，封鎖網絡只能中斷網絡連接本身，這需要修改電腦的網絡配置才能實現。</p>
 <p>網址要先轉換成 IP 地址才能上網，這個過程叫作「域名解析」。只要手動干擾域名解析，就能中斷網絡。</p>
 <h2 id="dnsmasq">dnsmasq</h2>
-<p>首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。
+<p>首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。<br>
 在 etc/NetworkManager/dnsmasq.d/block.conf 裏，把自己要封鎖的網站一行行加進去。</p>
 <pre tabindex="0"><code>address=/example.com/
 address=/example1.com/
@@ -535,7 +535,7 @@ address=/example1.com/
     >https://wiki.archlinux.org/title/Su#su_and_wheel</a></p>
 <pre tabindex="0"><code>auth required pam_wheel.so use_uid
 </code></pre><p>在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。</p>
-<p>要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:
+<p>要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:<br>
 <a class="link" href="https://wiki.archlinux.org/title/Sudo#kdesu"  target="_blank" rel="noopener"
     >https://wiki.archlinux.org/title/Sudo#kdesu</a></p>
 <pre tabindex="0"><code>[super-user-command]

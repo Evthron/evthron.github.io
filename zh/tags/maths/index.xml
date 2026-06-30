@@ -11,8 +11,8 @@
         <link>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</link>
         <pubDate>Mon, 22 Jun 2026 11:01:43 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</guid>
-        <description>&lt;p&gt;$$
-\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n
+        <description>&lt;p&gt;$$&lt;br&gt;
+\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n&lt;br&gt;
 $$&lt;/p&gt;
 &lt;p&gt;這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：&lt;/p&gt;
 &lt;p&gt;Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？&lt;/p&gt;
@@ -36,10 +36,10 @@ $$&lt;/p&gt;
 &lt;li&gt;OEU&lt;/li&gt;
 &lt;li&gt;AOEU&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;得出結論，總組合數就是
+&lt;p&gt;得出結論，總組合數就是&lt;br&gt;
 $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。&lt;/p&gt;
 &lt;p&gt;等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。&lt;/p&gt;
-&lt;p&gt;特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$
+&lt;p&gt;特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$&lt;br&gt;
 \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1&lt;/li&gt;
@@ -250,8 +250,8 @@ Altered:    1212222
         <link>https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/</link>
         <pubDate>Mon, 23 Mar 2026 07:53:13 +0800</pubDate>
         <guid>https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/</guid>
-        <description>&lt;img src="https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/feature.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。
-這些雖然是基礎得不能再基礎的算數題
+        <description>&lt;img src="https://evthron.github.io/zh/posts/%E9%87%8F%E6%95%B8%E5%92%8C%E5%BA%8F%E6%95%B8/feature.jpg" alt="Featured image of post 量數和序數" /&gt;&lt;p&gt;從一點到三點，過了幾個小時？2021年出生的孩子，到了2023年幾歲？計算這些可能很簡單，但時刻、小時、年份、年齡背後的概念，量數&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;和序數的關係，並不是一目了然的。&lt;br&gt;
+這些雖然是基礎得不能再基礎的算數題&lt;br&gt;
 量數是表示數量的數，可以進行加減乘除等數學運算，這些運算對應着現實中物件的合併和分割；而序數只是表示物件先後次序的標籤，沒有數學運算可言。比如兩點鐘在一點鐘後面，三點鐘在兩點鐘後面，這和兩小時在一小時後面，三小時在兩小時後面是一樣的，但是一小時加兩小時等於三小時，而「一點鐘」加「兩點鐘」是沒有意義的 。&lt;/p&gt;
 &lt;p&gt;要利用序數，就要先轉換成有用的量數。對於不同的問題，我們關心的量數是不一樣的，所以轉換方法也不一樣。&lt;/p&gt;
 &lt;p&gt;在數物件的時候，我們關心的量數是「物件的量數」，這剛好和「最後一個物件的序數」是相等的。比如要知道桌子上有幾個蘋果，就要「第一個，第二個，第三個」這樣數出來。數到了第三個，蘋果總數就是三個。&lt;/p&gt;
@@ -342,11 +342,11 @@ Altered:    1212222
         <pubDate>Tue, 07 Jan 2025 18:13:55 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/lottery/</guid>
         <description>&lt;p&gt;「49個數字選6個」，規則雖然很簡單但要把概率算出來還真不是這麼容易。要算中頭獎的概率很簡單，只是1/49C6 = 1/13983816 而已。概率這麼低，就算頭獎獎金能退高期望值也沒有意義。現實一點，如果6個數字可以中3個的話，就能把買票錢賺回來，這個概率是多少呢？&lt;/p&gt;
-&lt;p&gt;簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。
-全部不中的可能性 = (43/49)*7 = 0.4
-中一個的可能性 = 6/49 * (43/49)^5 * 6 = 0.38
-中兩個的可能性 = 6/49 * 6/49 * (43/49)^4 * 6C2 = 0.133
-至少中三個的可能性 = 1- 0.4 -0.38 -0.133 = 0.087
+&lt;p&gt;簡化問題，抽一個球中獎的概率固定為 43/49，算階乘實在太麻煩了，希望差不了多少。&lt;br&gt;
+全部不中的可能性 = (43/49)*7 = 0.4&lt;br&gt;
+中一個的可能性 = 6/49 * (43/49)^5 * 6 = 0.38&lt;br&gt;
+中兩個的可能性 = 6/49 * 6/49 * (43/49)^4 * 6C2 = 0.133&lt;br&gt;
+至少中三個的可能性 = 1- 0.4 -0.38 -0.133 = 0.087&lt;br&gt;
 正確答案應該會比這個高？&lt;/p&gt;
 &lt;p&gt;就算學過了離散數學的排列組合，算這些還是很頭疼，真是白學了。難怪明明不可能中還是有這麼多人前仆後繼地買彩票。&lt;/p&gt;
 &lt;hr&gt;

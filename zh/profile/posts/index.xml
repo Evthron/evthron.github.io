@@ -221,7 +221,7 @@
     build: .
     network_mode: host #added here
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用主機的網絡&#34;&gt;使用主機的網絡&lt;/h3&gt;
-&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。
+&lt;p&gt;這個辦法是有效的，繞過了問題，但好像不能和 &lt;code&gt;docker compose&lt;/code&gt; 一起用。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/5626362&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/5626362&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run busybox --network=&amp;#34;host&amp;#34; ping google.com
@@ -232,13 +232,13 @@
 reboot
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;nftables-flush&#34;&gt;nftables flush&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277653&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;
+    &gt;https://bbs.archlinux.org/viewtopic.php?id=277653&lt;/a&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://bbs.archlinux.org/viewtopic.php?id=277638&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://bbs.archlinux.org/viewtopic.php?id=277638&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nft flush ruleset
 sudo pacman -R nftables 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;搞了這麼久，真的感覺自己在浪費時間，趕緊換到 Windows 弄 WSL (Windows Subsystem of linux）或者直接在 Linux 上裝虛擬機肯定會比較快。但我只要一被麻煩纏上就沒有心情思考其他的解決辦法。我説不定是在追求柳暗花明的感覺。&lt;/p&gt;
-&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。
+&lt;p&gt;幸好，36 個字節真的可以改變改變命運，答案其實就藏在同一條問題的深處。&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/a/70452290&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stackoverflow.com/a/70452290&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl disable nftables
@@ -436,8 +436,8 @@ Altered:    1212222
 &lt;h2 id=&#34;往全世界分享&#34;&gt;往全世界分享&lt;/h2&gt;
 &lt;p&gt;往另一個方面想，互聯網能夠讓我們對全世界廣播自己的想法，那為什麽還要侷限在單對單的信件交流呢？&lt;/p&gt;
 &lt;p&gt;我們期望的「交流」，有時候只是向其他人扔出一個又一個的想法而已。為何不把這些想法扔向全世界？這種做法叫「分享」。分享沒有特定的交流對象，這個特性能消除上面所說的、即時通訊有的所有缺點。&lt;/p&gt;
-&lt;p&gt;第一，話題只需要自己感興趣就可以。
-第二，不期待回應，讓人讀到自己的訊息就是全部目的，所以絕對不會失敗。而且只要帖子還在網上，就不斷會有新的人讀到。
+&lt;p&gt;第一，話題只需要自己感興趣就可以。&lt;br&gt;
+第二，不期待回應，讓人讀到自己的訊息就是全部目的，所以絕對不會失敗。而且只要帖子還在網上，就不斷會有新的人讀到。&lt;br&gt;
 第三，沒有說謊的理由，也有充足的篇幅表達自己的想法，所以給人可信的感覺。&lt;/p&gt;
 &lt;p&gt;其實大家每天在社交網站發帖，就已經在分享了。但是社交網站有各種各樣的問題，比如光讀不寫、浪費時間、龍蛇混雜等等。微信朋友圈的形式也不錯，只會看到朋友的內容，但是不能讓所有人看到自己寫的東西還是有一種小家子氣的感覺。所以要在網絡上立足分享，還是需要一個自己的網站。雖然我能建好，但一般的人應該不懂。所以至少要把自己創造的內容，放在不需要登入也能讓所有人看到的地方。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;

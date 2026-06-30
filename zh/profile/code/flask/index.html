@@ -140,20 +140,36 @@ progress_width = 60 if title else 90
 
   <meta name="generator" content="Hugo 0.163.3">
 	<meta itemprop="name" content="flask">
-	<meta itemprop="description" content="app = Flask(__name__) port = int(os.environ.get(&#34;PORT&#34;, 5000)) app.run(host=&#34;127.0.0.1&#34;, port=port) @app.route(&#34;/&lt;int:progress&gt;/&#34;) def get_progress_svg(progress): template_fields = get_template_fields(progress) return render_template(&#34;progress.svg&#34;, **template_fields) @app.route(&#34;/&#34;) def redirect_to_github(): return redirect(&#34;http://127.0.0.1:5000/50&#34;) @app.route(“這裏是 relative link”) def 這裏放要執行的 function int:progress 可以接受 input
-Flask 讀取 Url query – flashcards Flask 讀取 Url query @app.route(&#34;/int:variable_name&#34;)
-Flask 設定每個 URL 對應的 function – flashcards @app.route(&#34;&#34;) def test():
-Get Url arguments try: request.args.get(“query”) except (TypeError, ValueError): pass
+	<meta itemprop="description" content="app = Flask(__name__) port = int(os.environ.get(&#34;PORT&#34;, 5000)) app.run(host=&#34;127.0.0.1&#34;, port=port) @app.route(&#34;/&lt;int:progress&gt;/&#34;) def get_progress_svg(progress): template_fields = get_template_fields(progress) return render_template(&#34;progress.svg&#34;, **template_fields) @app.route(&#34;/&#34;) def redirect_to_github(): return redirect(&#34;http://127.0.0.1:5000/50&#34;) @app.route(“這裏是 relative link”)
+def 這裏放要執行的 function
+int:progress 可以接受 input
+Flask 讀取 Url query – flashcards Flask 讀取 Url query
+@app.route(&#34;/int:variable_name&#34;)
+Flask 設定每個 URL 對應的 function – flashcards
+@app.route(&#34;&#34;)
+def test():
+Get Url arguments try:
+request.args.get(“query”)
+except (TypeError, ValueError):
+pass
 def get_template_fields(progress): title = request.args.get(&#34;title&#34;) try: scale = int(request.args.get(&#34;scale&#34;)) except (TypeError, ValueError): scale = 100 # Review marked # Special use of conditional progress_width = 60 if title else 90 try: progress_width = int(request.args.get(&#34;width&#34;)) except (TypeError, ValueError): pass return { &#34;title&#34;: title, &#34;title_width&#34;: 10 &#43; 6 * len(title) if title else 0, &#34;title_color&#34;: request.args.get(&#34;color&#34;, &#34;428bca&#34;), &#34;scale&#34;: scale, &#34;progress&#34;: progress, &#34;progress_width&#34;: progress_width, &#34;progress_color&#34;: get_progress_color(progress, scale), &#34;suffix&#34;: request.args.get(&#34;suffix&#34;, &#34;%&#34;), } Special use of conditional progress_width = 60 if title else 90">
 	<meta itemprop="datePublished" content="2024-10-06T18:16:08+08:00">
 	<meta itemprop="dateModified" content="2024-10-06T18:16:08+08:00">
 	<meta itemprop="wordCount" content="141"><meta property="og:url" content="https://evthron.github.io/zh/profile/code/flask/">
 	<meta property="og:site_name" content="Evthron&#39;s blog">
 	<meta property="og:title" content="flask">
-	<meta property="og:description" content="app = Flask(__name__) port = int(os.environ.get(&#34;PORT&#34;, 5000)) app.run(host=&#34;127.0.0.1&#34;, port=port) @app.route(&#34;/&lt;int:progress&gt;/&#34;) def get_progress_svg(progress): template_fields = get_template_fields(progress) return render_template(&#34;progress.svg&#34;, **template_fields) @app.route(&#34;/&#34;) def redirect_to_github(): return redirect(&#34;http://127.0.0.1:5000/50&#34;) @app.route(“這裏是 relative link”) def 這裏放要執行的 function int:progress 可以接受 input
-Flask 讀取 Url query – flashcards Flask 讀取 Url query @app.route(&#34;/int:variable_name&#34;)
-Flask 設定每個 URL 對應的 function – flashcards @app.route(&#34;&#34;) def test():
-Get Url arguments try: request.args.get(“query”) except (TypeError, ValueError): pass
+	<meta property="og:description" content="app = Flask(__name__) port = int(os.environ.get(&#34;PORT&#34;, 5000)) app.run(host=&#34;127.0.0.1&#34;, port=port) @app.route(&#34;/&lt;int:progress&gt;/&#34;) def get_progress_svg(progress): template_fields = get_template_fields(progress) return render_template(&#34;progress.svg&#34;, **template_fields) @app.route(&#34;/&#34;) def redirect_to_github(): return redirect(&#34;http://127.0.0.1:5000/50&#34;) @app.route(“這裏是 relative link”)
+def 這裏放要執行的 function
+int:progress 可以接受 input
+Flask 讀取 Url query – flashcards Flask 讀取 Url query
+@app.route(&#34;/int:variable_name&#34;)
+Flask 設定每個 URL 對應的 function – flashcards
+@app.route(&#34;&#34;)
+def test():
+Get Url arguments try:
+request.args.get(“query”)
+except (TypeError, ValueError):
+pass
 def get_template_fields(progress): title = request.args.get(&#34;title&#34;) try: scale = int(request.args.get(&#34;scale&#34;)) except (TypeError, ValueError): scale = 100 # Review marked # Special use of conditional progress_width = 60 if title else 90 try: progress_width = int(request.args.get(&#34;width&#34;)) except (TypeError, ValueError): pass return { &#34;title&#34;: title, &#34;title_width&#34;: 10 &#43; 6 * len(title) if title else 0, &#34;title_color&#34;: request.args.get(&#34;color&#34;, &#34;428bca&#34;), &#34;scale&#34;: scale, &#34;progress&#34;: progress, &#34;progress_width&#34;: progress_width, &#34;progress_color&#34;: get_progress_color(progress, scale), &#34;suffix&#34;: request.args.get(&#34;suffix&#34;, &#34;%&#34;), } Special use of conditional progress_width = 60 if title else 90">
 	<meta property="og:locale" content="zh">
 	<meta property="og:type" content="article">
@@ -163,10 +179,18 @@ def get_template_fields(progress): title = request.args.get(&#34;title&#34;) try
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="flask">
-	<meta name="twitter:description" content="app = Flask(__name__) port = int(os.environ.get(&#34;PORT&#34;, 5000)) app.run(host=&#34;127.0.0.1&#34;, port=port) @app.route(&#34;/&lt;int:progress&gt;/&#34;) def get_progress_svg(progress): template_fields = get_template_fields(progress) return render_template(&#34;progress.svg&#34;, **template_fields) @app.route(&#34;/&#34;) def redirect_to_github(): return redirect(&#34;http://127.0.0.1:5000/50&#34;) @app.route(“這裏是 relative link”) def 這裏放要執行的 function int:progress 可以接受 input
-Flask 讀取 Url query – flashcards Flask 讀取 Url query @app.route(&#34;/int:variable_name&#34;)
-Flask 設定每個 URL 對應的 function – flashcards @app.route(&#34;&#34;) def test():
-Get Url arguments try: request.args.get(“query”) except (TypeError, ValueError): pass
+	<meta name="twitter:description" content="app = Flask(__name__) port = int(os.environ.get(&#34;PORT&#34;, 5000)) app.run(host=&#34;127.0.0.1&#34;, port=port) @app.route(&#34;/&lt;int:progress&gt;/&#34;) def get_progress_svg(progress): template_fields = get_template_fields(progress) return render_template(&#34;progress.svg&#34;, **template_fields) @app.route(&#34;/&#34;) def redirect_to_github(): return redirect(&#34;http://127.0.0.1:5000/50&#34;) @app.route(“這裏是 relative link”)
+def 這裏放要執行的 function
+int:progress 可以接受 input
+Flask 讀取 Url query – flashcards Flask 讀取 Url query
+@app.route(&#34;/int:variable_name&#34;)
+Flask 設定每個 URL 對應的 function – flashcards
+@app.route(&#34;&#34;)
+def test():
+Get Url arguments try:
+request.args.get(“query”)
+except (TypeError, ValueError):
+pass
 def get_template_fields(progress): title = request.args.get(&#34;title&#34;) try: scale = int(request.args.get(&#34;scale&#34;)) except (TypeError, ValueError): scale = 100 # Review marked # Special use of conditional progress_width = 60 if title else 90 try: progress_width = int(request.args.get(&#34;width&#34;)) except (TypeError, ValueError): pass return { &#34;title&#34;: title, &#34;title_width&#34;: 10 &#43; 6 * len(title) if title else 0, &#34;title_color&#34;: request.args.get(&#34;color&#34;, &#34;428bca&#34;), &#34;scale&#34;: scale, &#34;progress&#34;: progress, &#34;progress_width&#34;: progress_width, &#34;progress_color&#34;: get_progress_color(progress, scale), &#34;suffix&#34;: request.args.get(&#34;suffix&#34;, &#34;%&#34;), } Special use of conditional progress_width = 60 if title else 90">
 
   <link rel="canonical" href="https://evthron.github.io/zh/profile/code/flask/" />
@@ -302,19 +326,19 @@ def get_template_fields(progress): title = request.args.get(&#34;title&#34;) try
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#34;/&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">redirect_to_github</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> redirect(<span style="color:#e6db74">&#34;http://127.0.0.1:5000/50&#34;</span>)
-</span></span></code></pre></div><p>@app.route(&ldquo;這裏是 relative link&rdquo;)
-def 這裏放要執行的 function
+</span></span></code></pre></div><p>@app.route(&ldquo;這裏是 relative link&rdquo;)<br>
+def 這裏放要執行的 function<br>
 <a class="link" href="int:progress" >int:progress</a> 可以接受 input</p>
 <h4 id="flask-讀取-url-query--flashcards">Flask 讀取 Url query &ndash; flashcards</h4>
-<p>Flask 讀取 Url query
+<p>Flask 讀取 Url query<br>
 @app.route(&quot;/<a class="link" href="int:variable_name" >int:variable_name</a>&quot;)</p>
-<p>Flask 設定每個 URL 對應的 function &ndash; flashcards
-@app.route(&quot;&quot;)
+<p>Flask 設定每個 URL 對應的 function &ndash; flashcards<br>
+@app.route(&quot;&quot;)<br>
 def test():</p>
 <h2 id="get-url-arguments">Get Url arguments</h2>
-<p>try:
-request.args.get(&ldquo;query&rdquo;)
-except (TypeError, ValueError):
+<p>try:<br>
+request.args.get(&ldquo;query&rdquo;)<br>
+except (TypeError, ValueError):<br>
 pass</p>
 <pre tabindex="0"><code>def get_template_fields(progress):
     title = request.args.get(&#34;title&#34;)

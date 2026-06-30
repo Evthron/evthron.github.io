@@ -2,15 +2,19 @@
 <html lang="zh" dir="ltr">
     <head>
         <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='$$ \binom{n}{0} &#43; \binom{n}{1} &#43; \cdots &#43; \binom{n}{n} = 2^n $$
+        <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='$$
+\binom{n}{0} &#43; \binom{n}{1} &#43; \cdots &#43; \binom{n}{n} = 2^n
+$$
 這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：
 Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？
 如果是為了計算答案，就會用「每個按鍵有兩個可能的狀態，所以是二的四次方」這種作弊的方法思考。
 但真的需要使用 EU、AO 這種組合鍵代表不同輔音的時候，真的要把所有組合列出來的時候，我就完全忘記了這回事，而是會用「n 個鍵的組合有多少」來思考。
 自然就會從 $C_{1}^{n}$ 開始一路數到 $C_{n}^{n}$
-A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是 $C_{1}^{4} &#43; C_{1}^{4} &#43; \cdots &#43; C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。
+A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是
+$C_{1}^{4} &#43; C_{1}^{4} &#43; \cdots &#43; C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。
 等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。
-特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$ \binom{n}{1} &#43; \binom{n}{2} &#43; \cdots &#43; \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。
+特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$
+\binom{n}{1} &#43; \binom{n}{2} &#43; \cdots &#43; \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。
 1 2 1 3 3 1 4 6 4 1 5 10 10 5 1 &hellip; '>
         <title>帕斯卡三角形和二的次方 | Evthron&#39;s blog</title>
         
@@ -20,29 +24,37 @@ A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是
         
         
         <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='帕斯卡三角形和二的次方'>
-<meta property='og:description' content='$$ \binom{n}{0} &#43; \binom{n}{1} &#43; \cdots &#43; \binom{n}{n} = 2^n $$
+<meta property='og:description' content='$$
+\binom{n}{0} &#43; \binom{n}{1} &#43; \cdots &#43; \binom{n}{n} = 2^n
+$$
 這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：
 Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？
 如果是為了計算答案，就會用「每個按鍵有兩個可能的狀態，所以是二的四次方」這種作弊的方法思考。
 但真的需要使用 EU、AO 這種組合鍵代表不同輔音的時候，真的要把所有組合列出來的時候，我就完全忘記了這回事，而是會用「n 個鍵的組合有多少」來思考。
 自然就會從 $C_{1}^{n}$ 開始一路數到 $C_{n}^{n}$
-A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是 $C_{1}^{4} &#43; C_{1}^{4} &#43; \cdots &#43; C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。
+A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是
+$C_{1}^{4} &#43; C_{1}^{4} &#43; \cdots &#43; C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。
 等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。
-特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$ \binom{n}{1} &#43; \binom{n}{2} &#43; \cdots &#43; \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。
+特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$
+\binom{n}{1} &#43; \binom{n}{2} &#43; \cdots &#43; \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。
 1 2 1 3 3 1 4 6 4 1 5 10 10 5 1 &hellip; '>
 <meta property='og:url' content='https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Tweet' /><meta property='article:tag' content='maths' /><meta property='article:published_time' content='2026-06-22T11:01:43&#43;08:00'/><meta property='article:modified_time' content='2026-06-22T16:35:03&#43;08:00'/>
 <meta name="twitter:title" content="帕斯卡三角形和二的次方">
-<meta name="twitter:description" content="$$ \binom{n}{0} &#43; \binom{n}{1} &#43; \cdots &#43; \binom{n}{n} = 2^n $$
+<meta name="twitter:description" content="$$
+\binom{n}{0} &#43; \binom{n}{1} &#43; \cdots &#43; \binom{n}{n} = 2^n
+$$
 這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：
 Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？
 如果是為了計算答案，就會用「每個按鍵有兩個可能的狀態，所以是二的四次方」這種作弊的方法思考。
 但真的需要使用 EU、AO 這種組合鍵代表不同輔音的時候，真的要把所有組合列出來的時候，我就完全忘記了這回事，而是會用「n 個鍵的組合有多少」來思考。
 自然就會從 $C_{1}^{n}$ 開始一路數到 $C_{n}^{n}$
-A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是 $C_{1}^{4} &#43; C_{1}^{4} &#43; \cdots &#43; C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。
+A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是
+$C_{1}^{4} &#43; C_{1}^{4} &#43; \cdots &#43; C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。
 等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。
-特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$ \binom{n}{1} &#43; \binom{n}{2} &#43; \cdots &#43; \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。
+特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$
+\binom{n}{1} &#43; \binom{n}{2} &#43; \cdots &#43; \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。
 1 2 1 3 3 1 4 6 4 1 5 10 10 5 1 &hellip; ">
             <link rel="shortcut icon" href="/favicon.ico" />
         
@@ -366,8 +378,8 @@ A O E U AO AE AU OE OU EU AOE AOU AEU OEU AOEU 得出結論，總組合數就是
     <section class="article-content">
         
         
-        <p>$$
-\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n
+        <p>$$<br>
+\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n<br>
 $$</p>
 <p>這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：</p>
 <p>Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？</p>
@@ -391,10 +403,10 @@ $$</p>
 <li>OEU</li>
 <li>AOEU</li>
 </ul>
-<p>得出結論，總組合數就是
+<p>得出結論，總組合數就是<br>
 $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。</p>
 <p>等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。</p>
-<p>特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$
+<p>特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$<br>
 \binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。</p>
 <ul>
 <li>1</li>

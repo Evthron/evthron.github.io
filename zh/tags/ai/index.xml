@@ -23,14 +23,14 @@
         <link>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</link>
         <pubDate>Tue, 28 Apr 2026 23:16:10 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</guid>
-        <description>&lt;p&gt;2026-04-26
+        <description>&lt;p&gt;2026-04-26&lt;br&gt;
 用 AI 寫需要蒐集新聞、分析數據和下判斷的報告就是找死。&lt;/p&gt;
 &lt;p&gt;海量的新聞根本看不完，而且永遠都是最新的，沒有因為太新所以沒注意的藉口。&lt;/p&gt;
 &lt;p&gt;已經給你整理好數據之後，又怎麼會有動力逐個來源點進去看？弄成引用正確的格式更是奢望。&lt;/p&gt;
 &lt;p&gt;一支股票未來會漲會是跌怎麼説都説得通。聊到天荒地老也搞不清楚。做的一切都只是為看漲還是看跌找理由。&lt;/p&gt;
 &lt;p&gt;報告的寫法和結構也拿不了主意，同一句話有一百種表達方式。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;2026-04-28
+&lt;p&gt;2026-04-28&lt;br&gt;
 主要業務、增長趨勢、覆蓋範圍、護城河、短期優劣勢……這哪是投資建議？這是找工作選公司啊。&lt;/p&gt;
 </description>
         </item>
@@ -121,7 +121,7 @@ sunny sky, clouds
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這裏的訣竅是，為了指定物件的顏色，又不讓顏色擴散到其他物件上，就要把同類特徵打包在一起，不用逗號隔開，讓模型認為這是一個整體。&lt;/p&gt;
 &lt;p&gt;同時還要用負面提示詞過濾掉相似但不相干的概念：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hair bow, hair ribbon, backpack, messenger bag, shoulder bag, school bag, hand bag, thigh strap, blush, worst quality, (petite,child,infant,toddlers,chibi,sd character:1.1), (bad_prompt_version2:0.8)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;效果：
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;效果：&lt;br&gt;
 &lt;img src=&#34;https://evthron.github.io/zh/posts/%E4%BB%80%E9%BA%BC%E6%89%8D%E7%AE%97%E6%9C%83%E7%94%A8-ai/ai-image-1.png&#34;
 	width=&#34;512&#34;
 	height=&#34;512&#34;

@@ -27,7 +27,7 @@
 &lt;/ul&gt;
 &lt;p&gt;st.sidebar.text_input&lt;/p&gt;
 &lt;h2 id=&#34;with&#34;&gt;with&lt;/h2&gt;
-&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;
+&lt;p&gt;use &lt;code&gt;with&lt;/code&gt; without &lt;code&gt;as&lt;/code&gt;&lt;br&gt;
 give context to code, similar to Go syntax&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;with st.chat_message(&amp;#34;AI&amp;#34;)
     st.markdown(message.content)
@@ -127,7 +127,7 @@ error: failed to push some refs to &amp;#39;github.com...&amp;#39;
 &lt;li&gt;Create a Pull Request: If you want to propose changes back to the original repo, go to the original repo on GitHub and create a pull request from your forked repo. This allows the maintainers of the original repo to review and merge your changes.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;submodule&#34;&gt;submodule&lt;/h2&gt;
-&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.
+&lt;p&gt;make a repo as a node inside another repo, treating the whole folder as one file.&lt;br&gt;
 need to make seperate commits.&lt;/p&gt;
 &lt;h2 id=&#34;cicd-pipeline-github-action&#34;&gt;CI/CD Pipeline (Github Action)&lt;/h2&gt;
 &lt;p&gt;Continuous Integration, Continuous Delivery&lt;/p&gt;

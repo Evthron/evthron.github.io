@@ -217,57 +217,57 @@ Age   Description
     &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-v&#34; &gt; pos-v &lt;/button&gt;
     &lt;button class=&#34;vocab-button&#34; type=&#34;button&#34; tag=&#34;pos-n&#34; &gt; pos-n &lt;/button&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-similar type-people&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; fellow &lt;div&gt; pos-adj property-similar type-people&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj type-bad&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; out of luck &lt;div&gt; pos-adj type-bad&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-adj property-personality theme-fashion type-bad type-good&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; sleek &lt;div&gt; pos-adj property-personality theme-fashion type-bad type-good&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n theme-work&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; livelihood &lt;div&gt; pos-n theme-work&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-good type-object type-people&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; gem &lt;div&gt; pos-n type-good type-object type-people&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-object&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; phoenix &lt;div&gt; pos-n type-object&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n type-people&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; attorney &lt;div&gt; pos-n type-people&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-n property-difficult type-bad&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; peril &lt;div&gt; pos-n property-difficult type-bad&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-future&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; foresee &lt;div&gt; pos-v time-future&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v theme-info&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; keep you posted &lt;div&gt; pos-v theme-info&lt;/div&gt;&lt;/div&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;vocab-item-container&#34; tags=&#34;pos-v time-result type-good&#34;&gt;
   
     &lt;div class=&#34;vocab-item&#34;&gt; pay off &lt;div&gt; pos-v time-result type-good&lt;/div&gt;&lt;/div&gt;
@@ -282,7 +282,7 @@ Age   Description
 &lt;/span&gt;
 &lt;span class=&#34;experience&#34;&gt;10&lt;/span&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
 &lt;div class=&#34;status-bar-wrapper&#34;&gt;
     
 

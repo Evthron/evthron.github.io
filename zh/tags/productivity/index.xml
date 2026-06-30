@@ -275,7 +275,7 @@
 &lt;h1 id=&#34;youtube&#34;&gt;Youtube&lt;/h1&gt;
 &lt;p&gt;值得為了 Youtube 專門開一段。Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。&lt;/p&gt;
 &lt;h2 id=&#34;阻擋blocktube&#34;&gt;阻擋：BlockTube&lt;/h2&gt;
-&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
+&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。&lt;br&gt;
 還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -306,7 +306,7 @@
 &lt;p&gt;Linux 和 Windows 其實並沒有什麼區別，除了 Cold Turkey Blocker 之外全部都能用。可能 Cold Turkey Blocker 的作者也知道，在 Linux 上不用瀏覽器也能上網，破解網絡封鎖的辦法也多的是，所以，封鎖網絡只能中斷網絡連接本身，這需要修改電腦的網絡配置才能實現。&lt;/p&gt;
 &lt;p&gt;網址要先轉換成 IP 地址才能上網，這個過程叫作「域名解析」。只要手動干擾域名解析，就能中斷網絡。&lt;/p&gt;
 &lt;h2 id=&#34;dnsmasq&#34;&gt;dnsmasq&lt;/h2&gt;
-&lt;p&gt;首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。
+&lt;p&gt;首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。&lt;br&gt;
 在 etc/NetworkManager/dnsmasq.d/block.conf 裏，把自己要封鎖的網站一行行加進去。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;address=/example.com/
 address=/example1.com/
@@ -342,7 +342,7 @@ address=/example1.com/
     &gt;https://wiki.archlinux.org/title/Su#su_and_wheel&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;auth required pam_wheel.so use_uid
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。&lt;/p&gt;
-&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:
+&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Sudo#kdesu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://wiki.archlinux.org/title/Sudo#kdesu&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[super-user-command]
@@ -521,7 +521,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;h1 id=&#34;youtube&#34;&gt;Youtube&lt;/h1&gt;
 &lt;p&gt;值得為了 Youtube 專門開一段。Youtube 讓人又愛又恨的原因，是上面有數不清的實用學習視頻，而同樣也有數不清的無用娛樂影片。如果是要應付考試的話，看視頻可能比讀教科書還好，所以很難割捨。這自然也有應對方法。&lt;/p&gt;
 &lt;h2 id=&#34;阻擋blocktube&#34;&gt;阻擋：BlockTube&lt;/h2&gt;
-&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。
+&lt;p&gt;把自己不喜歡的頻道屏蔽掉。特別是那些上百萬次播放量的娛樂頻道。&lt;br&gt;
 還可以按時間和語言篩選。重要的教學影片都是英文的，不會太長也不會太短。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;video&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;objectType&lt;/span&gt;) =&amp;gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -552,7 +552,7 @@ ID | Active | Age | Description | Time | Value | Worth  |
 &lt;p&gt;Linux 和 Windows 其實並沒有什麼區別，除了 Cold Turkey Blocker 之外全部都能用。可能 Cold Turkey Blocker 的作者也知道，在 Linux 上不用瀏覽器也能上網，破解網絡封鎖的辦法也多的是，所以，封鎖網絡只能中斷網絡連接本身，這需要修改電腦的網絡配置才能實現。&lt;/p&gt;
 &lt;p&gt;網址要先轉換成 IP 地址才能上網，這個過程叫作「域名解析」。只要手動干擾域名解析，就能中斷網絡。&lt;/p&gt;
 &lt;h2 id=&#34;dnsmasq&#34;&gt;dnsmasq&lt;/h2&gt;
-&lt;p&gt;首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。
+&lt;p&gt;首先要安裝一個域名解析工具，dnsmasq 能配合 Linux 上常用的網絡配置工具 NetworkManager 使用，是不錯的選擇。&lt;br&gt;
 在 etc/NetworkManager/dnsmasq.d/block.conf 裏，把自己要封鎖的網站一行行加進去。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;address=/example.com/
 address=/example1.com/
@@ -588,7 +588,7 @@ address=/example1.com/
     &gt;https://wiki.archlinux.org/title/Su#su_and_wheel&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;auth required pam_wheel.so use_uid
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 KDE 裏，如果用户需要 root 權限，會使用 kdesu 這個程序，讓用户輸入 root 密碼，這樣用户就可以用 KDE 的 Dolpin 文件瀏覽器進入系統管理員模式，繞過上面的限制。要防止這種情況，需要修改 Polkit （PolicyKit）的設定。&lt;/p&gt;
-&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:
+&lt;p&gt;要先讓 kdesu 像 sudo 一樣運作，在 ~/.config/kdesurc 加入:&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/title/Sudo#kdesu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://wiki.archlinux.org/title/Sudo#kdesu&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[super-user-command]
@@ -640,7 +640,7 @@ super-user-command=sudo
 &lt;ul&gt;
 &lt;li&gt;Capslock -&amp;gt; Backspace&lt;/li&gt;
 &lt;li&gt;Left Alt -&amp;gt; Esc&lt;/li&gt;
-&lt;li&gt;Right Alt -&amp;gt; Enter
+&lt;li&gt;Right Alt -&amp;gt; Enter&lt;br&gt;
 這麼一來就沒有 Alt 可以用了，可以把 Alt 搬到 Compose 、Right Ctrl、Backspace、或者某個 Fn 鍵上，偶爾會用得上。&lt;/li&gt;
 &lt;li&gt;Enter -&amp;gt; Win + Space（切換中英文輸入法）&lt;/li&gt;
 &lt;/ul&gt;

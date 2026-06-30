@@ -203,7 +203,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果我完全不用 Joplin 的話，流程應該可以變得更簡單一些，但我做得這麼辛苦，不是很想改。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;2026-03-23&lt;/p&gt;
-&lt;p&gt;寫作動機被 AI 大幅削弱了，就算只是多一道工序，我也已經發不出去了。寫作的位置必須直連發佈才可以。
+&lt;p&gt;寫作動機被 AI 大幅削弱了，就算只是多一道工序，我也已經發不出去了。寫作的位置必須直連發佈才可以。&lt;br&gt;
 繞開 joplin，直接把檔案複製一份到 hugo 的 content 檔案，用 filetags 分類。&lt;/p&gt;
 &lt;p&gt;在手機上直接用 markor 寫，用 syncthing 同步。&lt;/p&gt;
 </description>
@@ -232,7 +232,7 @@
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E9%BB%8F%E5%9C%A8%E6%97%81%E9%82%8A%E7%9A%84%E9%81%B8%E5%96%AE/</guid>
         <description>&lt;p&gt;我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？&lt;/p&gt;
-&lt;p&gt;2024/06/25 03:44
+&lt;p&gt;2024/06/25 03:44&lt;br&gt;
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。&lt;/p&gt;
 </description>
         </item>
