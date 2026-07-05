@@ -38,7 +38,7 @@ the time required of the read portion is n over t
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/sandbox/%E6%8E%92%E7%A8%8B%E7%AE%97%E6%B3%95/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-07-02T20:00:13&#43;08:00'/><meta property='article:modified_time' content='2026-07-03T01:57:51&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-07-02T20:00:13&#43;08:00'/><meta property='article:modified_time' content='2026-07-06T00:16:14&#43;08:00'/>
 <meta name="twitter:title" content="排程算法">
 <meta name="twitter:description" content="假設閲讀速度恆定
 如果保持順序
@@ -556,6 +556,15 @@ interval？<br>
 <p>我以為平均複習數會呈現下降的趨勢，但實際上呈現先上升後下降的狀態，應該是因為學習上限提高會先提高早期的學習量，然後才會提高後期的學習量。</p>
 <p>反而走極端是最划算的，要麼學得最精，要麼學得最雜，感覺不好，不過既然大約都是 log(n) 就別管了。</p>
 <p>重點是怎麼知道超過容量，基礎複習量可以是任意的數字，上限和基礎量的關係是什麼？</p>
+<p>如果沒有減少總複習數，就算強行挪動維持低上限也會因爲拖延幾天而完全失去意義</p>
+<p>學得太多的代價自然是留存 ，即倍數增加</p>
+<p>幾乎可以肯定只要學過一次，無論過了多久，都能變回第二次學的狀態</p>
+<p>超過的四種解決方法</p>
+<p>超過就超過<br>
+移到下一個能放進的日期再開始<br>
+把舊的去掉<br>
+延長這個的間隔</p>
+<p>總量是固定，有期限的的東西，只要延長時間就能統統學會</p>
 
     </section>
 
@@ -583,7 +592,7 @@ interval？<br>
 
 
             <span>
-                最後更新 2026-07-03 01:57 &#43;08:00
+                最後更新 2026-07-06 00:16 &#43;08:00
             </span>
         </section></footer>
     
