@@ -56,9 +56,7 @@
         <link>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</link>
         <pubDate>Mon, 22 Jun 2026 11:01:43 +0800</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%B8%95%E6%96%AF%E5%8D%A1%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E4%BA%8C%E7%9A%84%E6%AC%A1%E6%96%B9/</guid>
-        <description>&lt;p&gt;$$&lt;br&gt;
-\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n&lt;br&gt;
-$$&lt;/p&gt;
+        <description>&lt;p&gt;$$\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n} = 2^n$$&lt;/p&gt;
 &lt;p&gt;這個定理原來是這麼顯而易見的！這是因為我在研究 Stenograph Keyboard 的按鍵組合：&lt;/p&gt;
 &lt;p&gt;Stenograph Keyboard 鍵有四個元音鍵 AOEU，可以同時按下，總共能代表多少種元音組合？&lt;/p&gt;
 &lt;p&gt;如果是為了計算答案，就會用「每個按鍵有兩個可能的狀態，所以是二的四次方」這種作弊的方法思考。&lt;/p&gt;
@@ -84,8 +82,7 @@ $$&lt;/p&gt;
 &lt;p&gt;得出結論，總組合數就是&lt;br&gt;
 $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四層的總和減一。&lt;/p&gt;
 &lt;p&gt;等到我突然想起還能用二次方計算的時候，這個定理也就重新被我發現了。明明學離散數學的時候完全不明白。&lt;/p&gt;
-&lt;p&gt;特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是$&lt;br&gt;
-\binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。&lt;/p&gt;
+&lt;p&gt;特別是我根本不會去考慮 $C_{0}^{4}$ 的情況，因為什麼都不按根本不能用來代表一個元音。所以是 $\binom{n}{1} + \binom{n}{2} + \cdots + \binom{n}{n} = 2^n - 1$。乾脆把三角形的左邊的一排 1 劃掉好了。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1&lt;/li&gt;
 &lt;li&gt;2 1&lt;/li&gt;
