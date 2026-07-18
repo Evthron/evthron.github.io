@@ -171,22 +171,6 @@
 </description>
         </item>
         <item>
-        <title>Arch Linux Installation</title>
-        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
-        <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encountered problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Delusions</title>
-        <link>https://evthron.github.io/en/tweet/delusions/</link>
-        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
-        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Productivity Tools</title>
         <link>https://evthron.github.io/en/tweet/productivity-tools/</link>
         <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
@@ -240,6 +224,14 @@ Problem Solved. The key is to make the max height of the panel be 100vh minus to
 </description>
         </item>
         <item>
+        <title>Arch Linux Installation</title>
+        <link>https://evthron.github.io/en/tweet/arch-linux-installation/</link>
+        <pubDate>Thu, 18 Apr 2024 09:19:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/arch-linux-installation/</guid>
+        <description>&lt;p&gt;It&amp;rsquo;s not difficult at all. I only encounted problems at the  network and bootloader settings due to unclear instructions Otherwise, the Arch Wiki guide is well-written. I can now set it up in under five minutes.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Improved publishing workflow </title>
         <link>https://evthron.github.io/en/tweet/easier-publish/</link>
         <pubDate>Sat, 30 Mar 2024 21:19:00 +0800</pubDate>
@@ -272,6 +264,14 @@ It&amp;rsquo;s fine to make a copy for long posts, but it&amp;rsquo;s clumsy to 
     &gt;https://ericmurphy.xyz/blog/discoverability/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2024/04/02 18:59&lt;/p&gt;
 &lt;p&gt;Anything that is fun and useless will eventually be blocked by my own hands. It&amp;rsquo;s just a matter of time and frame of mind.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Delusions</title>
+        <link>https://evthron.github.io/en/tweet/delusions/</link>
+        <pubDate>Tue, 19 Mar 2024 20:20:35 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tweet/delusions/</guid>
+        <description>&lt;p&gt;If there are negative delusions that haunt my mind, there must also be positives delusions that push me forward. There&amp;rsquo;s no way that my personal imagination can&amp;rsquo;t beat the socially constructed one. I am a writer after all.&lt;/p&gt;
 </description>
         </item>
         <item>

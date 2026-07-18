@@ -6,7 +6,7 @@
 如果保持順序
 分佈平均
 同一本書不會撞在一起
-time and value the formulae can be borrowed from task warrior .
+time and value the formulae can be borrowed from task warrior.
 assume the value of the content is equally distributed
 let the value of the whole content be v
 each time read n over v
@@ -27,7 +27,7 @@ the time required of the read portion is n over t
 如果保持順序
 分佈平均
 同一本書不會撞在一起
-time and value the formulae can be borrowed from task warrior .
+time and value the formulae can be borrowed from task warrior.
 assume the value of the content is equally distributed
 let the value of the whole content be v
 each time read n over v
@@ -38,13 +38,13 @@ the time required of the read portion is n over t
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/sandbox/%E6%8E%92%E7%A8%8B%E7%AE%97%E6%B3%95/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-07-02T20:00:13&#43;08:00'/><meta property='article:modified_time' content='2026-07-06T00:32:16&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-07-02T20:00:13&#43;08:00'/><meta property='article:modified_time' content='2026-07-18T18:39:21&#43;08:00'/>
 <meta name="twitter:title" content="排程算法">
 <meta name="twitter:description" content="假設閲讀速度恆定
 如果保持順序
 分佈平均
 同一本書不會撞在一起
-time and value the formulae can be borrowed from task warrior .
+time and value the formulae can be borrowed from task warrior.
 assume the value of the content is equally distributed
 let the value of the whole content be v
 each time read n over v
@@ -380,7 +380,7 @@ the time required of the read portion is n over t
 分佈平均<br>
 同一本書不會撞在一起</p>
 <h1 id="time-and-value">time and value</h1>
-<p>the formulae can be borrowed from task warrior .</p>
+<p>the formulae can be borrowed from task warrior.</p>
 <p>assume the value of the content is equally distributed</p>
 <p>let the value of the whole content be v</p>
 <p>each time read n over v</p>
@@ -408,7 +408,7 @@ the time required of the read portion is n over t
 <p>假設每天都會增加新內容，因為這是理想的狀態，應該廣泛接觸新知識</p>
 <p>就好像是一個個槽位一樣，初次重複間隔就是能裝入的數量</p>
 <p>如果重複間隔是1天，複習數量就是簡單的自然數數列</p>
-<p>就算指數級地增加複習間隔，只要每次複習都增加新東西，複習量的增長速度和會是O(logn)，雖然增長很慢，加上常數因子已經是不可以接受的了，而且有時會跳過複習，會累積倍數的複習量</p>
+<p>就算指數級地增加複習間隔，只要每次複習都增加新東西，複習量的增長速度會是O(logn)，雖然增長很慢，加上常數因子已經是不可以接受的了，而且有時會跳過複習，會累積倍數的複習量</p>
 <hr>
 <p>難以避免重複，不需要嚴格倍增，至少增加間隔，只要比理應的間隔大就可以（類倍增）</p>
 <pre tabindex="0"><code>1101000100000001
@@ -436,7 +436,7 @@ the time required of the read portion is n over t
 <p>還是應該從排除機制入手，最大複習次數有上限的話</p>
 <p>知識以常數增長的時候，複習量就會以log(知識量)的速度增長，雖然緩慢但總會累積到不可接受的程度</p>
 <p>有些知識一學會了就能記住，不需要複習，如果想要複習量維持固定，就需要把需要複習的知識轉化為不需要複習的知識，也就是設置複習時間上限，或者把知識增長率停在 log(n)，這樣log(log(n)) 的增長就會很慢。</p>
-<p>關鍵是，需要以多快的速度永久記住，或者排除知識？增加項目的速度應該是常數時間，所以要在複習的時間慢慢降到 log(n)。<br>
+<p>關鍵是，需要以多快的速度永久記住，以多快的速度排除知識？增加項目的速度應該是常數，所以要在複習的時間慢慢降到 log(n)。<br>
 如果排除了的項目都是已經永久記住的話，知識的總增長速度就相當於常數了。</p>
 <p>排除了的東西只會定期隨機抽取回憶，填補空間，不會全部顯示</p>
 <p>樸素的想法是減半，每經過一段時間，複習隊伍都需要減半</p>
@@ -462,7 +462,7 @@ the time required of the read portion is n over t
 interval？<br>
 提取次數？</p>
 <p>不行，要看整體，不能單獨判斷</p>
-<p>需要增加日期</p>
+<p>需要「添加日」</p>
 <p>先用log日數做上限，如果某個日數的複習群超過log n，就要求減到logn</p>
 <p>延遲相當於增加倍數<br>
 週期增加相當於平均攤分分量，同一天加入的能塞進下一個週期</p>
@@ -560,11 +560,81 @@ interval？<br>
 <p>學得太多的代價自然是留存 ，即倍數增加</p>
 <p>幾乎可以肯定只要學過一次，無論過了多久，都能變回第二次學的狀態</p>
 <p>超過的四種解決方法</p>
-<p>超過就超過<br>
-移到下一個能放進的日期再開始<br>
-把舊的去掉<br>
-延長這個的間隔</p>
+<ol>
+<li>超過就超過</li>
+<li>移到下一個能放進的日期再開始</li>
+<li>中斷舊的項目</li>
+<li>延長項目的間隔增長倍數</li>
+</ol>
 <p>總量是固定，有期限的的東西，只要延長時間就能統統學會</p>
+<hr>
+<h2 id="移動到之後再開始">移動到之後再開始</h2>
+<ul>
+<li>就是上面的做法，不可能無限地移動到未來，新增量上限是 log(D)</li>
+</ul>
+<h2 id="中斷">中斷</h2>
+<p>優先中斷最舊的，複習次數最多的。</p>
+<h3 id="允許的複習量等於允許新增量-daily-limit--2n">允許的複習量等於允許新增量 （Daily Limit = 2N）</h3>
+<pre tabindex="0"><code>1101
+01101
+001101
+0001101
+</code></pre><ul>
+<li>中斷第一</li>
+</ul>
+<pre tabindex="0"><code>110
+0110
+00110
+000110
+</code></pre><ul>
+<li>變成 110 的單純循環，每個項目只複習一次</li>
+</ul>
+<h3 id="允許的複習量等於新增量的兩倍daily-limit--3n">允許的複習量等於新增量的兩倍（Daily Limit = 3N）</h3>
+<pre tabindex="0"><code>11010001
+01101000
+00110100
+00011010
+00001101
+00000110
+00000011
+00000001
+</code></pre><ul>
+<li>中斷第一<br>
+變成 11010 的單純循環</li>
+</ul>
+<p>所以不能每天都新增，這個已經知道了。</p>
+<h3 id="允許的複習量等於允許新增量-daily-limit--2n-1">允許的複習量等於允許新增量 （Daily Limit = 2N）</h3>
+<pre tabindex="0"><code>11010001
+011010001
+0011010001
+
+000011010001
+</code></pre><p>Daily Limit 決定了複習次數上限。上限是定死的，這個已經是最單純的情況，所以多就就是多了，沒有辦法繞過。</p>
+<p>怎麼應對一天把一大堆全部加進去的情況呢？如果有些天數沒有新增新的項目，就可以把舊序列的搬過去</p>
+<p>應該是主動選擇最重要的到另外的天數，不重要的就篩選</p>
+<p>同一天內新增的一定要能分出個重要度高低，才能自動調整</p>
+<p>用户想要額外增加的時候才提示需要歸檔以前的東西，應該是最合理的。</p>
+<h2 id="延長間隔">延長間隔</h2>
+<p>不同倍數的序列重疊會發生什麼事</p>
+<p>2^a + X = 3^b<br>
+有多少個解的詭異問題</p>
+<p>感覺解不了。</p>
+<h2 id="緩衝池">緩衝池</h2>
+<p>總會有些日子錯過複習，有緩衝就好。<br>
+本質是把好幾天當一天用。<br>
+但如果連緩衝池也錯過了不是很不好。</p>
+<h2 id="需要的變量">需要的變量</h2>
+<ul>
+<li>緩衝池 - 3 days</li>
+<li>Base interval = multiplier - time box * base interval = next time</li>
+<li>max daily review count</li>
+</ul>
+<p>每次分拆就相當的時候尋找下一個可用的空檔。</p>
+<h2 id="忘記複習怎麼辦">忘記複習怎麼辦</h2>
+<ul>
+<li>當作重置到第二次複習效應，base interval 改變</li>
+</ul>
+<h2 id="尋找下一個可用空檔的算法">尋找下一個可用空檔的算法</h2>
 
     </section>
 
@@ -592,7 +662,7 @@ interval？<br>
 
 
             <span>
-                最後更新 2026-07-06 00:32 &#43;08:00
+                最後更新 2026-07-18 18:39 &#43;08:00
             </span>
         </section></footer>
     
