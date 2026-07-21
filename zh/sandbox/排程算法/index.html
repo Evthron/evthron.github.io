@@ -38,7 +38,7 @@ the time required of the read portion is n over t
 '>
 <meta property='og:url' content='https://evthron.github.io/zh/sandbox/%E6%8E%92%E7%A8%8B%E7%AE%97%E6%B3%95/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-07-02T20:00:13&#43;08:00'/><meta property='article:modified_time' content='2026-07-22T02:39:02&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Sandbox' /><meta property='article:tag' content='maths' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2026-07-02T20:00:13&#43;08:00'/><meta property='article:modified_time' content='2026-07-22T04:15:12&#43;08:00'/>
 <meta name="twitter:title" content="排程算法">
 <meta name="twitter:description" content="假設閲讀速度恆定
 如果保持順序
@@ -650,10 +650,47 @@ interval？<br>
 <h2 id="過期問題">過期問題</h2>
 <p>排程算法差不多就好，大量的過期項目應該怎麼處理才是最麻煩的。</p>
 <p>Intermediate Queue 的目標不是保持記憶，而是保持印象，所以更加寬鬆</p>
+<p>直覺湊出了這個玩意，但應該不是，記錄一下<br>
+$$-\frac{\log\left(\frac{x}{7}+0.01\right)}{4}+0.5 $$</p>
 <p>胡亂猜測的印象遺忘率：7 天削減一半印象</p>
 <p>$$retention = 0.5 ^ \frac{dayPassed}{halvingPeriod} $$</p>
 <p>每次複習，halvingPeriod 就會增加</p>
 <p>$$retention = 0.5 ^ \frac{dayPassed}{basehalvingPeriod \times  reviewCount} $$</p>
+<p>在準確的時間複習，halvingPeriod 就會增加得最多，太早複習的話，halvingPeriod 不會改變多少，錯過複習的話，halvingPeriod 也會接近重置。</p>
+<p>用有最高點的二次方程嗎？</p>
+<p>距離時間<br>
+0 = 不變<br>
+7天 = 乘2<br>
+超過很長時間 = 重置到第二次複習後的狀態 ( x basePeriod x 2 / current Period)<br>
+麻煩，設做 1/ baseperiod 算了，沒什麼道理的。</p>
+<p>y = a + bx + cx^2</p>
+<p>y-intercept = 1, a = 1<br>
+x-intercept，reviewPeriod = 0 是什麼意思？當作重置吧</p>
+<p>0 = 1 + bx +cx^2</p>
+<p>頂點在 (7,2)，</p>
+<p>0 = b + 2cx<br>
+代入 x = 7<br>
+0 = b + 14c<br>
+0 = b + 14c</p>
+<p>2 = 1 + 7b + 49c</p>
+<p>(1/2)^6 = 0.01，當作忘記了<br>
+x-intercept = basePeriod * 6 = 7 * 6 = 42<br>
+0 = 1 + 42b + 1764c</p>
+<p>b = 1/84<br>
+c = -1/1176</p>
+<p>不能同時滿足這麼多條件<br>
+b = 2/7<br>
+c = 1/49</p>
+<p>$$\frac{2}{7}x-\frac{1}{49}x^{2}+1$$</p>
+<p>x-intercept = 16.89949<br>
+2.4 倍就當作忘記</p>
+<p>泛化一下：</p>
+<p>0 = b + 2 * basePeriod c</p>
+<p>multiplier = 1 + basePeriod b + basePeriod^2 c</p>
+<p>basePeriod^2 c = 1 - multiplier</p>
+<p>c = 1-multiplier / basePeriod^2</p>
+<p>b = - 2 ( 1-multiplier / P )</p>
+<p>$$newMultiplier = -\frac{2(1-multiplier)}{basePeriod}x+\frac{1-multiplier}{basePeriod^2}x^{2}+1$$</p>
 
     </section>
 
@@ -681,7 +718,7 @@ interval？<br>
 
 
             <span>
-                最後更新 2026-07-22 02:39 &#43;08:00
+                最後更新 2026-07-22 04:15 &#43;08:00
             </span>
         </section></footer>
     
