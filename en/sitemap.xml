@@ -241,6 +241,19 @@
                 href="https://evthron.github.io/en/code/electron/"
                 />
   </url><url>
+    <loc>https://evthron.github.io/en/code/node/</loc>
+    <lastmod>2025-12-25T14:00:28+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://evthron.github.io/zh/code/node/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://evthron.github.io/en/code/node/"
+                />
+  </url><url>
     <loc>https://evthron.github.io/en/posts/how-many-scales-are-there/</loc>
     <lastmod>2026-07-02T01:32:52+08:00</lastmod>
   </url><url>
