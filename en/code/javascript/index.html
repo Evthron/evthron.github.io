@@ -439,12 +439,23 @@ array.filter( (r) =&gt; r &gt; 3 )</p>
 <h3 id="promise">Promise</h3>
 <p><code>async</code> works exactly like Haskell&rsquo;s do-notaiton, turning chained function call into imperative code.</p>
 <p>Imperative code can be represented as chained function, alternatively, we can make chained functions look like imperative code</p>
-<pre tabindex="0"><code>pdf = await loadingTask
+<pre tabindex="0"><code>result = await loadingTask()
 {...}
-</code></pre><p>is the syntatic sugar of</p>
-<pre tabindex="0"><code>loadingTask.promise.then( (pdf) =&gt; {...} )
-</code></pre><p>all the code after the await statement is actually wrapping in a nested function.</p>
-
+</code></pre><p>is the syntactic sugar of</p>
+<pre tabindex="0"><code>let promise = loadingTask()
+loadingTask.promise.then( (pdf) =&gt; {...} )
+</code></pre><p>All the code after the await statement is actually wrapping in a nested function.</p>
+<hr>
+<p>The example of pdf js still use the old promise syntax, we can translate that to the modern async syntax.</p>
+<p><a class="link" href="https://mozilla.github.io/pdf.js/examples/"  target="_blank" rel="noopener"
+    >https://mozilla.github.io/pdf.js/examples/</a></p>
+<pre tabindex="0"><code>var loadingTask = pdfjsLib.getDocument({ url: &#34;helloworld.pdf&#34; });
+loadingTask.promise.then(function(pdf) {
+  // you can now use *pdf* here
+});
+</code></pre><pre tabindex="0"><code>let pdf = await pdfjsLib.getDocument({ url: &#34;helloworld.pdf&#34; }).promise;
+// you can now use *pdf* here
+</code></pre>
     </section>
 
     

@@ -460,7 +460,18 @@ call _increment function when clicked</p>
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">bubbles</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">composed</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
 </span></span><span style="display:flex;"><span>      })
-</span></span></code></pre></div><h1 id="ts-vs-js">ts vs js</h1>
+</span></span></code></pre></div><p>2026-08-03</p>
+<h1 id="pdf-js">pdf-js</h1>
+<ol>
+<li>lit logic, page number changes, triggers re-rendering</li>
+<li>pdf-js logic , add a lock to prevent simultaneous access to the canvas</li>
+</ol>
+<p>How to achieve lock in lit components ?</p>
+<p>What happens when the updated function is called multiple times ? lit life cycle.</p>
+<p><a class="link" href="https://lit.dev/docs/components/lifecycle/#haschanged"  target="_blank" rel="noopener"
+    >https://lit.dev/docs/components/lifecycle/#haschanged</a></p>
+<p>changed properties</p>
+<h1 id="ts-vs-js">ts vs js</h1>
 <h2 id="typescript">Typescript</h2>
 <p>In typescript lit, decorator can be used</p>
 
