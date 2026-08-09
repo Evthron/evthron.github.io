@@ -22,7 +22,7 @@ Search for current selected text in visual mode y q / p Enter replace with yanke
 '>
 <meta property='og:url' content='https://evthron.github.io/en/code/vim/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2026-06-11T03:26:31&#43;08:00'/><meta property='article:modified_time' content='2026-06-11T03:26:31&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Code' /><meta property='article:published_time' content='2026-06-11T03:35:36&#43;08:00'/><meta property='article:modified_time' content='2026-06-11T03:35:36&#43;08:00'/>
 <meta name="twitter:title" content="vim">
 <meta name="twitter:description" content="Vim keys Useful keys *: Jump to next instance of the word that is on the cursor
 &#39;&#39;: Go back to the last position before jumping around using gg or G
@@ -426,6 +426,43 @@ Search for current selected text in visual mode y q / p Enter replace with yanke
 <h2 id="backupcopy-problem">Backupcopy Problem</h2>
 <p>vim defaults uses <code>backupcopy=auto</code>. It may creates a new file when saving, which makes birthtime equals to time</p>
 <p>set backupcopy=yes to avoid this.</p>
+<h2 id="edit-macro-directly">Edit macro directly</h2>
+<p><a class="link" href="https://vimtricks.wiki/posts/set-macro-with-let-command"  target="_blank" rel="noopener"
+    >https://vimtricks.wiki/posts/set-macro-with-let-command</a></p>
+<p>:let @q = &lsquo;yyp&lt;C-a&gt;&rsquo;</p>
+<p>Vim gives 26 registers and don&rsquo;t let us remember what we&rsquo;ve done. But the more the better.</p>
+<p>2026-08-08</p>
+<h1 id="3-chinese">3. Chinese</h1>
+<p>I usually use b and w for text navigation, since there&rsquo;s no space between chinese words , vim can only jump around clauses instead of individual words</p>
+<p>There is a jieba vim plugin for parsing Chinese words in vim but it is not the real problem. most Chinese words are at most 4 characters long , jumping between clause is actually very effective.</p>
+<p>the real problem is editing, vim treats punctuation as a word, I need to frequently use d2w to delete a clause.</p>
+<p>and now I rethink about it , jumping using b and w is not effective enough, I don&rsquo;t ever need to jump on a comma or a period , they should be deleted together with the clause</p>
+<p>use kana/vim-textobj-user to define custom text object, to let vim know about Chinese punctuation.</p>
+<ul>
+<li>make b and w skip Chinese punctuation end land on words directly.</li>
+<li>delete the Chinese clause under the cursor, including the following punctuation</li>
+<li>delete the Chinese clause under the cursor, including the previous punctuation</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">vim</span>.<span style="color:#a6e22e">cmd</span>([[
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">call</span> <span style="color:#a6e22e">textobj</span>#<span style="color:#a6e22e">user</span>#<span style="color:#a6e22e">plugin</span>(<span style="color:#e6db74">&#39;chinese&#39;</span>, {
+</span></span><span style="display:flex;"><span>  \   <span style="color:#e6db74">&#39;part&#39;</span>: {
+</span></span><span style="display:flex;"><span>  \     <span style="color:#e6db74">&#39;pattern&#39;</span>: <span style="color:#e6db74">&#39;\&lt;.\{-}\([，。！、？：；,.!?;:]\|$\)&#39;</span>,
+</span></span><span style="display:flex;"><span>  \     <span style="color:#e6db74">&#39;select&#39;</span>: [<span style="color:#e6db74">&#39;c&#39;</span>],
+</span></span><span style="display:flex;"><span>  \   },
+</span></span><span style="display:flex;"><span>  \   <span style="color:#e6db74">&#39;previousPart&#39;</span>: {
+</span></span><span style="display:flex;"><span>  \     <span style="color:#e6db74">&#39;pattern&#39;</span>: <span style="color:#e6db74">&#39;\([，。！、？：；,.!?;:]\|^\).\{-}\ze\([，、。！？：.,:!?{}()]\|$\)&#39;</span>,
+</span></span><span style="display:flex;"><span>  \     <span style="color:#e6db74">&#39;select&#39;</span>: [<span style="color:#e6db74">&#39;p&#39;</span>],
+</span></span><span style="display:flex;"><span>  \   },
+</span></span><span style="display:flex;"><span>  \   <span style="color:#e6db74">&#39;cword&#39;</span>: {
+</span></span><span style="display:flex;"><span>  \     <span style="color:#e6db74">&#39;pattern&#39;</span>: <span style="color:#e6db74">&#39;\&lt;.\{-}\([，。！、？：； ,.!?;:()]\|$\)&#39;</span>,
+</span></span><span style="display:flex;"><span>  \     <span style="color:#e6db74">&#39;move-n&#39;</span>: <span style="color:#e6db74">&#39;w&#39;</span>,
+</span></span><span style="display:flex;"><span>  \     <span style="color:#e6db74">&#39;move-p&#39;</span>: <span style="color:#e6db74">&#39;b&#39;</span>,
+</span></span><span style="display:flex;"><span>  \   },
+</span></span><span style="display:flex;"><span>  \ })
+</span></span><span style="display:flex;"><span>]])
+</span></span></code></pre></div><p>define a new object c and p, its used like dc and dp</p>
+<p>only the movement with w and b is changed , editing with them is not affected.</p>
+<p>this even benefits English text editing , no one wants to often jumps on those punctuations.</p>
 
     </section>
 
