@@ -11,8 +11,7 @@
         <link>https://evthron.github.io/zh/tweet/%E4%B8%8A%E7%8F%AD%E5%AD%B8%E6%9C%83%E7%9A%84/</link>
         <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E4%B8%8A%E7%8F%AD%E5%AD%B8%E6%9C%83%E7%9A%84/</guid>
-        <description>&lt;p&gt;2026-08-06&lt;/p&gt;
-&lt;ul&gt;
+        <description>&lt;ul&gt;
 &lt;li&gt;招人寫代碼太花錢了。無論是商業 IDE 許可證、AI API 、收費軟件庫還是收費託管服務，都不會比程序員的薪水本身高。只要是能讓程序員少寫代碼，提高寫代碼效率的，公司眼都不眨一下就會買，絕不造輪子。
 &lt;ul&gt;
 &lt;li&gt;科技大公司想必一定非常豪爽，但員工亂花 token 還是會被叫停。説不定他們燒掉的錢比他們的工資還高，AI 真的太燒錢了，&lt;/li&gt;
@@ -26,8 +25,7 @@
         <link>https://evthron.github.io/zh/tweet/%E5%AF%A6%E7%BF%92%E5%AD%B8%E6%9C%83%E7%9A%84/</link>
         <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%AF%A6%E7%BF%92%E5%AD%B8%E6%9C%83%E7%9A%84/</guid>
-        <description>&lt;p&gt;2026-07-17&lt;/p&gt;
-&lt;h2 id=&#34;工作生活&#34;&gt;工作生活&lt;/h2&gt;
+        <description>&lt;h2 id=&#34;工作生活&#34;&gt;工作生活&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;大學真可怕。沒有薪水、沒有規律的時間表、自己逼自己工作，還有目標不明。&lt;/li&gt;
 &lt;li&gt;換個角度想，能畢業就確保了基礎的工作能力，僱主沒有任何理由聘用大學生以外的人。&lt;/li&gt;
@@ -177,8 +175,7 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <link>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</link>
         <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E4%BC%B0%E5%80%BC%E5%A0%B1%E5%91%8A/</guid>
-        <description>&lt;p&gt;2026-04-26&lt;br&gt;
-用 AI 寫需要蒐集新聞、分析數據和下判斷的報告就是找死。&lt;/p&gt;
+        <description>&lt;p&gt;用 AI 寫需要蒐集新聞、分析數據和下判斷的報告就是找死。&lt;/p&gt;
 &lt;p&gt;海量的新聞根本看不完，而且永遠都是最新的，沒有因為太新所以沒注意的藉口。&lt;/p&gt;
 &lt;p&gt;已經給你整理好數據之後，又怎麼會有動力逐個來源點進去看？弄成引用正確的格式更是奢望。&lt;/p&gt;
 &lt;p&gt;一支股票未來會漲會是跌怎麼説都説得通。聊到天荒地老也搞不清楚。做的一切都只是為看漲還是看跌找理由。&lt;/p&gt;
@@ -315,8 +312,7 @@ $C_{1}^{4} + C_{1}^{4} + \cdots + C_{4}^{4}$，這個是帕斯卡三角形第四
         <link>https://evthron.github.io/zh/tweet/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BA%E6%9C%89%E8%A7%80%E5%BF%B5/</link>
         <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
         <guid>https://evthron.github.io/zh/tweet/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9B%BA%E6%9C%89%E8%A7%80%E5%BF%B5/</guid>
-        <description>&lt;p&gt;2026-03-23&lt;/p&gt;
-&lt;p&gt;根本沒有必要保存創建時間，歷史記錄難道比內容更重要嗎？覺得寫得不好就改掉，URL slug 也換掉，反正死鏈不是致命的問題，想看的人自然會找到的。&lt;/p&gt;
+        <description>&lt;p&gt;根本沒有必要保存創建時間，歷史記錄難道比內容更重要嗎？覺得寫得不好就改掉，URL slug 也換掉，反正死鏈不是致命的問題，想看的人自然會找到的。&lt;/p&gt;
 &lt;p&gt;什麽國際化翻譯也是，就算想用多語言寫作，也不需要每個語言版本一一對應吧？只要分開就可以了。文件系統很難承載這種「多篇文章其實是同一個的不同版本」的結構，徒增多餘的複雜度。&lt;/p&gt;
 &lt;p&gt;說到底RSS的模型沒有版本更新的概念，本來就不適合讓我大刀闊斧地修改內容，只會束手束腳。&lt;/p&gt;
 </description>
