@@ -462,9 +462,11 @@ array.filter( (r) =&gt; r &gt; 3 )</p>
 <h1 id="javascript-object">JavaScript object</h1>
 <h2 id="find-length">Find length</h2>
 <p>object.entries().length ?</p>
-<h2 id="vs-json">vs JSON</h2>
+<h2 id="jobject-vs-json">JObject vs JSON</h2>
 <p>Unlike JSON, in JS, we don&rsquo;t need to wrap object keys in double quotes.</p>
-<h3 id="promise">Promise</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>{ <span style="color:#e6db74">&#34;fruits&#34;</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">3</span> }
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{ <span style="color:#960050;background-color:#1e0010">fruits:</span> <span style="color:#960050;background-color:#1e0010">3</span> }
+</span></span></code></pre></div><h3 id="promise">Promise</h3>
 <p><code>async</code> works exactly like Haskell&rsquo;s do-notaiton, turning chained function call into imperative code.</p>
 <p>Imperative code can be represented as chained function, alternatively, we can make chained functions look like imperative code</p>
 <pre tabindex="0"><code>result = await loadingTask()
