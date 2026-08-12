@@ -6,7 +6,14 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 23 Mar 2026 11:48:41 +0800</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Music</title>
+        <link>https://evthron.github.io/en/tags/music/</link>
+        <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+        <guid>https://evthron.github.io/en/tags/music/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Maths</title>
         <link>https://evthron.github.io/en/tags/maths/</link>
         <pubDate>Mon, 23 Mar 2026 11:48:41 +0800</pubDate>
@@ -25,13 +32,6 @@
         <link>https://evthron.github.io/en/tags/gamification/</link>
         <pubDate>Mon, 23 Mar 2026 10:29:16 +0800</pubDate>
         <guid>https://evthron.github.io/en/tags/gamification/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Music</title>
-        <link>https://evthron.github.io/en/tags/music/</link>
-        <pubDate>Wed, 26 Nov 2025 17:56:54 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tags/music/</guid>
         <description></description>
         </item>
         <item>
