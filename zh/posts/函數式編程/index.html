@@ -18,7 +18,7 @@ fibs = 0 : 1 : zipWith (&#43;) fibs (tail fibs) -- https://wiki.haskell.org/The_
         
         
         
-        <link rel="stylesheet" href="/scss/style.min.d1033f5281a0737428e26e520b1f50bb160cfff791b3bea4fc66ecc6fefa90fd.css"><meta property='og:title' content='函數式編程'>
+        <link rel="stylesheet" href="/scss/style.min.355e1c7b9c40ad6a15d124e7fc81e4103dd4dfcb5e64fa21e5b57460e06087ae.css"><meta property='og:title' content='函數式編程'>
 <meta property='og:description' content='Haskell 是函數式語言，特色是使用遞歸就能一招鮮解決所有問題。但是算法課的老師一般都不會喜歡這种答案，例如計算斐波那契數列：
 fibonacci :: Int -&gt; Int fibonacci 0 = 0 fibonacci 1 = 1 fibonacci x = fibonacci (x-1) &#43; fibonacci (x-2) 看！和數學式子一模一樣簡單。什麼？你説時間複雜度是 O(2^n) ？但 Haskell 的編譯器總有辦法幫我搞定的吧？
 結果沒有，都用不着試很大的數字，fibonacci 40 明顯已經很慢了。明明只是簡單的累加而已。
