@@ -14,7 +14,7 @@
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://evthron.github.io/zh/tweet/'>
 <meta property='og:site_name' content='Evthron&#39;s blog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-08-29T00:23:30&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-09-23T21:07:51&#43;08:00 '/>
 <meta name="twitter:title" content="Tweet">
 <meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="https://evthron.github.io/zh/tweet/index.xml">
             <link rel="shortcut icon" href="/favicon.ico" />
@@ -58,7 +58,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu_b39cfeb929fcf976.png" width="300"
+                        <img src="/img/avatar_hu_24b7584771798fbb.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -304,7 +304,7 @@
     <header class="section-header">
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">57 篇</h3>
+                <h3 class="section-count">58 篇</h3>
                 <h1 class="section-term">Tweet</h1>
                 
             </div>
@@ -312,6 +312,76 @@
     </header>
     
     <section class="article-list">
+        
+            
+<article class="">
+    <div class="article-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                <a href="/zh/tweet/sqlite-anki/">Anki SQLite</a>
+            </h2>
+            
+        </div>
+    
+        
+        
+        
+        <footer class="article-time">
+            
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published">2025-01-06</time>
+                </div>
+            
+    
+        </footer>
+        
+    
+        
+        <div class="article-content">
+            
+            <p>Anki 用的是 SQLite。實戰是好事吧？</p>
+<p>很順利地把卡片資料從資料庫裏讀出來了，只是看代碼的話，比我之前從 csv 檔案裏提取資料的做法還要簡單。但 Anki 的 SQL 沒有文檔，只能靠 table schema 猜裏面是什麼。給了我不少麻煩。接下來的問題是網頁的設計。</p>
+<p>順利完成了。</p>
+<p><a class="link" href="https://evthron.github.io/zh/sandbox/test-vocab/"  target="_blank" rel="noopener"
+    >https://evthron.github.io/zh/sandbox/test-vocab/</a></p>
+<p>參考資料：</p>
+<p>本來想用 aqt 這個 python anki api 的，但好像很麻煩，下面這個指南也好像過時了。我不想讀專門給開發 anki 插件的人看的文檔。</p>
+<p><a class="link" href="https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/"  target="_blank" rel="noopener"
+    >https://juliensobczak.com/write/2020/12/26/anki-scripting-for-non-programmers/</a></p>
+<p>python tutorial</p>
+<p><a class="link" href="https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial"  target="_blank" rel="noopener"
+    >https://docs.python.org/3/library/sqlite3.html#sqlite3-tutorial</a></p>
+<p>這個是前人寫的筆記，已經過時了，還是參考了一下。我寫的代碼也會過時嗎？</p>
+<p><a class="link" href="https://kylerego.github.io/anki-schema#the-notes-table"  target="_blank" rel="noopener"
+    >https://kylerego.github.io/anki-schema#the-notes-table</a></p>
+<p>Anki 用了一個自己寫的排序方法 unicase，比忽略大小寫複雜一點，但 python 的 sqlite 裏面沒有這個排序方法，讓我沒法讀取某些欄目，想自己讀取的話就地自己寫一個換掉。</p>
+<p><a class="link" href="https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/"  target="_blank" rel="noopener"
+    >https://taurit.pl/sqliteexception-no-such-collation-sequence-unicase/</a></p>
+<p><a class="link" href="https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/"  target="_blank" rel="noopener"
+    >https://www.slingacademy.com/article/sqlite-error-unsupported-collation-sequence/</a></p>
+<p>界面設計的靈感，本來想抄代碼的，但發現其實很簡單，根本不用抄。</p>
+<p><a class="link" href="https://marcjenkins.co.uk/bookshelf/"  target="_blank" rel="noopener"
+    >https://marcjenkins.co.uk/bookshelf/</a></p>
+
+        </div>
+    </div>
+
+    
+    
+    
+    <header class="article-header">
+    
+    </header>
+</article>
         
             
 <article class="">
@@ -836,56 +906,6 @@
             <p>我只是想做個能黏在網頁旁邊的選單而已，為什麼會這麼難？就算參考了我自己的網站模板，做出來的還是只能黏一半不黏一半。難道 position: sticky 是個很複雜的玩意嗎？</p>
 <p>2024/06/25 03:44<br>
 問題解決了…… 關鍵是 max-height 要等於 100vh 減 top-padding 減 bottom-padding。</p>
-
-        </div>
-    </div>
-
-    
-    
-    
-    <header class="article-header">
-    
-    </header>
-</article>
-        
-            
-<article class="">
-    <div class="article-details">
-        <div class="article-title-wrapper">
-            <h2 class="article-title">
-                <a href="/zh/tweet/%E6%90%9C%E5%B0%8B%E6%AC%A1%E6%95%B8/">搜尋次數</a>
-            </h2>
-            
-        </div>
-    
-        
-        
-        
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published">2024-07-27</time>
-                </div>
-            
-    
-        </footer>
-        
-    
-        
-        <div class="article-content">
-            
-            <p>亂搜東西算是我最後一個在網上浪費時間的方法了。要怎麼限制搜索次數？難不成還要自己寫個插件嗎？最後的做法是這樣的：瀏覽器打開的時候會有十個搜尋分頁，等於一天有十次搜尋機會。還要把網址欄的搜尋功能取消掉，和讓瀏覽器記住關閉前的分頁。比用計數器自己計算搜尋次數好多了。</p>
-<p>2024/04/07 03:36</p>
-<p>可惜我沒有貫徹這種規則的工具。本來是個好主意的。</p>
 
         </div>
     </div>

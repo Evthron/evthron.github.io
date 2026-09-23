@@ -6,7 +6,14 @@
         <description>Recent content on Evthron&#39;s blog en</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://evthron.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Software</title>
+        <link>https://evthron.github.io/en/tags/software/</link>
+        <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+        <guid>https://evthron.github.io/en/tags/software/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Music</title>
         <link>https://evthron.github.io/en/tags/music/</link>
         <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
@@ -32,13 +39,6 @@
         <link>https://evthron.github.io/en/tags/gamification/</link>
         <pubDate>Mon, 23 Mar 2026 10:29:16 +0800</pubDate>
         <guid>https://evthron.github.io/en/tags/gamification/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Software</title>
-        <link>https://evthron.github.io/en/tags/software/</link>
-        <pubDate>Sun, 04 May 2025 03:48:54 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tags/software/</guid>
         <description></description>
         </item>
         <item>
@@ -70,24 +70,24 @@
         <description></description>
         </item>
         <item>
-        <title>Productivity</title>
-        <link>https://evthron.github.io/en/tags/productivity/</link>
-        <pubDate>Mon, 12 Aug 2024 03:41:28 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tags/productivity/</guid>
+        <title>Images</title>
+        <link>https://evthron.github.io/en/tags/images/</link>
+        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tags/images/</guid>
         <description></description>
         </item>
         <item>
         <title>Web</title>
         <link>https://evthron.github.io/en/tags/web/</link>
-        <pubDate>Mon, 12 Aug 2024 03:41:28 +0800</pubDate>
+        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
         <guid>https://evthron.github.io/en/tags/web/</guid>
         <description></description>
         </item>
         <item>
-        <title>Images</title>
-        <link>https://evthron.github.io/en/tags/images/</link>
-        <pubDate>Sat, 27 Jul 2024 20:21:14 +0800</pubDate>
-        <guid>https://evthron.github.io/en/tags/images/</guid>
+        <title>Frame-of-Mind</title>
+        <link>https://evthron.github.io/en/tags/frame-of-mind/</link>
+        <pubDate>Sat, 27 Jul 2024 19:37:50 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tags/frame-of-mind/</guid>
         <description></description>
         </item>
         <item>
@@ -102,6 +102,13 @@
         <link>https://evthron.github.io/en/tags/science/</link>
         <pubDate>Mon, 29 Jan 2024 05:05:42 +0800</pubDate>
         <guid>https://evthron.github.io/en/tags/science/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Productivity</title>
+        <link>https://evthron.github.io/en/tags/productivity/</link>
+        <pubDate>Mon, 29 Jan 2024 04:14:14 +0800</pubDate>
+        <guid>https://evthron.github.io/en/tags/productivity/</guid>
         <description></description>
         </item>
         <item>
